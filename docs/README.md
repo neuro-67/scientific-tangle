@@ -9,6 +9,7 @@
 | [NLP_PIPELINE.md](./NLP_PIPELINE.md) | Два NLP-пайплайна (ingestion и query), схемы извлечения, оценка качества |
 | [ONTOLOGY.md](./ONTOLOGY.md) | Онтология: типы сущностей, связи, провенанс, индексы, gap-detection |
 | [ROADMAP.md](./ROADMAP.md) | План на ~1.5 дня, роли, фазы, gate-чекпоинты, риски, чеклист сдачи |
+| [backend/AUTH.md](./backend/AUTH.md) | Роли, эндпоинты аутентификации, модель безопасности, сид админа |
 
 ## TL;DR
 

@@ -124,6 +124,31 @@ async def create_order(
 - REST conventions: plural resources (`/orders`), nesting max one level, methods match
   semantics (POST create / GET read / PATCH partial update / DELETE remove).
 
+### API documentation (Swagger / OpenAPI)
+
+Every endpoint MUST be visible in Swagger with just enough context for a frontend developer
+to call it — no more.
+
+- **`summary`** on the decorator: 3–7 words, imperative. `summary="Create user"`, not
+  `"Endpoint to create a new user in the system"`.
+- **`description`** only when the summary is not self-explanatory (auth requirements,
+  side effects, non-obvious behavior). One or two sentences, no marketing prose.
+- **Docstring** on the handler function mirrors the summary — don't repeat it three times.
+- **`tags`** on the router group related use cases: `tags=["auth"]`, `tags=["users"]`.
+- **`response_model`** on every route so the response shape appears in the schema.
+- Enumerate non-2xx outcomes with `responses={...}` only when the frontend needs to switch
+  on them (e.g. 409 conflict, 403 forbidden with envelope). Don't list every possible 500.
+- **`include_in_schema=False`** on internals the client shouldn't see — most notably auth
+  cookies pulled via `Cookie(alias=..., include_in_schema=False)`. Cookies live in
+  `Cookie` headers set by prior calls; they are not user-supplied parameters.
+- **All POST endpoints take a JSON body** — never `Form`, never query params for input.
+  A pydantic DTO from the slice's `schemas.py`, with sensible defaults for dev when they
+  exist (e.g. login → `admin` / `admin` for the seeded dev admin).
+
+Rule of thumb: if a developer opening `/docs` needs to read the source to figure out how
+to call the endpoint, the doc is too sparse. If they skim past the description, it is too
+verbose.
+
 ### `provider.py` — DI wiring
 
 ```python

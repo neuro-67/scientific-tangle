@@ -1,6 +1,7 @@
 """Environment-driven application settings."""
 
 from functools import lru_cache
+from typing import Literal
 
 from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
@@ -64,6 +65,32 @@ class JwtSettings(BaseSettings):
     refresh_ttl_days: int = 14
 
 
+class CookieSettings(BaseSettings):
+    """httpOnly cookie transport for access/refresh JWTs."""
+
+    model_config = SettingsConfigDict(env_prefix="COOKIE_", extra="ignore")
+
+    access_name: str = "st_access"
+    refresh_name: str = "st_refresh"
+    domain: str | None = None
+    secure: bool = False  # flip to True when serving over HTTPS
+    samesite: Literal["lax", "strict", "none"] = "lax"
+    refresh_path: str = "/auth"
+
+
+class CorsSettings(BaseSettings):
+    """CORS whitelist for the SPA frontend."""
+
+    model_config = SettingsConfigDict(env_prefix="CORS_", extra="ignore")
+
+    # Comma-separated in env: `CORS_ALLOW_ORIGINS=http://localhost:5173,http://localhost:3000`
+    allow_origins: str = "http://localhost:5173,http://localhost:3000"
+
+    @property
+    def origins(self) -> list[str]:
+        return [o.strip() for o in self.allow_origins.split(",") if o.strip()]
+
+
 class LlmSettings(BaseSettings):
     """LLM API settings."""
 
@@ -71,6 +98,16 @@ class LlmSettings(BaseSettings):
 
     api_key: str = ""
     model: str = ""
+
+
+class AdminSeedSettings(BaseSettings):
+    """Credentials for the initial admin created by the seed CLI."""
+
+    model_config = SettingsConfigDict(env_prefix="ADMIN_", extra="ignore")
+
+    username: str = "admin"
+    password: str = ""
+    full_name: str = "Platform Administrator"
 
 
 class AppSettings(BaseSettings):
@@ -84,7 +121,10 @@ class AppSettings(BaseSettings):
     qdrant: QdrantSettings = Field(default_factory=QdrantSettings)
     minio: MinioSettings = Field(default_factory=MinioSettings)
     jwt: JwtSettings = Field(default_factory=JwtSettings)
+    cookies: CookieSettings = Field(default_factory=CookieSettings)
+    cors: CorsSettings = Field(default_factory=CorsSettings)
     llm: LlmSettings = Field(default_factory=LlmSettings)
+    admin_seed: AdminSeedSettings = Field(default_factory=AdminSeedSettings)
 
 
 @lru_cache
