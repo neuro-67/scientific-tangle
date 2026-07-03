@@ -2,7 +2,7 @@
 
 from app.domain.exceptions.auth import InactiveUserError, InvalidCredentialsError
 from app.domain.interfaces.password_hasher import IPasswordHasher
-from app.domain.interfaces.token_service import ITokenService, IssuedTokens
+from app.domain.interfaces.token_service import IssuedTokens, ITokenService
 from app.domain.values.password import RawPassword
 from app.features.auth.login.repository import LoginRepository
 from app.features.auth.login.schemas import LoginCommand

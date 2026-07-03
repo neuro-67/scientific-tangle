@@ -22,15 +22,6 @@ def user_to_row(user: User) -> UserRow:
     )
 
 
-def apply_user_to_row(user: User, row: UserRow) -> None:
-    row.username = user.username.value
-    row.hashed_password = user.hashed_password.value
-    row.role = user.role.value
-    row.full_name = user.full_name
-    row.is_active = user.is_active
-    row.updated_at = user.updated_at
-
-
 def row_to_user(row: UserRow) -> User:
     # Data at rest is trusted — bypass Username's length invariant so seeded
     # dev identifiers (e.g. `admin`) reconstruct without raising.

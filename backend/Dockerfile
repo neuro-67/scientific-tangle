@@ -17,7 +17,9 @@ WORKDIR /app
 COPY pyproject.toml ./
 COPY README.md ./
 
-RUN uv pip install --system --no-cache -e .[dev]
+RUN uv pip install --system --no-cache -e . \
+    && uv pip install --system --no-cache \
+        watchfiles ruff mypy pytest pytest-asyncio types-passlib types-python-jose
 
 FROM base AS dev
 COPY . .

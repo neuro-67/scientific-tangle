@@ -1,6 +1,6 @@
 """JWT-backed token service."""
 
-from datetime import timedelta
+from datetime import UTC, datetime, timedelta
 from uuid import UUID, uuid4
 
 from jose import JWTError, jwt
@@ -26,11 +26,9 @@ class JwtTokenService(ITokenService):
         now = now_utc()
         access_exp = now + timedelta(minutes=self._settings.access_ttl_minutes)
         refresh_exp = now + timedelta(days=self._settings.refresh_ttl_days)
-        access = self._encode(subject, role, TokenType.ACCESS, now, access_exp)
-        refresh = self._encode(subject, role, TokenType.REFRESH, now, refresh_exp)
         return IssuedTokens(
-            access=access,
-            refresh=refresh,
+            access=self._encode(subject, role, TokenType.ACCESS, now, access_exp),
+            refresh=self._encode(subject, role, TokenType.REFRESH, now, refresh_exp),
             access_expires_at=access_exp,
             refresh_expires_at=refresh_exp,
         )
@@ -56,8 +54,6 @@ class JwtTokenService(ITokenService):
         if token_type is not expected:
             raise InvalidTokenError(f"expected {expected.value} token")
 
-        from datetime import UTC, datetime
-
         return TokenClaims(
             subject=subject,
             role=role,
@@ -70,15 +66,16 @@ class JwtTokenService(ITokenService):
         subject: UUID,
         role: str,
         token_type: TokenType,
-        issued_at: object,
-        expires_at: object,
+        issued_at: datetime,
+        expires_at: datetime,
     ) -> str:
         payload = {
             "sub": str(subject),
             "role": role,
             "type": token_type.value,
-            "iat": int(issued_at.timestamp()),  # type: ignore[attr-defined]
-            "exp": int(expires_at.timestamp()),  # type: ignore[attr-defined]
+            "iat": int(issued_at.timestamp()),
+            "exp": int(expires_at.timestamp()),
             "jti": str(uuid4()),
         }
-        return jwt.encode(payload, self._settings.secret, algorithm=self._settings.algorithm)
+        encoded = jwt.encode(payload, self._settings.secret, algorithm=self._settings.algorithm)
+        return str(encoded)

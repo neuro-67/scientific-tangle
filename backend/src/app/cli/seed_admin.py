@@ -17,8 +17,12 @@ from __future__ import annotations
 import argparse
 import asyncio
 import sys
+from typing import TYPE_CHECKING
 
 from sqlalchemy import select
+
+if TYPE_CHECKING:
+    from uuid import UUID
 
 from app.domain.clock import now_utc
 from app.domain.entities.user import UserRole
@@ -110,7 +114,7 @@ def _raw_password_unchecked(value: str) -> RawPassword:
     return obj
 
 
-def _new_uuid():
+def _new_uuid() -> UUID:
     from uuid import uuid4
 
     return uuid4()

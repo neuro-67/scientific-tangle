@@ -4,10 +4,13 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from enum import StrEnum
+from typing import TYPE_CHECKING
 
 from app.domain.entities.base import BaseEntity
-from app.domain.values.password import HashedPassword
-from app.domain.values.username import Username
+
+if TYPE_CHECKING:
+    from app.domain.values.password import HashedPassword
+    from app.domain.values.username import Username
 
 
 class UserRole(StrEnum):

@@ -16,4 +16,4 @@ class Argon2PasswordHasher(IPasswordHasher):
         return HashedPassword(self._context.hash(raw.value))
 
     def verify(self, raw: RawPassword, hashed: HashedPassword) -> bool:
-        return self._context.verify(raw.value, hashed.value)
+        return bool(self._context.verify(raw.value, hashed.value))

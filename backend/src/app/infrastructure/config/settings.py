@@ -1,6 +1,7 @@
 """Environment-driven application settings."""
 
 from functools import lru_cache
+from typing import Literal
 
 from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
@@ -73,8 +74,21 @@ class CookieSettings(BaseSettings):
     refresh_name: str = "st_refresh"
     domain: str | None = None
     secure: bool = False  # flip to True when serving over HTTPS
-    samesite: str = "lax"
+    samesite: Literal["lax", "strict", "none"] = "lax"
     refresh_path: str = "/auth"
+
+
+class CorsSettings(BaseSettings):
+    """CORS whitelist for the SPA frontend."""
+
+    model_config = SettingsConfigDict(env_prefix="CORS_", extra="ignore")
+
+    # Comma-separated in env: `CORS_ALLOW_ORIGINS=http://localhost:5173,http://localhost:3000`
+    allow_origins: str = "http://localhost:5173,http://localhost:3000"
+
+    @property
+    def origins(self) -> list[str]:
+        return [o.strip() for o in self.allow_origins.split(",") if o.strip()]
 
 
 class LlmSettings(BaseSettings):
@@ -108,6 +122,7 @@ class AppSettings(BaseSettings):
     minio: MinioSettings = Field(default_factory=MinioSettings)
     jwt: JwtSettings = Field(default_factory=JwtSettings)
     cookies: CookieSettings = Field(default_factory=CookieSettings)
+    cors: CorsSettings = Field(default_factory=CorsSettings)
     llm: LlmSettings = Field(default_factory=LlmSettings)
     admin_seed: AdminSeedSettings = Field(default_factory=AdminSeedSettings)
 

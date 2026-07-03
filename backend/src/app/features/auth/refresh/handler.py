@@ -3,7 +3,7 @@
 from dataclasses import dataclass
 
 from app.domain.exceptions.auth import InactiveUserError, InvalidTokenError
-from app.domain.interfaces.token_service import ITokenService, IssuedTokens, TokenType
+from app.domain.interfaces.token_service import IssuedTokens, ITokenService, TokenType
 from app.features.auth.refresh.repository import RefreshRepository
 
 

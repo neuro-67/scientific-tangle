@@ -1,6 +1,7 @@
 """FastAPI dependencies that resolve the current user + enforce roles."""
 
-from typing import Annotated
+from collections.abc import Callable, Coroutine
+from typing import Annotated, Any
 
 from dishka.integrations.fastapi import FromDishka, inject
 from fastapi import Cookie, Depends
@@ -8,7 +9,7 @@ from fastapi import Cookie, Depends
 from app.domain.entities.user import User, UserRole
 from app.domain.exceptions.auth import InvalidTokenError
 from app.features.shared.auth.service import CurrentUserService
-from app.infrastructure.config.settings import CookieSettings, get_settings
+from app.infrastructure.config.settings import get_settings
 
 
 def _access_cookie_name() -> str:
@@ -31,7 +32,7 @@ async def get_current_user(
 CurrentUser = Annotated[User, Depends(get_current_user)]
 
 
-def require_roles(*allowed: UserRole):
+def require_roles(*allowed: UserRole) -> Callable[..., Coroutine[Any, Any, User]]:
     """Dependency factory: 403 unless the current user has one of the allowed roles."""
 
     @inject
@@ -46,12 +47,3 @@ def require_roles(*allowed: UserRole):
 
 
 require_admin = require_roles(UserRole.ADMIN)
-
-
-__all__ = [
-    "CookieSettings",
-    "CurrentUser",
-    "get_current_user",
-    "require_admin",
-    "require_roles",
-]
