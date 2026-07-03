@@ -51,6 +51,12 @@
     /* Domain semantics — knowledge coverage. */
     --gap: 25 95% 53%; /* knowledge gap highlight (orange) */
     --contradiction: 340 82% 52%; /* contradiction highlight (pink/red) */
+
+    /* Knowledge-graph node types (chain material→process→equipment→result). */
+    --node-material: 190 90% 42%; /* Material (cyan) */
+    --node-process: 250 78% 60%; /* Process (indigo) */
+    --node-equipment: 292 70% 52%; /* Equipment (purple) */
+    --node-result: 142 71% 40%; /* Result (green) */
   }
 
   .dark {
@@ -91,6 +97,11 @@
 
     --gap: 25 95% 60%;
     --contradiction: 340 82% 62%;
+
+    --node-material: 190 85% 55%;
+    --node-process: 250 85% 72%;
+    --node-equipment: 292 75% 68%;
+    --node-result: 142 65% 55%;
   }
 }
 

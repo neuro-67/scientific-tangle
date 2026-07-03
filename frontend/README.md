@@ -9,6 +9,8 @@ React 18 + TypeScript + Vite SPA. Организован по **Feature-Sliced D
 - **React Router** — маршрутизация (`createBrowserRouter`).
 - **TanStack Query** — серверный стейт, кэш, статусы загрузки.
 - **shadcn/ui** + **Tailwind CSS** — UI-кит (см. `src/app/styles/index.css`).
+- **Cytoscape.js** (`react-cytoscapejs`) — подграф знаний на экране ответа
+  (ленивый чанк). Цвета узлов — из токенов `--node-*` в `index.css`.
 - **axios** — общий инстанс с JWT-интерсептором (`@/shared/lib/axios`).
 
 ## Запуск
