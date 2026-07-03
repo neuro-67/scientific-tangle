@@ -45,7 +45,7 @@
                              └───────────┬───────────────┘
                                          │
                              ┌───────────▼───────────┐   ┌──────────────┐
-                             │  MinIO / Object store  │   │  Claude API  │
+                             │  MinIO / Object store  │   │   LLM API    │
                              │  сырые документы       │   │  extract +   │
                              └────────────────────────┘   │  synthesis   │
                                                            └──────────────┘
@@ -65,7 +65,7 @@
 | **Relational DB** | PostgreSQL 16 | Пользователи, роли, аудит, статусы задач, метаданные документов, подписки | Backend |
 | **Cache/Queue** | Redis | Очередь ingestion-задач, кэш ответов и эмбеддингов | Backend |
 | **Object store** | MinIO (S3 API) | Оригиналы документов (PDF/DOCX) | Backend |
-| **LLM** | Claude API (`claude-opus-4-8` / `claude-sonnet-4-6`) | Структурированное извлечение, парсинг запроса, синтез ответов | ML |
+| **LLM** | LLM API with structured output | Структурированное извлечение, парсинг запроса, синтез ответов | ML |
 
 > Всё поднимается одним `docker-compose` (см. `infra/`). Для хакатона MinIO можно заменить локальной ФС, а Qdrant запускать в embedded-режиме — но compose проще и ближе к «развёрнутому решению» для жюри.
 
@@ -81,7 +81,7 @@ Upload → ObjectStore + Postgres(Document, status=queued) → enqueue(Redis)
 2. Language    ru/en детект по чанкам                 (fasttext-langdetect)
 3. Chunk       семантические чанки ~800 токенов, overlap
 4. Extract     LLM structured output по онтологии:
-                 entities[], relations[], measurements[]  (Claude, JSON-schema)
+                 entities[], relations[], measurements[]  (JSON-schema)
 5. Normalize   канонизация терминов и единиц:
                  «electrowinning»→«электроэкстракция», «мг/дм³»→«мг/л»
 6. Resolve     entity resolution: сопоставление с существующими
@@ -144,7 +144,7 @@ NL-запрос
 
 ## 7. Многоязычность и синонимы
 
-- **Извлечение** — Claude обрабатывает RU/EN нативно, извлечение идёт в единую канон. форму.
+- **Извлечение** — LLM обрабатывает RU/EN, извлечение идёт в единую канон. форму.
 - **Controlled vocabulary** — таблица `term_aliases` (Postgres) + справочники из ТЗ: `электроэкстракция ↔ electrowinning`, `ПВП ↔ печь взвешенной плавки ↔ fluidized bed furnace`. Канон. имя — ключ узла в графе.
 - **Эмбеддинги** — мультиязычная модель (`intfloat/multilingual-e5-large` или `BAAI/bge-m3`), поэтому запрос на русском находит англоязычные чанки.
 
@@ -190,7 +190,7 @@ NL-запрос
 
 | Возможность | MVP (демо жюри) | Production (в докладе как roadmap) |
 |---|---|---|
-| Извлечение | LLM structured output (Claude) | + дообученный ruBERT/spaCy NER для дешёвого потока |
+| Извлечение | LLM structured output | + дообученный ruBERT/spaCy NER для дешёвого потока |
 | Поиск | Vector + Cypher + числовые фильтры | + cross-encoder реранк, обучаемый |
 | Граф | Neo4j, провенанс, версии | + SHACL-валидация, полный OWL |
 | RBAC | JWT + 5 ролей, sensitivity-флаг | + SSO/LDAP, шифрование конфиденциальных полей |

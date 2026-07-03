@@ -1,6 +1,6 @@
 # NLP-пайплайн «Научный клубок»
 
-Два пайплайна: **Ingestion** (документ → граф, offline) и **Query** (вопрос → структурированные фильтры, online). Оба используют Claude structured output как рабочую лошадку MVP; ruBERT/spaCy — production-путь для удешевления потока.
+Два пайплайна: **Ingestion** (документ → граф, offline) и **Query** (вопрос → структурированные фильтры, online). Оба используют LLM structured output как рабочую лошадку MVP; ruBERT/spaCy — production-путь для удешевления потока.
 
 ---
 
@@ -23,8 +23,8 @@
 - Семантические чанки ~800 токенов, overlap ~120. Таблицы — отдельными чанками целиком (не рвать).
 - Каждый чанк: `{doc_id, page, offset, lang, text}`.
 
-### [4] Extraction — сердце пайплайна (Claude structured output)
-Один вызов на чанк с JSON-схемой по онтологии. Модель: `claude-sonnet-4-6` для потока, `claude-opus-4-8` для сложных/табличных чанков.
+### [4] Extraction — сердце пайплайна (LLM structured output)
+Один вызов на чанк с JSON-схемой по онтологии. Для потока используется быстрая LLM-модель, для сложных/табличных чанков — более качественная.
 
 Целевая схема ответа:
 ```json
@@ -85,7 +85,7 @@
 → [4] Assemble → [5] Synthesize → [6] Subgraph → [7] Audit
 ```
 
-### [1] Query Parsing → QuerySpec (Claude structured output)
+### [1] Query Parsing → QuerySpec (LLM structured output)
 Вопрос на естественном языке → структура фильтров:
 ```json
 {
@@ -117,7 +117,7 @@
 - Собираем: факты графа (с провенансом) + подтверждающие чанки + метаданные источников.
 - Группируем по методу/году/географии для intent=review.
 
-### [5] Synthesize (Claude `claude-opus-4-8`)
+### [5] Synthesize (LLM structured output)
 Структурированный ответ:
 ```json
 {

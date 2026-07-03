@@ -14,7 +14,7 @@
 
 - **Паттерн:** GraphRAG — NLP-извлечение → граф знаний (Neo4j) + векторы (Qdrant) → гибридный поиск → синтез ответа с цитатами.
 - **Backend:** FastAPI + Postgres + Redis + arq. **Frontend:** React/TS + Cytoscape.
-- **NLP (MVP):** Claude structured output для извлечения и синтеза; ruBERT/spaCy — production-путь.
+- **NLP (MVP):** LLM structured output для извлечения и синтеза; ruBERT/spaCy — production-путь.
 - **Развёртывание:** один `docker compose up`.
 
 ## Структура монорепо

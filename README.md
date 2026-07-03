@@ -13,7 +13,7 @@
 ## Быстрый старт (план)
 
 ```bash
-cp infra/.env.example infra/.env   # прописать CLAUDE_API_KEY
+cp infra/.env.example infra/.env   # прописать LLM_API_KEY
 docker compose -f infra/docker-compose.yml up -d
 make seed        # сид пользователей и справочников
 make ingest      # прогон корпуса из data/
@@ -22,7 +22,7 @@ make ingest      # прогон корпуса из data/
 
 ## Стек
 
-FastAPI · React/TypeScript · Neo4j · Qdrant · PostgreSQL · Redis · Claude API · Docker Compose.
+FastAPI · React/TypeScript · Neo4j · Qdrant · PostgreSQL · Redis · LLM API · Docker Compose.
 
 ## Команда
 
