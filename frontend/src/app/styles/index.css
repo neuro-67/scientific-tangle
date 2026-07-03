@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Design tokens. Components must reference these via Tailwind color names
+ * (see tailwind.config.ts) — never hardcode literal colors like text-red-500.
+ * Each variable documents its purpose below.
+ */
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* page background */
+    --foreground: 222.2 84% 4.9%; /* default text */
+
+    --card: 0 0% 100%; /* card surface */
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%; /* dropdown/popover surface */
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%; /* primary actions, brand */
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%; /* secondary surfaces/buttons */
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%; /* muted backgrounds */
+    --muted-foreground: 215.4 16.3% 46.9%; /* secondary/hint text */
+
+    --accent: 210 40% 96.1%; /* hover/active accents */
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%; /* errors, destructive actions */
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%; /* borders, dividers */
+    --input: 214.3 31.8% 91.4%; /* form control borders */
+    --ring: 222.2 84% 4.9%; /* focus ring */
+
+    --radius: 0.5rem;
+
+    /* Domain semantics — answer/fact confidence level. */
+    --confidence-high: 142 71% 40%; /* high confidence (green) */
+    --confidence-medium: 38 92% 48%; /* medium confidence (amber) */
+    --confidence-low: 0 72% 51%; /* low confidence (red) */
+
+    /* Domain semantics — source geography. */
+    --geo-ru: 221 83% 53%; /* Russian sources (blue) */
+    --geo-foreign: 262 83% 58%; /* foreign sources (violet) */
+
+    /* Domain semantics — knowledge coverage. */
+    --gap: 25 95% 53%; /* knowledge gap highlight (orange) */
+    --contradiction: 340 82% 52%; /* contradiction highlight (pink/red) */
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+
+    --confidence-high: 142 65% 45%;
+    --confidence-medium: 38 92% 55%;
+    --confidence-low: 0 72% 58%;
+
+    --geo-ru: 217 91% 65%;
+    --geo-foreign: 262 83% 68%;
+
+    --gap: 25 95% 60%;
+    --contradiction: 340 82% 62%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
+  }
+}

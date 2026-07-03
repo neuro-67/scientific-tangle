@@ -36,7 +36,7 @@
 - [ ] **Все:** структура монорепо (`backend/ frontend/ nlp/ infra/ data/`), `docker-compose.yml` поднимает neo4j+qdrant+postgres+redis+minio. **Это критический путь — блокирует всех.**
 - [ ] **FS-1:** FastAPI-скелет, `/health`, pydantic-settings, `.env.example`, подключение к Neo4j/Qdrant/PG.
 - [ ] **ML-1+ML-2:** согласовать **контракты** — JSON-схему extraction и QuerySpec (см. NLP_PIPELINE.md). Это интерфейс между ними и Backend.
-- [ ] **FS-2:** Vite+React+TS скелет, роутинг, layout, TanStack Query, заглушка API-клиента.
+- [x] **FS-2:** Vite+React+TS скелет, роутинг, layout, TanStack Query, заглушка API-клиента.
 - [ ] **Все:** зафиксировать онтологию (labels/связи) из ONTOLOGY.md — общий контракт графа.
 
 **Gate дня 1:** compose поднимается, схемы извлечения/запроса зафиксированы, фронт и бэк «видят» друг друга через мок-эндпоинт.
