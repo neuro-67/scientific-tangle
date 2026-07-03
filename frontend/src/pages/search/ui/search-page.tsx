@@ -2,6 +2,12 @@ import { Search } from "lucide-react";
 import { type FormEvent, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+import {
+  emptyQueryFilters,
+  filtersToRequest,
+  requestToSearchParams,
+  type QueryFilters,
+} from "@/entities/query";
 import { ROUTES } from "@/shared/constants";
 import {
   Button,
@@ -10,8 +16,10 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-  Input,
+  Textarea,
 } from "@/shared/ui";
+
+import { SearchFilters } from "./search-filters";
 
 const EXAMPLE_QUESTIONS = [
   "При каких параметрах эффективно обессоливание пластовых вод?",
@@ -19,20 +27,23 @@ const EXAMPLE_QUESTIONS = [
   "Сравни отечественную и зарубежную практику извлечения Au/Ag/МПГ",
 ];
 
-/** Landing / search screen: enter a natural-language question. */
+/** Search screen: natural-language question + structured filter panel. */
 export function SearchPage() {
   const navigate = useNavigate();
-  const [question, setQuestion] = useState("");
+  const [filters, setFilters] = useState<QueryFilters>(emptyQueryFilters);
 
-  const submit = (value: string) => {
-    const trimmed = value.trim();
-    if (!trimmed) return;
-    navigate(`${ROUTES.answer}?q=${encodeURIComponent(trimmed)}`);
+  const patch = (next: Partial<QueryFilters>) =>
+    setFilters((prev) => ({ ...prev, ...next }));
+
+  const runSearch = (current: QueryFilters) => {
+    if (!current.question.trim()) return;
+    const params = requestToSearchParams(filtersToRequest(current));
+    navigate(`${ROUTES.answer}?${params.toString()}`);
   };
 
   const onSubmit = (e: FormEvent) => {
     e.preventDefault();
-    submit(question);
+    runSearch(filters);
   };
 
   return (
@@ -46,14 +57,15 @@ export function SearchPage() {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <form onSubmit={onSubmit} className="flex gap-2">
-            <Input
-              value={question}
-              onChange={(e) => setQuestion(e.target.value)}
-              placeholder="Например: параметры обессоливания воды…"
+          <form onSubmit={onSubmit} className="flex flex-col gap-4">
+            <Textarea
+              value={filters.question}
+              onChange={(e) => patch({ question: e.target.value })}
+              placeholder="Например: при каких параметрах эффективно обессоливание воды?"
               autoFocus
             />
-            <Button type="submit">
+            <SearchFilters filters={filters} onChange={patch} />
+            <Button type="submit" className="self-end">
               <Search />
               Найти
             </Button>
@@ -67,8 +79,8 @@ export function SearchPage() {
           <Button
             key={q}
             variant="outline"
-            className="justify-start text-left"
-            onClick={() => submit(q)}
+            className="h-auto justify-start whitespace-normal py-2 text-left"
+            onClick={() => runSearch({ ...emptyQueryFilters(), question: q })}
           >
             {q}
           </Button>

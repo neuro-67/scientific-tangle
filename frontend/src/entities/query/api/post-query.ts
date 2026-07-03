@@ -1,13 +1,17 @@
 import { API } from "@/shared/lib/axios";
-import type { Geography } from "@/shared/types";
+import type { ConfidenceLevel, Geography } from "@/shared/types";
 
 import type { QueryAnswer } from "../model/query.types";
 
 export type Req = {
   question: string;
+  materials?: string[];
+  processes?: string[];
   geography?: Geography;
   year_from?: number;
   year_to?: number;
+  /** Minimum confidence level of returned sources. */
+  confidence?: ConfidenceLevel;
 };
 
 type Res = QueryAnswer;

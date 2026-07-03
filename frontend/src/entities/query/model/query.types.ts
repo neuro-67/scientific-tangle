@@ -16,6 +16,18 @@ export type NumericConstraint = {
   unit?: string;
 };
 
+/** Filter form state on the search screen (before it becomes a request). */
+export type QueryFilters = {
+  question: string;
+  materials: string[];
+  processes: string[];
+  geography: Geography;
+  yearFrom: number | null;
+  yearTo: number | null;
+  /** Minimum confidence level of returned sources; "any" = no filter. */
+  confidence: ConfidenceLevel | "any";
+};
+
 /** Structured filters parsed from the natural-language question. */
 export type QuerySpec = {
   intent: QueryIntent;

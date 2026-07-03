@@ -1,10 +1,11 @@
 import { useQuery } from "@tanstack/react-query";
 import { ArrowLeft } from "lucide-react";
+import { useMemo } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 
-import { queryApi } from "@/entities/query";
-import { handleApiError } from "@/shared/lib/api-error";
+import { queryApi, searchParamsToRequest } from "@/entities/query";
 import { ROUTES } from "@/shared/constants";
+import { handleApiError } from "@/shared/lib/api-error";
 import {
   Badge,
   Button,
@@ -21,9 +22,13 @@ import { SourceCard } from "./source-card";
 /** Answer screen: renders the cited, structured answer for a question. */
 export function AnswerPage() {
   const [searchParams] = useSearchParams();
-  const question = searchParams.get("q") ?? "";
+  const request = useMemo(
+    () => searchParamsToRequest(searchParams),
+    [searchParams]
+  );
 
-  const answerQuery = useQuery(queryApi.queries.ask({ question }));
+  const answerQuery = useQuery(queryApi.queries.ask(request));
+  const data = answerQuery.data;
 
   return (
     <div className="mx-auto flex max-w-3xl flex-col gap-6">
@@ -34,10 +39,12 @@ export function AnswerPage() {
             Новый поиск
           </Link>
         </Button>
-        <h1 className="text-xl font-semibold">{question || "Вопрос не задан"}</h1>
+        <h1 className="text-xl font-semibold">
+          {request.question || "Вопрос не задан"}
+        </h1>
       </div>
 
-      {answerQuery.isPending && question ? <AnswerSkeleton /> : null}
+      {answerQuery.isPending && request.question ? <AnswerSkeleton /> : null}
 
       {answerQuery.isError ? (
         <Card>
@@ -50,21 +57,57 @@ export function AnswerPage() {
         </Card>
       ) : null}
 
-      {answerQuery.data ? (
+      {data ? (
         <div className="flex flex-col gap-6">
           <Card>
-            <CardHeader className="flex-row items-center justify-between">
+            <CardHeader className="flex-row items-center justify-between space-y-0">
               <CardTitle>Ответ</CardTitle>
-              <Badge variant={confidenceVariant(answerQuery.data.confidence)}>
-                {confidenceLabel(answerQuery.data.confidence)}
+              <Badge variant={confidenceVariant(data.confidence)}>
+                {confidenceLabel(data.confidence)}
               </Badge>
             </CardHeader>
             <CardContent className="whitespace-pre-wrap leading-relaxed">
-              {answerQuery.data.answer}
+              {data.answer}
             </CardContent>
           </Card>
 
-          {answerQuery.data.gaps.length > 0 ? (
+          {data.consensus.length > 0 ? (
+            <Card>
+              <CardHeader>
+                <CardTitle>Консенсус</CardTitle>
+              </CardHeader>
+              <CardContent className="flex flex-col gap-1 text-sm">
+                {data.consensus.map((point) => (
+                  <span key={point}>— {point}</span>
+                ))}
+              </CardContent>
+            </Card>
+          ) : null}
+
+          {data.disagreements.length > 0 ? (
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  Противоречия
+                  <Badge variant="contradiction">
+                    {data.disagreements.length}
+                  </Badge>
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="flex flex-col gap-3 text-sm">
+                {data.disagreements.map((d) => (
+                  <div key={d.point} className="flex flex-col gap-1">
+                    <span className="font-medium">{d.point}</span>
+                    <span className="text-muted-foreground">
+                      {d.sources_a.join(", ")} ↔ {d.sources_b.join(", ")}
+                    </span>
+                  </div>
+                ))}
+              </CardContent>
+            </Card>
+          ) : null}
+
+          {data.gaps.length > 0 ? (
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
@@ -72,24 +115,43 @@ export function AnswerPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="flex flex-col gap-1 text-sm">
-                {answerQuery.data.gaps.map((gap) => (
+                {data.gaps.map((gap) => (
                   <span key={gap}>— {gap}</span>
                 ))}
               </CardContent>
             </Card>
           ) : null}
 
-          {answerQuery.data.sources.length > 0 ? (
+          {data.sources.length > 0 ? (
             <section className="flex flex-col gap-3">
               <h2 className="text-sm font-medium text-muted-foreground">
                 Источники
               </h2>
               <div className="grid gap-3 sm:grid-cols-2">
-                {answerQuery.data.sources.map((source, i) => (
+                {data.sources.map((source, i) => (
                   <SourceCard key={`${source.title}-${i}`} source={source} />
                 ))}
               </div>
             </section>
+          ) : null}
+
+          {data.experts.length > 0 ? (
+            <Card>
+              <CardHeader>
+                <CardTitle>Эксперты</CardTitle>
+              </CardHeader>
+              <CardContent className="flex flex-col gap-1 text-sm">
+                {data.experts.map((expert) => (
+                  <span key={expert.name}>
+                    {expert.name}
+                    <span className="text-muted-foreground">
+                      {" "}
+                      — {expert.affiliation}
+                    </span>
+                  </span>
+                ))}
+              </CardContent>
+            </Card>
           ) : null}
         </div>
       ) : null}
