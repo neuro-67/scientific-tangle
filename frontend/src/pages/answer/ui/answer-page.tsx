@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import { ArrowLeft } from "lucide-react";
-import { useMemo } from "react";
+import { lazy, Suspense, useMemo } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 
 import { queryApi, searchParamsToRequest } from "@/entities/query";
@@ -13,11 +13,17 @@ import {
   CardContent,
   CardHeader,
   CardTitle,
+  Skeleton,
 } from "@/shared/ui";
 
 import { confidenceLabel, confidenceVariant } from "../lib/confidence";
 import { AnswerSkeleton } from "./answer-skeleton";
 import { SourceCard } from "./source-card";
+
+// Cytoscape is heavy; load it only when an answer with a subgraph is shown.
+const SubgraphView = lazy(() =>
+  import("./subgraph-view").then((m) => ({ default: m.SubgraphView }))
+);
 
 /** Answer screen: renders the cited, structured answer for a question. */
 export function AnswerPage() {
@@ -70,6 +76,19 @@ export function AnswerPage() {
               {data.answer}
             </CardContent>
           </Card>
+
+          {data.subgraph.nodes.length > 0 ? (
+            <Card>
+              <CardHeader>
+                <CardTitle>Подграф знаний</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <Suspense fallback={<Skeleton className="h-80 w-full" />}>
+                  <SubgraphView subgraph={data.subgraph} />
+                </Suspense>
+              </CardContent>
+            </Card>
+          ) : null}
 
           {data.consensus.length > 0 ? (
             <Card>

@@ -61,6 +61,13 @@ const config: Config = {
         // Domain semantics — knowledge-graph gaps and contradictions.
         gap: "hsl(var(--gap))",
         contradiction: "hsl(var(--contradiction))",
+        // Knowledge-graph node types (subgraph visualization).
+        node: {
+          material: "hsl(var(--node-material))",
+          process: "hsl(var(--node-process))",
+          equipment: "hsl(var(--node-equipment))",
+          result: "hsl(var(--node-result))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
