@@ -52,6 +52,17 @@ class MinioSettings(BaseSettings):
     root_user: str = "minioadmin"
     root_password: str = "minioadmin"
     secure: bool = False
+    documents_bucket: str = "documents"
+
+
+class RedisSettings(BaseSettings):
+    """Redis connection settings (backing the arq job queue)."""
+
+    model_config = SettingsConfigDict(env_prefix="REDIS_", extra="ignore")
+
+    host: str = "redis"
+    port: int = 6379
+    database: int = 0
 
 
 class JwtSettings(BaseSettings):
@@ -120,6 +131,7 @@ class AppSettings(BaseSettings):
     neo4j: Neo4jSettings = Field(default_factory=Neo4jSettings)
     qdrant: QdrantSettings = Field(default_factory=QdrantSettings)
     minio: MinioSettings = Field(default_factory=MinioSettings)
+    redis: RedisSettings = Field(default_factory=RedisSettings)
     jwt: JwtSettings = Field(default_factory=JwtSettings)
     cookies: CookieSettings = Field(default_factory=CookieSettings)
     cors: CorsSettings = Field(default_factory=CorsSettings)

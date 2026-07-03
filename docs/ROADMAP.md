@@ -49,7 +49,7 @@
 ### Backend (FS-1)
 - [ ] Модели Postgres: `users, roles, documents, jobs, audit_log, term_aliases` + Alembic.
 - [ ] Auth: JWT + argon2, сид-пользователи по 5 ролям.
-- [ ] `POST /documents` (upload → MinIO → job в arq), `GET /documents/{id}` статус.
+- [x] `POST /documents` (upload → MinIO → job в arq), `GET /documents/{id}` статус.
 - [ ] `POST /query` — оркестратор: вызывает retrieval (ML-2) → synthesis → ответ+аудит.
 
 ### Ingestion (ML-1)

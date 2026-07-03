@@ -1,5 +1,6 @@
 """FastAPI application entrypoint. Consumes only the composition registry."""
 
+import asyncio
 from collections.abc import AsyncIterator
 from contextlib import asynccontextmanager
 
@@ -7,25 +8,33 @@ from dishka import make_async_container
 from dishka.integrations.fastapi import setup_dishka
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from minio import Minio
 from sqlalchemy.ext.asyncio import AsyncEngine
 
 from app.features.registry.providers import PROVIDERS
 from app.features.registry.routers import ROUTERS
 from app.infrastructure.config.settings import get_settings
 from app.infrastructure.database.bootstrap import create_all
+from app.infrastructure.database.mapping import run_mappers
 from app.infrastructure.errors.handlers import register_exception_handlers
 from app.infrastructure.logging import configure_logging
+from app.infrastructure.minio.client import MinioObjectStorage
 
 
 def create_app() -> FastAPI:
     """Build the FastAPI application from the composition registry."""
     configure_logging()
+    run_mappers()
+
     container = make_async_container(*PROVIDERS)
 
     @asynccontextmanager
     async def lifespan(_: FastAPI) -> AsyncIterator[None]:
         engine = await container.get(AsyncEngine)
         await create_all(engine)
+        client = await container.get(Minio)
+        bucket = get_settings().minio.documents_bucket
+        await asyncio.to_thread(MinioObjectStorage(client, bucket).ensure_bucket)
         yield
         await container.close()
 

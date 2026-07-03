@@ -1,5 +1,7 @@
 """Central mapping from domain / framework exceptions to the ErrorResponse envelope."""
 
+import logging
+
 from fastapi import FastAPI, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
@@ -13,8 +15,12 @@ from app.domain.exceptions.auth import (
     InvalidUsernameError,
     WeakPasswordError,
 )
+from app.domain.exceptions.base import InfrastructureError
+from app.domain.exceptions.document import DocumentNotFoundError, DocumentStateError
 from app.domain.exceptions.user import UserAlreadyExistsError, UserNotFoundError
 from app.infrastructure.errors.schemas import ErrorResponse
+
+logger = logging.getLogger(__name__)
 
 
 def _envelope(status: int, message: str, detail: list[str] | None = None) -> JSONResponse:
@@ -51,6 +57,19 @@ def register_exception_handlers(app: FastAPI) -> None:
     @app.exception_handler(UserNotFoundError)
     async def _not_found(_: Request, exc: UserNotFoundError) -> JSONResponse:
         return _envelope(404, "user_not_found")
+
+    @app.exception_handler(DocumentNotFoundError)
+    async def _doc_not_found(_: Request, exc: DocumentNotFoundError) -> JSONResponse:
+        return _envelope(404, "document_not_found")
+
+    @app.exception_handler(DocumentStateError)
+    async def _doc_state(_: Request, exc: DocumentStateError) -> JSONResponse:
+        return _envelope(409, "document_invalid_state", _detail_or_none(exc))
+
+    @app.exception_handler(InfrastructureError)
+    async def _infra(_: Request, exc: InfrastructureError) -> JSONResponse:
+        logger.error("infrastructure error", exc_info=exc)
+        return _envelope(502, "upstream_unavailable")
 
     @app.exception_handler(InvalidUsernameError)
     async def _bad_username(_: Request, exc: InvalidUsernameError) -> JSONResponse:
