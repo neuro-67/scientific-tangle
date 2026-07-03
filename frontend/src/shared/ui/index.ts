@@ -1,5 +1,15 @@
 export { Button, buttonVariants } from "./button";
 export { Input } from "./input";
+export { Textarea } from "./textarea";
+export { Label } from "./label";
+export {
+  Select,
+  SelectValue,
+  SelectTrigger,
+  SelectContent,
+  SelectItem,
+} from "./select";
+export { TagInput } from "./tag-input";
 export {
   Card,
   CardHeader,
