@@ -9,10 +9,14 @@ from app.features.health.check.schemas import HealthCheckQuery, HealthCheckRespo
 router = APIRouter(tags=["health"])
 
 
-@router.get("/health", response_model=HealthCheckResponse, status_code=status.HTTP_200_OK)
+@router.get(
+    "/health",
+    response_model=HealthCheckResponse,
+    status_code=status.HTTP_200_OK,
+    summary="Liveness probe",
+)
 @inject
 async def health_check(
     handler: FromDishka[HealthCheckHandler],
 ) -> HealthCheckResponse:
-    """Report backend liveness."""
     return await handler(HealthCheckQuery())

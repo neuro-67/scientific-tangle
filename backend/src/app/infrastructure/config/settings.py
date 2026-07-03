@@ -64,6 +64,19 @@ class JwtSettings(BaseSettings):
     refresh_ttl_days: int = 14
 
 
+class CookieSettings(BaseSettings):
+    """httpOnly cookie transport for access/refresh JWTs."""
+
+    model_config = SettingsConfigDict(env_prefix="COOKIE_", extra="ignore")
+
+    access_name: str = "st_access"
+    refresh_name: str = "st_refresh"
+    domain: str | None = None
+    secure: bool = False  # flip to True when serving over HTTPS
+    samesite: str = "lax"
+    refresh_path: str = "/auth"
+
+
 class LlmSettings(BaseSettings):
     """LLM API settings."""
 
@@ -71,6 +84,16 @@ class LlmSettings(BaseSettings):
 
     api_key: str = ""
     model: str = ""
+
+
+class AdminSeedSettings(BaseSettings):
+    """Credentials for the initial admin created by the seed CLI."""
+
+    model_config = SettingsConfigDict(env_prefix="ADMIN_", extra="ignore")
+
+    username: str = "admin"
+    password: str = ""
+    full_name: str = "Platform Administrator"
 
 
 class AppSettings(BaseSettings):
@@ -84,7 +107,9 @@ class AppSettings(BaseSettings):
     qdrant: QdrantSettings = Field(default_factory=QdrantSettings)
     minio: MinioSettings = Field(default_factory=MinioSettings)
     jwt: JwtSettings = Field(default_factory=JwtSettings)
+    cookies: CookieSettings = Field(default_factory=CookieSettings)
     llm: LlmSettings = Field(default_factory=LlmSettings)
+    admin_seed: AdminSeedSettings = Field(default_factory=AdminSeedSettings)
 
 
 @lru_cache

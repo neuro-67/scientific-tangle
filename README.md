@@ -1,4 +1,4 @@
-# Научный клубок 
+# Научный клубок
 
 Единая карта знаний R&D для горно-металлургической отрасли. Связывает публикации, эксперименты, технологические решения, материалы, оборудование, экспертов и выводы в один граф знаний и отвечает на сложные многопараметрические запросы на естественном языке — с цитатами, уровнем достоверности, различением отечественной/зарубежной практики и подсветкой пробелов.
 
@@ -8,21 +8,28 @@
 
 ## Документация
 
-Начните с [`docs/README.md`](./docs/README.md): архитектура, стек, NLP-пайплайн, онтология, roadmap.
+Подробности — в [`docs/`](./docs/README.md): архитектура, стек, NLP-пайплайн, онтология, roadmap, авторизация/роли ([`docs/backend/AUTH.md`](./docs/backend/AUTH.md)).
 
-## Быстрый старт (план)
+> **Агентам:** прежде чем менять код, читайте `docs/` — там нормативные документы (архитектура, code style, доменные модели). README — только верхнеуровневый обзор.
+
+## Быстрый старт
 
 ```bash
-cp infra/.env.example infra/.env   # прописать LLM_API_KEY
-docker compose -f infra/docker-compose.yml up -d
-make seed        # сид пользователей и справочников
-make ingest      # прогон корпуса из data/
-# frontend: http://localhost:5173
+cp .env.example .env                    # прописать LLM_API_KEY, JWT_SECRET и т.д.
+docker compose up -d --build            # инфра + бекенд
+
+# сид локального админа (dev-креды admin / admin)
+docker compose exec backend python -m app.cli.seed_admin --username admin --password admin --reset-password
+
+# API:      http://localhost:8000/docs
+# frontend: http://localhost:5173 (запускается отдельно)
 ```
+
+Полный список флагов сид-команды и модель ролей — в [`docs/backend/AUTH.md`](./docs/backend/AUTH.md).
 
 ## Стек
 
-FastAPI · React/TypeScript · Neo4j · Qdrant · PostgreSQL · Redis · LLM API · Docker Compose.
+FastAPI · React/TypeScript · Neo4j · Qdrant · PostgreSQL · MinIO · LLM API · Docker Compose.
 
 ## Команда
 
