@@ -1,0 +1,649 @@
+{
+  "document": "pdftest.pdf",
+  "nodes": [
+    {
+      "id": "Мария Луканина",
+      "label": "Expert",
+      "properties": {
+        "affiliation": "Институт Гипроникель"
+      }
+    },
+    {
+      "id": "CFD",
+      "label": "Process",
+      "properties": {
+        "description": "Вычислительная гидродинамика, основана на решении уравнений движения и теплопереноса в жидкостях, газах и твёрдых телах"
+      }
+    },
+    {
+      "id": "моделирование течения газового пространства печи",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "моделирование течения расплава и кислородно-воздушной смеси",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "печь Ванюкова",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "застойные зоны",
+      "label": "Finding",
+      "properties": {}
+    },
+    {
+      "id": "условия исключения работы печи под давлением",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "расплав",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "кислородно-воздушная смесь",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "геометрическая модель",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "расчётная модель",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "обработка результатов",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "современная вычислительная техника",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "Институт Гипроникель",
+      "label": "Facility",
+      "properties": {}
+    },
+    {
+      "id": "моделирование_течения_расплава_в_печи_Ванюкова",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "расплав",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "кислородно-воздушная_смесь",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "фурмы",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "моделирование_течения_в_шлаковом_и_штейновом_сифонах",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "настыль",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "теплопотери",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "охлаждающие_кессоны",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "моделирование_узла_выдачи_расплава_базальта",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "расплав_базальта",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "газ",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "фидер",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "моделирование_перемешивания_пульпы_в_реакторе",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "пульпа",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "гидрометаллургический_реактор",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "моделирование_течения_пульпы_в_реакторе_10л",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "раствор",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "азот",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "лопатки_мешалки",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "засасывание_азота_в_раствор",
+      "label": "Finding",
+      "properties": {}
+    },
+    {
+      "id": "моделирование_течения_нагретого_газа_в_дымовой_трубе",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "нагретый_газ",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "дымовая_труба_КГМК",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "температура",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "скорость",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "давление",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "моделирование_течения_газа",
+      "label": "Process",
+      "properties": {
+        "domain": "моделирование"
+      }
+    },
+    {
+      "id": "нагретый_газ",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "дымовая_труба_КГМК",
+      "label": "Facility",
+      "properties": {}
+    },
+    {
+      "id": "температура",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "скорость",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "давление",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "эксперимент_моделирование_ПВП",
+      "label": "Experiment",
+      "properties": {
+        "description": "упрощенное моделирование течения горячего газа в печи взвешенной плавки"
+      }
+    },
+    {
+      "id": "печь_взвешенной_плавки",
+      "label": "Facility",
+      "properties": {}
+    },
+    {
+      "id": "свод_ПВП",
+      "label": "Facility",
+      "properties": {}
+    },
+    {
+      "id": "meas_thermal_expansion_line_4",
+      "label": "Measurement",
+      "properties": {
+        "value": 237,
+        "unit": "мм",
+        "operator": "=",
+        "line": 4
+      }
+    },
+    {
+      "id": "meas_thermal_expansion_line_17",
+      "label": "Measurement",
+      "properties": {
+        "value": 71.5,
+        "unit": "мм",
+        "operator": "=",
+        "line": 17
+      }
+    },
+    {
+      "id": "тепловое_расширение",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "тепловизионные_исследования",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "ООО_Институт_Гипроникель",
+      "label": "Facility",
+      "properties": {
+        "year": 2017
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "CFD",
+      "target": "печь Ванюкова",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование течения газового пространства печи",
+      "target": "печь Ванюкова",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование течения расплава и кислородно-воздушной смеси",
+      "target": "печь Ванюкова",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование течения газового пространства печи",
+      "target": "застойные зоны",
+      "type": "showed",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование течения газового пространства печи",
+      "target": "условия исключения работы печи под давлением",
+      "type": "showed",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование течения расплава и кислородно-воздушной смеси",
+      "target": "расплав",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование течения расплава и кислородно-воздушной смеси",
+      "target": "кислородно-воздушная смесь",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "CFD",
+      "target": "современная вычислительная техника",
+      "type": "uses_equipment",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "Мария Луканина",
+      "target": "Институт Гипроникель",
+      "type": "expert_in",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование течения газового пространства печи",
+      "target": "CFD",
+      "type": "uses_process",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование течения расплава и кислородно-воздушной смеси",
+      "target": "CFD",
+      "type": "uses_process",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_течения_расплава_в_печи_Ванюкова",
+      "target": "расплав",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_течения_расплава_в_печи_Ванюкова",
+      "target": "кислородно-воздушная_смесь",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_течения_расплава_в_печи_Ванюкова",
+      "target": "фурмы",
+      "type": "uses_equipment",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_течения_в_шлаковом_и_штейновом_сифонах",
+      "target": "настыль",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_течения_в_шлаковом_и_штейновом_сифонах",
+      "target": "теплопотери",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_течения_в_шлаковом_и_штейновом_сифонах",
+      "target": "охлаждающие_кессоны",
+      "type": "uses_equipment",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_узла_выдачи_расплава_базальта",
+      "target": "расплав_базальта",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_узла_выдачи_расплава_базальта",
+      "target": "газ",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_узла_выдачи_расплава_базальта",
+      "target": "фидер",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_перемешивания_пульпы_в_реакторе",
+      "target": "пульпа",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_перемешивания_пульпы_в_реакторе",
+      "target": "гидрометаллургический_реактор",
+      "type": "uses_equipment",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_течения_пульпы_в_реакторе_10л",
+      "target": "раствор",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_течения_пульпы_в_реакторе_10л",
+      "target": "азот",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_течения_пульпы_в_реакторе_10л",
+      "target": "лопатки_мешалки",
+      "type": "uses_equipment",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_течения_пульпы_в_реакторе_10л",
+      "target": "засасывание_азота_в_раствор",
+      "type": "showed",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_течения_нагретого_газа_в_дымовой_трубе",
+      "target": "нагретый_газ",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_течения_нагретого_газа_в_дымовой_трубе",
+      "target": "дымовая_труба_КГМК",
+      "type": "uses_equipment",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_течения_нагретого_газа_в_дымовой_трубе",
+      "target": "температура",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_течения_нагретого_газа_в_дымовой_трубе",
+      "target": "скорость",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_течения_нагретого_газа_в_дымовой_трубе",
+      "target": "давление",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_течения_газа",
+      "target": "нагретый_газ",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_течения_газа",
+      "target": "дымовая_труба_КГМК",
+      "type": "conducted_at",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_течения_газа",
+      "target": "температура",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_течения_газа",
+      "target": "скорость",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "моделирование_течения_газа",
+      "target": "давление",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "эксперимент_моделирование_ПВП",
+      "target": "печь_взвешенной_плавки",
+      "type": "conducted_at",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "эксперимент_моделирование_ПВП",
+      "target": "свод_ПВП",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "эксперимент_моделирование_ПВП",
+      "target": "meas_thermal_expansion_line_4",
+      "type": "has_measurement",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "эксперимент_моделирование_ПВП",
+      "target": "meas_thermal_expansion_line_17",
+      "type": "has_measurement",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "meas_thermal_expansion_line_4",
+      "target": "тепловое_расширение",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "meas_thermal_expansion_line_17",
+      "target": "тепловое_расширение",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "эксперимент_моделирование_ПВП",
+      "target": "тепловизионные_исследования",
+      "type": "validated_by",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    },
+    {
+      "source": "тепловизионные_исследования",
+      "target": "ООО_Институт_Гипроникель",
+      "type": "conducted_at",
+      "properties": {
+        "doc_id": "pdftest.pdf"
+      }
+    }
+  ]
+}

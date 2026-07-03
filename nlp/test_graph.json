@@ -1,0 +1,1137 @@
+{
+  "document": "test.docx",
+  "nodes": [
+    {
+      "id": "Головченко Юрий Юрьевич",
+      "label": "Expert",
+      "properties": {
+        "ORCID": "0000-0003-2980-2173"
+      }
+    },
+    {
+      "id": "Румянцев Александр Евгеньевич",
+      "label": "Expert",
+      "properties": {
+        "ORCID": "0000-0002-2204-961X"
+      }
+    },
+    {
+      "id": "Лалин Владимир Владимирович",
+      "label": "Expert",
+      "properties": {
+        "ORCID": "0000-0003-3850-424X"
+      }
+    },
+    {
+      "id": "Соннов Максим Александрович",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "моделирование тектонических нарушений",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "CAE Fidesys",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "связи конечной жёсткости",
+      "label": "Topic",
+      "properties": {}
+    },
+    {
+      "id": "Институт Гипроникель",
+      "label": "Facility",
+      "properties": {
+        "location": "Санкт-Петербург"
+      }
+    },
+    {
+      "id": "Санкт-Петербургский политехнический университет Петра Великого",
+      "label": "Facility",
+      "properties": {
+        "location": "Санкт-Петербург"
+      }
+    },
+    {
+      "id": "Российский Университет Дружбы Народов имени Патриса Лумумбы",
+      "label": "Facility",
+      "properties": {
+        "location": "Санкт-Петербург"
+      }
+    },
+    {
+      "id": "связи_конечной_жёсткости",
+      "label": "Process",
+      "properties": {
+        "description": "метод моделирования тектонических нарушений"
+      }
+    },
+    {
+      "id": "тектонические_нарушения",
+      "label": "Topic",
+      "properties": {}
+    },
+    {
+      "id": "моделирование_тектонических_разломов",
+      "label": "Process",
+      "properties": {
+        "description": "численный подход"
+      }
+    },
+    {
+      "id": "геопространственное_моделирование",
+      "label": "Process",
+      "properties": {
+        "description": "методика построения трёхмерной модели рельефа"
+      }
+    },
+    {
+      "id": "геодинамически_активные_структуры",
+      "label": "Topic",
+      "properties": {
+        "description": "структуры западного фланга Талнахской тектономагматической системы"
+      }
+    },
+    {
+      "id": "1D_геомеханическая_модель",
+      "label": "Process",
+      "properties": {
+        "description": "модель для сложных горно-геологических условий"
+      }
+    },
+    {
+      "id": "метод_конечных_элементов",
+      "label": "Process",
+      "properties": {
+        "description": "анализ напряжённо-деформированного состояния моделей разрывных нарушений"
+      }
+    },
+    {
+      "id": "работа_14",
+      "label": "Publication",
+      "properties": {
+        "title": "[14]",
+        "description": "методы моделирования и управления надёжностью функционирования горных выработок"
+      }
+    },
+    {
+      "id": "работа_15",
+      "label": "Publication",
+      "properties": {
+        "title": "[15]",
+        "description": "геопространственное моделирование рельефа местности и тектонической нарушенности массива горных пород"
+      }
+    },
+    {
+      "id": "работа_16",
+      "label": "Publication",
+      "properties": {
+        "title": "[16]",
+        "description": "анализ геодинамически активных структур западного фланга Талнахской тектономагматической системы"
+      }
+    },
+    {
+      "id": "работа_17",
+      "label": "Publication",
+      "properties": {
+        "title": "[17]",
+        "description": "построение 1D геомеханической модели для сложных горно-геологических условий на примере месторождения Южного Каспия"
+      }
+    },
+    {
+      "id": "работа_18",
+      "label": "Publication",
+      "properties": {
+        "title": "[18]",
+        "description": "анализ напряжённо-деформированного состояния моделей разрывных нарушений с использованием метода конечных элементов"
+      }
+    },
+    {
+      "id": "моделирование ослабленных зон",
+      "label": "Process",
+      "properties": {
+        "description": "моделирование ослабленных зон, соответствующих тектоническим разломам"
+      }
+    },
+    {
+      "id": "связи конечной жёсткости",
+      "label": "Process",
+      "properties": {
+        "description": "использование связей конечной жёсткости для задания параметров"
+      }
+    },
+    {
+      "id": "метод конечных элементов",
+      "label": "Process",
+      "properties": {
+        "description": "метод конечных элементов для моделирования"
+      }
+    },
+    {
+      "id": "CAE Fidesys",
+      "label": "Equipment",
+      "properties": {
+        "description": "программный комплекс для моделирования"
+      }
+    },
+    {
+      "id": "жёсткость",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "анизотропия",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "неоднородность",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "стадии развития разломных зон",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "деградация механических свойств",
+      "label": "Finding",
+      "properties": {
+        "description": "частичная деградация механических свойств пород"
+      }
+    },
+    {
+      "id": "инженерная геология",
+      "label": "Topic",
+      "properties": {}
+    },
+    {
+      "id": "горное дело",
+      "label": "Topic",
+      "properties": {}
+    },
+    {
+      "id": "сейсмостойкое проектирование",
+      "label": "Topic",
+      "properties": {}
+    },
+    {
+      "id": "моделирование геометрии",
+      "label": "Process",
+      "properties": {
+        "domain": "геология"
+      }
+    },
+    {
+      "id": "разрезка твердых тел",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "генерация сетки",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "определение характеристик",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "вычисление жесткостей",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "толщина",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "модуль упругости",
+      "label": "Property",
+      "properties": {
+        "unit": "Па"
+      }
+    },
+    {
+      "id": "эквивалентная жесткость",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "площадь участка",
+      "label": "Property",
+      "properties": {
+        "unit": "м2"
+      }
+    },
+    {
+      "id": "момент инерции",
+      "label": "Property",
+      "properties": {
+        "unit": "м4"
+      }
+    },
+    {
+      "id": "мощность тектоники",
+      "label": "Property",
+      "properties": {
+        "unit": "м"
+      }
+    },
+    {
+      "id": "САПР AutoCAD",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "CAE Fidesys",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "CAE Fidesys",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "методика",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "брус с ослабленным участком",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "модуль упругости основной части бруса",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "модуль упругости ослабленной зоны",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "meas_error_5",
+      "label": "Measurement",
+      "properties": {
+        "max": 5,
+        "unit": "%",
+        "operator": "<="
+      }
+    },
+    {
+      "id": "погрешность",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "вывод о корректной работе методики",
+      "label": "Finding",
+      "properties": {}
+    },
+    {
+      "id": "ослабленная зона, заданная твердым телом",
+      "label": "Model",
+      "properties": {}
+    },
+    {
+      "id": "ослабленная зона, заданная связями конечной жесткости",
+      "label": "Model",
+      "properties": {}
+    },
+    {
+      "id": "методика",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "глобальная численная модель рудника",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "тектонические нарушения",
+      "label": "Topic",
+      "properties": {}
+    },
+    {
+      "id": "исходное поле напряжений",
+      "label": "Property",
+      "properties": {
+        "description": "гравитационное"
+      }
+    },
+    {
+      "id": "горизонтальная компонента тензора напряжений",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "обследование вертикальной выработки",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "характерные деформации массива",
+      "label": "Finding",
+      "properties": {}
+    },
+    {
+      "id": "верификация расчётов",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "текущее состояние рудника",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "высокая степень сходимости",
+      "label": "Finding",
+      "properties": {}
+    },
+    {
+      "id": "ориентация компонент тензора напряжений",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "значения компонент тензора напряжений",
+      "label": "Measurement",
+      "properties": {}
+    },
+    {
+      "id": "господариков_а_п",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "зацепин_м_а",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "аtif_m",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "raghukanth_s_t_g",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "manam_s_r",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "gainanov_sh_h",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "aptukov_v_n",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "seredin_v_v",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "khalifeh_soltani_a",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "alavi_s_a",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "ghassemi_m_r",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "ganjiani_m",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "derakhshani_r",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "augarde_c_e",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "lee_s_j",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "loukidis_d",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "peikert_j",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "hampel_a",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "bagge_m",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "горный_журнал_2019_12",
+      "label": "Publication",
+      "properties": {
+        "title": "Горный журнал",
+        "year": 2019,
+        "issue": 12
+      }
+    },
+    {
+      "id": "journal_of_seismology_2023_27_3",
+      "label": "Publication",
+      "properties": {
+        "title": "Journal of Seismology",
+        "year": 2023,
+        "volume": 27,
+        "issue": 3
+      }
+    },
+    {
+      "id": "известия_томского_политехнического_университета_2024_335",
+      "label": "Publication",
+      "properties": {
+        "title": "Известия Томского политехнического университета",
+        "year": 2024,
+        "issue": 335
+      }
+    },
+    {
+      "id": "frontiers_in_earth_science_2023_11",
+      "label": "Publication",
+      "properties": {
+        "title": "Frontiers in Earth Science",
+        "year": 2023,
+        "volume": 11
+      }
+    },
+    {
+      "id": "soils_and_foundations_2021_61_6",
+      "label": "Publication",
+      "properties": {
+        "title": "Soils and Foundations",
+        "year": 2021,
+        "volume": 61,
+        "issue": 6
+      }
+    },
+    {
+      "id": "geosphere_2024_20_1",
+      "label": "Publication",
+      "properties": {
+        "title": "Geosphere",
+        "year": 2024,
+        "volume": 20,
+        "issue": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Головченко Юрий Юрьевич",
+      "target": "Институт Гипроникель",
+      "type": "expert_in",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "Румянцев Александр Евгеньевич",
+      "target": "Институт Гипроникель",
+      "type": "expert_in",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "Лалин Владимир Владимирович",
+      "target": "Санкт-Петербургский политехнический университет Петра Великого",
+      "type": "expert_in",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "Лалин Владимир Владимирович",
+      "target": "Российский Университет Дружбы Народов имени Патриса Лумумбы",
+      "type": "expert_in",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "Соннов Максим Александрович",
+      "target": "Фидесис",
+      "type": "expert_in",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "моделирование тектонических нарушений",
+      "target": "CAE Fidesys",
+      "type": "uses_equipment",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "моделирование тектонических нарушений",
+      "target": "связи конечной жёсткости",
+      "type": "tagged",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "работа_14",
+      "target": "связи_конечной_жёсткости",
+      "type": "described_in",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "работа_15",
+      "target": "геопространственное_моделирование",
+      "type": "described_in",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "работа_16",
+      "target": "геодинамически_активные_структуры",
+      "type": "described_in",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "работа_17",
+      "target": "1D_геомеханическая_модель",
+      "type": "described_in",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "работа_18",
+      "target": "метод_конечных_элементов",
+      "type": "described_in",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "связи_конечной_жёсткости",
+      "target": "тектонические_нарушения",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "моделирование_тектонических_разломов",
+      "target": "тектонические_нарушения",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "геопространственное_моделирование",
+      "target": "тектонические_нарушения",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "моделирование ослабленных зон",
+      "target": "связи конечной жёсткости",
+      "type": "uses_material",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "моделирование ослабленных зон",
+      "target": "метод конечных элементов",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "моделирование ослабленных зон",
+      "target": "CAE Fidesys",
+      "type": "uses_equipment",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "связи конечной жёсткости",
+      "target": "жёсткость",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "связи конечной жёсткости",
+      "target": "анизотропия",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "связи конечной жёсткости",
+      "target": "неоднородность",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "связи конечной жёсткости",
+      "target": "стадии развития разломных зон",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "моделирование ослабленных зон",
+      "target": "деградация механических свойств",
+      "type": "showed",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "моделирование ослабленных зон",
+      "target": "инженерная геология",
+      "type": "tagged",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "моделирование ослабленных зон",
+      "target": "горное дело",
+      "type": "tagged",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "моделирование ослабленных зон",
+      "target": "сейсмостойкое проектирование",
+      "type": "tagged",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "моделирование геометрии",
+      "target": "САПР AutoCAD",
+      "type": "uses_equipment",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "разрезка твердых тел",
+      "target": "моделирование геометрии",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "генерация сетки",
+      "target": "разрезка твердых тел",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "определение характеристик",
+      "target": "толщина",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "определение характеристик",
+      "target": "модуль упругости",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "вычисление жесткостей",
+      "target": "эквивалентная жесткость",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "вычисление жесткостей",
+      "target": "площадь участка",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "вычисление жесткостей",
+      "target": "момент инерции",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "вычисление жесткостей",
+      "target": "мощность тектоники",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "вычисление жесткостей",
+      "target": "CAE Fidesys",
+      "type": "validated_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "методика",
+      "target": "CAE Fidesys",
+      "type": "uses_equipment",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "методика",
+      "target": "брус с ослабленным участком",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "методика",
+      "target": "meas_error_5",
+      "type": "has_measurement",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "meas_error_5",
+      "target": "погрешность",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "методика",
+      "target": "вывод о корректной работе методики",
+      "type": "showed",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "ослабленная зона, заданная твердым телом",
+      "target": "методика",
+      "type": "validated_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "ослабленная зона, заданная связями конечной жесткости",
+      "target": "методика",
+      "type": "validated_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "методика",
+      "target": "глобальная численная модель рудника",
+      "type": "applies_to",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "глобальная численная модель рудника",
+      "target": "тектонические нарушения",
+      "type": "tagged",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "глобальная численная модель рудника",
+      "target": "исходное поле напряжений",
+      "type": "has_measurement",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "обследование вертикальной выработки",
+      "target": "характерные деформации массива",
+      "type": "showed",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "характерные деформации массива",
+      "target": "горизонтальная компонента тензора напряжений",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "верификация расчётов",
+      "target": "текущее состояние рудника",
+      "type": "operates_at_condition",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "верификация расчётов",
+      "target": "высокая степень сходимости",
+      "type": "showed",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "высокая степень сходимости",
+      "target": "ориентация компонент тензора напряжений",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "высокая степень сходимости",
+      "target": "значения компонент тензора напряжений",
+      "type": "measures_property",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "господариков_а_п",
+      "target": "горный_журнал_2019_12",
+      "type": "authored_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "зацепин_м_а",
+      "target": "горный_журнал_2019_12",
+      "type": "authored_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "аtif_m",
+      "target": "journal_of_seismology_2023_27_3",
+      "type": "authored_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "raghukanth_s_t_g",
+      "target": "journal_of_seismology_2023_27_3",
+      "type": "authored_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "manam_s_r",
+      "target": "journal_of_seismology_2023_27_3",
+      "type": "authored_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "gainanov_sh_h",
+      "target": "известия_томского_политехнического_университета_2024_335",
+      "type": "authored_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "aptukov_v_n",
+      "target": "известия_томского_политехнического_университета_2024_335",
+      "type": "authored_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "seredin_v_v",
+      "target": "известия_томского_политехнического_университета_2024_335",
+      "type": "authored_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "khalifeh_soltani_a",
+      "target": "frontiers_in_earth_science_2023_11",
+      "type": "authored_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "alavi_s_a",
+      "target": "frontiers_in_earth_science_2023_11",
+      "type": "authored_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "ghassemi_m_r",
+      "target": "frontiers_in_earth_science_2023_11",
+      "type": "authored_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "ganjiani_m",
+      "target": "frontiers_in_earth_science_2023_11",
+      "type": "authored_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "derakhshani_r",
+      "target": "frontiers_in_earth_science_2023_11",
+      "type": "authored_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "augarde_c_e",
+      "target": "soils_and_foundations_2021_61_6",
+      "type": "authored_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "lee_s_j",
+      "target": "soils_and_foundations_2021_61_6",
+      "type": "authored_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "loukidis_d",
+      "target": "soils_and_foundations_2021_61_6",
+      "type": "authored_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "peikert_j",
+      "target": "geosphere_2024_20_1",
+      "type": "authored_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "hampel_a",
+      "target": "geosphere_2024_20_1",
+      "type": "authored_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    },
+    {
+      "source": "bagge_m",
+      "target": "geosphere_2024_20_1",
+      "type": "authored_by",
+      "properties": {
+        "doc_id": "test.docx"
+      }
+    }
+  ]
+}
