@@ -119,6 +119,26 @@ async def risk_zones_contradictions(driver: AsyncDriver) -> list[dict[str, Any]]
         return await result.data()
 
 
+async def fact_history(driver: AsyncDriver, fact_id: str) -> list[dict[str, Any]]:
+    """Prior versions of a Measurement/Finding, most recent first.
+
+    case-specification.md: "Версионирование фактов: отслеживание изменений в
+    выводах, обновление данных при появлении новых источников". Written by
+    nlp/ingestion/neo4j_import.py's _archive_previous_version() whenever a
+    re-import changes a fact's value/confidence instead of just overwriting
+    it (MERGE is otherwise last-write-wins with no history kept).
+    """
+    query = """
+    MATCH (rev:Revision)-[:REVISION_OF]->(n {id: $fact_id})
+    RETURN rev.superseded_at AS superseded_at, rev.superseded_by_document AS superseded_by_document,
+           apoc.map.removeKeys(properties(rev), ['superseded_at', 'superseded_by_document']) AS previous_properties
+    ORDER BY rev.superseded_at DESC
+    """
+    async with driver.session() as session:
+        result = await session.run(query, fact_id=fact_id)
+        return await result.data()
+
+
 async def dashboard_summary(driver: AsyncDriver) -> dict[str, Any]:
     """Everything the management dashboard needs in one call."""
     return {
