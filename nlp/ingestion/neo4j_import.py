@@ -156,6 +156,31 @@ def _import_stub_nodes(tx, stubs: list[dict[str, Any]]) -> None:
         )
 
 
+def _sanitize_value(value: Any) -> Any:
+    """Coerce a property value into something Neo4j can store.
+
+    Neo4j only accepts primitives (str/num/bool) or arrays of a single
+    primitive type. The extraction LLM sometimes emits a nested object or a
+    mixed/nested list as a property value (e.g. properties.composition =
+    {"Cu": 12, "Ni": 3}), which makes the whole node write fail with
+    'Property values can only be of primitive types or arrays thereof' --
+    taking the entire document's import down with it. Flatten those to a JSON
+    string so the fact is preserved, just as text.
+    """
+    if value is None or isinstance(value, (str, int, float, bool)):
+        return value
+    if isinstance(value, list):
+        if all(isinstance(x, (str, int, float, bool)) for x in value):
+            return value
+        return json.dumps(value, ensure_ascii=False)
+    return json.dumps(value, ensure_ascii=False)
+
+
+def _batched(items: list[Any], size: int = 500):
+    for i in range(0, len(items), size):
+        yield items[i : i + size]
+
+
 def _get_neo4j_driver():
     uri = os.environ.get("NEO4J_URI", "bolt://localhost:7687")
     user = os.environ.get("NEO4J_USER", "neo4j")
@@ -301,10 +326,10 @@ def _import_nodes(tx, nodes: list[dict[str, Any]]):
             "validation_status": node["validation_status"],
             "confidence": node["confidence"],
         }
-        # Add original properties
+        # Add original properties, coercing anything Neo4j can't store.
         for k, v in props.items():
             if k not in flat_props:
-                flat_props[k] = v
+                flat_props[k] = _sanitize_value(v)
 
         label = node["label"]
 
@@ -383,24 +408,28 @@ def import_graph(graph_path: str, driver) -> dict[str, int]:
         },
     )
 
-    # Import into Neo4j
+    # Import into Neo4j. Writes are batched into separate transactions: a big
+    # document (thousands of nodes/edges) in one transaction blows Neo4j's
+    # per-transaction memory limit (Neo.TransientError.General.
+    # MemoryPoolOutOfMemoryError), which previously failed the whole import for
+    # exactly the largest, most valuable review documents.
+    stubs = _synthesize_missing_nodes(valid_nodes, valid_edges, source_doc)
     with driver.session() as session:
-        # Create constraints
         session.execute_write(_create_constraints)
 
-        # Import nodes
-        session.execute_write(_import_nodes, valid_nodes)
+        for batch in _batched(valid_nodes):
+            session.execute_write(_import_nodes, batch)
         logger.info("nodes imported", extra={"count": len(valid_nodes)})
 
         # Reconstruct edge endpoints the model referenced but never emitted,
         # so their edges (and everything hanging off them) don't vanish.
-        stubs = _synthesize_missing_nodes(valid_nodes, valid_edges, source_doc)
         if stubs:
-            session.execute_write(_import_stub_nodes, stubs)
+            for batch in _batched(stubs):
+                session.execute_write(_import_stub_nodes, batch)
             logger.info("stub endpoints synthesized", extra={"count": len(stubs)})
 
-        # Import edges
-        session.execute_write(_import_edges, valid_edges)
+        for batch in _batched(valid_edges):
+            session.execute_write(_import_edges, batch)
         logger.info("edges imported", extra={"count": len(valid_edges)})
 
     return {
