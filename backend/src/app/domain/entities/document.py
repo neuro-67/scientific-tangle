@@ -51,8 +51,14 @@ class Document(BaseEntity):
         return document
 
     def mark_processing(self) -> None:
-        """Move a pending document into active processing."""
-        if self.status is not DocumentStatus.PENDING:
+        """Move a pending document into active processing.
+
+        Also allowed when already PROCESSING: arq redelivers a job if the
+        worker is killed/restarted mid-run (at-least-once delivery), and the
+        retry must be able to re-enter processing rather than getting stuck
+        forever raising DocumentStateError against its own prior attempt.
+        """
+        if self.status not in (DocumentStatus.PENDING, DocumentStatus.PROCESSING):
             raise DocumentStateError(self.id, self.status, DocumentStatus.PROCESSING)
         self.status = DocumentStatus.PROCESSING
         self.updated_at = now_utc()

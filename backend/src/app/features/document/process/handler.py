@@ -28,8 +28,13 @@ class ProcessDocumentHandler:
         if document is None:
             raise DocumentNotFoundError(command.document_id)
 
-        document.mark_processing()
         try:
+            # mark_processing() lives inside the try too: it can itself raise
+            # DocumentStateError (e.g. arq redelivering a job whose previous
+            # attempt never got to record a terminal state for some other
+            # reason), and that must still result in fail(), not an uncaught
+            # exception that leaves the document stuck with no status update.
+            document.mark_processing()
             file_bytes = await self._storage.get(document.storage_key)
             stats = await run_ingestion_pipeline(
                 file_bytes, document.filename, document.content_type
