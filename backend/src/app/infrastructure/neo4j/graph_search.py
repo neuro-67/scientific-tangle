@@ -77,7 +77,7 @@ class Neo4jGraphSearch(IGraphSearch):
             or spec.facilities
         )
 
-    async def fetch_subgraph(self, spec: QuerySpec, node_limit: int = 30) -> dict[str, Any]:
+    async def fetch_subgraph(self, spec: QuerySpec, node_limit: int = 12) -> dict[str, Any]:
         """Return nodes+edges around entries matched by the spec.
 
         Same primary/fallback matching as `search`, then one-hop expansion. If
@@ -121,7 +121,18 @@ class Neo4jGraphSearch(IGraphSearch):
         return nodes, edges
 
     def _build_subgraph_cypher(self, spec: QuerySpec, node_limit: int) -> tuple[str, dict[str, Any]]:
-        params: dict[str, Any] = {"node_limit": node_limit}
+        # Caps to keep the answer canvas readable:
+        # * `node_limit` — how many entry (center) nodes to seed from.
+        # * `neighbors_per_entry` — max neighbours expanded per center. Without
+        #   this a hub node with 40+ links dominates the whole picture.
+        # * `total_nodes` — global cap after dedup (entries + all neighbours).
+        neighbors_per_entry = 4
+        total_nodes = 60
+        params: dict[str, Any] = {
+            "node_limit": node_limit,
+            "neighbors_per_entry": neighbors_per_entry,
+            "total_nodes": total_nodes,
+        }
         path_clause = self._build_path_clause(spec, params)
         # Strip the trailing WITH/OPTIONAL MATCH we don't need — subgraph
         # collection expands its own neighbours. Only keep the first MATCH+WHERE.
@@ -130,7 +141,13 @@ class Neo4jGraphSearch(IGraphSearch):
         return (
             f"{head}\n"
             "WITH DISTINCT entry LIMIT $node_limit\n"
-            "OPTIONAL MATCH (entry)-[r]-(neighbor)\n"
+            "CALL {\n"
+            "  WITH entry\n"
+            "  OPTIONAL MATCH (entry)-[r]-(neighbor)\n"
+            "  RETURN r, neighbor LIMIT $neighbors_per_entry\n"
+            "}\n"
+            "WITH entry, r, neighbor\n"
+            "LIMIT $total_nodes\n"
             "RETURN entry, r AS rel, neighbor"
         ), params
 

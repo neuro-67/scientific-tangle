@@ -8,6 +8,7 @@ from dishka import make_async_container
 from dishka.integrations.fastapi import setup_dishka
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.openapi.docs import get_swagger_ui_html
 from minio import Minio
 from sqlalchemy.ext.asyncio import AsyncEngine
 
@@ -38,13 +39,25 @@ def create_app() -> FastAPI:
         yield
         await container.close()
 
+    # docs_url disabled — served manually below with a *relative* openapi_url
+    # so Swagger UI works both locally (`/docs`) and behind a reverse-proxy
+    # prefix (`/api/docs`) without any env config.
     app = FastAPI(
         title="Scientific Tangle API",
         version="0.1.0",
-        docs_url="/docs",
+        docs_url=None,
         redoc_url="/redoc",
         lifespan=lifespan,
     )
+
+    @app.get("/docs", include_in_schema=False)
+    def swagger_ui() -> object:
+        # Relative URL: browser resolves against the current path, so
+        # `/docs` → `/openapi.json`, `/api/docs` → `/api/openapi.json`.
+        return get_swagger_ui_html(
+            openapi_url="openapi.json",
+            title=f"{app.title} — Swagger UI",
+        )
 
     settings = get_settings()
     app.add_middleware(

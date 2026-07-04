@@ -4,7 +4,6 @@ import CytoscapeComponent from "react-cytoscapejs";
 import { toast } from "sonner";
 
 import {
-  createGraphEdge,
   createGraphNode,
   deleteGraphEdge,
   deleteGraphNode,
@@ -20,7 +19,7 @@ type Props = {
   subgraph: AnswerSubgraph;
 };
 
-type Mode = "select" | "addNode" | "addEdge" | "addComment";
+type Mode = "select" | "addNode" | "addComment";
 
 /**
  * Force-directed layout — hub nodes (like a facility with many expert
@@ -47,12 +46,6 @@ function buildLayout(): cytoscape.LayoutOptions {
 }
 
 const TYPE_OPTIONS = ["Material", "Process", "Equipment", "Result"];
-/**
- * Default relationship type for user-created edges. Neo4j rel types are part
- * of the schema (uppercase snake_case), so we can't use the user-provided
- * label directly as the type — that goes into r.label.
- */
-const DEFAULT_EDGE_TYPE = "RELATED";
 
 let __tempSeq = 0;
 const tempId = (prefix: string) => `__tmp_${prefix}_${++__tempSeq}`;
@@ -63,7 +56,6 @@ export function SubgraphView({ subgraph }: Props) {
   const [edges, setEdges] = useState<GraphEdge[]>(subgraph.edges);
   const [mode, setMode] = useState<Mode>("select");
   const [selectedId, setSelectedId] = useState<string | null>(null);
-  const [edgeSource, setEdgeSource] = useState<string | null>(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
 
   const cyRef = useRef<cytoscape.Core | null>(null);
@@ -121,7 +113,6 @@ export function SubgraphView({ subgraph }: Props) {
 
   const clearSelection = useCallback(() => {
     setSelectedId(null);
-    setEdgeSource(null);
     cyRef.current?.elements().unselect();
   }, []);
 
@@ -149,43 +140,6 @@ export function SubgraphView({ subgraph }: Props) {
         setNodes((prev) => prev.filter((n) => n.id !== localId));
         delete positionsRef.current[localId];
         handleApiError(err, { fallback: "Не удалось создать узел" });
-      }
-    },
-    [markSelected]
-  );
-
-  const addEdge = useCallback(
-    async (source: string, target: string, label: string) => {
-      const localId = tempId("e");
-      setEdges((prev) => [
-        ...prev,
-        { id: localId, source, target, type: DEFAULT_EDGE_TYPE, label },
-      ]);
-      markSelected(localId);
-      try {
-        const created = await createGraphEdge({
-          source,
-          target,
-          type: DEFAULT_EDGE_TYPE,
-          label,
-        });
-        setEdges((prev) =>
-          prev.map((e) =>
-            e.id === localId
-              ? {
-                  id: created.id,
-                  source: created.source,
-                  target: created.target,
-                  type: created.type,
-                  label: created.label ?? "",
-                }
-              : e
-          )
-        );
-        markSelected(created.id);
-      } catch (err) {
-        setEdges((prev) => prev.filter((e) => e.id !== localId));
-        handleApiError(err, { fallback: "Не удалось создать связь" });
       }
     },
     [markSelected]
@@ -311,59 +265,12 @@ export function SubgraphView({ subgraph }: Props) {
     return () => window.clearTimeout(id);
   }, [isFullscreen]);
 
-  // Disable node dragging while drawing an edge.
   useEffect(() => {
     const cy = cyRef.current;
     if (!cy) return;
-    if (mode === "addEdge") {
-      cy.nodes().ungrabify();
-    } else {
-      cy.nodes().grabify();
-    }
-  }, [mode]);
-
-  useEffect(() => {
-    const cy = cyRef.current;
-    if (!cy) return;
-
-    const PREVIEW_NODE = "__preview-target";
-    const PREVIEW_EDGE = "__preview-edge";
-    const draggingRef = { current: false };
-
-    const removePreview = () => {
-      cy.getElementById(PREVIEW_EDGE).remove();
-      cy.getElementById(PREVIEW_NODE).remove();
-    };
-
-    const createPreview = (sourceId: string, pos: cytoscape.Position) => {
-      cy.add([
-        {
-          group: "nodes",
-          data: { id: PREVIEW_NODE },
-          position: pos,
-          style: { width: 1, height: 1, "background-opacity": 0 },
-        },
-        {
-          group: "edges",
-          data: { id: PREVIEW_EDGE, source: sourceId, target: PREVIEW_NODE },
-          style: {
-            "line-style": "dashed",
-            "line-color": "#94a3b8",
-            width: 3,
-            "target-arrow-shape": "none",
-          },
-        },
-      ]);
-    };
-
-    const movePreview = (pos: cytoscape.Position) => {
-      const n = cy.getElementById(PREVIEW_NODE);
-      if (n.length) n.position(pos);
-    };
 
     const handleTapNode = (evt: cytoscape.EventObject) => {
       const id = evt.target.id();
-      if (draggingRef.current) return;
       markSelected(id);
     };
 
@@ -384,8 +291,6 @@ export function SubgraphView({ subgraph }: Props) {
       // want background — otherwise a node tap immediately clears the very
       // selection that handleTapNode just set.
       if (evt.target !== cy) return;
-      if (draggingRef.current) return;
-      if (mode === "addEdge") return;
       if (mode === "addNode") {
         const label = window.prompt("Название шара:", "Новый узел");
         if (label === null) return;
@@ -404,37 +309,6 @@ export function SubgraphView({ subgraph }: Props) {
       }
     };
 
-    const handleMouseDownNode = (evt: cytoscape.EventObject) => {
-      if (mode !== "addEdge") return;
-      const id = evt.target.id();
-      draggingRef.current = true;
-      setEdgeSource(id);
-      createPreview(id, evt.position);
-    };
-
-    const handleMouseMove = (evt: cytoscape.EventObject) => {
-      if (mode !== "addEdge" || !draggingRef.current) return;
-      movePreview(evt.position);
-    };
-
-    const handleMouseUp = () => {
-      if (mode !== "addEdge" || !draggingRef.current) return;
-      const sourceId = edgeSource;
-      draggingRef.current = false;
-      removePreview();
-      setEdgeSource(null);
-      if (!sourceId) return;
-      const hovered = cy
-        .nodes(":hover")
-        .filter((n) => n.id() !== PREVIEW_NODE && n.id() !== sourceId);
-      const target = hovered.first();
-      if (target.length) {
-        const label =
-          window.prompt("Название связи:", "связано с") || "связано с";
-        void addEdge(sourceId, target.id(), label);
-      }
-    };
-
     const handleDragFree = (evt: cytoscape.EventObject) => {
       const node = evt.target as cytoscape.NodeSingular;
       positionsRef.current[node.id()] = { ...node.position() };
@@ -445,9 +319,6 @@ export function SubgraphView({ subgraph }: Props) {
     cy.on("dbltap", "node", handleDblTap);
     cy.on("dbltap", "edge", handleDblTap);
     cy.on("tap", handleTapBg);
-    cy.on("mousedown", "node", handleMouseDownNode);
-    cy.on("mousemove", handleMouseMove);
-    cy.on("mouseup", handleMouseUp);
     cy.on("dragfree", "node", handleDragFree);
 
     return () => {
@@ -456,16 +327,11 @@ export function SubgraphView({ subgraph }: Props) {
       cy.off("dbltap", "node", handleDblTap);
       cy.off("dbltap", "edge", handleDblTap);
       cy.off("tap", handleTapBg);
-      cy.off("mousedown", "node", handleMouseDownNode);
-      cy.off("mousemove", handleMouseMove);
-      cy.off("mouseup", handleMouseUp);
       cy.off("dragfree", "node", handleDragFree);
     };
   }, [
     mode,
-    edgeSource,
     addNode,
-    addEdge,
     markSelected,
     clearSelection,
     handleEdit,
@@ -501,7 +367,6 @@ export function SubgraphView({ subgraph }: Props) {
       <div className="flex flex-wrap items-center gap-2">
         {toolbarButton("select", "Выбрать", "Выделить элемент")}
         {toolbarButton("addNode", "+ Шар", "Добавить узел (кликни в свободное место)")}
-        {toolbarButton("addEdge", "+ Связь", "Соединить два узла: зажать на узле → перетянуть")}
         {toolbarButton("addComment", "+ Коммент", "Добавить комментарий")}
         <button
           type="button"
