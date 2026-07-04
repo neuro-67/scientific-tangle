@@ -5,6 +5,7 @@ live here; the actual NLP ingestion (parse -> chunk -> extract -> normalize ->
 write to Neo4j/Qdrant, owned by ML-1) is delegated to ingestion.py.
 """
 
+import asyncio
 import logging
 
 from app.domain.exceptions.document import DocumentNotFoundError
@@ -44,9 +45,15 @@ class ProcessDocumentHandler:
                 extra={"document_id": str(document.id), **stats},
             )
             document.mark_processed()
-        except (Exception, SystemExit) as exc:
+        except (Exception, SystemExit, asyncio.CancelledError) as exc:
             # nlp.run_corpus_test raises SystemExit at import time if
             # ROUTERAI_API_KEY is unset -- caught here too so a misconfigured
             # env fails this one document instead of killing the arq worker.
+            # CancelledError is arq's own job_timeout firing (asyncio.wait_for
+            # cancels the task) -- confirmed on a real batch where several
+            # concurrent documents exceeded the timeout; it isn't an Exception
+            # subclass, so without this it skipped straight past this block
+            # and left the document stuck in PROCESSING forever, no failure
+            # ever recorded.
             logger.exception("document ingestion failed", extra={"document_id": str(document.id)})
             document.fail(str(exc))

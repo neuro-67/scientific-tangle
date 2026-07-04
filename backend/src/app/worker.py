@@ -42,3 +42,12 @@ class WorkerSettings:
     on_startup = startup
     on_shutdown = shutdown
     redis_settings: RedisSettings = build_redis_settings(get_settings().redis)
+    # arq's default (300s) is too short for process_document: a single
+    # ingestion already takes ~5min in isolation, and it gets much slower
+    # once several documents run concurrently and compete for the same LLM
+    # calls -- confirmed on a real 20-document batch, where several jobs hit
+    # the default timeout mid-run. asyncio.wait_for's resulting
+    # CancelledError also isn't an Exception subclass, so it skipped the
+    # handler's except block entirely and left documents stuck in
+    # PROCESSING forever with no failure ever recorded.
+    job_timeout = 1800
