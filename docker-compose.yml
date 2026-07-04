@@ -92,8 +92,8 @@ services:
 
   backend:
     build:
-      context: ./backend
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: backend/Dockerfile
       target: dev
     container_name: st-backend
     restart: unless-stopped
@@ -110,6 +110,7 @@ services:
       - "${BACKEND_PORT:-8000}:8000"
     volumes:
       - ./backend:/app
+      - ./nlp:/app/nlp
     command: >
       uvicorn app.main:app
       --host 0.0.0.0
@@ -130,8 +131,8 @@ services:
 
   worker:
     build:
-      context: ./backend
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: backend/Dockerfile
       target: dev
     container_name: st-worker
     restart: unless-stopped
@@ -146,6 +147,7 @@ services:
       REDIS_HOST: redis
     volumes:
       - ./backend:/app
+      - ./nlp:/app/nlp
     command: ["arq", "app.worker.WorkerSettings"]
     depends_on:
       postgres:

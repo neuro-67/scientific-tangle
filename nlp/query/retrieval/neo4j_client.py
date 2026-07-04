@@ -83,12 +83,17 @@ class Neo4jClient:
                 + " AND ".join(time_conds) + " }"
             )
 
-        # Numeric constraints on Measurement
+        # Numeric constraints on Measurement. Property name is not an
+        # attribute of Measurement itself (there is no meas.property) --
+        # it lives on a separate Property node linked via
+        # MEASURES_PROPERTY (docs/ONTOLOGY.md; nlp/ingestion/neo4j_import.py
+        # writes it that way). Matching meas.property directly never
+        # matched anything -- confirmed empirically with a synthetic test.
         for i, nc in enumerate(spec.numeric_constraints):
             prefix = f"nc{i}"
             meas_match = (
-                f"EXISTS {{ (n)-[:HAS_MEASUREMENT]->(meas:Measurement) "
-                f"WHERE meas.property = ${prefix}_prop"
+                f"EXISTS {{ (n)-[:HAS_MEASUREMENT]->(meas:Measurement)-[:MEASURES_PROPERTY]->(prop:Property) "
+                f"WHERE prop.id = ${prefix}_prop"
             )
             params[f"{prefix}_prop"] = nc.property
 

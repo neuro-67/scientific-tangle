@@ -6,6 +6,7 @@ from app.domain.interfaces.synthesis_engine import ISynthesisEngine
 from app.infrastructure.config.settings import AppSettings
 from nlp.synthesis.engine import SynthesisEngine
 from nlp.query.config import QueryConfig
+from nlp.query.schemas import SynthesisResponse
 
 
 class YandexSynthesisEngine(ISynthesisEngine):

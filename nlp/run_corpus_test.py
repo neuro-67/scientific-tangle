@@ -27,6 +27,8 @@ import requests
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from nlp.benchmark_extraction_chunked import recursive_split
+from nlp.lang_detect import detect_language
+from nlp.units import normalize_measurement_units
 
 TERM_ALIASES: dict[str, str] = json.loads(
     (Path(__file__).parent / "term_aliases.json").read_text(encoding="utf-8")
@@ -210,6 +212,38 @@ def extract_pdf_text(pdf_path: Path) -> str:
     return "\n\n".join(parts)
 
 
+def extract_docx_text(docx_path: Path) -> str:
+    """No native page breaks in .docx -- paragraph position stands in for
+    span/provenance instead (SYSTEM_PROMPT's page-marker instruction still
+    gets something to anchor Source.span to, just coarser than a real page)."""
+    import docx
+
+    document = docx.Document(docx_path)
+    parts = []
+    for para in document.paragraphs:
+        if para.text.strip():
+            parts.append(para.text.strip())
+    for table in document.tables:
+        for row in table.rows:
+            cells = [c.text.strip() for c in row.cells if c.text.strip()]
+            if cells:
+                parts.append(" | ".join(cells))
+    # Chunk-sized pseudo-pages so Source.span still means something
+    text = "\n".join(parts)
+    pseudo_page_size = 2000
+    pages = [text[i:i + pseudo_page_size] for i in range(0, len(text), pseudo_page_size)]
+    return "\n\n".join(f"--- СТРАНИЦА {i+1} ---\n{p}" for i, p in enumerate(pages))
+
+
+def extract_document_text(path: Path) -> str:
+    suffix = path.suffix.lower()
+    if suffix == ".pdf":
+        return extract_pdf_text(path)
+    if suffix == ".docx":
+        return extract_docx_text(path)
+    raise ValueError(f"Unsupported document type: {suffix}")
+
+
 def apply_term_aliases(nodes: list[dict], edges: list[dict]) -> tuple[list[dict], list[dict]]:
     """Normalize step (docs/NLP_PIPELINE.md [5]): rename node ids that match a
     known synonym/alias (RU/EN, e.g. "ПВП"/"fluidized bed furnace"/"печь
@@ -321,10 +355,15 @@ def process_chunk(chunk: str) -> dict[str, Any]:
 
 def process_document(pdf_path: Path, out_dir: Path) -> dict[str, Any]:
     print(f"\n=== {pdf_path.name} ===")
-    text = extract_pdf_text(pdf_path)
+    text = extract_document_text(pdf_path)
     print(f"  extracted {len(text)} chars of native text")
     chunks = recursive_split(text, chunk_size=1500, chunk_overlap=200)
     print(f"  split into {len(chunks)} chunks")
+
+    chunk_langs = [detect_language(c) for c in chunks]
+    lang_counts = {lang: chunk_langs.count(lang) for lang in set(chunk_langs)}
+    doc_lang = max(lang_counts, key=lang_counts.get) if lang_counts else "unknown"
+    print(f"  language: {doc_lang} ({lang_counts})")
 
     all_nodes, all_edges = [], []
     ok_count, fail_count = 0, 0
@@ -348,9 +387,10 @@ def process_document(pdf_path: Path, out_dir: Path) -> dict[str, Any]:
 
     all_nodes, all_edges = apply_term_aliases(all_nodes, all_edges)
     all_nodes, all_edges = merge_duplicate_nodes(all_nodes, all_edges)
-    all_nodes = verify_measurements(all_nodes, text)
+    all_nodes = verify_measurements(all_nodes, text)  # must run before unit conversion, checks values against raw source text
+    all_nodes = normalize_measurement_units(all_nodes)
 
-    graph = {"document": pdf_path.name, "nodes": all_nodes, "edges": all_edges}
+    graph = {"document": pdf_path.name, "language": doc_lang, "nodes": all_nodes, "edges": all_edges}
     out_path = out_dir / f"{pdf_path.stem}_graph.json"
     out_path.write_text(json.dumps(graph, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -359,6 +399,8 @@ def process_document(pdf_path: Path, out_dir: Path) -> dict[str, Any]:
     unverified = [n for n in all_nodes if n.get("label") == "Measurement" and n.get("properties", {}).get("verified") is False]
     stats = {
         "document": pdf_path.name,
+        "language": doc_lang,
+        "chunk_language_counts": lang_counts,
         "chars": len(text),
         "n_chunks": len(chunks),
         "ok_chunks": ok_count,
