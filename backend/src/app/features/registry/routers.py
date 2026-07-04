@@ -8,6 +8,7 @@ from app.features.auth.me.controller import router as me_router
 from app.features.auth.refresh.controller import router as refresh_router
 from app.features.dashboard.summary.controller import router as dashboard_summary_router
 from app.features.document.get.controller import router as document_get_router
+from app.features.document.list.controller import router as document_list_router
 from app.features.document.upload.controller import router as document_upload_router
 from app.features.health.check.controller import router as health_check_router
 from app.features.users.create.controller import router as create_user_router
@@ -25,6 +26,7 @@ ROUTERS: list[APIRouter] = [
     create_user_router,
     list_users_router,
     document_upload_router,
+    document_list_router,
     document_get_router,
     query_ask_router,
     dashboard_summary_router,

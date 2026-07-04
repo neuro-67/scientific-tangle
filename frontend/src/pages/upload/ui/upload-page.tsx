@@ -1,8 +1,7 @@
-import { useMutation } from "@tanstack/react-query";
-import { useState } from "react";
+import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { toast } from "sonner";
 
-import { documentApi, type Document } from "@/entities/document";
+import { documentApi } from "@/entities/document";
 import { handleApiError } from "@/shared/lib/api-error";
 
 import { DocumentRow } from "./document-row";
@@ -10,12 +9,19 @@ import { UploadDropzone } from "./upload-dropzone";
 
 /** Screen for uploading new documents into the corpus and tracking ingestion. */
 export function UploadPage() {
-  const [items, setItems] = useState<Document[]>([]);
+  const queryClient = useQueryClient();
+
+  const listQuery = useQuery({
+    ...documentApi.queries.list({ limit: 50 }),
+    // Poll while the page is visible so ingestion status updates on its own.
+    refetchInterval: 3000,
+    refetchIntervalInBackground: false,
+  });
 
   const uploadMutation = useMutation({
     mutationFn: documentApi.uploadDocument,
-    onSuccess: (document) => {
-      setItems((prev) => [document, ...prev]);
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: documentApi.queries.all() });
     },
     onError: (error) => {
       handleApiError(error, { fallback: "Не удалось загрузить документ" });
@@ -32,6 +38,8 @@ export function UploadPage() {
       );
     });
   };
+
+  const items = listQuery.data ?? [];
 
   return (
     <div className="mx-auto flex w-full max-w-[1200px] flex-col gap-6">
@@ -62,7 +70,9 @@ export function UploadPage() {
         </div>
       ) : (
         <div className="rounded-2xl border border-input bg-card p-10 text-center text-description">
-          Пока нет загруженных документов в этой сессии.
+          {listQuery.isLoading
+            ? "Загружаем список документов…"
+            : "Пока нет загруженных документов."}
         </div>
       )}
     </div>
