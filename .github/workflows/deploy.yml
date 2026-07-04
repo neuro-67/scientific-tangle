@@ -13,6 +13,7 @@ env:
   DEPLOY_HOST: ${{ secrets.SSH_HOST }}
   DEPLOY_USER: root
   DEPLOY_PATH: /opt/pr
+  SSHPASS: ${{ secrets.SSH_PASSWORD }}
 
 jobs:
   deploy:
@@ -22,12 +23,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Configure SSH
+      - name: Check required secrets
+        run: |
+          test -n "$DEPLOY_HOST" || { echo "SSH_HOST secret is empty"; exit 1; }
+          test -n "$SSHPASS" || { echo "SSH_PASSWORD secret is empty"; exit 1; }
+
+      - name: Install sshpass
+        run: sudo apt-get update && sudo apt-get install -y sshpass
+
+      - name: Trust remote host
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
           ssh-keyscan -H "$DEPLOY_HOST" >> ~/.ssh/known_hosts
+          test -s ~/.ssh/known_hosts || { echo "ssh-keyscan returned empty — host $DEPLOY_HOST unreachable on port 22"; exit 1; }
 
       - name: Materialize .env from secret
         run: |
@@ -36,11 +44,12 @@ jobs:
 
       - name: Ensure remote deploy path exists
         run: |
-          ssh -i ~/.ssh/id_ed25519 "$DEPLOY_USER@$DEPLOY_HOST" "mkdir -p $DEPLOY_PATH"
+          sshpass -e ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no \
+            "$DEPLOY_USER@$DEPLOY_HOST" "mkdir -p $DEPLOY_PATH"
 
       - name: Rsync repo to server
         run: |
-          rsync -az --delete \
+          sshpass -e rsync -az --delete \
             --exclude='.git' \
             --exclude='.github' \
             --exclude='node_modules' \
@@ -50,10 +59,11 @@ jobs:
             --exclude='.mypy_cache' \
             --exclude='.pytest_cache' \
             --exclude='.ruff_cache' \
-            -e "ssh -i ~/.ssh/id_ed25519" \
+            -e "ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no" \
             ./ "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH/"
 
       - name: Rebuild and restart stack
         run: |
-          ssh -i ~/.ssh/id_ed25519 "$DEPLOY_USER@$DEPLOY_HOST" \
+          sshpass -e ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no \
+            "$DEPLOY_USER@$DEPLOY_HOST" \
             "cd $DEPLOY_PATH && docker compose pull --ignore-pull-failures && docker compose up -d --build --remove-orphans && docker compose ps"
