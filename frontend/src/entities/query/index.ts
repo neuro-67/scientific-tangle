@@ -27,6 +27,7 @@ export type {
   Disagreement,
   Expert,
   Laboratory,
+  ComparisonRow,
   GraphNode,
   GraphEdge,
   AnswerSubgraph,
