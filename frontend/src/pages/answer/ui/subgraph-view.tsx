@@ -247,7 +247,7 @@ export function SubgraphView({ subgraph, answerId }: Props) {
         source,
         target,
         type: draft.type,
-        label: draft.label || null,
+        label: draft.label || undefined,
       };
       setEdges((prev) => [...prev, optimistic]);
       markSelected(localId);
@@ -258,7 +258,13 @@ export function SubgraphView({ subgraph, answerId }: Props) {
           type: draft.type,
           label: draft.label || undefined,
         });
-        setEdges((prev) => prev.map((e) => (e.id === localId ? created : e)));
+        const createdEdge: GraphEdge = {
+          ...created,
+          label: created.label ?? undefined,
+        };
+        setEdges((prev) =>
+          prev.map((e) => (e.id === localId ? createdEdge : e))
+        );
         markSelected(created.id);
       } catch (err) {
         setEdges((prev) => prev.filter((e) => e.id !== localId));
