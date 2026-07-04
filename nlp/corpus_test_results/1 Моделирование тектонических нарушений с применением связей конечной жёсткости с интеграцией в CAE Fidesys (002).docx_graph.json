@@ -1,0 +1,3733 @@
+{
+  "document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+  "nodes": [
+    {
+      "id": "Головченко Юрий Юрьевич",
+      "label": "Expert",
+      "properties": {
+        "ORCID": "0000-0003-2980-2173",
+        "confidence": 0.5,
+        "orcid": "0000-0003-2980-2173",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Головченко Юрий Юрьевич",
+        "email": "GolovchenkoYuYu@nornik.ru",
+        "ingestion_date": "2026-07-04T15:58:01.474793"
+      }
+    },
+    {
+      "id": "Румянцев Александр Евгеньевич",
+      "label": "Expert",
+      "properties": {
+        "ORCID": "0000-0002-2204-961X",
+        "confidence": 0.5,
+        "degree": "кандидат технических наук",
+        "orcid": "0000-0002-2204-961X",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Румянцев Александр Евгеньевич",
+        "position": "канд. техн. наук; вед. науч. сотр. Горной лаб.",
+        "email": "RumyantsevAE@nornik.ru",
+        "ingestion_date": "2026-07-04T15:58:01.474811"
+      }
+    },
+    {
+      "id": "Лалин Владимир Владимирович",
+      "label": "Expert",
+      "properties": {
+        "ORCID": "0000-0003-3850-424X",
+        "confidence": 0.5,
+        "degree": "доктор технических наук, профессор",
+        "orcid": "0000-0003-3850-424X",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Лалин Владимир Владимирович",
+        "email": "",
+        "ingestion_date": "2026-07-04T15:58:01.474815"
+      }
+    },
+    {
+      "id": "Соннов Максим Александрович",
+      "label": "Expert",
+      "properties": {
+        "role": "действительный член Академии горных наук, заместитель генерального директора",
+        "affiliation": "ООО «Фидесис»",
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "position": "заместитель генерального директора",
+        "validation_status": "pending",
+        "id": "Соннов Максим Александрович",
+        "email": "Sonnov@cae-fidesys.com",
+        "ingestion_date": "2026-07-04T15:58:01.474818"
+      }
+    },
+    {
+      "id": "моделирование тектонических нарушений",
+      "label": "Process",
+      "properties": {
+        "domain": "геомеханика",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "моделирование тектонических нарушений",
+        "ingestion_date": "2026-07-04T15:58:01.475044"
+      }
+    },
+    {
+      "id": "CAE Fidesys",
+      "label": "Equipment",
+      "properties": {
+        "method": "метод конечных элементов",
+        "origin": "RU",
+        "confidence": 0.5,
+        "description": "программный комплекс для моделирования",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "CAE Fidesys",
+        "validation_status": "pending",
+        "type": "программный комплекс",
+        "ingestion_date": "2026-07-04T15:58:01.474878"
+      }
+    },
+    {
+      "id": "связи конечной жёсткости",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "description": "специальные пружинные элементы между узлами сетки с регулируемой жёсткостью в определённых направлениях",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "связи конечной жёсткости",
+        "type": "пружинные элементы",
+        "ingestion_date": "2026-07-04T15:58:01.474881"
+      }
+    },
+    {
+      "id": "метод конечных элементов",
+      "label": "Process",
+      "properties": {
+        "domain": "численное моделирование",
+        "confidence": 0.5,
+        "description": "метод конечных элементов для моделирования",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "метод конечных элементов",
+        "ingestion_date": "2026-07-04T15:58:01.474999"
+      }
+    },
+    {
+      "id": "жёсткость",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "жёсткость",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475500"
+      }
+    },
+    {
+      "id": "инженерная геология",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "инженерная геология",
+        "ingestion_date": "2026-07-04T15:58:01.475172"
+      }
+    },
+    {
+      "id": "горное дело",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "горное дело",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475176"
+      }
+    },
+    {
+      "id": "сейсмостойкое проектирование",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "сейсмостойкое проектирование",
+        "ingestion_date": "2026-07-04T15:58:01.475181"
+      }
+    },
+    {
+      "id": "толщина",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "толщина",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475302"
+      }
+    },
+    {
+      "id": "модуль упругости",
+      "label": "Property",
+      "properties": {
+        "unit": "Па",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "модуль упругости",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475306"
+      }
+    },
+    {
+      "id": "мощность тектоники",
+      "label": "Property",
+      "properties": {
+        "unit": "м",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "мощность тектоники",
+        "ingestion_date": "2026-07-04T15:58:01.475213"
+      }
+    },
+    {
+      "id": "САПР AutoCAD",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "САПР AutoCAD",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475137",
+        "manufacturer": "Autodesk"
+      }
+    },
+    {
+      "id": "методика",
+      "label": "Process",
+      "properties": {
+        "domain": "геомеханика",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "методика",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475449"
+      }
+    },
+    {
+      "id": "погрешность",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "погрешность",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475361"
+      }
+    },
+    {
+      "id": "глобальная численная модель рудника",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "глобальная численная модель рудника",
+        "ingestion_date": "2026-07-04T15:58:01.475352"
+      }
+    },
+    {
+      "id": "тектонические нарушения",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "тектонические нарушения",
+        "ingestion_date": "2026-07-04T15:58:01.474884"
+      }
+    },
+    {
+      "id": "обследование вертикальной выработки",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "обследование вертикальной выработки",
+        "ingestion_date": "2026-07-04T15:58:01.475432"
+      }
+    },
+    {
+      "id": "характерные деформации массива",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "характерные деформации массива",
+        "ingestion_date": "2026-07-04T15:58:01.475436"
+      }
+    },
+    {
+      "id": "высокая степень сходимости",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "высокая степень сходимости",
+        "ingestion_date": "2026-07-04T15:58:01.475420"
+      }
+    },
+    {
+      "id": "ориентация компонент тензора напряжений",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "ориентация компонент тензора напряжений",
+        "ingestion_date": "2026-07-04T15:58:01.475425"
+      }
+    },
+    {
+      "id": "источник_1",
+      "label": "Publication",
+      "properties": {
+        "pages": "39-45",
+        "journal": "Горный информационно-аналитический бюллетень",
+        "issue": 8,
+        "year": 2022,
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "источник_1",
+        "validation_status": "pending",
+        "title": "Моделирование напряжённо-деформированного состояния блочного массива рудного месторождения при отработке системами с обрушением",
+        "ingestion_date": "2026-07-04T15:58:01.475522"
+      }
+    },
+    {
+      "id": "источник_2",
+      "label": "Publication",
+      "properties": {
+        "pages": "71-74",
+        "journal": "Горная промышленность",
+        "issue": 6,
+        "year": 2023,
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "источник_2",
+        "validation_status": "pending",
+        "title": "Комплексное геомеханическое моделирование разработки жильных месторождений блочного строения",
+        "ingestion_date": "2026-07-04T15:58:01.475524"
+      }
+    },
+    {
+      "id": "источник_3",
+      "label": "Publication",
+      "properties": {
+        "pages": 536,
+        "year": 1975,
+        "author": "Гзовский М.В.",
+        "geography": "RU",
+        "confidence": 0.5,
+        "publisher": "Недра",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "источник_3",
+        "validation_status": "pending",
+        "title": "Основы тектонофизики",
+        "ingestion_date": "2026-07-04T15:58:01.475527"
+      }
+    },
+    {
+      "id": "ФГАОУ ВО «Санкт-Петербургский политехнический университет Петра Великого»",
+      "label": "Facility",
+      "properties": {
+        "country": "Российская Федерация",
+        "city": "Санкт-Петербург",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "ФГАОУ ВО «Санкт-Петербургский политехнический университет Петра Великого»",
+        "ingestion_date": "2026-07-04T15:58:01.474824"
+      }
+    },
+    {
+      "id": "ФГАОУ ВО «Российский Университет Дружбы Народов имени Патриса Лумумбы»",
+      "label": "Facility",
+      "properties": {
+        "country": "Российская Федерация",
+        "city": "Санкт-Петербург",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "ФГАОУ ВО «Российский Университет Дружбы Народов имени Патриса Лумумбы»",
+        "ingestion_date": "2026-07-04T15:58:01.474827"
+      }
+    },
+    {
+      "id": "ООО «Фидесис»",
+      "label": "Facility",
+      "properties": {
+        "country": "Российская Федерация",
+        "city": "Москва",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "ООО «Фидесис»",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.474865"
+      }
+    },
+    {
+      "id": "моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys",
+        "ingestion_date": "2026-07-04T15:58:01.474871"
+      }
+    },
+    {
+      "id": "методология",
+      "label": "Process",
+      "properties": {
+        "domain": "геомеханика",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "методология",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.474890"
+      }
+    },
+    {
+      "id": "модуль_на_питоне",
+      "label": "Process",
+      "properties": {
+        "implementation": "Python-based standalone module",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "модуль_на_питоне",
+        "ingestion_date": "2026-07-04T15:58:01.474893"
+      }
+    },
+    {
+      "id": "Fidesys",
+      "label": "Equipment",
+      "properties": {
+        "software": "CAE Fidesys",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Fidesys",
+        "ingestion_date": "2026-07-04T15:58:01.474895"
+      }
+    },
+    {
+      "id": "конечные_упругие_связи",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "finite stiffness links",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "конечные_упругие_связи",
+        "ingestion_date": "2026-07-04T15:58:01.474898"
+      }
+    },
+    {
+      "id": "геомеханика",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "геомеханика",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.474900"
+      }
+    },
+    {
+      "id": "проектирование_шахтных_выработок",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "проектирование_шахтных_выработок",
+        "ingestion_date": "2026-07-04T15:58:01.474903"
+      }
+    },
+    {
+      "id": "оценка_устойчивости_пород",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "оценка_устойчивости_пород",
+        "ingestion_date": "2026-07-04T15:58:01.474905"
+      }
+    },
+    {
+      "id": "геомеханическая_поддержка_разработки_ресурсов",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "геомеханическая_поддержка_разработки_ресурсов",
+        "ingestion_date": "2026-07-04T15:58:01.474909"
+      }
+    },
+    {
+      "id": "сложные_геологические_структуры",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "сложные_геологические_структуры",
+        "ingestion_date": "2026-07-04T15:58:01.474914"
+      }
+    },
+    {
+      "id": "множественные_пересекающиеся_разломы",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "множественные_пересекающиеся_разломы",
+        "ingestion_date": "2026-07-04T15:58:01.474919"
+      }
+    },
+    {
+      "id": "теоретические_результаты",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "теоретические_результаты",
+        "ingestion_date": "2026-07-04T15:58:01.474923"
+      }
+    },
+    {
+      "id": "эмпирические_результаты",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "эмпирические_результаты",
+        "ingestion_date": "2026-07-04T15:58:01.474928"
+      }
+    },
+    {
+      "id": "рекомендации_по_выбору_параметров_пружинных_элементов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "рекомендации_по_выбору_параметров_пружинных_элементов",
+        "ingestion_date": "2026-07-04T15:58:01.474932"
+      }
+    },
+    {
+      "id": "источник_стр_3",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "источник_стр_3",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.474937",
+        "span": "p.3"
+      }
+    },
+    {
+      "id": "геологическая_структура_породного_массива",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "geological structure of the rock mass",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "геологическая_структура_породного_массива",
+        "ingestion_date": "2026-07-04T15:58:01.474941"
+      }
+    },
+    {
+      "id": "степень_тектонического_раздробления",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "degree of tectonic fracturing",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "степень_тектонического_раздробления",
+        "ingestion_date": "2026-07-04T15:58:01.474946"
+      }
+    },
+    {
+      "id": "особенности_инженерной_задачи",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "specifics of the engineering problem",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "особенности_инженерной_задачи",
+        "ingestion_date": "2026-07-04T15:58:01.474950"
+      }
+    },
+    {
+      "id": "tectonic faults",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "tectonic faults",
+        "ingestion_date": "2026-07-04T15:58:01.474955"
+      }
+    },
+    {
+      "id": "numerical modeling",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "numerical modeling",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.474959"
+      }
+    },
+    {
+      "id": "finite element method",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "finite element method",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.474964"
+      }
+    },
+    {
+      "id": "finite stiffness links",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "finite stiffness links",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.474968"
+      }
+    },
+    {
+      "id": "weakened zones",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "weakened zones",
+        "ingestion_date": "2026-07-04T15:58:01.474972"
+      }
+    },
+    {
+      "id": "geomechanics",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "geomechanics",
+        "ingestion_date": "2026-07-04T15:58:01.474976"
+      }
+    },
+    {
+      "id": "spring elements",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "spring elements",
+        "ingestion_date": "2026-07-04T15:58:01.474980"
+      }
+    },
+    {
+      "id": "engineering geology",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "engineering geology",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.474985"
+      }
+    },
+    {
+      "id": "методика моделирования тектонических нарушений",
+      "label": "Process",
+      "properties": {
+        "domain": "геомеханика",
+        "confidence": 0.5,
+        "description": "оригинальная методика моделирования тектонических нарушений в массивах горных пород с использованием связей конечной жёсткости",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "методика моделирования тектонических нарушений",
+        "ingestion_date": "2026-07-04T15:58:01.474989"
+      }
+    },
+    {
+      "id": "автономная надстройка",
+      "label": "Process",
+      "properties": {
+        "implementation_language": "Python",
+        "confidence": 0.5,
+        "integration": "CAE Fidesys",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "автономная надстройка",
+        "ingestion_date": "2026-07-04T15:58:01.474994"
+      }
+    },
+    {
+      "id": "неявная форма задания тектонических нарушений",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "возможность задания тектонических нарушений без явного построения геометрии разломов и сопряжения с другими структурными элементами",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "неявная форма задания тектонических нарушений",
+        "ingestion_date": "2026-07-04T15:58:01.475003"
+      }
+    },
+    {
+      "id": "упрощение топологии модели",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "уменьшение сложности топологии модели за счёт отказа от явного построения разломов",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "упрощение топологии модели",
+        "ingestion_date": "2026-07-04T15:58:01.475008"
+      }
+    },
+    {
+      "id": "повышение устойчивости численного расчёта",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "повышение устойчивости численного расчёта при использовании неявного описания ослабленных зон",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "повышение устойчивости численного расчёта",
+        "ingestion_date": "2026-07-04T15:58:01.475013"
+      }
+    },
+    {
+      "id": "связи конечной жесткости",
+      "label": "Process",
+      "properties": {
+        "domain": "геомеханика",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "связи конечной жесткости",
+        "ingestion_date": "2026-07-04T15:58:01.475018"
+      }
+    },
+    {
+      "id": "моделирование поведения разломов",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "моделирование поведения разломов",
+        "ingestion_date": "2026-07-04T15:58:01.475022"
+      }
+    },
+    {
+      "id": "напряженно-деформированное состояние массива",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "напряженно-деформированное состояние массива",
+        "ingestion_date": "2026-07-04T15:58:01.475026"
+      }
+    },
+    {
+      "id": "уменьшение требований к качеству сетки",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "уменьшение требований к качеству сетки",
+        "ingestion_date": "2026-07-04T15:58:01.475031"
+      }
+    },
+    {
+      "id": "учет сложной геометрии разломов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "учет сложной геометрии разломов",
+        "ingestion_date": "2026-07-04T15:58:01.475035"
+      }
+    },
+    {
+      "id": "численное моделирование",
+      "label": "Process",
+      "properties": {
+        "domain": "инженерные расчёты",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "численное моделирование",
+        "ingestion_date": "2026-07-04T15:58:01.475049"
+      }
+    },
+    {
+      "id": "напряжённо-деформированное состояние массива",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "напряжённо-деформированное состояние массива",
+        "ingestion_date": "2026-07-04T15:58:01.475054"
+      }
+    },
+    {
+      "id": "геометрия разломов",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "геометрия разломов",
+        "ingestion_date": "2026-07-04T15:58:01.475058"
+      }
+    },
+    {
+      "id": "механические свойства разломов",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "механические свойства разломов",
+        "ingestion_date": "2026-07-04T15:58:01.475063"
+      }
+    },
+    {
+      "id": "эффективность разработанной методики",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "эффективность разработанной методики",
+        "ingestion_date": "2026-07-04T15:58:01.475067"
+      }
+    },
+    {
+      "id": "рекомендации по выбору параметров связей конечной жесткости",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "рекомендации по выбору параметров связей конечной жесткости",
+        "ingestion_date": "2026-07-04T15:58:01.475072"
+      }
+    },
+    {
+      "id": "моделирование пересечения нарушений с горными массивами",
+      "label": "Process",
+      "properties": {
+        "domain": "геомеханика",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "моделирование пересечения нарушений с горными массивами",
+        "ingestion_date": "2026-07-04T15:58:01.475077"
+      }
+    },
+    {
+      "id": "рисунок 1.1",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "рисунок 1.1",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475112"
+      }
+    },
+    {
+      "id": "рисунок 1.2",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "рисунок 1.2",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475119"
+      }
+    },
+    {
+      "id": "моделирование геометрии тектонических нарушений",
+      "label": "Process",
+      "properties": {
+        "domain": "геомеханика",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "моделирование геометрии тектонических нарушений",
+        "ingestion_date": "2026-07-04T15:58:01.475128"
+      }
+    },
+    {
+      "id": "трехгранная сеть",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "трехгранная сеть",
+        "type": "геометрическая модель",
+        "ingestion_date": "2026-07-04T15:58:01.475133"
+      }
+    },
+    {
+      "id": "высокая вычислительная эффективность",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "высокая вычислительная эффективность",
+        "ingestion_date": "2026-07-04T15:58:01.475142"
+      }
+    },
+    {
+      "id": "реалистичность модели",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "реалистичность модели",
+        "ingestion_date": "2026-07-04T15:58:01.475146"
+      }
+    },
+    {
+      "id": "адаптируемость к геомеханическим сценариям",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "адаптируемость к геомеханическим сценариям",
+        "ingestion_date": "2026-07-04T15:58:01.475150"
+      }
+    },
+    {
+      "id": "анализ анизотропии",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "анализ анизотропии",
+        "type": "механическое свойство",
+        "ingestion_date": "2026-07-04T15:58:01.475155"
+      }
+    },
+    {
+      "id": "анализ неоднородности",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "анализ неоднородности",
+        "type": "механическое свойство",
+        "ingestion_date": "2026-07-04T15:58:01.475159"
+      }
+    },
+    {
+      "id": "моделирование полного разрушения сцепления",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "моделирование полного разрушения сцепления",
+        "ingestion_date": "2026-07-04T15:58:01.475164"
+      }
+    },
+    {
+      "id": "моделирование частичной деградации механических свойств",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "моделирование частичной деградации механических свойств",
+        "ingestion_date": "2026-07-04T15:58:01.475168"
+      }
+    },
+    {
+      "id": "сопряжение тектонических нарушений",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "сопряжение тектонических нарушений",
+        "ingestion_date": "2026-07-04T15:58:01.475185"
+      }
+    },
+    {
+      "id": "участки пересечения тектонических нарушений",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "участки пересечения тектонических нарушений",
+        "ingestion_date": "2026-07-04T15:58:01.475189"
+      }
+    },
+    {
+      "id": "модуль упругости тектоники",
+      "label": "Property",
+      "properties": {
+        "unit": "Па",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "модуль упругости тектоники",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475200"
+      }
+    },
+    {
+      "id": "площадь эквивалентного участка",
+      "label": "Property",
+      "properties": {
+        "unit": "м²",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "площадь эквивалентного участка",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475204"
+      }
+    },
+    {
+      "id": "моменты инерции относительно локальных осей",
+      "label": "Property",
+      "properties": {
+        "unit": "м⁴",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "моменты инерции относительно локальных осей",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475208"
+      }
+    },
+    {
+      "id": "формулы (1-3)",
+      "label": "Process",
+      "properties": {
+        "domain": "механика",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "формулы (1-3)",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475217"
+      }
+    },
+    {
+      "id": "матрица жесткости стержня Бернулли-Эйлера",
+      "label": "Process",
+      "properties": {
+        "domain": "механика",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "матрица жесткости стержня Бернулли-Эйлера",
+        "ingestion_date": "2026-07-04T15:58:01.475222"
+      }
+    },
+    {
+      "id": "перемещение стержня по трем направлениям",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "перемещение стержня по трем направлениям",
+        "ingestion_date": "2026-07-04T15:58:01.475226"
+      }
+    },
+    {
+      "id": "расчет бруса с ослабленным участком",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "расчет бруса с ослабленным участком",
+        "ingestion_date": "2026-07-04T15:58:01.475231"
+      }
+    },
+    {
+      "id": "модель с ослабленной зоной, заданной твердым телом",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "модель с ослабленной зоной, заданной твердым телом",
+        "ingestion_date": "2026-07-04T15:58:01.475235"
+      }
+    },
+    {
+      "id": "модель с ослабленной зоной, заданной связями конечной жесткости",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "модель с ослабленной зоной, заданной связями конечной жесткости",
+        "ingestion_date": "2026-07-04T15:58:01.475239"
+      }
+    },
+    {
+      "id": "сравнение моделей",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "сравнение моделей",
+        "ingestion_date": "2026-07-04T15:58:01.475243"
+      }
+    },
+    {
+      "id": "максимальное значение перемещений по осям OX, OY, OZ",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "максимальное значение перемещений по осям OX, OY, OZ",
+        "ingestion_date": "2026-07-04T15:58:01.475248"
+      }
+    },
+    {
+      "id": "рисунок 2.1",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "рисунок 2.1",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475253"
+      }
+    },
+    {
+      "id": "рисунок 2.2",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "рисунок 2.2",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475258"
+      }
+    },
+    {
+      "id": "рисунок 2.3",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "рисунок 2.3",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475262"
+      }
+    },
+    {
+      "id": "рисунок 2.4",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "рисунок 2.4",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475267"
+      }
+    },
+    {
+      "id": "рисунок 2.5",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "рисунок 2.5",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475271"
+      }
+    },
+    {
+      "id": "страница 8",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "страница 8",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475276",
+        "span": "p.8"
+      }
+    },
+    {
+      "id": "AutoCAD",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "AutoCAD",
+        "ingestion_date": "2026-07-04T15:58:01.475280"
+      }
+    },
+    {
+      "id": "разрезка твердых тел численной модели",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "разрезка твердых тел численной модели",
+        "ingestion_date": "2026-07-04T15:58:01.475284"
+      }
+    },
+    {
+      "id": "генерация конформной сетки конечных элементов",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "генерация конформной сетки конечных элементов",
+        "ingestion_date": "2026-07-04T15:58:01.475289"
+      }
+    },
+    {
+      "id": "разрыв узлов по плоскостям разрезов",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "разрыв узлов по плоскостям разрезов",
+        "ingestion_date": "2026-07-04T15:58:01.475293"
+      }
+    },
+    {
+      "id": "определение основных характеристик тектонического нарушения",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "определение основных характеристик тектонического нарушения",
+        "ingestion_date": "2026-07-04T15:58:01.475298"
+      }
+    },
+    {
+      "id": "вычисление эквивалентных жесткостей",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "вычисление эквивалентных жесткостей",
+        "ingestion_date": "2026-07-04T15:58:01.475311"
+      }
+    },
+    {
+      "id": "локальная система координат",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "локальная система координат",
+        "ingestion_date": "2026-07-04T15:58:01.475316"
+      }
+    },
+    {
+      "id": "OXлок",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "OXлок",
+        "ingestion_date": "2026-07-04T15:58:01.475320"
+      }
+    },
+    {
+      "id": "OYлок",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "OYлок",
+        "ingestion_date": "2026-07-04T15:58:01.475325"
+      }
+    },
+    {
+      "id": "OZлок",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "OZлок",
+        "ingestion_date": "2026-07-04T15:58:01.475329"
+      }
+    },
+    {
+      "id": "моменты инерции",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "моменты инерции",
+        "ingestion_date": "2026-07-04T15:58:01.475333"
+      }
+    },
+    {
+      "id": "верификационная задача",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "верификационная задача",
+        "ingestion_date": "2026-07-04T15:58:01.475339"
+      }
+    },
+    {
+      "id": "корректная работа разработанной методики",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "корректная работа разработанной методики",
+        "ingestion_date": "2026-07-04T15:58:01.475344"
+      }
+    },
+    {
+      "id": "разработанная методика",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "разработанная методика",
+        "ingestion_date": "2026-07-04T15:58:01.475348"
+      }
+    },
+    {
+      "id": "рисунок 2.6",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "рисунок 2.6",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475356",
+        "span": "p.9"
+      }
+    },
+    {
+      "id": "норма",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "норма",
+        "ingestion_date": "2026-07-04T15:58:01.475365"
+      }
+    },
+    {
+      "id": "инженерная погрешность",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "инженерная погрешность",
+        "ingestion_date": "2026-07-04T15:58:01.475370"
+      }
+    },
+    {
+      "id": "незначительное превышение инженерной погрешности в 5%",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "незначительное превышение инженерной погрешности в 5%",
+        "ingestion_date": "2026-07-04T15:58:01.475374"
+      }
+    },
+    {
+      "id": "накопленная погрешность от численного интегрирования",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "накопленная погрешность от численного интегрирования",
+        "ingestion_date": "2026-07-04T15:58:01.475379"
+      }
+    },
+    {
+      "id": "погрешность чисел с плавающей точкой",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "погрешность чисел с плавающей точкой",
+        "ingestion_date": "2026-07-04T15:58:01.475383"
+      }
+    },
+    {
+      "id": "моделирование напряжений",
+      "label": "Process",
+      "properties": {
+        "domain": "геомеханика",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "моделирование напряжений",
+        "ingestion_date": "2026-07-04T15:58:01.475395"
+      }
+    },
+    {
+      "id": "верификация расчётов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "верификация расчётов",
+        "ingestion_date": "2026-07-04T15:58:01.475399"
+      }
+    },
+    {
+      "id": "гравитационные граничные условия",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "гравитационные граничные условия",
+        "ingestion_date": "2026-07-04T15:58:01.475403"
+      }
+    },
+    {
+      "id": "перераспределение напряжений",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "перераспределение напряжений",
+        "ingestion_date": "2026-07-04T15:58:01.475408"
+      }
+    },
+    {
+      "id": "предложенная методика",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "предложенная методика",
+        "ingestion_date": "2026-07-04T15:58:01.475412"
+      }
+    },
+    {
+      "id": "глобальная численная модель",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "глобальная численная модель",
+        "ingestion_date": "2026-07-04T15:58:01.475416"
+      }
+    },
+    {
+      "id": "значения компонент тензора напряжений",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "значения компонент тензора напряжений",
+        "ingestion_date": "2026-07-04T15:58:01.475428"
+      }
+    },
+    {
+      "id": "горизонтальная составляющая тензора напряжений",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "горизонтальная составляющая тензора напряжений",
+        "ingestion_date": "2026-07-04T15:58:01.475440"
+      }
+    },
+    {
+      "id": "рисунок 2.7",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "рисунок 2.7",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475444",
+        "span": "p.9"
+      }
+    },
+    {
+      "id": "тестовые задачи",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "тестовые задачи",
+        "ingestion_date": "2026-07-04T15:58:01.475457"
+      }
+    },
+    {
+      "id": "численное моделирование тектонических нарушений",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "численное моделирование тектонических нарушений",
+        "ingestion_date": "2026-07-04T15:58:01.475462"
+      }
+    },
+    {
+      "id": "геомеханический анализ",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "геомеханический анализ",
+        "ingestion_date": "2026-07-04T15:58:01.475465"
+      }
+    },
+    {
+      "id": "инженерные проекты",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "инженерные проекты",
+        "ingestion_date": "2026-07-04T15:58:01.475469"
+      }
+    },
+    {
+      "id": "горнотехнические объекты",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "горнотехнические объекты",
+        "ingestion_date": "2026-07-04T15:58:01.475474"
+      }
+    },
+    {
+      "id": "инфраструктурные объекты",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "инфраструктурные объекты",
+        "ingestion_date": "2026-07-04T15:58:01.475478"
+      }
+    },
+    {
+      "id": "блоковый массив рудного месторождения",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "блоковый массив рудного месторождения",
+        "ingestion_date": "2026-07-04T15:58:01.475483"
+      }
+    },
+    {
+      "id": "системы с обрушением",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "системы с обрушением",
+        "ingestion_date": "2026-07-04T15:58:01.475488"
+      }
+    },
+    {
+      "id": "жильные месторождения блочного строения",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "жильные месторождения блочного строения",
+        "ingestion_date": "2026-07-04T15:58:01.475493"
+      }
+    },
+    {
+      "id": "напряжённо-деформированное состояние",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "напряжённо-деформированное состояние",
+        "ingestion_date": "2026-07-04T15:58:01.475498"
+      }
+    },
+    {
+      "id": "расчётная сетка",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "расчётная сетка",
+        "ingestion_date": "2026-07-04T15:58:01.475503"
+      }
+    },
+    {
+      "id": "прикладная ценность",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "прикладная ценность",
+        "ingestion_date": "2026-07-04T15:58:01.475508"
+      }
+    },
+    {
+      "id": "работоспособность",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "работоспособность",
+        "ingestion_date": "2026-07-04T15:58:01.475510"
+      }
+    },
+    {
+      "id": "протасеня_а_г",
+      "label": "Expert",
+      "properties": {
+        "affiliation": "Горный информационно-аналитический бюллетень",
+        "confidence": 0.5,
+        "name": "Протасеня А.Г.",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "протасеня_а_г",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475512"
+      }
+    },
+    {
+      "id": "мороз_н_е",
+      "label": "Expert",
+      "properties": {
+        "affiliation": "Горная промышленность",
+        "confidence": 0.5,
+        "name": "Мороз Н.Е.",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "мороз_н_е",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475515"
+      }
+    },
+    {
+      "id": "соннов_м_а",
+      "label": "Expert",
+      "properties": {
+        "affiliation": "Горная промышленность",
+        "confidence": 0.5,
+        "name": "Соннов М.А.",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "соннов_м_а",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475517"
+      }
+    },
+    {
+      "id": "гзовский_м_в",
+      "label": "Expert",
+      "properties": {
+        "affiliation": "Недра",
+        "confidence": 0.5,
+        "name": "Гзовский М.В.",
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "гзовский_м_в",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475519"
+      }
+    },
+    {
+      "id": "страница_10",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "страница_10",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475529",
+        "span": "p.10"
+      }
+    },
+    {
+      "id": "эксплуатация",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "эксплуатация",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475531"
+      }
+    },
+    {
+      "id": "проектирование",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "проектирование",
+        "ingestion_date": "2026-07-04T15:58:01.475534"
+      }
+    },
+    {
+      "id": "Гайнанов Ш.Х.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "Гайнанов Ш.Х.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475537"
+      }
+    },
+    {
+      "id": "Аптуков В.Н.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "Аптуков В.Н.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475539"
+      }
+    },
+    {
+      "id": "Середин В.В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "Середин В.В.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475541"
+      }
+    },
+    {
+      "id": "Khalifeh-Soltani, A.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "Khalifeh-Soltani, A.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475544"
+      }
+    },
+    {
+      "id": "Alavi, S. A.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Alavi, S. A.",
+        "ingestion_date": "2026-07-04T15:58:01.475546"
+      }
+    },
+    {
+      "id": "Ghassemi, M. R.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "Ghassemi, M. R.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475548"
+      }
+    },
+    {
+      "id": "Ganjiani, M.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Ganjiani, M.",
+        "ingestion_date": "2026-07-04T15:58:01.475551"
+      }
+    },
+    {
+      "id": "Derakhshani, R.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "Derakhshani, R.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475553"
+      }
+    },
+    {
+      "id": "Augarde, C.E.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Augarde, C.E.",
+        "ingestion_date": "2026-07-04T15:58:01.475555"
+      }
+    },
+    {
+      "id": "Lee, S.J.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Lee, S.J.",
+        "ingestion_date": "2026-07-04T15:58:01.475557"
+      }
+    },
+    {
+      "id": "Loukidis, D.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Loukidis, D.",
+        "ingestion_date": "2026-07-04T15:58:01.475559"
+      }
+    },
+    {
+      "id": "Peikert, J.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Peikert, J.",
+        "ingestion_date": "2026-07-04T15:58:01.475562"
+      }
+    },
+    {
+      "id": "Hampel, A.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Hampel, A.",
+        "ingestion_date": "2026-07-04T15:58:01.475565"
+      }
+    },
+    {
+      "id": "Bagge, M.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Bagge, M.",
+        "ingestion_date": "2026-07-04T15:58:01.475567"
+      }
+    },
+    {
+      "id": "Hutka, G. A.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Hutka, G. A.",
+        "ingestion_date": "2026-07-04T15:58:01.475569"
+      }
+    },
+    {
+      "id": "Cacace, M.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Cacace, M.",
+        "ingestion_date": "2026-07-04T15:58:01.475572"
+      }
+    },
+    {
+      "id": "Hofmann, H.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Hofmann, H.",
+        "ingestion_date": "2026-07-04T15:58:01.475574"
+      }
+    },
+    {
+      "id": "Zang, A.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Zang, A.",
+        "ingestion_date": "2026-07-04T15:58:01.475576"
+      }
+    },
+    {
+      "id": "Wang, L.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Wang, L.",
+        "ingestion_date": "2026-07-04T15:58:01.475578"
+      }
+    },
+    {
+      "id": "Ji, Y.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Ji, Y.",
+        "ingestion_date": "2026-07-04T15:58:01.475580"
+      }
+    },
+    {
+      "id": "Математическое моделирование трещинов",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Математическое моделирование трещинов",
+        "ingestion_date": "2026-07-04T15:58:01.475583"
+      }
+    },
+    {
+      "id": "Elucidating fault-related fold mechanics: a 2D finite element analysis of bending, slip, and buckling mechanisms",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "Elucidating fault-related fold mechanics: a 2D finite element analysis of bending, slip, and buckling mechanisms",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475585"
+      }
+    },
+    {
+      "id": "Numerical modelling of large deformation problems in geotechnical engineering: A state-of-the-art review",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "Numerical modelling of large deformation problems in geotechnical engineering: A state-of-the-art review",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475588"
+      }
+    },
+    {
+      "id": "Three-dimensional finite-element modeling of Coulomb stress changes on normal and thrust faults caused by pore fluid pressure changes and postseismic viscoelastic relaxation",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "Three-dimensional finite-element modeling of Coulomb stress changes on normal and thrust faults caused by pore fluid pressure changes and postseismic viscoelastic relaxation",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475590"
+      }
+    },
+    {
+      "id": "Numerical investigation of the effect of fluid pressurization rate on laboratory-scale injection-induced fault slip",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "Numerical investigation of the effect of fluid pressurization rate on laboratory-scale injection-induced fault slip",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475593"
+      }
+    },
+    {
+      "id": "Известия Томского политехнического университета. Инжиниринг георесурсов",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Известия Томского политехнического университета. Инжиниринг георесурсов",
+        "ingestion_date": "2026-07-04T15:58:01.475595"
+      }
+    },
+    {
+      "id": "Frontiers in Earth Science",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "Frontiers in Earth Science",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475597"
+      }
+    },
+    {
+      "id": "Soils and Foundations",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "Soils and Foundations",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475600"
+      }
+    },
+    {
+      "id": "Geosphere",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "Geosphere",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475602"
+      }
+    },
+    {
+      "id": "Scientific Reports",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "Scientific Reports",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475604"
+      }
+    },
+    {
+      "id": "Котельникова Е.М.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Котельникова Е.М.",
+        "ingestion_date": "2026-07-04T15:58:01.475609"
+      }
+    },
+    {
+      "id": "Клыков П.И.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "Клыков П.И.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475611"
+      }
+    },
+    {
+      "id": "Зверев Г.В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "Зверев Г.В.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475613"
+      }
+    },
+    {
+      "id": "А.В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "А.В.",
+        "ingestion_date": "2026-07-04T15:58:01.475616"
+      }
+    },
+    {
+      "id": "Петренко И.А.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "Петренко И.А.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475618"
+      }
+    },
+    {
+      "id": "Кудряшова Д.А.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "Кудряшова Д.А.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475620"
+      }
+    },
+    {
+      "id": "Мошкин Н.А.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "Мошкин Н.А.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475623"
+      }
+    },
+    {
+      "id": "Мирошникова М.Л.К.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Мирошникова М.Л.К.",
+        "ingestion_date": "2026-07-04T15:58:01.475625"
+      }
+    },
+    {
+      "id": "Мезенцев А.Ю.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "Мезенцев А.Ю.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475627"
+      }
+    },
+    {
+      "id": "Кадыралиева Г.А.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Кадыралиева Г.А.",
+        "ingestion_date": "2026-07-04T15:58:01.475629"
+      }
+    },
+    {
+      "id": "Перепелкин М.А.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "Перепелкин М.А.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475632"
+      }
+    },
+    {
+      "id": "Геодинамически активные структуры западного фланга Талнахской тектоно-магматической системы",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Геодинамически активные структуры западного фланга Талнахской тектоно-магматической системы",
+        "ingestion_date": "2026-07-04T15:58:01.475634"
+      }
+    },
+    {
+      "id": "Геодинамическое районирование юго-западной части Талнахской тектономагматической системы",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Геодинамическое районирование юго-западной части Талнахской тектономагматической системы",
+        "ingestion_date": "2026-07-04T15:58:01.475636"
+      }
+    },
+    {
+      "id": "Построение 1D геомеханической модели для сложных горно-геологических условий на примере месторождения Южного Каспия",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Построение 1D геомеханической модели для сложных горно-геологических условий на примере месторождения Южного Каспия",
+        "ingestion_date": "2026-07-04T15:58:01.475639"
+      }
+    },
+    {
+      "id": "Талнахская тектоно-магматическая система",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "Талнахская тектоно-магматическая система",
+        "ingestion_date": "2026-07-04T15:58:01.475641"
+      }
+    },
+    {
+      "id": "месторождение Южного Каспия",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "месторождение Южного Каспия",
+        "ingestion_date": "2026-07-04T15:58:01.475644"
+      }
+    },
+    {
+      "id": "1D геомеханическая модель",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "1D геомеханическая модель",
+        "ingestion_date": "2026-07-04T15:58:01.475646"
+      }
+    },
+    {
+      "id": "численная модель",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "численная модель",
+        "ingestion_date": "2026-07-04T15:58:01.475648"
+      }
+    },
+    {
+      "id": "натурное измерение",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "validation_status": "pending",
+        "id": "натурное измерение",
+        "ingestion_date": "2026-07-04T15:58:01.475650"
+      }
+    },
+    {
+      "id": "С. 105-112",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "С. 105-112",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475653",
+        "span": "p.12"
+      }
+    },
+    {
+      "id": "С. 103-109",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "С. 103-109",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475655",
+        "span": "p.12"
+      }
+    },
+    {
+      "id": "С. 12-18",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "С. 12-18",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475657",
+        "span": "p.12"
+      }
+    },
+    {
+      "id": "геодинамика",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "геодинамика",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475660"
+      }
+    },
+    {
+      "id": "моделирование",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "моделирование",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475662"
+      }
+    },
+    {
+      "id": "измерение",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+        "id": "измерение",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:58:01.475665"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "обследование вертикальной выработки",
+      "target": "характерные деформации массива",
+      "type": "SHOWED"
+    },
+    {
+      "source": "верификация расчётов",
+      "target": "высокая степень сходимости",
+      "type": "SHOWED"
+    },
+    {
+      "source": "высокая степень сходимости",
+      "target": "ориентация компонент тензора напряжений",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "высокая степень сходимости",
+      "target": "значения компонент тензора напряжений",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Головченко Юрий Юрьевич",
+      "target": "ООО «Институт Гипроникель»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Румянцев Александр Евгеньевич",
+      "target": "ООО «Институт Гипроникель»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Лалин Владимир Владимирович",
+      "target": "ФГАОУ ВО «Санкт-Петербургский политехнический университет Петра Великого»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Лалин Владимир Владимирович",
+      "target": "ФГАОУ ВО «Российский Университет Дружбы Народов имени Патриса Лумумбы»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Соннов Максим Александрович",
+      "target": "ООО «Фидесис»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "методология",
+      "target": "модуль_на_питоне",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "модуль_на_питоне",
+      "target": "Fidesys",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "методология",
+      "target": "конечные_упругие_связи",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "методология",
+      "target": "геомеханика",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методология",
+      "target": "проектирование_шахтных_выработок",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методология",
+      "target": "оценка_устойчивости_пород",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методология",
+      "target": "геомеханическая_поддержка_разработки_ресурсов",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методология",
+      "target": "сложные_геологические_структуры",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методология",
+      "target": "множественные_пересекающиеся_разломы",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методология",
+      "target": "теоретические_результаты",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "методология",
+      "target": "эмпирические_результаты",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "методология",
+      "target": "рекомендации_по_выбору_параметров_пружинных_элементов",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "рекомендации_по_выбору_параметров_пружинных_элементов",
+      "target": "геологическая_структура_породного_массива",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "рекомендации_по_выбору_параметров_пружинных_элементов",
+      "target": "степень_тектонического_раздробления",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "рекомендации_по_выбору_параметров_пружинных_элементов",
+      "target": "особенности_инженерной_задачи",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "методология",
+      "target": "источник_стр_3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "tectonic faults",
+      "target": "geomechanics",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "numerical modeling",
+      "target": "geomechanics",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "finite element method",
+      "target": "numerical modeling",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "finite stiffness links",
+      "target": "finite element method",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "CAE Fidesys",
+      "target": "finite element method",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "weakened zones",
+      "target": "tectonic faults",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "spring elements",
+      "target": "finite stiffness links",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "engineering geology",
+      "target": "geomechanics",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "tectonic faults",
+      "target": "engineering geology",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Соннов Максим Александрович",
+      "target": "методика моделирования тектонических нарушений",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "методика моделирования тектонических нарушений",
+      "target": "метод конечных элементов",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методика моделирования тектонических нарушений",
+      "target": "связи конечной жёсткости",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "методика моделирования тектонических нарушений",
+      "target": "связи конечной жёсткости",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "методика моделирования тектонических нарушений",
+      "target": "автономная надстройка",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "автономная надстройка",
+      "target": "CAE Fidesys",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "методика моделирования тектонических нарушений",
+      "target": "неявная форма задания тектонических нарушений",
+      "type": "SHOWED"
+    },
+    {
+      "source": "неявная форма задания тектонических нарушений",
+      "target": "упрощение топологии модели",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "неявная форма задания тектонических нарушений",
+      "target": "повышение устойчивости численного расчёта",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "методика моделирования тектонических нарушений",
+      "target": "Соннов Максим Александрович",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "метод конечных элементов",
+      "target": "моделирование поведения разломов",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "метод конечных элементов",
+      "target": "связи конечной жесткости",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "связи конечной жесткости",
+      "target": "моделирование поведения разломов",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "моделирование поведения разломов",
+      "target": "напряженно-деформированное состояние массива",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "связи конечной жесткости",
+      "target": "уменьшение требований к качеству сетки",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "связи конечной жесткости",
+      "target": "учет сложной геометрии разломов",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "связи конечной жесткости",
+      "target": "метод конечных элементов",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "метод конечных элементов",
+      "target": "CAE Fidesys",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "связи конечной жесткости",
+      "target": "моделирование тектонических нарушений",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "моделирование тектонических нарушений",
+      "target": "численное моделирование",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "моделирование тектонических нарушений",
+      "target": "напряжённо-деформированное состояние массива",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "моделирование тектонических нарушений",
+      "target": "геометрия разломов",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "моделирование тектонических нарушений",
+      "target": "механические свойства разломов",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "моделирование тектонических нарушений",
+      "target": "эффективность разработанной методики",
+      "type": "SHOWED"
+    },
+    {
+      "source": "моделирование тектонических нарушений",
+      "target": "рекомендации по выбору параметров связей конечной жесткости",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "моделирование тектонических нарушений",
+      "target": "рисунок 1.1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "моделирование пересечения нарушений с горными массивами",
+      "target": "рисунок 1.2",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "связи конечной жесткости",
+      "target": "моделирование геометрии тектонических нарушений",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "моделирование геометрии тектонических нарушений",
+      "target": "САПР AutoCAD",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "моделирование геометрии тектонических нарушений",
+      "target": "трехгранная сеть",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "моделирование геометрии тектонических нарушений",
+      "target": "сопряжение тектонических нарушений",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "моделирование геометрии тектонических нарушений",
+      "target": "участки пересечения тектонических нарушений",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "связи конечной жесткости",
+      "target": "анализ анизотропии",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "связи конечной жесткости",
+      "target": "анализ неоднородности",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "связи конечной жесткости",
+      "target": "моделирование полного разрушения сцепления",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "связи конечной жесткости",
+      "target": "моделирование частичной деградации механических свойств",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "моделирование геометрии тектонических нарушений",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "связи конечной жесткости",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "модуль упругости тектоники",
+      "target": "формулы (1-3)",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "формулы (1-3)",
+      "target": "матрица жесткости стержня Бернулли-Эйлера",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "матрица жесткости стержня Бернулли-Эйлера",
+      "target": "перемещение стержня по трем направлениям",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "расчет бруса с ослабленным участком",
+      "target": "модель с ослабленной зоной, заданной твердым телом",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "расчет бруса с ослабленным участком",
+      "target": "модель с ослабленной зоной, заданной связями конечной жесткости",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "модель с ослабленной зоной, заданной твердым телом",
+      "target": "сравнение моделей",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "модель с ослабленной зоной, заданной связями конечной жесткости",
+      "target": "сравнение моделей",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "сравнение моделей",
+      "target": "максимальное значение перемещений по осям OX, OY, OZ",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "сравнение моделей",
+      "target": "рисунок 2.3",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "сравнение моделей",
+      "target": "рисунок 2.4",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "сравнение моделей",
+      "target": "рисунок 2.5",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "расчет бруса с ослабленным участком",
+      "target": "рисунок 2.1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "формулы (1-3)",
+      "target": "страница 8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "расчет бруса с ослабленным участком",
+      "target": "страница 8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "сравнение моделей",
+      "target": "страница 8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "моделирование геометрии тектонических нарушений",
+      "target": "AutoCAD",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "разрезка твердых тел численной модели",
+      "target": "моделирование геометрии тектонических нарушений",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "генерация конформной сетки конечных элементов",
+      "target": "разрезка твердых тел численной модели",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "разрыв узлов по плоскостям разрезов",
+      "target": "генерация конформной сетки конечных элементов",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "определение основных характеристик тектонического нарушения",
+      "target": "толщина",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "определение основных характеристик тектонического нарушения",
+      "target": "модуль упругости",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "вычисление эквивалентных жесткостей",
+      "target": "определение основных характеристик тектонического нарушения",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "вычисление эквивалентных жесткостей",
+      "target": "локальная система координат",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "локальная система координат",
+      "target": "OXлок",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "локальная система координат",
+      "target": "OYлок",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "локальная система координат",
+      "target": "OZлок",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "вычисление эквивалентных жесткостей",
+      "target": "формулы (1-3)",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "формулы (1-3)",
+      "target": "модуль упругости тектоники",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "формулы (1-3)",
+      "target": "площадь эквивалентного участка",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "формулы (1-3)",
+      "target": "моменты инерции",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "верификационная задача",
+      "target": "корректная работа разработанной методики",
+      "type": "SHOWED"
+    },
+    {
+      "source": "разработанная методика",
+      "target": "глобальная численная модель рудника",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "глобальная численная модель рудника",
+      "target": "рисунок 2.6",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "погрешность",
+      "target": "норма",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "погрешность",
+      "target": "инженерная погрешность",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "незначительное превышение инженерной погрешности в 5%",
+      "target": "погрешность",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "погрешность",
+      "target": "накопленная погрешность от численного интегрирования",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "погрешность",
+      "target": "погрешность чисел с плавающей точкой",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "моделирование напряжений",
+      "target": "верификация расчётов",
+      "type": "SHOWED"
+    },
+    {
+      "source": "моделирование напряжений",
+      "target": "верификация расчётов",
+      "type": "SHOWED"
+    },
+    {
+      "source": "верификация расчётов",
+      "target": "рисунок 2.7",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "верификация расчётов",
+      "target": "рисунок 2.7",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "моделирование напряжений",
+      "target": "гравитационные граничные условия",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "моделирование напряжений",
+      "target": "перераспределение напряжений",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "моделирование напряжений",
+      "target": "предложенная методика",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "предложенная методика",
+      "target": "глобальная численная модель",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "предложенная методика",
+      "target": "тектонические нарушения",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "верификация расчётов",
+      "target": "высокая степень сходимости",
+      "type": "SHOWED"
+    },
+    {
+      "source": "верификация расчётов",
+      "target": "высокая степень сходимости",
+      "type": "SHOWED"
+    },
+    {
+      "source": "верификация расчётов",
+      "target": "высокая степень сходимости",
+      "type": "SHOWED"
+    },
+    {
+      "source": "высокая степень сходимости",
+      "target": "ориентация компонент тензора напряжений",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "высокая степень сходимости",
+      "target": "значения компонент тензора напряжений",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "высокая степень сходимости",
+      "target": "значения компонент тензора напряжений",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "высокая степень сходимости",
+      "target": "значения компонент тензора напряжений",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "обследование вертикальной выработки",
+      "target": "характерные деформации массива",
+      "type": "SHOWED"
+    },
+    {
+      "source": "характерные деформации массива",
+      "target": "горизонтальная составляющая тензора напряжений",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "характерные деформации массива",
+      "target": "горизонтальная составляющая тензора напряжений",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "моделирование напряжений",
+      "target": "рисунок 2.6",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "моделирование напряжений",
+      "target": "рисунок 2.7",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "предложенная методика",
+      "target": "моделирование напряжений",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "предложенная методика",
+      "target": "обследование вертикальной выработки",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "методика",
+      "target": "верификация",
+      "type": "SHOWED"
+    },
+    {
+      "source": "методика",
+      "target": "верификация",
+      "type": "SHOWED"
+    },
+    {
+      "source": "верификация",
+      "target": "тестовые задачи",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "методика",
+      "target": "численное моделирование тектонических нарушений",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методика",
+      "target": "численное моделирование тектонических нарушений",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "численное моделирование тектонических нарушений",
+      "target": "геомеханический анализ",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методика",
+      "target": "инженерные проекты",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "методика",
+      "target": "инженерные проекты",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "методика",
+      "target": "горнотехнические объекты",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методика",
+      "target": "горнотехнические объекты",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методика",
+      "target": "инфраструктурные объекты",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методика",
+      "target": "инфраструктурные объекты",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методика",
+      "target": "тектонические нарушения",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методика",
+      "target": "тектонические нарушения",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методика",
+      "target": "блоковый массив рудного месторождения",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методика",
+      "target": "блоковый массив рудного месторождения",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методика",
+      "target": "системы с обрушением",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методика",
+      "target": "системы с обрушением",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методика",
+      "target": "жильные месторождения блочного строения",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методика",
+      "target": "жильные месторождения блочного строения",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методика",
+      "target": "напряжённо-деформированное состояние",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "методика",
+      "target": "напряжённо-деформированное состояние",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "методика",
+      "target": "жёсткость",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "методика",
+      "target": "жёсткость",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "методика",
+      "target": "расчётная сетка",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "методика",
+      "target": "расчётная сетка",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "методика",
+      "target": "протасеня_а_г",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "методика",
+      "target": "протасеня_а_г",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "методика",
+      "target": "мороз_н_е",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "методика",
+      "target": "мороз_н_е",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "методика",
+      "target": "соннов_м_а",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "методика",
+      "target": "соннов_м_а",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "методика",
+      "target": "гзовский_м_в",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "методика",
+      "target": "гзовский_м_в",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "верификация",
+      "target": "источник_1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "верификация",
+      "target": "источник_2",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "верификация",
+      "target": "источник_3",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "методика",
+      "target": "источник_1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "методика",
+      "target": "источник_1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "методика",
+      "target": "источник_2",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "методика",
+      "target": "источник_2",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "методика",
+      "target": "источник_3",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "методика",
+      "target": "источник_3",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "напряжённо-деформированное состояние",
+      "target": "тектонические нарушения",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "методика",
+      "target": "высокая точность",
+      "type": "SHOWED"
+    },
+    {
+      "source": "методика",
+      "target": "высокая точность",
+      "type": "SHOWED"
+    },
+    {
+      "source": "высокая точность",
+      "target": "верификация",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "прикладная ценность",
+      "target": "методика",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "прикладная ценность",
+      "target": "методика",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "работоспособность",
+      "target": "методика",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "работоспособность",
+      "target": "методика",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "методика",
+      "target": "страница_10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "методика",
+      "target": "страница_10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "верификация",
+      "target": "страница_10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "напряжённо-деформированное состояние",
+      "target": "страница_10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "тектонические нарушения",
+      "target": "страница_10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "методика",
+      "target": "эксплуатация",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методика",
+      "target": "эксплуатация",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методика",
+      "target": "проектирование",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методика",
+      "target": "проектирование",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Гайнанов Ш.Х.",
+      "target": "Математическое моделирование трещинов",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Аптуков В.Н.",
+      "target": "Математическое моделирование трещинов",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Середин В.В.",
+      "target": "Математическое моделирование трещинов",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Математическое моделирование трещинов",
+      "target": "Известия Томского политехнического университета. Инжиниринг георесурсов",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Khalifeh-Soltani, A.",
+      "target": "Elucidating fault-related fold mechanics: a 2D finite element analysis of bending, slip, and buckling mechanisms",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Alavi, S. A.",
+      "target": "Elucidating fault-related fold mechanics: a 2D finite element analysis of bending, slip, and buckling mechanisms",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Ghassemi, M. R.",
+      "target": "Elucidating fault-related fold mechanics: a 2D finite element analysis of bending, slip, and buckling mechanisms",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Ganjiani, M.",
+      "target": "Elucidating fault-related fold mechanics: a 2D finite element analysis of bending, slip, and buckling mechanisms",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Derakhshani, R.",
+      "target": "Elucidating fault-related fold mechanics: a 2D finite element analysis of bending, slip, and buckling mechanisms",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Elucidating fault-related fold mechanics: a 2D finite element analysis of bending, slip, and buckling mechanisms",
+      "target": "Frontiers in Earth Science",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Augarde, C.E.",
+      "target": "Numerical modelling of large deformation problems in geotechnical engineering: A state-of-the-art review",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Lee, S.J.",
+      "target": "Numerical modelling of large deformation problems in geotechnical engineering: A state-of-the-art review",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Loukidis, D.",
+      "target": "Numerical modelling of large deformation problems in geotechnical engineering: A state-of-the-art review",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Numerical modelling of large deformation problems in geotechnical engineering: A state-of-the-art review",
+      "target": "Soils and Foundations",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Peikert, J.",
+      "target": "Three-dimensional finite-element modeling of Coulomb stress changes on normal and thrust faults caused by pore fluid pressure changes and postseismic viscoelastic relaxation",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Hampel, A.",
+      "target": "Three-dimensional finite-element modeling of Coulomb stress changes on normal and thrust faults caused by pore fluid pressure changes and postseismic viscoelastic relaxation",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Bagge, M.",
+      "target": "Three-dimensional finite-element modeling of Coulomb stress changes on normal and thrust faults caused by pore fluid pressure changes and postseismic viscoelastic relaxation",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Three-dimensional finite-element modeling of Coulomb stress changes on normal and thrust faults caused by pore fluid pressure changes and postseismic viscoelastic relaxation",
+      "target": "Geosphere",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Hutka, G. A.",
+      "target": "Numerical investigation of the effect of fluid pressurization rate on laboratory-scale injection-induced fault slip",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Cacace, M.",
+      "target": "Numerical investigation of the effect of fluid pressurization rate on laboratory-scale injection-induced fault slip",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Hofmann, H.",
+      "target": "Numerical investigation of the effect of fluid pressurization rate on laboratory-scale injection-induced fault slip",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Zang, A.",
+      "target": "Numerical investigation of the effect of fluid pressurization rate on laboratory-scale injection-induced fault slip",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Wang, L.",
+      "target": "Numerical investigation of the effect of fluid pressurization rate on laboratory-scale injection-induced fault slip",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Ji, Y.",
+      "target": "Numerical investigation of the effect of fluid pressurization rate on laboratory-scale injection-induced fault slip",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Numerical investigation of the effect of fluid pressurization rate on laboratory-scale injection-induced fault slip",
+      "target": "Scientific Reports",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Котельникова Е.М.",
+      "target": "Геодинамически активные структуры западного фланга Талнахской тектоно-магматической системы",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Клыков П.И.",
+      "target": "Построение 1D геомеханической модели для сложных горно-геологических условий на примере месторождения Южного Каспия",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Мирошникова М.Л.К.",
+      "target": "Геодинамическое районирование юго-западной части Талнахской тектономагматической системы",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Геодинамически активные структуры западного фланга Талнахской тектоно-магматической системы",
+      "target": "Талнахская тектоно-магматическая система",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Геодинамическое районирование юго-западной части Талнахской тектономагматической системы",
+      "target": "Талнахская тектоно-магматическая система",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Построение 1D геомеханической модели для сложных горно-геологических условий на примере месторождения Южного Каспия",
+      "target": "месторождение Южного Каспия",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Построение 1D геомеханической модели для сложных горно-геологических условий на примере месторождения Южного Каспия",
+      "target": "1D геомеханическая модель",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "1D геомеханическая модель",
+      "target": "численная модель",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "численная модель",
+      "target": "натурное измерение",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "Геодинамически активные структуры западного фланга Талнахской тектоно-магматической системы",
+      "target": "Талнахская тектоно-магматическая система",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Геодинамическое районирование юго-западной части Талнахской тектономагматической системы",
+      "target": "Талнахская тектоно-магматическая система",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Построение 1D геомеханической модели для сложных горно-геологических условий на примере месторождения Южного Каспия",
+      "target": "месторождение Южного Каспия",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Построение 1D геомеханической модели для сложных горно-геологических условий на примере месторождения Южного Каспия",
+      "target": "1D геомеханическая модель",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "1D геомеханическая модель",
+      "target": "численная модель",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Геодинамически активные структуры западного фланга Талнахской тектоно-магматической системы",
+      "target": "Талнахская тектоно-магматическая система",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Геодинамическое районирование юго-западной части Талнахской тектономагматической системы",
+      "target": "Талнахская тектоно-магматическая система",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Построение 1D геомеханической модели для сложных горно-геологических условий на примере месторождения Южного Каспия",
+      "target": "месторождение Южного Каспия",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "1D геомеханическая модель",
+      "target": "численная модель",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Геодинамически активные структуры западного фланга Талнахской тектоно-магматической системы",
+      "target": "Котельникова Е.М.",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Геодинамическое районирование юго-западной части Талнахской тектономагматической системы",
+      "target": "Мирошникова М.Л.К.",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Построение 1D геомеханической модели для сложных горно-геологических условий на примере месторождения Южного Каспия",
+      "target": "Клыков П.И.",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Построение 1D геомеханической модели для сложных горно-геологических условий на примере месторождения Южного Каспия",
+      "target": "Зверев Г.В.",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Построение 1D геомеханической модели для сложных горно-геологических условий на примере месторождения Южного Каспия",
+      "target": "А.В.",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Построение 1D геомеханической модели для сложных горно-геологических условий на примере месторождения Южного Каспия",
+      "target": "Петренко И.А.",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Построение 1D геомеханической модели для сложных горно-геологических условий на примере месторождения Южного Каспия",
+      "target": "Кудряшова Д.А.",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Построение 1D геомеханической модели для сложных горно-геологических условий на примере месторождения Южного Каспия",
+      "target": "Мошкин Н.А.",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Геодинамически активные структуры западного фланга Талнахской тектоно-магматической системы",
+      "target": "С. 105-112",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Геодинамическое районирование юго-западной части Талнахской тектономагматической системы",
+      "target": "С. 103-109",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Построение 1D геомеханической модели для сложных горно-геологических условий на примере месторождения Южного Каспия",
+      "target": "С. 12-18",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "1D геомеханическая модель",
+      "target": "численная модель",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "численная модель",
+      "target": "С. 12-18",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "натурное измерение",
+      "target": "С. 12-18",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Геодинамически активные структуры западного фланга Талнахской тектоно-магматической системы",
+      "target": "Талнахская тектоно-магматическая система",
+      "type": "TAGGED"
+    },
+    {
+      "source": "Геодинамическое районирование юго-западной части Талнахской тектономагматической системы",
+      "target": "Талнахская тектоно-магматическая система",
+      "type": "TAGGED"
+    },
+    {
+      "source": "Построение 1D геомеханической модели для сложных горно-геологических условий на примере месторождения Южного Каспия",
+      "target": "месторождение Южного Каспия",
+      "type": "TAGGED"
+    },
+    {
+      "source": "1D геомеханическая модель",
+      "target": "численная модель",
+      "type": "TAGGED"
+    },
+    {
+      "source": "численная модель",
+      "target": "геомеханика",
+      "type": "TAGGED"
+    },
+    {
+      "source": "натурное измерение",
+      "target": "геомеханика",
+      "type": "TAGGED"
+    },
+    {
+      "source": "Геодинамически активные структуры западного фланга Талнахской тектоно-магматической системы",
+      "target": "геодинамика",
+      "type": "TAGGED"
+    },
+    {
+      "source": "Геодинамическое районирование юго-западной части Талнахской тектономагматической системы",
+      "target": "геодинамика",
+      "type": "TAGGED"
+    },
+    {
+      "source": "Построение 1D геомеханической модели для сложных горно-геологических условий на примере месторождения Южного Каспия",
+      "target": "геомеханика",
+      "type": "TAGGED"
+    },
+    {
+      "source": "1D геомеханическая модель",
+      "target": "моделирование",
+      "type": "TAGGED"
+    },
+    {
+      "source": "численная модель",
+      "target": "моделирование",
+      "type": "TAGGED"
+    },
+    {
+      "source": "натурное измерение",
+      "target": "измерение",
+      "type": "TAGGED"
+    },
+    {
+      "source": "Геодинамически активные структуры западного фланга Талнахской тектоно-магматической системы",
+      "target": "Талнахская тектоно-магматическая система",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "Геодинамическое районирование юго-западной части Талнахской тектономагматической системы",
+      "target": "Талнахская тектоно-магматическая система",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "Построение 1D геомеханической модели для сложных горно-геологических условий на примере месторождения Южного Каспия",
+      "target": "месторождение Южного Каспия",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "1D геомеханическая модель",
+      "target": "численная модель",
+      "type": "SUPPORTS"
+    }
+  ]
+}

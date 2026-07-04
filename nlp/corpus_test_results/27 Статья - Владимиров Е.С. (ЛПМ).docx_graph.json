@@ -1,0 +1,6640 @@
+{
+  "document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+  "nodes": [
+    {
+      "id": "публикация_1",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "публикация_1",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026436"
+      }
+    },
+    {
+      "id": "манометр",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "манометр",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027594"
+      }
+    },
+    {
+      "id": "химический анализ",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "химический анализ",
+        "ingestion_date": "2026-07-04T16:04:53.027523"
+      }
+    },
+    {
+      "id": "содержание серы",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание серы",
+        "type": "concentration",
+        "ingestion_date": "2026-07-04T16:04:53.026535"
+      }
+    },
+    {
+      "id": "исследование",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "исследование",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026651",
+        "objective": "определение условий безопасного проведения окислительного обжига низкосортных сульфидных концентратов"
+      }
+    },
+    {
+      "id": "сульфат свинца",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "сульфат свинца",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026889"
+      }
+    },
+    {
+      "id": "статья",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "статья",
+        "validation_status": "pending",
+        "title": "Features of the formation and operation of self-sintering electrodes from depletion electric furnaces of Nadeghda metallurgical plant",
+        "ingestion_date": "2026-07-04T16:04:53.026500"
+      }
+    },
+    {
+      "id": "высокие температуры",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "высокие температуры",
+        "ingestion_date": "2026-07-04T16:04:53.026901"
+      }
+    },
+    {
+      "id": "силикатная составляющая",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "силикатная составляющая",
+        "ingestion_date": "2026-07-04T16:04:53.027222"
+      }
+    },
+    {
+      "id": "печь КС",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "печь КС",
+        "validation_status": "pending",
+        "type": "обжиговая печь",
+        "ingestion_date": "2026-07-04T16:04:53.026665"
+      }
+    },
+    {
+      "id": "сульфид свинца",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "сульфид свинца",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026539"
+      }
+    },
+    {
+      "id": "кварц",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "кварц",
+        "ingestion_date": "2026-07-04T16:04:53.027172"
+      }
+    },
+    {
+      "id": "силикаты",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "силикаты",
+        "validation_status": "pending",
+        "type": "силикат",
+        "ingestion_date": "2026-07-04T16:04:53.026692"
+      }
+    },
+    {
+      "id": "пирротин",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "пирротин",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027149"
+      }
+    },
+    {
+      "id": "халькопирит",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "халькопирит",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027140"
+      }
+    },
+    {
+      "id": "хлорит",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "хлорит",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027154"
+      }
+    },
+    {
+      "id": "содержание_серы",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "содержание общей серы (сульфидной и элементной)",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание_серы",
+        "ingestion_date": "2026-07-04T16:04:53.027905"
+      }
+    },
+    {
+      "id": "кипящий слой",
+      "label": "Process",
+      "properties": {
+        "domain": "металлургия",
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "кипящий слой",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026376"
+      }
+    },
+    {
+      "id": "агломерация",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "агломерация",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026401"
+      }
+    },
+    {
+      "id": "настыль на стенках печи",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "настыль на стенках печи",
+        "ingestion_date": "2026-07-04T16:04:53.026407"
+      }
+    },
+    {
+      "id": "настыль на подине печи",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "настыль на подине печи",
+        "ingestion_date": "2026-07-04T16:04:53.026413"
+      }
+    },
+    {
+      "id": "аварийная ситуация при обжиге концентрата",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "аварийная ситуация при обжиге концентрата",
+        "ingestion_date": "2026-07-04T16:04:53.026418"
+      }
+    },
+    {
+      "id": "температура в кипящем слое",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "температура в кипящем слое",
+        "ingestion_date": "2026-07-04T16:04:53.026423"
+      }
+    },
+    {
+      "id": "пылевынос из печи",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "пылевынос из печи",
+        "ingestion_date": "2026-07-04T16:04:53.026427"
+      }
+    },
+    {
+      "id": "40-60 % от загрузки концентрата",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 40,
+        "max": 60,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "40-60 % от загрузки концентрата",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:04:53.026432"
+      }
+    },
+    {
+      "id": "публикация_2",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "публикация_2",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026441"
+      }
+    },
+    {
+      "id": "обжиг в кипящем слое",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "обжиг в кипящем слое",
+        "ingestion_date": "2026-07-04T16:04:53.026453"
+      }
+    },
+    {
+      "id": "низкосортные цинковые концентраты",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "низкосортные цинковые концентраты",
+        "ingestion_date": "2026-07-04T16:04:53.026457"
+      }
+    },
+    {
+      "id": "механизм образования и состав образующихся спеков",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "механизм образования и состав образующихся спеков",
+        "ingestion_date": "2026-07-04T16:04:53.026462"
+      }
+    },
+    {
+      "id": "условия безопасной работы промышленной печи",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "условия безопасной работы промышленной печи",
+        "ingestion_date": "2026-07-04T16:04:53.026467"
+      }
+    },
+    {
+      "id": "регрессионное уравнение",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "регрессионное уравнение",
+        "ingestion_date": "2026-07-04T16:04:53.026471"
+      }
+    },
+    {
+      "id": "статистическая обработка данных",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "статистическая обработка данных",
+        "ingestion_date": "2026-07-04T16:04:53.026476"
+      }
+    },
+    {
+      "id": "минимальная скорость подачи дутьевых газов",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "минимальная скорость подачи дутьевых газов",
+        "ingestion_date": "2026-07-04T16:04:53.026482"
+      }
+    },
+    {
+      "id": "параметры работы печи",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "параметры работы печи",
+        "ingestion_date": "2026-07-04T16:04:53.026486"
+      }
+    },
+    {
+      "id": "содержание свинца в обжигаемом концентрате",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание свинца в обжигаемом концентрате",
+        "ingestion_date": "2026-07-04T16:04:53.026491"
+      }
+    },
+    {
+      "id": "спеки в кипящем слое не образуются",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "спеки в кипящем слое не образуются",
+        "ingestion_date": "2026-07-04T16:04:53.026495"
+      }
+    },
+    {
+      "id": "спеки в кипящем слое",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "спеки в кипящем слое",
+        "ingestion_date": "2026-07-04T16:04:53.026505"
+      }
+    },
+    {
+      "id": "обжиг цинковых концентратов",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "обжиг цинковых концентратов",
+        "ingestion_date": "2026-07-04T16:04:53.026510"
+      }
+    },
+    {
+      "id": "спеки",
+      "label": "Material",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "спеки",
+        "ingestion_date": "2026-07-04T16:04:53.026516"
+      }
+    },
+    {
+      "id": "пористые белесого цвета",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "пористые белесого цвета",
+        "ingestion_date": "2026-07-04T16:04:53.026521"
+      }
+    },
+    {
+      "id": "темные плотные",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "темные плотные",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026526"
+      }
+    },
+    {
+      "id": "содержание цинка",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание цинка",
+        "ingestion_date": "2026-07-04T16:04:53.026530"
+      }
+    },
+    {
+      "id": "плавление",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "плавление",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026544"
+      }
+    },
+    {
+      "id": "окисление",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "окисление",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026548"
+      }
+    },
+    {
+      "id": "диффузия",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "диффузия",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026552"
+      }
+    },
+    {
+      "id": "смачивание",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "смачивание",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026557"
+      }
+    },
+    {
+      "id": "окисление сфалерита",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "окисление сфалерита",
+        "ingestion_date": "2026-07-04T16:04:53.026562"
+      }
+    },
+    {
+      "id": "одностадийный процесс",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "одностадийный процесс",
+        "ingestion_date": "2026-07-04T16:04:53.026567"
+      }
+    },
+    {
+      "id": "двухстадийный процесс",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "двухстадийный процесс",
+        "ingestion_date": "2026-07-04T16:04:53.026572"
+      }
+    },
+    {
+      "id": "металлический цинк",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "металлический цинк",
+        "ingestion_date": "2026-07-04T16:04:53.026577"
+      }
+    },
+    {
+      "id": "сублимация",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "сублимация",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026582"
+      }
+    },
+    {
+      "id": "газовая фаза",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "газовая фаза",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026587"
+      }
+    },
+    {
+      "id": "meas_temp_900_970",
+      "label": "Measurement",
+      "properties": {
+        "unit": "°С",
+        "min": 900,
+        "max": 970,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "meas_temp_900_970",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:04:53.026601"
+      }
+    },
+    {
+      "id": "meas_copper_limit_1_2",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "meas_copper_limit_1_2",
+        "value": 1.2,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:04:53.026607"
+      }
+    },
+    {
+      "id": "finding_agglomeration_impossible",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Агломерация, вызванная низкоплавкими фазами, невозможна в концентратах, близких к чистому ZnS",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "finding_agglomeration_impossible",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026612"
+      }
+    },
+    {
+      "id": "finding_eutectic_melting",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Сравнительная легкоплавкость продуктов обжига низкосортных цинковых концентратов обусловлена эвтектическим плавлением продуктов обжига сульфида цинка и примесных компонентов",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "finding_eutectic_melting",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026617"
+      }
+    },
+    {
+      "id": "обжиг сульфидных концентратов",
+      "label": "Process",
+      "properties": {
+        "purpose": "определение условий безопасного проведения окислительного обжига низкосортных сульфидных концентратов",
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "обжиг сульфидных концентратов",
+        "ingestion_date": "2026-07-04T16:04:53.026626"
+      }
+    },
+    {
+      "id": "агломераты",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "агломераты",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026636"
+      }
+    },
+    {
+      "id": "пылевынос",
+      "label": "Property",
+      "properties": {
+        "domain": "технология",
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "пылевынос",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026641"
+      }
+    },
+    {
+      "id": "концентрат",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "концентрат",
+        "validation_status": "pending",
+        "type": "низкосортный сульфидный",
+        "ingestion_date": "2026-07-04T16:04:53.026646"
+      }
+    },
+    {
+      "id": "условия безопасного обжига",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "условия безопасного обжига",
+        "ingestion_date": "2026-07-04T16:04:53.026656"
+      }
+    },
+    {
+      "id": "низкосортные сульфидные концентраты",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "низкосортные сульфидные концентраты",
+        "type": "низкосортный сульфидный",
+        "ingestion_date": "2026-07-04T16:04:53.026660"
+      }
+    },
+    {
+      "id": "литературные источники",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "литературные источники",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026670"
+      }
+    },
+    {
+      "id": "сульфид цинка",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "сульфид цинка",
+        "validation_status": "pending",
+        "type": "сульфид",
+        "ingestion_date": "2026-07-04T16:04:53.026674"
+      }
+    },
+    {
+      "id": "оксид цинка",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "оксид цинка",
+        "validation_status": "pending",
+        "type": "оксид",
+        "ingestion_date": "2026-07-04T16:04:53.026679"
+      }
+    },
+    {
+      "id": "сульфат цинка",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "сульфат цинка",
+        "validation_status": "pending",
+        "type": "сульфат",
+        "ingestion_date": "2026-07-04T16:04:53.026683"
+      }
+    },
+    {
+      "id": "оксисульфат цинка",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "оксисульфат цинка",
+        "type": "оксисульфат",
+        "ingestion_date": "2026-07-04T16:04:53.026688"
+      }
+    },
+    {
+      "id": "не плавится",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "не плавится",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026697"
+      }
+    },
+    {
+      "id": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "label": "Process",
+      "properties": {
+        "domain": "металлургия",
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+        "ingestion_date": "2026-07-04T16:04:53.026702"
+      }
+    },
+    {
+      "id": "снижение производительности печи",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "снижение производительности печи",
+        "ingestion_date": "2026-07-04T16:04:53.026707"
+      }
+    },
+    {
+      "id": "аварийные остановки печи",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "аварийные остановки печи",
+        "ingestion_date": "2026-07-04T16:04:53.026712"
+      }
+    },
+    {
+      "id": "существующие литературные данные о причинах и механизме появления спеков в кипящем слое",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "существующие литературные данные о причинах и механизме появления спеков в кипящем слое",
+        "ingestion_date": "2026-07-04T16:04:53.026717"
+      }
+    },
+    {
+      "id": "неизвестность методов предотвращения спеков",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "неизвестность методов предотвращения спеков",
+        "ingestion_date": "2026-07-04T16:04:53.026722"
+      }
+    },
+    {
+      "id": "Property_спеки",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "спеки",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "Property_спеки",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026727"
+      }
+    },
+    {
+      "id": "Property_настыль",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "настыль на стенках печи",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "Property_настыль",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026731"
+      }
+    },
+    {
+      "id": "Process_обжиг",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "name": "обжиг",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "Process_обжиг",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026736"
+      }
+    },
+    {
+      "id": "Equipment_печь кипящего слоя",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "name": "печь кипящего слоя",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "Equipment_печь кипящего слоя",
+        "ingestion_date": "2026-07-04T16:04:53.026741"
+      }
+    },
+    {
+      "id": "Material_низкосортные цинковые концентраты",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "name": "низкосортные цинковые концентраты",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "Material_низкосортные цинковые концентраты",
+        "ingestion_date": "2026-07-04T16:04:53.026746"
+      }
+    },
+    {
+      "id": "Condition_кипящий слой",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "кипящий слой",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "Condition_кипящий слой",
+        "ingestion_date": "2026-07-04T16:04:53.026751"
+      }
+    },
+    {
+      "id": "Topic_металлургия",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "металлургия",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "Topic_металлургия",
+        "ingestion_date": "2026-07-04T16:04:53.026756"
+      }
+    },
+    {
+      "id": "Topic_спеки",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "спеки",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "Topic_спеки",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026761"
+      }
+    },
+    {
+      "id": "Topic_аварийные остановки",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "аварийные остановки",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "Topic_аварийные остановки",
+        "ingestion_date": "2026-07-04T16:04:53.026767"
+      }
+    },
+    {
+      "id": "Topic_литературные данные",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "литературные данные",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "Topic_литературные данные",
+        "ingestion_date": "2026-07-04T16:04:53.026772"
+      }
+    },
+    {
+      "id": "Topic_борьба с образованием спеков",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "борьба с образованием спеков",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "Topic_борьба с образованием спеков",
+        "ingestion_date": "2026-07-04T16:04:53.026777"
+      }
+    },
+    {
+      "id": "Владимиров Е.С.",
+      "label": "Expert",
+      "properties": {
+        "affiliation": "ООО «Институт Гипроникель»",
+        "geography": "RU",
+        "confidence": 0.5,
+        "name": "Владимиров Е.С.",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "Владимиров Е.С.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026781"
+      }
+    },
+    {
+      "id": "Портов А.Б.",
+      "label": "Expert",
+      "properties": {
+        "affiliation": "ООО «Институт Гипроникель»",
+        "geography": "RU",
+        "confidence": 0.5,
+        "name": "Портов А.Б.",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "Портов А.Б.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026786"
+      }
+    },
+    {
+      "id": "Ушков Л.А.",
+      "label": "Expert",
+      "properties": {
+        "affiliation": "ТОО «Казцинк»",
+        "geography": "KZ",
+        "confidence": 0.5,
+        "name": "Ушков Л.А.",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "Ушков Л.А.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026791"
+      }
+    },
+    {
+      "id": "Классен Э.А.",
+      "label": "Expert",
+      "properties": {
+        "affiliation": "ТОО «Казцинк»",
+        "geography": "KZ",
+        "confidence": 0.5,
+        "name": "Классен Э.А.",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "Классен Э.А.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026830"
+      }
+    },
+    {
+      "id": "Азекенов Турарбек Анарбекович",
+      "label": "Expert",
+      "properties": {
+        "affiliation": "ТОО «Казцинк»",
+        "geography": "KZ",
+        "confidence": 0.5,
+        "name": "Азекенов Турарбек Анарбекович",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "Азекенов Турарбек Анарбекович",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026836"
+      }
+    },
+    {
+      "id": "ТОО «Казцинк»",
+      "label": "Facility",
+      "properties": {
+        "country": "Казахстан",
+        "city": "Усть-Каменогорск",
+        "geography": "KZ",
+        "confidence": 0.5,
+        "name": "ТОО «Казцинк»",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "ТОО «Казцинк»",
+        "ingestion_date": "2026-07-04T16:04:53.026846"
+      }
+    },
+    {
+      "id": "Аннотация",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "Аннотация",
+        "validation_status": "pending",
+        "title": "Аннотация",
+        "ingestion_date": "2026-07-04T16:04:53.026850"
+      }
+    },
+    {
+      "id": "сублимация сульфида свинца",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "сублимация сульфида свинца",
+        "ingestion_date": "2026-07-04T16:04:53.026860"
+      }
+    },
+    {
+      "id": "низкая концентрация кислорода",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "низкая концентрация кислорода",
+        "ingestion_date": "2026-07-04T16:04:53.026865"
+      }
+    },
+    {
+      "id": "высокая концентрация диоксида серы",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "высокая концентрация диоксида серы",
+        "ingestion_date": "2026-07-04T16:04:53.026870"
+      }
+    },
+    {
+      "id": "высокое парциальное давление сульфида свинца",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "высокое парциальное давление сульфида свинца",
+        "ingestion_date": "2026-07-04T16:04:53.026875"
+      }
+    },
+    {
+      "id": "газообразный сульфид свинца",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "газообразный сульфид свинца",
+        "ingestion_date": "2026-07-04T16:04:53.026880"
+      }
+    },
+    {
+      "id": "оксид свинца",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "оксид свинца",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026884"
+      }
+    },
+    {
+      "id": "осаждение на частицах",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "осаждение на частицах",
+        "ingestion_date": "2026-07-04T16:04:53.026893"
+      }
+    },
+    {
+      "id": "жидкое состояние",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "жидкое состояние",
+        "ingestion_date": "2026-07-04T16:04:53.026897"
+      }
+    },
+    {
+      "id": "осаждение на крупных частицах кипящего слоя",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "осаждение на крупных частицах кипящего слоя",
+        "ingestion_date": "2026-07-04T16:04:53.026906"
+      }
+    },
+    {
+      "id": "растворение в эвтектиках",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "растворение в эвтектиках",
+        "ingestion_date": "2026-07-04T16:04:53.026910"
+      }
+    },
+    {
+      "id": "ZnO",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "ZnO",
+        "ingestion_date": "2026-07-04T16:04:53.026915"
+      }
+    },
+    {
+      "id": "Fe2O3",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "Fe2O3",
+        "ingestion_date": "2026-07-04T16:04:53.026919"
+      }
+    },
+    {
+      "id": "связующее агент",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "связующее агент",
+        "ingestion_date": "2026-07-04T16:04:53.026933"
+      }
+    },
+    {
+      "id": "связывание мелких частиц",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "связывание мелких частиц",
+        "ingestion_date": "2026-07-04T16:04:53.026937"
+      }
+    },
+    {
+      "id": "образование спека",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "образование спека",
+        "ingestion_date": "2026-07-04T16:04:53.026942"
+      }
+    },
+    {
+      "id": "жидкие мостики",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "жидкие мостики",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026946"
+      }
+    },
+    {
+      "id": "разрыв при ударе мелких частиц",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "разрыв при ударе мелких частиц",
+        "ingestion_date": "2026-07-04T16:04:53.026951"
+      }
+    },
+    {
+      "id": "ударный импульс крупных частиц",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "ударный импульс крупных частиц",
+        "ingestion_date": "2026-07-04T16:04:53.026956"
+      }
+    },
+    {
+      "id": "увеличение крупности частиц спека",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "увеличение крупности частиц спека",
+        "ingestion_date": "2026-07-04T16:04:53.026961"
+      }
+    },
+    {
+      "id": "концентрат цинковый",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "концентрат цинковый",
+        "ingestion_date": "2026-07-04T16:04:53.026970"
+      }
+    },
+    {
+      "id": "содержание меди",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание меди",
+        "ingestion_date": "2026-07-04T16:04:53.026974"
+      }
+    },
+    {
+      "id": "meas_cu_1_2",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 1.2,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "meas_cu_1_2",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:04:53.026979"
+      }
+    },
+    {
+      "id": "содержание мышьяка",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание мышьяка",
+        "ingestion_date": "2026-07-04T16:04:53.026983"
+      }
+    },
+    {
+      "id": "meas_as",
+      "label": "Measurement",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "meas_as",
+        "ingestion_date": "2026-07-04T16:04:53.026988"
+      }
+    },
+    {
+      "id": "сфалерит",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "сфалерит",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.026992"
+      }
+    },
+    {
+      "id": "загрязнение железом",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "загрязнение железом",
+        "ingestion_date": "2026-07-04T16:04:53.026997"
+      }
+    },
+    {
+      "id": "meas_fe_high",
+      "label": "Measurement",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "meas_fe_high",
+        "ingestion_date": "2026-07-04T16:04:53.027001"
+      }
+    },
+    {
+      "id": "франклинит",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "formula": "ZnFe2O4",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "франклинит",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027005"
+      }
+    },
+    {
+      "id": "пористые частицы ZnO+ZnFe2O4",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "пористые частицы ZnO+ZnFe2O4",
+        "ingestion_date": "2026-07-04T16:04:53.027009"
+      }
+    },
+    {
+      "id": "finding_agglomeration_porous",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "finding_agglomeration_porous",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027014"
+      }
+    },
+    {
+      "id": "агломерат",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "агломерат",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027018"
+      }
+    },
+    {
+      "id": "сростки ZnO, ZnFe2O4, Zn2SiO4, оксид/оксисульфат свинца",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "сростки ZnO, ZnFe2O4, Zn2SiO4, оксид/оксисульфат свинца",
+        "ingestion_date": "2026-07-04T16:04:53.027022"
+      }
+    },
+    {
+      "id": "ритмичные полосы",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "ритмичные полосы",
+        "ingestion_date": "2026-07-04T16:04:53.027026"
+      }
+    },
+    {
+      "id": "парофазная реакция",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "парофазная реакция",
+        "ingestion_date": "2026-07-04T16:04:53.027030"
+      }
+    },
+    {
+      "id": "галенит",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "formula": "PbS",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "галенит",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027035"
+      }
+    },
+    {
+      "id": "finding_sublimation_lead_sulfide",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "finding_sublimation_lead_sulfide",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027040"
+      }
+    },
+    {
+      "id": "условия локального слоя",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "условия локального слоя",
+        "ingestion_date": "2026-07-04T16:04:53.027044"
+      }
+    },
+    {
+      "id": "высокое парциальное давление",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "высокое парциальное давление",
+        "ingestion_date": "2026-07-04T16:04:53.027049"
+      }
+    },
+    {
+      "id": "finding_particulate_agglomeration",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Мелкие частицы недостаточны для разрыва вязких жидких мостиков; крупные частицы с большим импульсом повышают крупность спека.",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "finding_particulate_agglomeration",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027067"
+      }
+    },
+    {
+      "id": "meas_copper_2_5",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 2.5,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "meas_copper_2_5",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:04:53.027072"
+      }
+    },
+    {
+      "id": "material_zinc_concentrate",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "name": "цинковые концентраты",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "material_zinc_concentrate",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027081"
+      }
+    },
+    {
+      "id": "material_silica",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "name": "кремнезем",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "material_silica",
+        "ingestion_date": "2026-07-04T16:04:53.027086"
+      }
+    },
+    {
+      "id": "material_lead_compounds",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "name": "соединения свинца",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "material_lead_compounds",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027090"
+      }
+    },
+    {
+      "id": "material_zinc_oxide",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "name": "оксид цинка",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "material_zinc_oxide",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027094"
+      }
+    },
+    {
+      "id": "property_silica_content",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "содержание кремнезема",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "property_silica_content",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027098"
+      }
+    },
+    {
+      "id": "process_roasting",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "name": "обжиг",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "process_roasting",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027103"
+      }
+    },
+    {
+      "id": "condition_high_temperature",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "высокая температура обжига",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "condition_high_temperature",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027108"
+      }
+    },
+    {
+      "id": "finding_silicate_formation",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Кремнезем образует легкоплавкие силикаты с оксидами тяжелых цветных металлов, вызывающие оплавление; образование силиката цинка усиливается присутствием свинца.",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "finding_silicate_formation",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027112"
+      }
+    },
+    {
+      "id": "кислородный коэффициент",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "кислородный коэффициент",
+        "ingestion_date": "2026-07-04T16:04:53.027117"
+      }
+    },
+    {
+      "id": "цинковый концентрат",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "цинковый концентрат",
+        "ingestion_date": "2026-07-04T16:04:53.027121"
+      }
+    },
+    {
+      "id": "пирит",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "пирит",
+        "ingestion_date": "2026-07-04T16:04:53.027125"
+      }
+    },
+    {
+      "id": "гранат андрадит-гроссуляровой группы",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "гранат андрадит-гроссуляровой группы",
+        "ingestion_date": "2026-07-04T16:04:53.027131"
+      }
+    },
+    {
+      "id": "геденбергит",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "геденбергит",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027135"
+      }
+    },
+    {
+      "id": "церуссит",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "церуссит",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027144"
+      }
+    },
+    {
+      "id": "диопсид",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "диопсид",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027158"
+      }
+    },
+    {
+      "id": "гематит",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "гематит",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027162"
+      }
+    },
+    {
+      "id": "гроссуляр",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "гроссуляр",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027167"
+      }
+    },
+    {
+      "id": "калиевый полевой шпат",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "калиевый полевой шпат",
+        "ingestion_date": "2026-07-04T16:04:53.027177"
+      }
+    },
+    {
+      "id": "натриевый полевой шпат",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "натриевый полевой шпат",
+        "ingestion_date": "2026-07-04T16:04:53.027181"
+      }
+    },
+    {
+      "id": "слюда",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "слюда",
+        "ingestion_date": "2026-07-04T16:04:53.027186"
+      }
+    },
+    {
+      "id": "минералогический состав",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "минералогический состав",
+        "ingestion_date": "2026-07-04T16:04:53.027190"
+      }
+    },
+    {
+      "id": "микроскоп TESCAN MIRA",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "микроскоп TESCAN MIRA",
+        "ingestion_date": "2026-07-04T16:04:53.027195"
+      }
+    },
+    {
+      "id": "микроскоп FEI Quanta",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "микроскоп FEI Quanta",
+        "ingestion_date": "2026-07-04T16:04:53.027199"
+      }
+    },
+    {
+      "id": "BSE",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "BSE",
+        "ingestion_date": "2026-07-04T16:04:53.027204"
+      }
+    },
+    {
+      "id": "крупность силикатных зерен",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "крупность силикатных зерен",
+        "ingestion_date": "2026-07-04T16:04:53.027208"
+      }
+    },
+    {
+      "id": "цементирующая сульфидная фаза",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "цементирующая сульфидная фаза",
+        "ingestion_date": "2026-07-04T16:04:53.027213"
+      }
+    },
+    {
+      "id": "измерялась",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "измерялась",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027217"
+      }
+    },
+    {
+      "id": "калиевые полевые шпаты",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "калиевые полевые шпаты",
+        "ingestion_date": "2026-07-04T16:04:53.027226"
+      }
+    },
+    {
+      "id": "натриевые полевые шпаты",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "натриевые полевые шпаты",
+        "ingestion_date": "2026-07-04T16:04:53.027231"
+      }
+    },
+    {
+      "id": "гранаты",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "гранаты",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027236"
+      }
+    },
+    {
+      "id": "meas_grain_size_silicate_10_100",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мкм",
+        "min": 10,
+        "max": 100,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "meas_grain_size_silicate_10_100",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:04:53.027241"
+      }
+    },
+    {
+      "id": "зёрна сфалерита",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "зёрна сфалерита",
+        "ingestion_date": "2026-07-04T16:04:53.027246"
+      }
+    },
+    {
+      "id": "meas_grain_size_sphalerite_1_200",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мкм",
+        "min": 1,
+        "max": 200,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "meas_grain_size_sphalerite_1_200",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:04:53.027251"
+      }
+    },
+    {
+      "id": "finding_agglomerates",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "finding_agglomerates",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027255"
+      }
+    },
+    {
+      "id": "концентрат 5",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "концентрат 5",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027260"
+      }
+    },
+    {
+      "id": "meas_mean_grain_size_46_1",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мкм",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "meas_mean_grain_size_46_1",
+        "validation_status": "pending",
+        "value": 46.1,
+        "ingestion_date": "2026-07-04T16:04:53.027264"
+      }
+    },
+    {
+      "id": "концентрат 8",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "концентрат 8",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027269"
+      }
+    },
+    {
+      "id": "meas_mean_grain_size_37_2",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мкм",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "meas_mean_grain_size_37_2",
+        "validation_status": "pending",
+        "value": 37.2,
+        "ingestion_date": "2026-07-04T16:04:53.027273"
+      }
+    },
+    {
+      "id": "фракция -40 мкм",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "фракция -40 мкм",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027278"
+      }
+    },
+    {
+      "id": "finding_fraction_64_74",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "finding_fraction_64_74",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027283"
+      }
+    },
+    {
+      "id": "анализатор размера микрочастиц Microtrac FLEX 11.1.0.6**",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "анализатор размера микрочастиц Microtrac FLEX 11.1.0.6**",
+        "ingestion_date": "2026-07-04T16:04:53.027287"
+      }
+    },
+    {
+      "id": "вибрационный питатель",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "вибрационный питатель",
+        "ingestion_date": "2026-07-04T16:04:53.027292"
+      }
+    },
+    {
+      "id": "meas_feed_rate_2",
+      "label": "Measurement",
+      "properties": {
+        "unit": "кг/час",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "meas_feed_rate_2",
+        "value": 2,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:04:53.027297"
+      }
+    },
+    {
+      "id": "кипящий слой реактора печи",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "кипящий слой реактора печи",
+        "ingestion_date": "2026-07-04T16:04:53.027302"
+      }
+    },
+    {
+      "id": "сепарационное пространство печи",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "сепарационное пространство печи",
+        "ingestion_date": "2026-07-04T16:04:53.027306"
+      }
+    },
+    {
+      "id": "манометр газовой коробки печи",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "манометр газовой коробки печи",
+        "ingestion_date": "2026-07-04T16:04:53.027311"
+      }
+    },
+    {
+      "id": "finding_pressure_fluctuations",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "finding_pressure_fluctuations",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027316"
+      }
+    },
+    {
+      "id": "finding_automatic_shutdown",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "finding_automatic_shutdown",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027321"
+      }
+    },
+    {
+      "id": "finding_ash_discharge",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "finding_ash_discharge",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027326"
+      }
+    },
+    {
+      "id": "finding_dust_collection",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "finding_dust_collection",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027331"
+      }
+    },
+    {
+      "id": "finding_vertical_gas_conduit",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "finding_vertical_gas_conduit",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027336"
+      }
+    },
+    {
+      "id": "обжиг концентрата в кипящем слое",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "обжиг концентрата в кипящем слое",
+        "ingestion_date": "2026-07-04T16:04:53.027340"
+      }
+    },
+    {
+      "id": "модернизированная укрупненная лабораторная установка кипящего слоя",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "модернизированная укрупненная лабораторная установка кипящего слоя",
+        "ingestion_date": "2026-07-04T16:04:53.027345"
+      }
+    },
+    {
+      "id": "огарок от предыдущего опыта",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "огарок от предыдущего опыта",
+        "ingestion_date": "2026-07-04T16:04:53.027349"
+      }
+    },
+    {
+      "id": "постель",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "постель",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027354"
+      }
+    },
+    {
+      "id": "дутьевой газ",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "дутьевой газ",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027358"
+      }
+    },
+    {
+      "id": "содержание кислорода в дутьевом газе",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание кислорода в дутьевом газе",
+        "ingestion_date": "2026-07-04T16:04:53.027363"
+      }
+    },
+    {
+      "id": "скорость загрузки концентрата",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "скорость загрузки концентрата",
+        "ingestion_date": "2026-07-04T16:04:53.027367"
+      }
+    },
+    {
+      "id": "температура в сепарационном пространстве печи",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "температура в сепарационном пространстве печи",
+        "ingestion_date": "2026-07-04T16:04:53.027373"
+      }
+    },
+    {
+      "id": "колебания стрелки манометра газового",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "колебания стрелки манометра газового",
+        "ingestion_date": "2026-07-04T16:04:53.027378"
+      }
+    },
+    {
+      "id": "влажность концентрата",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "влажность концентрата",
+        "ingestion_date": "2026-07-04T16:04:53.027382"
+      }
+    },
+    {
+      "id": "масса навески концентрата",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "масса навески концентрата",
+        "ingestion_date": "2026-07-04T16:04:53.027386"
+      }
+    },
+    {
+      "id": "масса постели",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "масса постели",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027391"
+      }
+    },
+    {
+      "id": "крупность постели",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "крупность постели",
+        "ingestion_date": "2026-07-04T16:04:53.027395"
+      }
+    },
+    {
+      "id": "масса первой навески концентрата",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "масса первой навески концентрата",
+        "ingestion_date": "2026-07-04T16:04:53.027400"
+      }
+    },
+    {
+      "id": "4 кг",
+      "label": "Measurement",
+      "properties": {
+        "unit": "кг",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "4 кг",
+        "validation_status": "pending",
+        "value": 4,
+        "ingestion_date": "2026-07-04T16:04:53.027405"
+      }
+    },
+    {
+      "id": "2 кг",
+      "label": "Measurement",
+      "properties": {
+        "unit": "кг",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "2 кг",
+        "validation_status": "pending",
+        "value": 2,
+        "ingestion_date": "2026-07-04T16:04:53.027410"
+      }
+    },
+    {
+      "id": "2 кг/час",
+      "label": "Measurement",
+      "properties": {
+        "unit": "кг/час",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "2 кг/час",
+        "validation_status": "pending",
+        "value": 2,
+        "ingestion_date": "2026-07-04T16:04:53.027414"
+      }
+    },
+    {
+      "id": "-2 мм",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мм",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "-2 мм",
+        "value": 2,
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:04:53.027418"
+      }
+    },
+    {
+      "id": "~10 %",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "~10 %",
+        "value": 10,
+        "operator": "~",
+        "ingestion_date": "2026-07-04T16:04:53.027423"
+      }
+    },
+    {
+      "id": "заданная по эксперименту",
+      "label": "Measurement",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "заданная по эксперименту",
+        "value": "заданная по эксперименту",
+        "ingestion_date": "2026-07-04T16:04:53.027427"
+      }
+    },
+    {
+      "id": "заданное по условию проведения эксперимента",
+      "label": "Measurement",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "заданное по условию проведения эксперимента",
+        "value": "заданное по условию проведения эксперимента",
+        "ingestion_date": "2026-07-04T16:04:53.027432"
+      }
+    },
+    {
+      "id": "контролировалась",
+      "label": "Measurement",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "контролировалась",
+        "value": "контролировалась",
+        "ingestion_date": "2026-07-04T16:04:53.027436"
+      }
+    },
+    {
+      "id": "отслеживались",
+      "label": "Measurement",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "отслеживались",
+        "validation_status": "pending",
+        "value": "отслеживались",
+        "ingestion_date": "2026-07-04T16:04:53.027441"
+      }
+    },
+    {
+      "id": "методика проведения экспериментов",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "методика проведения экспериментов",
+        "ingestion_date": "2026-07-04T16:04:53.027446"
+      }
+    },
+    {
+      "id": "источник [12]",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "источник [12]",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027450",
+        "span": "p.12"
+      }
+    },
+    {
+      "id": "схема и описание которой приведены в [12]",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "схема и описание которой приведены в [12]",
+        "ingestion_date": "2026-07-04T16:04:53.027455"
+      }
+    },
+    {
+      "id": "циклоны",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "циклоны",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027460"
+      }
+    },
+    {
+      "id": "газоходная пыль",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "газоходная пыль",
+        "ingestion_date": "2026-07-04T16:04:53.027499"
+      }
+    },
+    {
+      "id": "опорожнение от пыли",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "опорожнение от пыли",
+        "ingestion_date": "2026-07-04T16:04:53.027504"
+      }
+    },
+    {
+      "id": "вертикальное расположение газоходов",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "вертикальное расположение газоходов",
+        "ingestion_date": "2026-07-04T16:04:53.027509"
+      }
+    },
+    {
+      "id": "взвешивание",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "взвешивание",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027514"
+      }
+    },
+    {
+      "id": "материальный баланс опыта",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "материальный баланс опыта",
+        "ingestion_date": "2026-07-04T16:04:53.027518"
+      }
+    },
+    {
+      "id": "вещественный анализ",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "вещественный анализ",
+        "ingestion_date": "2026-07-04T16:04:53.027528"
+      }
+    },
+    {
+      "id": "гранулометрический анализ",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "гранулометрический анализ",
+        "ingestion_date": "2026-07-04T16:04:53.027533"
+      }
+    },
+    {
+      "id": "образование спеков",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "образование спеков",
+        "ingestion_date": "2026-07-04T16:04:53.027538"
+      }
+    },
+    {
+      "id": "охлаждение печи",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "охлаждение печи",
+        "ingestion_date": "2026-07-04T16:04:53.027543"
+      }
+    },
+    {
+      "id": "снятие подины",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "снятие подины",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027547"
+      }
+    },
+    {
+      "id": "механическое удаление материала",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "механическое удаление материала",
+        "ingestion_date": "2026-07-04T16:04:53.027552"
+      }
+    },
+    {
+      "id": "O2",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "O2",
+        "ingestion_date": "2026-07-04T16:04:53.027558"
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "N2",
+        "ingestion_date": "2026-07-04T16:04:53.027562"
+      }
+    },
+    {
+      "id": "SO2",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "SO2",
+        "ingestion_date": "2026-07-04T16:04:53.027567"
+      }
+    },
+    {
+      "id": "CO2",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "CO2",
+        "ingestion_date": "2026-07-04T16:04:53.027571"
+      }
+    },
+    {
+      "id": "Ar",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "Ar",
+        "ingestion_date": "2026-07-04T16:04:53.027576"
+      }
+    },
+    {
+      "id": "анализ отходящего газа",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "анализ отходящего газа",
+        "ingestion_date": "2026-07-04T16:04:53.027580"
+      }
+    },
+    {
+      "id": "эксперименты",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "эксперименты",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027585"
+      }
+    },
+    {
+      "id": "настыль",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "настыль",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027590"
+      }
+    },
+    {
+      "id": "колебания стрелки",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "колебания стрелки",
+        "ingestion_date": "2026-07-04T16:04:53.027599"
+      }
+    },
+    {
+      "id": "высокая частота колебаний",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "высокая частота колебаний",
+        "ingestion_date": "2026-07-04T16:04:53.027604"
+      }
+    },
+    {
+      "id": "низкая частота колебаний",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "низкая частота колебаний",
+        "ingestion_date": "2026-07-04T16:04:53.027609"
+      }
+    },
+    {
+      "id": "снижение амплитуды колебаний",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "снижение амплитуды колебаний",
+        "ingestion_date": "2026-07-04T16:04:53.027614"
+      }
+    },
+    {
+      "id": "остановка стрелки манометра",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "остановка стрелки манометра",
+        "ingestion_date": "2026-07-04T16:04:53.027618"
+      }
+    },
+    {
+      "id": "подина печи",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "подина печи",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027623"
+      }
+    },
+    {
+      "id": "выпуск огарка",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "выпуск огарка",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027628"
+      }
+    },
+    {
+      "id": "аварийная ситуация",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "аварийная ситуация",
+        "ingestion_date": "2026-07-04T16:04:53.027633"
+      }
+    },
+    {
+      "id": "источник_стр_9",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "источник_стр_9",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027637",
+        "span": "p.9"
+      }
+    },
+    {
+      "id": "meas_o2_0_5",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 0.5,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "meas_o2_0_5",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:04:53.027641"
+      }
+    },
+    {
+      "id": "meas_so2_15_0",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 15.0,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "meas_so2_15_0",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:04:53.027645"
+      }
+    },
+    {
+      "id": "meas_co2_8_0",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 8.0,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "meas_co2_8_0",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:04:53.027649"
+      }
+    },
+    {
+      "id": "meas_ar_0_2",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 0.2,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "meas_ar_0_2",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:04:53.027653"
+      }
+    },
+    {
+      "id": "разогрев печи",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "разогрев печи",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027658"
+      }
+    },
+    {
+      "id": "силиты",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "силиты",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027662"
+      }
+    },
+    {
+      "id": "процесс автогенный",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "процесс автогенный",
+        "ingestion_date": "2026-07-04T16:04:53.027667"
+      }
+    },
+    {
+      "id": "неконтролируемая агломерация",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "неконтролируемая агломерация",
+        "ingestion_date": "2026-07-04T16:04:53.027671"
+      }
+    },
+    {
+      "id": "снижение частоты колебаний стрелки манометра",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "снижение частоты колебаний стрелки манометра",
+        "ingestion_date": "2026-07-04T16:04:53.027676"
+      }
+    },
+    {
+      "id": "замедление движения стрелки манометра",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "замедление движения стрелки манометра",
+        "ingestion_date": "2026-07-04T16:04:53.027680"
+      }
+    },
+    {
+      "id": "настыль на подине",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "настыль на подине",
+        "ingestion_date": "2026-07-04T16:04:53.027684"
+      }
+    },
+    {
+      "id": "присутствие зерен спека в огарке",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "присутствие зерен спека в огарке",
+        "ingestion_date": "2026-07-04T16:04:53.027689"
+      }
+    },
+    {
+      "id": "наличие спеков при выпуске продуктов обжига",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "наличие спеков при выпуске продуктов обжига",
+        "ingestion_date": "2026-07-04T16:04:53.027694"
+      }
+    },
+    {
+      "id": "стрелочный манометр",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "стрелочный манометр",
+        "ingestion_date": "2026-07-04T16:04:53.027698"
+      }
+    },
+    {
+      "id": "газовая коробка печи",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "газовая коробка печи",
+        "ingestion_date": "2026-07-04T16:04:53.027703"
+      }
+    },
+    {
+      "id": "масс-спектрометр ЭМГ-20-7",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "масс-спектрометр ЭМГ-20-7",
+        "ingestion_date": "2026-07-04T16:04:53.027708"
+      }
+    },
+    {
+      "id": "обжиг цинковых концентратов в кипящем слое",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "обжиг цинковых концентратов в кипящем слое",
+        "ingestion_date": "2026-07-04T16:04:53.027718"
+      }
+    },
+    {
+      "id": "температура 920-950оС",
+      "label": "Measurement",
+      "properties": {
+        "unit": "оС",
+        "min": 920,
+        "max": 950,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "температура 920-950оС",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:04:53.027724"
+      }
+    },
+    {
+      "id": "содержание кислорода в дутьевых газах 21-35 %",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 21,
+        "max": 35,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание кислорода в дутьевых газах 21-35 %",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:04:53.027729"
+      }
+    },
+    {
+      "id": "линейная скорость подачи дутья в печь 0,16-0,48 нм/с",
+      "label": "Measurement",
+      "properties": {
+        "unit": "нм/с",
+        "min": 0.16,
+        "max": 0.48,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "линейная скорость подачи дутья в печь 0,16-0,48 нм/с",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:04:53.027735"
+      }
+    },
+    {
+      "id": "время нахождения огарка в печи 4 часа",
+      "label": "Measurement",
+      "properties": {
+        "unit": "час",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "время нахождения огарка в печи 4 часа",
+        "value": 4,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:04:53.027739"
+      }
+    },
+    {
+      "id": "содержание кислорода",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание кислорода",
+        "ingestion_date": "2026-07-04T16:04:53.027744"
+      }
+    },
+    {
+      "id": "линейная скорость подачи дутья",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "линейная скорость подачи дутья",
+        "ingestion_date": "2026-07-04T16:04:53.027749"
+      }
+    },
+    {
+      "id": "время нахождения огарка в печи",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "время нахождения огарка в печи",
+        "ingestion_date": "2026-07-04T16:04:53.027754"
+      }
+    },
+    {
+      "id": "появление спеков при выпуске огарка",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "появление спеков при выпуске огарка",
+        "ingestion_date": "2026-07-04T16:04:53.027758"
+      }
+    },
+    {
+      "id": "эксперименты по определению условий безопасного обжига",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "эксперименты по определению условий безопасного обжига",
+        "ingestion_date": "2026-07-04T16:04:53.027763"
+      }
+    },
+    {
+      "id": "лабораторные условия",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "лабораторные условия",
+        "ingestion_date": "2026-07-04T16:04:53.027768"
+      }
+    },
+    {
+      "id": "промышленная печь",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "промышленная печь",
+        "ingestion_date": "2026-07-04T16:04:53.027774"
+      }
+    },
+    {
+      "id": "спек",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "спек",
+        "ingestion_date": "2026-07-04T16:04:53.027778"
+      }
+    },
+    {
+      "id": "пористый",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "пористый",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027783"
+      }
+    },
+    {
+      "id": "белесый",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "белесый",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027787"
+      }
+    },
+    {
+      "id": "темный",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "темный",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027792"
+      }
+    },
+    {
+      "id": "плотный",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "плотный",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027796"
+      }
+    },
+    {
+      "id": "спеки первого типа",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "спеки первого типа",
+        "ingestion_date": "2026-07-04T16:04:53.027801"
+      }
+    },
+    {
+      "id": "ферриты цинка",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "ферриты цинка",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027805"
+      }
+    },
+    {
+      "id": "силикат калия",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "силикат калия",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027810"
+      }
+    },
+    {
+      "id": "оксиды",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "оксиды",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027815"
+      }
+    },
+    {
+      "id": "реликты сульфидных минералов исходного концентрата",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "реликты сульфидных минералов исходного концентрата",
+        "ingestion_date": "2026-07-04T16:04:53.027820"
+      }
+    },
+    {
+      "id": "отсутствие признаков окисления",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "отсутствие признаков окисления",
+        "ingestion_date": "2026-07-04T16:04:53.027825"
+      }
+    },
+    {
+      "id": "отсутствие признаков подплавления",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "отсутствие признаков подплавления",
+        "ingestion_date": "2026-07-04T16:04:53.027830"
+      }
+    },
+    {
+      "id": "предположение о случайном загрязнении пробы",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "предположение о случайном загрязнении пробы",
+        "ingestion_date": "2026-07-04T16:04:53.027835"
+      }
+    },
+    {
+      "id": "диапазон составов от оксида цинка до ферритов цинка",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "диапазон составов от оксида цинка до ферритов цинка",
+        "ingestion_date": "2026-07-04T16:04:53.027839"
+      }
+    },
+    {
+      "id": "силикатные компоненты в форме микронных включений",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "силикатные компоненты в форме микронных включений",
+        "ingestion_date": "2026-07-04T16:04:53.027844"
+      }
+    },
+    {
+      "id": "микронные и субмикронные включения фаз на основе свинца",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "микронные и субмикронные включения фаз на основе свинца",
+        "ingestion_date": "2026-07-04T16:04:53.027849"
+      }
+    },
+    {
+      "id": "концентрация серы в микровключениях",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "концентрация серы в микровключениях",
+        "ingestion_date": "2026-07-04T16:04:53.027853"
+      }
+    },
+    {
+      "id": "сульфатная сера в виде единичных свободных оксисульфидных частиц",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "сульфатная сера в виде единичных свободных оксисульфидных частиц",
+        "ingestion_date": "2026-07-04T16:04:53.027859"
+      }
+    },
+    {
+      "id": "глубокое окисление",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "глубокое окисление",
+        "ingestion_date": "2026-07-04T16:04:53.027864"
+      }
+    },
+    {
+      "id": "плавленый материал",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "плавленый материал",
+        "ingestion_date": "2026-07-04T16:04:53.027869"
+      }
+    },
+    {
+      "id": "вторичная перекристаллизация",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "вторичная перекристаллизация",
+        "ingestion_date": "2026-07-04T16:04:53.027874"
+      }
+    },
+    {
+      "id": "глубоко окисленный плавленый материал",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "глубоко окисленный плавленый материал",
+        "ingestion_date": "2026-07-04T16:04:53.027878"
+      }
+    },
+    {
+      "id": "вторичная перекристаллизация оксидно-силикатной массы",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "вторичная перекристаллизация оксидно-силикатной массы",
+        "ingestion_date": "2026-07-04T16:04:53.027883"
+      }
+    },
+    {
+      "id": "астыль_кипящего_слоя",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "астыль_кипящего_слоя",
+        "ingestion_date": "2026-07-04T16:04:53.027889"
+      }
+    },
+    {
+      "id": "спек_первого_типа",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "спек_первого_типа",
+        "ingestion_date": "2026-07-04T16:04:53.027894"
+      }
+    },
+    {
+      "id": "спек_второго_типа",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "спек_второго_типа",
+        "ingestion_date": "2026-07-04T16:04:53.027899"
+      }
+    },
+    {
+      "id": "meas_sulf_0_05",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 0.05,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "meas_sulf_0_05",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:04:53.027910"
+      }
+    },
+    {
+      "id": "содержание_меди",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание_меди",
+        "ingestion_date": "2026-07-04T16:04:53.027918"
+      }
+    },
+    {
+      "id": "содержание_свинца",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание_свинца",
+        "ingestion_date": "2026-07-04T16:04:53.027925"
+      }
+    },
+    {
+      "id": "содержание_железа",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание_железа",
+        "ingestion_date": "2026-07-04T16:04:53.027930"
+      }
+    },
+    {
+      "id": "содержание_цинка",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание_цинка",
+        "ingestion_date": "2026-07-04T16:04:53.027935"
+      }
+    },
+    {
+      "id": "содержание_кремнезема",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание_кремнезема",
+        "ingestion_date": "2026-07-04T16:04:53.027940"
+      }
+    },
+    {
+      "id": "основа_спека",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "основа_спека",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027945"
+      }
+    },
+    {
+      "id": "оксид_цинка",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "оксид_цинка",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027950"
+      }
+    },
+    {
+      "id": "meas_zno_90",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 90,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "meas_zno_90",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:04:53.027955"
+      }
+    },
+    {
+      "id": "феррит_цинка",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "феррит_цинка",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.027960"
+      }
+    },
+    {
+      "id": "meas_znfe2o4_10",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 10,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "meas_znfe2o4_10",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:04:53.027964"
+      }
+    },
+    {
+      "id": "finding_пористость_низкая",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "finding_пористость_низкая",
+        "ingestion_date": "2026-07-04T16:04:53.027968"
+      }
+    },
+    {
+      "id": "finding_пористость_высокая",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "finding_пористость_высокая",
+        "ingestion_date": "2026-07-04T16:04:53.027973"
+      }
+    },
+    {
+      "id": "finding_обогащение_меди",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "finding_обогащение_меди",
+        "ingestion_date": "2026-07-04T16:04:53.027977"
+      }
+    },
+    {
+      "id": "finding_обогащение_свинца",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "finding_обогащение_свинца",
+        "ingestion_date": "2026-07-04T16:04:53.027982"
+      }
+    },
+    {
+      "id": "finding_обогащение_железа",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "finding_обогащение_железа",
+        "ingestion_date": "2026-07-04T16:04:53.027987"
+      }
+    },
+    {
+      "id": "finding_обеднение_цинка",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "finding_обеднение_цинка",
+        "ingestion_date": "2026-07-04T16:04:53.027993"
+      }
+    },
+    {
+      "id": "finding_обеднение_кремнезема",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "finding_обеднение_кремнезема",
+        "ingestion_date": "2026-07-04T16:04:53.027998"
+      }
+    },
+    {
+      "id": "огарок",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "огарок",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.028013"
+      }
+    },
+    {
+      "id": "температура обжига",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "температура обжига",
+        "ingestion_date": "2026-07-04T16:04:53.028018"
+      }
+    },
+    {
+      "id": "окисление в объеме печи",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "окисление в объеме печи",
+        "ingestion_date": "2026-07-04T16:04:53.028024"
+      }
+    },
+    {
+      "id": "частицы у стенок печи",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "частицы у стенок печи",
+        "ingestion_date": "2026-07-04T16:04:53.028030"
+      }
+    },
+    {
+      "id": "обеднены цинком",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "обеднены цинком",
+        "ingestion_date": "2026-07-04T16:04:53.028035"
+      }
+    },
+    {
+      "id": "обогащены железом",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "обогащены железом",
+        "ingestion_date": "2026-07-04T16:04:53.028041"
+      }
+    },
+    {
+      "id": "окисление пирита и пирротина",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "окисление пирита и пирротина",
+        "ingestion_date": "2026-07-04T16:04:53.028046"
+      }
+    },
+    {
+      "id": "оксисульфидные расплавы",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "оксисульфидные расплавы",
+        "ingestion_date": "2026-07-04T16:04:53.028051"
+      }
+    },
+    {
+      "id": "эвтектическая температура 908оС",
+      "label": "Measurement",
+      "properties": {
+        "unit": "°C",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "эвтектическая температура 908оС",
+        "value": 908,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:04:53.028055"
+      }
+    },
+    {
+      "id": "столкновения частиц",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "столкновения частиц",
+        "ingestion_date": "2026-07-04T16:04:53.028059"
+      }
+    },
+    {
+      "id": "жидкая фаза",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "жидкая фаза",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.028065"
+      }
+    },
+    {
+      "id": "поверхность частиц",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "поверхность частиц",
+        "ingestion_date": "2026-07-04T16:04:53.028072"
+      }
+    },
+    {
+      "id": "столкновения с холодной стенкой печи",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "столкновения с холодной стенкой печи",
+        "ingestion_date": "2026-07-04T16:04:53.028077"
+      }
+    },
+    {
+      "id": "стенка печи",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "стенка печи",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.028082"
+      }
+    },
+    {
+      "id": "силикаты калия (и натрия)",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "силикаты калия (и натрия)",
+        "ingestion_date": "2026-07-04T16:04:53.028087"
+      }
+    },
+    {
+      "id": "сликаты калия",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "сликаты калия",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.028097"
+      }
+    },
+    {
+      "id": "сликаты натрия",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "сликаты натрия",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.028102"
+      }
+    },
+    {
+      "id": "спеки на подине печи",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "спеки на подине печи",
+        "ingestion_date": "2026-07-04T16:04:53.028107"
+      }
+    },
+    {
+      "id": "спеки у стенок печи",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "спеки у стенок печи",
+        "ingestion_date": "2026-07-04T16:04:53.028112"
+      }
+    },
+    {
+      "id": "частицы",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "частицы",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.028116"
+      }
+    },
+    {
+      "id": "содержание свинца в концентрате",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание свинца в концентрате",
+        "ingestion_date": "2026-07-04T16:04:53.028121"
+      }
+    },
+    {
+      "id": "содержание кислорода в дутьевых газах",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание кислорода в дутьевых газах",
+        "ingestion_date": "2026-07-04T16:04:53.028125"
+      }
+    },
+    {
+      "id": "скорость подачи дутьевых газов",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "скорость подачи дутьевых газов",
+        "ingestion_date": "2026-07-04T16:04:53.028130"
+      }
+    },
+    {
+      "id": "среднеквадратичное отклонение расчетных данных от экспериментальных",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "среднеквадратичное отклонение расчетных данных от экспериментальных",
+        "ingestion_date": "2026-07-04T16:04:53.028135"
+      }
+    },
+    {
+      "id": "meas_rms_0041",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "meas_rms_0041",
+        "value": 0.041,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:04:53.028140"
+      }
+    },
+    {
+      "id": "finding_nostack",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "finding_nostack",
+        "ingestion_date": "2026-07-04T16:04:53.028146"
+      }
+    },
+    {
+      "id": "спеки 1-го типа",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "спеки 1-го типа",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.028161"
+      }
+    },
+    {
+      "id": "спеки 2-го типа",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "спеки 2-го типа",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.028166"
+      }
+    },
+    {
+      "id": "оксидная масса на основе Fe-Zn",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "оксидная масса на основе Fe-Zn",
+        "ingestion_date": "2026-07-04T16:04:53.028171"
+      }
+    },
+    {
+      "id": "оксидная масса на основе Zn",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "оксидная масса на основе Zn",
+        "ingestion_date": "2026-07-04T16:04:53.028176"
+      }
+    },
+    {
+      "id": "силикатная масса на основе Zn",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "силикатная масса на основе Zn",
+        "ingestion_date": "2026-07-04T16:04:53.028181"
+      }
+    },
+    {
+      "id": "микронный/субмикронный сульфат Pb",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "микронный/субмикронный сульфат Pb",
+        "ingestion_date": "2026-07-04T16:04:53.028185"
+      }
+    },
+    {
+      "id": "сульфат Ca",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "id": "сульфат Ca",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:04:53.028190"
+      }
+    },
+    {
+      "id": "механизм образования спеков первого типа",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "механизм образования спеков первого типа",
+        "ingestion_date": "2026-07-04T16:04:53.028195"
+      }
+    },
+    {
+      "id": "окисление сульфидных компонент концентрата",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "окисление сульфидных компонент концентрата",
+        "ingestion_date": "2026-07-04T16:04:53.028200"
+      }
+    },
+    {
+      "id": "образование оксидов металлов",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "образование оксидов металлов",
+        "ingestion_date": "2026-07-04T16:04:53.028206"
+      }
+    },
+    {
+      "id": "окисление галенита",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "окисление галенита",
+        "ingestion_date": "2026-07-04T16:04:53.028210"
+      }
+    },
+    {
+      "id": "диффузия галенита к поверхности кипящих частиц",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "диффузия галенита к поверхности кипящих частиц",
+        "ingestion_date": "2026-07-04T16:04:53.028216"
+      }
+    },
+    {
+      "id": "плавление галенита при температурах обжига",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "плавление галенита при температурах обжига",
+        "ingestion_date": "2026-07-04T16:04:53.028250"
+      }
+    },
+    {
+      "id": "смачивание поверхности частиц",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "смачивание поверхности частиц",
+        "ingestion_date": "2026-07-04T16:04:53.028255"
+      }
+    },
+    {
+      "id": "образование агломератов",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "образование агломератов",
+        "ingestion_date": "2026-07-04T16:04:53.028261"
+      }
+    },
+    {
+      "id": "осаждение агломератов на подине печи",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "осаждение агломератов на подине печи",
+        "ingestion_date": "2026-07-04T16:04:53.028266"
+      }
+    },
+    {
+      "id": "содержание цинка в спеках",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание цинка в спеках",
+        "ingestion_date": "2026-07-04T16:04:53.028271"
+      }
+    },
+    {
+      "id": "содержание железа в спеках",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание железа в спеках",
+        "ingestion_date": "2026-07-04T16:04:53.028276"
+      }
+    },
+    {
+      "id": "содержание цинка в концентрате",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание цинка в концентрате",
+        "ingestion_date": "2026-07-04T16:04:53.028281"
+      }
+    },
+    {
+      "id": "содержание цинка в огарке",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание цинка в огарке",
+        "ingestion_date": "2026-07-04T16:04:53.028286"
+      }
+    },
+    {
+      "id": "содержание железа в концентрате",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание железа в концентрате",
+        "ingestion_date": "2026-07-04T16:04:53.028292"
+      }
+    },
+    {
+      "id": "содержание железа в огарке",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+        "validation_status": "pending",
+        "id": "содержание железа в огарке",
+        "ingestion_date": "2026-07-04T16:04:53.028297"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "кипящий слой",
+      "target": "агломерация",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "агломерация",
+      "target": "настыль на стенках печи",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "агломерация",
+      "target": "настыль на подине печи",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "агломерация",
+      "target": "аварийная ситуация при обжиге концентрата",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "температура в кипящем слое",
+      "target": "агломерация",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "температура в кипящем слое",
+      "target": "пылевынос из печи",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "пылевынос из печи",
+      "target": "40-60 % от загрузки концентрата",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "40-60 % от загрузки концентрата",
+      "target": "публикация_1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "аварийная ситуация при обжиге концентрата",
+      "target": "публикация_2",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "обжиг в кипящем слое",
+      "target": "механизм образования и состав образующихся спеков",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "обжиг в кипящем слое",
+      "target": "условия безопасной работы промышленной печи",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "низкосортные цинковые концентраты",
+      "target": "обжиг в кипящем слое",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "регрессионное уравнение",
+      "target": "минимальная скорость подачи дутьевых газов",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "регрессионное уравнение",
+      "target": "обжиг в кипящем слое",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "регрессионное уравнение",
+      "target": "параметры работы печи",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "регрессионное уравнение",
+      "target": "содержание свинца в обжигаемом концентрате",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "регрессионное уравнение",
+      "target": "спеки в кипящем слое не образуются",
+      "type": "SHOWED"
+    },
+    {
+      "source": "регрессионное уравнение",
+      "target": "статистическая обработка данных",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "статистическая обработка данных",
+      "target": "регрессионное уравнение",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "механизм образования и состав образующихся спеков",
+      "target": "обжиг в кипящем слое",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "условия безопасной работы промышленной печи",
+      "target": "обжиг в кипящем слое",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "обжиг в кипящем слое",
+      "target": "спеки в кипящем слое не образуются",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "спеки в кипящем слое не образуются",
+      "target": "условия безопасной работы промышленной печи",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "регрессионное уравнение",
+      "target": "статья",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "статья",
+      "target": "статья",
+      "type": "TAGGED"
+    },
+    {
+      "source": "статья",
+      "target": "низкосортные цинковые концентраты",
+      "type": "TAGGED"
+    },
+    {
+      "source": "статья",
+      "target": "обжиг в кипящем слое",
+      "type": "TAGGED"
+    },
+    {
+      "source": "статья",
+      "target": "механизм образования и состав образующихся спеков",
+      "type": "TAGGED"
+    },
+    {
+      "source": "статья",
+      "target": "условия безопасной работы промышленной печи",
+      "type": "TAGGED"
+    },
+    {
+      "source": "статья",
+      "target": "статистическая обработка данных",
+      "type": "TAGGED"
+    },
+    {
+      "source": "статья",
+      "target": "регрессионное уравнение",
+      "type": "TAGGED"
+    },
+    {
+      "source": "статья",
+      "target": "минимальная скорость подачи дутьевых газов",
+      "type": "TAGGED"
+    },
+    {
+      "source": "статья",
+      "target": "параметры работы печи",
+      "type": "TAGGED"
+    },
+    {
+      "source": "статья",
+      "target": "содержание свинца в обжигаемом концентрате",
+      "type": "TAGGED"
+    },
+    {
+      "source": "спеки в кипящем слое",
+      "target": "обжиг цинковых концентратов",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "обжиг цинковых концентратов",
+      "target": "кипящий слой",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "обжиг цинковых концентратов",
+      "target": "спеки",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "спеки",
+      "target": "пористые белесого цвета",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "спеки",
+      "target": "темные плотные",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "пористые белесого цвета",
+      "target": "содержание цинка",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "пористые белесого цвета",
+      "target": "содержание серы",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "темные плотные",
+      "target": "содержание серы",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "темные плотные",
+      "target": "содержание цинка",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "спеки",
+      "target": "сульфид свинца",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "сульфид свинца",
+      "target": "плавление",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "сульфид свинца",
+      "target": "окисление",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "обжиг цинковых концентратов",
+      "target": "окисление сфалерита",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "окисление сфалерита",
+      "target": "одностадийный процесс",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "окисление сфалерита",
+      "target": "двухстадийный процесс",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "двухстадийный процесс",
+      "target": "металлический цинк",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "металлический цинк",
+      "target": "сублимация",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "сублимация",
+      "target": "газовая фаза",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "обжиг цинковых концентратов",
+      "target": "регрессионное уравнение",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "регрессионное уравнение",
+      "target": "содержание серы",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "регрессионное уравнение",
+      "target": "содержание цинка",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "обжиг",
+      "target": "meas_temp_900_970",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "обжиг",
+      "target": "finding_agglomeration_impossible",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_agglomeration_impossible",
+      "target": "src_p3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_eutectic_melting",
+      "target": "src_p3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_copper_limit_1_2",
+      "target": "src_p3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_temp_900_970",
+      "target": "src_p3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_eutectic_melting",
+      "target": "meas_copper_limit_1_2",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_agglomeration_impossible",
+      "target": "meas_copper_limit_1_2",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "обжиг сульфидных концентратов",
+      "target": "кипящий слой",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "кипящий слой",
+      "target": "температура",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "кипящий слой",
+      "target": "температура",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "температура",
+      "target": "агломераты",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "температура",
+      "target": "агломераты",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "агломераты",
+      "target": "пылевынос",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "агломераты",
+      "target": "пылевынос",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "пылевынос",
+      "target": "концентрат",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "пылевынос",
+      "target": "концентрат",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "обжиг сульфидных концентратов",
+      "target": "исследование",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "исследование",
+      "target": "условия безопасного обжига",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "условия безопасного обжига",
+      "target": "низкосортные сульфидные концентраты",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "низкосортные сульфидные концентраты",
+      "target": "печь КС",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "исследование",
+      "target": "литературные источники",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "литературные источники",
+      "target": "сульфид цинка",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "литературные источники",
+      "target": "оксид цинка",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "литературные источники",
+      "target": "сульфат цинка",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "литературные источники",
+      "target": "оксисульфат цинка",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "литературные источники",
+      "target": "силикаты",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "сульфид цинка",
+      "target": "не плавится",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "оксид цинка",
+      "target": "не плавится",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "сульфат цинка",
+      "target": "не плавится",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "оксисульфат цинка",
+      "target": "не плавится",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "силикаты",
+      "target": "не плавится",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "Владимиров Е.С.",
+      "target": "Портов А.Б.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Ушков Л.А.",
+      "target": "Классен Э.А.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Владимиров Е.С.",
+      "target": "ООО «Институт Гипроникель»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "Портов А.Б.",
+      "target": "ООО «Институт Гипроникель»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "Ушков Л.А.",
+      "target": "ТОО «Казцинк»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "Классен Э.А.",
+      "target": "ТОО «Казцинк»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "Азекенов Турарбек Анарбекович",
+      "target": "ТОО «Казцинк»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "Аннотация",
+      "target": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "target": "Портов А.Б.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "target": "Владимиров Е.С.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "target": "Ушков Л.А.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "target": "Классен Э.А.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "target": "Аннотация",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "target": "ООО «Институт Гипроникель»",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "target": "ТОО «Казцинк»",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "target": "спеки",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "target": "настыль на стенках печи",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "спеки",
+      "target": "снижение производительности печи",
+      "type": "SHOWED"
+    },
+    {
+      "source": "настыль на стенках печи",
+      "target": "аварийные остановки печи",
+      "type": "SHOWED"
+    },
+    {
+      "source": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "target": "спеки",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "target": "настыль на стенках печи",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "спеки",
+      "target": "Property_спеки",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "настыль на стенках печи",
+      "target": "Property_настыль",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "target": "Process_обжиг",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "target": "Equipment_печь кипящего слоя",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "target": "Material_низкосортные цинковые концентраты",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "target": "Condition_кипящий слой",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "target": "Topic_металлургия",
+      "type": "TAGGED"
+    },
+    {
+      "source": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "target": "Topic_спеки",
+      "type": "TAGGED"
+    },
+    {
+      "source": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "target": "Topic_аварийные остановки",
+      "type": "TAGGED"
+    },
+    {
+      "source": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "target": "Topic_литературные данные",
+      "type": "TAGGED"
+    },
+    {
+      "source": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "target": "Topic_борьба с образованием спеков",
+      "type": "TAGGED"
+    },
+    {
+      "source": "обжиг низкосортных цинковых концентратов в печах кипящего слоя",
+      "target": "Source_p1",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "обжиг",
+      "target": "сублимация сульфида свинца",
+      "type": "SHOWED"
+    },
+    {
+      "source": "сублимация сульфида свинца",
+      "target": "низкая концентрация кислорода",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "сублимация сульфида свинца",
+      "target": "высокая концентрация диоксида серы",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "сублимация сульфида свинца",
+      "target": "высокое парциальное давление сульфида свинца",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "газообразный сульфид свинца",
+      "target": "окисление",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "окисление",
+      "target": "оксид свинца",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "окисление",
+      "target": "сульфат свинца",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "оксид свинца",
+      "target": "осаждение на частицах",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "оксид свинца",
+      "target": "жидкое состояние",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "жидкое состояние",
+      "target": "высокие температуры",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "жидкое состояние",
+      "target": "осаждение на крупных частицах кипящего слоя",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "жидкое состояние",
+      "target": "растворение в эвтектиках",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "растворение в эвтектиках",
+      "target": "ZnO",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "растворение в эвтектиках",
+      "target": "Fe2O3",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "растворение в эвтектиках",
+      "target": "Al2O3",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "растворение в эвтектиках",
+      "target": "SiO2",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "растворение в эвтектиках",
+      "target": "SiO2",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "оксид свинца",
+      "target": "связующее агент",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "оксид свинца",
+      "target": "связывание мелких частиц",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "оксид свинца",
+      "target": "образование спека",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "жидкие мостики",
+      "target": "разрыв при ударе мелких частиц",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "жидкие мостики",
+      "target": "ударный импульс крупных частиц",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ударный импульс крупных частиц",
+      "target": "увеличение крупности частиц спека",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "концентрат цинковый",
+      "target": "агломерация",
+      "type": "SHOWED"
+    },
+    {
+      "source": "концентрат цинковый",
+      "target": "содержание меди",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "содержание меди",
+      "target": "meas_cu_1_2",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_cu_1_2",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "концентрат цинковый",
+      "target": "содержание мышьяка",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "содержание мышьяка",
+      "target": "meas_as",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_as",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "сфалерит",
+      "target": "концентрат цинковый",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "сфалерит",
+      "target": "загрязнение железом",
+      "type": "SHOWED"
+    },
+    {
+      "source": "загрязнение железом",
+      "target": "meas_fe_high",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_fe_high",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "сфалерит",
+      "target": "франклинит",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "франклинит",
+      "target": "пористые частицы ZnO+ZnFe2O4",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "пористые частицы ZnO+ZnFe2O4",
+      "target": "агломерация",
+      "type": "SHOWED"
+    },
+    {
+      "source": "агломерация",
+      "target": "finding_agglomeration_porous",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_agglomeration_porous",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "агломерат",
+      "target": "сростки ZnO, ZnFe2O4, Zn2SiO4, оксид/оксисульфат свинца",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "сростки ZnO, ZnFe2O4, Zn2SiO4, оксид/оксисульфат свинца",
+      "target": "ритмичные полосы",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "ритмичные полосы",
+      "target": "парофазная реакция",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "галенит",
+      "target": "концентрат цинковый",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "галенит",
+      "target": "сублимация",
+      "type": "SHOWED"
+    },
+    {
+      "source": "сублимация",
+      "target": "finding_sublimation_lead_sulfide",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_sublimation_lead_sulfide",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "сублимация",
+      "target": "условия локального слоя",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "условия локального слоя",
+      "target": "низкая концентрация кислорода",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "условия локального слоя",
+      "target": "высокая концентрация диоксида серы",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "условия локального слоя",
+      "target": "высокое парциальное давление",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "finding_particulate_agglomeration",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_particulate_agglomeration",
+      "target": "meas_copper_2_5",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "meas_copper_2_5",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_copper_2_5",
+      "target": "property_copper_content",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "process_roasting",
+      "target": "meas_copper_2_5",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "process_roasting",
+      "target": "condition_high_temperature",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "property_copper_content",
+      "target": "material_zinc_concentrate",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "material_silica",
+      "target": "material_zinc_concentrate",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "material_silica",
+      "target": "finding_silicate_formation",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_silicate_formation",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "material_lead_compounds",
+      "target": "finding_silicate_formation",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "material_zinc_oxide",
+      "target": "finding_silicate_formation",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "material_silica",
+      "target": "property_silica_content",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "property_silica_content",
+      "target": "material_zinc_concentrate",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "process_roasting",
+      "target": "property_silica_content",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "температура",
+      "target": "измерялась",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "температура",
+      "target": "измерялась",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "кислородный коэффициент",
+      "target": "измерялась",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "цинковый концентрат",
+      "target": "сфалерит",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "цинковый концентрат",
+      "target": "пирит",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "цинковый концентрат",
+      "target": "гранат андрадит-гроссуляровой группы",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "цинковый концентрат",
+      "target": "геденбергит",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "цинковый концентрат",
+      "target": "халькопирит",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "цинковый концентрат",
+      "target": "галенит",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "цинковый концентрат",
+      "target": "церуссит",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "цинковый концентрат",
+      "target": "пирротин",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "цинковый концентрат",
+      "target": "хлорит",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "цинковый концентрат",
+      "target": "диопсид",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "цинковый концентрат",
+      "target": "гематит",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "цинковый концентрат",
+      "target": "гроссуляр",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "цинковый концентрат",
+      "target": "кварц",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "цинковый концентрат",
+      "target": "калиевый полевой шпат",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "цинковый концентрат",
+      "target": "натриевый полевой шпат",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "цинковый концентрат",
+      "target": "слюда",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "минералогический состав",
+      "target": "цинковый концентрат",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "минералогический состав",
+      "target": "микроскоп TESCAN MIRA",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "минералогический состав",
+      "target": "микроскоп FEI Quanta",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "минералогический состав",
+      "target": "BSE",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "минералогический состав",
+      "target": "измерялась",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "крупность силикатных зерен",
+      "target": "цементирующая сульфидная фаза",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "крупность силикатных зерен",
+      "target": "измерялась",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "кварц",
+      "target": "силикатная составляющая",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "калиевые полевые шпаты",
+      "target": "силикатная составляющая",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "натриевые полевые шпаты",
+      "target": "силикатная составляющая",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "гранаты",
+      "target": "силикатная составляющая",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "крупность силикатных зерен",
+      "target": "meas_grain_size_silicate_10_100",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_grain_size_silicate_10_100",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "сфалерит",
+      "target": "зёрна сфалерита",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "зёрна сфалерита",
+      "target": "meas_grain_size_sphalerite_1_200",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_grain_size_sphalerite_1_200",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "агломераты",
+      "target": "finding_agglomerates",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_agglomerates",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "концентрат 5",
+      "target": "meas_mean_grain_size_46_1",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_mean_grain_size_46_1",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "концентрат 8",
+      "target": "meas_mean_grain_size_37_2",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_mean_grain_size_37_2",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "фракция -40 мкм",
+      "target": "finding_fraction_64_74",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_fraction_64_74",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "обжиг",
+      "target": "meas_mean_grain_size_46_1",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "обжиг",
+      "target": "meas_mean_grain_size_37_2",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "вибрационный питатель",
+      "target": "meas_feed_rate_2",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_feed_rate_2",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "манометр газовой коробки печи",
+      "target": "finding_pressure_fluctuations",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_pressure_fluctuations",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_automatic_shutdown",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_ash_discharge",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_dust_collection",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_vertical_gas_conduit",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "модернизированная укрупненная лабораторная установка кипящего слоя",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "огарок от предыдущего опыта",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "огарок от предыдущего опыта",
+      "target": "постель",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "концентрат",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "дутьевой газ",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "температура в кипящем слое",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "содержание кислорода в дутьевом газе",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "скорость загрузки концентрата",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "температура в сепарационном пространстве печи",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "колебания стрелки манометра газового",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "влажность концентрата",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "масса навески концентрата",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "масса постели",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "крупность постели",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "масса первой навески концентрата",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "скорость загрузки концентрата",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "температура в кипящем слое",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "температура в сепарационном пространстве печи",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "колебания стрелки манометра газового",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "влажность концентрата",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "масса навески концентрата",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "масса постели",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "крупность постели",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "скорость загрузки концентрата",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "масса первой навески концентрата",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "модернизированная укрупненная лабораторная установка кипящего слоя",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "методика проведения экспериментов",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "модернизированная укрупненная лабораторная установка кипящего слоя",
+      "target": "схема и описание которой приведены в [12]",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "модернизированная укрупненная лабораторная установка кипящего слоя",
+      "target": "источник [12]",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "обжиг концентрата в кипящем слое",
+      "target": "источник [12]",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "методика проведения экспериментов",
+      "target": "источник [12]",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "масса первой навески концентрата",
+      "target": "4 кг",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "масса постели",
+      "target": "4 кг",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "масса навески концентрата",
+      "target": "4 кг",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "масса навески концентрата",
+      "target": "2 кг",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "скорость загрузки концентрата",
+      "target": "2 кг/час",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "крупность постели",
+      "target": "-2 мм",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "влажность концентрата",
+      "target": "~10 %",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "температура в кипящем слое",
+      "target": "заданная по эксперименту",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "содержание кислорода в дутьевом газе",
+      "target": "заданное по условию проведения эксперимента",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "температура в сепарационном пространстве печи",
+      "target": "контролировалась",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "колебания стрелки манометра газового",
+      "target": "отслеживались",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "циклоны",
+      "target": "газоходная пыль",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "циклоны",
+      "target": "опорожнение от пыли",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "опорожнение от пыли",
+      "target": "вертикальное расположение газоходов",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "газоходная пыль",
+      "target": "взвешивание",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "взвешивание",
+      "target": "материальный баланс опыта",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "взвешивание",
+      "target": "химический анализ",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "взвешивание",
+      "target": "вещественный анализ",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "взвешивание",
+      "target": "гранулометрический анализ",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "образование спеков",
+      "target": "охлаждение печи",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "охлаждение печи",
+      "target": "снятие подины",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "снятие подины",
+      "target": "механическое удаление материала",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "механическое удаление материала",
+      "target": "спеки",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "спеки",
+      "target": "взвешивание",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "спеки",
+      "target": "химический анализ",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "спеки",
+      "target": "вещественный анализ",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "анализ отходящего газа",
+      "target": "O2",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "анализ отходящего газа",
+      "target": "N2",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "анализ отходящего газа",
+      "target": "SO2",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "анализ отходящего газа",
+      "target": "CO2",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "анализ отходящего газа",
+      "target": "Ar",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "эксперименты",
+      "target": "настыль",
+      "type": "SHOWED"
+    },
+    {
+      "source": "эксперименты",
+      "target": "настыль",
+      "type": "SHOWED"
+    },
+    {
+      "source": "эксперименты",
+      "target": "агломерация",
+      "type": "SHOWED"
+    },
+    {
+      "source": "эксперименты",
+      "target": "кипящий слой",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "манометр",
+      "target": "колебания стрелки",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "колебания стрелки",
+      "target": "агломерация",
+      "type": "SHOWED"
+    },
+    {
+      "source": "колебания стрелки",
+      "target": "настыль",
+      "type": "SHOWED"
+    },
+    {
+      "source": "колебания стрелки",
+      "target": "настыль",
+      "type": "SHOWED"
+    },
+    {
+      "source": "эксперименты",
+      "target": "манометр",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "эксперименты",
+      "target": "подина печи",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "эксперименты",
+      "target": "кипящий слой",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "эксперименты",
+      "target": "настыль",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "эксперименты",
+      "target": "настыль",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "эксперименты",
+      "target": "аварийная ситуация",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "эксперименты",
+      "target": "спеки",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "эксперименты",
+      "target": "выпуск огарка",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "эксперименты",
+      "target": "высокая частота колебаний",
+      "type": "SHOWED"
+    },
+    {
+      "source": "эксперименты",
+      "target": "низкая частота колебаний",
+      "type": "SHOWED"
+    },
+    {
+      "source": "эксперименты",
+      "target": "снижение амплитуды колебаний",
+      "type": "SHOWED"
+    },
+    {
+      "source": "эксперименты",
+      "target": "остановка стрелки манометра",
+      "type": "SHOWED"
+    },
+    {
+      "source": "снижение амплитуды колебаний",
+      "target": "неконтролируемая агломерация",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "эксперименты",
+      "target": "источник_стр_9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "анализ отходящего газа",
+      "target": "meas_o2_0_5",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "анализ отходящего газа",
+      "target": "meas_so2_15_0",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "анализ отходящего газа",
+      "target": "meas_co2_8_0",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "анализ отходящего газа",
+      "target": "meas_ar_0_2",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "анализ отходящего газа",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "разогрев печи",
+      "target": "силиты",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "процесс автогенный",
+      "target": "силиты",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "процесс автогенный",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "неконтролируемая агломерация",
+      "target": "снижение частоты колебаний стрелки манометра",
+      "type": "SHOWED"
+    },
+    {
+      "source": "неконтролируемая агломерация",
+      "target": "замедление движения стрелки манометра",
+      "type": "SHOWED"
+    },
+    {
+      "source": "неконтролируемая агломерация",
+      "target": "остановка стрелки манометра",
+      "type": "SHOWED"
+    },
+    {
+      "source": "неконтролируемая агломерация",
+      "target": "настыль на подине",
+      "type": "SHOWED"
+    },
+    {
+      "source": "неконтролируемая агломерация",
+      "target": "присутствие зерен спека в огарке",
+      "type": "SHOWED"
+    },
+    {
+      "source": "неконтролируемая агломерация",
+      "target": "наличие спеков при выпуске продуктов обжига",
+      "type": "SHOWED"
+    },
+    {
+      "source": "неконтролируемая агломерация",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "стрелочный манометр",
+      "target": "газовая коробка печи",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "стрелочный манометр",
+      "target": "подина печи",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "стрелочный манометр",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "масс-спектрометр ЭМГ-20-7",
+      "target": "анализ отходящего газа",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "масс-спектрометр ЭМГ-20-7",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "обжиг цинковых концентратов в кипящем слое",
+      "target": "спеки",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "обжиг цинковых концентратов в кипящем слое",
+      "target": "условия безопасного обжига",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "обжиг цинковых концентратов в кипящем слое",
+      "target": "температура 920-950оС",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "обжиг цинковых концентратов в кипящем слое",
+      "target": "содержание кислорода в дутьевых газах 21-35 %",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "обжиг цинковых концентратов в кипящем слое",
+      "target": "линейная скорость подачи дутья в печь 0,16-0,48 нм/с",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "обжиг цинковых концентратов в кипящем слое",
+      "target": "время нахождения огарка в печи 4 часа",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "спеки",
+      "target": "появление спеков при выпуске огарка",
+      "type": "SHOWED"
+    },
+    {
+      "source": "спеки",
+      "target": "настыль на подине печи",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "спеки",
+      "target": "аварийная ситуация",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "эксперименты по определению условий безопасного обжига",
+      "target": "обжиг цинковых концентратов в кипящем слое",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "эксперименты по определению условий безопасного обжига",
+      "target": "лабораторные условия",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "эксперименты по определению условий безопасного обжига",
+      "target": "промышленная печь",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "эксперименты по определению условий безопасного обжига",
+      "target": "температура 920-950оС",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "эксперименты по определению условий безопасного обжига",
+      "target": "содержание кислорода в дутьевых газах 21-35 %",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "эксперименты по определению условий безопасного обжига",
+      "target": "линейная скорость подачи дутья в печь 0,16-0,48 нм/с",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "эксперименты по определению условий безопасного обжига",
+      "target": "время нахождения огарка в печи 4 часа",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "температура 920-950оС",
+      "target": "температура",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "температура 920-950оС",
+      "target": "температура",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "содержание кислорода в дутьевых газах 21-35 %",
+      "target": "содержание кислорода",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "линейная скорость подачи дутья в печь 0,16-0,48 нм/с",
+      "target": "линейная скорость подачи дутья",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "время нахождения огарка в печи 4 часа",
+      "target": "время нахождения огарка в печи",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "появление спеков при выпуске огарка",
+      "target": "спеки",
+      "type": "SHOWED"
+    },
+    {
+      "source": "настыль на подине печи",
+      "target": "аварийная ситуация",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "эксперименты по определению условий безопасного обжига",
+      "target": "условия безопасного обжига",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "кипящий слой",
+      "target": "спек",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "кипящий слой",
+      "target": "настыль",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "кипящий слой",
+      "target": "настыль",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "спек",
+      "target": "пористый",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "спек",
+      "target": "белесый",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "настыль",
+      "target": "темный",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "настыль",
+      "target": "темный",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "настыль",
+      "target": "плотный",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "настыль",
+      "target": "плотный",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "спек",
+      "target": "настыль",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "спек",
+      "target": "настыль",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "спеки первого типа",
+      "target": "глубоко окисленный плавленый материал",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "спеки первого типа",
+      "target": "вторичная перекристаллизация оксидно-силикатной массы",
+      "type": "SHOWED"
+    },
+    {
+      "source": "оксид цинка",
+      "target": "спеки первого типа",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "ферриты цинка",
+      "target": "спеки первого типа",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "силикат калия",
+      "target": "спеки первого типа",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "сульфид свинца",
+      "target": "спеки первого типа",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "оксиды",
+      "target": "спеки первого типа",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "галенит",
+      "target": "спеки первого типа",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "сфалерит",
+      "target": "спеки первого типа",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "спеки первого типа",
+      "target": "реликты сульфидных минералов исходного концентрата",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "реликты сульфидных минералов исходного концентрата",
+      "target": "отсутствие признаков окисления",
+      "type": "SHOWED"
+    },
+    {
+      "source": "реликты сульфидных минералов исходного концентрата",
+      "target": "отсутствие признаков подплавления",
+      "type": "SHOWED"
+    },
+    {
+      "source": "реликты сульфидных минералов исходного концентрата",
+      "target": "предположение о случайном загрязнении пробы",
+      "type": "SHOWED"
+    },
+    {
+      "source": "спеки первого типа",
+      "target": "диапазон составов от оксида цинка до ферритов цинка",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "спеки первого типа",
+      "target": "силикатные компоненты в форме микронных включений",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "спеки первого типа",
+      "target": "микронные и субмикронные включения фаз на основе свинца",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "спеки первого типа",
+      "target": "концентрация серы в микровключениях",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "спеки первого типа",
+      "target": "сульфатная сера в виде единичных свободных оксисульфидных частиц",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "спеки первого типа",
+      "target": "глубокое окисление",
+      "type": "SHOWED"
+    },
+    {
+      "source": "спеки первого типа",
+      "target": "плавленый материал",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "спеки первого типа",
+      "target": "вторичная перекристаллизация",
+      "type": "SHOWED"
+    },
+    {
+      "source": "астыль_кипящего_слоя",
+      "target": "спек_первого_типа",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "спек_первого_типа",
+      "target": "содержание_серы",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "содержание_серы",
+      "target": "meas_sulf_0_05",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_sulf_0_05",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "спек_первого_типа",
+      "target": "содержание_меди",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "спек_второго_типа",
+      "target": "содержание_меди",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "спек_второго_типа",
+      "target": "содержание_свинца",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "спек_второго_типа",
+      "target": "содержание_железа",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "спек_второго_типа",
+      "target": "содержание_цинка",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "спек_второго_типа",
+      "target": "содержание_кремнезема",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "спек_первого_типа",
+      "target": "основа_спека",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "основа_спека",
+      "target": "оксид_цинка",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "оксид_цинка",
+      "target": "meas_zno_90",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_zno_90",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "основа_спека",
+      "target": "феррит_цинка",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "феррит_цинка",
+      "target": "meas_znfe2o4_10",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_znfe2o4_10",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "спек_первого_типа",
+      "target": "finding_пористость_низкая",
+      "type": "SHOWED"
+    },
+    {
+      "source": "спек_второго_типа",
+      "target": "finding_пористость_высокая",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_пористость_низкая",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_пористость_высокая",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_обогащение_меди",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_обогащение_свинца",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_обогащение_железа",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_обеднение_цинка",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_обеднение_кремнезема",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "обжиг",
+      "target": "спеки",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "спеки",
+      "target": "содержание цинка",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "спеки",
+      "target": "содержание железа",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "спеки",
+      "target": "концентрат",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "спеки",
+      "target": "огарок",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "обжиг",
+      "target": "температура обжига",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "металлический цинк",
+      "target": "сублимация",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "металлический цинк",
+      "target": "окисление в объеме печи",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "частицы у стенок печи",
+      "target": "обеднены цинком",
+      "type": "SHOWED"
+    },
+    {
+      "source": "частицы у стенок печи",
+      "target": "обогащены железом",
+      "type": "SHOWED"
+    },
+    {
+      "source": "окисление пирита и пирротина",
+      "target": "оксисульфидные расплавы",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "оксисульфидные расплавы",
+      "target": "эвтектическая температура 908оС",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "эвтектическая температура 908оС",
+      "target": "температура",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "эвтектическая температура 908оС",
+      "target": "температура",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "эвтектическая температура 908оС",
+      "target": "оксисульфидные расплавы",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "настыль",
+      "target": "стенка печи",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "настыль",
+      "target": "стенка печи",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "настыль",
+      "target": "столкновения частиц",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "настыль",
+      "target": "столкновения частиц",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "настыль",
+      "target": "жидкая фаза",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "настыль",
+      "target": "жидкая фаза",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "жидкая фаза",
+      "target": "поверхность частиц",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "жидкая фаза",
+      "target": "столкновения с холодной стенкой печи",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "силикаты калия (и натрия)",
+      "target": "настыль",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "силикаты калия (и натрия)",
+      "target": "настыль",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "обжиг цинковых концентратов",
+      "target": "температура обжига",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "обжиг цинковых концентратов",
+      "target": "содержание свинца в концентрате",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "обжиг цинковых концентратов",
+      "target": "содержание кислорода в дутьевых газах",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "обжиг цинковых концентратов",
+      "target": "скорость подачи дутьевых газов",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "скорость подачи дутьевых газов",
+      "target": "регрессионное уравнение",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "регрессионное уравнение",
+      "target": "среднеквадратичное отклонение расчетных данных от экспериментальных",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "среднеквадратичное отклонение расчетных данных от экспериментальных",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "спеки в кипящем слое",
+      "target": "настыль",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "спеки в кипящем слое",
+      "target": "настыль",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "настыль",
+      "target": "стенка печи",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "настыль",
+      "target": "стенка печи",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "настыль",
+      "target": "частицы",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "настыль",
+      "target": "частицы",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "настыль",
+      "target": "жидкая фаза",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "настыль",
+      "target": "жидкая фаза",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "жидкая фаза",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "настыль",
+      "target": "сликаты калия",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "настыль",
+      "target": "сликаты калия",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "настыль",
+      "target": "сликаты натрия",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "настыль",
+      "target": "сликаты натрия",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "сликаты калия",
+      "target": "спеки на подине печи",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "сликаты натрия",
+      "target": "спеки на подине печи",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "сликаты калия",
+      "target": "спеки у стенок печи",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "сликаты натрия",
+      "target": "спеки у стенок печи",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "регрессионное уравнение",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "среднеквадратичное отклонение расчетных данных от экспериментальных",
+      "target": "meas_rms_0041",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_rms_0041",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "настыль",
+      "target": "finding_nostack",
+      "type": "SHOWED"
+    },
+    {
+      "source": "настыль",
+      "target": "finding_nostack",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_nostack",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "спеки 1-го типа",
+      "target": "оксидная масса на основе Fe-Zn",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "спеки 1-го типа",
+      "target": "оксидная масса на основе Zn",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "спеки 1-го типа",
+      "target": "силикатная масса на основе Zn",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "спеки 1-го типа",
+      "target": "микронный/субмикронный сульфат Pb",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "спеки 1-го типа",
+      "target": "сульфат Ca",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "спеки 1-го типа",
+      "target": "глубоко окисленный плавленый материал",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "спеки 1-го типа",
+      "target": "механизм образования спеков первого типа",
+      "type": "SHOWED"
+    },
+    {
+      "source": "механизм образования спеков первого типа",
+      "target": "окисление сульфидных компонент концентрата",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "механизм образования спеков первого типа",
+      "target": "окисление сфалерита",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "механизм образования спеков первого типа",
+      "target": "образование оксидов металлов",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "механизм образования спеков первого типа",
+      "target": "окисление галенита",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "механизм образования спеков первого типа",
+      "target": "диффузия галенита к поверхности кипящих частиц",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "механизм образования спеков первого типа",
+      "target": "плавление галенита при температурах обжига",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "механизм образования спеков первого типа",
+      "target": "смачивание поверхности частиц",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "механизм образования спеков первого типа",
+      "target": "образование агломератов",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "механизм образования спеков первого типа",
+      "target": "осаждение агломератов на подине печи",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "механизм образования спеков первого типа",
+      "target": "содержание цинка в спеках",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "механизм образования спеков первого типа",
+      "target": "содержание железа в спеках",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "механизм образования спеков первого типа",
+      "target": "содержание цинка в концентрате",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "механизм образования спеков первого типа",
+      "target": "содержание цинка в огарке",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "механизм образования спеков первого типа",
+      "target": "содержание железа в концентрате",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "механизм образования спеков первого типа",
+      "target": "содержание железа в огарке",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "спеки 1-го типа",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "спеки 2-го типа",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "механизм образования спеков первого типа",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    }
+  ]
+}

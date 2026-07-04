@@ -1,0 +1,2028 @@
+{
+  "document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+  "nodes": [
+    {
+      "id": "АО «Кольская ГМК»",
+      "label": "Facility",
+      "properties": {
+        "address": "184505, г. Мончегорск, Мурманская область, территория Промплощадка КГМК",
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "АО «Кольская ГМК»",
+        "type": "завод",
+        "ingestion_date": "2026-07-04T16:05:38.430982"
+      }
+    },
+    {
+      "id": "рисунок 5",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "рисунок 5",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:38.431489"
+      }
+    },
+    {
+      "id": "содержание железа",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "содержание железа",
+        "ingestion_date": "2026-07-04T16:05:38.431021"
+      }
+    },
+    {
+      "id": "процесс окисления железа",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "процесс окисления железа",
+        "ingestion_date": "2026-07-04T16:05:38.431009"
+      }
+    },
+    {
+      "id": "концентрированные хлоридные никелевые растворы",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "концентрированные хлоридные никелевые растворы",
+        "ingestion_date": "2026-07-04T16:05:38.431017"
+      }
+    },
+    {
+      "id": "meas_fe_7_8",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "г/дм3",
+        "min": 7000.0,
+        "max": 8000.0,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_fe_7_8",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:05:38.431027"
+      }
+    },
+    {
+      "id": "finding_fe_increase",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Прогнозируемое содержание железа в растворе с учетом изменений состава исходного сырья достигнет 7-8 г/дм3",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "finding_fe_increase",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:38.431031"
+      }
+    },
+    {
+      "id": "удельная мощность перемешивания",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "definition": "мощность, расходуемая на перемешивание, деленная на полезный объем аппарата",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "удельная мощность перемешивания",
+        "ingestion_date": "2026-07-04T16:05:38.431036"
+      }
+    },
+    {
+      "id": "мешалка",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "мешалка",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:38.431039"
+      }
+    },
+    {
+      "id": "6-ти лопастная турбинная мешалка",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "6-ти лопастная турбинная мешалка",
+        "ingestion_date": "2026-07-04T16:05:38.431042"
+      }
+    },
+    {
+      "id": "коэффициент мощности мешалки",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "коэффициент мощности мешалки",
+        "ingestion_date": "2026-07-04T16:05:38.431045"
+      }
+    },
+    {
+      "id": "8,4",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "8,4",
+        "value": 8.4,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:05:38.431047"
+      }
+    },
+    {
+      "id": "мощность, расходуемая на перемешивание",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "мощность, расходуемая на перемешивание",
+        "ingestion_date": "2026-07-04T16:05:38.431050"
+      }
+    },
+    {
+      "id": "Вт",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Вт",
+        "ingestion_date": "2026-07-04T16:05:38.431052"
+      }
+    },
+    {
+      "id": "полезный объем аппарата",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "полезный объем аппарата",
+        "ingestion_date": "2026-07-04T16:05:38.431055"
+      }
+    },
+    {
+      "id": "0,0007 м3",
+      "label": "Measurement",
+      "properties": {
+        "unit": "м3",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "0,0007 м3",
+        "value": 0.0007,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:05:38.431058"
+      }
+    },
+    {
+      "id": "диаметр мешалки",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "диаметр мешалки",
+        "ingestion_date": "2026-07-04T16:05:38.431060"
+      }
+    },
+    {
+      "id": "0,04 м",
+      "label": "Measurement",
+      "properties": {
+        "unit": "м",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "0,04 м",
+        "value": 0.04,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:05:38.431063"
+      }
+    },
+    {
+      "id": "плотность пульпы",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "плотность пульпы",
+        "ingestion_date": "2026-07-04T16:05:38.431066"
+      }
+    },
+    {
+      "id": "определена плотномером",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "определена плотномером",
+        "ingestion_date": "2026-07-04T16:05:38.431068"
+      }
+    },
+    {
+      "id": "число оборотов мешалки",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "число оборотов мешалки",
+        "ingestion_date": "2026-07-04T16:05:38.431071"
+      }
+    },
+    {
+      "id": "об/с",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "об/с",
+        "ingestion_date": "2026-07-04T16:05:38.431073"
+      }
+    },
+    {
+      "id": "аппарат без отражательных перегородок",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "аппарат без отражательных перегородок",
+        "ingestion_date": "2026-07-04T16:05:38.431076"
+      }
+    },
+    {
+      "id": "лабораторная установка",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "лабораторная установка",
+        "ingestion_date": "2026-07-04T16:05:38.431079"
+      }
+    },
+    {
+      "id": "кинетические кривые окисления железа (II)",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "кинетические кривые окисления железа (II)",
+        "ingestion_date": "2026-07-04T16:05:38.431082"
+      }
+    },
+    {
+      "id": "источник_эксперимент",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "источник_эксперимент",
+        "ingestion_date": "2026-07-04T16:05:38.431087",
+        "span": "p.12"
+      }
+    },
+    {
+      "id": "источник_4",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "источник_4",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:38.431090",
+        "span": "p.4"
+      }
+    },
+    {
+      "id": "базовый опыт",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "базовый опыт",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:38.431093"
+      }
+    },
+    {
+      "id": "условия базового опыта",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "условия базового опыта",
+        "ingestion_date": "2026-07-04T16:05:38.431096"
+      }
+    },
+    {
+      "id": "935 об/мин мешалки",
+      "label": "Measurement",
+      "properties": {
+        "unit": "об/мин",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "935 об/мин мешалки",
+        "validation_status": "pending",
+        "value": 935,
+        "ingestion_date": "2026-07-04T16:05:38.431098"
+      }
+    },
+    {
+      "id": "40% О2 в подаваемой КВС",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "40% О2 в подаваемой КВС",
+        "validation_status": "pending",
+        "value": 40,
+        "ingestion_date": "2026-07-04T16:05:38.431101"
+      }
+    },
+    {
+      "id": "2 л/мин",
+      "label": "Measurement",
+      "properties": {
+        "unit": "л/мин",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "2 л/мин",
+        "validation_status": "pending",
+        "value": 2,
+        "ingestion_date": "2026-07-04T16:05:38.431103"
+      }
+    },
+    {
+      "id": "pH раствора = 1,6",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "pH раствора = 1,6",
+        "validation_status": "pending",
+        "value": 1.6,
+        "ingestion_date": "2026-07-04T16:05:38.431106"
+      }
+    },
+    {
+      "id": "температура раствора - 80оС",
+      "label": "Measurement",
+      "properties": {
+        "unit": "°C",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "температура раствора - 80оС",
+        "validation_status": "pending",
+        "value": 80,
+        "ingestion_date": "2026-07-04T16:05:38.431108"
+      }
+    },
+    {
+      "id": "состав раствора: 200-220 г/дм3 Ni",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "г/дм3",
+        "min": 200000.0,
+        "max": 220000.0,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "состав раствора: 200-220 г/дм3 Ni",
+        "ingestion_date": "2026-07-04T16:05:38.431111"
+      }
+    },
+    {
+      "id": "состав раствора: 250-260 г/дм3 Cl",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "г/дм3",
+        "min": 250000.0,
+        "max": 260000.0,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "состав раствора: 250-260 г/дм3 Cl",
+        "ingestion_date": "2026-07-04T16:05:38.431114"
+      }
+    },
+    {
+      "id": "состав раствора: 35-40 г/дм3 SO4",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "г/дм3",
+        "min": 35000.0,
+        "max": 40000.0,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "состав раствора: 35-40 г/дм3 SO4",
+        "ingestion_date": "2026-07-04T16:05:38.431116"
+      }
+    },
+    {
+      "id": "состав раствора: 8-10 г/дм3 Fe",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "г/дм3",
+        "min": 8000.0,
+        "max": 10000.0,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "состав раствора: 8-10 г/дм3 Fe",
+        "ingestion_date": "2026-07-04T16:05:38.431119"
+      }
+    },
+    {
+      "id": "состав раствора: 8-10 г/дм3 Na",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "г/дм3",
+        "min": 8000.0,
+        "max": 10000.0,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "состав раствора: 8-10 г/дм3 Na",
+        "ingestion_date": "2026-07-04T16:05:38.431122"
+      }
+    },
+    {
+      "id": "состав раствора: 0,85-0,95 г/дм3 Cu",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "г/дм3",
+        "min": 850.0,
+        "max": 950.0,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "состав раствора: 0,85-0,95 г/дм3 Cu",
+        "ingestion_date": "2026-07-04T16:05:38.431125"
+      }
+    },
+    {
+      "id": "предварительная серия опытов",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "предварительная серия опытов",
+        "ingestion_date": "2026-07-04T16:05:38.431128"
+      }
+    },
+    {
+      "id": "300 мин",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мин",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "300 мин",
+        "validation_status": "pending",
+        "value": 300,
+        "ingestion_date": "2026-07-04T16:05:38.431131"
+      }
+    },
+    {
+      "id": "100 мин",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мин",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "100 мин",
+        "validation_status": "pending",
+        "value": 100,
+        "ingestion_date": "2026-07-04T16:05:38.431134"
+      }
+    },
+    {
+      "id": "влияние интенсивности перемешивания на окисление железа",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "влияние интенсивности перемешивания на окисление железа",
+        "ingestion_date": "2026-07-04T16:05:38.431139"
+      }
+    },
+    {
+      "id": "удельная мощность перемешивания Eуд",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "удельная мощность перемешивания Eуд",
+        "ingestion_date": "2026-07-04T16:05:38.431141"
+      }
+    },
+    {
+      "id": "мощность, расходуемая на перемешивание, Вт",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "мощность, расходуемая на перемешивание, Вт",
+        "ingestion_date": "2026-07-04T16:05:38.431144"
+      }
+    },
+    {
+      "id": "N – мощность, расходуемая на перемешивание, Вт",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "N – мощность, расходуемая на перемешивание, Вт",
+        "ingestion_date": "2026-07-04T16:05:38.431146"
+      }
+    },
+    {
+      "id": "кинетические кривые окисления железа",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "кинетические кривые окисления железа",
+        "ingestion_date": "2026-07-04T16:05:38.431149"
+      }
+    },
+    {
+      "id": "необходимая интенсивность перемешивания",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "необходимая интенсивность перемешивания",
+        "ingestion_date": "2026-07-04T16:05:38.431151"
+      }
+    },
+    {
+      "id": "снятие диффузионных ограничений",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "снятие диффузионных ограничений",
+        "ingestion_date": "2026-07-04T16:05:38.431154"
+      }
+    },
+    {
+      "id": "дальнейшие эксперименты",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "дальнейшие эксперименты",
+        "ingestion_date": "2026-07-04T16:05:38.431156"
+      }
+    },
+    {
+      "id": "[4]",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "[4]",
+        "ingestion_date": "2026-07-04T16:05:38.431159"
+      }
+    },
+    {
+      "id": "эксперимент_лабораторный",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "эксперимент_лабораторный",
+        "ingestion_date": "2026-07-04T16:05:38.431165"
+      }
+    },
+    {
+      "id": "meas_fe_8_10",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "г/дм3",
+        "min": 8000.0,
+        "max": 10000.0,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_fe_8_10",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:05:38.431168"
+      }
+    },
+    {
+      "id": "process_окисление_железа",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "process_окисление_железа",
+        "ingestion_date": "2026-07-04T16:05:38.431171"
+      }
+    },
+    {
+      "id": "reaction_1",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "reaction_1",
+        "ingestion_date": "2026-07-04T16:05:38.431173"
+      }
+    },
+    {
+      "id": "reaction_2",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "reaction_2",
+        "ingestion_date": "2026-07-04T16:05:38.431176"
+      }
+    },
+    {
+      "id": "reaction_3",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "reaction_3",
+        "ingestion_date": "2026-07-04T16:05:38.431178"
+      }
+    },
+    {
+      "id": "reaction_4",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "reaction_4",
+        "ingestion_date": "2026-07-04T16:05:38.431351"
+      }
+    },
+    {
+      "id": "property_окисление_железа",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "окисление железа",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "property_окисление_железа",
+        "ingestion_date": "2026-07-04T16:05:38.431362"
+      }
+    },
+    {
+      "id": "property_гидролиз_железа",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "гидролиз железа",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "property_гидролиз_железа",
+        "ingestion_date": "2026-07-04T16:05:38.431368"
+      }
+    },
+    {
+      "id": "equipment_стакан_1л",
+      "label": "Equipment",
+      "properties": {
+        "volume": 1,
+        "unit": "л",
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "equipment_стакан_1л",
+        "validation_status": "pending",
+        "type": "стакан",
+        "ingestion_date": "2026-07-04T16:05:38.431372"
+      }
+    },
+    {
+      "id": "equipment_мешалка_турбинная",
+      "label": "Equipment",
+      "properties": {
+        "unit": "мм",
+        "diameter": 40,
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "equipment_мешалка_турбинная",
+        "type": "мешалка",
+        "ingestion_date": "2026-07-04T16:05:38.431403"
+      }
+    },
+    {
+      "id": "equipment_фильтр_шотта",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Шотта",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "equipment_фильтр_шотта",
+        "validation_status": "pending",
+        "type": "фильтр",
+        "ingestion_date": "2026-07-04T16:05:38.431408"
+      }
+    },
+    {
+      "id": "material_кислород_азот",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "name": "смесь кислорода и азота (КВС)",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "material_кислород_азот",
+        "ingestion_date": "2026-07-04T16:05:38.431414"
+      }
+    },
+    {
+      "id": "material_карбонат_никеля",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "name": "карбонат никеля",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "material_карбонат_никеля",
+        "ingestion_date": "2026-07-04T16:05:38.431419"
+      }
+    },
+    {
+      "id": "material_вода",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "name": "вода",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "material_вода",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:38.431423"
+      }
+    },
+    {
+      "id": "condition_температура_заданная",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "температура",
+        "description": "заданная",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "condition_температура_заданная",
+        "ingestion_date": "2026-07-04T16:05:38.431428"
+      }
+    },
+    {
+      "id": "condition_рН_постоянный",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "рН",
+        "description": "постоянный",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "condition_рН_постоянный",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:38.431432"
+      }
+    },
+    {
+      "id": "condition_расход_газа_2л_мин",
+      "label": "Condition",
+      "properties": {
+        "unit": "л/мин",
+        "confidence": 0.5,
+        "name": "расход газа",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "condition_расход_газа_2л_мин",
+        "validation_status": "pending",
+        "value": 2,
+        "ingestion_date": "2026-07-04T16:05:38.431437"
+      }
+    },
+    {
+      "id": "condition_объем_0_7л",
+      "label": "Condition",
+      "properties": {
+        "unit": "л",
+        "confidence": 0.5,
+        "name": "объем раствора",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "condition_объем_0_7л",
+        "validation_status": "pending",
+        "value": 0.7,
+        "ingestion_date": "2026-07-04T16:05:38.431441"
+      }
+    },
+    {
+      "id": "condition_объем_стакана_1л",
+      "label": "Condition",
+      "properties": {
+        "unit": "л",
+        "confidence": 0.5,
+        "name": "объем стакана",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "condition_объем_стакана_1л",
+        "validation_status": "pending",
+        "value": 1,
+        "ingestion_date": "2026-07-04T16:05:38.431446"
+      }
+    },
+    {
+      "id": "condition_объем_отбора_проб",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "объем отбора проб",
+        "description": "периодический",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "condition_объем_отбора_проб",
+        "ingestion_date": "2026-07-04T16:05:38.431450"
+      }
+    },
+    {
+      "id": "finding_повышение_железа",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "text": "Потенциальная возможность дальнейшего повышения содержания железа в реальных растворах производства",
+        "id": "finding_повышение_железа",
+        "ingestion_date": "2026-07-04T16:05:38.431454"
+      }
+    },
+    {
+      "id": "эксперимент_базовый",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "эксперимент_базовый",
+        "ingestion_date": "2026-07-04T16:05:38.431463"
+      }
+    },
+    {
+      "id": "эксперимент_без_меди",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "эксперимент_без_меди",
+        "ingestion_date": "2026-07-04T16:05:38.431467"
+      }
+    },
+    {
+      "id": "meas_depth_47_5",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_depth_47_5",
+        "value": 47.5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:05:38.431472"
+      }
+    },
+    {
+      "id": "meas_depth_8_8",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_depth_8_8",
+        "value": 8.8,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:05:38.431476"
+      }
+    },
+    {
+      "id": "finding_медиатор",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Медь проявляет роль иона-медиатора в процессе окисления железа (II) в условиях высококонцентрированных никелевых хлоридных растворов",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "finding_медиатор",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:38.431480"
+      }
+    },
+    {
+      "id": "скорость окисления железа",
+      "label": "Property",
+      "properties": {
+        "domain": "химическая кинетика",
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "скорость окисления железа",
+        "ingestion_date": "2026-07-04T16:05:38.431493"
+      }
+    },
+    {
+      "id": "содержание О2 в кислородно-воздушной смеси",
+      "label": "Property",
+      "properties": {
+        "domain": "газовая фаза",
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "содержание О2 в кислородно-воздушной смеси",
+        "ingestion_date": "2026-07-04T16:05:38.431498"
+      }
+    },
+    {
+      "id": "концентрация кислорода в газовой смеси",
+      "label": "Property",
+      "properties": {
+        "domain": "газовая фаза",
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "концентрация кислорода в газовой смеси",
+        "ingestion_date": "2026-07-04T16:05:38.431503"
+      }
+    },
+    {
+      "id": "закон Генри-Дальтона",
+      "label": "Process",
+      "properties": {
+        "domain": "физическая химия",
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "закон Генри-Дальтона",
+        "ingestion_date": "2026-07-04T16:05:38.431507"
+      }
+    },
+    {
+      "id": "концентрация газа в растворе",
+      "label": "Property",
+      "properties": {
+        "domain": "растворы",
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "концентрация газа в растворе",
+        "ingestion_date": "2026-07-04T16:05:38.431511"
+      }
+    },
+    {
+      "id": "парциальное давление кислорода над раствором",
+      "label": "Property",
+      "properties": {
+        "domain": "газовая фаза",
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "парциальное давление кислорода над раствором",
+        "ingestion_date": "2026-07-04T16:05:38.431516"
+      }
+    },
+    {
+      "id": "константа Генри",
+      "label": "Property",
+      "properties": {
+        "domain": "физическая химия",
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "константа Генри",
+        "ingestion_date": "2026-07-04T16:05:38.431520"
+      }
+    },
+    {
+      "id": "работа [5]",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "работа [5]",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:38.431525"
+      }
+    },
+    {
+      "id": "растворы, содержащие 3М соляной кислоты и 2М хлорида натрия",
+      "label": "Material",
+      "properties": {
+        "composition": "3М HCl, 2М NaCl",
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "растворы, содержащие 3М соляной кислоты и 2М хлорида натрия",
+        "ingestion_date": "2026-07-04T16:05:38.431531"
+      }
+    },
+    {
+      "id": "порядки реакции по кислороду и железу",
+      "label": "Topic",
+      "properties": {
+        "domain": "химическая кинетика",
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "порядки реакции по кислороду и железу",
+        "ingestion_date": "2026-07-04T16:05:38.431536"
+      }
+    },
+    {
+      "id": "реакция 3",
+      "label": "Process",
+      "properties": {
+        "domain": "химическая кинетика",
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "реакция 3",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:38.431540"
+      }
+    },
+    {
+      "id": "двусторонняя реакция",
+      "label": "Process",
+      "properties": {
+        "domain": "химическая кинетика",
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "двусторонняя реакция",
+        "ingestion_date": "2026-07-04T16:05:38.431545"
+      }
+    },
+    {
+      "id": "начальный промежуток времени",
+      "label": "Condition",
+      "properties": {
+        "domain": "кинетика",
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "начальный промежуток времени",
+        "ingestion_date": "2026-07-04T16:05:38.431550"
+      }
+    },
+    {
+      "id": "глубина протекания реакции мала",
+      "label": "Condition",
+      "properties": {
+        "domain": "кинетика",
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "глубина протекания реакции мала",
+        "ingestion_date": "2026-07-04T16:05:38.431554"
+      }
+    },
+    {
+      "id": "односторонняя реакция",
+      "label": "Process",
+      "properties": {
+        "domain": "химическая кинетика",
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "односторонняя реакция",
+        "ingestion_date": "2026-07-04T16:05:38.431559"
+      }
+    },
+    {
+      "id": "реакция окисления железа (II)",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "description": "окисление железа (II) кислородом в газовой фазе",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "реакция окисления железа (II)",
+        "ingestion_date": "2026-07-04T16:05:38.431564"
+      }
+    },
+    {
+      "id": "finding_order_o2_0.5",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "statement": "порядок реакции по кислороду равен 0.5",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "finding_order_o2_0.5",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:38.431568"
+      }
+    },
+    {
+      "id": "meas_depth_50",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": "high",
+        "verified": true,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_depth_50",
+        "value": 50,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:05:38.431573"
+      }
+    },
+    {
+      "id": "эксперимент с различной концентрацией кислорода",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "description": "опыты с различной концентрацией кислорода в газовой фазе при одинаковой глубине реакции",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "эксперимент с различной концентрацией кислорода",
+        "ingestion_date": "2026-07-04T16:05:38.431578"
+      }
+    },
+    {
+      "id": "медиатор_ион_меди",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "медиатор_ион_меди",
+        "ingestion_date": "2026-07-04T16:05:38.431587"
+      }
+    },
+    {
+      "id": "окисление_железа",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "окисление_железа",
+        "ingestion_date": "2026-07-04T16:05:38.431591"
+      }
+    },
+    {
+      "id": "реакция_первого_порядка",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Порядок реакции окисления по железу равен единице",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "реакция_первого_порядка",
+        "ingestion_date": "2026-07-04T16:05:38.431595"
+      }
+    },
+    {
+      "id": "порядок_реакции_по_железу",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "порядок_реакции_по_железу",
+        "ingestion_date": "2026-07-04T16:05:38.431599"
+      }
+    },
+    {
+      "id": "порядок_реакции_по_кислороду",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "порядок_реакции_по_кислороду",
+        "ingestion_date": "2026-07-04T16:05:38.431645"
+      }
+    },
+    {
+      "id": "односторонняя_реакция",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "односторонняя_реакция",
+        "ingestion_date": "2026-07-04T16:05:38.431652"
+      }
+    },
+    {
+      "id": "уравнение_скорости",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "уравнение_скорости",
+        "ingestion_date": "2026-07-04T16:05:38.431657"
+      }
+    },
+    {
+      "id": "уравнение_скорости_железа",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "уравнение_скорости_железа",
+        "ingestion_date": "2026-07-04T16:05:38.431662"
+      }
+    },
+    {
+      "id": "finding_порядок_1",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Порядок реакции окисления по железу равен единице в присутствии и отсутствии меди",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "finding_порядок_1",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:38.431666"
+      }
+    },
+    {
+      "id": "finding_порядок_не_установлен",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "description": "Порядок реакции по кислороду не может быть определён при постоянной концентрации кислорода в газовой фазе",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "finding_порядок_не_установлен",
+        "ingestion_date": "2026-07-04T16:05:38.431670"
+      }
+    },
+    {
+      "id": "finding_порядок_1_в_соляной_кислоте",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Порядок реакции окисления по железу равен единице в одномолярном растворе соляной кислоты при 40 оС",
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "finding_порядок_1_в_соляной_кислоте",
+        "ingestion_date": "2026-07-04T16:05:38.431674"
+      }
+    },
+    {
+      "id": "источник_9",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "источник_9",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:38.431678"
+      }
+    },
+    {
+      "id": "источник_10",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "28 Статья - Клименко И.В. (ЛГМ).docx",
+        "id": "источник_10",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:38.431682"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "АО «Кольская ГМК»",
+      "target": "процесс окисления железа",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "процесс окисления железа",
+      "target": "концентрированные хлоридные никелевые растворы",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "процесс окисления железа",
+      "target": "содержание железа",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "содержание железа",
+      "target": "meas_fe_7_8",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_fe_7_8",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_fe_7_8",
+      "target": "finding_fe_increase",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_fe_increase",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "удельная мощность перемешивания",
+      "target": "мешалка",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "мешалка",
+      "target": "6-ти лопастная турбинная мешалка",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "6-ти лопастная турбинная мешалка",
+      "target": "коэффициент мощности мешалки",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "коэффициент мощности мешалки",
+      "target": "8,4",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "8,4",
+      "target": "источник_4",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "8,4",
+      "target": "источник_4",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "удельная мощность перемешивания",
+      "target": "мощность, расходуемая на перемешивание",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "мощность, расходуемая на перемешивание",
+      "target": "Вт",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "удельная мощность перемешивания",
+      "target": "полезный объем аппарата",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "полезный объем аппарата",
+      "target": "0,0007 м3",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "0,0007 м3",
+      "target": "источник_эксперимент",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "удельная мощность перемешивания",
+      "target": "диаметр мешалки",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "диаметр мешалки",
+      "target": "0,04 м",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "0,04 м",
+      "target": "источник_эксперимент",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "удельная мощность перемешивания",
+      "target": "плотность пульпы",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "плотность пульпы",
+      "target": "определена плотномером",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "определена плотномером",
+      "target": "источник_эксперимент",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "удельная мощность перемешивания",
+      "target": "число оборотов мешалки",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "число оборотов мешалки",
+      "target": "об/с",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "6-ти лопастная турбинная мешалка",
+      "target": "аппарат без отражательных перегородок",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "аппарат без отражательных перегородок",
+      "target": "лабораторная установка",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "лабораторная установка",
+      "target": "источник_эксперимент",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "кинетические кривые окисления железа (II)",
+      "target": "удельная мощность перемешивания",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "рисунок 2",
+      "target": "кинетические кривые окисления железа (II)",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "рисунок 2",
+      "target": "источник_эксперимент",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "базовый опыт",
+      "target": "условия базового опыта",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "условия базового опыта",
+      "target": "935 об/мин мешалки",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "условия базового опыта",
+      "target": "40% О2 в подаваемой КВС",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "условия базового опыта",
+      "target": "2 л/мин",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "условия базового опыта",
+      "target": "pH раствора = 1,6",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "условия базового опыта",
+      "target": "температура раствора - 80оС",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "условия базового опыта",
+      "target": "состав раствора: 200-220 г/дм3 Ni",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "условия базового опыта",
+      "target": "состав раствора: 250-260 г/дм3 Cl",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "условия базового опыта",
+      "target": "состав раствора: 35-40 г/дм3 SO4",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "условия базового опыта",
+      "target": "состав раствора: 8-10 г/дм3 Fe",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "условия базового опыта",
+      "target": "состав раствора: 8-10 г/дм3 Na",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "условия базового опыта",
+      "target": "состав раствора: 0,85-0,95 г/дм3 Cu",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "предварительная серия опытов",
+      "target": "300 мин",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "предварительная серия опытов",
+      "target": "100 мин",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "предварительная серия опытов",
+      "target": "лабораторная установка",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "лабораторная установка",
+      "target": "рисунок 1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "лабораторная установка",
+      "target": "рисунок 1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "влияние интенсивности перемешивания на окисление железа",
+      "target": "удельная мощность перемешивания Eуд",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "удельная мощность перемешивания Eуд",
+      "target": "мощность, расходуемая на перемешивание, Вт",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "удельная мощность перемешивания Eуд",
+      "target": "N – мощность, расходуемая на перемешивание, Вт",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "влияние интенсивности перемешивания на окисление железа",
+      "target": "предварительная серия опытов",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "предварительная серия опытов",
+      "target": "условия базового опыта",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "предварительная серия опытов",
+      "target": "кинетические кривые окисления железа",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "предварительная серия опытов",
+      "target": "необходимая интенсивность перемешивания",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "необходимая интенсивность перемешивания",
+      "target": "снятие диффузионных ограничений",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "необходимая интенсивность перемешивания",
+      "target": "дальнейшие эксперименты",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "влияние интенсивности перемешивания на окисление железа",
+      "target": "удельная мощность перемешивания Eуд",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "удельная мощность перемешивания Eуд",
+      "target": "[4]",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "эксперимент_лабораторный",
+      "target": "meas_fe_8_10",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_fe_8_10",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "эксперимент_лабораторный",
+      "target": "meas_fe_7_8",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_fe_7_8",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "эксперимент_лабораторный",
+      "target": "process_окисление_железа",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "process_окисление_железа",
+      "target": "meas_fe_8_10",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "process_окисление_железа",
+      "target": "meas_fe_7_8",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "process_окисление_железа",
+      "target": "reaction_1",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "process_окисление_железа",
+      "target": "reaction_2",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "process_окисление_железа",
+      "target": "reaction_3",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "process_окисление_железа",
+      "target": "reaction_4",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "reaction_1",
+      "target": "property_окисление_железа",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "reaction_2",
+      "target": "property_окисление_железа",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "reaction_3",
+      "target": "property_окисление_железа",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "reaction_4",
+      "target": "property_гидролиз_железа",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "эксперимент_лабораторный",
+      "target": "equipment_стакан_1л",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "эксперимент_лабораторный",
+      "target": "equipment_мешалка_турбинная",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "эксперимент_лабораторный",
+      "target": "equipment_фильтр_шотта",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "эксперимент_лабораторный",
+      "target": "material_кислород_азот",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "эксперимент_лабораторный",
+      "target": "material_карбонат_никеля",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "эксперимент_лабораторный",
+      "target": "material_вода",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "эксперимент_лабораторный",
+      "target": "condition_температура_заданная",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "эксперимент_лабораторный",
+      "target": "condition_рН_постоянный",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "эксперимент_лабораторный",
+      "target": "condition_расход_газа_2л_мин",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "эксперимент_лабораторный",
+      "target": "condition_объем_0_7л",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "эксперимент_лабораторный",
+      "target": "condition_объем_стакана_1л",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "эксперимент_лабораторный",
+      "target": "condition_объем_отбора_проб",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "finding_повышение_железа",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_повышение_железа",
+      "target": "meas_fe_8_10",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_повышение_железа",
+      "target": "meas_fe_7_8",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "эксперимент_базовый",
+      "target": "meas_depth_47_5",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "эксперимент_без_меди",
+      "target": "meas_depth_8_8",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_depth_47_5",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_depth_8_8",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "эксперимент_базовый",
+      "target": "finding_медиатор",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_медиатор",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "рисунок 5",
+      "target": "скорость окисления железа",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "скорость окисления железа",
+      "target": "содержание О2 в кислородно-воздушной смеси",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "скорость окисления железа",
+      "target": "концентрация кислорода в газовой смеси",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "скорость окисления железа",
+      "target": "закон Генри-Дальтона",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "закон Генри-Дальтона",
+      "target": "концентрация газа в растворе",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "закон Генри-Дальтона",
+      "target": "парциальное давление кислорода над раствором",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "закон Генри-Дальтона",
+      "target": "константа Генри",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "работа [5]",
+      "target": "растворы, содержащие 3М соляной кислоты и 2М хлорида натрия",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "порядки реакции по кислороду и железу",
+      "target": "реакция 3",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "реакция 3",
+      "target": "двусторонняя реакция",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "двусторонняя реакция",
+      "target": "начальный промежуток времени",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "начальный промежуток времени",
+      "target": "глубина протекания реакции мала",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "двусторонняя реакция",
+      "target": "односторонняя реакция",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "реакция окисления железа (II)",
+      "target": "finding_order_o2_0.5",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_order_o2_0.5",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "реакция окисления железа (II)",
+      "target": "meas_depth_50",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_depth_50",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "эксперимент с различной концентрацией кислорода",
+      "target": "src_p6",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "медиатор_ион_меди",
+      "target": "окисление_железа",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "окисление_железа",
+      "target": "реакция_первого_порядка",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "окисление_железа",
+      "target": "порядок_реакции_по_железу",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "порядок_реакции_по_железу",
+      "target": "finding_порядок_1",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_порядок_1",
+      "target": "источник_9",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "окисление_железа",
+      "target": "порядок_реакции_по_кислороду",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "порядок_реакции_по_кислороду",
+      "target": "finding_порядок_не_установлен",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_порядок_не_установлен",
+      "target": "источник_9",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "односторонняя_реакция",
+      "target": "уравнение_скорости",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "уравнение_скорости",
+      "target": "источник_9",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "уравнение_скорости_железа",
+      "target": "источник_9",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "источник_9",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "источник_10",
+      "target": "src_p13",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "окисление_железа",
+      "target": "источник_10",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "источник_10",
+      "target": "finding_порядок_1_в_соляной_кислоте",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_порядок_1_в_соляной_кислоте",
+      "target": "src_p13",
+      "type": "HAS_SOURCE"
+    }
+  ]
+}

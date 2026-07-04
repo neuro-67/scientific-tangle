@@ -1,0 +1,2763 @@
+{
+  "document": "13 Приложение. Статья.pdf",
+  "nodes": [
+    {
+      "id": "src_p3",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "src_p3",
+        "ingestion_date": "2026-07-04T16:07:19.782232",
+        "span": "p.3"
+      }
+    },
+    {
+      "id": "src_p4",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "src_p4",
+        "ingestion_date": "2026-07-04T16:07:19.782480",
+        "span": "p.4"
+      }
+    },
+    {
+      "id": "src_p10",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "src_p10",
+        "ingestion_date": "2026-07-04T16:07:19.782186",
+        "span": "p.10"
+      }
+    },
+    {
+      "id": "погодные условия",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "погодные условия",
+        "ingestion_date": "2026-07-04T16:07:19.782406"
+      }
+    },
+    {
+      "id": "лабораторные исследования",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "лабораторные исследования",
+        "ingestion_date": "2026-07-04T16:07:19.782268"
+      }
+    },
+    {
+      "id": "таблица 1",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "таблица 1",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782341"
+      }
+    },
+    {
+      "id": "рисунок 2",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "рисунок 2",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782346"
+      }
+    },
+    {
+      "id": "рисунок 1",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "рисунок 1",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782343"
+      }
+    },
+    {
+      "id": "опытно-промышленные испытания",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "опытно-промышленные испытания",
+        "ingestion_date": "2026-07-04T16:07:19.782266"
+      }
+    },
+    {
+      "id": "опыт",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "опыт",
+        "ingestion_date": "2026-07-04T16:07:19.782383"
+      }
+    },
+    {
+      "id": "Норильский промышленный район",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "Норильский промышленный район",
+        "ingestion_date": "2026-07-04T16:07:19.782229"
+      }
+    },
+    {
+      "id": "гидротехнический способ",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "гидротехнический способ",
+        "ingestion_date": "2026-07-04T16:07:19.782076"
+      }
+    },
+    {
+      "id": "гидрозавесы",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "гидрозавесы",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782090"
+      }
+    },
+    {
+      "id": "дождевальные установки",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "дождевальные установки",
+        "ingestion_date": "2026-07-04T16:07:19.782094"
+      }
+    },
+    {
+      "id": "системы проложенных трубопроводов",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "системы проложенных трубопроводов",
+        "ingestion_date": "2026-07-04T16:07:19.782098"
+      }
+    },
+    {
+      "id": "пылеподавление с использованием воды",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "пылеподавление с использованием воды",
+        "ingestion_date": "2026-07-04T16:07:19.782100"
+      }
+    },
+    {
+      "id": "физический метод",
+      "label": "Process",
+      "properties": {
+        "domain": "пылеподавление",
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "физический метод",
+        "ingestion_date": "2026-07-04T16:07:19.782103"
+      }
+    },
+    {
+      "id": "Норильский промышленный регион",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "Норильский промышленный регион",
+        "ingestion_date": "2026-07-04T16:07:19.782105"
+      }
+    },
+    {
+      "id": "пробные испытания",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "пробные испытания",
+        "ingestion_date": "2026-07-04T16:07:19.782108"
+      }
+    },
+    {
+      "id": "химический метод",
+      "label": "Process",
+      "properties": {
+        "domain": "экология",
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "химический метод",
+        "ingestion_date": "2026-07-04T16:07:19.782114"
+      }
+    },
+    {
+      "id": "пылеподавление",
+      "label": "Process",
+      "properties": {
+        "domain": "экология",
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "пылеподавление",
+        "ingestion_date": "2026-07-04T16:07:19.782116"
+      }
+    },
+    {
+      "id": "закрепление пылящих поверхностей",
+      "label": "Process",
+      "properties": {
+        "domain": "экология",
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "закрепление пылящих поверхностей",
+        "ingestion_date": "2026-07-04T16:07:19.782119"
+      }
+    },
+    {
+      "id": "гигроскопичные соли",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "гигроскопичные соли",
+        "category": "химическое вещество",
+        "ingestion_date": "2026-07-04T16:07:19.782121"
+      }
+    },
+    {
+      "id": "меловая суспензия",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "меловая суспензия",
+        "category": "химическое вещество",
+        "ingestion_date": "2026-07-04T16:07:19.782124"
+      }
+    },
+    {
+      "id": "битумная эмульсия",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "битумная эмульсия",
+        "category": "химическое вещество",
+        "ingestion_date": "2026-07-04T16:07:19.782126"
+      }
+    },
+    {
+      "id": "цемент",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "цемент",
+        "validation_status": "pending",
+        "category": "химическое вещество",
+        "ingestion_date": "2026-07-04T16:07:19.782129"
+      }
+    },
+    {
+      "id": "известь",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "известь",
+        "validation_status": "pending",
+        "category": "химическое вещество",
+        "ingestion_date": "2026-07-04T16:07:19.782131"
+      }
+    },
+    {
+      "id": "органические полимеры",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "органические полимеры",
+        "category": "химическое вещество",
+        "ingestion_date": "2026-07-04T16:07:19.782133"
+      }
+    },
+    {
+      "id": "лигносульфонаты",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "лигносульфонаты",
+        "category": "химическое вещество",
+        "ingestion_date": "2026-07-04T16:07:19.782136"
+      }
+    },
+    {
+      "id": "побочные продукты нефтепереработки",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "побочные продукты нефтепереработки",
+        "category": "химическое вещество",
+        "ingestion_date": "2026-07-04T16:07:19.782138"
+      }
+    },
+    {
+      "id": "бишофит",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "бишофит",
+        "validation_status": "pending",
+        "category": "химическое вещество",
+        "ingestion_date": "2026-07-04T16:07:19.782140"
+      }
+    },
+    {
+      "id": "водно-солевые растворы",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "водно-солевые растворы",
+        "category": "химическое вещество",
+        "ingestion_date": "2026-07-04T16:07:19.782143"
+      }
+    },
+    {
+      "id": "устойчивость к влаге",
+      "label": "Property",
+      "properties": {
+        "domain": "экология",
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "устойчивость к влаге",
+        "ingestion_date": "2026-07-04T16:07:19.782145"
+      }
+    },
+    {
+      "id": "устойчивость к ветру",
+      "label": "Property",
+      "properties": {
+        "domain": "экология",
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "устойчивость к ветру",
+        "ingestion_date": "2026-07-04T16:07:19.782148"
+      }
+    },
+    {
+      "id": "устойчивость к механическим воздействиям",
+      "label": "Property",
+      "properties": {
+        "domain": "экология",
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "устойчивость к механическим воздействиям",
+        "ingestion_date": "2026-07-04T16:07:19.782150"
+      }
+    },
+    {
+      "id": "воздействие на окружающую среду",
+      "label": "Property",
+      "properties": {
+        "domain": "экология",
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "воздействие на окружающую среду",
+        "ingestion_date": "2026-07-04T16:07:19.782153"
+      }
+    },
+    {
+      "id": "срок эффективного действия",
+      "label": "Property",
+      "properties": {
+        "domain": "экология",
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "срок эффективного действия",
+        "ingestion_date": "2026-07-04T16:07:19.782155"
+      }
+    },
+    {
+      "id": "засаливание почв",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "засаливание почв",
+        "ingestion_date": "2026-07-04T16:07:19.782158"
+      }
+    },
+    {
+      "id": "вымывание состава осадками",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "вымывание состава осадками",
+        "ingestion_date": "2026-07-04T16:07:19.782161"
+      }
+    },
+    {
+      "id": "высокое воздействие на окружающую среду",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "высокое воздействие на окружающую среду",
+        "ingestion_date": "2026-07-04T16:07:19.782163"
+      }
+    },
+    {
+      "id": "недействующие хвостохранилища",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "недействующие хвостохранилища",
+        "type": "хвостохранилище",
+        "ingestion_date": "2026-07-04T16:07:19.782166"
+      }
+    },
+    {
+      "id": "техническая рекультивация",
+      "label": "Process",
+      "properties": {
+        "domain": "экология",
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "техническая рекультивация",
+        "ingestion_date": "2026-07-04T16:07:19.782168"
+      }
+    },
+    {
+      "id": "пылящий субстрат",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "пылящий субстрат",
+        "category": "поверхность",
+        "ingestion_date": "2026-07-04T16:07:19.782170"
+      }
+    },
+    {
+      "id": "поверхность",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "поверхность",
+        "validation_status": "pending",
+        "category": "поверхность",
+        "ingestion_date": "2026-07-04T16:07:19.782173"
+      }
+    },
+    {
+      "id": "крепкая неразрушающаяся корка",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "крепкая неразрушающаяся корка",
+        "category": "покрытие",
+        "ingestion_date": "2026-07-04T16:07:19.782175"
+      }
+    },
+    {
+      "id": "связывание минеральных пылевых частиц",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "связывание минеральных пылевых частиц",
+        "ingestion_date": "2026-07-04T16:07:19.782178"
+      }
+    },
+    {
+      "id": "обработанная поверхность",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "обработанная поверхность",
+        "category": "поверхность",
+        "ingestion_date": "2026-07-04T16:07:19.782181"
+      }
+    },
+    {
+      "id": "аэродинамический способ",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "description": "снижение скорости ветра в области пылящей поверхности и минимизация ветровой эрозии с помощью устройства лесозащитных полос и ветровых экранов",
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "аэродинамический способ",
+        "ingestion_date": "2026-07-04T16:07:19.782189"
+      }
+    },
+    {
+      "id": "лесозащитные полосы",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "лесозащитные полосы",
+        "ingestion_date": "2026-07-04T16:07:19.782191"
+      }
+    },
+    {
+      "id": "ветровые экраны",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "ветровые экраны",
+        "ingestion_date": "2026-07-04T16:07:19.782194"
+      }
+    },
+    {
+      "id": "механический способ",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "description": "покрытие пылящей поверхности хвостохранилища слоем материала, в качестве которого может служить вскрышная порода рудника, пустая порода от проходки горных выработок подземных рудников, металлургический шлак или другие инертные материалы",
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "механический способ",
+        "ingestion_date": "2026-07-04T16:07:19.782197"
+      }
+    },
+    {
+      "id": "вскрышная порода рудника",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "вскрышная порода рудника",
+        "ingestion_date": "2026-07-04T16:07:19.782199"
+      }
+    },
+    {
+      "id": "пустая порода от проходки горных выработок подземных рудников",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "пустая порода от проходки горных выработок подземных рудников",
+        "ingestion_date": "2026-07-04T16:07:19.782201"
+      }
+    },
+    {
+      "id": "металлургический шлак",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "металлургический шлак",
+        "ingestion_date": "2026-07-04T16:07:19.782204"
+      }
+    },
+    {
+      "id": "другие инертные материалы",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "другие инертные материалы",
+        "ingestion_date": "2026-07-04T16:07:19.782206"
+      }
+    },
+    {
+      "id": "пыль размером менее 10 микрон",
+      "label": "Property",
+      "properties": {
+        "unit": "мкм",
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "пыль размером менее 10 микрон",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782209"
+      }
+    },
+    {
+      "id": "наиболее опасные для здоровья людей",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "наиболее опасные для здоровья людей",
+        "ingestion_date": "2026-07-04T16:07:19.782211"
+      }
+    },
+    {
+      "id": "проведение мероприятий по пылеподавлению посредством только воды",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "проведение мероприятий по пылеподавлению посредством только воды",
+        "ingestion_date": "2026-07-04T16:07:19.782214"
+      }
+    },
+    {
+      "id": "не позволяет осадить частицы пыли размером менее 10 микрон",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "не позволяет осадить частицы пыли размером менее 10 микрон",
+        "ingestion_date": "2026-07-04T16:07:19.782216"
+      }
+    },
+    {
+      "id": "ограничение для хвостохранилищ высотой более 20-30 м",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "ограничение для хвостохранилищ высотой более 20-30 м",
+        "ingestion_date": "2026-07-04T16:07:19.782219"
+      }
+    },
+    {
+      "id": "недостаток: высокая стоимость сооружения ветровых экранов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "недостаток: высокая стоимость сооружения ветровых экранов",
+        "ingestion_date": "2026-07-04T16:07:19.782222"
+      }
+    },
+    {
+      "id": "недостаток: низкая механическая устойчивость ветровых экранов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "недостаток: низкая механическая устойчивость ветровых экранов",
+        "ingestion_date": "2026-07-04T16:07:19.782224"
+      }
+    },
+    {
+      "id": "сильные и ураганные порывы ветра",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "сильные и ураганные порывы ветра",
+        "ingestion_date": "2026-07-04T16:07:19.782227"
+      }
+    },
+    {
+      "id": "горячая вода",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "горячая вода",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782234"
+      }
+    },
+    {
+      "id": "специальное оборудование",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "специальное оборудование",
+        "ingestion_date": "2026-07-04T16:07:19.782237"
+      }
+    },
+    {
+      "id": "приготовление битумной эмульсии",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "приготовление битумной эмульсии",
+        "ingestion_date": "2026-07-04T16:07:19.782239"
+      }
+    },
+    {
+      "id": "распределение битумной эмульсии",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "распределение битумной эмульсии",
+        "ingestion_date": "2026-07-04T16:07:19.782242"
+      }
+    },
+    {
+      "id": "технологические мероприятия",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "технологические мероприятия",
+        "ingestion_date": "2026-07-04T16:07:19.782244"
+      }
+    },
+    {
+      "id": "неблагоприятные метеорологические условия",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "неблагоприятные метеорологические условия",
+        "ingestion_date": "2026-07-04T16:07:19.782247"
+      }
+    },
+    {
+      "id": "скорость ветра",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "скорость ветра",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782249"
+      }
+    },
+    {
+      "id": "meas_wind_10",
+      "label": "Measurement",
+      "properties": {
+        "unit": "м/с",
+        "min": 10,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "meas_wind_10",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:07:19.782252"
+      }
+    },
+    {
+      "id": "поверхностная пленка",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "поверхностная пленка",
+        "ingestion_date": "2026-07-04T16:07:19.782254"
+      }
+    },
+    {
+      "id": "finding_poor_adhesion",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "finding_poor_adhesion",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782257"
+      }
+    },
+    {
+      "id": "Rutrol AD 171",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "Rutrol AD 171",
+        "ingestion_date": "2026-07-04T16:07:19.782259"
+      }
+    },
+    {
+      "id": "пылеподавляющий реагент",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "пылеподавляющий реагент",
+        "ingestion_date": "2026-07-04T16:07:19.782261"
+      }
+    },
+    {
+      "id": "хвостохранилище «Лебяжье»",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "хвостохранилище «Лебяжье»",
+        "ingestion_date": "2026-07-04T16:07:19.782264"
+      }
+    },
+    {
+      "id": "лаборатория производителя",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "лаборатория производителя",
+        "ingestion_date": "2026-07-04T16:07:19.782271"
+      }
+    },
+    {
+      "id": "Rutrol AD",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "Rutrol AD",
+        "ingestion_date": "2026-07-04T16:07:19.782273"
+      }
+    },
+    {
+      "id": "физико-химические свойства",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "физико-химические свойства",
+        "ingestion_date": "2026-07-04T16:07:19.782276"
+      }
+    },
+    {
+      "id": "морфология отходов обогащения",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "морфология отходов обогащения",
+        "ingestion_date": "2026-07-04T16:07:19.782279"
+      }
+    },
+    {
+      "id": "необводненный участок хвостохранилища",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "необводненный участок хвостохранилища",
+        "ingestion_date": "2026-07-04T16:07:19.782281"
+      }
+    },
+    {
+      "id": "2 м²",
+      "label": "Measurement",
+      "properties": {
+        "unit": "м²",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "2 м²",
+        "validation_status": "pending",
+        "value": 2,
+        "ingestion_date": "2026-07-04T16:07:19.782284"
+      }
+    },
+    {
+      "id": "16 участков",
+      "label": "Measurement",
+      "properties": {
+        "unit": "шт",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "16 участков",
+        "validation_status": "pending",
+        "value": 16,
+        "ingestion_date": "2026-07-04T16:07:19.782287"
+      }
+    },
+    {
+      "id": "3250,73 тыс км²",
+      "label": "Measurement",
+      "properties": {
+        "unit": "тыс км²",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "3250,73 тыс км²",
+        "validation_status": "pending",
+        "value": 3250.73,
+        "ingestion_date": "2026-07-04T16:07:19.782289"
+      }
+    },
+    {
+      "id": "5432 тыс км²",
+      "label": "Measurement",
+      "properties": {
+        "unit": "тыс км²",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "5432 тыс км²",
+        "validation_status": "pending",
+        "value": 5432,
+        "ingestion_date": "2026-07-04T16:07:19.782292"
+      }
+    },
+    {
+      "id": "июль 2023",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "июль 2023",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782294"
+      }
+    },
+    {
+      "id": "сентябрь 2023",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "сентябрь 2023",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782297"
+      }
+    },
+    {
+      "id": "площадь",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "площадь",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782299"
+      }
+    },
+    {
+      "id": "количество",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "количество",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782302"
+      }
+    },
+    {
+      "id": "площадь пыляющей поверхности",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "площадь пыляющей поверхности",
+        "ingestion_date": "2026-07-04T16:07:19.782304"
+      }
+    },
+    {
+      "id": "Программа-методика опытных предварительных испытаний по пылеподавлению на намываемых пляжах хвостохранилища ООО «Медвежий ручей»",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "Программа-методика опытных предварительных испытаний по пылеподавлению на намываемых пляжах хвостохранилища ООО «Медвежий ручей»",
+        "ingestion_date": "2026-07-04T16:07:19.782307"
+      }
+    },
+    {
+      "id": "хвосты хвостохранилища «Лебяжье»",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "хвосты хвостохранилища «Лебяжье»",
+        "ingestion_date": "2026-07-04T16:07:19.782310"
+      }
+    },
+    {
+      "id": "опытный участок хвостохранилища \"Лебяжье\"",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "опытный участок хвостохранилища \"Лебяжье\"",
+        "ingestion_date": "2026-07-04T16:07:19.782313"
+      }
+    },
+    {
+      "id": "нанесение реагента",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "нанесение реагента",
+        "ingestion_date": "2026-07-04T16:07:19.782316"
+      }
+    },
+    {
+      "id": "оценка результатов образования защитной корки",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "оценка результатов образования защитной корки",
+        "ingestion_date": "2026-07-04T16:07:19.782318"
+      }
+    },
+    {
+      "id": "реагент Rutrol AD 171",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "реагент Rutrol AD 171",
+        "ingestion_date": "2026-07-04T16:07:19.782320"
+      }
+    },
+    {
+      "id": "водный раствор",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "водный раствор",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782323"
+      }
+    },
+    {
+      "id": "ясная погода",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "ясная погода",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782326"
+      }
+    },
+    {
+      "id": "осадки",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "осадки",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782328"
+      }
+    },
+    {
+      "id": "50 суток",
+      "label": "Measurement",
+      "properties": {
+        "unit": "сутки",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "50 суток",
+        "validation_status": "pending",
+        "value": 50,
+        "ingestion_date": "2026-07-04T16:07:19.782331"
+      }
+    },
+    {
+      "id": "объемы растворов реагента разных концентраций, нанесенные на каждый участок (л)",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "объемы растворов реагента разных концентраций, нанесенные на каждый участок (л)",
+        "ingestion_date": "2026-07-04T16:07:19.782333"
+      }
+    },
+    {
+      "id": "расход реагента, г/м2",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "расход реагента, г/м2",
+        "ingestion_date": "2026-07-04T16:07:19.782336"
+      }
+    },
+    {
+      "id": "концентрация раствора, %",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "концентрация раствора, %",
+        "ingestion_date": "2026-07-04T16:07:19.782338"
+      }
+    },
+    {
+      "id": "16 равных участков площадью примерно 2 м2",
+      "label": "Measurement",
+      "properties": {
+        "unit": "м2",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "16 равных участков площадью примерно 2 м2",
+        "validation_status": "pending",
+        "value": 2,
+        "ingestion_date": "2026-07-04T16:07:19.782348"
+      }
+    },
+    {
+      "id": "предшествующие два дня до начала испытаний",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "предшествующие два дня до начала испытаний",
+        "ingestion_date": "2026-07-04T16:07:19.782351"
+      }
+    },
+    {
+      "id": "через 15 часов после нанесения реагента",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "через 15 часов после нанесения реагента",
+        "ingestion_date": "2026-07-04T16:07:19.782353"
+      }
+    },
+    {
+      "id": "обработка реагентом",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "обработка реагентом",
+        "ingestion_date": "2026-07-04T16:07:19.782358"
+      }
+    },
+    {
+      "id": "защитный слой",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "защитный слой",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782361"
+      }
+    },
+    {
+      "id": "снижение ветровой эрозии",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "снижение ветровой эрозии",
+        "ingestion_date": "2026-07-04T16:07:19.782363"
+      }
+    },
+    {
+      "id": "минимальный расход",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "минимальный расход",
+        "ingestion_date": "2026-07-04T16:07:19.782366"
+      }
+    },
+    {
+      "id": "20 г/м2",
+      "label": "Measurement",
+      "properties": {
+        "unit": "г/м2",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "20 г/м2",
+        "value": 20,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:07:19.782369"
+      }
+    },
+    {
+      "id": "1% раствор",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "1% раствор",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782371"
+      }
+    },
+    {
+      "id": "отсутствие барханов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "отсутствие барханов",
+        "ingestion_date": "2026-07-04T16:07:19.782374"
+      }
+    },
+    {
+      "id": "Таблица 2 строка 1",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "Таблица 2 строка 1",
+        "ingestion_date": "2026-07-04T16:07:19.782376",
+        "span": "p.12"
+      }
+    },
+    {
+      "id": "Таблица 2 строка 2",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "Таблица 2 строка 2",
+        "ingestion_date": "2026-07-04T16:07:19.782379",
+        "span": "p.12"
+      }
+    },
+    {
+      "id": "Таблица 2 строка 3",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "Таблица 2 строка 3",
+        "ingestion_date": "2026-07-04T16:07:19.782381",
+        "span": "p.12"
+      }
+    },
+    {
+      "id": "результаты образования защитной корки",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "результаты образования защитной корки",
+        "ingestion_date": "2026-07-04T16:07:19.782386"
+      }
+    },
+    {
+      "id": "расход реагента 30-40 г/м2",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "расход реагента 30-40 г/м2",
+        "ingestion_date": "2026-07-04T16:07:19.782388"
+      }
+    },
+    {
+      "id": "рабочая концентрация 3%",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "рабочая концентрация 3%",
+        "ingestion_date": "2026-07-04T16:07:19.782391"
+      }
+    },
+    {
+      "id": "толщина корки 7-10 мм",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мм",
+        "min": 7,
+        "max": 10,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "толщина корки 7-10 мм",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:07:19.782393"
+      }
+    },
+    {
+      "id": "измерение толщины корки",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "толщина корки",
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "измерение толщины корки",
+        "ingestion_date": "2026-07-04T16:07:19.782396"
+      }
+    },
+    {
+      "id": "эластичность",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "эластичность",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782398"
+      }
+    },
+    {
+      "id": "относительная прочность (не разрушается под весом человека массой 80-90 кг)",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "относительная прочность (не разрушается под весом человека массой 80-90 кг)",
+        "ingestion_date": "2026-07-04T16:07:19.782401"
+      }
+    },
+    {
+      "id": "ветровая эрозия",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "ветровая эрозия",
+        "ingestion_date": "2026-07-04T16:07:19.782403"
+      }
+    },
+    {
+      "id": "обильные осадки в виде дождя",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "обильные осадки в виде дождя",
+        "ingestion_date": "2026-07-04T16:07:19.782408"
+      }
+    },
+    {
+      "id": "влажная поверхность пляжа",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "влажная поверхность пляжа",
+        "ingestion_date": "2026-07-04T16:07:19.782411"
+      }
+    },
+    {
+      "id": "источник p.6",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "источник p.6",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782413",
+        "span": "p.6"
+      }
+    },
+    {
+      "id": "биологический метод",
+      "label": "Process",
+      "properties": {
+        "domain": "рекультивация",
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "биологический метод",
+        "ingestion_date": "2026-07-04T16:07:19.782416"
+      }
+    },
+    {
+      "id": "химический метод пылеподавления",
+      "label": "Process",
+      "properties": {
+        "domain": "пылеподавление",
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "химический метод пылеподавления",
+        "ingestion_date": "2026-07-04T16:07:19.782418"
+      }
+    },
+    {
+      "id": "разрушалась",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "разрушалась",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782421"
+      }
+    },
+    {
+      "id": "основные источники мелкодисперсной пыли",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "основные источники мелкодисперсной пыли",
+        "ingestion_date": "2026-07-04T16:07:19.782423"
+      }
+    },
+    {
+      "id": "неэффективен",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "неэффективен",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782426"
+      }
+    },
+    {
+      "id": "ограниченное применение",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "ограниченное применение",
+        "ingestion_date": "2026-07-04T16:07:19.782428"
+      }
+    },
+    {
+      "id": "наиболее перспективный",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "наиболее перспективный",
+        "ingestion_date": "2026-07-04T16:07:19.782431"
+      }
+    },
+    {
+      "id": "метеорологические условия",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "метеорологические условия",
+        "ingestion_date": "2026-07-04T16:07:19.782434"
+      }
+    },
+    {
+      "id": "скорость ветра ≥ 10 м/с",
+      "label": "Measurement",
+      "properties": {
+        "unit": "м/с",
+        "min": 10,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "скорость ветра ≥ 10 м/с",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:07:19.782436"
+      }
+    },
+    {
+      "id": "пылящая поверхность",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "пылящая поверхность",
+        "ingestion_date": "2026-07-04T16:07:19.782438"
+      }
+    },
+    {
+      "id": "дамбы обвалования",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "дамбы обвалования",
+        "ingestion_date": "2026-07-04T16:07:19.782441"
+      }
+    },
+    {
+      "id": "законсервированные хвостохранилища",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "законсервированные хвостохранилища",
+        "ingestion_date": "2026-07-04T16:07:19.782443"
+      }
+    },
+    {
+      "id": "действующие хвостохранилища",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "действующие хвостохранилища",
+        "ingestion_date": "2026-07-04T16:07:19.782445"
+      }
+    },
+    {
+      "id": "Крайний Север",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "Крайний Север",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782448"
+      }
+    },
+    {
+      "id": "инертные материалы",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "инертные материалы",
+        "ingestion_date": "2026-07-04T16:07:19.782450"
+      }
+    },
+    {
+      "id": "покрытие значительных площадей хвостохранилищ",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "покрытие значительных площадей хвостохранилищ",
+        "ingestion_date": "2026-07-04T16:07:19.782452"
+      }
+    },
+    {
+      "id": "посев трав",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "посев трав",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782455"
+      }
+    },
+    {
+      "id": "тракторная сеялка",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "тракторная сеялка",
+        "ingestion_date": "2026-07-04T16:07:19.782457"
+      }
+    },
+    {
+      "id": "гидропосев",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "гидропосев",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782459"
+      }
+    },
+    {
+      "id": "устройство рулонного газона",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "устройство рулонного газона",
+        "ingestion_date": "2026-07-04T16:07:19.782462"
+      }
+    },
+    {
+      "id": "биоматы",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "биоматы",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782465"
+      }
+    },
+    {
+      "id": "ручной посев",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "ручной посев",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782467"
+      }
+    },
+    {
+      "id": "АО «Апатит»",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "АО «Апатит»",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782469"
+      }
+    },
+    {
+      "id": "хвостохранилище",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "хвостохранилище",
+        "ingestion_date": "2026-07-04T16:07:19.782472"
+      }
+    },
+    {
+      "id": "рекультивация",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "id": "рекультивация",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:19.782474"
+      }
+    },
+    {
+      "id": "ветровая нагрузка",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "13 Приложение. Статья.pdf",
+        "validation_status": "pending",
+        "id": "ветровая нагрузка",
+        "ingestion_date": "2026-07-04T16:07:19.782477"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "гидротехнический способ",
+      "target": "гидрозавесы",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "гидротехнический способ",
+      "target": "дождевальные установки",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "гидротехнический способ",
+      "target": "системы проложенных трубопроводов",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "гидротехнический способ",
+      "target": "пылеподавление с использованием воды",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "пылеподавление с использованием воды",
+      "target": "физический метод",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "гидротехнический способ",
+      "target": "Норильский промышленный регион",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "гидротехнический способ",
+      "target": "пробные испытания",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "пробные испытания",
+      "target": "Норильский промышленный регион",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "химический метод",
+      "target": "пылеподавление",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "химический метод",
+      "target": "закрепление пылящих поверхностей",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "гигроскопичные соли",
+      "target": "химический метод",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "меловая суспензия",
+      "target": "химический метод",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "битумная эмульсия",
+      "target": "химический метод",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "цемент",
+      "target": "химический метод",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "известь",
+      "target": "химический метод",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "органические полимеры",
+      "target": "химический метод",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "лигносульфонаты",
+      "target": "химический метод",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "побочные продукты нефтепереработки",
+      "target": "химический метод",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "бишофит",
+      "target": "водно-солевые растворы",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "водно-солевые растворы",
+      "target": "химический метод",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "химический метод",
+      "target": "устойчивость к влаге",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "химический метод",
+      "target": "устойчивость к ветру",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "химический метод",
+      "target": "устойчивость к механическим воздействиям",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "химический метод",
+      "target": "воздействие на окружающую среду",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "водно-солевые растворы",
+      "target": "срок эффективного действия",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "бишофит",
+      "target": "срок эффективного действия",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "химический метод",
+      "target": "засаливание почв",
+      "type": "SHOWED"
+    },
+    {
+      "source": "химический метод",
+      "target": "вымывание состава осадками",
+      "type": "SHOWED"
+    },
+    {
+      "source": "химический метод",
+      "target": "высокое воздействие на окружающую среду",
+      "type": "SHOWED"
+    },
+    {
+      "source": "химический метод",
+      "target": "недействующие хвостохранилища",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "химический метод",
+      "target": "техническая рекультивация",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "химический метод",
+      "target": "пылящий субстрат",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "химический метод",
+      "target": "поверхность",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "химический метод",
+      "target": "крепкая неразрушающаяся корка",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "химический метод",
+      "target": "связывание минеральных пылевых частиц",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "химический метод",
+      "target": "обработанная поверхность",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "аэродинамический способ",
+      "target": "лесозащитные полосы",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "аэродинамический способ",
+      "target": "ветровые экраны",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "аэродинамический способ",
+      "target": "ограничение для хвостохранилищ высотой более 20-30 м",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "аэродинамический способ",
+      "target": "недостаток: высокая стоимость сооружения ветровых экранов",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "аэродинамический способ",
+      "target": "недостаток: низкая механическая устойчивость ветровых экранов",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "механический способ",
+      "target": "вскрышная порода рудника",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "механический способ",
+      "target": "пустая порода от проходки горных выработок подземных рудников",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "механический способ",
+      "target": "металлургический шлак",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "механический способ",
+      "target": "другие инертные материалы",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "пыль размером менее 10 микрон",
+      "target": "наиболее опасные для здоровья людей",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "проведение мероприятий по пылеподавлению посредством только воды",
+      "target": "не позволяет осадить частицы пыли размером менее 10 микрон",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "ветровые экраны",
+      "target": "сильные и ураганные порывы ветра",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "ветровые экраны",
+      "target": "Норильский промышленный район",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "битумная эмульсия",
+      "target": "горячая вода",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "битумная эмульсия",
+      "target": "специальное оборудование",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "специальное оборудование",
+      "target": "приготовление битумной эмульсии",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "специальное оборудование",
+      "target": "распределение битумной эмульсии",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "приготовление битумной эмульсии",
+      "target": "технологические мероприятия",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "распределение битумной эмульсии",
+      "target": "технологические мероприятия",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "битумная эмульсия",
+      "target": "неблагоприятные метеорологические условия",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "неблагоприятные метеорологические условия",
+      "target": "скорость ветра",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "скорость ветра",
+      "target": "meas_wind_10",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_wind_10",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "битумная эмульсия",
+      "target": "поверхностная пленка",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "поверхностная пленка",
+      "target": "finding_poor_adhesion",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_poor_adhesion",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Rutrol AD 171",
+      "target": "пылеподавляющий реагент",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "пылеподавляющий реагент",
+      "target": "хвостохранилище «Лебяжье»",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "опытно-промышленные испытания",
+      "target": "Rutrol AD 171",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "опытно-промышленные испытания",
+      "target": "хвостохранилище «Лебяжье»",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "опытно-промышленные испытания",
+      "target": "Программа-методика опытных предварительных испытаний по пылеподавлению на намываемых пляжах хвостохранилища ООО «Медвежий ручей»",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "лабораторные исследования",
+      "target": "хвосты хвостохранилища «Лебяжье»",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "лабораторные исследования",
+      "target": "лаборатория производителя",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "лабораторные исследования",
+      "target": "Rutrol AD",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "лабораторные исследования",
+      "target": "физико-химические свойства",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "лабораторные исследования",
+      "target": "морфология отходов обогащения",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "опытно-промышленные испытания",
+      "target": "необводненный участок хвостохранилища",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "необводненный участок хвостохранилища",
+      "target": "2 м²",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "2 м²",
+      "target": "площадь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "опытно-промышленные испытания",
+      "target": "июль 2023",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "опытно-промышленные испытания",
+      "target": "сентябрь 2023",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "опытно-промышленные испытания",
+      "target": "16 участков",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "16 участков",
+      "target": "количество",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "хвостохранилище «Лебяжье»",
+      "target": "3250,73 тыс км²",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "хвостохранилище «Лебяжье»",
+      "target": "5432 тыс км²",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "5432 тыс км²",
+      "target": "площадь пыляющей поверхности",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "опытный участок хвостохранилища \"Лебяжье\"",
+      "target": "рисунок 1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "опытный участок хвостохранилища \"Лебяжье\"",
+      "target": "рисунок 1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "опытный участок хвостохранилища \"Лебяжье\"",
+      "target": "таблица 1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "таблица 1",
+      "target": "опытный участок хвостохранилища \"Лебяжье\"",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "опытный участок хвостохранилища \"Лебяжье\"",
+      "target": "рисунок 2",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "опытный участок хвостохранилища \"Лебяжье\"",
+      "target": "нанесение реагента",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "нанесение реагента",
+      "target": "реагент Rutrol AD 171",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "нанесение реагента",
+      "target": "водный раствор",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "нанесение реагента",
+      "target": "опытный участок хвостохранилища \"Лебяжье\"",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "нанесение реагента",
+      "target": "ясная погода",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "нанесение реагента",
+      "target": "осадки",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "оценка результатов образования защитной корки",
+      "target": "рисунок 2",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "оценка результатов образования защитной корки",
+      "target": "опытный участок хвостохранилища \"Лебяжье\"",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "оценка результатов образования защитной корки",
+      "target": "50 суток",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "50 суток",
+      "target": "оценка результатов образования защитной корки",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "реагент Rutrol AD 171",
+      "target": "концентрация раствора, %",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "реагент Rutrol AD 171",
+      "target": "расход реагента, г/м2",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "расход реагента, г/м2",
+      "target": "таблица 1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "концентрация раствора, %",
+      "target": "таблица 1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "таблица 1",
+      "target": "объемы растворов реагента разных концентраций, нанесенные на каждый участок (л)",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "объемы растворов реагента разных концентраций, нанесенные на каждый участок (л)",
+      "target": "таблица 1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "объемы растворов реагента разных концентраций, нанесенные на каждый участок (л)",
+      "target": "опытный участок хвостохранилища \"Лебяжье\"",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "опытный участок хвостохранилища \"Лебяжье\"",
+      "target": "16 равных участков площадью примерно 2 м2",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "16 равных участков площадью примерно 2 м2",
+      "target": "опытный участок хвостохранилища \"Лебяжье\"",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "осадки",
+      "target": "предшествующие два дня до начала испытаний",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "осадки",
+      "target": "через 15 часов после нанесения реагента",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "обработка реагентом",
+      "target": "защитный слой",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "защитный слой",
+      "target": "снижение ветровой эрозии",
+      "type": "SHOWED"
+    },
+    {
+      "source": "обработка реагентом",
+      "target": "минимальный расход",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "минимальный расход",
+      "target": "20 г/м2",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "20 г/м2",
+      "target": "1% раствор",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "снижение ветровой эрозии",
+      "target": "отсутствие барханов",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "отсутствие барханов",
+      "target": "Таблица 2 строка 2",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "снижение ветровой эрозии",
+      "target": "Таблица 2 строка 1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "снижение ветровой эрозии",
+      "target": "Таблица 2 строка 3",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "обработка реагентом",
+      "target": "Таблица 2 строка 1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "обработка реагентом",
+      "target": "Таблица 2 строка 2",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "обработка реагентом",
+      "target": "Таблица 2 строка 3",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "опытный участок хвостохранилища \"Лебяжье\"",
+      "target": "опыт",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "опыт",
+      "target": "результаты образования защитной корки",
+      "type": "SHOWED"
+    },
+    {
+      "source": "опыт",
+      "target": "реагент Rutrol AD 171",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "опыт",
+      "target": "расход реагента 30-40 г/м2",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "опыт",
+      "target": "рабочая концентрация 3%",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "опыт",
+      "target": "толщина корки 7-10 мм",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "толщина корки 7-10 мм",
+      "target": "измерение толщины корки",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "опыт",
+      "target": "эластичность",
+      "type": "SHOWED"
+    },
+    {
+      "source": "опыт",
+      "target": "относительная прочность (не разрушается под весом человека массой 80-90 кг)",
+      "type": "SHOWED"
+    },
+    {
+      "source": "опыт",
+      "target": "ветровая эрозия",
+      "type": "SHOWED"
+    },
+    {
+      "source": "опыт",
+      "target": "погодные условия",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "опыт",
+      "target": "обильные осадки в виде дождя",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "опыт",
+      "target": "влажная поверхность пляжа",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "опыт",
+      "target": "рисунок 2",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "рисунок 2",
+      "target": "источник p.6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "опыт",
+      "target": "источник p.6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "измерение толщины корки",
+      "target": "источник p.6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "относительная прочность (не разрушается под весом человека массой 80-90 кг)",
+      "target": "источник p.6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "эластичность",
+      "target": "источник p.6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "ветровая эрозия",
+      "target": "источник p.6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "погодные условия",
+      "target": "источник p.6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "обильные осадки в виде дождя",
+      "target": "источник p.6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "влажная поверхность пляжа",
+      "target": "источник p.6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "биологический метод",
+      "target": "хвостохранилище",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "биологический метод",
+      "target": "дамбы обвалования",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "биологический метод",
+      "target": "законсервированные хвостохранилища",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "биологический метод",
+      "target": "пылящая поверхность",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "биологический метод",
+      "target": "посев трав",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "посев трав",
+      "target": "тракторная сеялка",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "посев трав",
+      "target": "гидропосев",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "посев трав",
+      "target": "устройство рулонного газона",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "посев трав",
+      "target": "биоматы",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "посев трав",
+      "target": "ручной посев",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "химический метод пылеподавления",
+      "target": "действующие хвостохранилища",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "химический метод пылеподавления",
+      "target": "Крайний Север",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "физический метод",
+      "target": "инертные материалы",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "физический метод",
+      "target": "покрытие значительных площадей хвостохранилищ",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "поверхностная пленка",
+      "target": "разрушалась",
+      "type": "SHOWED"
+    },
+    {
+      "source": "разрушалась",
+      "target": "основные источники мелкодисперсной пыли",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "биологический метод",
+      "target": "неэффективен",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "физический метод",
+      "target": "ограниченное применение",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "химический метод пылеподавления",
+      "target": "наиболее перспективный",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "биологический метод",
+      "target": "рекультивация",
+      "type": "TAGGED"
+    },
+    {
+      "source": "биологический метод",
+      "target": "ветровая нагрузка",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "поверхностная пленка",
+      "target": "метеорологические условия",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "метеорологические условия",
+      "target": "скорость ветра ≥ 10 м/с",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "скорость ветра ≥ 10 м/с",
+      "target": "разрушалась",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "биологический метод",
+      "target": "АО «Апатит»",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "биологический метод",
+      "target": "хвостохранилище",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "биологический метод",
+      "target": "посев трав",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "посев трав",
+      "target": "тракторная сеялка",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "посев трав",
+      "target": "гидропосев",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "посев трав",
+      "target": "устройство рулонного газона",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "посев трав",
+      "target": "биоматы",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "посев трав",
+      "target": "ручной посев",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "поверхностная пленка",
+      "target": "разрушалась",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "разрушалась",
+      "target": "основные источники мелкодисперсной пыли",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "биологический метод",
+      "target": "законсервированные хвостохранилища",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "биологический метод",
+      "target": "дамбы обвалования",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "биологический метод",
+      "target": "пылящая поверхность",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "посев трав",
+      "target": "тракторная сеялка",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "посев трав",
+      "target": "гидропосев",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "посев трав",
+      "target": "устройство рулонного газона",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "посев трав",
+      "target": "биоматы",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "посев трав",
+      "target": "ручной посев",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "химический метод пылеподавления",
+      "target": "действующие хвостохранилища",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "химический метод пылеподавления",
+      "target": "Крайний Север",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "физический метод",
+      "target": "инертные материалы",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "физический метод",
+      "target": "покрытие значительных площадей хвостохранилищ",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "биологический метод",
+      "target": "неэффективен",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "физический метод",
+      "target": "ограниченное применение",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "химический метод пылеподавления",
+      "target": "наиболее перспективный",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "биологический метод",
+      "target": "АО «Апатит»",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "биологический метод",
+      "target": "хвостохранилище",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "биологический метод",
+      "target": "посев трав",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "поверхностная пленка",
+      "target": "метеорологические условия",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "метеорологические условия",
+      "target": "скорость ветра ≥ 10 м/с",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "биологический метод",
+      "target": "рекультивация",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "биологический метод",
+      "target": "ветровая нагрузка",
+      "type": "DESCRIBED_IN"
+    }
+  ]
+}

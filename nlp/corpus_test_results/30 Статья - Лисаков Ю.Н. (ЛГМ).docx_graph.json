@@ -1,0 +1,3241 @@
+{
+  "document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+  "nodes": [
+    {
+      "id": "давление",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "pressure",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "давление",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728037"
+      }
+    },
+    {
+      "id": "src_p2",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "src_p2",
+        "ingestion_date": "2026-07-04T16:07:02.727913",
+        "span": "p.2"
+      }
+    },
+    {
+      "id": "src_p9",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "src_p9",
+        "ingestion_date": "2026-07-04T16:07:02.728710",
+        "span": "p.9"
+      }
+    },
+    {
+      "id": "ООО «Институт Гипроникель»",
+      "label": "Facility",
+      "properties": {
+        "country": "RU",
+        "address": "195220 Санкт-Петербург, Гражданский просп., 11",
+        "city": "Санкт-Петербург",
+        "geography": "RU",
+        "confidence": 0.5,
+        "name": "ООО «Институт Гипроникель»",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "ООО «Институт Гипроникель»",
+        "type": "research institute",
+        "ingestion_date": "2026-07-04T16:07:02.728105"
+      }
+    },
+    {
+      "id": "обратный осмос",
+      "label": "Process",
+      "properties": {
+        "domain": "экология",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "обратный осмос",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.727922"
+      }
+    },
+    {
+      "id": "таблица 4",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "таблица 4",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728332"
+      }
+    },
+    {
+      "id": "property_temperature",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "температура",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "property_temperature",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728262"
+      }
+    },
+    {
+      "id": "таблица 2",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "таблица 2",
+        "validation_status": "pending",
+        "title": "Результаты исследований прекурсоров",
+        "ingestion_date": "2026-07-04T16:07:02.727974"
+      }
+    },
+    {
+      "id": "СТРАНИЦА 1",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "СТРАНИЦА 1",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728118",
+        "span": "p.1"
+      }
+    },
+    {
+      "id": "никель",
+      "label": "Material",
+      "properties": {
+        "chemical_symbol": "Ni",
+        "confidence": 0.5,
+        "name": "массовая доля никеля",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "никель",
+        "validation_status": "pending",
+        "type": "element",
+        "ingestion_date": "2026-07-04T16:07:02.728081"
+      }
+    },
+    {
+      "id": "выщелачивание",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "выщелачивание",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.727874"
+      }
+    },
+    {
+      "id": "выводы",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "выводы",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728357"
+      }
+    },
+    {
+      "id": "пентландит",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "пентландит",
+        "validation_status": "pending",
+        "chemical_formula": "(Fe,Ni)9S8",
+        "ingestion_date": "2026-07-04T16:07:02.728068"
+      }
+    },
+    {
+      "id": "finding_sulfur_reduction",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "statement": "содержание серы в магнитной фракции снижается при обработке в трубчатой печи",
+        "description": "Снижение извлечения серы в элементную форму достигается повышением температуры до 200 оС и выше",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "finding_sulfur_reduction",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.727894"
+      }
+    },
+    {
+      "id": "скорость перемешивания",
+      "label": "Property",
+      "properties": {
+        "domain": "гидродинамические",
+        "confidence": 0.5,
+        "name": "stirring speed",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "скорость перемешивания",
+        "ingestion_date": "2026-07-04T16:07:02.728045"
+      }
+    },
+    {
+      "id": "meas_ni_98",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 98,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_ni_98",
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:07:02.727850"
+      }
+    },
+    {
+      "id": "property_time",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "время выдержки",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "property_time",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728267"
+      }
+    },
+    {
+      "id": "автоклавное окислительное выщелачивание",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "автоклавное окислительное выщелачивание",
+        "ingestion_date": "2026-07-04T16:07:02.727820"
+      }
+    },
+    {
+      "id": "cond_temp_190_200",
+      "label": "Condition",
+      "properties": {
+        "unit": "ºС",
+        "min": 190,
+        "max": 200,
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "cond_temp_190_200",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.727855"
+      }
+    },
+    {
+      "id": "cond_p_o2_0_7",
+      "label": "Condition",
+      "properties": {
+        "unit": "МПа",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "cond_p_o2_0_7",
+        "validation_status": "pending",
+        "value": 0.7,
+        "ingestion_date": "2026-07-04T16:07:02.727860"
+      }
+    },
+    {
+      "id": "finding_high_extraction",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "до 98 % никеля может быть переведено в раствор",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "finding_high_extraction",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.727864"
+      }
+    },
+    {
+      "id": "meas_temp_190_200",
+      "label": "Measurement",
+      "properties": {
+        "unit": "oС",
+        "min": 190,
+        "max": 200,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_temp_190_200",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:07:02.727878"
+      }
+    },
+    {
+      "id": "meas_pressure_o2_0_7",
+      "label": "Measurement",
+      "properties": {
+        "unit": "МПа",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_pressure_o2_0_7",
+        "value": 0.7,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:07:02.727882"
+      }
+    },
+    {
+      "id": "meas_acid_50",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "г/л",
+        "min": 50000.0,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_acid_50",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:07:02.727886"
+      }
+    },
+    {
+      "id": "finding_sulfur_formation",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Высокая кислотность раствора приводит к нежелательному образованию элементной серы",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "finding_sulfur_formation",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.727890"
+      }
+    },
+    {
+      "id": "meas_chloride_15",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "г/л",
+        "max": 15000.0,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_chloride_15",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:07:02.727898"
+      }
+    },
+    {
+      "id": "finding_materials_requirement",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Необходимость подбора новых конструкционных материалов для корпусного оборудования, в т.ч. оборудования высокого давления, перемешивающих устройств, встроенных теплообменников, закладных деталей",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "finding_materials_requirement",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.727904"
+      }
+    },
+    {
+      "id": "подбор конструкционных материалов",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "подбор конструкционных материалов",
+        "ingestion_date": "2026-07-04T16:07:02.727909"
+      }
+    },
+    {
+      "id": "автоклав",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "автоклав",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.727917"
+      }
+    },
+    {
+      "id": "технический титан марки ВТ1-0",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "технический титан марки ВТ1-0",
+        "ingestion_date": "2026-07-04T16:07:02.727927"
+      }
+    },
+    {
+      "id": "трехлопастная мешалка",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "трехлопастная мешалка",
+        "type": "impeller",
+        "blade_count": 3,
+        "ingestion_date": "2026-07-04T16:07:02.727931"
+      }
+    },
+    {
+      "id": "температура – 200 оС",
+      "label": "Measurement",
+      "properties": {
+        "unit": "оС",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "температура – 200 оС",
+        "value": 200,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:07:02.727935"
+      }
+    },
+    {
+      "id": "парциальное давление кислорода – 0,5 МПа",
+      "label": "Measurement",
+      "properties": {
+        "unit": "МПа",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "парциальное давление кислорода – 0,5 МПа",
+        "value": 0.5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:07:02.727940"
+      }
+    },
+    {
+      "id": "скорость вращения мешалки 1200-1500 об/мин",
+      "label": "Measurement",
+      "properties": {
+        "unit": "об/мин",
+        "min": 1200,
+        "max": 1500,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "скорость вращения мешалки 1200-1500 об/мин",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:07:02.727945"
+      }
+    },
+    {
+      "id": "парциальное давление кислорода",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "парциальное давление кислорода",
+        "ingestion_date": "2026-07-04T16:07:02.727955"
+      }
+    },
+    {
+      "id": "скорость вращения мешалки",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "скорость вращения мешалки",
+        "ingestion_date": "2026-07-04T16:07:02.727961"
+      }
+    },
+    {
+      "id": "коррозионные испытания",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "коррозионные испытания",
+        "objective": "evaluation of corrosion resistance",
+        "ingestion_date": "2026-07-04T16:07:02.727966"
+      }
+    },
+    {
+      "id": "выдержал",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "выдержал",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.727970"
+      }
+    },
+    {
+      "id": "страница 3",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "страница 3",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.727979",
+        "span": "p.3"
+      }
+    },
+    {
+      "id": "сплав на никелевой основе",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "сплав на никелевой основе",
+        "validation_status": "pending",
+        "type": "alloy",
+        "ingestion_date": "2026-07-04T16:07:02.727983",
+        "base": "nickel"
+      }
+    },
+    {
+      "id": "35",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "35",
+        "mark": "35",
+        "ingestion_date": "2026-07-04T16:07:02.727987"
+      }
+    },
+    {
+      "id": "2000",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "2000",
+        "mark": "2000",
+        "ingestion_date": "2026-07-04T16:07:02.727992"
+      }
+    },
+    {
+      "id": "22",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "22",
+        "mark": "22",
+        "ingestion_date": "2026-07-04T16:07:02.727996"
+      }
+    },
+    {
+      "id": "27",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "27",
+        "mark": "27",
+        "ingestion_date": "2026-07-04T16:07:02.728000"
+      }
+    },
+    {
+      "id": "ХН65МВ",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "ХН65МВ",
+        "validation_status": "pending",
+        "mark": "ХН65МВ",
+        "ingestion_date": "2026-07-04T16:07:02.728005"
+      }
+    },
+    {
+      "id": "технический титан",
+      "label": "Material",
+      "properties": {
+        "grade": "ВТ1-0",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "технический титан",
+        "validation_status": "pending",
+        "type": "titanium",
+        "ingestion_date": "2026-07-04T16:07:02.728009"
+      }
+    },
+    {
+      "id": "ВТ1-0",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "ВТ1-0",
+        "validation_status": "pending",
+        "mark": "ВТ1-0",
+        "ingestion_date": "2026-07-04T16:07:02.728014"
+      }
+    },
+    {
+      "id": "титановый автоклав",
+      "label": "Equipment",
+      "properties": {
+        "material": "titanium",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "титановый автоклав",
+        "capacity": "1 л",
+        "ingestion_date": "2026-07-04T16:07:02.728018"
+      }
+    },
+    {
+      "id": "выщелачивание концентрата",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "description": "leaching of concentrate",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "выщелачивание концентрата",
+        "ingestion_date": "2026-07-04T16:07:02.728023"
+      }
+    },
+    {
+      "id": "операции в автоклаве",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "description": "operations inside autoclave",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "операции в автоклаве",
+        "ingestion_date": "2026-07-04T16:07:02.728027"
+      }
+    },
+    {
+      "id": "перемешивание пульпы",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "description": "pulp stirring",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "перемешивание пульпы",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728033"
+      }
+    },
+    {
+      "id": "газ",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "gas",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "газ",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728041"
+      }
+    },
+    {
+      "id": "температура 140-160 ºС",
+      "label": "Condition",
+      "properties": {
+        "unit": "ºС",
+        "min": 140,
+        "max": 160,
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "температура 140-160 ºС",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:07:02.728055"
+      }
+    },
+    {
+      "id": "парциальное давление кислорода 0,5-1,0 МПа",
+      "label": "Condition",
+      "properties": {
+        "unit": "МПа",
+        "min": 0.5,
+        "max": 1.0,
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "парциальное давление кислорода 0,5-1,0 МПа",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:07:02.728060"
+      }
+    },
+    {
+      "id": "миллерит",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "миллерит",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728064"
+      }
+    },
+    {
+      "id": "полидимит",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "полидимит",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728072"
+      }
+    },
+    {
+      "id": "виоларит",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "виоларит",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728077"
+      }
+    },
+    {
+      "id": "Лисаков Ю.Н.",
+      "label": "Expert",
+      "properties": {
+        "country": "RU",
+        "affiliation": "ООО «Институт Гипроникель»",
+        "city": "Санкт-Петербург",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Лисаков Ю.Н.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728086"
+      }
+    },
+    {
+      "id": "Павлов О.В.",
+      "label": "Expert",
+      "properties": {
+        "country": "RU",
+        "affiliation": "ООО «Институт Гипроникель»",
+        "city": "Санкт-Петербург",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Павлов О.В.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728091"
+      }
+    },
+    {
+      "id": "Чупрынин Н.П.",
+      "label": "Expert",
+      "properties": {
+        "country": "RU",
+        "affiliation": "ООО «Институт Гипроникель»",
+        "city": "Санкт-Петербург",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Чупрынин Н.П.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728095"
+      }
+    },
+    {
+      "id": "Науменко Г.Е.",
+      "label": "Expert",
+      "properties": {
+        "country": "RU",
+        "city": "Мончегорск",
+        "affiliation": "АО «Кольская Горно-Металлургическая Компания»",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Науменко Г.Е.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728100"
+      }
+    },
+    {
+      "id": "АО «Кольская Горно-Металлургическая Компания»",
+      "label": "Facility",
+      "properties": {
+        "country": "RU",
+        "city": "Мончегорск",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "АО «Кольская Горно-Металлургическая Компания»",
+        "ingestion_date": "2026-07-04T16:07:02.728109"
+      }
+    },
+    {
+      "id": "Исследования возможности применения новых конструкционных материалов для повышения срока службы оборудования, работающего в условиях интенсивного коррозионного износа",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Исследования возможности применения новых конструкционных материалов для повышения срока службы оборудования, работающего в условиях интенсивного коррозионного износа",
+        "ingestion_date": "2026-07-04T16:07:02.728114"
+      }
+    },
+    {
+      "id": "meas_temp_425",
+      "label": "Measurement",
+      "properties": {
+        "unit": "К",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_temp_425",
+        "value": 425,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:07:02.728123"
+      }
+    },
+    {
+      "id": "meas_press_o2_01_03",
+      "label": "Measurement",
+      "properties": {
+        "unit": "МПа",
+        "min": 0.1,
+        "max": 0.3,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_press_o2_01_03",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:07:02.728127"
+      }
+    },
+    {
+      "id": "возгорание титана",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "возгорание титана",
+        "ingestion_date": "2026-07-04T16:07:02.728132"
+      }
+    },
+    {
+      "id": "сухой кислород",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "сухой кислород",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728136"
+      }
+    },
+    {
+      "id": "внешний возбудитель",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "внешний возбудитель",
+        "ingestion_date": "2026-07-04T16:07:02.728142"
+      }
+    },
+    {
+      "id": "нарушение целостности оксидной плёнки",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "нарушение целостности оксидной плёнки",
+        "ingestion_date": "2026-07-04T16:07:02.728146"
+      }
+    },
+    {
+      "id": "температура 200 0С",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "температура 200 0С",
+        "ingestion_date": "2026-07-04T16:07:02.728150"
+      }
+    },
+    {
+      "id": "подача кислорода",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "подача кислорода",
+        "ingestion_date": "2026-07-04T16:07:02.728155"
+      }
+    },
+    {
+      "id": "проблемы применения титана в атмосфере кислорода",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "проблемы применения титана в атмосфере кислорода",
+        "ingestion_date": "2026-07-04T16:07:02.728159"
+      }
+    },
+    {
+      "id": "возгорание внутренних деталей аппаратов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "возгорание внутренних деталей аппаратов",
+        "ingestion_date": "2026-07-04T16:07:02.728164"
+      }
+    },
+    {
+      "id": "опыты по исследованию возгораемости титана в условиях автоклавных процессов",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "опыты по исследованию возгораемости титана в условиях автоклавных процессов",
+        "ingestion_date": "2026-07-04T16:07:02.728169"
+      }
+    },
+    {
+      "id": "работа [35]",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "работа [35]",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728174"
+      }
+    },
+    {
+      "id": "величины критического давления для различных сплавов титана",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "величины критического давления для различных сплавов титана",
+        "ingestion_date": "2026-07-04T16:07:02.728179"
+      }
+    },
+    {
+      "id": "наиболее часто возгорания наблюдались у валов, лопастей мешалок, кислород-подводящей трубы, а также локально на корпусе, под мешалками",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "наиболее часто возгорания наблюдались у валов, лопастей мешалок, кислород-подводящей трубы, а также локально на корпусе, под мешалками",
+        "ingestion_date": "2026-07-04T16:07:02.728184"
+      }
+    },
+    {
+      "id": "длительная работа вала в уплотнениях",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "длительная работа вала в уплотнениях",
+        "ingestion_date": "2026-07-04T16:07:02.728189"
+      }
+    },
+    {
+      "id": "локальное повышение температуры из-за трения",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "локальное повышение температуры из-за трения",
+        "ingestion_date": "2026-07-04T16:07:02.728194"
+      }
+    },
+    {
+      "id": "удар куском костры",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "удар куском костры",
+        "ingestion_date": "2026-07-04T16:07:02.728200"
+      }
+    },
+    {
+      "id": "оторвавшаяся лопасть",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "оторвавшаяся лопасть",
+        "ingestion_date": "2026-07-04T16:07:02.728204"
+      }
+    },
+    {
+      "id": "finding_ignition_at_425K",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "finding_ignition_at_425K",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728209"
+      }
+    },
+    {
+      "id": "finding_ignition_at_01_03_MPa",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "finding_ignition_at_01_03_MPa",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728213"
+      }
+    },
+    {
+      "id": "finding_ignition_locations",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "finding_ignition_locations",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728217"
+      }
+    },
+    {
+      "id": "finding_local_temp_rise",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "finding_local_temp_rise",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728222"
+      }
+    },
+    {
+      "id": "finding_oxide_layer_damage",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "finding_oxide_layer_damage",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728226"
+      }
+    },
+    {
+      "id": "термическое оксидирование",
+      "label": "Process",
+      "properties": {
+        "domain": "материаловедение",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "термическое оксидирование",
+        "ingestion_date": "2026-07-04T16:07:02.728230"
+      }
+    },
+    {
+      "id": "meas_temp_1100",
+      "label": "Measurement",
+      "properties": {
+        "unit": "°C",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "meas_temp_1100",
+        "validation_status": "pending",
+        "value": 1100,
+        "ingestion_date": "2026-07-04T16:07:02.728238"
+      }
+    },
+    {
+      "id": "meas_time_1100",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мин",
+        "min": 0,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_time_1100",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:07:02.728243"
+      }
+    },
+    {
+      "id": "finding_oxide_adhesion",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "при нагреве до 750 °C образуется достаточно плотная с удовлетворительной адгезией поверхностная пленка чуть зеленоватого цвета",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "finding_oxide_adhesion",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728247"
+      }
+    },
+    {
+      "id": "finding_oxide_spallation",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "при температуре 1100 °C образуется достаточно толстая оксидная корка, которая самопроизвольно отслаивается в процессе охлаждения образца",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "finding_oxide_spallation",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728253"
+      }
+    },
+    {
+      "id": "finding_polymorphic_transition",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "при превышении порядка 1000 °C окислы ниобия претерпевают полиморфное превращение с α-Nb2O5 в β-Nb2O5, сопровождающееся резким увеличением объема (до 3 раз) и соответствующим разрыхлением и отслоением корки окислов",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "finding_polymorphic_transition",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728257"
+      }
+    },
+    {
+      "id": "property_adhesion",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "адгезия",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "property_adhesion",
+        "ingestion_date": "2026-07-04T16:07:02.728273"
+      }
+    },
+    {
+      "id": "property_spallation",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "отслоение",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "property_spallation",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728278"
+      }
+    },
+    {
+      "id": "property_volume_change",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "изменение объема",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "property_volume_change",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728282"
+      }
+    },
+    {
+      "id": "сплав НТ-47",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "сплав НТ-47",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728292"
+      }
+    },
+    {
+      "id": "упрочнение поверхности",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "упрочнение поверхности",
+        "ingestion_date": "2026-07-04T16:07:02.728297"
+      }
+    },
+    {
+      "id": "режим термического оксидирования",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "режим термического оксидирования",
+        "ingestion_date": "2026-07-04T16:07:02.728302"
+      }
+    },
+    {
+      "id": "температура 1050 0С",
+      "label": "Measurement",
+      "properties": {
+        "unit": "°C",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "температура 1050 0С",
+        "value": 1050,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:07:02.728307"
+      }
+    },
+    {
+      "id": "измерение температуры",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "температура",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "измерение температуры",
+        "ingestion_date": "2026-07-04T16:07:02.728312"
+      }
+    },
+    {
+      "id": "снижение скорости коррозии",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "снижение скорости коррозии",
+        "ingestion_date": "2026-07-04T16:07:02.728317"
+      }
+    },
+    {
+      "id": "коррозионная стойкость",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "коррозионная стойкость",
+        "ingestion_date": "2026-07-04T16:07:02.728323"
+      }
+    },
+    {
+      "id": "удаление рыхлых оксидных осадков",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "удаление рыхлых оксидных осадков",
+        "ingestion_date": "2026-07-04T16:07:02.728327"
+      }
+    },
+    {
+      "id": "высокая коррозионная стойкость",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "высокая коррозионная стойкость",
+        "ingestion_date": "2026-07-04T16:07:02.728336"
+      }
+    },
+    {
+      "id": "термическое оксидирование при 1050 0С",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "термическое оксидирование при 1050 0С",
+        "ingestion_date": "2026-07-04T16:07:02.728342"
+      }
+    },
+    {
+      "id": "термическое оксидирование при более низких температурах",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "термическое оксидирование при более низких температурах",
+        "ingestion_date": "2026-07-04T16:07:02.728347"
+      }
+    },
+    {
+      "id": "снижение эффективности",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "снижение эффективности",
+        "ingestion_date": "2026-07-04T16:07:02.728352"
+      }
+    },
+    {
+      "id": "снижение скорости коррозии в два – три раза",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "снижение скорости коррозии в два – три раза",
+        "ingestion_date": "2026-07-04T16:07:02.728362"
+      }
+    },
+    {
+      "id": "источник",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "источник",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728367",
+        "span": "p.12"
+      }
+    },
+    {
+      "id": "Фрейман, Л.И. Потенциостатические методы в коррозионных исследованиях и электрохимической защите",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Фрейман, Л.И. Потенциостатические методы в коррозионных исследованиях и электрохимической защите",
+        "ingestion_date": "2026-07-04T16:07:02.728372"
+      }
+    },
+    {
+      "id": "Электрохимия",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Электрохимия",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728376"
+      }
+    },
+    {
+      "id": "Кеше, Г. Коррозия металлов. Физико-химические принципы и актуальные проблемы",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Кеше, Г. Коррозия металлов. Физико-химические принципы и актуальные проблемы",
+        "ingestion_date": "2026-07-04T16:07:02.728381"
+      }
+    },
+    {
+      "id": "Penyaz M., Popov N., Ivannikov A., Sevryukov O., Alloying-dependent microstructure influence on corrosion resistance of AISI 321 cell joints brazed by Ni-based filler metals, Non-ferrous Metals, 2020, No. 2. pp. 41-48.",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Penyaz M., Popov N., Ivannikov A., Sevryukov O., Alloying-dependent microstructure influence on corrosion resistance of AISI 321 cell joints brazed by Ni-based filler metals, Non-ferrous Metals, 2020, No. 2. pp. 41-48.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728386"
+      }
+    },
+    {
+      "id": "Xinyu Wang, Zongde Liu, Kehan Cheng, Yao Kong, Chlorine-induced high-temperature corrosion characteristics of Ni-Cr alloy cladding layer and Ni-Cr-Mo alloy cladding layer, Corrosion Science, 2023, Volume 216, pp. 4622–4631.",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Xinyu Wang, Zongde Liu, Kehan Cheng, Yao Kong, Chlorine-induced high-temperature corrosion characteristics of Ni-Cr alloy cladding layer and Ni-Cr-Mo alloy cladding layer, Corrosion Science, 2023, Volume 216, pp. 4622–4631.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728391"
+      }
+    },
+    {
+      "id": "ГОСТ 9.912-89. Единая система защиты от коррозии и старения. Стали и сплавы коррозионностойкие. Методы ускоренных испытаний на стойкость",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "ГОСТ 9.912-89. Единая система защиты от коррозии и старения. Стали и сплавы коррозионностойкие. Методы ускоренных испытаний на стойкость",
+        "ingestion_date": "2026-07-04T16:07:02.728396"
+      }
+    },
+    {
+      "id": "Л.И. Фрейман",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Л.И. Фрейман",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728400"
+      }
+    },
+    {
+      "id": "В.А. Макаров",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "В.А. Макаров",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728405"
+      }
+    },
+    {
+      "id": "И.Е. Брыксин",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "И.Е. Брыксин",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728408"
+      }
+    },
+    {
+      "id": "Я.М. Колотыркин",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Я.М. Колотыркин",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728412"
+      }
+    },
+    {
+      "id": "Ф. Миомандр",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Ф. Миомандр",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728417"
+      }
+    },
+    {
+      "id": "С. Садки",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "С. Садки",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728421"
+      }
+    },
+    {
+      "id": "П. Одебер",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "П. Одебер",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728425"
+      }
+    },
+    {
+      "id": "Р. Меалле-Рено",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Р. Меалле-Рено",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728430"
+      }
+    },
+    {
+      "id": "В.Н. Грасевич",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "В.Н. Грасевич",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728435"
+      }
+    },
+    {
+      "id": "Ю.Д. Гамбург",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Ю.Д. Гамбург",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728439"
+      }
+    },
+    {
+      "id": "В.А. Сафонов",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "В.А. Сафонов",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728444"
+      }
+    },
+    {
+      "id": "Г. Кеше",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Г. Кеше",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728449"
+      }
+    },
+    {
+      "id": "Penyaz M.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Penyaz M.",
+        "ingestion_date": "2026-07-04T16:07:02.728518"
+      }
+    },
+    {
+      "id": "Popov N.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Popov N.",
+        "ingestion_date": "2026-07-04T16:07:02.728525"
+      }
+    },
+    {
+      "id": "Ivannikov A.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Ivannikov A.",
+        "ingestion_date": "2026-07-04T16:07:02.728530"
+      }
+    },
+    {
+      "id": "Sevryukov O.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Sevryukov O.",
+        "ingestion_date": "2026-07-04T16:07:02.728534"
+      }
+    },
+    {
+      "id": "Xinyu Wang",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Xinyu Wang",
+        "ingestion_date": "2026-07-04T16:07:02.728538"
+      }
+    },
+    {
+      "id": "Zongde Liu",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Zongde Liu",
+        "ingestion_date": "2026-07-04T16:07:02.728542"
+      }
+    },
+    {
+      "id": "Kehan Cheng",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Kehan Cheng",
+        "ingestion_date": "2026-07-04T16:07:02.728547"
+      }
+    },
+    {
+      "id": "Yao Kong",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Yao Kong",
+        "ingestion_date": "2026-07-04T16:07:02.728551"
+      }
+    },
+    {
+      "id": "Л.",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Л.",
+        "ingestion_date": "2026-07-04T16:07:02.728556"
+      }
+    },
+    {
+      "id": "Химия",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Химия",
+        "ingestion_date": "2026-07-04T16:07:02.728560"
+      }
+    },
+    {
+      "id": "М.",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "М.",
+        "ingestion_date": "2026-07-04T16:07:02.728564"
+      }
+    },
+    {
+      "id": "Металлургия",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Металлургия",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728569"
+      }
+    },
+    {
+      "id": "Техносфера",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Техносфера",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728573"
+      }
+    },
+    {
+      "id": "Non-ferrous Metals",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Non-ferrous Metals",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728577"
+      }
+    },
+    {
+      "id": "Corrosion Science",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Corrosion Science",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728581"
+      }
+    },
+    {
+      "id": "ГОСТ 9.912-89",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "ГОСТ 9.912-89",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728586"
+      }
+    },
+    {
+      "id": "Hastelloy X",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Hastelloy X",
+        "ingestion_date": "2026-07-04T16:07:02.728590"
+      }
+    },
+    {
+      "id": "Inconel 625",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Inconel 625",
+        "ingestion_date": "2026-07-04T16:07:02.728594"
+      }
+    },
+    {
+      "id": "Fe-Cr-based amorphous alloys",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Fe-Cr-based amorphous alloys",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728600"
+      }
+    },
+    {
+      "id": "hot corrosion behaviour",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "hot corrosion behaviour",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728604"
+      }
+    },
+    {
+      "id": "corrosion resistance",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "corrosion resistance",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728608"
+      }
+    },
+    {
+      "id": "three-dimensional modeling of pitting corrosion",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "three-dimensional modeling of pitting corrosion",
+        "ingestion_date": "2026-07-04T16:07:02.728613"
+      }
+    },
+    {
+      "id": "crystallographic orientation",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "crystallographic orientation",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728617"
+      }
+    },
+    {
+      "id": "microstructure",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "microstructure",
+        "ingestion_date": "2026-07-04T16:07:02.728620"
+      }
+    },
+    {
+      "id": "corrosion of iron and nickel based alloys",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "corrosion of iron and nickel based alloys",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728624"
+      }
+    },
+    {
+      "id": "sulphuric acid",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "sulphuric acid",
+        "ingestion_date": "2026-07-04T16:07:02.728628"
+      }
+    },
+    {
+      "id": "challenges and prevention strategies",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "challenges and prevention strategies",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728632"
+      }
+    },
+    {
+      "id": "Hariharan, M.K.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Hariharan, M.K.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728636"
+      }
+    },
+    {
+      "id": "Anderson, A.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Anderson, A.",
+        "ingestion_date": "2026-07-04T16:07:02.728640"
+      }
+    },
+    {
+      "id": "Raghavan, K.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Raghavan, K.",
+        "ingestion_date": "2026-07-04T16:07:02.728644"
+      }
+    },
+    {
+      "id": "Souzaa A.C.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Souzaa A.C.",
+        "ingestion_date": "2026-07-04T16:07:02.728648"
+      }
+    },
+    {
+      "id": "Ribeiroa D.V.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Ribeiroa D.V.",
+        "ingestion_date": "2026-07-04T16:07:02.728652"
+      }
+    },
+    {
+      "id": "Kiminam C.S.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Kiminam C.S.",
+        "ingestion_date": "2026-07-04T16:07:02.728656"
+      }
+    },
+    {
+      "id": "Ziqin Tang",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Ziqin Tang",
+        "ingestion_date": "2026-07-04T16:07:02.728660"
+      }
+    },
+    {
+      "id": "Xieeryazidan Aday",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Xieeryazidan Aday",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728664"
+      }
+    },
+    {
+      "id": "Ouarga A.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Ouarga A.",
+        "ingestion_date": "2026-07-04T16:07:02.728668"
+      }
+    },
+    {
+      "id": "Appl Nanosci 13, 3359–3368 (2023)",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Appl Nanosci 13, 3359–3368 (2023)",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728673"
+      }
+    },
+    {
+      "id": "J. Non-Crystall. Sol. 2016. V. 442. N 15. P. 56-66.",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "J. Non-Crystall. Sol. 2016. V. 442. N 15. P. 56-66.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728696"
+      }
+    },
+    {
+      "id": "International Journal of Electrochemical Science, 2024, Volume 19, Issue 4",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "International Journal of Electrochemical Science, 2024, Volume 19, Issue 4",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728701"
+      }
+    },
+    {
+      "id": "Journal of Materials Research and Technology. – 2023.",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "id": "Journal of Materials Research and Technology. – 2023.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:02.728706"
+      }
+    },
+    {
+      "id": "meas_temp_750",
+      "label": "Revision",
+      "properties": {
+        "superseded_at": "2026-07-04T16:07:56.249237",
+        "unit": "°C",
+        "superseded_by_document": "b15.docx",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_temp_750",
+        "value": 750,
+        "ingestion_date": "2026-07-04T16:07:02.728234"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "автоклавное окислительное выщелачивание",
+      "target": "meas_ni_98",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "автоклавное окислительное выщелачивание",
+      "target": "meas_ni_98",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_ni_98",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_ni_98",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "автоклавное окислительное выщелачивание",
+      "target": "cond_temp_190_200",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "cond_temp_190_200",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "автоклавное окислительное выщелачивание",
+      "target": "cond_p_o2_0_7",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "cond_p_o2_0_7",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "автоклавное окислительное выщелачивание",
+      "target": "finding_high_extraction",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_high_extraction",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "выщелачивание",
+      "target": "meas_ni_98",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "выщелачивание",
+      "target": "meas_ni_98",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_ni_98",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_ni_98",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "выщелачивание",
+      "target": "meas_temp_190_200",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_temp_190_200",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "выщелачивание",
+      "target": "meas_pressure_o2_0_7",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_pressure_o2_0_7",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "выщелачивание",
+      "target": "meas_acid_50",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_acid_50",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "выщелачивание",
+      "target": "finding_sulfur_formation",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_sulfur_formation",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_sulfur_reduction",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "выщелачивание",
+      "target": "meas_chloride_15",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_chloride_15",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "выщелачивание",
+      "target": "finding_materials_requirement",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_materials_requirement",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "подбор конструкционных материалов",
+      "target": "finding_materials_requirement",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "подбор конструкционных материалов",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "автоклав",
+      "target": "обратный осмос",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "автоклав",
+      "target": "технический титан марки ВТ1-0",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "автоклав",
+      "target": "трехлопастная мешалка",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "автоклав",
+      "target": "температура – 200 оС",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "автоклав",
+      "target": "парциальное давление кислорода – 0,5 МПа",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "автоклав",
+      "target": "скорость вращения мешалки 1200-1500 об/мин",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "трехлопастная мешалка",
+      "target": "скорость вращения мешалки 1200-1500 об/мин",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "скорость вращения мешалки 1200-1500 об/мин",
+      "target": "температура – 200 оС",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "скорость вращения мешалки 1200-1500 об/мин",
+      "target": "парциальное давление кислорода – 0,5 МПа",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "температура – 200 оС",
+      "target": "температура",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "температура – 200 оС",
+      "target": "температура",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "парциальное давление кислорода – 0,5 МПа",
+      "target": "парциальное давление кислорода",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "скорость вращения мешалки 1200-1500 об/мин",
+      "target": "скорость вращения мешалки",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "технический титан марки ВТ1-0",
+      "target": "коррозионные испытания",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "коррозионные испытания",
+      "target": "выдержал",
+      "type": "SHOWED"
+    },
+    {
+      "source": "выдержал",
+      "target": "таблица 2",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "таблица 2",
+      "target": "страница 3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "автоклав",
+      "target": "страница 3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "трехлопастная мешалка",
+      "target": "страница 3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "температура – 200 оС",
+      "target": "страница 3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "парциальное давление кислорода – 0,5 МПа",
+      "target": "страница 3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "скорость вращения мешалки 1200-1500 об/мин",
+      "target": "страница 3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "технический титан марки ВТ1-0",
+      "target": "страница 3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "коррозионные испытания",
+      "target": "страница 3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "выдержал",
+      "target": "страница 3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "35",
+      "target": "сплав на никелевой основе",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "2000",
+      "target": "сплав на никелевой основе",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "2000",
+      "target": "сплав на никелевой основе",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "22",
+      "target": "сплав на никелевой основе",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "27",
+      "target": "сплав на никелевой основе",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "ХН65МВ",
+      "target": "сплав на никелевой основе",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "ВТ1-0",
+      "target": "технический титан",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "сплав на никелевой основе",
+      "target": "коррозионные испытания",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "технический титан",
+      "target": "коррозионные испытания",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "коррозионные испытания",
+      "target": "титановый автоклав",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "титановый автоклав",
+      "target": "операции в автоклаве",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "операции в автоклаве",
+      "target": "температура",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "операции в автоклаве",
+      "target": "температура",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "операции в автоклаве",
+      "target": "давление",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "операции в автоклаве",
+      "target": "газ",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "операции в автоклаве",
+      "target": "газ",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "коррозионные испытания",
+      "target": "трехлопастная мешалка",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "трехлопастная мешалка",
+      "target": "перемешивание пульпы",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "перемешивание пульпы",
+      "target": "скорость перемешивания",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "выщелачивание концентрата",
+      "target": "коррозионные испытания",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "выщелачивание концентрата",
+      "target": "титановый автоклав",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "выщелачивание концентрата",
+      "target": "трехлопастная мешалка",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "выщелачивание концентрата",
+      "target": "сплав на никелевой основе",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "выщелачивание концентрата",
+      "target": "технический титан",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "Лисаков Ю.Н.",
+      "target": "Исследования возможности применения новых конструкционных материалов для повышения срока службы оборудования, работающего в условиях интенсивного коррозионного износа",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Павлов О.В.",
+      "target": "Исследования возможности применения новых конструкционных материалов для повышения срока службы оборудования, работающего в условиях интенсивного коррозионного износа",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Чупрынин Н.П.",
+      "target": "Исследования возможности применения новых конструкционных материалов для повышения срока службы оборудования, работающего в условиях интенсивного коррозионного износа",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Науменко Г.Е.",
+      "target": "Исследования возможности применения новых конструкционных материалов для повышения срока службы оборудования, работающего в условиях интенсивного коррозионного износа",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Исследования возможности применения новых конструкционных материалов для повышения срока службы оборудования, работающего в условиях интенсивного коррозионного износа",
+      "target": "ООО «Институт Гипроникель»",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Исследования возможности применения новых конструкционных материалов для повышения срока службы оборудования, работающего в условиях интенсивного коррозионного износа",
+      "target": "АО «Кольская Горно-Металлургическая Компания»",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "автоклавное окислительное выщелачивание",
+      "target": "температура 140-160 ºС",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "автоклавное окислительное выщелачивание",
+      "target": "парциальное давление кислорода 0,5-1,0 МПа",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "автоклавное окислительное выщелачивание",
+      "target": "миллерит",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "автоклавное окислительное выщелачивание",
+      "target": "пентландит",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "автоклавное окислительное выщелачивание",
+      "target": "полидимит",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "автоклавное окислительное выщелачивание",
+      "target": "виоларит",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "миллерит",
+      "target": "никель",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "миллерит",
+      "target": "никель",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "пентландит",
+      "target": "никель",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "пентландит",
+      "target": "никель",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "полидимит",
+      "target": "никель",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "полидимит",
+      "target": "никель",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "виоларит",
+      "target": "никель",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "виоларит",
+      "target": "никель",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "автоклавное окислительное выщелачивание",
+      "target": "Исследования возможности применения новых конструкционных материалов для повышения срока службы оборудования, работающего в условиях интенсивного коррозионного износа",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Исследования возможности применения новых конструкционных материалов для повышения срока службы оборудования, работающего в условиях интенсивного коррозионного износа",
+      "target": "СТРАНИЦА 1",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "технический титан марки ВТ1-0",
+      "target": "коррозионные испытания",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "выдержал",
+      "target": "meas_temp_425",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_temp_425",
+      "target": "температура",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_temp_425",
+      "target": "температура",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_press_o2_01_03",
+      "target": "парциальное давление кислорода",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "возгорание титана",
+      "target": "сухой кислород",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "возгорание титана",
+      "target": "внешний возбудитель",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "возгорание титана",
+      "target": "нарушение целостности оксидной плёнки",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "возгорание титана",
+      "target": "наиболее часто возгорания наблюдались у валов, лопастей мешалок, кислород-подводящей трубы, а также локально на корпусе, под мешалками",
+      "type": "SHOWED"
+    },
+    {
+      "source": "нарушение целостности оксидной плёнки",
+      "target": "удар куском костры",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "нарушение целостности оксидной плёнки",
+      "target": "оторвавшаяся лопасть",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "длительная работа вала в уплотнениях",
+      "target": "локальное повышение температуры из-за трения",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "проблемы применения титана в атмосфере кислорода",
+      "target": "возгорание внутренних деталей аппаратов",
+      "type": "SHOWED"
+    },
+    {
+      "source": "возгорание внутренних деталей аппаратов",
+      "target": "опыты по исследованию возгораемости титана в условиях автоклавных процессов",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "опыты по исследованию возгораемости титана в условиях автоклавных процессов",
+      "target": "работа [35]",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "работа [35]",
+      "target": "величины критического давления для различных сплавов титана",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "наиболее часто возгорания наблюдались у валов, лопастей мешалок, кислород-подводящей трубы, а также локально на корпусе, под мешалками",
+      "target": "finding_ignition_locations",
+      "type": "SHOWED"
+    },
+    {
+      "source": "длительная работа вала в уплотнениях",
+      "target": "finding_local_temp_rise",
+      "type": "SHOWED"
+    },
+    {
+      "source": "удар куском костры",
+      "target": "finding_oxide_layer_damage",
+      "type": "SHOWED"
+    },
+    {
+      "source": "оторвавшаяся лопасть",
+      "target": "finding_oxide_layer_damage",
+      "type": "SHOWED"
+    },
+    {
+      "source": "возгорание титана",
+      "target": "finding_ignition_at_425K",
+      "type": "SHOWED"
+    },
+    {
+      "source": "возгорание титана",
+      "target": "finding_ignition_at_01_03_MPa",
+      "type": "SHOWED"
+    },
+    {
+      "source": "термическое оксидирование",
+      "target": "meas_temp_750",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "термическое оксидирование",
+      "target": "meas_temp_1100",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "термическое оксидирование",
+      "target": "meas_time_1100",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "термическое оксидирование",
+      "target": "finding_oxide_adhesion",
+      "type": "SHOWED"
+    },
+    {
+      "source": "термическое оксидирование",
+      "target": "finding_oxide_spallation",
+      "type": "SHOWED"
+    },
+    {
+      "source": "meas_temp_750",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_temp_1100",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_time_1100",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_oxide_adhesion",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_oxide_spallation",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_oxide_adhesion",
+      "target": "finding_oxide_spallation",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "finding_oxide_spallation",
+      "target": "finding_polymorphic_transition",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_polymorphic_transition",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_oxide_adhesion",
+      "target": "property_adhesion",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "finding_oxide_spallation",
+      "target": "property_spallation",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "finding_polymorphic_transition",
+      "target": "property_volume_change",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_temp_750",
+      "target": "property_temperature",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_temp_1100",
+      "target": "property_temperature",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_time_1100",
+      "target": "property_time",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "сплав НТ-47",
+      "target": "упрочнение поверхности",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "упрочнение поверхности",
+      "target": "термическое оксидирование",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "термическое оксидирование",
+      "target": "сплав НТ-47",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "термическое оксидирование",
+      "target": "режим термического оксидирования",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "режим термического оксидирования",
+      "target": "температура 1050 0С",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "температура 1050 0С",
+      "target": "измерение температуры",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "температура 1050 0С",
+      "target": "измерение температуры",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "упрочнение поверхности",
+      "target": "снижение скорости коррозии",
+      "type": "SHOWED"
+    },
+    {
+      "source": "снижение скорости коррозии",
+      "target": "коррозионная стойкость",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "термическое оксидирование",
+      "target": "удаление рыхлых оксидных осадков",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "упрочнение поверхности",
+      "target": "таблица 4",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "таблица 4",
+      "target": "сплав НТ-47",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "таблица 4",
+      "target": "коррозионные испытания",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "коррозионные испытания",
+      "target": "сплав НТ-47",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "упрочнение поверхности",
+      "target": "высокая коррозионная стойкость",
+      "type": "SHOWED"
+    },
+    {
+      "source": "высокая коррозионная стойкость",
+      "target": "термическое оксидирование при 1050 0С",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "термическое оксидирование при 1050 0С",
+      "target": "термическое оксидирование",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "термическое оксидирование",
+      "target": "термическое оксидирование при более низких температурах",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "термическое оксидирование при более низких температурах",
+      "target": "термическое оксидирование",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "термическое оксидирование при более низких температурах",
+      "target": "снижение эффективности",
+      "type": "SHOWED"
+    },
+    {
+      "source": "снижение эффективности",
+      "target": "термическое оксидирование",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "упрочнение поверхности",
+      "target": "выводы",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "выводы",
+      "target": "снижение скорости коррозии в два – три раза",
+      "type": "SHOWED"
+    },
+    {
+      "source": "снижение скорости коррозии в два – три раза",
+      "target": "упрочнение поверхности",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "выводы",
+      "target": "термическое оксидирование при 1050 0С",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "выводы",
+      "target": "термическое оксидирование при более низких температурах",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "выводы",
+      "target": "удаление рыхлых оксидных осадков",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "выводы",
+      "target": "высокая коррозионная стойкость",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "выводы",
+      "target": "снижение скорости коррозии",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "выводы",
+      "target": "таблица 4",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "таблица 4",
+      "target": "источник",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Фрейман, Л.И. Потенциостатические методы в коррозионных исследованиях и электрохимической защите",
+      "target": "Л.И. Фрейман",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Фрейман, Л.И. Потенциостатические методы в коррозионных исследованиях и электрохимической защите",
+      "target": "В.А. Макаров",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Фрейман, Л.И. Потенциостатические методы в коррозионных исследованиях и электрохимической защите",
+      "target": "И.Е. Брыксин",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Фрейман, Л.И. Потенциостатические методы в коррозионных исследованиях и электрохимической защите",
+      "target": "Я.М. Колотыркин",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Фрейман, Л.И. Потенциостатические методы в коррозионных исследованиях и электрохимической защите",
+      "target": "Л.",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Фрейман, Л.И. Потенциостатические методы в коррозионных исследованиях и электрохимической защите",
+      "target": "Химия",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Электрохимия",
+      "target": "Ф. Миомандр",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Электрохимия",
+      "target": "С. Садки",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Электрохимия",
+      "target": "П. Одебер",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Электрохимия",
+      "target": "Р. Меалле-Рено",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Электрохимия",
+      "target": "В.Н. Грасевич",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Электрохимия",
+      "target": "Ю.Д. Гамбург",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Электрохимия",
+      "target": "В.А. Сафонов",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Электрохимия",
+      "target": "Техносфера",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Кеше, Г. Коррозия металлов. Физико-химические принципы и актуальные проблемы",
+      "target": "Г. Кеше",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Кеше, Г. Коррозия металлов. Физико-химические принципы и актуальные проблемы",
+      "target": "М.",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Кеше, Г. Коррозия металлов. Физико-химические принципы и актуальные проблемы",
+      "target": "Металлургия",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Кеше, Г. Коррозия металлов. Физико-химические принципы и актуальные проблемы",
+      "target": "Металлургия",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Penyaz M., Popov N., Ivannikov A., Sevryukov O., Alloying-dependent microstructure influence on corrosion resistance of AISI 321 cell joints brazed by Ni-based filler metals, Non-ferrous Metals, 2020, No. 2. pp. 41-48.",
+      "target": "Penyaz M.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Penyaz M., Popov N., Ivannikov A., Sevryukov O., Alloying-dependent microstructure influence on corrosion resistance of AISI 321 cell joints brazed by Ni-based filler metals, Non-ferrous Metals, 2020, No. 2. pp. 41-48.",
+      "target": "Popov N.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Penyaz M., Popov N., Ivannikov A., Sevryukov O., Alloying-dependent microstructure influence on corrosion resistance of AISI 321 cell joints brazed by Ni-based filler metals, Non-ferrous Metals, 2020, No. 2. pp. 41-48.",
+      "target": "Ivannikov A.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Penyaz M., Popov N., Ivannikov A., Sevryukov O., Alloying-dependent microstructure influence on corrosion resistance of AISI 321 cell joints brazed by Ni-based filler metals, Non-ferrous Metals, 2020, No. 2. pp. 41-48.",
+      "target": "Sevryukov O.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Penyaz M., Popov N., Ivannikov A., Sevryukov O., Alloying-dependent microstructure influence on corrosion resistance of AISI 321 cell joints brazed by Ni-based filler metals, Non-ferrous Metals, 2020, No. 2. pp. 41-48.",
+      "target": "Non-ferrous Metals",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Xinyu Wang, Zongde Liu, Kehan Cheng, Yao Kong, Chlorine-induced high-temperature corrosion characteristics of Ni-Cr alloy cladding layer and Ni-Cr-Mo alloy cladding layer, Corrosion Science, 2023, Volume 216, pp. 4622–4631.",
+      "target": "Xinyu Wang",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Xinyu Wang, Zongde Liu, Kehan Cheng, Yao Kong, Chlorine-induced high-temperature corrosion characteristics of Ni-Cr alloy cladding layer and Ni-Cr-Mo alloy cladding layer, Corrosion Science, 2023, Volume 216, pp. 4622–4631.",
+      "target": "Zongde Liu",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Xinyu Wang, Zongde Liu, Kehan Cheng, Yao Kong, Chlorine-induced high-temperature corrosion characteristics of Ni-Cr alloy cladding layer and Ni-Cr-Mo alloy cladding layer, Corrosion Science, 2023, Volume 216, pp. 4622–4631.",
+      "target": "Kehan Cheng",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Xinyu Wang, Zongde Liu, Kehan Cheng, Yao Kong, Chlorine-induced high-temperature corrosion characteristics of Ni-Cr alloy cladding layer and Ni-Cr-Mo alloy cladding layer, Corrosion Science, 2023, Volume 216, pp. 4622–4631.",
+      "target": "Yao Kong",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Xinyu Wang, Zongde Liu, Kehan Cheng, Yao Kong, Chlorine-induced high-temperature corrosion characteristics of Ni-Cr alloy cladding layer and Ni-Cr-Mo alloy cladding layer, Corrosion Science, 2023, Volume 216, pp. 4622–4631.",
+      "target": "Corrosion Science",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "ГОСТ 9.912-89. Единая система защиты от коррозии и старения. Стали и сплавы коррозионностойкие. Методы ускоренных испытаний на стойкость",
+      "target": "ГОСТ 9.912-89",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Hastelloy X",
+      "target": "hot corrosion behaviour",
+      "type": "SHOWED"
+    },
+    {
+      "source": "Inconel 625",
+      "target": "hot corrosion behaviour",
+      "type": "SHOWED"
+    },
+    {
+      "source": "Fe-Cr-based amorphous alloys",
+      "target": "corrosion resistance",
+      "type": "SHOWED"
+    },
+    {
+      "source": "corrosion resistance",
+      "target": "Fe-Cr-based amorphous alloys",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "three-dimensional modeling of pitting corrosion",
+      "target": "crystallographic orientation",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "three-dimensional modeling of pitting corrosion",
+      "target": "microstructure",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "corrosion of iron and nickel based alloys",
+      "target": "sulphuric acid",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "corrosion of iron and nickel based alloys",
+      "target": "challenges and prevention strategies",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Hariharan, M.K.",
+      "target": "hot corrosion behaviour",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Anderson, A.",
+      "target": "hot corrosion behaviour",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Raghavan, K.",
+      "target": "hot corrosion behaviour",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Ziqin Tang",
+      "target": "three-dimensional modeling of pitting corrosion",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Xieeryazidan Aday",
+      "target": "three-dimensional modeling of pitting corrosion",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Hariharan, M.K.",
+      "target": "hot corrosion behaviour",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Anderson, A.",
+      "target": "hot corrosion behaviour",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Raghavan, K.",
+      "target": "hot corrosion behaviour",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Ziqin Tang",
+      "target": "three-dimensional modeling of pitting corrosion",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Xieeryazidan Aday",
+      "target": "three-dimensional modeling of pitting corrosion",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "hot corrosion behaviour",
+      "target": "Appl Nanosci 13, 3359–3368 (2023)",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "three-dimensional modeling of pitting corrosion",
+      "target": "International Journal of Electrochemical Science, 2024, Volume 19, Issue 4",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Hastelloy X",
+      "target": "hot corrosion behaviour",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "Inconel 625",
+      "target": "hot corrosion behaviour",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "Fe-Cr-based amorphous alloys",
+      "target": "corrosion resistance",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "three-dimensional modeling of pitting corrosion",
+      "target": "crystallographic orientation",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "three-dimensional modeling of pitting corrosion",
+      "target": "microstructure",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "corrosion of iron and nickel based alloys",
+      "target": "sulphuric acid",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "corrosion of iron and nickel based alloys",
+      "target": "challenges and prevention strategies",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Hariharan, M.K.",
+      "target": "Appl Nanosci 13, 3359–3368 (2023)",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Anderson, A.",
+      "target": "Appl Nanosci 13, 3359–3368 (2023)",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Raghavan, K.",
+      "target": "Appl Nanosci 13, 3359–3368 (2023)",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Souzaa A.C.",
+      "target": "J. Non-Crystall. Sol. 2016. V. 442. N 15. P. 56-66.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Ribeiroa D.V.",
+      "target": "J. Non-Crystall. Sol. 2016. V. 442. N 15. P. 56-66.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Kiminam C.S.",
+      "target": "J. Non-Crystall. Sol. 2016. V. 442. N 15. P. 56-66.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Ziqin Tang",
+      "target": "International Journal of Electrochemical Science, 2024, Volume 19, Issue 4",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Xieeryazidan Aday",
+      "target": "International Journal of Electrochemical Science, 2024, Volume 19, Issue 4",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Ouarga A.",
+      "target": "Journal of Materials Research and Technology. – 2023.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Hariharan, M.K.",
+      "target": "Appl Nanosci 13, 3359–3368 (2023)",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Anderson, A.",
+      "target": "Appl Nanosci 13, 3359–3368 (2023)",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Raghavan, K.",
+      "target": "Appl Nanosci 13, 3359–3368 (2023)",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Souzaa A.C.",
+      "target": "J. Non-Crystall. Sol. 2016. V. 442. N 15. P. 56-66.",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Ribeiroa D.V.",
+      "target": "J. Non-Crystall. Sol. 2016. V. 442. N 15. P. 56-66.",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Kiminam C.S.",
+      "target": "J. Non-Crystall. Sol. 2016. V. 442. N 15. P. 56-66.",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Ziqin Tang",
+      "target": "International Journal of Electrochemical Science, 2024, Volume 19, Issue 4",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Xieeryazidan Aday",
+      "target": "International Journal of Electrochemical Science, 2024, Volume 19, Issue 4",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Ouarga A.",
+      "target": "Journal of Materials Research and Technology. – 2023.",
+      "type": "VALIDATED_BY"
+    }
+  ]
+}

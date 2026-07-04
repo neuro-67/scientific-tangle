@@ -1,0 +1,2749 @@
+{
+  "document": "21 Статья фидер корр.docx",
+  "nodes": [
+    {
+      "id": "вязкость",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "вязкость",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565564"
+      }
+    },
+    {
+      "id": "плотность",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "плотность",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565558"
+      }
+    },
+    {
+      "id": "теплопроводность",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "теплопроводность",
+        "ingestion_date": "2026-07-04T16:02:22.565560"
+      }
+    },
+    {
+      "id": "время реакции",
+      "label": "Property",
+      "properties": {
+        "domain": "кинетические",
+        "confidence": 0.5,
+        "description": "время реакции фидера на изменение расхода",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "время реакции",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565752"
+      }
+    },
+    {
+      "id": "заключение",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "заключение",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565857"
+      }
+    },
+    {
+      "id": "meas_temp_1440",
+      "label": "Measurement",
+      "properties": {
+        "unit": "°С",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "meas_temp_1440",
+        "value": 1440,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:22.565497"
+      }
+    },
+    {
+      "id": "meas_air_temp_30",
+      "label": "Measurement",
+      "properties": {
+        "unit": "°С",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "meas_air_temp_30",
+        "value": 30,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:22.565500"
+      }
+    },
+    {
+      "id": "meas_furnace_level_160",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мм",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "meas_furnace_level_160",
+        "value": 160,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:22.565502"
+      }
+    },
+    {
+      "id": "meas_viscosity_temp_dependence",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/ч",
+        "min": 1,
+        "max": 5,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "meas_viscosity_temp_dependence",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:22.565504"
+      }
+    },
+    {
+      "id": "meas_density_temp_dependence",
+      "label": "Measurement",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "meas_density_temp_dependence",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565507"
+      }
+    },
+    {
+      "id": "meas_thermal_conductivity_temp_dependence",
+      "label": "Measurement",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "meas_thermal_conductivity_temp_dependence",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565509"
+      }
+    },
+    {
+      "id": "meas_specific_heat_temp_dependence",
+      "label": "Measurement",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "meas_specific_heat_temp_dependence",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565512"
+      }
+    },
+    {
+      "id": "finding_equilibrium_level_varies",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "finding_equilibrium_level_varies",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565514"
+      }
+    },
+    {
+      "id": "condition_flow_constant",
+      "label": "Condition",
+      "properties": {
+        "mode": "constant",
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "condition_flow_constant",
+        "validation_status": "pending",
+        "type": "flow_rate",
+        "ingestion_date": "2026-07-04T16:02:22.565518"
+      }
+    },
+    {
+      "id": "condition_flow_step_change",
+      "label": "Condition",
+      "properties": {
+        "mode": "step_change",
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "condition_flow_step_change",
+        "validation_status": "pending",
+        "type": "flow_rate",
+        "ingestion_date": "2026-07-04T16:02:22.565521"
+      }
+    },
+    {
+      "id": "condition_flow_sinusoidal",
+      "label": "Condition",
+      "properties": {
+        "period_unit": "секунд",
+        "confidence": 0.5,
+        "period_max": 120,
+        "amplitude_unit": "т/ч",
+        "type": "flow_rate",
+        "amplitude_max": 5,
+        "ingestion_date": "2026-07-04T16:02:22.565523",
+        "amplitude_min": 1,
+        "mode": "sinusoidal",
+        "period_min": 1,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "condition_flow_sinusoidal"
+      }
+    },
+    {
+      "id": "CFD-код FLUENT",
+      "label": "Equipment",
+      "properties": {
+        "software": "Ansys 2022R1",
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "CFD-код FLUENT",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565528"
+      }
+    },
+    {
+      "id": "математическое моделирование гидрогазодинамики",
+      "label": "Process",
+      "properties": {
+        "domain": "гидрогазодинамика",
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "математическое моделирование гидрогазодинамики",
+        "ingestion_date": "2026-07-04T16:02:22.565531"
+      }
+    },
+    {
+      "id": "модель многофазности VOF",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "модель многофазности VOF",
+        "ingestion_date": "2026-07-04T16:02:22.565534"
+      }
+    },
+    {
+      "id": "расчёт потока расплава",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "расчёт потока расплава",
+        "ingestion_date": "2026-07-04T16:02:22.565536"
+      }
+    },
+    {
+      "id": "поле скорости на поверхности расплава",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "поле скорости на поверхности расплава",
+        "ingestion_date": "2026-07-04T16:02:22.565539"
+      }
+    },
+    {
+      "id": "поле температуры на поверхности расплава",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "поле температуры на поверхности расплава",
+        "ingestion_date": "2026-07-04T16:02:22.565541"
+      }
+    },
+    {
+      "id": "поле скорости вблизи стока расплава",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "поле скорости вблизи стока расплава",
+        "ingestion_date": "2026-07-04T16:02:22.565544"
+      }
+    },
+    {
+      "id": "ламинарный режим течения",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "ламинарный режим течения",
+        "ingestion_date": "2026-07-04T16:02:22.565546"
+      }
+    },
+    {
+      "id": "расход 3 т/ч",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "расход 3 т/ч",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565548"
+      }
+    },
+    {
+      "id": "диапазон температур 1420–1440°С",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "диапазон температур 1420–1440°С",
+        "ingestion_date": "2026-07-04T16:02:22.565550"
+      }
+    },
+    {
+      "id": "шкала от 0 до 0.4 м/с",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "шкала от 0 до 0.4 м/с",
+        "ingestion_date": "2026-07-04T16:02:22.565553"
+      }
+    },
+    {
+      "id": "физические свойства сред",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "физические свойства сред",
+        "ingestion_date": "2026-07-04T16:02:22.565555"
+      }
+    },
+    {
+      "id": "теплоёмкость",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "теплоёмкость",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565562"
+      }
+    },
+    {
+      "id": "зависимость от температуры",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "зависимость от температуры",
+        "ingestion_date": "2026-07-04T16:02:22.565567"
+      }
+    },
+    {
+      "id": "эмпирически полученные данные",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "эмпирически полученные данные",
+        "ingestion_date": "2026-07-04T16:02:22.565569"
+      }
+    },
+    {
+      "id": "источник p.3",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "источник p.3",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565574",
+        "span": "p.3"
+      }
+    },
+    {
+      "id": "meas_velocity_surface",
+      "label": "Measurement",
+      "properties": {
+        "unit": "м/с",
+        "min": 0,
+        "max": 0.4,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "meas_velocity_surface",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:22.565576"
+      }
+    },
+    {
+      "id": "meas_temperature_volume_min",
+      "label": "Measurement",
+      "properties": {
+        "unit": "°C",
+        "min": 1415,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "meas_temperature_volume_min",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:02:22.565579"
+      }
+    },
+    {
+      "id": "finding_temperature_gradient",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "При движении расплава придонные области прогреваются за счёт теплопередачи и перемешивания",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "finding_temperature_gradient",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565581"
+      }
+    },
+    {
+      "id": "finding_low_temp_zones",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Наиболее обширная зона пониженных температур соответствует придонной области на начальном участке ванны и слева по ходу течения; на выходном участке — зоны пониженных температур в углах лотка",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "finding_low_temp_zones",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565583"
+      }
+    },
+    {
+      "id": "finding_increased_heating_needed",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "При продолжении исследований целесообразно рассмотреть способ подогрева расплава",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "finding_increased_heating_needed",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565586"
+      }
+    },
+    {
+      "id": "ванны торцы кирпич со срезом",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "ванны торцы кирпич со срезом",
+        "ingestion_date": "2026-07-04T16:02:22.565588"
+      }
+    },
+    {
+      "id": "finding_reduced_stagnation_zone",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Использование в торцах ванны кирпича со срезом, предположительно, позволит уменьшить застойную зону расплава",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "finding_reduced_stagnation_zone",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565591"
+      }
+    },
+    {
+      "id": "вагранка",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "вагранка",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565598"
+      }
+    },
+    {
+      "id": "расплав базальта",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "расплав базальта",
+        "ingestion_date": "2026-07-04T16:02:22.565600"
+      }
+    },
+    {
+      "id": "желоб-фидер",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "желоб-фидер",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565603"
+      }
+    },
+    {
+      "id": "выпускной шибер",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "выпускной шибер",
+        "ingestion_date": "2026-07-04T16:02:22.565605"
+      }
+    },
+    {
+      "id": "центрифуга",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "центрифуга",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565607"
+      }
+    },
+    {
+      "id": "наклонный сход расплава",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "наклонный сход расплава",
+        "ingestion_date": "2026-07-04T16:02:22.565610"
+      }
+    },
+    {
+      "id": "кирпич со срезом",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "кирпич со срезом",
+        "ingestion_date": "2026-07-04T16:02:22.565612"
+      }
+    },
+    {
+      "id": "прямоугольный кирпич",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "прямоугольный кирпич",
+        "ingestion_date": "2026-07-04T16:02:22.565614"
+      }
+    },
+    {
+      "id": "пульсация расплава",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "пульсация расплава",
+        "ingestion_date": "2026-07-04T16:02:22.565622"
+      }
+    },
+    {
+      "id": "температура расплава",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "температура расплава",
+        "ingestion_date": "2026-07-04T16:02:22.565624"
+      }
+    },
+    {
+      "id": "уровень ванны",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "уровень ванны",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565627"
+      }
+    },
+    {
+      "id": "высота порогов",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "высота порогов",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565629"
+      }
+    },
+    {
+      "id": "интенсивность подогрева расплава",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "интенсивность подогрева расплава",
+        "ingestion_date": "2026-07-04T16:02:22.565632"
+      }
+    },
+    {
+      "id": "геометрические размеры",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "геометрические размеры",
+        "ingestion_date": "2026-07-04T16:02:22.565634"
+      }
+    },
+    {
+      "id": "стабильная передача расплава",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "стабильная передача расплава",
+        "ingestion_date": "2026-07-04T16:02:22.565637"
+      }
+    },
+    {
+      "id": "гашение пульсации расплава",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "гашение пульсации расплава",
+        "ingestion_date": "2026-07-04T16:02:22.565639"
+      }
+    },
+    {
+      "id": "поддержание необходимой температуры",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "поддержание необходимой температуры",
+        "ingestion_date": "2026-07-04T16:02:22.565642"
+      }
+    },
+    {
+      "id": "оптимальные характеристики",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "оптимальные характеристики",
+        "ingestion_date": "2026-07-04T16:02:22.565644"
+      }
+    },
+    {
+      "id": "методы компьютерной вычислительной гидрогазодинамики",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "методы компьютерной вычислительной гидрогазодинамики",
+        "ingestion_date": "2026-07-04T16:02:22.565647"
+      }
+    },
+    {
+      "id": "finding_flow_distribution",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "statement": "общий характер распределения скоростей в ванне при синусоидальных пульсациях близок к таковому при максимальной амплитуде",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "finding_flow_distribution",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565664"
+      }
+    },
+    {
+      "id": "моделирование пульсаций расхода при подаче расплава",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "моделирование пульсаций расхода при подаче расплава",
+        "ingestion_date": "2026-07-04T16:02:22.565669"
+      }
+    },
+    {
+      "id": "анализ эффективности фидера",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "анализ эффективности фидера",
+        "ingestion_date": "2026-07-04T16:02:22.565672"
+      }
+    },
+    {
+      "id": "оценка степени подавления колебаний расхода",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "оценка степени подавления колебаний расхода",
+        "ingestion_date": "2026-07-04T16:02:22.565674"
+      }
+    },
+    {
+      "id": "расчёты со скачкообразным изменением расхода",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "расчёты со скачкообразным изменением расхода",
+        "ingestion_date": "2026-07-04T16:02:22.565677"
+      }
+    },
+    {
+      "id": "оценка частоты среза фидера",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "оценка частоты среза фидера",
+        "ingestion_date": "2026-07-04T16:02:22.565679"
+      }
+    },
+    {
+      "id": "предварительные расчёты",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "предварительные расчёты",
+        "ingestion_date": "2026-07-04T16:02:22.565682"
+      }
+    },
+    {
+      "id": "изменение расхода на входе и выходе",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "изменение расхода на входе и выходе",
+        "ingestion_date": "2026-07-04T16:02:22.565685"
+      }
+    },
+    {
+      "id": "использование в торцах ванны кирпича со срезом",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "использование в торцах ванны кирпича со срезом",
+        "ingestion_date": "2026-07-04T16:02:22.565687"
+      }
+    },
+    {
+      "id": "уменьшение застойной зоны расплава",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "уменьшение застойной зоны расплава",
+        "ingestion_date": "2026-07-04T16:02:22.565690"
+      }
+    },
+    {
+      "id": "снижение температуры расплава на участках",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "снижение температуры расплава на участках",
+        "ingestion_date": "2026-07-04T16:02:22.565693"
+      }
+    },
+    {
+      "id": "рисунок . поле скорости в продольном сечении расплава",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "рисунок . поле скорости в продольном сечении расплава",
+        "ingestion_date": "2026-07-04T16:02:22.565696"
+      }
+    },
+    {
+      "id": "рисунок . поле температуры в продольном сечении расплава",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "рисунок . поле температуры в продольном сечении расплава",
+        "ingestion_date": "2026-07-04T16:02:22.565698"
+      }
+    },
+    {
+      "id": "рисунок . поле температуры в поперечных сечениях",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "рисунок . поле температуры в поперечных сечениях",
+        "ingestion_date": "2026-07-04T16:02:22.565700"
+      }
+    },
+    {
+      "id": "рисунок . изменение расхода на входе и выходе: а) при резком увеличении расхода расплава с 1 до 5 т/ч, б) при резком падении расхода расплава с 5 до 1 т/ч",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "рисунок . изменение расхода на входе и выходе: а) при резком увеличении расхода расплава с 1 до 5 т/ч, б) при резком падении расхода расплава с 5 до 1 т/ч",
+        "ingestion_date": "2026-07-04T16:02:22.565703"
+      }
+    },
+    {
+      "id": "расход расплава на входе",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "расход расплава на входе",
+        "ingestion_date": "2026-07-04T16:02:22.565708"
+      }
+    },
+    {
+      "id": "расход расплава на выходе",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "расход расплава на выходе",
+        "ingestion_date": "2026-07-04T16:02:22.565710"
+      }
+    },
+    {
+      "id": "meas_time_3s",
+      "label": "Measurement",
+      "properties": {
+        "unit": "с",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "meas_time_3s",
+        "value": 3,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:22.565712"
+      }
+    },
+    {
+      "id": "meas_time_100s",
+      "label": "Measurement",
+      "properties": {
+        "unit": "с",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "meas_time_100s",
+        "value": 100,
+        "operator": ">",
+        "ingestion_date": "2026-07-04T16:02:22.565715"
+      }
+    },
+    {
+      "id": "meas_time_2_5s",
+      "label": "Measurement",
+      "properties": {
+        "unit": "с",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "meas_time_2_5s",
+        "value": 2.5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:22.565717"
+      }
+    },
+    {
+      "id": "meas_time_200s",
+      "label": "Measurement",
+      "properties": {
+        "unit": "с",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "meas_time_200s",
+        "value": 200,
+        "operator": ">",
+        "ingestion_date": "2026-07-04T16:02:22.565719"
+      }
+    },
+    {
+      "id": "поле скорости",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "поле скорости",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565722"
+      }
+    },
+    {
+      "id": "finding_velocity_profile_preserved",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "finding_velocity_profile_preserved",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565724"
+      }
+    },
+    {
+      "id": "finding_max_velocity_at_entries",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "finding_max_velocity_at_entries",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565727"
+      }
+    },
+    {
+      "id": "finding_low_velocity_in_center",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "finding_low_velocity_in_center",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565729"
+      }
+    },
+    {
+      "id": "meas_transfer_coeff_1s",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "meas_transfer_coeff_1s",
+        "value": 5.5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:22.565732"
+      }
+    },
+    {
+      "id": "meas_transfer_coeff_9s",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "meas_transfer_coeff_9s",
+        "value": 8.05,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:22.565734"
+      }
+    },
+    {
+      "id": "meas_transfer_coeff_120s",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "meas_transfer_coeff_120s",
+        "value": 53,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:22.565736"
+      }
+    },
+    {
+      "id": "finding_stabilization_high_freq",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Фидер эффективно сглаживает быстрые пульсации потока расплава на входе, особенно для периодов 1 и 9 секунд",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "finding_stabilization_high_freq",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565738"
+      }
+    },
+    {
+      "id": "finding_stabilization_flow",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Установка погруженной перегородки из огнеупорного материала по центру ванны во всю её ширину является эффективным способом стабилизации потока на выходе фидера",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "finding_stabilization_flow",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565743"
+      }
+    },
+    {
+      "id": "перегородка из огнеупорного материала",
+      "label": "Equipment",
+      "properties": {
+        "material": "огнеупорный материал",
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "перегородка из огнеупорного материала",
+        "ingestion_date": "2026-07-04T16:02:22.565748"
+      }
+    },
+    {
+      "id": "изменение расхода",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "range": "1 до 5 тонн",
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "изменение расхода",
+        "ingestion_date": "2026-07-04T16:02:22.565750"
+      }
+    },
+    {
+      "id": "частота среза",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "description": "частота среза конструкции фидера",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "частота среза",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565755"
+      }
+    },
+    {
+      "id": "картина течения",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "картина течения",
+        "ingestion_date": "2026-07-04T16:02:22.565757"
+      }
+    },
+    {
+      "id": "вход расплава",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "description": "участок входа расплава в фидер",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "вход расплава",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565762"
+      }
+    },
+    {
+      "id": "выход лотка",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "description": "участок выхода лотка",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "выход лотка",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565765"
+      }
+    },
+    {
+      "id": "под перегородкой",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "description": "участок под перегородкой",
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "под перегородкой",
+        "ingestion_date": "2026-07-04T16:02:22.565767"
+      }
+    },
+    {
+      "id": "период 1 с",
+      "label": "Measurement",
+      "properties": {
+        "unit": "с",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "период 1 с",
+        "value": 1,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:22.565772"
+      }
+    },
+    {
+      "id": "изменение расхода от 1 до 5 тонн",
+      "label": "Condition",
+      "properties": {
+        "unit": "тонн",
+        "min": 1,
+        "max": 5,
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "изменение расхода от 1 до 5 тонн",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:22.565774"
+      }
+    },
+    {
+      "id": "рисунок 15",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "рисунок 15",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565777"
+      }
+    },
+    {
+      "id": "высокочастотные пульсации",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "высокочастотные пульсации",
+        "ingestion_date": "2026-07-04T16:02:22.565842"
+      }
+    },
+    {
+      "id": "период колебаний 1 секунда",
+      "label": "Measurement",
+      "properties": {
+        "unit": "секунда",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "период колебаний 1 секунда",
+        "value": 1,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:22.565846"
+      }
+    },
+    {
+      "id": "медленные изменения расхода",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "медленные изменения расхода",
+        "ingestion_date": "2026-07-04T16:02:22.565849"
+      }
+    },
+    {
+      "id": "период 100 секунд",
+      "label": "Measurement",
+      "properties": {
+        "unit": "секунда",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "период 100 секунд",
+        "value": 100,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:22.565852"
+      }
+    },
+    {
+      "id": "ANSYS 17",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "ANSYS 17",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565862"
+      }
+    },
+    {
+      "id": "Янышев Д. С.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "Янышев Д. С.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565865"
+      }
+    },
+    {
+      "id": "Быков Л. В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "Быков Л. В.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565867"
+      }
+    },
+    {
+      "id": "сеточные модели для решения инженерных теплофизических задач в среде ANSYS",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "сеточные модели для решения инженерных теплофизических задач в среде ANSYS",
+        "ingestion_date": "2026-07-04T16:02:22.565870"
+      }
+    },
+    {
+      "id": "Талалов В. А.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "Талалов В. А.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565875"
+      }
+    },
+    {
+      "id": "Крупнов Л. В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "Крупнов Л. В.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565878"
+      }
+    },
+    {
+      "id": "Румянцев Д. В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "Румянцев Д. В.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565880"
+      }
+    },
+    {
+      "id": "изменение динамики газопылевого потока в ПВП НМЗ при установке защитного козырька. I Модельные расчеты",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "изменение динамики газопылевого потока в ПВП НМЗ при установке защитного козырька. I Модельные расчеты",
+        "ingestion_date": "2026-07-04T16:02:22.565883"
+      }
+    },
+    {
+      "id": "Старых Р. В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "Старых Р. В.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565888"
+      }
+    },
+    {
+      "id": "meas_conductivity_1_1_2",
+      "label": "Measurement",
+      "properties": {
+        "unit": "Вт/м·К",
+        "min": 1,
+        "max": 1.2,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "meas_conductivity_1_1_2",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:22.565892"
+      }
+    },
+    {
+      "id": "meas_specific_heat_1400",
+      "label": "Measurement",
+      "properties": {
+        "unit": "Дж/м·К",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "meas_specific_heat_1400",
+        "validation_status": "pending",
+        "value": 1400,
+        "ingestion_date": "2026-07-04T16:02:22.565895"
+      }
+    },
+    {
+      "id": "meas_viscosity_0_4_0_6",
+      "label": "Measurement",
+      "properties": {
+        "unit": "Па/с",
+        "min": 0.4,
+        "max": 0.6,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "meas_viscosity_0_4_0_6",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:22.565897"
+      }
+    },
+    {
+      "id": "meas_surface_tension_0_1",
+      "label": "Measurement",
+      "properties": {
+        "unit": "Н/м",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "meas_surface_tension_0_1",
+        "validation_status": "pending",
+        "value": 0.1,
+        "ingestion_date": "2026-07-04T16:02:22.565900"
+      }
+    },
+    {
+      "id": "meas_transfer_coeff_0_055",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "meas_transfer_coeff_0_055",
+        "validation_status": "pending",
+        "value": 0.055,
+        "ingestion_date": "2026-07-04T16:02:22.565902"
+      }
+    },
+    {
+      "id": "meas_transfer_coeff_0_0805",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "meas_transfer_coeff_0_0805",
+        "validation_status": "pending",
+        "value": 0.0805,
+        "ingestion_date": "2026-07-04T16:02:22.565904"
+      }
+    },
+    {
+      "id": "meas_transfer_coeff_0_53",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "meas_transfer_coeff_0_53",
+        "validation_status": "pending",
+        "value": 0.53,
+        "ingestion_date": "2026-07-04T16:02:22.565907"
+      }
+    },
+    {
+      "id": "meas_transfer_coeff_0_0398",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "meas_transfer_coeff_0_0398",
+        "validation_status": "pending",
+        "value": 0.0398,
+        "ingestion_date": "2026-07-04T16:02:22.565909"
+      }
+    },
+    {
+      "id": "meas_transfer_coeff_0_0825",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "meas_transfer_coeff_0_0825",
+        "validation_status": "pending",
+        "value": 0.0825,
+        "ingestion_date": "2026-07-04T16:02:22.565911"
+      }
+    },
+    {
+      "id": "meas_input_amplitude_4",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/ч",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "meas_input_amplitude_4",
+        "validation_status": "pending",
+        "value": 4,
+        "ingestion_date": "2026-07-04T16:02:22.565914"
+      }
+    },
+    {
+      "id": "meas_output_amplitude_0_16",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/ч",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "meas_output_amplitude_0_16",
+        "validation_status": "pending",
+        "value": 0.16,
+        "ingestion_date": "2026-07-04T16:02:22.565917"
+      }
+    },
+    {
+      "id": "meas_output_amplitude_0_33",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/ч",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "meas_output_amplitude_0_33",
+        "validation_status": "pending",
+        "value": 0.33,
+        "ingestion_date": "2026-07-04T16:02:22.565919"
+      }
+    },
+    {
+      "id": "meas_output_amplitude_0_055",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/ч",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "meas_output_amplitude_0_055",
+        "validation_status": "pending",
+        "value": 0.055,
+        "ingestion_date": "2026-07-04T16:02:22.565922"
+      }
+    },
+    {
+      "id": "meas_output_amplitude_0_0805",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/ч",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "meas_output_amplitude_0_0805",
+        "validation_status": "pending",
+        "value": 0.0805,
+        "ingestion_date": "2026-07-04T16:02:22.565924"
+      }
+    },
+    {
+      "id": "meas_output_amplitude_0_53",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/ч",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "meas_output_amplitude_0_53",
+        "validation_status": "pending",
+        "value": 0.53,
+        "ingestion_date": "2026-07-04T16:02:22.565926"
+      }
+    },
+    {
+      "id": "meas_output_amplitude_0_0398",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/ч",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "meas_output_amplitude_0_0398",
+        "validation_status": "pending",
+        "value": 0.0398,
+        "ingestion_date": "2026-07-04T16:02:22.565929"
+      }
+    },
+    {
+      "id": "meas_output_amplitude_0_0825",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/ч",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "meas_output_amplitude_0_0825",
+        "validation_status": "pending",
+        "value": 0.0825,
+        "ingestion_date": "2026-07-04T16:02:22.565931"
+      }
+    },
+    {
+      "id": "Property_conductivity",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Коэфф. теплопроводности",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "Property_conductivity",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565943"
+      }
+    },
+    {
+      "id": "Property_specific_heat",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Коэфф. теплоёмкости",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "Property_specific_heat",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565945"
+      }
+    },
+    {
+      "id": "Property_viscosity",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Вязкость",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "Property_viscosity",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565947"
+      }
+    },
+    {
+      "id": "Property_surface_tension",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Коэфф. поверхностного натяжения",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "Property_surface_tension",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565950"
+      }
+    },
+    {
+      "id": "Property_transfer_coeff",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Коэффициент передачи",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "Property_transfer_coeff",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565952"
+      }
+    },
+    {
+      "id": "Property_input_amplitude",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Входная амплитуда",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "Property_input_amplitude",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565954"
+      }
+    },
+    {
+      "id": "Property_output_amplitude",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Выходная амплитуда",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "Property_output_amplitude",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565956"
+      }
+    },
+    {
+      "id": "Property_period",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Период",
+        "source_document": "21 Статья фидер корр.docx",
+        "id": "Property_period",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:22.565959"
+      }
+    },
+    {
+      "id": "meas_flow_3",
+      "label": "Revision",
+      "properties": {
+        "superseded_at": "2026-07-04T16:06:55.575747",
+        "unit": "т/ч",
+        "superseded_by_document": "b20.pdf",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "meas_flow_3",
+        "value": 3,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:22.565493"
+      }
+    },
+    {
+      "id": "meas_period_1",
+      "label": "Revision",
+      "properties": {
+        "superseded_at": "2026-07-04T16:06:55.634500",
+        "unit": "с",
+        "superseded_by_document": "b20.pdf",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "meas_period_1",
+        "value": 1,
+        "ingestion_date": "2026-07-04T16:02:22.565933"
+      }
+    },
+    {
+      "id": "meas_period_9",
+      "label": "Revision",
+      "properties": {
+        "superseded_at": "2026-07-04T16:06:55.647320",
+        "unit": "с",
+        "superseded_by_document": "b20.pdf",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "meas_period_9",
+        "value": 9,
+        "ingestion_date": "2026-07-04T16:02:22.565936"
+      }
+    },
+    {
+      "id": "meas_period_120",
+      "label": "Revision",
+      "properties": {
+        "superseded_at": "2026-07-04T16:06:55.661313",
+        "unit": "с",
+        "superseded_by_document": "b20.pdf",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "21 Статья фидер корр.docx",
+        "validation_status": "pending",
+        "id": "meas_period_120",
+        "value": 120,
+        "ingestion_date": "2026-07-04T16:02:22.565938"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "расплав",
+      "target": "meas_flow_3",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_flow_3",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "расплав",
+      "target": "meas_temp_1440",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_temp_1440",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "расплав",
+      "target": "meas_air_temp_30",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_air_temp_30",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "расплав",
+      "target": "meas_furnace_level_160",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_furnace_level_160",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "расплав",
+      "target": "meas_viscosity_temp_dependence",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_viscosity_temp_dependence",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "расплав",
+      "target": "meas_density_temp_dependence",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_density_temp_dependence",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "расплав",
+      "target": "meas_thermal_conductivity_temp_dependence",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_thermal_conductivity_temp_dependence",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "расплав",
+      "target": "meas_specific_heat_temp_dependence",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_specific_heat_temp_dependence",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "расплав",
+      "target": "finding_equilibrium_level_varies",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_equilibrium_level_varies",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "расплав",
+      "target": "condition_flow_constant",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "расплав",
+      "target": "condition_flow_step_change",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "расплав",
+      "target": "condition_flow_sinusoidal",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "condition_flow_constant",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "condition_flow_step_change",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "condition_flow_sinusoidal",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "CFD-код FLUENT",
+      "target": "математическое моделирование гидрогазодинамики",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "математическое моделирование гидрогазодинамики",
+      "target": "модель многофазности VOF",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "модель многофазности VOF",
+      "target": "расчёт потока расплава",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "расчёт потока расплава",
+      "target": "поле скорости на поверхности расплава",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "расчёт потока расплава",
+      "target": "поле температуры на поверхности расплава",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "расчёт потока расплава",
+      "target": "поле скорости вблизи стока расплава",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "расчёт потока расплава",
+      "target": "ламинарный режим течения",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "расчёт потока расплава",
+      "target": "расход 3 т/ч",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "поле температуры на поверхности расплава",
+      "target": "диапазон температур 1420–1440°С",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "поле скорости на поверхности расплава",
+      "target": "шкала от 0 до 0.4 м/с",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "поле скорости вблизи стока расплава",
+      "target": "шкала от 0 до 0.4 м/с",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "физические свойства сред",
+      "target": "плотность",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "физические свойства сред",
+      "target": "теплопроводность",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "физические свойства сред",
+      "target": "теплоёмкость",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "физические свойства сред",
+      "target": "вязкость",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "плотность",
+      "target": "зависимость от температуры",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "теплопроводность",
+      "target": "зависимость от температуры",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "теплоёмкость",
+      "target": "зависимость от температуры",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "вязкость",
+      "target": "зависимость от температуры",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "зависимость от температуры",
+      "target": "эмпирически полученные данные",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "эмпирически полученные данные",
+      "target": "таблица 2",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "таблица 2",
+      "target": "источник p.3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "расплав",
+      "target": "meas_velocity_surface",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_velocity_surface",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "расплав",
+      "target": "meas_temperature_volume_min",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_temperature_volume_min",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "расплав",
+      "target": "finding_temperature_gradient",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_temperature_gradient",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "расплав",
+      "target": "finding_low_temp_zones",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_low_temp_zones",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "расплав",
+      "target": "finding_increased_heating_needed",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_increased_heating_needed",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "ванны торцы кирпич со срезом",
+      "target": "finding_reduced_stagnation_zone",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_reduced_stagnation_zone",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "cfd",
+      "target": "вычислительная гидрогазодинамика",
+      "type": "TAGGED"
+    },
+    {
+      "source": "минеральная вата",
+      "target": "вагранка",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "вагранка",
+      "target": "выпускной шибер",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "вагранка",
+      "target": "желоб-фидер",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "желоб-фидер",
+      "target": "наклонный сход расплава",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "желоб-фидер",
+      "target": "cfd",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "желоб-фидер",
+      "target": "вычислительная гидрогазодинамика",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "желоб-фидер",
+      "target": "минеральная вата",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "желоб-фидер",
+      "target": "расплав базальта",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "расплав базальта",
+      "target": "вагранка",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "желоб-фидер",
+      "target": "пульсация расплава",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "желоб-фидер",
+      "target": "температура расплава",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "желоб-фидер",
+      "target": "уровень ванны",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "желоб-фидер",
+      "target": "высота порогов",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "желоб-фидер",
+      "target": "интенсивность подогрева расплава",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "желоб-фидер",
+      "target": "геометрические размеры",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "желоб-фидер",
+      "target": "стабильная передача расплава",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "желоб-фидер",
+      "target": "гашение пульсации расплава",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "желоб-фидер",
+      "target": "поддержание необходимой температуры",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "желоб-фидер",
+      "target": "оптимальные характеристики",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "желоб-фидер",
+      "target": "методы компьютерной вычислительной гидрогазодинамики",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "желоб-фидер",
+      "target": "вагранка",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "желоб-фидер",
+      "target": "центрифуга",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "желоб-фидер",
+      "target": "выпускной шибер",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "желоб-фидер",
+      "target": "кирпич со срезом",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "желоб-фидер",
+      "target": "прямоугольный кирпич",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "meas_vel_5",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_filter_100_200",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_flow_amp_1_to_5",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_flow_period_1_9_120",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "фидер",
+      "target": "finding_flow_distribution",
+      "type": "SHOWED"
+    },
+    {
+      "source": "фидер",
+      "target": "finding_flow_distribution",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_flow_distribution",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "моделирование пульсаций расхода при подаче расплава",
+      "target": "анализ эффективности фидера",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "анализ эффективности фидера",
+      "target": "оценка степени подавления колебаний расхода",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "оценка степени подавления колебаний расхода",
+      "target": "расчёты со скачкообразным изменением расхода",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "расчёты со скачкообразным изменением расхода",
+      "target": "оценка частоты среза фидера",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "расчёты со скачкообразным изменением расхода",
+      "target": "изменение расхода на входе и выходе",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "изменение расхода на входе и выходе",
+      "target": "рисунок . изменение расхода на входе и выходе: а) при резком увеличении расхода расплава с 1 до 5 т/ч, б) при резком падении расхода расплава с 5 до 1 т/ч",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "моделирование пульсаций расхода при подаче расплава",
+      "target": "рисунок . поле скорости в продольном сечении расплава",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "моделирование пульсаций расхода при подаче расплава",
+      "target": "рисунок . поле температуры в продольном сечении расплава",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "моделирование пульсаций расхода при подаче расплава",
+      "target": "рисунок . поле температуры в поперечных сечениях",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "использование в торцах ванны кирпича со срезом",
+      "target": "уменьшение застойной зоны расплава",
+      "type": "SHOWED"
+    },
+    {
+      "source": "использование в торцах ванны кирпича со срезом",
+      "target": "снижение температуры расплава на участках",
+      "type": "SHOWED"
+    },
+    {
+      "source": "использование в торцах ванны кирпича со срезом",
+      "target": "моделирование пульсаций расхода при подаче расплава",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "анализ эффективности фидера",
+      "target": "моделирование пульсаций расхода при подаче расплава",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "оценка частоты среза фидера",
+      "target": "предварительные расчёты",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "расход расплава на входе",
+      "target": "meas_time_3s",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_time_3s",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "расход расплава на выходе",
+      "target": "meas_time_100s",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_time_100s",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "расход расплава на входе",
+      "target": "meas_time_2_5s",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_time_2_5s",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "расход расплава на выходе",
+      "target": "meas_time_200s",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_time_200s",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "поле скорости",
+      "target": "finding_velocity_profile_preserved",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_velocity_profile_preserved",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "поле скорости",
+      "target": "finding_max_velocity_at_entries",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_max_velocity_at_entries",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "поле скорости",
+      "target": "finding_low_velocity_in_center",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_low_velocity_in_center",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "фидер",
+      "target": "meas_transfer_coeff_1s",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "фидер",
+      "target": "meas_transfer_coeff_1s",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_transfer_coeff_1s",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "фидер",
+      "target": "meas_transfer_coeff_9s",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "фидер",
+      "target": "meas_transfer_coeff_9s",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_transfer_coeff_9s",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "фидер",
+      "target": "meas_transfer_coeff_120s",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "фидер",
+      "target": "meas_transfer_coeff_120s",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_transfer_coeff_120s",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "фидер",
+      "target": "finding_stabilization_high_freq",
+      "type": "SHOWED"
+    },
+    {
+      "source": "фидер",
+      "target": "finding_stabilization_high_freq",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_stabilization_high_freq",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "перегородка",
+      "target": "finding_stabilization_flow",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_stabilization_flow",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "перегородка из огнеупорного материала",
+      "target": "фидер",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "перегородка из огнеупорного материала",
+      "target": "фидер",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "фидер",
+      "target": "перегородка из огнеупорного материала",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "фидер",
+      "target": "перегородка из огнеупорного материала",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "фидер",
+      "target": "изменение расхода",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "фидер",
+      "target": "изменение расхода",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "изменение расхода",
+      "target": "перегородка из огнеупорного материала",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "перегородка из огнеупорного материала",
+      "target": "поле скоростей",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "поле скоростей",
+      "target": "рисунок 15",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "рисунок 15",
+      "target": "поле скоростей",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "перегородка из огнеупорного материала",
+      "target": "время реакции",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "время реакции",
+      "target": "перегородка из огнеупорного материала",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "перегородка из огнеупорного материала",
+      "target": "частота среза",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "частота среза",
+      "target": "перегородка из огнеупорного материала",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "перегородка из огнеупорного материала",
+      "target": "картина течения",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "картина течения",
+      "target": "рисунок 15",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "поле скоростей",
+      "target": "вход расплава",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "вход расплава",
+      "target": "поле скоростей",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "поле скоростей",
+      "target": "выход лотка",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "выход лотка",
+      "target": "поле скоростей",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "поле скоростей",
+      "target": "под перегородкой",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "под перегородкой",
+      "target": "поле скоростей",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "перегородка из огнеупорного материала",
+      "target": "пульсация расхода",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "пульсация расхода",
+      "target": "перегородка из огнеупорного материала",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "пульсация расхода",
+      "target": "период 1 с",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "период 1 с",
+      "target": "пульсация расхода",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "перегородка из огнеупорного материала",
+      "target": "изменение расхода от 1 до 5 тонн",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "изменение расхода от 1 до 5 тонн",
+      "target": "перегородка из огнеупорного материала",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "фидер с перегородкой",
+      "target": "фильтрует пульсации",
+      "type": "SHOWED"
+    },
+    {
+      "source": "фильтрует пульсации",
+      "target": "высокочастотные пульсации",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "высокочастотные пульсации",
+      "target": "период колебаний 1 секунда",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "период колебаний 1 секунда",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "фильтрует пульсации",
+      "target": "медленные изменения расхода",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "медленные изменения расхода",
+      "target": "период 100 секунд",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "период 100 секунд",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "коэффициент передачи",
+      "target": "таблица 4",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "таблица 4",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "заключение",
+      "target": "фильтрует пульсации",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "заключение",
+      "target": "фильтрует пульсации",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "фильтрует пульсации",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "ANSYS 17",
+      "target": "Янышев Д. С.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "сеточные модели для решения инженерных теплофизических задач в среде ANSYS",
+      "target": "Янышев Д. С.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "сеточные модели для решения инженерных теплофизических задач в среде ANSYS",
+      "target": "Быков Л. В.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "исследование движения газового потока в печи взвешенной плавки Надеждинского металлургического завода методами математического моделирования",
+      "target": "Талалов В. А.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "исследование движения газового потока в печи взвешенной плавки Надеждинского металлургического завода методами математического моделирования",
+      "target": "Крупнов Л. В.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "исследование движения газового потока в печи взвешенной плавки Надеждинского металлургического завода методами математического моделирования",
+      "target": "Румянцев Д. В.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "изменение динамики газопылевого потока в ПВП НМЗ при установке защитного козырька. I Модельные расчеты",
+      "target": "Крупнов Л. В.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "изменение динамики газопылевого потока в ПВП НМЗ при установке защитного козырька. I Модельные расчеты",
+      "target": "Пахомов Р. А.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "изменение динамики газопылевого потока в ПВП НМЗ при установке защитного козырька. I Модельные расчеты",
+      "target": "Старых Р. В.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "meas_conductivity_1_1_2",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_specific_heat_1400",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_viscosity_0_4_0_6",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_surface_tension_0_1",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_transfer_coeff_0_055",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_transfer_coeff_0_0805",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_transfer_coeff_0_53",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_transfer_coeff_0_0398",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_transfer_coeff_0_0825",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_input_amplitude_4",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_output_amplitude_0_16",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_output_amplitude_0_33",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_output_amplitude_0_055",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_output_amplitude_0_0805",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_output_amplitude_0_53",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_output_amplitude_0_0398",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_output_amplitude_0_0825",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_period_1",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_period_9",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_period_120",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    }
+  ]
+}
