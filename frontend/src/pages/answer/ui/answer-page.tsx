@@ -15,6 +15,7 @@ import { handleApiError } from "@/shared/lib/api-error";
 import { Badge, Skeleton } from "@/shared/ui";
 
 import { AnswerSkeleton } from "./answer-skeleton";
+import { ExportButtons } from "./export-buttons";
 import { SourceCard } from "./source-card";
 
 const SubgraphView = lazy(() =>
@@ -68,24 +69,27 @@ export function AnswerPage() {
             {request.question || "Вопрос не задан"}
           </h1>
         </div>
-        <button
-          type="button"
-          onClick={toggleFavorite}
-          className={`flex h-10 w-[120px] items-center justify-center gap-2 rounded-xl border text-sm font-medium transition-colors ${
-            isFavorite
-              ? "border-yellow-400 bg-yellow-50 text-yellow-600"
-              : "border-input bg-card text-main hover:bg-[hsl(var(--save-hover))]"
-          }`}
-        >
-          <img
-            src="/assets/icon-star.png"
-            alt=""
-            className={`h-4 w-4 object-contain ${
-              isFavorite ? "" : "brightness-0"
+        <div className="flex items-center gap-2">
+          {data ? <ExportButtons question={request.question} answer={data} /> : null}
+          <button
+            type="button"
+            onClick={toggleFavorite}
+            className={`flex h-10 w-[120px] items-center justify-center gap-2 rounded-xl border text-sm font-medium transition-colors ${
+              isFavorite
+                ? "border-yellow-400 bg-yellow-50 text-yellow-600"
+                : "border-input bg-card text-main hover:bg-[hsl(var(--save-hover))]"
             }`}
-          />
-          {isFavorite ? "Сохранено" : "Сохранить"}
-        </button>
+          >
+            <img
+              src="/assets/icon-star.png"
+              alt=""
+              className={`h-4 w-4 object-contain ${
+                isFavorite ? "" : "brightness-0"
+              }`}
+            />
+            {isFavorite ? "Сохранено" : "Сохранить"}
+          </button>
+        </div>
       </div>
 
       {answerQuery.isPending && request.question ? <AnswerSkeleton /> : null}

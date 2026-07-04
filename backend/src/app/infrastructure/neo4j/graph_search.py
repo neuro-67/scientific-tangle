@@ -32,12 +32,50 @@ class Neo4jGraphSearch(IGraphSearch):
         self._driver = driver
 
     async def search(self, spec: QuerySpec, limit: int = 20) -> list[dict[str, Any]]:
+        records = await self._run_spec(spec, limit)
+        if records:
+            return records
+
+        # Primary branch matched a label with no nodes in the graph (typical
+        # early-ingestion state where only meta-nodes like Expert/Facility exist
+        # but the parser still extracted a Material/Process from the question).
+        # Retry against the fallback meta-node branch by clearing the primary
+        # filters — geography/time constraints still apply.
+        if self._has_primary_filters(spec):
+            fallback_spec = spec.model_copy(
+                update={
+                    "materials": [],
+                    "processes": [],
+                    "equipment": [],
+                    "properties": [],
+                    "conditions": [],
+                    "experts": [],
+                    "facilities": [],
+                }
+            )
+            logger.info("graph search fallback: no results in primary branch, retrying against meta-nodes")
+            return await self._run_spec(fallback_spec, limit)
+
+        return records
+
+    async def _run_spec(self, spec: QuerySpec, limit: int) -> list[dict[str, Any]]:
         query, params = self._build_cypher(spec, limit)
         logger.debug("cypher query", extra={"query": query, "params": params})
         async with self._driver.session() as session:
             result = await session.run(query, **params)
-            records = await result.data()
-            return records
+            return await result.data()
+
+    @staticmethod
+    def _has_primary_filters(spec: QuerySpec) -> bool:
+        return bool(
+            spec.materials
+            or spec.processes
+            or spec.equipment
+            or spec.properties
+            or spec.conditions
+            or spec.experts
+            or spec.facilities
+        )
 
     async def get_entity_context(self, entity_name: str, entity_type: str) -> dict[str, Any] | None:
         query = """
@@ -163,9 +201,13 @@ class Neo4jGraphSearch(IGraphSearch):
         if spec.time_range.to_year is not None:
             params["to_year"] = spec.time_range.to_year
             conditions.append("pub.year <= $to_year")
+        # Rows without a linked publication (or publications missing pub.year —
+        # common when the source PDF's metadata wasn't parsed) shouldn't be
+        # dropped by the time filter. Keep them; the filter only excludes rows
+        # whose year is present *and* out of range.
         return (
             "WITH entry, f, pub, src\n"
-            f"WHERE {' AND '.join(conditions)}"
+            f"WHERE pub IS NULL OR pub.year IS NULL OR ({' AND '.join(conditions)})"
         )
 
     def _build_geo_clause(self, spec: QuerySpec, params: dict[str, Any]) -> str:
@@ -174,7 +216,8 @@ class Neo4jGraphSearch(IGraphSearch):
         params["geography"] = spec.geography.value
         return (
             "WITH entry, f, pub, src\n"
-            "WHERE COALESCE(pub.geography, entry.geography) = $geography"
+            "WHERE COALESCE(pub.geography, entry.geography) IS NULL "
+            "OR COALESCE(pub.geography, entry.geography) = $geography"
         )
 
     def _build_return_clause(self) -> str:

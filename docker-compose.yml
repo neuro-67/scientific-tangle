@@ -167,6 +167,9 @@ services:
     environment:
       VITE_PROXY_TARGET: http://backend:8000
       VITE_ENABLE_MOCKS: "false"
+      # Force polling — bind-mounted files from Windows/macOS don't emit
+      # inotify events, so without this Vite HMR silently never fires.
+      CHOKIDAR_USEPOLLING: "true"
     ports:
       - "${FRONTEND_PORT:-5173}:5173"
     volumes:

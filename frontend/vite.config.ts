@@ -17,6 +17,12 @@ export default defineConfig({
     allowedHosts: process.env.VITE_ALLOWED_HOSTS
       ? process.env.VITE_ALLOWED_HOSTS.split(",").map((h) => h.trim())
       : ["neuro67.ula-logistics.ru", "localhost"],
+    // Docker on Windows/macOS doesn't propagate inotify events across the
+    // bind-mount, so file watching silently no-ops. Enable polling when
+    // CHOKIDAR_USEPOLLING is set (see docker-compose.yml frontend service).
+    watch: process.env.CHOKIDAR_USEPOLLING
+      ? { usePolling: true, interval: 300 }
+      : undefined,
     proxy: {
       // Backend (FastAPI) is proxied under /api during local dev.
       "/api": {
