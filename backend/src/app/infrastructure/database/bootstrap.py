@@ -7,7 +7,11 @@ safe to call repeatedly (CREATE TABLE IF NOT EXISTS semantics).
 from sqlalchemy.ext.asyncio import AsyncEngine
 
 from app.infrastructure.database.base import Base
-from app.infrastructure.database.tables import UserRow as _UserRow  # noqa: F401  (register table)
+from app.infrastructure.database.tables import (  # noqa: F401  (register tables)
+    UserRow as _UserRow,
+    answers_table as _answers_table,
+    documents_table as _documents_table,
+)
 
 
 async def create_all(engine: AsyncEngine) -> None:

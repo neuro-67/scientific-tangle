@@ -1,5 +1,13 @@
 export * as queryApi from "./api";
 
+export {
+  deleteAnswer,
+  getAnswer,
+  listAnswers,
+  regenerateAnswer,
+} from "./api/answers";
+export { postQuery } from "./api/post-query";
+
 export type { Req as PostQueryReq } from "./api/post-query";
 
 export {
@@ -10,13 +18,6 @@ export {
   searchParamsToRequest,
 } from "./lib/query-params";
 
-export {
-  addQueryHistory,
-  getQueryHistory,
-  removeQueryHistory,
-  toggleQueryHistoryFavorite,
-  type QueryHistoryItem,
-} from "./lib/query-history";
 
 export type {
   QueryIntent,
@@ -31,5 +32,7 @@ export type {
   GraphNode,
   GraphEdge,
   AnswerSubgraph,
+  AnswerListItem,
+  AnswerRecord,
   QueryAnswer,
 } from "./model/query.types";

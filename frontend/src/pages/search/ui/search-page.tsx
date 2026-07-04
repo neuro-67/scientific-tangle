@@ -2,7 +2,6 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import {
-  addQueryHistory,
   emptyQueryFilters,
   filtersToRequest,
   requestToSearchParams,
@@ -34,7 +33,9 @@ export function SearchPage() {
 
   const runSearch = (current: QueryFilters) => {
     if (!current.question.trim()) return;
-    addQueryHistory(current.question, current);
+    // Persistence now happens server-side on POST /query/ask; the answer page
+    // reads the question from the URL, invokes the ask endpoint and lands the
+    // row in the DB. History gets populated automatically.
     const params = requestToSearchParams(filtersToRequest(current));
     navigate(`${ROUTES.answer}?${params.toString()}`);
   };

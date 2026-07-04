@@ -1,8 +1,18 @@
 import type cytoscape from "cytoscape";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import CytoscapeComponent from "react-cytoscapejs";
+import { toast } from "sonner";
 
+import {
+  createGraphEdge,
+  createGraphNode,
+  deleteGraphEdge,
+  deleteGraphNode,
+  updateGraphEdge,
+  updateGraphNode,
+} from "@/entities/graph";
 import type { AnswerSubgraph, GraphEdge, GraphNode } from "@/entities/query";
+import { handleApiError } from "@/shared/lib/api-error";
 
 import { NODE_TYPES, buildSubgraphStylesheet } from "../lib/subgraph-style";
 
@@ -12,35 +22,40 @@ type Props = {
 
 type Mode = "select" | "addNode" | "addEdge" | "addComment";
 
-const TYPE_ORDER: Record<string, number> = {
-  Material: 0,
-  Process: 1,
-  Equipment: 2,
-  Result: 3,
-  Comment: 4,
-};
-
-function buildLayout(nodeCount: number): cytoscape.LayoutOptions {
+/**
+ * Force-directed layout — hub nodes (like a facility with many expert
+ * neighbors) get pushed to the center automatically, and disconnected
+ * meta-nodes end up in a readable cluster instead of one horizontal row.
+ * Cytoscape core ships `cose`; no extension install needed.
+ */
+function buildLayout(): cytoscape.LayoutOptions {
   return {
-    name: "grid",
+    name: "cose",
     fit: true,
-    padding: 80,
-    rows: 1,
-    cols: nodeCount,
-    avoidOverlap: true,
-    avoidOverlapPadding: 80,
-    condense: false,
+    padding: 60,
     animate: false,
+    randomize: true,
+    nodeRepulsion: () => 800_000,
+    idealEdgeLength: () => 180,
+    edgeElasticity: () => 120,
+    gravity: 0.4,
+    numIter: 1200,
+    initialTemp: 200,
+    coolingFactor: 0.95,
+    minTemp: 1.0,
   } as unknown as cytoscape.LayoutOptions;
 }
 
 const TYPE_OPTIONS = ["Material", "Process", "Equipment", "Result"];
+/**
+ * Default relationship type for user-created edges. Neo4j rel types are part
+ * of the schema (uppercase snake_case), so we can't use the user-provided
+ * label directly as the type — that goes into r.label.
+ */
+const DEFAULT_EDGE_TYPE = "RELATED";
 
-function nextId(prefix: string, existing: string[]) {
-  let i = 1;
-  while (existing.includes(`${prefix}${i}`)) i++;
-  return `${prefix}${i}`;
-}
+let __tempSeq = 0;
+const tempId = (prefix: string) => `__tmp_${prefix}_${++__tempSeq}`;
 
 /** Cytoscape rendering of the answer subgraph + editing toolbar + legend. */
 export function SubgraphView({ subgraph }: Props) {
@@ -53,11 +68,16 @@ export function SubgraphView({ subgraph }: Props) {
   const cyRef = useRef<cytoscape.Core | null>(null);
   const positionsRef = useRef<Record<string, cytoscape.Position>>({});
 
+  // Sync state when a different subgraph is loaded (nav to another answer).
+  useEffect(() => {
+    setNodes(subgraph.nodes);
+    setEdges(subgraph.edges);
+    positionsRef.current = {};
+    setSelectedId(null);
+  }, [subgraph]);
+
   const stylesheet = useMemo(() => buildSubgraphStylesheet(), []);
-  const initialLayout = useMemo(
-    () => buildLayout(subgraph.nodes.length),
-    [subgraph]
-  );
+  const initialLayout = useMemo(() => buildLayout(), []);
 
   const selectedNode = useMemo(
     () => nodes.find((n) => n.id === selectedId) ?? null,
@@ -69,11 +89,8 @@ export function SubgraphView({ subgraph }: Props) {
   );
 
   const elements = useMemo<cytoscape.ElementDefinition[]>(() => {
-    const sortedNodes = [...nodes].sort(
-      (a, b) => (TYPE_ORDER[a.type] ?? 99) - (TYPE_ORDER[b.type] ?? 99)
-    );
     return [
-      ...sortedNodes.map((n) => ({
+      ...nodes.map((n) => ({
         data: {
           id: n.id,
           label: n.label,
@@ -107,74 +124,157 @@ export function SubgraphView({ subgraph }: Props) {
     cyRef.current?.elements().unselect();
   }, []);
 
+  // ---- Mutations ----
+  // Each editor action is optimistic: mutate local state immediately with a
+  // temp id, fire the request; on success swap temp id → server id, on error
+  // roll back and toast. This keeps the graph responsive on slow networks and
+  // avoids a full-page loading state for every action.
+
   const addNode = useCallback(
-    (position: cytoscape.Position, type: string, label: string) => {
-      const id = nextId(
-        type === "Comment" ? "c" : "n",
-        nodes.map((n) => n.id)
-      );
-      const newNode: GraphNode = {
-        id,
-        label,
-        type,
-      };
-      positionsRef.current[id] = position;
-      setNodes((prev) => [...prev, newNode]);
-      markSelected(id);
+    async (position: cytoscape.Position, type: string, label: string) => {
+      const localId = tempId(type === "Comment" ? "c" : "n");
+      positionsRef.current[localId] = position;
+      setNodes((prev) => [...prev, { id: localId, label, type }]);
+      markSelected(localId);
+      try {
+        const created = await createGraphNode({ type, label });
+        positionsRef.current[created.id] = positionsRef.current[localId];
+        delete positionsRef.current[localId];
+        setNodes((prev) =>
+          prev.map((n) => (n.id === localId ? created : n))
+        );
+        markSelected(created.id);
+      } catch (err) {
+        setNodes((prev) => prev.filter((n) => n.id !== localId));
+        delete positionsRef.current[localId];
+        handleApiError(err, { fallback: "Не удалось создать узел" });
+      }
     },
-    [nodes, markSelected]
+    [markSelected]
   );
 
   const addEdge = useCallback(
-    (source: string, target: string, label: string) => {
-      const id = nextId(
-        "e",
-        edges.map((e) => e.id)
-      );
+    async (source: string, target: string, label: string) => {
+      const localId = tempId("e");
       setEdges((prev) => [
         ...prev,
-        {
-          id,
+        { id: localId, source, target, type: DEFAULT_EDGE_TYPE, label },
+      ]);
+      markSelected(localId);
+      try {
+        const created = await createGraphEdge({
           source,
           target,
-          type: "custom",
+          type: DEFAULT_EDGE_TYPE,
           label,
-        },
-      ]);
-      markSelected(id);
+        });
+        setEdges((prev) =>
+          prev.map((e) =>
+            e.id === localId
+              ? {
+                  id: created.id,
+                  source: created.source,
+                  target: created.target,
+                  type: created.type,
+                  label: created.label ?? "",
+                }
+              : e
+          )
+        );
+        markSelected(created.id);
+      } catch (err) {
+        setEdges((prev) => prev.filter((e) => e.id !== localId));
+        handleApiError(err, { fallback: "Не удалось создать связь" });
+      }
     },
-    [edges, markSelected]
+    [markSelected]
   );
 
-  const updateNode = useCallback((id: string, label: string) => {
-    setNodes((prev) => prev.map((n) => (n.id === id ? { ...n, label } : n)));
-  }, []);
+  const updateNode = useCallback(
+    async (id: string, label: string) => {
+      const prevLabel = nodes.find((n) => n.id === id)?.label;
+      setNodes((prev) => prev.map((n) => (n.id === id ? { ...n, label } : n)));
+      // Temp ids belong to nodes that haven't been persisted yet — skip PATCH
+      // and let the follow-up server response own the label. This shouldn't
+      // happen in practice (double-click on freshly-created node before the
+      // POST resolves), but the guard is cheap.
+      if (id.startsWith("__tmp_")) return;
+      try {
+        await updateGraphNode(id, { label });
+      } catch (err) {
+        setNodes((prev) =>
+          prev.map((n) => (n.id === id ? { ...n, label: prevLabel ?? "" } : n))
+        );
+        handleApiError(err, { fallback: "Не удалось обновить узел" });
+      }
+    },
+    [nodes]
+  );
 
-  const updateEdge = useCallback((id: string, label: string) => {
-    setEdges((prev) => prev.map((e) => (e.id === id ? { ...e, label } : e)));
-  }, []);
+  const updateEdge = useCallback(
+    async (id: string, label: string) => {
+      const prevLabel = edges.find((e) => e.id === id)?.label;
+      setEdges((prev) => prev.map((e) => (e.id === id ? { ...e, label } : e)));
+      if (id.startsWith("__tmp_")) return;
+      try {
+        await updateGraphEdge(id, { label });
+      } catch (err) {
+        setEdges((prev) =>
+          prev.map((e) =>
+            e.id === id ? { ...e, label: prevLabel } : e
+          )
+        );
+        handleApiError(err, { fallback: "Не удалось обновить связь" });
+      }
+    },
+    [edges]
+  );
 
-  const removeSelected = useCallback(() => {
+  const removeSelected = useCallback(async () => {
     if (!selectedId) return;
-    setNodes((prev) => prev.filter((n) => n.id !== selectedId));
-    setEdges((prev) =>
-      prev.filter(
-        (e) =>
-          e.id !== selectedId &&
-          e.source !== selectedId &&
-          e.target !== selectedId
-      )
-    );
+    const isNode = nodes.some((n) => n.id === selectedId);
+    const isEdge = !isNode && edges.some((e) => e.id === selectedId);
+
+    // Snapshot for rollback.
+    const prevNodes = nodes;
+    const prevEdges = edges;
+
+    // Optimistic remove.
+    if (isNode) {
+      setNodes((prev) => prev.filter((n) => n.id !== selectedId));
+      // Neo4j DETACH DELETE removes attached edges; mirror that on the client.
+      setEdges((prev) =>
+        prev.filter(
+          (e) => e.source !== selectedId && e.target !== selectedId
+        )
+      );
+    } else if (isEdge) {
+      setEdges((prev) => prev.filter((e) => e.id !== selectedId));
+    }
     setSelectedId(null);
-  }, [selectedId]);
+
+    if (selectedId.startsWith("__tmp_")) return; // never persisted
+
+    try {
+      if (isNode) await deleteGraphNode(selectedId);
+      else if (isEdge) await deleteGraphEdge(selectedId);
+      toast.success("Удалено");
+    } catch (err) {
+      setNodes(prevNodes);
+      setEdges(prevEdges);
+      handleApiError(err, { fallback: "Не удалось удалить" });
+    }
+  }, [selectedId, nodes, edges]);
 
   const handleEdit = useCallback(() => {
     if (selectedNode) {
       const next = window.prompt("Название узла:", selectedNode.label);
-      if (next !== null) updateNode(selectedNode.id, next);
+      if (next !== null && next !== selectedNode.label)
+        void updateNode(selectedNode.id, next);
     } else if (selectedEdge) {
       const next = window.prompt("Название связи:", selectedEdge.label || "");
-      if (next !== null) updateEdge(selectedEdge.id, next);
+      if (next !== null && next !== selectedEdge.label)
+        void updateEdge(selectedEdge.id, next);
     }
   }, [selectedNode, selectedEdge, updateNode, updateEdge]);
 
@@ -182,7 +282,7 @@ export function SubgraphView({ subgraph }: Props) {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Delete" || e.key === "Backspace") {
         e.preventDefault();
-        removeSelected();
+        void removeSelected();
       } else if (e.key === "Escape") {
         setMode("select");
         clearSelection();
@@ -271,11 +371,11 @@ export function SubgraphView({ subgraph }: Props) {
           "Material"
         );
         if (!type || !TYPE_OPTIONS.includes(type)) return;
-        addNode(evt.position, type, label);
+        void addNode(evt.position, type, label);
       } else if (mode === "addComment") {
         const text = window.prompt("Текст комментария:", "Комментарий");
         if (text === null) return;
-        addNode(evt.position, "Comment", text);
+        void addNode(evt.position, "Comment", text);
       } else {
         clearSelection();
       }
@@ -308,7 +408,7 @@ export function SubgraphView({ subgraph }: Props) {
       if (target.length) {
         const label =
           window.prompt("Название связи:", "связано с") || "связано с";
-        addEdge(sourceId, target.id(), label);
+        void addEdge(sourceId, target.id(), label);
       }
     };
 
@@ -371,8 +471,8 @@ export function SubgraphView({ subgraph }: Props) {
     <div className="flex h-full flex-col gap-2">
       <div className="flex flex-wrap items-center gap-2">
         {toolbarButton("select", "Выбрать", "Выделить элемент")}
-        {toolbarButton("addNode", "+ Шар", "Добавить узел")}
-        {toolbarButton("addEdge", "+ Связь", "Соединить два узла")}
+        {toolbarButton("addNode", "+ Шар", "Добавить узел (кликни в свободное место)")}
+        {toolbarButton("addEdge", "+ Связь", "Соединить два узла: зажать на узле → перетянуть")}
         {toolbarButton("addComment", "+ Коммент", "Добавить комментарий")}
         <button
           type="button"
@@ -385,11 +485,14 @@ export function SubgraphView({ subgraph }: Props) {
         <button
           type="button"
           disabled={!selectedId}
-          onClick={removeSelected}
+          onClick={() => void removeSelected()}
           className="rounded-lg px-2.5 py-1.5 text-xs font-medium transition-colors disabled:opacity-50 bg-destructive text-destructive-foreground hover:bg-destructive/90"
         >
           Удалить
         </button>
+        <span className="ml-auto text-[11px] text-muted-foreground">
+          Правки идут в общий граф Neo4j
+        </span>
       </div>
 
       <div className="min-h-0 flex-1 overflow-hidden rounded-[14px] border border-input bg-muted/20">
@@ -408,12 +511,27 @@ export function SubgraphView({ subgraph }: Props) {
       </div>
 
       <div className="flex flex-wrap gap-3 text-xs text-muted-foreground">
-        {NODE_TYPES.map((t) => (
-          <span key={t.type} className="flex items-center gap-1.5">
-            <span className={`h-2.5 w-2.5 rounded-full ${t.dot}`} />
-            {t.label}
-          </span>
-        ))}
+        {NODE_TYPES.map((t) => {
+          // Hex colors render inline; tailwind classes render via className so
+          // JIT can pick them up. Splitting them here keeps the config file
+          // free of a colossal switch statement.
+          const isHex = t.dot.startsWith("#");
+          return (
+            <span key={t.type} className="flex items-center gap-1.5">
+              {isHex ? (
+                <span
+                  className="h-2.5 w-2.5 rounded-full"
+                  style={{ backgroundColor: t.dot }}
+                />
+              ) : (
+                <span className={`h-2.5 w-2.5 rounded-full ${t.dot}`} />
+              )}
+              <span>
+                {t.icon} {t.label}
+              </span>
+            </span>
+          );
+        })}
         <span className="flex items-center gap-1.5">
           <span className="h-0 w-4 border-t-2 border-dashed border-contradiction" />
           противоречие

@@ -2,6 +2,10 @@
 
 from __future__ import annotations
 
+from datetime import datetime, timezone
+from typing import Any
+from uuid import UUID, uuid4
+
 import pytest
 
 from app.domain.interfaces.embedding_generator import IEmbeddingGenerator
@@ -12,6 +16,7 @@ from app.domain.interfaces.synthesis_engine import ISynthesisEngine
 from app.domain.interfaces.vector_search import IVectorSearch
 from app.features.query.ask.handler import AskQuestionHandler
 from app.features.query.ask.schemas import AskQuestionCommand, AskQuestionResponse
+from app.features.query.history.schemas import AnswerRecord
 from nlp.query.schemas import QuerySpec, SynthesisResponse
 
 
@@ -73,6 +78,51 @@ class FakeGraphSearch(IGraphSearch):
     async def get_entity_context(self, entity_name: str, entity_type: str) -> dict | None:
         return None
 
+    async def fetch_subgraph(self, spec: QuerySpec, node_limit: int = 30) -> dict:
+        return {"nodes": [], "edges": []}
+
+
+class FakeAnswersRepository:
+    """Records create/update calls in memory instead of hitting Postgres."""
+
+    def __init__(self) -> None:
+        self.created: list[dict[str, Any]] = []
+        self.updated: list[dict[str, Any]] = []
+
+    async def create(
+        self,
+        *,
+        question: str,
+        query_spec: dict[str, Any],
+        synthesis: dict[str, Any],
+        subgraph: dict[str, Any],
+        confidence: str | None,
+    ) -> AnswerRecord:
+        self.created.append({"question": question})
+        now = datetime.now(tz=timezone.utc)
+        return AnswerRecord(
+            id=uuid4(),
+            question=question,
+            query_spec=query_spec,
+            synthesis=synthesis,
+            subgraph=subgraph,
+            confidence=confidence,
+            created_at=now,
+            updated_at=now,
+        )
+
+    async def update(
+        self,
+        answer_id: UUID,
+        *,
+        query_spec: dict[str, Any],
+        synthesis: dict[str, Any],
+        subgraph: dict[str, Any],
+        confidence: str | None,
+    ) -> AnswerRecord | None:
+        self.updated.append({"id": answer_id})
+        return None
+
 
 @pytest.fixture
 def handler() -> AskQuestionHandler:
@@ -96,6 +146,7 @@ def handler() -> AskQuestionHandler:
         reranker=FakeReranker(),
         synthesis_engine=FakeSynthesisEngine(),
         embedding_generator=FakeEmbeddingGenerator(),
+        answers_repository=FakeAnswersRepository(),
     )
 
 
@@ -122,6 +173,7 @@ async def test_ask_question_no_results() -> None:
         reranker=FakeReranker(),
         synthesis_engine=FakeSynthesisEngine(),
         embedding_generator=FakeEmbeddingGenerator(),
+        answers_repository=FakeAnswersRepository(),
     )
     command = AskQuestionCommand(question="несуществующий запрос", top_k=5)
     response = await handler(command)

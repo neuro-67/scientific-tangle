@@ -1,5 +1,7 @@
 """Input / output DTOs for the ask-question use case."""
 
+from uuid import UUID
+
 from pydantic import BaseModel, ConfigDict, Field
 
 from nlp.query.schemas import Geography, QuerySpec, SynthesisResponse
@@ -51,6 +53,7 @@ class AskQuestionResponse(BaseModel):
 
     model_config = ConfigDict(frozen=True)
 
+    id: UUID | None = None
     question: str
     query_spec: QuerySpec
     synthesis: SynthesisResponse

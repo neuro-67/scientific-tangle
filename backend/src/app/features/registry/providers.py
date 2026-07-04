@@ -10,7 +10,9 @@ from app.features.document.list.provider import ListDocumentsProvider
 from app.features.document.process.provider import ProcessDocumentProvider
 from app.features.document.upload.provider import UploadDocumentProvider
 from app.features.health.check.provider import HealthCheckProvider
+from app.features.graph.provider import GraphProvider
 from app.features.query.ask.provider import AskQuestionProvider
+from app.features.query.history.provider import AnswerHistoryProvider
 from app.features.shared.auth.provider import CurrentUserProvider
 from app.features.users.create.provider import CreateUserProvider
 from app.features.users.list.provider import ListUsersProvider
@@ -47,5 +49,7 @@ PROVIDERS: list[Provider] = [
     EmbeddingProvider(),
     RerankerProvider(),
     AskQuestionProvider(),
+    AnswerHistoryProvider(),
+    GraphProvider(),
     DashboardSummaryProvider(),
 ]

@@ -102,8 +102,31 @@ export type AnswerSubgraph = {
   edges: GraphEdge[];
 };
 
+/** Lightweight row from GET /answers — for the history list. */
+export type AnswerListItem = {
+  id: string;
+  question: string;
+  confidence: ConfidenceLevel | null;
+  created_at: string;
+  updated_at: string;
+};
+
+/** Full persisted answer row from GET /answers/{id}. */
+export type AnswerRecord = {
+  id: string;
+  question: string;
+  query_spec: unknown;
+  synthesis: unknown;
+  subgraph: unknown;
+  confidence: ConfidenceLevel | null;
+  created_at: string;
+  updated_at: string;
+};
+
 /** Synthesized answer returned by POST /query. */
 export type QueryAnswer = {
+  /** Persisted answer id (present when the row was saved). */
+  id?: string;
   answer: string;
   consensus: string[];
   disagreements: Disagreement[];
