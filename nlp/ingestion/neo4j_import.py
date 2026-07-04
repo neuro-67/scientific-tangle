@@ -61,6 +61,101 @@ _REL_MAP = {
 }
 
 
+# Best-guess (source_label, target_label) per Neo4j relation type, from the
+# ontology (docs/ONTOLOGY.md). Used to synthesize a stub node when an edge
+# references an id the LLM never emitted as a node -- otherwise the edge is
+# silently dropped at import time (the MATCH..MATCH..MERGE below finds nothing).
+# Measured on the real corpus: ~34% of all extracted edges reference a missing
+# endpoint, which is why so many Expert nodes (targets of AUTHORED_BY from a
+# Publication the model forgot to emit) end up isolated in the graph. None =
+# ambiguous, fall back to a generic label.
+_REL_ENDPOINT_LABELS: dict[str, tuple[str | None, str | None]] = {
+    "USES_MATERIAL": (None, "Material"),
+    "APPLIES_TO": (None, "Material"),
+    "OPERATES_AT_CONDITION": (None, "Condition"),
+    "HAS_MEASUREMENT": (None, "Measurement"),
+    "MEASURES_PROPERTY": ("Measurement", "Property"),
+    "USES_EQUIPMENT": (None, "Equipment"),
+    "USES_PROCESS": (None, "Process"),
+    "PRODUCES_OUTPUT": (None, None),
+    "SHOWED": ("Experiment", "Finding"),
+    "DESCRIBED_IN": (None, "Publication"),
+    "AUTHORED_BY": ("Publication", "Expert"),
+    "EXPERT_IN": ("Expert", "Topic"),
+    "CONDUCTED_AT": (None, "Facility"),
+    "VALIDATED_BY": (None, "Expert"),
+    "CONTRADICTS": (None, None),
+    "SUPPORTS": (None, None),
+    "TAGGED": (None, "Topic"),
+    "HAS_SOURCE": (None, "Source"),
+}
+
+_STUB_FALLBACK_LABEL = "Entity"
+
+
+def _synthesize_missing_nodes(
+    nodes: list[dict[str, Any]], edges: list[dict[str, Any]], source_doc: str
+) -> list[dict[str, Any]]:
+    """Return stub nodes for edge endpoints that were never emitted as nodes.
+
+    The LLM routinely references entities in edges (a cited Publication, a
+    Source span, a Property) without also emitting them in ``nodes``. Left
+    alone these edges vanish at import (MATCH finds nothing), disconnecting
+    everything hanging off them -- most visibly the authors. We reconstruct a
+    minimal node per missing id, inferring its label from the relation that
+    points at it, so the edge survives.
+    """
+    existing = {n["id"] for n in nodes}
+    stubs: dict[str, str] = {}  # id -> inferred label (first confident guess wins)
+    for edge in edges:
+        rel = _REL_MAP.get(edge.get("type", ""), edge.get("type", "").upper())
+        src_label, tgt_label = _REL_ENDPOINT_LABELS.get(rel, (None, None))
+        for endpoint, inferred in (("source", src_label), ("target", tgt_label)):
+            node_id = str(edge.get(endpoint, "")).strip()
+            if not node_id or node_id in existing:
+                continue
+            # Prefer a confident label over the generic fallback if we see the
+            # same missing id used in several relations.
+            if node_id not in stubs or (inferred and stubs[node_id] == _STUB_FALLBACK_LABEL):
+                stubs[node_id] = inferred or _STUB_FALLBACK_LABEL
+
+    now = datetime.utcnow().isoformat()
+    return [
+        {
+            "id": node_id,
+            "label": label,
+            "source_document": source_doc,
+            "ingestion_date": now,
+            "stub": True,
+        }
+        for node_id, label in stubs.items()
+    ]
+
+
+def _import_stub_nodes(tx, stubs: list[dict[str, Any]]) -> None:
+    """Create stub endpoint nodes, but never clobber a real node.
+
+    MERGE on (label, id) reuses a real node already imported under that label;
+    the ``stub`` flag is set only ON CREATE, so a stub that later gets a real
+    extraction with the same id/label is transparently upgraded (SET n += props
+    in _import_nodes overwrites stub=true with the real data).
+    """
+    for stub in stubs:
+        label = stub["label"]
+        tx.run(
+            f"""
+            MERGE (n:{label} {{id: $id}})
+            ON CREATE SET n.stub = true,
+                          n.source_document = $source_document,
+                          n.ingestion_date = $ingestion_date,
+                          n.validation_status = 'stub'
+            """,
+            id=stub["id"],
+            source_document=stub["source_document"],
+            ingestion_date=stub["ingestion_date"],
+        )
+
+
 def _get_neo4j_driver():
     uri = os.environ.get("NEO4J_URI", "bolt://localhost:7687")
     user = os.environ.get("NEO4J_USER", "neo4j")
@@ -147,7 +242,9 @@ def _validate_edge(edge: dict[str, Any], source_doc: str) -> dict[str, Any] | No
 
 def _create_constraints(tx):
     """Create uniqueness constraints on node IDs."""
-    for label in _LABEL_MAP.values():
+    # _STUB_FALLBACK_LABEL ("Entity") isn't in _LABEL_MAP but stub synthesis
+    # can create it; index it too so its MERGE stays constraint-backed.
+    for label in list(_LABEL_MAP.values()) + [_STUB_FALLBACK_LABEL]:
         try:
             tx.run(f"""
                 CREATE CONSTRAINT {label.lower()}_id_unique IF NOT EXISTS
@@ -295,6 +392,13 @@ def import_graph(graph_path: str, driver) -> dict[str, int]:
         session.execute_write(_import_nodes, valid_nodes)
         logger.info("nodes imported", extra={"count": len(valid_nodes)})
 
+        # Reconstruct edge endpoints the model referenced but never emitted,
+        # so their edges (and everything hanging off them) don't vanish.
+        stubs = _synthesize_missing_nodes(valid_nodes, valid_edges, source_doc)
+        if stubs:
+            session.execute_write(_import_stub_nodes, stubs)
+            logger.info("stub endpoints synthesized", extra={"count": len(stubs)})
+
         # Import edges
         session.execute_write(_import_edges, valid_edges)
         logger.info("edges imported", extra={"count": len(valid_edges)})
@@ -304,6 +408,7 @@ def import_graph(graph_path: str, driver) -> dict[str, int]:
         "nodes_valid": len(valid_nodes),
         "edges_total": len(raw_edges),
         "edges_valid": len(valid_edges),
+        "stub_nodes": len(stubs),
     }
 
 
