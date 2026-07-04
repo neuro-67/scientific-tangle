@@ -50,4 +50,10 @@ class WorkerSettings:
     # CancelledError also isn't an Exception subclass, so it skipped the
     # handler's except block entirely and left documents stuck in
     # PROCESSING forever with no failure ever recorded.
-    job_timeout = 1800
+    job_timeout = 3600
+    # arq's default is 10 concurrent jobs, but every job hammers the same
+    # RouterAI endpoint -- at 10-way concurrency the shared LLM throughput
+    # collapses (180s read timeouts) and big documents (400+ chunks) blow the
+    # job_timeout. Fewer concurrent documents each get more LLM throughput and
+    # finish before timing out. Confirmed on the 104-doc Обзоры batch.
+    max_jobs = 3
