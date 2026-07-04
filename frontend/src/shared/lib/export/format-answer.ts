@@ -21,6 +21,17 @@ export const toMarkdown = (question: string, answer: QueryAnswer): string => {
   lines.push(answer.answer || "—");
   lines.push("");
 
+  if (answer.comparison_table.length) {
+    lines.push("## Таблица сравнения");
+    lines.push("");
+    lines.push(`| Критерий | ${answer.spec.materials[0] ?? answer.spec.processes[0] ?? "Вариант A"} | ${answer.spec.compare ?? "Вариант B"} |`);
+    lines.push("|---|---|---|");
+    for (const row of answer.comparison_table) {
+      lines.push(`| ${row.criterion} | ${row.side_a || "нет данных"} | ${row.side_b || "нет данных"} |`);
+    }
+    lines.push("");
+  }
+
   const section = (title: string, items: string[]) => {
     if (!items.length) return;
     lines.push(`## ${title}`);
@@ -135,6 +146,15 @@ export const toJsonLd = (
       counterItem: d.sources_b,
     })),
   ],
+  ...(answer.comparison_table.length
+    ? {
+        comparisonTable: answer.comparison_table.map((row) => ({
+          "@type": "PropertyValue",
+          name: row.criterion,
+          value: [row.side_a || "нет данных", row.side_b || "нет данных"],
+        })),
+      }
+    : {}),
 });
 
 /** Escapes text for safe embedding into HTML. */

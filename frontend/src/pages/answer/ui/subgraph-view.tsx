@@ -222,7 +222,7 @@ export function SubgraphView({ subgraph }: Props) {
       } catch (err) {
         setEdges((prev) =>
           prev.map((e) =>
-            e.id === id ? { ...e, label: prevLabel ?? null } : e
+            e.id === id ? { ...e, label: prevLabel } : e
           )
         );
         handleApiError(err, { fallback: "Не удалось обновить связь" });

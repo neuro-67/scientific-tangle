@@ -3,6 +3,7 @@ import type { ConfidenceLevel, Geography } from "@/shared/types";
 import type {
   AnswerSource,
   AnswerSubgraph,
+  ComparisonRow,
   Disagreement,
   Expert,
   GraphEdge,
@@ -41,6 +42,7 @@ export type AskQuestionResponse = {
     gaps?: string[];
     experts?: Array<Partial<Expert>>;
     laboratories?: Array<Partial<Laboratory>>;
+    comparison_table?: Array<Partial<ComparisonRow>>;
     confidence?: ConfidenceLevel | null;
   };
   subgraph?: {
@@ -87,6 +89,12 @@ const toExpert = (e: Partial<Expert>): Expert => ({
 const toLaboratory = (l: Partial<Laboratory>): Laboratory => ({
   name: l.name ?? "",
   institution: l.institution ?? "",
+});
+
+const toComparisonRow = (c: Partial<ComparisonRow>): ComparisonRow => ({
+  criterion: c.criterion ?? "",
+  side_a: c.side_a ?? "нет данных",
+  side_b: c.side_b ?? "нет данных",
 });
 
 export const toSubgraph = (
@@ -137,6 +145,9 @@ export const toQueryAnswer = (res: AskQuestionResponse): QueryAnswer => {
     laboratories: (synthesis.laboratories ?? [])
       .map(toLaboratory)
       .filter((l) => l.name),
+    comparison_table: (synthesis.comparison_table ?? [])
+      .map(toComparisonRow)
+      .filter((c) => c.criterion),
     confidence: synthesis.confidence ?? "low",
     subgraph: toSubgraph(res.subgraph),
     spec: toSpec(res.query_spec),

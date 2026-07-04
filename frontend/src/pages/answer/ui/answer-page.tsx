@@ -8,6 +8,7 @@ import {
   regenerateAnswer,
   searchParamsToRequest,
   type AnswerRecord,
+  type ComparisonRow,
   type QueryAnswer,
 } from "@/entities/query";
 import { toQueryAnswer } from "@/entities/query/api/post-query.helpers";
@@ -169,6 +170,15 @@ export function AnswerPage() {
             </p>
           </section>
 
+          {/* Comparison table (compare-intent answers only) */}
+          {data.comparison_table.length > 0 ? (
+            <ComparisonTable
+              rows={data.comparison_table}
+              sideALabel={data.spec.materials[0] ?? data.spec.processes[0] ?? "Вариант A"}
+              sideBLabel={data.spec.compare ?? "Вариант B"}
+            />
+          ) : null}
+
           {/* Graph + analytics */}
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-[1fr_200px] lg:grid-rows-[560px_auto]">
             <div className="flex min-h-0 flex-col gap-4">
@@ -245,6 +255,55 @@ export function AnswerPage() {
         </div>
       ) : null}
     </div>
+  );
+}
+
+type ComparisonTableProps = {
+  rows: ComparisonRow[];
+  sideALabel: string;
+  sideBLabel: string;
+};
+
+/**
+ * Technology comparison table for compare-intent answers
+ * (case-specification.md "Дополнительные пожелания"): fixed criteria --
+ * эффективность, капитальные затраты, применимость в холодном климате,
+ * экологические ограничения -- with "нет данных" cells shown as-is rather
+ * than hidden, so it's clear what the graph actually covers.
+ */
+function ComparisonTable({ rows, sideALabel, sideBLabel }: ComparisonTableProps) {
+  return (
+    <section className="rounded-[20px] border border-input bg-card p-5">
+      <span className="text-[17px] font-semibold text-foreground">
+        Таблица сравнения
+      </span>
+      <div className="mt-3 overflow-x-auto">
+        <table className="w-full border-collapse text-[14px]">
+          <thead>
+            <tr className="border-b border-input text-left text-description">
+              <th className="w-1/3 py-2 pr-3 font-medium">Критерий</th>
+              <th className="w-1/3 px-3 py-2 font-medium">{sideALabel}</th>
+              <th className="w-1/3 pl-3 py-2 font-medium">{sideBLabel}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((row) => (
+              <tr key={row.criterion} className="border-b border-input last:border-0">
+                <td className="py-2.5 pr-3 font-medium text-foreground">
+                  {row.criterion}
+                </td>
+                <td className="px-3 py-2.5 text-main">
+                  {row.side_a || "нет данных"}
+                </td>
+                <td className="py-2.5 pl-3 text-main">
+                  {row.side_b || "нет данных"}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
   );
 }
 

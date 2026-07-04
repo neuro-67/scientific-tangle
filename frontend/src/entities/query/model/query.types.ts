@@ -68,6 +68,19 @@ export type Laboratory = {
   institution: string;
 };
 
+/**
+ * One row of a compare-intent answer's technology comparison table
+ * (case-specification.md "Дополнительные пожелания"). Always exactly 4 rows
+ * — эффективность, капитальные затраты, применимость в холодном климате,
+ * экологические ограничения — with "нет данных" in a cell instead of the
+ * row being omitted. Empty array for non-compare answers.
+ */
+export type ComparisonRow = {
+  criterion: string;
+  side_a: string;
+  side_b: string;
+};
+
 /** A node of the answer subgraph (material/process/equipment/result). */
 export type GraphNode = {
   id: string;
@@ -121,6 +134,7 @@ export type QueryAnswer = {
   gaps: string[];
   experts: Expert[];
   laboratories: Laboratory[];
+  comparison_table: ComparisonRow[];
   confidence: ConfidenceLevel;
   subgraph: AnswerSubgraph;
   spec: QuerySpec;
