@@ -29,7 +29,7 @@ def _load_env_file(path: Path) -> None:
         os.environ.setdefault(key, value)
 
 
-_load_env_file(Path(__file__).parent / ".env")
+_load_env_file(Path(__file__).parent.parent / ".env")
 
 EXTRACTION_SYSTEM_PROMPT = """Ты — NLP-извлекатель для научной системы "Научный клубок".
 Извлеки из фрагмента текста сущности, связи и числовые ограничения по онтологии.
