@@ -1,6 +1,28 @@
 name: scientific-tangle
 
 services:
+  traefik:
+    image: traefik:v3.6
+    container_name: st-traefik
+    restart: unless-stopped
+    command:
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.web.http.redirections.entrypoint.to=websecure"
+      - "--entrypoints.web.http.redirections.entrypoint.scheme=https"
+      - "--entrypoints.websecure.address=:443"
+      - "--certificatesresolvers.le.acme.httpchallenge=true"
+      - "--certificatesresolvers.le.acme.httpchallenge.entrypoint=web"
+      - "--certificatesresolvers.le.acme.email=${ACME_EMAIL:-admin@ula-logistics.ru}"
+      - "--certificatesresolvers.le.acme.storage=/letsencrypt/acme.json"
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - traefik_letsencrypt:/letsencrypt
+
   postgres:
     image: postgres:18-alpine
     container_name: st-postgres
@@ -117,6 +139,14 @@ services:
       --port 8000
       --reload
       --reload-dir /app/src
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.backend.rule=Host(`neuro67.ula-logistics.ru`) && PathPrefix(`/api`)"
+      - "traefik.http.routers.backend.entrypoints=websecure"
+      - "traefik.http.routers.backend.tls.certresolver=le"
+      - "traefik.http.middlewares.backend-stripprefix.stripprefix.prefixes=/api"
+      - "traefik.http.routers.backend.middlewares=backend-stripprefix"
+      - "traefik.http.services.backend.loadbalancer.server.port=8000"
     depends_on:
       postgres:
         condition: service_healthy
@@ -172,6 +202,12 @@ services:
     volumes:
       - ./frontend:/app
       - frontend_node_modules:/app/node_modules
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.frontend.rule=Host(`neuro67.ula-logistics.ru`)"
+      - "traefik.http.routers.frontend.entrypoints=websecure"
+      - "traefik.http.routers.frontend.tls.certresolver=le"
+      - "traefik.http.services.frontend.loadbalancer.server.port=5173"
     depends_on:
       - backend
 
@@ -184,3 +220,4 @@ volumes:
   minio_data:
   redis_data:
   frontend_node_modules:
+  traefik_letsencrypt:

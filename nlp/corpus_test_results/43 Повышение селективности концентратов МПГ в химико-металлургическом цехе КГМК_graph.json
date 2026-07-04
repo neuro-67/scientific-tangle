@@ -1,0 +1,3312 @@
+{
+  "document": "43 Повышение селективности концентратов МПГ в химико-металлургическом цехе КГМК.docx",
+  "language": "ru",
+  "nodes": [
+    {
+      "id": "Волков Владислав Валерьевич",
+      "label": "Expert",
+      "properties": {
+        "email": "vladislav.volkov@kolgmk.ru"
+      }
+    },
+    {
+      "id": "Щербаков Сергей Викторович",
+      "label": "Expert",
+      "properties": {
+        "email": "sergey.shcherbakov@kolgmk.ru"
+      }
+    },
+    {
+      "id": "Ласточкина Марина Андреевна",
+      "label": "Expert",
+      "properties": {
+        "email": "marina.lastochkina@hipronikel.ru"
+      }
+    },
+    {
+      "id": "Хомякова Ирина Николаевна",
+      "label": "Expert",
+      "properties": {
+        "email": "irina.khomakova@hipronikel.ru"
+      }
+    },
+    {
+      "id": "Жукова Виктория Евгеньевна",
+      "label": "Expert",
+      "properties": {
+        "email": "victoria.zhukova@hipronikel.ru"
+      }
+    },
+    {
+      "id": "АО «Кольская ГМК»",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "ЛГМ ООО «Институт Гипроникель»",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "химико-металлургический цех",
+      "label": "Process",
+      "properties": {
+        "domain": "металлургия"
+      }
+    },
+    {
+      "id": "низкотемпературная сульфатизация",
+      "label": "Process",
+      "properties": {
+        "domain": "металлургия"
+      }
+    },
+    {
+      "id": "180-200 °С",
+      "label": "Condition",
+      "properties": {
+        "min": 180,
+        "max": 200,
+        "unit": "°С",
+        "operator": "range"
+      }
+    },
+    {
+      "id": "серная кислота",
+      "label": "Material",
+      "properties": {
+        "type": "кислота"
+      }
+    },
+    {
+      "id": "водное выщелачивание",
+      "label": "Process",
+      "properties": {
+        "domain": "металлургия"
+      }
+    },
+    {
+      "id": "кек",
+      "label": "Material",
+      "properties": {
+        "type": "отход"
+      }
+    },
+    {
+      "id": "высокотемпературная сульфатизация",
+      "label": "Process",
+      "properties": {
+        "domain": "металлургия"
+      }
+    },
+    {
+      "id": "280-300 °С",
+      "label": "Condition",
+      "properties": {
+        "min": 280,
+        "max": 300,
+        "unit": "°С",
+        "operator": "range"
+      }
+    },
+    {
+      "id": "богатые по цветным металлам растворы",
+      "label": "Material",
+      "properties": {
+        "type": "раствор"
+      }
+    },
+    {
+      "id": "ЦЭН",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "источник_стр1",
+      "label": "Source",
+      "properties": {
+        "span": "p.1"
+      }
+    },
+    {
+      "id": "высокотемпературная стадия",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "электроэкстракция никеля",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "хлорное растворение никелевого порошка трубчатых печей",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "обратный осмос",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "отстаивание",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "халькогениды платиновых металлов",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "никелевый порошок трубчатых печей",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "сульфатно-хлоридные растворы",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "никелевые шламы",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "температура -300 °С",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "селективное извлечение цветных металлов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "практически количественное концентрирование драгоценных металлов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "сокращение количества никелевых шламов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "2019",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "осаждение драгоценных металлов",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "сульфатизацию стали",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "концентрат флотации остатка хлорного растворения порошка никелевого трубчатых печей",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "концентрат платино-палладиевый",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "концентрат металлов спутников платины",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "концентрат серебряно-палладиевый",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "изменение природы исходных материалов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "повышение содержания платины и палладия в КПП",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "возможность выпуска марки КПП-0",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ухудшение ситуации с распределением металлов спутников платины между КМСП и КПП",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "дополнительные потери при аффинировании",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "технологическая схема",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "рисунок 1",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "таблица 1",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "рисунок 2",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "2020",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "2010-2021 (9 месяцев)",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "src_p2",
+      "label": "Source",
+      "properties": {
+        "span": "p.2"
+      }
+    },
+    {
+      "id": "матрица",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "халькогенидные фазы драгоценных металлов",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "сульфиды меди-никеля",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "силикатные компоненты шламовой крупности",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "хлориды",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "хлорид меди",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "хлорид серебра",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "сера элементарная",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "металлические формы драгоценных металлов",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "мышьяк",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "олово",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "сурьма",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "кислород",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "силикатные компоненты вариантного состава и морфологии",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "корродированные сульфиды цветных металлов",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "частицы оксида никеля",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "углистые соединения",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "сульфат свинца",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "ФК ОХР ПНТП",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "металлизированные твердые растворы на основе платиновых металлов",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "углерод",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "силикатные составляющие",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "драгоценные металлы",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "субмикронные металлические фазы на основе Pd",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "субмикронные металлические фазы на основе Pt-Pd",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "субмикронные металлические фазы на основе Au",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "сульфиды Pd",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "сульфиды Pd-Cu",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "конгломераты микрочастиц фаз ДМ",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "селен",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "теллур",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "Таблица 3 – Типичный состав ФК ОХР ПНТП",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "src_p3",
+      "label": "Source",
+      "properties": {
+        "span": "p.3"
+      }
+    },
+    {
+      "id": "флотация",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "пенный продукт",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "металлические твердые растворы",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "концентрированная серная кислота",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "упорность",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "шлам электрорафинирования никеля",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "кек I стадии сульфатизации шламов электрорафинирования никеля",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "src_p12",
+      "label": "Source",
+      "properties": {
+        "span": "p.12"
+      }
+    },
+    {
+      "id": "промышленные испытания",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "технологический процесс",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "сульфатизатор периодического действия с электродным нагревом",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "твёрдые продукты",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "параллельные опыты",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "аттестованные методики анализа",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "атомно-эмиссионная спектрометрия",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "масс-спектрометрия с индуктивно связанной плазмой",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "таблица 4",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "лабораторные исследования",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "src_p5",
+      "label": "Source",
+      "properties": {
+        "span": "p.5"
+      }
+    },
+    {
+      "id": "эксперимент_1",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "finding_gold_platinum",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Золото и платина полностью концентрируются в нерастворимом остатке"
+      }
+    },
+    {
+      "id": "finding_copper_nickel",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Цветные металлы более чем на 95-98 % переходят в раствор, к концу третьей стадии процесс в значительной мере завершается"
+      }
+    },
+    {
+      "id": "finding_palladium",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Извлечение палладия не зависит от типа материала и определяется температурой и длительностью процесса"
+      }
+    },
+    {
+      "id": "finding_carbon",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Углерод кека I стадии почти полностью окисляется при температуре до 230 °С; к концу процесса в осадке остается не более 1%"
+      }
+    },
+    {
+      "id": "finding_platinum_group_metals",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Извлечение металлов-спутников платины в раствор активно начинается с 230 °С, когда в пульпе практически не остается сульфидов и элементарной серы"
+      }
+    },
+    {
+      "id": "выщелачивание",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "кек_1_стадия",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "ФК_ОХР_ПНТП",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "температура_230",
+      "label": "Condition",
+      "properties": {
+        "value": 230,
+        "unit": "°С"
+      }
+    },
+    {
+      "id": "длительность_нескольких_десяток_часов",
+      "label": "Condition",
+      "properties": {
+        "description": "нескольких десяток часов"
+      }
+    },
+    {
+      "id": "источник_p6",
+      "label": "Source",
+      "properties": {
+        "span": "p.6"
+      }
+    },
+    {
+      "id": "сульфатизация и выщелачивание",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "meas_temp_230",
+      "label": "Measurement",
+      "properties": {
+        "value": 230,
+        "unit": "°С",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_temp_250",
+      "label": "Measurement",
+      "properties": {
+        "value": 250,
+        "unit": "С",
+        "operator": "range",
+        "max": 250,
+        "min": 230,
+        "verified": true
+      }
+    },
+    {
+      "id": "finding_yield_max_80",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Извлечение МСП в раствор достигает более 80% после второго этапа при финальной температуре 230 °С"
+      }
+    },
+    {
+      "id": "finding_yield_max_90",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Извлечение МСП в раствор достигает более 90% после третьего этапа при финальной температуре 250 °С"
+      }
+    },
+    {
+      "id": "finding_yield_drop_rh",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Извлечение родия снижается наиболее активно после 250 °С, до 60–65%"
+      }
+    },
+    {
+      "id": "finding_behavior_identical",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Поведение компонентов кека I стадии в промышленном и лабораторном экспериментах идентично"
+      }
+    },
+    {
+      "id": "finding_discrepancy_industry_lab",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Показатели в дальнейшем различаются из-за различных условий охлаждения и выщелачивания в промышленности и лаборатории"
+      }
+    },
+    {
+      "id": "промышленный эксперимент",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "лабораторный эксперимент",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "репульпатор",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "температура 100-120 С",
+      "label": "Condition",
+      "properties": {
+        "min": 100,
+        "max": 120,
+        "unit": "С",
+        "operator": "range"
+      }
+    },
+    {
+      "id": "выдержка более суток",
+      "label": "Condition",
+      "properties": {
+        "min": 24,
+        "unit": "час",
+        "operator": ">"
+      }
+    },
+    {
+      "id": "разбавленная серная кислота",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "химическое воздействие",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "обратное растворение МСП",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "снижение содержания МСП в кеке",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "рост извлечения МСП в раствор",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "рисунок 3",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "таблица Ошибка! Источник ссылки не найден.",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "src_p7",
+      "label": "Source",
+      "properties": {
+        "span": "p.7"
+      }
+    },
+    {
+      "id": "кек I стадии сульфатизации никелевого шлама",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "пенный продукт ОХР ПНТП",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "переработка кека I стадии",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "переработка пенного продукта",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "обнаружено различие в поведении целевых компонентов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "снижение извлечения серебра и МСП при высокой температуре",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "необходима длительная выдержка при 280-300С для достижения показателей кека I стадии",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "высокая степень извлечения МСП и серебра",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "установлено различие в поведении серы и углерода",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "температура 250-280С",
+      "label": "Condition",
+      "properties": {
+        "min": 250,
+        "max": 280,
+        "unit": "С"
+      }
+    },
+    {
+      "id": "температура 280-300С",
+      "label": "Condition",
+      "properties": {
+        "min": 280,
+        "max": 300,
+        "unit": "С"
+      }
+    },
+    {
+      "id": "длительная выдержка в репульпаторах",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "сера",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "МСП",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "серебро",
+      "label": "Material",
+      "properties": {
+        "name": "серебро"
+      }
+    },
+    {
+      "id": "Rh",
+      "label": "Material",
+      "properties": {
+        "name": "родий"
+      }
+    },
+    {
+      "id": "Ru",
+      "label": "Material",
+      "properties": {
+        "name": "рутений"
+      }
+    },
+    {
+      "id": "Ir",
+      "label": "Material",
+      "properties": {
+        "name": "иридий"
+      }
+    },
+    {
+      "id": "meas_Rh_92",
+      "label": "Measurement",
+      "properties": {
+        "value": 92,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Ru_96",
+      "label": "Measurement",
+      "properties": {
+        "value": 96,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Ir_91",
+      "label": "Measurement",
+      "properties": {
+        "value": 91,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Ag_66",
+      "label": "Measurement",
+      "properties": {
+        "value": 66,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "обратное растворение",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "температура процесса",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "продолжительность выдержки",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "извлечение в раствор МСП",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "монотонное увеличение",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "палладий",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "концентрирование углерода в остатке выщелачивания",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "более упорные формы углерода",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "остатки реликтового восстановителя",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "стадия получения ПНТП",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "труднее окисляются горячей серной кислотой",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "углистые компоненты кека I",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "рисунок 4",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "кек I стадии",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "сульфатизация никелевого шлама",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "извлечение драгметаллов",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "сорбция металлов-спутников платины",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "степень окисления углерода",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "платина",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "динамика окисления углерода",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "взаимосвязь между извлечением драгметаллов и степенью окисления углерода",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "выводы",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "рисунок 5",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "рисунок 6",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "источник_страница_8",
+      "label": "Source",
+      "properties": {
+        "span": "p.8"
+      }
+    },
+    {
+      "id": "КПП-1",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "Pd",
+      "label": "Property",
+      "properties": {
+        "name": "палладий"
+      }
+    },
+    {
+      "id": "Pt",
+      "label": "Property",
+      "properties": {
+        "name": "платина"
+      }
+    },
+    {
+      "id": "золото",
+      "label": "Property",
+      "properties": {
+        "name": "золото"
+      }
+    },
+    {
+      "id": "медь",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "никель",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "Se",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "meas_Pd_22_1_to_41_5",
+      "label": "Measurement",
+      "properties": {
+        "min": 22.1,
+        "max": 41.5,
+        "unit": "%",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Pt_4_48_to_7_57",
+      "label": "Measurement",
+      "properties": {
+        "min": 4.48,
+        "max": 7.57,
+        "unit": "%",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Au_0_74_to_1_17",
+      "label": "Measurement",
+      "properties": {
+        "min": 0.74,
+        "max": 1.17,
+        "unit": "%",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Ag_1_06_to_5_19",
+      "label": "Measurement",
+      "properties": {
+        "min": 1.06,
+        "max": 5.19,
+        "unit": "%",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Rh_0_098_to_0_44",
+      "label": "Measurement",
+      "properties": {
+        "min": 0.098,
+        "max": 0.44,
+        "unit": "%",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Ru_0_04_to_0_15",
+      "label": "Measurement",
+      "properties": {
+        "min": 0.04,
+        "max": 0.15,
+        "unit": "%",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Ir_0_001_to_0_06",
+      "label": "Measurement",
+      "properties": {
+        "min": 0.001,
+        "max": 0.06,
+        "unit": "%",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Cu_0_35_to_2_23",
+      "label": "Measurement",
+      "properties": {
+        "min": 0.35,
+        "max": 2.23,
+        "unit": "%",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Ni_0_12_to_1_82",
+      "label": "Measurement",
+      "properties": {
+        "min": 0.12,
+        "max": 1.82,
+        "unit": "%",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Se_0_001_to_0_06",
+      "label": "Measurement",
+      "properties": {
+        "min": 0.001,
+        "max": 0.06,
+        "unit": "%",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "отчет по теме «Переработка шламов. Усовершенствование технологии извлечения платиноидов, селена и теллура из электролитных шламов на базе метода ЛГИ-Североникеля.»",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "отчет о НИР «Корректировка технологического регламента для проектирования технологии производства богатых селективных концентратов ДМ и товарных концентратов Se и Te на промплощадке АО «Кольская ГМК» при переработке всех ДМ содержащих промпродуктов рафинировочного производства ПАО «ГМК «Норильский никель»»",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "ЛГИ-Североникеля",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "переработка шламов",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "Рисунок 1 – Принципиальная схема переработке шламов электрорафинирования никеля и остатков хлорного растворения НПТП",
+      "label": "Publication",
+      "properties": {}
+    },
+    {
+      "id": "Мончегорск-Ленинград",
+      "label": "Facility",
+      "properties": {}
+    },
+    {
+      "id": "Санкт-Петербург",
+      "label": "Facility",
+      "properties": {}
+    },
+    {
+      "id": "ПАО «ГМК «Норильский никель»",
+      "label": "Facility",
+      "properties": {}
+    },
+    {
+      "id": "1971",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "2021",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "варка в режиме от 230 до 250 С",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "варка в режиме от 250 до 280 С",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "варка в режиме от 260 до 300 С",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "лабораторное выщелачивание",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "промышленное выщелачивание",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "meas_temp_280",
+      "label": "Measurement",
+      "properties": {
+        "max": 280,
+        "min": 250,
+        "unit": "С",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_temp_300",
+      "label": "Measurement",
+      "properties": {
+        "max": 300,
+        "min": 260,
+        "unit": "С",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_pt_12_4",
+      "label": "Measurement",
+      "properties": {
+        "value": 12.4,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_pd_34_8",
+      "label": "Measurement",
+      "properties": {
+        "value": 34.8,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_rh_0_267",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.267,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_ru_0_077",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.077,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_ir_0_048",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.048,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_ag_0_28",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.28,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_au_1_63",
+      "label": "Measurement",
+      "properties": {
+        "value": 1.63,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_pt_11_75",
+      "label": "Measurement",
+      "properties": {
+        "value": 11.75,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_pd_35_01",
+      "label": "Measurement",
+      "properties": {
+        "value": 35.01,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_rh_0_115",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.115,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_ru_0_054",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.054,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_ir_0_025",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.025,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_ag_1_49",
+      "label": "Measurement",
+      "properties": {
+        "value": 1.49,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_au_1_46",
+      "label": "Measurement",
+      "properties": {
+        "value": 1.46,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_pt_13_2",
+      "label": "Measurement",
+      "properties": {
+        "value": 13.2,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_pd_26_8",
+      "label": "Measurement",
+      "properties": {
+        "value": 26.8,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_rh_0_727",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.727,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_ru_0_149",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.149,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_ir_0_075",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.075,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_ag_0_85",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.85,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_au_1_77",
+      "label": "Measurement",
+      "properties": {
+        "value": 1.77,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_pt_12_66",
+      "label": "Measurement",
+      "properties": {
+        "value": 12.66,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_pd_31_41",
+      "label": "Measurement",
+      "properties": {
+        "value": 31.41,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_rh_0_20",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.2,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_ru_0_07",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.07,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_ir_0_03",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.03,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_ag_1_67",
+      "label": "Measurement",
+      "properties": {
+        "value": 1.67,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "temp",
+      "label": "Property",
+      "properties": {
+        "name": "температура"
+      }
+    },
+    {
+      "id": "src_p1",
+      "label": "Source",
+      "properties": {
+        "span": "p.1"
+      }
+    },
+    {
+      "id": "src_p6",
+      "label": "Source",
+      "properties": {
+        "span": "p.6"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Волков Владислав Валерьевич",
+      "target": "АО «Кольская ГМК»",
+      "type": "expert_in"
+    },
+    {
+      "source": "Щербаков Сергей Викторович",
+      "target": "АО «Кольская ГМК»",
+      "type": "expert_in"
+    },
+    {
+      "source": "Ласточкина Марина Андреевна",
+      "target": "ЛГМ ООО «Институт Гипроникель»",
+      "type": "expert_in"
+    },
+    {
+      "source": "Хомякова Ирина Николаевна",
+      "target": "ЛГМ ООО «Институт Гипроникель»",
+      "type": "expert_in"
+    },
+    {
+      "source": "Жукова Виктория Евгеньевна",
+      "target": "ЛГМ ООО «Институт Гипроникель»",
+      "type": "expert_in"
+    },
+    {
+      "source": "АО «Кольская ГМК»",
+      "target": "химико-металлургический цех",
+      "type": "conducted_at"
+    },
+    {
+      "source": "химико-металлургический цех",
+      "target": "низкотемпературная сульфатизация",
+      "type": "applies_to"
+    },
+    {
+      "source": "низкотемпературная сульфатизация",
+      "target": "180-200 °С",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "низкотемпературная сульфатизация",
+      "target": "серная кислота",
+      "type": "uses_material"
+    },
+    {
+      "source": "низкотемпературная сульфатизация",
+      "target": "водное выщелачивание",
+      "type": "produces_output"
+    },
+    {
+      "source": "водное выщелачивание",
+      "target": "кек",
+      "type": "produces_output"
+    },
+    {
+      "source": "кек",
+      "target": "высокотемпературная сульфатизация",
+      "type": "applies_to"
+    },
+    {
+      "source": "высокотемпературная сульфатизация",
+      "target": "280-300 °С",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "высокотемпературная сульфатизация",
+      "target": "водное выщелачивание",
+      "type": "produces_output"
+    },
+    {
+      "source": "водное выщелачивание",
+      "target": "богатые по цветным металлам растворы",
+      "type": "produces_output"
+    },
+    {
+      "source": "богатые по цветным металлам растворы",
+      "target": "ЦЭН",
+      "type": "produces_output"
+    },
+    {
+      "source": "низкотемпературная сульфатизация",
+      "target": "источник_стр1",
+      "type": "has_source"
+    },
+    {
+      "source": "высокотемпературная сульфатизация",
+      "target": "источник_стр1",
+      "type": "has_source"
+    },
+    {
+      "source": "водное выщелачивание",
+      "target": "источник_стр1",
+      "type": "has_source"
+    },
+    {
+      "source": "кек",
+      "target": "источник_стр1",
+      "type": "has_source"
+    },
+    {
+      "source": "богатые по цветным металлам растворы",
+      "target": "источник_стр1",
+      "type": "has_source"
+    },
+    {
+      "source": "ЦЭН",
+      "target": "источник_стр1",
+      "type": "has_source"
+    },
+    {
+      "source": "низкотемпературная сульфатизация",
+      "target": "обратный осмос",
+      "type": "uses_material"
+    },
+    {
+      "source": "низкотемпературная сульфатизация",
+      "target": "хлорное растворение никелевого порошка трубчатых печей",
+      "type": "applies_to"
+    },
+    {
+      "source": "низкотемпературная сульфатизация",
+      "target": "высокотемпературная стадия",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "низкотемпературная сульфатизация",
+      "target": "селективное извлечение цветных металлов",
+      "type": "showed"
+    },
+    {
+      "source": "низкотемпературная сульфатизация",
+      "target": "практически количественное концентрирование драгоценных металлов",
+      "type": "showed"
+    },
+    {
+      "source": "высокотемпературная стадия",
+      "target": "осаждение драгоценных металлов",
+      "type": "produces_output"
+    },
+    {
+      "source": "электроэкстракция никеля",
+      "target": "сульфатно-хлоридные растворы",
+      "type": "produces_output"
+    },
+    {
+      "source": "электроэкстракция никеля",
+      "target": "хлорное растворение никелевого порошка трубчатых печей",
+      "type": "applies_to"
+    },
+    {
+      "source": "электроэкстракция никеля",
+      "target": "сокращение количества никелевых шламов",
+      "type": "showed"
+    },
+    {
+      "source": "АО «Кольская ГМК»",
+      "target": "электроэкстракция никеля",
+      "type": "conducted_at"
+    },
+    {
+      "source": "АО «Кольская ГМК»",
+      "target": "2019",
+      "type": "conducted_at"
+    },
+    {
+      "source": "низкотемпературная сульфатизация",
+      "target": "халькогениды платиновых металлов",
+      "type": "applies_to"
+    },
+    {
+      "source": "низкотемпературная сульфатизация",
+      "target": "температура -300 °С",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "низкотемпературная сульфатизация",
+      "target": "водное выщелачивание",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "низкотемпературная сульфатизация",
+      "target": "отстаивание",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "низкотемпературная сульфатизация",
+      "target": "ЦЭН",
+      "type": "produces_output"
+    },
+    {
+      "source": "хлорное растворение никелевого порошка трубчатых печей",
+      "target": "сульфатно-хлоридные растворы",
+      "type": "produces_output"
+    },
+    {
+      "source": "хлорное растворение никелевого порошка трубчатых печей",
+      "target": "никелевый порошок трубчатых печей",
+      "type": "uses_material"
+    },
+    {
+      "source": "электроэкстракция никеля",
+      "target": "никелевые шламы",
+      "type": "produces_output"
+    },
+    {
+      "source": "электроэкстракция никеля",
+      "target": "АО «Кольская ГМК»",
+      "type": "conducted_at"
+    },
+    {
+      "source": "низкотемпературная сульфатизация",
+      "target": "температура -300 °С",
+      "type": "measures_property"
+    },
+    {
+      "source": "высокотемпературная стадия",
+      "target": "осаждение драгоценных металлов",
+      "type": "measures_property"
+    },
+    {
+      "source": "электроэкстракция никеля",
+      "target": "сульфатизацию стали",
+      "type": "applies_to"
+    },
+    {
+      "source": "сульфатизацию стали",
+      "target": "концентрат флотации остатка хлорного растворения порошка никелевого трубчатых печей",
+      "type": "uses_material"
+    },
+    {
+      "source": "концентрат флотации остатка хлорного растворения порошка никелевого трубчатых печей",
+      "target": "концентрат платино-палладиевый",
+      "type": "produces_output"
+    },
+    {
+      "source": "концентрат флотации остатка хлорного растворения порошка никелевого трубчатых печей",
+      "target": "концентрат металлов спутников платины",
+      "type": "produces_output"
+    },
+    {
+      "source": "концентрат флотации остатка хлорного растворения порошка никелевого трубчатых печей",
+      "target": "концентрат серебряно-палладиевый",
+      "type": "produces_output"
+    },
+    {
+      "source": "изменение природы исходных материалов",
+      "target": "повышение содержания платины и палладия в КПП",
+      "type": "supports"
+    },
+    {
+      "source": "изменение природы исходных материалов",
+      "target": "возможность выпуска марки КПП-0",
+      "type": "supports"
+    },
+    {
+      "source": "изменение природы исходных материалов",
+      "target": "ухудшение распределения металлов спутников платины между КМСП и КПП",
+      "type": "contradicts"
+    },
+    {
+      "source": "ухудшение распределения металлов спутников платины между КМСП и КПП",
+      "target": "дополнительные потери при аффинировании",
+      "type": "supports"
+    },
+    {
+      "source": "электроэкстракция никеля",
+      "target": "изменение природы исходных материалов",
+      "type": "applies_to"
+    },
+    {
+      "source": "электроэкстракция никеля",
+      "target": "технологическая схема",
+      "type": "applies_to"
+    },
+    {
+      "source": "технологическая схема",
+      "target": "рисунок 1",
+      "type": "described_in"
+    },
+    {
+      "source": "таблица 1",
+      "target": "типичный состав платиновых концентратов ХМЦ",
+      "type": "described_in"
+    },
+    {
+      "source": "рисунок 2",
+      "target": "распределение родия между КМСП и КПП",
+      "type": "described_in"
+    },
+    {
+      "source": "2020",
+      "target": "ухудшение ситуации с распределением металлов спутников платины",
+      "type": "has_source"
+    },
+    {
+      "source": "2010-2021 (9 месяцев)",
+      "target": "распределение родия между КМСП и КПП",
+      "type": "has_source"
+    },
+    {
+      "source": "ФК ОХР ПНТП",
+      "target": "матрица",
+      "type": "applies_to"
+    },
+    {
+      "source": "матрица",
+      "target": "халькогенидные фазы драгоценных металлов",
+      "type": "produces_output"
+    },
+    {
+      "source": "матрица",
+      "target": "сульфиды меди-никеля",
+      "type": "produces_output"
+    },
+    {
+      "source": "матрица",
+      "target": "силикатные компоненты шламовой крупности",
+      "type": "produces_output"
+    },
+    {
+      "source": "матрица",
+      "target": "хлориды",
+      "type": "produces_output"
+    },
+    {
+      "source": "хлориды",
+      "target": "хлорид меди",
+      "type": "produces_output"
+    },
+    {
+      "source": "хлориды",
+      "target": "хлорид серебра",
+      "type": "produces_output"
+    },
+    {
+      "source": "матрица",
+      "target": "сера элементарная",
+      "type": "produces_output"
+    },
+    {
+      "source": "матрица",
+      "target": "металлические формы драгоценных металлов",
+      "type": "produces_output"
+    },
+    {
+      "source": "матрица",
+      "target": "мышьяк",
+      "type": "produces_output"
+    },
+    {
+      "source": "матрица",
+      "target": "олово",
+      "type": "produces_output"
+    },
+    {
+      "source": "матрица",
+      "target": "сурьма",
+      "type": "produces_output"
+    },
+    {
+      "source": "матрица",
+      "target": "кислород",
+      "type": "produces_output"
+    },
+    {
+      "source": "матрица",
+      "target": "силикатные компоненты вариантного состава и морфологии",
+      "type": "produces_output"
+    },
+    {
+      "source": "матрица",
+      "target": "корродированные сульфиды цветных металлов",
+      "type": "produces_output"
+    },
+    {
+      "source": "матрица",
+      "target": "частицы оксида никеля",
+      "type": "produces_output"
+    },
+    {
+      "source": "матрица",
+      "target": "углистые соединения",
+      "type": "produces_output"
+    },
+    {
+      "source": "матрица",
+      "target": "сульфат свинца",
+      "type": "produces_output"
+    },
+    {
+      "source": "ФК ОХР ПНТП",
+      "target": "металлизированные твердые растворы на основе платиновых металлов",
+      "type": "produces_output"
+    },
+    {
+      "source": "ФК ОХР ПНТП",
+      "target": "углерод",
+      "type": "produces_output"
+    },
+    {
+      "source": "ФК ОХР ПНТП",
+      "target": "силикатные составляющие",
+      "type": "produces_output"
+    },
+    {
+      "source": "ФК ОХР ПНТП",
+      "target": "мышьяк",
+      "type": "produces_output"
+    },
+    {
+      "source": "ФК ОХР ПНТП",
+      "target": "серебро",
+      "type": "produces_output"
+    },
+    {
+      "source": "ФК ОХР ПНТП",
+      "target": "драгоценные металлы",
+      "type": "produces_output"
+    },
+    {
+      "source": "драгоценные металлы",
+      "target": "субмикронные металлические фазы на основе Pd",
+      "type": "produces_output"
+    },
+    {
+      "source": "драгоценные металлы",
+      "target": "субмикронные металлические фазы на основе Pt-Pd",
+      "type": "produces_output"
+    },
+    {
+      "source": "драгоценные металлы",
+      "target": "субмикронные металлические фазы на основе Au",
+      "type": "produces_output"
+    },
+    {
+      "source": "драгоценные металлы",
+      "target": "сульфиды Pd",
+      "type": "produces_output"
+    },
+    {
+      "source": "драгоценные металлы",
+      "target": "сульфиды Pd-Cu",
+      "type": "produces_output"
+    },
+    {
+      "source": "конгломераты микрочастиц фаз ДМ",
+      "target": "мышьяк",
+      "type": "produces_output"
+    },
+    {
+      "source": "конгломераты микрочастиц фаз ДМ",
+      "target": "селен",
+      "type": "produces_output"
+    },
+    {
+      "source": "конгломераты микрочастиц фаз ДМ",
+      "target": "теллур",
+      "type": "produces_output"
+    },
+    {
+      "source": "ФК ОХР ПНТП",
+      "target": "Таблица 3 – Типичный состав ФК ОХР ПНТП",
+      "type": "described_in"
+    },
+    {
+      "source": "Таблица 3 – Типичный состав ФК ОХР ПНТП",
+      "target": "src_p3",
+      "type": "has_source"
+    },
+    {
+      "source": "флотация",
+      "target": "пенный продукт",
+      "type": "produces_output"
+    },
+    {
+      "source": "пенный продукт",
+      "target": "углерод",
+      "type": "applies_to"
+    },
+    {
+      "source": "пенный продукт",
+      "target": "драгоценные металлы",
+      "type": "applies_to"
+    },
+    {
+      "source": "пенный продукт",
+      "target": "металлические твердые растворы",
+      "type": "applies_to"
+    },
+    {
+      "source": "пенный продукт",
+      "target": "концентрированная серная кислота",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "пенный продукт",
+      "target": "упорность",
+      "type": "measures_property"
+    },
+    {
+      "source": "пенный продукт",
+      "target": "флотация",
+      "type": "described_in"
+    },
+    {
+      "source": "флотация",
+      "target": "шлам электрорафинирования никеля",
+      "type": "contradicts"
+    },
+    {
+      "source": "промышленные испытания",
+      "target": "АО «Кольская ГМК»",
+      "type": "conducted_at"
+    },
+    {
+      "source": "промышленные испытания",
+      "target": "технологический процесс",
+      "type": "applies_to"
+    },
+    {
+      "source": "промышленные испытания",
+      "target": "сульфатизатор периодического действия с электродным нагревом",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "промышленные испытания",
+      "target": "серная кислота",
+      "type": "uses_material"
+    },
+    {
+      "source": "промышленные испытания",
+      "target": "твёрдые продукты",
+      "type": "uses_material"
+    },
+    {
+      "source": "промышленные испытания",
+      "target": "параллельные опыты",
+      "type": "produces_output"
+    },
+    {
+      "source": "аттестованные методики анализа",
+      "target": "атомно-эмиссионная спектрометрия",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "аттестованные методики анализа",
+      "target": "масс-спектрометрия с индуктивно связанной плазмой",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "аттестованные методики анализа",
+      "target": "твердые продукты",
+      "type": "applies_to"
+    },
+    {
+      "source": "аттестованные методики анализа",
+      "target": "жидкие продукты",
+      "type": "applies_to"
+    },
+    {
+      "source": "промышленные испытания",
+      "target": "таблица 4",
+      "type": "described_in"
+    },
+    {
+      "source": "промышленные испытания",
+      "target": "лабораторные исследования",
+      "type": "validated_by"
+    },
+    {
+      "source": "эксперимент_1",
+      "target": "finding_gold_platinum",
+      "type": "showed"
+    },
+    {
+      "source": "эксперимент_1",
+      "target": "finding_copper_nickel",
+      "type": "showed"
+    },
+    {
+      "source": "эксперимент_1",
+      "target": "finding_palladium",
+      "type": "showed"
+    },
+    {
+      "source": "эксперимент_1",
+      "target": "finding_carbon",
+      "type": "showed"
+    },
+    {
+      "source": "эксперимент_1",
+      "target": "finding_platinum_group_metals",
+      "type": "showed"
+    },
+    {
+      "source": "эксперимент_1",
+      "target": "выщелачивание",
+      "type": "applies_to"
+    },
+    {
+      "source": "эксперимент_1",
+      "target": "кек_1_стадия",
+      "type": "applies_to"
+    },
+    {
+      "source": "эксперимент_1",
+      "target": "ФК_ОХР_ПНТП",
+      "type": "applies_to"
+    },
+    {
+      "source": "эксперимент_1",
+      "target": "температура_230",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "эксперимент_1",
+      "target": "длительность_нескольких_десяток_часов",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "эксперимент_1",
+      "target": "источник_p6",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_gold_platinum",
+      "target": "источник_p6",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_copper_nickel",
+      "target": "источник_p6",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_palladium",
+      "target": "источник_p6",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_carbon",
+      "target": "источник_p6",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_platinum_group_metals",
+      "target": "источник_p6",
+      "type": "has_source"
+    },
+    {
+      "source": "температура_230",
+      "target": "источник_p6",
+      "type": "has_source"
+    },
+    {
+      "source": "длительность_нескольких_десяток_часов",
+      "target": "источник_p6",
+      "type": "has_source"
+    },
+    {
+      "source": "выщелачивание",
+      "target": "источник_p6",
+      "type": "has_source"
+    },
+    {
+      "source": "кек_1_стадия",
+      "target": "источник_p6",
+      "type": "has_source"
+    },
+    {
+      "source": "ФК_ОХР_ПНТП",
+      "target": "источник_p6",
+      "type": "has_source"
+    },
+    {
+      "source": "сульфатизация и выщелачивание",
+      "target": "meas_temp_230",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "сульфатизация и выщелачивание",
+      "target": "meas_temp_250",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "meas_temp_230",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_temp_250",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_yield_max_80",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_yield_max_90",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_yield_drop_rh",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_behavior_identical",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_discrepancy_industry_lab",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "промышленный эксперимент",
+      "target": "лабораторный эксперимент",
+      "type": "contradicts"
+    },
+    {
+      "source": "промышленный эксперимент",
+      "target": "репульпатор",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "лабораторный эксперимент",
+      "target": "репульпатор",
+      "type": "contradicts"
+    },
+    {
+      "source": "репульпатор",
+      "target": "температура 100-120 С",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "репульпатор",
+      "target": "выдержка более суток",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "разбавленная серная кислота",
+      "target": "химическое воздействие",
+      "type": "has_measurement"
+    },
+    {
+      "source": "химическое воздействие",
+      "target": "обратное растворение МСП",
+      "type": "supports"
+    },
+    {
+      "source": "обратное растворение МСП",
+      "target": "снижение содержания МСП в кеке",
+      "type": "supports"
+    },
+    {
+      "source": "обратное растворение МСП",
+      "target": "рост извлечения МСП в раствор",
+      "type": "supports"
+    },
+    {
+      "source": "рисунок 3",
+      "target": "лабораторный эксперимент",
+      "type": "described_in"
+    },
+    {
+      "source": "рисунок 3",
+      "target": "промышленный эксперимент",
+      "type": "described_in"
+    },
+    {
+      "source": "промышленный эксперимент",
+      "target": "таблица Ошибка! Источник ссылки не найден.",
+      "type": "described_in"
+    },
+    {
+      "source": "кек I стадии сульфатизации никелевого шлама",
+      "target": "обнаружено различие в поведении целевых компонентов",
+      "type": "showed"
+    },
+    {
+      "source": "пенный продукт ОХР ПНТП",
+      "target": "обнаружено различие в поведении целевых компонентов",
+      "type": "showed"
+    },
+    {
+      "source": "переработка кека I стадии",
+      "target": "снижение извлечения серебра и МСП при высокой температуре",
+      "type": "showed"
+    },
+    {
+      "source": "переработка пенного продукта",
+      "target": "необходима длительная выдержка при 280-300С для достижения показателей кека I стадии",
+      "type": "showed"
+    },
+    {
+      "source": "температура 250-280С",
+      "target": "максимальное извлечение серебра и МСП",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "температура 280-300С",
+      "target": "снижение извлечения серебра и МСП при переработке кека I стадии",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "температура 280-300С",
+      "target": "необходима длительная выдержка при переработке пенного продукта",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "переработка кека I стадии",
+      "target": "длительная выдержка в репульпаторах",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "длительная выдержка в репульпаторах",
+      "target": "нивелирование эффекта снижения извлечения",
+      "type": "produces_output"
+    },
+    {
+      "source": "температура 280-300С",
+      "target": "высокая степень извлечения МСП и серебра",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "высокая степень извлечения МСП и серебра",
+      "target": "установлено различие в поведении серы и углерода",
+      "type": "showed"
+    },
+    {
+      "source": "сера",
+      "target": "сдерживание перехода МСП в раствор",
+      "type": "contradicts"
+    },
+    {
+      "source": "углерод",
+      "target": "сдерживание перехода МСП в раствор",
+      "type": "contradicts"
+    },
+    {
+      "source": "пенный продукт ОХР ПНТП",
+      "target": "упорные формы серы и углерода",
+      "type": "produces_output"
+    },
+    {
+      "source": "обнаружено различие в поведении целевых компонентов",
+      "target": "установлено различие в поведении серы и углерода",
+      "type": "supports"
+    },
+    {
+      "source": "установлено различие в поведении серы и углерода",
+      "target": "обнаружено различие в поведении целевых компонентов",
+      "type": "supports"
+    },
+    {
+      "source": "обратное растворение",
+      "target": "кек",
+      "type": "applies_to"
+    },
+    {
+      "source": "обратное растворение",
+      "target": "МСП",
+      "type": "produces_output"
+    },
+    {
+      "source": "обратное растворение",
+      "target": "температура процесса",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "обратное растворение",
+      "target": "продолжительность выдержки",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "извлечение в раствор МСП",
+      "target": "температура процесса",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "извлечение в раствор МСП",
+      "target": "продолжительность выдержки",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "извлечение в раствор МСП",
+      "target": "монотонное увеличение",
+      "type": "showed"
+    },
+    {
+      "source": "монотонное увеличение",
+      "target": "извлечение в раствор МСП",
+      "type": "showed"
+    },
+    {
+      "source": "извлечение в раствор МСП",
+      "target": "рисунок 4",
+      "type": "described_in"
+    },
+    {
+      "source": "рисунок 4",
+      "target": "извлечение в раствор МСП",
+      "type": "described_in"
+    },
+    {
+      "source": "извлечение в раствор МСП",
+      "target": "палладий",
+      "type": "measures_property"
+    },
+    {
+      "source": "извлечение в раствор МСП",
+      "target": "серебро",
+      "type": "measures_property"
+    },
+    {
+      "source": "извлечение в раствор МСП",
+      "target": "концентрирование углерода в остатке выщелачивания",
+      "type": "measures_property"
+    },
+    {
+      "source": "углерод",
+      "target": "более упорные формы углерода",
+      "type": "applies_to"
+    },
+    {
+      "source": "более упорные формы углерода",
+      "target": "остатки реликтового восстановителя",
+      "type": "applies_to"
+    },
+    {
+      "source": "остатки реликтового восстановителя",
+      "target": "стадия получения ПНТП",
+      "type": "applies_to"
+    },
+    {
+      "source": "более упорные формы углерода",
+      "target": "труднее окисляются горячей серной кислотой",
+      "type": "showed"
+    },
+    {
+      "source": "углистые компоненты кека I",
+      "target": "труднее окисляются горячей серной кислотой",
+      "type": "contradicts"
+    },
+    {
+      "source": "высокотемпературная сульфатизация",
+      "target": "ФК ОХР ПНТП",
+      "type": "applies_to"
+    },
+    {
+      "source": "высокотемпературная сульфатизация",
+      "target": "кек I стадии",
+      "type": "applies_to"
+    },
+    {
+      "source": "высокотемпературная сульфатизация",
+      "target": "сульфатизация никелевого шлама",
+      "type": "applies_to"
+    },
+    {
+      "source": "высокотемпературная сульфатизация",
+      "target": "извлечение драгметаллов",
+      "type": "produces_output"
+    },
+    {
+      "source": "высокотемпературная сульфатизация",
+      "target": "окисление углерода",
+      "type": "measures_property"
+    },
+    {
+      "source": "высокотемпературная сульфатизация",
+      "target": "сорбция металлов-спутников платины",
+      "type": "showed"
+    },
+    {
+      "source": "сорбция металлов-спутников платины",
+      "target": "ФК ОХР ПНТП",
+      "type": "applies_to"
+    },
+    {
+      "source": "сорбция металлов-спутников платины",
+      "target": "углерод",
+      "type": "measures_property"
+    },
+    {
+      "source": "извлечение драгметаллов",
+      "target": "палладий",
+      "type": "applies_to"
+    },
+    {
+      "source": "извлечение драгметаллов",
+      "target": "платина",
+      "type": "applies_to"
+    },
+    {
+      "source": "извлечение драгметаллов",
+      "target": "степень окисления углерода",
+      "type": "measures_property"
+    },
+    {
+      "source": "степень окисления углерода",
+      "target": "ФК ОХР ПНТП",
+      "type": "applies_to"
+    },
+    {
+      "source": "степень окисления углерода",
+      "target": "кек I стадии",
+      "type": "applies_to"
+    },
+    {
+      "source": "степень окисления углерода",
+      "target": "углерод",
+      "type": "measures_property"
+    },
+    {
+      "source": "высокотемпературная сульфатизация",
+      "target": "рисунок 5",
+      "type": "described_in"
+    },
+    {
+      "source": "высокотемпературная сульфатизация",
+      "target": "рисунок 6",
+      "type": "described_in"
+    },
+    {
+      "source": "рисунок 5",
+      "target": "динамика окисления углерода",
+      "type": "described_in"
+    },
+    {
+      "source": "рисунок 6",
+      "target": "взаимосвязь между извлечением драгметаллов и степенью окисления углерода",
+      "type": "described_in"
+    },
+    {
+      "source": "выводы",
+      "target": "высокотемпературная сульфатизация",
+      "type": "showed"
+    },
+    {
+      "source": "выводы",
+      "target": "ФК ОХР ПНТП",
+      "type": "applies_to"
+    },
+    {
+      "source": "выводы",
+      "target": "кек I стадии",
+      "type": "applies_to"
+    },
+    {
+      "source": "выводы",
+      "target": "сульфатизация никелевого шлама",
+      "type": "applies_to"
+    },
+    {
+      "source": "выводы",
+      "target": "извлечение драгметаллов",
+      "type": "showed"
+    },
+    {
+      "source": "выводы",
+      "target": "сорбция металлов-спутников платины",
+      "type": "showed"
+    },
+    {
+      "source": "выводы",
+      "target": "степень окисления углерода",
+      "type": "showed"
+    },
+    {
+      "source": "выводы",
+      "target": "палладий",
+      "type": "showed"
+    },
+    {
+      "source": "выводы",
+      "target": "платина",
+      "type": "showed"
+    },
+    {
+      "source": "выводы",
+      "target": "рисунок 6",
+      "type": "described_in"
+    },
+    {
+      "source": "выводы",
+      "target": "рисунок 5",
+      "type": "described_in"
+    },
+    {
+      "source": "выводы",
+      "target": "источник_страница_8",
+      "type": "has_source"
+    },
+    {
+      "source": "рисунок 5",
+      "target": "источник_страница_8",
+      "type": "has_source"
+    },
+    {
+      "source": "рисунок 6",
+      "target": "источник_страница_8",
+      "type": "has_source"
+    },
+    {
+      "source": "КПП-1",
+      "target": "meas_Pd_22_1_to_41_5",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Pd_22_1_to_41_5",
+      "target": "Pd",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Pd_22_1_to_41_5",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "КПП-1",
+      "target": "meas_Pt_4_48_to_7_57",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Pt_4_48_to_7_57",
+      "target": "Pt",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Pt_4_48_to_7_57",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "КПП-1",
+      "target": "meas_Au_0_74_to_1_17",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Au_0_74_to_1_17",
+      "target": "золото",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Au_0_74_to_1_17",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "КПП-1",
+      "target": "meas_Ag_1_06_to_5_19",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Ag_1_06_to_5_19",
+      "target": "серебро",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Ag_1_06_to_5_19",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "КПП-1",
+      "target": "meas_Rh_0_098_to_0_44",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Rh_0_098_to_0_44",
+      "target": "Rh",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Rh_0_098_to_0_44",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "КПП-1",
+      "target": "meas_Ru_0_04_to_0_15",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Ru_0_04_to_0_15",
+      "target": "Ru",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Ru_0_04_to_0_15",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "КПП-1",
+      "target": "meas_Ir_0_001_to_0_06",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Ir_0_001_to_0_06",
+      "target": "Ir",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Ir_0_001_to_0_06",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "КПП-1",
+      "target": "meas_Cu_0_35_to_2_23",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Cu_0_35_to_2_23",
+      "target": "медь",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Cu_0_35_to_2_23",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "КПП-1",
+      "target": "meas_Ni_0_12_to_1_82",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Ni_0_12_to_1_82",
+      "target": "никель",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Ni_0_12_to_1_82",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "КПП-1",
+      "target": "meas_Se_0_001_to_0_06",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Se_0_001_to_0_06",
+      "target": "Se",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Se_0_001_to_0_06",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "отчет по теме «Переработка шламов. Усовершенствование технологии извлечения платиноидов, селена и теллура из электролитных шламов на базе метода ЛГИ-Североникеля.»",
+      "target": "КПП-1",
+      "type": "described_in"
+    },
+    {
+      "source": "отчет по теме «Переработка шламов. Усовершенствование технологии извлечения платиноидов, селена и теллура из электролитных шламов на базе метода ЛГИ-Североникеля.»",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "КПП-1",
+      "target": "ЛГИ-Североникеля",
+      "type": "uses_material"
+    },
+    {
+      "source": "ЛГИ-Североникеля",
+      "target": "переработка шламов",
+      "type": "applies_to"
+    },
+    {
+      "source": "переработка шламов",
+      "target": "отчет по теме «Переработка шламов. Усовершенствование технологии извлечения платиноидов, селена и теллура из электролитных шламов на базе метода ЛГИ-Североникеля.»",
+      "type": "described_in"
+    },
+    {
+      "source": "отчет по теме «Переработка шламов. Усовершенствование технологии извлечения платиноидов, селена и теллура из электролитных шламов на базе метода ЛГИ-Североникеля.»",
+      "target": "Мончегорск-Ленинград",
+      "type": "conducted_at"
+    },
+    {
+      "source": "отчет по теме «Переработка шламов. Усовершенствование технологии извлечения платиноидов, селена и теллура из электролитных шламов на базе метода ЛГИ-Североникеля.»",
+      "target": "1971",
+      "type": "conducted_at"
+    },
+    {
+      "source": "отчет о НИР «Корректировка технологического регламента для проектирования технологии производства богатых селективных концентратов ДМ и товарных концентратов Se и Te на промплощадке АО «Кольская ГМК» при переработке всех ДМ содержащих промпродуктов рафинировочного производства ПАО «ГМК «Норильский никель»»",
+      "target": "КПП-1",
+      "type": "described_in"
+    },
+    {
+      "source": "отчет о НИР «Корректировка технологического регламента для проектирования технологии производства богатых селективных концентратов ДМ и товарных концентратов Se и Te на промплощадке АО «Кольская ГМК» при переработке всех ДМ содержащих промпродуктов рафинировочного производства ПАО «ГМК «Норильский никель»»",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "отчет о НИР «Корректировка технологического регламента для проектирования технологии производства богатых селективных концентратов ДМ и товарных концентратов Se и Te на промплощадке АО «Кольская ГМК» при переработке всех ДМ содержащих промпродуктов рафинировочного производства ПАО «ГМК «Норильский никель»»",
+      "target": "Санкт-Петербург",
+      "type": "conducted_at"
+    },
+    {
+      "source": "отчет о НИР «Корректировка технологического регламента для проектирования технологии производства богатых селективных концентратов ДМ и товарных концентратов Se и Te на промплощадке АО «Кольская ГМК» при переработке всех ДМ содержащих промпродуктов рафинировочного производства ПАО «ГМК «Норильский никель»»",
+      "target": "2021",
+      "type": "conducted_at"
+    },
+    {
+      "source": "отчет о НИР «Корректировка технологического регламента для проектирования технологии производства богатых селективных концентратов ДМ и товарных концентратов Se и Te на промплощадке АО «Кольская ГМК» при переработке всех ДМ содержащих промпродуктов рафинировочного производства ПАО «ГМК «Норильский никель»»",
+      "target": "АО «Кольская ГМК»",
+      "type": "conducted_at"
+    },
+    {
+      "source": "отчет о НИР «Корректировка технологического регламента для проектирования технологии производства богатых селективных концентратов ДМ и товарных концентратов Se и Te на промплощадке АО «Кольская ГМК» при переработке всех ДМ содержащих промпродуктов рафинировочного производства ПАО «ГМК «Норильский никель»»",
+      "target": "ПАО «ГМК «Норильский никель»",
+      "type": "conducted_at"
+    },
+    {
+      "source": "отчет о НИР «Корректировка технологического регламента для проектирования технологии производства богатых селективных концентратов ДМ и товарных концентратов Se и Te на промплощадке АО «Кольская ГМК» при переработке всех ДМ содержащих промпродуктов рафинировочного производства ПАО «ГМК «Норильский никель»»",
+      "target": "Рисунок 1 – Принципиальная схема переработке шламов электрорафинирования никеля и остатков хлорного растворения НПТП",
+      "type": "described_in"
+    },
+    {
+      "source": "Рисунок 1 – Принципиальная схема переработке шламов электрорафинирования никеля и остатков хлорного растворения НПТП",
+      "target": "переработка шламов",
+      "type": "applies_to"
+    },
+    {
+      "source": "Рисунок 1 – Принципиальная схема переработке шламов электрорафинирования никеля и остатков хлорного растворения НПТП",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "варка в режиме от 230 до 250 С",
+      "target": "meas_temp_250",
+      "type": "has_measurement"
+    },
+    {
+      "source": "варка в режиме от 250 до 280 С",
+      "target": "meas_temp_280",
+      "type": "has_measurement"
+    },
+    {
+      "source": "варка в режиме от 260 до 300 С",
+      "target": "meas_temp_300",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_temp_250",
+      "target": "temp",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_temp_280",
+      "target": "temp",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_temp_300",
+      "target": "temp",
+      "type": "measures_property"
+    },
+    {
+      "source": "лабораторное выщелачивание",
+      "target": "meas_pt_12_4",
+      "type": "has_measurement"
+    },
+    {
+      "source": "лабораторное выщелачивание",
+      "target": "meas_pd_34_8",
+      "type": "has_measurement"
+    },
+    {
+      "source": "лабораторное выщелачивание",
+      "target": "meas_rh_0_267",
+      "type": "has_measurement"
+    },
+    {
+      "source": "лабораторное выщелачивание",
+      "target": "meas_ru_0_077",
+      "type": "has_measurement"
+    },
+    {
+      "source": "лабораторное выщелачивание",
+      "target": "meas_ir_0_048",
+      "type": "has_measurement"
+    },
+    {
+      "source": "лабораторное выщелачивание",
+      "target": "meas_ag_0_28",
+      "type": "has_measurement"
+    },
+    {
+      "source": "лабораторное выщелачивание",
+      "target": "meas_au_1_63",
+      "type": "has_measurement"
+    },
+    {
+      "source": "промышленное выщелачивание",
+      "target": "meas_pt_11_75",
+      "type": "has_measurement"
+    },
+    {
+      "source": "промышленное выщелачивание",
+      "target": "meas_pd_35_01",
+      "type": "has_measurement"
+    },
+    {
+      "source": "промышленное выщелачивание",
+      "target": "meas_rh_0_115",
+      "type": "has_measurement"
+    },
+    {
+      "source": "промышленное выщелачивание",
+      "target": "meas_ru_0_054",
+      "type": "has_measurement"
+    },
+    {
+      "source": "промышленное выщелачивание",
+      "target": "meas_ir_0_025",
+      "type": "has_measurement"
+    },
+    {
+      "source": "промышленное выщелачивание",
+      "target": "meas_ag_1_49",
+      "type": "has_measurement"
+    },
+    {
+      "source": "промышленное выщелачивание",
+      "target": "meas_au_1_46",
+      "type": "has_measurement"
+    },
+    {
+      "source": "лабораторное выщелачивание",
+      "target": "meas_pt_13_2",
+      "type": "has_measurement"
+    },
+    {
+      "source": "лабораторное выщелачивание",
+      "target": "meas_pd_26_8",
+      "type": "has_measurement"
+    },
+    {
+      "source": "лабораторное выщелачивание",
+      "target": "meas_rh_0_727",
+      "type": "has_measurement"
+    },
+    {
+      "source": "лабораторное выщелачивание",
+      "target": "meas_ru_0_149",
+      "type": "has_measurement"
+    },
+    {
+      "source": "лабораторное выщелачивание",
+      "target": "meas_ir_0_075",
+      "type": "has_measurement"
+    },
+    {
+      "source": "лабораторное выщелачивание",
+      "target": "meas_ag_0_85",
+      "type": "has_measurement"
+    },
+    {
+      "source": "лабораторное выщелачивание",
+      "target": "meas_au_1_77",
+      "type": "has_measurement"
+    },
+    {
+      "source": "промышленное выщелачивание",
+      "target": "meas_pt_12_66",
+      "type": "has_measurement"
+    },
+    {
+      "source": "промышленное выщелачивание",
+      "target": "meas_pd_31_41",
+      "type": "has_measurement"
+    },
+    {
+      "source": "промышленное выщелачивание",
+      "target": "meas_rh_0_20",
+      "type": "has_measurement"
+    },
+    {
+      "source": "промышленное выщелачивание",
+      "target": "meas_ru_0_07",
+      "type": "has_measurement"
+    },
+    {
+      "source": "промышленное выщелачивание",
+      "target": "meas_ir_0_03",
+      "type": "has_measurement"
+    },
+    {
+      "source": "промышленное выщелачивание",
+      "target": "meas_ag_1_67",
+      "type": "has_measurement"
+    },
+    {
+      "source": "промышленное выщелачивание",
+      "target": "meas_au_1_63",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_temp_250",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_temp_280",
+      "target": "src_p6",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_temp_300",
+      "target": "src_p7",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_pt_12_4",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_pd_34_8",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_rh_0_267",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_ru_0_077",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_ir_0_048",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_ag_0_28",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_au_1_63",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_pt_11_75",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_pd_35_01",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_rh_0_115",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_ru_0_054",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_ir_0_025",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_ag_1_49",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_au_1_46",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_pt_13_2",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_pd_26_8",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_rh_0_727",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_ru_0_149",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_ir_0_075",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_ag_0_85",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_au_1_77",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_pt_12_66",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_pd_31_41",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_rh_0_20",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_ru_0_07",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_ir_0_03",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_ag_1_67",
+      "target": "src_p1",
+      "type": "has_source"
+    }
+  ]
+}
