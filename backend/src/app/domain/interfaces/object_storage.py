@@ -9,3 +9,7 @@ class IObjectStorage(ABC):
     @abstractmethod
     async def put(self, key: str, data: bytes, content_type: str) -> None:
         """Store ``data`` under ``key``, overwriting any existing object."""
+
+    @abstractmethod
+    async def get(self, key: str) -> bytes:
+        """Retrieve the bytes stored under ``key``."""
