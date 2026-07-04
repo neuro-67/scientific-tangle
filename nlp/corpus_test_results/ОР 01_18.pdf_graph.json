@@ -1,0 +1,1685 @@
+{
+  "document": "ОР 01_18.pdf",
+  "nodes": [
+    {
+      "id": "аннотация",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "аннотация",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107777"
+      }
+    },
+    {
+      "id": "Украина",
+      "label": "Facility",
+      "properties": {
+        "country": "Украина",
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "Украина",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107854"
+      }
+    },
+    {
+      "id": "1970",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "description": "Год защиты диссертации",
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "1970",
+        "type": "year",
+        "ingestion_date": "2026-07-04T18:42:39.107829"
+      }
+    },
+    {
+      "id": "минеральное сырье",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "минеральное сырье",
+        "type": "различные виды",
+        "ingestion_date": "2026-07-04T18:42:39.107761"
+      }
+    },
+    {
+      "id": "институт «Уралмеханобр»",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "институт «Уралмеханобр»",
+        "ingestion_date": "2026-07-04T18:42:39.107765"
+      }
+    },
+    {
+      "id": "изобретения",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "count": 70,
+        "source_document": "ОР 01_18.pdf",
+        "id": "изобретения",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107753"
+      }
+    },
+    {
+      "id": "Gusev V. P.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "Gusev V. P.",
+        "ingestion_date": "2026-07-04T18:42:39.107593"
+      }
+    },
+    {
+      "id": "Dobromyslov A. Ya.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "Dobromyslov A. Ya.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107608"
+      }
+    },
+    {
+      "id": "Kibirev V. I., Dedushenko I. A., Avksentyev S. Yu., Aleksandrov V. I.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "Kibirev V. I., Dedushenko I. A., Avksentyev S. Yu., Aleksandrov V. I.",
+        "ingestion_date": "2026-07-04T18:42:39.107611"
+      }
+    },
+    {
+      "id": "Alexandrov V., Vasilyeva M.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "Alexandrov V., Vasilyeva M.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107613"
+      }
+    },
+    {
+      "id": "Vasilyev A. L., Vasilyeva M. A.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "Vasilyev A. L., Vasilyeva M. A.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107616"
+      }
+    },
+    {
+      "id": "Basics of hydraulics: manual",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "Basics of hydraulics: manual",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107619"
+      }
+    },
+    {
+      "id": "Tables for hydraulic calculations of pipelines made of polymer materials. Vol. 1. Pressure pipelines",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "Tables for hydraulic calculations of pipelines made of polymer materials. Vol. 1. Pressure pipelines",
+        "ingestion_date": "2026-07-04T18:42:39.107621"
+      }
+    },
+    {
+      "id": "Energy efficiency of application of pipes with polyurethane coating",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "Energy efficiency of application of pipes with polyurethane coating",
+        "ingestion_date": "2026-07-04T18:42:39.107623"
+      }
+    },
+    {
+      "id": "Estimation of efficiency of hydrotransport pipelines polyurethane coating compared to steel pipelines",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "Estimation of efficiency of hydrotransport pipelines polyurethane coating compared to steel pipelines",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107625"
+      }
+    },
+    {
+      "id": "The use of hydraulic tabs on the basis of hardening mixtures from potash waste",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "The use of hydraulic tabs on the basis of hardening mixtures from potash waste",
+        "ingestion_date": "2026-07-04T18:42:39.107627"
+      }
+    },
+    {
+      "id": "Tomsk: Publ. Tomskiy Politekhnicheskiy Universitet",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "Tomsk: Publ. Tomskiy Politekhnicheskiy Universitet",
+        "ingestion_date": "2026-07-04T18:42:39.107630"
+      }
+    },
+    {
+      "id": "Moscow: Publ. VNIIMP",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "Moscow: Publ. VNIIMP",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107632"
+      }
+    },
+    {
+      "id": "Obogashchenie Rud. 2017. No. 2. pp. 54–59",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "Obogashchenie Rud. 2017. No. 2. pp. 54–59",
+        "ingestion_date": "2026-07-04T18:42:39.107635",
+        "span": "p.54"
+      }
+    },
+    {
+      "id": "Proc. of the 18th International Conference on Transport and Sedimentation of Solid Particles, Praque, September 11–15, 2017. pp. 19–26",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "Proc. of the 18th International Conference on Transport and Sedimentation of Solid Particles, Praque, September 11–15, 2017. pp. 19–26",
+        "ingestion_date": "2026-07-04T18:42:39.107637",
+        "span": "p.19"
+      }
+    },
+    {
+      "id": "Proceedings of the VIII All-Russian Conference «Problems of the development of hydrocarbon raw materials and ore minerals». Perm’: Publ. Permskiy Natsionalnyi Issledovatelskiy Politekhnicheskiy Universitet, 2015. pp. 224–227",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "Proceedings of the VIII All-Russian Conference «Problems of the development of hydrocarbon raw materials and ore minerals». Perm’: Publ. Permskiy Natsionalnyi Issledovatelskiy Politekhnicheskiy Universitet, 2015. pp. 224–227",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107639",
+        "span": "p.224"
+      }
+    },
+    {
+      "id": "kachkanarsky_mcc_tailings_disposal_system",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "kachkanarsky_mcc_tailings_disposal_system",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107641"
+      }
+    },
+    {
+      "id": "thickened_tailings_slurry",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "thickened_tailings_slurry",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107646"
+      }
+    },
+    {
+      "id": "polyurethane_coating",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "polyurethane_coating",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107648"
+      }
+    },
+    {
+      "id": "internal_surface",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "internal_surface",
+        "ingestion_date": "2026-07-04T18:42:39.107650"
+      }
+    },
+    {
+      "id": "head_losses",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "head_losses",
+        "ingestion_date": "2026-07-04T18:42:39.107652"
+      }
+    },
+    {
+      "id": "hydraulic_transport_distance",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "hydraulic_transport_distance",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107654"
+      }
+    },
+    {
+      "id": "laboratory_studies",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "laboratory_studies",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107656"
+      }
+    },
+    {
+      "id": "pilot_scale_testing",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "pilot_scale_testing",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107658"
+      }
+    },
+    {
+      "id": "calculation_methodology_development",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "ОР 01_18.pdf",
+        "id": "calculation_methodology_development",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107697"
+      }
+    },
+    {
+      "id": "hydrotransport_performance_evaluation",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "ОР 01_18.pdf",
+        "id": "hydrotransport_performance_evaluation",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107701"
+      }
+    },
+    {
+      "id": "finding_head_losses_reduction",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "ОР 01_18.pdf",
+        "id": "finding_head_losses_reduction",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107705"
+      }
+    },
+    {
+      "id": "meas_head_losses_reduction_175",
+      "label": "Measurement",
+      "properties": {
+        "unit": "factor",
+        "confidence": 0.5,
+        "verified": true,
+        "description": "reduction factor of specific head losses",
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "meas_head_losses_reduction_175",
+        "value": 1.75,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T18:42:39.107708"
+      }
+    },
+    {
+      "id": "finding_hydraulic_transport_distance_increase",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "finding_hydraulic_transport_distance_increase",
+        "ingestion_date": "2026-07-04T18:42:39.107712"
+      }
+    },
+    {
+      "id": "finding_energy_saving_potential",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "ОР 01_18.pdf",
+        "id": "finding_energy_saving_potential",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107718"
+      }
+    },
+    {
+      "id": "technical_and_economic_calculations",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "technical_and_economic_calculations",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107722"
+      }
+    },
+    {
+      "id": "finding_economic_efficiency",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "ОР 01_18.pdf",
+        "id": "finding_economic_efficiency",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107727"
+      }
+    },
+    {
+      "id": "project_upgrade_proposal",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "project_upgrade_proposal",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107730"
+      }
+    },
+    {
+      "id": "solid_phase_mass_fraction_35_40",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 35,
+        "max": 40,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "solid_phase_mass_fraction_35_40",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T18:42:39.107733"
+      }
+    },
+    {
+      "id": "topic_hydraulic_transport",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "topic_hydraulic_transport",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107738"
+      }
+    },
+    {
+      "id": "topic_thickened_tailings",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "topic_thickened_tailings",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107740"
+      }
+    },
+    {
+      "id": "topic_coatings",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "topic_coatings",
+        "ingestion_date": "2026-07-04T18:42:39.107742"
+      }
+    },
+    {
+      "id": "topic_head_losses",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "topic_head_losses",
+        "ingestion_date": "2026-07-04T18:42:39.107744"
+      }
+    },
+    {
+      "id": "topic_laboratory_testing",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "topic_laboratory_testing",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107746"
+      }
+    },
+    {
+      "id": "topic_pilot_testing",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "topic_pilot_testing",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107748"
+      }
+    },
+    {
+      "id": "Лев Алексеевич",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "Лев Алексеевич",
+        "validation_status": "pending",
+        "email": "obrud@mekhanobr.spb.ru",
+        "ingestion_date": "2026-07-04T18:42:39.107751"
+      }
+    },
+    {
+      "id": "научные публикации",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "count": 80,
+        "source_document": "ОР 01_18.pdf",
+        "id": "научные публикации",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107756"
+      }
+    },
+    {
+      "id": "аппараты для магнитной сепарации",
+      "label": "Equipment",
+      "properties": {
+        "domain": "обогащение",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "аппараты для магнитной сепарации",
+        "ingestion_date": "2026-07-04T18:42:39.107759"
+      }
+    },
+    {
+      "id": "горно-обогатительные предприятия Украины, России и Казахстана",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "countries": [
+          "Украина",
+          "Россия",
+          "Казахстан"
+        ],
+        "id": "горно-обогатительные предприятия Украины, России и Казахстана",
+        "ingestion_date": "2026-07-04T18:42:39.107763"
+      }
+    },
+    {
+      "id": "институт «Механобрчермет»",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "институт «Механобрчермет»",
+        "ingestion_date": "2026-07-04T18:42:39.107767"
+      }
+    },
+    {
+      "id": "сопроводительное письмо",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "сопроводительное письмо",
+        "ingestion_date": "2026-07-04T18:42:39.107773"
+      }
+    },
+    {
+      "id": "перечень ключевых слов",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "перечень ключевых слов",
+        "ingestion_date": "2026-07-04T18:42:39.107780"
+      }
+    },
+    {
+      "id": "сведения об авторах",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "сведения об авторах",
+        "ingestion_date": "2026-07-04T18:42:39.107784"
+      }
+    },
+    {
+      "id": "требования к статье",
+      "label": "Topic",
+      "properties": {
+        "max_articles_per_author_per_year": 2,
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "требования к статье",
+        "validation_status": "pending",
+        "signs_per_page": 2000,
+        "count_authors_max": 4,
+        "ingestion_date": "2026-07-04T18:42:39.107786"
+      }
+    },
+    {
+      "id": "Лев Алексеевич Ломовцев",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "orcid": "0000-0002-1234-5678",
+        "id": "Лев Алексеевич Ломовцев",
+        "validation_status": "pending",
+        "position": "Заместитель директора по научной работе — начальник специального конструкторско-технологического бюро",
+        "email": "lev.alexeevich.lomovtsev@mechanobrchermet.com.ua",
+        "ingestion_date": "2026-07-04T18:42:39.107788"
+      }
+    },
+    {
+      "id": "магнитная сепарация минерального сырья",
+      "label": "Process",
+      "properties": {
+        "domain": "обогащение руд",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "магнитная сепарация минерального сырья",
+        "ingestion_date": "2026-07-04T18:42:39.107790"
+      }
+    },
+    {
+      "id": "обогатительное оборудование",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "обогатительное оборудование",
+        "type": "аппараты для магнитной сепарации",
+        "ingestion_date": "2026-07-04T18:42:39.107792"
+      }
+    },
+    {
+      "id": "Опытно-конструкторские работы по созданию обогатительного оборудования",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "description": "Разработка и тестирование новых аппаратов для магнитной сепарации минерального сырья",
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "Опытно-конструкторские работы по созданию обогатительного оборудования",
+        "ingestion_date": "2026-07-04T18:42:39.107795"
+      }
+    },
+    {
+      "id": "Механобрчермет",
+      "label": "Facility",
+      "properties": {
+        "country": "Украина",
+        "city": "Кривой Рог",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "Механобрчермет",
+        "ingestion_date": "2026-07-04T18:42:39.107797"
+      }
+    },
+    {
+      "id": "Уралмеханобра",
+      "label": "Facility",
+      "properties": {
+        "country": "СССР",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "Уралмеханобра",
+        "validation_status": "pending",
+        "region": "Урал",
+        "ingestion_date": "2026-07-04T18:42:39.107799"
+      }
+    },
+    {
+      "id": "ЦНИГРИ",
+      "label": "Facility",
+      "properties": {
+        "country": "СССР",
+        "city": "Чита",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "ЦНИГРИ",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107802"
+      }
+    },
+    {
+      "id": "Московский горный институт",
+      "label": "Facility",
+      "properties": {
+        "country": "СССР",
+        "city": "Москва",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "Московский горный институт",
+        "ingestion_date": "2026-07-04T18:42:39.107804"
+      }
+    },
+    {
+      "id": "Государственная премия Украины",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "Государственная премия Украины",
+        "ingestion_date": "2026-07-04T18:42:39.107807"
+      }
+    },
+    {
+      "id": "Академия горных наук Украины",
+      "label": "Facility",
+      "properties": {
+        "country": "Украина",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "Академия горных наук Украины",
+        "ingestion_date": "2026-07-04T18:42:39.107809"
+      }
+    },
+    {
+      "id": "диссертация",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "диссертация",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107811"
+      }
+    },
+    {
+      "id": "канд. техн. наук",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "description": "Кандидат технических наук",
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "канд. техн. наук",
+        "ingestion_date": "2026-07-04T18:42:39.107813"
+      }
+    },
+    {
+      "id": "разработка аппаратов",
+      "label": "Process",
+      "properties": {
+        "domain": "обогащение руд",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "разработка аппаратов",
+        "ingestion_date": "2026-07-04T18:42:39.107816"
+      }
+    },
+    {
+      "id": "горно-обогатительные предприятия черной металлургии",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "industry": "черная металлургия",
+        "validation_status": "pending",
+        "id": "горно-обогатительные предприятия черной металлургии",
+        "ingestion_date": "2026-07-04T18:42:39.107818"
+      }
+    },
+    {
+      "id": "ОБОГАЩЕНИЕ РУД",
+      "label": "Publication",
+      "properties": {
+        "volume": "2018",
+        "pages": "56–63",
+        "issue": "No. 1",
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "ОБОГАЩЕНИЕ РУД",
+        "ingestion_date": "2026-07-04T18:42:39.107820",
+        "doi": "10.17580/or.2018.01.10"
+      }
+    },
+    {
+      "id": "Пермский национальный исследовательский политехнический университет",
+      "label": "Facility",
+      "properties": {
+        "established": "2015",
+        "country": "Россия",
+        "city": "Пермь",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "Пермский национальный исследовательский политехнический университет",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107822"
+      }
+    },
+    {
+      "id": "1937",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "description": "Год рождения Льва Алексеевича Ломовцева",
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "1937",
+        "ingestion_date": "2026-07-04T18:42:39.107824"
+      }
+    },
+    {
+      "id": "1960",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "description": "Год окончания Московского горного института",
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "1960",
+        "ingestion_date": "2026-07-04T18:42:39.107827"
+      }
+    },
+    {
+      "id": "17 августа 1937 года",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "description": "Дата рождения Льва Алексеевича Ломовцева",
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "17 августа 1937 года",
+        "ingestion_date": "2026-07-04T18:42:39.107837"
+      }
+    },
+    {
+      "id": "3 декабря 2017 года",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "description": "Дата смерти Льва Алексеевича Ломовцева",
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "3 декабря 2017 года",
+        "ingestion_date": "2026-07-04T18:42:39.107839"
+      }
+    },
+    {
+      "id": "Балашов",
+      "label": "Facility",
+      "properties": {
+        "country": "СССР",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "Балашов",
+        "validation_status": "pending",
+        "region": "Саратовская область",
+        "ingestion_date": "2026-07-04T18:42:39.107842"
+      }
+    },
+    {
+      "id": "Саратовская область",
+      "label": "Facility",
+      "properties": {
+        "country": "СССР",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "Саратовская область",
+        "ingestion_date": "2026-07-04T18:42:39.107844"
+      }
+    },
+    {
+      "id": "Кривой Рог",
+      "label": "Facility",
+      "properties": {
+        "country": "Украина",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "Кривой Рог",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107846"
+      }
+    },
+    {
+      "id": "Чита",
+      "label": "Facility",
+      "properties": {
+        "country": "СССР",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "Чита",
+        "ingestion_date": "2026-07-04T18:42:39.107848"
+      }
+    },
+    {
+      "id": "СССР",
+      "label": "Facility",
+      "properties": {
+        "country": "СССР",
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "СССР",
+        "ingestion_date": "2026-07-04T18:42:39.107860"
+      }
+    },
+    {
+      "id": "pp. 224–227",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "pp. 224–227",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107863",
+        "span": "p.224–227"
+      }
+    },
+    {
+      "id": "pp. 56–63",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "pp. 56–63",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107866",
+        "span": "p.56–63"
+      }
+    },
+    {
+      "id": "p.65",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "validation_status": "pending",
+        "id": "p.65",
+        "ingestion_date": "2026-07-04T18:42:39.107868",
+        "span": "p.65"
+      }
+    },
+    {
+      "id": "DOI: 10.17580/or.2018.01.10",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "ОР 01_18.pdf",
+        "id": "DOI: 10.17580/or.2018.01.10",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:42:39.107870",
+        "span": "p.56–63"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Gusev V. P.",
+      "target": "Basics of hydraulics: manual",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Dobromyslov A. Ya.",
+      "target": "Tables for hydraulic calculations of pipelines made of polymer materials. Vol. 1. Pressure pipelines",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Kibirev V. I., Dedushenko I. A., Avksentyev S. Yu., Aleksandrov V. I.",
+      "target": "Energy efficiency of application of pipes with polyurethane coating",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Alexandrov V., Vasilyeva M.",
+      "target": "Estimation of efficiency of hydrotransport pipelines polyurethane coating compared to steel pipelines",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Vasilyev A. L., Vasilyeva M. A.",
+      "target": "The use of hydraulic tabs on the basis of hardening mixtures from potash waste",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Basics of hydraulics: manual",
+      "target": "Tomsk: Publ. Tomskiy Politekhnicheskiy Universitet",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Tables for hydraulic calculations of pipelines made of polymer materials. Vol. 1. Pressure pipelines",
+      "target": "Moscow: Publ. VNIIMP",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Energy efficiency of application of pipes with polyurethane coating",
+      "target": "Obogashchenie Rud. 2017. No. 2. pp. 54–59",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Estimation of efficiency of hydrotransport pipelines polyurethane coating compared to steel pipelines",
+      "target": "Proc. of the 18th International Conference on Transport and Sedimentation of Solid Particles, Praque, September 11–15, 2017. pp. 19–26",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "The use of hydraulic tabs on the basis of hardening mixtures from potash waste",
+      "target": "Proceedings of the VIII All-Russian Conference «Problems of the development of hydrocarbon raw materials and ore minerals». Perm’: Publ. Permskiy Natsionalnyi Issledovatelskiy Politekhnicheskiy Universitet, 2015. pp. 224–227",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "kachkanarsky_mcc_tailings_disposal_system",
+      "target": "hydrotransport",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "hydrotransport",
+      "target": "thickened_tailings_slurry",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "hydrotransport",
+      "target": "polyurethane_coating",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "polyurethane_coating",
+      "target": "internal_surface",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "hydrotransport",
+      "target": "head_losses",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "hydrotransport",
+      "target": "hydraulic_transport_distance",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "laboratory_studies",
+      "target": "hydrotransport",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "pilot_scale_testing",
+      "target": "hydrotransport",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "laboratory_studies",
+      "target": "calculation_methodology_development",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "pilot_scale_testing",
+      "target": "hydrotransport_performance_evaluation",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "hydrotransport_performance_evaluation",
+      "target": "finding_head_losses_reduction",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_head_losses_reduction",
+      "target": "meas_head_losses_reduction_175",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_head_losses_reduction_175",
+      "target": "head_losses",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "finding_head_losses_reduction",
+      "target": "src_p1",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_hydraulic_transport_distance_increase",
+      "target": "src_p1",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_energy_saving_potential",
+      "target": "src_p1",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "technical_and_economic_calculations",
+      "target": "finding_economic_efficiency",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "finding_economic_efficiency",
+      "target": "src_p1",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "project_upgrade_proposal",
+      "target": "hydrotransport",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "project_upgrade_proposal",
+      "target": "thickened_tailings_slurry",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "project_upgrade_proposal",
+      "target": "polyurethane_coating",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "project_upgrade_proposal",
+      "target": "solid_phase_mass_fraction_35_40",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "solid_phase_mass_fraction_35_40",
+      "target": "thickened_tailings_slurry",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "project_upgrade_proposal",
+      "target": "src_p1",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "hydrotransport",
+      "target": "topic_hydraulic_transport",
+      "type": "TAGGED"
+    },
+    {
+      "source": "thickened_tailings_slurry",
+      "target": "topic_thickened_tailings",
+      "type": "TAGGED"
+    },
+    {
+      "source": "polyurethane_coating",
+      "target": "topic_coatings",
+      "type": "TAGGED"
+    },
+    {
+      "source": "head_losses",
+      "target": "topic_head_losses",
+      "type": "TAGGED"
+    },
+    {
+      "source": "laboratory_studies",
+      "target": "topic_laboratory_testing",
+      "type": "TAGGED"
+    },
+    {
+      "source": "pilot_scale_testing",
+      "target": "topic_pilot_testing",
+      "type": "TAGGED"
+    },
+    {
+      "source": "Лев Алексеевич",
+      "target": "изобретения",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "изобретения",
+      "target": "аппараты для магнитной сепарации",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "аппараты для магнитной сепарации",
+      "target": "горно-обогатительные предприятия Украины, России и Казахстана",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "научные публикации",
+      "target": "журнал «Обогащение руд»",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "журнал «Обогащение руд»",
+      "target": "сопроводительное письмо",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "журнал «Обогащение руд»",
+      "target": "сопроводительное письмо",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "журнал «Обогащение руд»",
+      "target": "статья",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "журнал «Обогащение руд»",
+      "target": "аннотация",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "журнал «Обогащение руд»",
+      "target": "перечень ключевых слов",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "журнал «Обогащение руд»",
+      "target": "список литературы",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "журнал «Обогащение руд»",
+      "target": "сведения об авторах",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "журнал «Обогащение руд»",
+      "target": "требования к статье",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "аппараты для магнитной сепарации",
+      "target": "минеральное сырье",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "аппараты для магнитной сепарации",
+      "target": "минеральное сырье",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Лев Алексеевич",
+      "target": "институт «Уралмеханобр»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "Лев Алексеевич",
+      "target": "институт «Механобрчермет»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "Лев Алексеевич",
+      "target": "институт «Механобр»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "научные публикации",
+      "target": "Лев Алексеевич",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "изобретения",
+      "target": "Лев Алексеевич",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "научные публикации",
+      "target": "изобретения",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "изобретения",
+      "target": "научные публикации",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "магнитная сепарация минерального сырья",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "магнитная сепарация минерального сырья",
+      "target": "обогатительное оборудование",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "обогатительное оборудование",
+      "target": "Лев Алексеевич Ломовцев",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "Опытно-конструкторские работы по созданию обогатительного оборудования",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Опытно-конструкторские работы по созданию обогатительного оборудования",
+      "target": "Механобрчермет",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Механобрчермет",
+      "target": "Кривой Рог",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Механобрчермет",
+      "target": "Украина",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Механобрчермет",
+      "target": "Украина",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Механобрчермет",
+      "target": "Украина",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "Уралмеханобра",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "ЦНИГРИ",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "ЦНИГРИ",
+      "target": "Чита",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "ЦНИГРИ",
+      "target": "СССР",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "Московский горный институт",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Московский горный институт",
+      "target": "1960",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "Государственная премия Украины",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Государственная премия Украины",
+      "target": "Украина",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Государственная премия Украины",
+      "target": "Украина",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Государственная премия Украины",
+      "target": "Украина",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "Академия горных наук Украины",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "Академия горных наук Украины",
+      "target": "Украина",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Академия горных наук Украины",
+      "target": "Украина",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Академия горных наук Украины",
+      "target": "Украина",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "диссертация",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "диссертация",
+      "target": "1970",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "диссертация",
+      "target": "1970",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "канд. техн. наук",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "канд. техн. наук",
+      "target": "СССР",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "1937",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "Балашов",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "Саратовская область",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "2017",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "2017",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "3 декабря 2017 года",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "Пермский национальный исследовательский политехнический университет",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Пермский национальный исследовательский политехнический университет",
+      "target": "Пермь",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Пермский национальный исследовательский политехнический университет",
+      "target": "Россия",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Пермский национальный исследовательский политехнический университет",
+      "target": "Россия",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Пермский национальный исследовательский политехнический университет",
+      "target": "Россия",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Опытно-конструкторские работы по созданию обогатительного оборудования",
+      "target": "горно-обогатительные предприятия черной металлургии",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "обогатительное оборудование",
+      "target": "горно-обогатительные предприятия черной металлургии",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "горно-обогатительные предприятия черной металлургии",
+      "target": "Украина",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "горно-обогатительные предприятия черной металлургии",
+      "target": "Украина",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "горно-обогатительные предприятия черной металлургии",
+      "target": "Украина",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "горно-обогатительные предприятия черной металлургии",
+      "target": "Россия",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "горно-обогатительные предприятия черной металлургии",
+      "target": "Россия",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "горно-обогатительные предприятия черной металлургии",
+      "target": "Россия",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "горно-обогатительные предприятия черной металлургии",
+      "target": "Казахстан",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "горно-обогатительные предприятия черной металлургии",
+      "target": "Казахстан",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "горно-обогатительные предприятия черной металлургии",
+      "target": "Казахстан",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "горно-обогатительные предприятия черной металлургии",
+      "target": "Казахстан",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "магнитная сепарация минерального сырья",
+      "target": "разработка аппаратов",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "разработка аппаратов",
+      "target": "магнитная сепарация минерального сырья",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "разработка аппаратов",
+      "target": "Лев Алексеевич Ломовцев",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "ОБОГАЩЕНИЕ РУД",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "ОБОГАЩЕНИЕ РУД",
+      "target": "2018",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "ОБОГАЩЕНИЕ РУД",
+      "target": "No. 1",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "ОБОГАЩЕНИЕ РУД",
+      "target": "DOI: 10.17580/or.2018.01.10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "ОБОГАЩЕНИЕ РУД",
+      "target": "RU",
+      "type": "TAGGED"
+    },
+    {
+      "source": "ОБОГАЩЕНИЕ РУД",
+      "target": "RU",
+      "type": "TAGGED"
+    },
+    {
+      "source": "ОБОГАЩЕНИЕ РУД",
+      "target": "pp. 56–63",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Пермский национальный исследовательский политехнический университет",
+      "target": "2015",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Пермский национальный исследовательский политехнический университет",
+      "target": "2015",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Пермский национальный исследовательский политехнический университет",
+      "target": "2015",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Пермский национальный исследовательский политехнический университет",
+      "target": "pp. 224–227",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Пермский национальный исследовательский политехнический университет",
+      "target": "RU",
+      "type": "TAGGED"
+    },
+    {
+      "source": "Пермский национальный исследовательский политехнический университет",
+      "target": "RU",
+      "type": "TAGGED"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "17 августа 1937 года",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "1960",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "1970",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "1970",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "1980",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "1980",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "1998",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Лев Алексеевич Ломовцев",
+      "target": "1998",
+      "type": "OPERATES_AT_CONDITION"
+    }
+  ]
+}
