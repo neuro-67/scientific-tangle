@@ -25,3 +25,14 @@ class IGraphSearch(ABC):
         as `search` (primary label branch → meta-node fallback), then expands
         one hop out and returns deduplicated nodes/edges.
         """
+
+    @abstractmethod
+    async def recommend_experts(
+        self, entity_names: list[str], limit: int = 10
+    ) -> list[dict[str, Any]]:
+        """Experts/labs who authored or validated work on the given entities.
+
+        Graph-grounded institutional memory (case-specification.md "носители
+        экспертизы"): who to ask about a question, derived from the
+        authored/validated/expert-in edges, not from the retrieved text.
+        """

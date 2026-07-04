@@ -48,6 +48,16 @@ class AskQuestionCommand(BaseModel):
     year_to: int | None = None
 
 
+class ExpertRecommendation(BaseModel):
+    """A graph-grounded "who knows this" suggestion for the answer."""
+
+    expert: str
+    relevance: int = 0
+    email: str | None = None
+    n_publications: int = 0
+    context: list[str] = []
+
+
 class AskQuestionResponse(BaseModel):
     """Structured answer returned to the client."""
 
@@ -58,3 +68,7 @@ class AskQuestionResponse(BaseModel):
     query_spec: QuerySpec
     synthesis: SynthesisResponse
     subgraph: AnswerSubgraph = AnswerSubgraph()
+    # Experts/labs derived from the graph's authored/validated edges for the
+    # entities in this query -- distinct from synthesis.experts (LLM-read from
+    # the retrieved text). case-specification.md "носители экспертизы".
+    graph_experts: list[ExpertRecommendation] = []

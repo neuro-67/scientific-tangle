@@ -49,6 +49,9 @@ class FakeObjectStorage(IObjectStorage):
     async def get(self, key: str) -> bytes:
         return self.objects[key][0]
 
+    async def delete(self, key: str) -> None:
+        self.objects.pop(key, None)
+
 
 class FakeJobQueue(IJobQueue):
     """Records enqueued document ids in memory."""

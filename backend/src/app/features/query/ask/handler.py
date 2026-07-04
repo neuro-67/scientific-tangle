@@ -31,6 +31,7 @@ from app.features.query.ask.schemas import (
     AnswerSubgraph,
     AskQuestionCommand,
     AskQuestionResponse,
+    ExpertRecommendation,
 )
 from app.features.query.history.repository import AnswersRepository
 from nlp.query.schemas import QuerySpec, build_compare_specs
@@ -122,6 +123,16 @@ class AskQuestionHandler:
             logger.warning("subgraph fetch failed", extra={"error": str(exc)})
             subgraph = AnswerSubgraph()
 
+        # 7b. Graph-grounded "who knows this" — experts/labs tied to the query's
+        # entities via authored/validated edges (case-spec "носители экспертизы").
+        entity_names = [
+            *query_spec.materials,
+            *query_spec.processes,
+            *query_spec.topics,
+            *query_spec.equipment,
+        ]
+        graph_experts = await self._graph_search.recommend_experts(entity_names, limit=8)
+
         # 8. Persist. Regenerate path updates the existing row; new ask inserts.
         answer_id: UUID | None = persist_as
         try:
@@ -155,6 +166,7 @@ class AskQuestionHandler:
             query_spec=query_spec,
             synthesis=synthesis,
             subgraph=subgraph,
+            graph_experts=[ExpertRecommendation(**e) for e in graph_experts],
         )
 
     def _apply_filter_overrides(

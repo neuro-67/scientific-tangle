@@ -139,6 +139,130 @@ async def fact_history(driver: AsyncDriver, fact_id: str) -> list[dict[str, Any]
         return await result.data()
 
 
+async def recommend_experts(
+    driver: AsyncDriver, entity_names: list[str], limit: int = 10
+) -> list[dict[str, Any]]:
+    """Experts/labs who have worked on the queried entities.
+
+    case-specification.md: "кто в организации является носителем экспертизы".
+    Reaches experts two ways -- authors of publications that describe the
+    queried materials/processes/topics, and experts explicitly tagged
+    EXPERT_IN one of the queried topics -- and ranks by how many of the query
+    entities each one touches, so the most relevant person floats to the top.
+    This is the institutional-memory answer plain vector RAG can't give: it
+    needs the who-authored-what graph, not similar text.
+    """
+    query = """
+    UNWIND $names AS name
+    MATCH (n {id: name})
+    OPTIONAL MATCH (n)-[:DESCRIBED_IN]->(pub:Publication)-[:AUTHORED_BY]->(author:Expert)
+    OPTIONAL MATCH (n)<-[:EXPERT_IN]-(topical:Expert)
+    OPTIONAL MATCH (n)-[:VALIDATED_BY]->(validator:Expert)
+    WITH name, collect(DISTINCT author) + collect(DISTINCT topical) + collect(DISTINCT validator) AS experts
+    UNWIND experts AS e
+    WITH e, count(DISTINCT name) AS relevance
+    WHERE e IS NOT NULL AND coalesce(e.stub, false) = false
+    OPTIONAL MATCH (e)-[:CONDUCTED_AT|EXPERT_IN]->(ctx)
+    OPTIONAL MATCH (pub2:Publication)-[:AUTHORED_BY]->(e)
+    RETURN e.id AS expert,
+           relevance,
+           e.email AS email,
+           count(DISTINCT pub2) AS n_publications,
+           collect(DISTINCT ctx.id)[..3] AS context
+    ORDER BY relevance DESC, n_publications DESC
+    LIMIT $limit
+    """
+    async with driver.session() as session:
+        result = await session.run(query, names=entity_names, limit=limit)
+        return await result.data()
+
+
+async def knowledge_evolution(driver: AsyncDriver, limit: int = 50) -> list[dict[str, Any]]:
+    """Global timeline of facts that changed when a newer source was ingested.
+
+    case-specification.md: "отслеживание изменений в выводах, обновление данных
+    при появлении новых источников". This is the corpus-wide view of the
+    per-fact history in fact_history(): every :Revision snapshot, newest first,
+    with the old vs current value and which document superseded it. Unique to
+    this system -- it exists only because ingestion versions facts instead of
+    overwriting them.
+    """
+    query = """
+    MATCH (rev:Revision)-[:REVISION_OF]->(n)
+    RETURN n.id AS fact,
+           labels(n)[0] AS type,
+           rev.value AS previous_value,
+           n.value AS current_value,
+           rev.unit AS unit,
+           rev.superseded_at AS changed_at,
+           rev.superseded_by_document AS superseded_by
+    ORDER BY rev.superseded_at DESC
+    LIMIT $limit
+    """
+    async with driver.session() as session:
+        result = await session.run(query, limit=limit)
+        return await result.data()
+
+
+async def provenance_path(driver: AsyncDriver, fact_id: str) -> dict[str, Any]:
+    """Full trust chain behind a single fact, for the 'why do we believe this'
+    view (case-specification.md verification model: источник + достоверность +
+    дата актуализации).
+
+    Surfaces the provenance the graph already carries but nothing displayed:
+    the confidence, the Source span(s), whether each linked measurement was
+    mechanically verified against the raw document text (Measurement.verified),
+    the publication + its authors, and any expert who validated it.
+    """
+    query = """
+    MATCH (f {id: $fact_id})
+    OPTIONAL MATCH (f)-[:HAS_SOURCE]->(src:Source)
+    OPTIONAL MATCH (f)-[:HAS_MEASUREMENT]->(m:Measurement)
+    OPTIONAL MATCH (f)-[:DESCRIBED_IN]->(pub:Publication)
+    OPTIONAL MATCH (pub)-[:AUTHORED_BY]->(author:Expert)
+    OPTIONAL MATCH (f)-[:VALIDATED_BY]->(validator:Expert)
+    RETURN f.id AS fact,
+           labels(f)[0] AS type,
+           f.confidence AS confidence,
+           f.source_document AS source_document,
+           f.ingestion_date AS extracted_at,
+           collect(DISTINCT src.span) AS source_spans,
+           collect(DISTINCT {value: m.value, min: m.min, max: m.max, unit: m.unit,
+                             verified: m.verified}) AS measurements,
+           collect(DISTINCT pub.id) AS publications,
+           collect(DISTINCT author.id) AS authors,
+           collect(DISTINCT validator.id) AS validated_by
+    """
+    async with driver.session() as session:
+        result = await session.run(query, fact_id=fact_id)
+        record = await result.single()
+        return dict(record) if record else {}
+
+
+async def contradiction_radar(driver: AsyncDriver, limit: int = 50) -> list[dict[str, Any]]:
+    """Global "disputed zones": CONTRADICTS pairs, enriched with the conflicting
+    measured values and their sources where both sides measure the same Property.
+
+    case-specification.md names this exact scenario -- "риск противоречивых
+    выводов ... по оптимальной скорости циркуляции католита". Proactively
+    surfacing where the corpus disagrees (with the two numbers side by side) is
+    something you can only do on a typed graph, not over retrieved text.
+    """
+    query = """
+    MATCH (a)-[:CONTRADICTS]->(b)
+    OPTIONAL MATCH (a)-[:HAS_MEASUREMENT]->(ma:Measurement)-[:MEASURES_PROPERTY]->(p:Property)
+    OPTIONAL MATCH (b)-[:HAS_MEASUREMENT]->(mb:Measurement)-[:MEASURES_PROPERTY]->(p)
+    RETURN a.id AS node_a, labels(a)[0] AS type_a, a.source_document AS source_a,
+           b.id AS node_b, labels(b)[0] AS type_b, b.source_document AS source_b,
+           p.id AS disputed_property,
+           ma.value AS value_a, mb.value AS value_b, coalesce(ma.unit, mb.unit) AS unit
+    LIMIT $limit
+    """
+    async with driver.session() as session:
+        result = await session.run(query, limit=limit)
+        return await result.data()
+
+
 async def dashboard_summary(driver: AsyncDriver) -> dict[str, Any]:
     """Everything the management dashboard needs in one call."""
     return {
@@ -147,4 +271,6 @@ async def dashboard_summary(driver: AsyncDriver) -> dict[str, Any]:
         "geography_only_topics": await geography_only_topics(driver),
         "risk_low_sources": await risk_zones_low_sources(driver),
         "risk_contradictions": await risk_zones_contradictions(driver),
+        "contradiction_radar": await contradiction_radar(driver),
+        "knowledge_evolution": await knowledge_evolution(driver),
     }

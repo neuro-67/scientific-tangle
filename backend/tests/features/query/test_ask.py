@@ -81,6 +81,9 @@ class FakeGraphSearch(IGraphSearch):
     async def fetch_subgraph(self, spec: QuerySpec, node_limit: int = 30) -> dict:
         return {"nodes": [], "edges": []}
 
+    async def recommend_experts(self, entity_names, limit: int = 10) -> list[dict]:
+        return []
+
 
 class FakeAnswersRepository:
     """Records create/update calls in memory instead of hitting Postgres."""

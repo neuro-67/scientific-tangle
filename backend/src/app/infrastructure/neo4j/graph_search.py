@@ -202,6 +202,21 @@ class Neo4jGraphSearch(IGraphSearch):
             record = await result.single()
             return dict(record) if record else None
 
+    async def recommend_experts(
+        self, entity_names: list[str], limit: int = 10
+    ) -> list[dict[str, Any]]:
+        # Delegates to the shared analytics query (same one the dashboard uses)
+        # so the who-knows-this logic lives in one place.
+        from nlp.query.retrieval.analytics import recommend_experts as _recommend
+
+        if not entity_names:
+            return []
+        try:
+            return await _recommend(self._driver, entity_names, limit)
+        except Exception as exc:  # never fail the answer over the experts card
+            logger.warning("expert recommendation failed", extra={"error": str(exc)})
+            return []
+
     # ------------------------------------------------------------------
     # Cypher builder
     # ------------------------------------------------------------------

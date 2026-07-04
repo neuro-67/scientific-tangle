@@ -6,6 +6,7 @@ from app.features.auth.login.controller import router as login_router
 from app.features.auth.logout.controller import router as logout_router
 from app.features.auth.me.controller import router as me_router
 from app.features.auth.refresh.controller import router as refresh_router
+from app.features.dashboard.provenance.controller import router as provenance_router
 from app.features.dashboard.summary.controller import router as dashboard_summary_router
 from app.features.document.delete.controller import router as document_delete_router
 from app.features.document.get.controller import router as document_get_router
@@ -36,4 +37,5 @@ ROUTERS: list[APIRouter] = [
     answers_history_router,
     graph_router,
     dashboard_summary_router,
+    provenance_router,
 ]
