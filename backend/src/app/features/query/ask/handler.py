@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import logging
 from typing import Any
+from uuid import UUID
 
 from app.domain.interfaces.embedding_generator import IEmbeddingGenerator
 from app.domain.interfaces.graph_search import IGraphSearch
@@ -31,6 +32,7 @@ from app.features.query.ask.schemas import (
     AskQuestionCommand,
     AskQuestionResponse,
 )
+from app.features.query.history.repository import AnswersRepository
 from nlp.query.schemas import QuerySpec, build_compare_specs
 
 logger = logging.getLogger(__name__)
@@ -47,6 +49,7 @@ class AskQuestionHandler:
         reranker: IReranker,
         synthesis_engine: ISynthesisEngine,
         embedding_generator: IEmbeddingGenerator,
+        answers_repository: AnswersRepository,
     ) -> None:
         self._parser = parser
         self._graph_search = graph_search
@@ -54,8 +57,20 @@ class AskQuestionHandler:
         self._reranker = reranker
         self._synthesis_engine = synthesis_engine
         self._embedding_generator = embedding_generator
+        self._answers_repository = answers_repository
 
-    async def __call__(self, command: AskQuestionCommand) -> AskQuestionResponse:
+    async def __call__(
+        self,
+        command: AskQuestionCommand,
+        *,
+        persist_as: UUID | None = None,
+    ) -> AskQuestionResponse:
+        """Run the ask pipeline.
+
+        `persist_as`: if set, updates an existing answer row (regenerate flow);
+        otherwise inserts a new row. Persistence failures are non-fatal — the
+        synthesized answer is still returned to the caller.
+        """
         # 1. Parse the natural-language question, then let any explicit UI
         # filters override the parsed values (see _apply_filter_overrides).
         query_spec = self._parser.parse(command.question)
@@ -107,7 +122,35 @@ class AskQuestionHandler:
             logger.warning("subgraph fetch failed", extra={"error": str(exc)})
             subgraph = AnswerSubgraph()
 
+        # 8. Persist. Regenerate path updates the existing row; new ask inserts.
+        answer_id: UUID | None = persist_as
+        try:
+            spec_dump = query_spec.model_dump(mode="json")
+            synth_dump = synthesis.model_dump(mode="json")
+            subgraph_dump = subgraph.model_dump(mode="json")
+            confidence = synth_dump.get("confidence")
+            if persist_as is not None:
+                await self._answers_repository.update(
+                    persist_as,
+                    query_spec=spec_dump,
+                    synthesis=synth_dump,
+                    subgraph=subgraph_dump,
+                    confidence=confidence,
+                )
+            else:
+                record = await self._answers_repository.create(
+                    question=command.question,
+                    query_spec=spec_dump,
+                    synthesis=synth_dump,
+                    subgraph=subgraph_dump,
+                    confidence=confidence,
+                )
+                answer_id = record.id
+        except Exception as exc:
+            logger.warning("answer persistence failed", extra={"error": str(exc)})
+
         return AskQuestionResponse(
+            id=answer_id,
             question=command.question,
             query_spec=query_spec,
             synthesis=synthesis,

@@ -1,15 +1,16 @@
-import { useQuery } from "@tanstack/react-query";
-import { lazy, Suspense, useMemo, useState } from "react";
+import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
+import { lazy, Suspense, useMemo } from "react";
 import { Link, useSearchParams } from "react-router-dom";
+import { toast } from "sonner";
 
 import {
-  addQueryHistory,
-  getQueryHistory,
   queryApi,
-  requestToFilters,
+  regenerateAnswer,
   searchParamsToRequest,
-  toggleQueryHistoryFavorite,
+  type AnswerRecord,
+  type QueryAnswer,
 } from "@/entities/query";
+import { toQueryAnswer } from "@/entities/query/api/post-query.helpers";
 import { ROUTES } from "@/shared/constants";
 import { handleApiError } from "@/shared/lib/api-error";
 import { Badge, Skeleton } from "@/shared/ui";
@@ -22,32 +23,90 @@ const SubgraphView = lazy(() =>
   import("./subgraph-view").then((m) => ({ default: m.SubgraphView }))
 );
 
-/** Answer screen styled to the design reference. */
+/**
+ * Answer screen supports two modes:
+ * - `?question=...&materials=...` (fresh ask): fires POST /query/ask.
+ * - `?id=<uuid>` (saved answer): loads the row from GET /answers/{id}.
+ */
 export function AnswerPage() {
   const [searchParams] = useSearchParams();
+  const savedId = searchParams.get("id");
   const request = useMemo(
     () => searchParamsToRequest(searchParams),
     [searchParams]
   );
+  const queryClient = useQueryClient();
 
-  const answerQuery = useQuery(queryApi.queries.ask(request));
-  const data = answerQuery.data;
-
-  const [isFavorite, setIsFavorite] = useState(() => {
-    const item = getQueryHistory().find((i) => i.question === request.question);
-    return item?.favorite ?? false;
+  // Only one of these two queries actually runs (see `enabled`).
+  const freshAsk = useQuery({
+    ...queryApi.queries.ask(request),
+    enabled: !savedId && request.question.trim().length > 0,
+  });
+  const savedAnswer = useQuery({
+    ...queryApi.queries.answerDetail(savedId),
+    enabled: Boolean(savedId),
   });
 
-  const toggleFavorite = () => {
-    const item = getQueryHistory().find((i) => i.question === request.question);
-    if (item) {
-      toggleQueryHistoryFavorite(item.id);
-      setIsFavorite((v) => !v);
-    } else {
-      addQueryHistory(request.question, requestToFilters(request), true);
-      setIsFavorite(true);
+  const activeQuery = savedId ? savedAnswer : freshAsk;
+  const data: QueryAnswer | undefined = useMemo(() => {
+    if (savedId) {
+      const rec = savedAnswer.data as AnswerRecord | undefined;
+      if (!rec) return undefined;
+      // Reconstruct the QueryAnswer shape from the saved envelope.
+      return toQueryAnswer({
+        id: rec.id,
+        question: rec.question,
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        query_spec: (rec.query_spec as any) ?? {},
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        synthesis: (rec.synthesis as any) ?? { answer: "" },
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        subgraph: (rec.subgraph as any) ?? null,
+      });
     }
-  };
+    return freshAsk.data;
+  }, [savedId, savedAnswer.data, freshAsk.data]);
+
+  const question = savedId
+    ? (savedAnswer.data?.question ?? request.question)
+    : request.question;
+  const currentAnswerId = data?.id ?? savedId ?? undefined;
+
+  const regenerateMutation = useMutation({
+    mutationFn: regenerateAnswer,
+    onSuccess: (fresh) => {
+      queryClient.invalidateQueries({ queryKey: queryApi.queries.all() });
+      toast.success("Отчёт перегенерирован");
+      // Push the fresh data into the detail cache so the UI updates immediately.
+      if (fresh.id) {
+        queryClient.setQueryData(
+          queryApi.queries.answerDetail(fresh.id).queryKey,
+          {
+            id: fresh.id,
+            question,
+            query_spec: fresh.spec,
+            synthesis: {
+              answer: fresh.answer,
+              consensus: fresh.consensus,
+              disagreements: fresh.disagreements,
+              sources: fresh.sources,
+              gaps: fresh.gaps,
+              experts: fresh.experts,
+              laboratories: fresh.laboratories,
+              confidence: fresh.confidence,
+            },
+            subgraph: fresh.subgraph,
+            confidence: fresh.confidence,
+            created_at: new Date().toISOString(),
+            updated_at: new Date().toISOString(),
+          } satisfies AnswerRecord
+        );
+      }
+    },
+    onError: (error) => {
+      handleApiError(error, { fallback: "Не удалось перегенерировать отчёт" });
+    },
+  });
 
   return (
     <div className="flex max-w-[1280px] flex-col gap-4 pb-8">
@@ -66,37 +125,32 @@ export function AnswerPage() {
             Новый поиск
           </Link>
           <h1 className="text-[30px] font-bold leading-tight text-foreground">
-            {request.question || "Вопрос не задан"}
+            {question || "Вопрос не задан"}
           </h1>
         </div>
         <div className="flex items-center gap-2">
-          {data ? <ExportButtons question={request.question} answer={data} /> : null}
-          <button
-            type="button"
-            onClick={toggleFavorite}
-            className={`flex h-10 w-[120px] items-center justify-center gap-2 rounded-xl border text-sm font-medium transition-colors ${
-              isFavorite
-                ? "border-yellow-400 bg-yellow-50 text-yellow-600"
-                : "border-input bg-card text-main hover:bg-[hsl(var(--save-hover))]"
-            }`}
-          >
-            <img
-              src="/assets/icon-star.png"
-              alt=""
-              className={`h-4 w-4 object-contain ${
-                isFavorite ? "" : "brightness-0"
-              }`}
-            />
-            {isFavorite ? "Сохранено" : "Сохранить"}
-          </button>
+          {data ? <ExportButtons question={question} answer={data} /> : null}
+          {currentAnswerId ? (
+            <button
+              type="button"
+              onClick={() => regenerateMutation.mutate(currentAnswerId)}
+              disabled={regenerateMutation.isPending}
+              title="Перегенерировать отчёт — заново прогонит вопрос через пайплайн и обновит запись в БД"
+              className="flex h-10 items-center justify-center gap-2 rounded-xl border border-input bg-card px-3 text-sm font-medium text-main transition-colors hover:bg-[hsl(var(--save-hover))] disabled:opacity-50"
+            >
+              {regenerateMutation.isPending ? "Генерация…" : "↻ Перегенерировать"}
+            </button>
+          ) : null}
         </div>
       </div>
 
-      {answerQuery.isPending && request.question ? <AnswerSkeleton /> : null}
+      {activeQuery.isPending && (savedId || question) ? (
+        <AnswerSkeleton />
+      ) : null}
 
-      {answerQuery.isError ? (
+      {activeQuery.isError ? (
         <div className="rounded-[20px] border border-input bg-card p-6 text-sm text-destructive">
-          {handleApiError(answerQuery.error, {
+          {handleApiError(activeQuery.error, {
             fallback: "Не удалось получить ответ",
             showToast: false,
           })}

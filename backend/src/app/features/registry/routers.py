@@ -14,7 +14,9 @@ from app.features.health.check.controller import router as health_check_router
 from app.features.users.create.controller import router as create_user_router
 from app.features.users.list.controller import router as list_users_router
 
+from app.features.graph.controller import router as graph_router
 from app.features.query.ask.controller import router as query_ask_router
+from app.features.query.history.controller import router as answers_history_router
 from fastapi import APIRouter
 
 ROUTERS: list[APIRouter] = [
@@ -29,5 +31,7 @@ ROUTERS: list[APIRouter] = [
     document_list_router,
     document_get_router,
     query_ask_router,
+    answers_history_router,
+    graph_router,
     dashboard_summary_router,
 ]

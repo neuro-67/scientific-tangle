@@ -17,8 +17,16 @@ const cssHsl = (name: string, fallback: string): string => {
 };
 
 /**
- * Ontology node types forming the chain material→process→equipment→result.
- * `dot` is a literal Tailwind class so the legend colors survive purging.
+ * Node type palette. Two families of types are mixed here:
+ *   - the manual ontology (Material / Process / Equipment / Result) that the
+ *     UI toolbar lets the user create; those pull colors from CSS variables so
+ *     they follow the theme;
+ *   - the actual Neo4j domain labels (Expert / Facility / Publication / etc.)
+ *     that come back from /query/ask; those are hex-colored directly so we
+ *     don't have to add a CSS variable per label.
+ * The `dot` field is a literal Tailwind class or a raw color for the legend
+ * swatch; when it starts with `#` the SubgraphView renders it inline instead
+ * of via a class.
  */
 export const NODE_TYPES = [
   {
@@ -26,28 +34,100 @@ export const NODE_TYPES = [
     label: "Материал",
     colorToken: "--node-material",
     bgToken: "--node-material-bg",
+    color: null,
+    bg: null,
     dot: "bg-node-material",
+    icon: "⚪",
   },
   {
     type: "Process",
     label: "Процесс",
     colorToken: "--node-process",
     bgToken: "--node-process-bg",
+    color: null,
+    bg: null,
     dot: "bg-node-process",
+    icon: "⚙️",
   },
   {
     type: "Equipment",
     label: "Оборудование",
     colorToken: "--node-equipment",
     bgToken: "--node-equipment-bg",
+    color: null,
+    bg: null,
     dot: "bg-node-equipment",
+    icon: "🔧",
   },
   {
     type: "Result",
     label: "Результат",
     colorToken: "--node-result",
     bgToken: "--node-result-bg",
+    color: null,
+    bg: null,
     dot: "bg-node-result",
+    icon: "✅",
+  },
+  {
+    type: "Expert",
+    label: "Эксперт",
+    colorToken: null,
+    bgToken: null,
+    color: "#4F46E5",
+    bg: "#EEF2FF",
+    dot: "#4F46E5",
+    icon: "👤",
+  },
+  {
+    type: "Facility",
+    label: "Организация",
+    colorToken: null,
+    bgToken: null,
+    color: "#0EA5E9",
+    bg: "#E0F2FE",
+    dot: "#0EA5E9",
+    icon: "🏛️",
+  },
+  {
+    type: "Publication",
+    label: "Публикация",
+    colorToken: null,
+    bgToken: null,
+    color: "#8B5CF6",
+    bg: "#F5F3FF",
+    dot: "#8B5CF6",
+    icon: "📄",
+  },
+  {
+    type: "Measurement",
+    label: "Измерение",
+    colorToken: null,
+    bgToken: null,
+    color: "#F59E0B",
+    bg: "#FEF3C7",
+    dot: "#F59E0B",
+    icon: "📏",
+  },
+  {
+    type: "Finding",
+    label: "Утверждение",
+    colorToken: null,
+    bgToken: null,
+    color: "#059669",
+    bg: "#D1FAE5",
+    dot: "#059669",
+    icon: "💡",
+  },
+  {
+    type: "Source",
+    label: "Источник",
+    colorToken: null,
+    bgToken: null,
+    color: "#6B7280",
+    bg: "#F3F4F6",
+    dot: "#6B7280",
+    icon: "📚",
   },
 ] as const;
 
@@ -150,21 +230,19 @@ export function buildSubgraphStylesheet(): cytoscape.StylesheetStyle[] {
     },
   ] as unknown as cytoscape.StylesheetStyle[];
 
-  const byType: cytoscape.StylesheetStyle[] = NODE_TYPES.map(
-    ({ type, colorToken, bgToken }) => {
-      const color = cssHsl(colorToken, "#64748b");
-      const bg = cssHsl(bgToken, "#f1f5f9");
-      return {
-        selector: `node[type = "${type}"]`,
-        style: {
-          "background-color": bg,
-          "border-color": color,
-          color,
-          "shadow-color": color,
-        },
-      };
-    }
-  );
+  const byType: cytoscape.StylesheetStyle[] = NODE_TYPES.map((t) => {
+    const color = t.colorToken ? cssHsl(t.colorToken, t.color ?? "#64748b") : (t.color ?? "#64748b");
+    const bg = t.bgToken ? cssHsl(t.bgToken, t.bg ?? "#f1f5f9") : (t.bg ?? "#f1f5f9");
+    return {
+      selector: `node[type = "${t.type}"]`,
+      style: {
+        "background-color": bg,
+        "border-color": color,
+        color,
+        "shadow-color": color,
+      },
+    };
+  });
 
   return [...base, ...byType];
 }
