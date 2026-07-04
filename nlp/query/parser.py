@@ -114,7 +114,14 @@ class QuerySpecParser:
     def __init__(self, config: QueryConfig | None = None) -> None:
         self._config = config or QueryConfig()
         self._session = requests.Session()
-        if self._config.yandex_api_key:
+        if self._config.provider == "routerai":
+            self._session.headers.update(
+                {
+                    "Authorization": f"Bearer {self._config.routerai_api_key}",
+                    "Content-Type": "application/json",
+                }
+            )
+        elif self._config.provider == "yandex":
             self._session.headers.update(
                 {
                     "Authorization": f"Api-Key {self._config.yandex_api_key}",
@@ -123,42 +130,73 @@ class QuerySpecParser:
             )
 
     def parse(self, question: str) -> QuerySpec:
-        """Parse question into QuerySpec via YandexGPT or fallback."""
-        if not self._config.yandex_api_key:
-            logger.warning("No Yandex API key configured, using rule-based parser")
+        """Parse question into QuerySpec via the configured LLM provider or fallback."""
+        if self._config.provider == "none":
+            logger.warning("No LLM provider configured, using rule-based parser")
             return _rule_based_parse(question)
-        
+
         try:
-            payload = self._build_payload(question)
-            response = self._session.post(
-                f"{self._config.yandex_base_url}/foundationModels/v1/completion",
-                json=payload,
-                timeout=60,
+            raw_text = self.complete(
+                QUERY_SPEC_SYSTEM, QUERY_SPEC_USER_TEMPLATE.format(question=question)
             )
-            response.raise_for_status()
-            data = response.json()
-            raw_text = self._extract_text(data)
             cleaned = self._clean_json(raw_text)
             parsed = json.loads(cleaned)
             return QuerySpec.model_validate(parsed)
         except Exception as exc:
-            logger.warning("YandexGPT parse failed (%s), falling back to rule-based", exc)
+            logger.warning("LLM parse failed (%s), falling back to rule-based", exc)
             return _rule_based_parse(question)
 
-    def _build_payload(self, question: str) -> dict[str, Any]:
+    def complete(self, system_text: str, user_text: str, max_tokens: int | None = None) -> str:
+        """Provider-agnostic completion call, shared with SynthesisEngine."""
+        if self._config.provider == "routerai":
+            return self._complete_routerai(system_text, user_text, max_tokens)
+        if self._config.provider == "yandex":
+            return self._complete_yandex(system_text, user_text, max_tokens)
+        raise RuntimeError("No LLM provider configured")
+
+    def _complete_routerai(self, system_text: str, user_text: str, max_tokens: int | None) -> str:
+        payload = {
+            "model": self._config.routerai_model,
+            "messages": [
+                {"role": "system", "content": system_text},
+                {"role": "user", "content": user_text},
+            ],
+            "temperature": self._config.routerai_temperature,
+            "max_tokens": max_tokens or self._config.routerai_max_tokens,
+        }
+        response = self._session.post(
+            f"{self._config.routerai_base_url}/chat/completions",
+            json=payload,
+            timeout=60,
+        )
+        response.raise_for_status()
+        data = response.json()
+        choices = data.get("choices", [])
+        if not choices:
+            raise ValueError("No choices in RouterAI response")
+        return choices[0].get("message", {}).get("content", "")
+
+    def _complete_yandex(self, system_text: str, user_text: str, max_tokens: int | None) -> str:
         model_uri = f"gpt://{self._config.yandex_folder_id}/{self._config.yandex_model}"
-        return {
+        payload = {
             "modelUri": model_uri,
             "completionOptions": {
                 "stream": False,
                 "temperature": self._config.yandex_temperature,
-                "maxTokens": self._config.yandex_max_tokens,
+                "maxTokens": max_tokens or self._config.yandex_max_tokens,
             },
             "messages": [
-                {"role": "system", "text": QUERY_SPEC_SYSTEM},
-                {"role": "user", "text": QUERY_SPEC_USER_TEMPLATE.format(question=question)},
+                {"role": "system", "text": system_text},
+                {"role": "user", "text": user_text},
             ],
         }
+        response = self._session.post(
+            f"{self._config.yandex_base_url}/foundationModels/v1/completion",
+            json=payload,
+            timeout=60,
+        )
+        response.raise_for_status()
+        return self._extract_text(response.json())
 
     @staticmethod
     def _extract_text(data: dict[str, Any]) -> str:

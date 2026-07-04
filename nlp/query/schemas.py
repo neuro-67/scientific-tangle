@@ -125,13 +125,21 @@ class QuerySpec(BaseModel):
 
 
 class SourceCitation(BaseModel):
-    """One cited source attached to an answer fragment."""
+    """One cited source attached to an answer fragment.
+
+    Верификация знаний (case-specification.md): "указание источника, уровня
+    достоверности, даты актуализации" -- `year` is the source's own date
+    (publication year); `extracted_at` is the modification/ingestion date
+    (when this fact was last written into the graph), i.e. the second of the
+    two "актуализация" dates the case spec asks for.
+    """
 
     title: str | None = None
     year: int | None = None
     geography: Geography | None = None
     confidence: Literal["high", "medium", "low"] | None = None
     span: str | None = Field(None, description="Page / offset reference")
+    extracted_at: str | None = Field(None, description="Ingestion/modification date (ISO date), not the source's own year")
 
 
 class SynthesisResponse(BaseModel):
@@ -143,4 +151,8 @@ class SynthesisResponse(BaseModel):
     sources: list[SourceCitation] = Field(default_factory=list)
     gaps: list[str] = Field(default_factory=list)
     experts: list[dict] = Field(default_factory=list)
+    recommendations: list[dict] = Field(
+        default_factory=list,
+        description="case-specification.md 'Рекомендации': similar cases from adjacent domains, related topics for further study (experts/teams already covered by `experts`)",
+    )
     confidence: Literal["high", "medium", "low"] | None = None

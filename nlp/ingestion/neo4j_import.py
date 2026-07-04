@@ -34,6 +34,7 @@ _LABEL_MAP = {
     "Facility": "Facility",
     "Finding": "Finding",
     "Topic": "Topic",
+    "Source": "Source",  # provenance node (docs/ONTOLOGY.md)
     "Model": "Model",  # ML-1 extension
 }
 
@@ -56,6 +57,7 @@ _REL_MAP = {
     "contradicts": "CONTRADICTS",
     "supports": "SUPPORTS",
     "tagged": "TAGGED",
+    "has_source": "HAS_SOURCE",
 }
 
 

@@ -45,26 +45,26 @@ class Neo4jClient:
         # Material filter
         if spec.materials:
             conditions.append(
-                "ANY(m IN $materials WHERE (n:Material AND n.canonical_name = m) "
-                "OR EXISTS { (n)-[:uses_material|applies_to]->(mat:Material) "
-                "WHERE mat.canonical_name IN $materials } )"
+                "ANY(m IN $materials WHERE (n:Material AND n.id = m) "
+                "OR EXISTS { (n)-[:USES_MATERIAL|APPLIES_TO]->(mat:Material) "
+                "WHERE mat.id IN $materials } )"
             )
             params["materials"] = spec.materials
 
         # Process filter
         if spec.processes:
             conditions.append(
-                "ANY(p IN $processes WHERE (n:Process AND n.canonical_name = p) "
-                "OR EXISTS { (n)-[:uses_material|operates_at_condition|produces_output]->() "
-                "<-[:uses_material|operates_at_condition|produces_output]-(proc:Process) "
-                "WHERE proc.canonical_name IN $processes } )"
+                "ANY(p IN $processes WHERE (n:Process AND n.id = p) "
+                "OR EXISTS { (n)-[:USES_MATERIAL|OPERATES_AT_CONDITION|PRODUCES_OUTPUT]->() "
+                "<-[:USES_MATERIAL|OPERATES_AT_CONDITION|PRODUCES_OUTPUT]-(proc:Process) "
+                "WHERE proc.id IN $processes } )"
             )
             params["processes"] = spec.processes
 
         # Geography filter on Publication
         if spec.geography.value != "any":
             conditions.append(
-                "EXISTS { (n)-[:described_in]->(pub:Publication) "
+                "EXISTS { (n)-[:DESCRIBED_IN]->(pub:Publication) "
                 "WHERE pub.geography = $geo }"
             )
             params["geo"] = spec.geography.value
@@ -79,7 +79,7 @@ class Neo4jClient:
                 time_conds.append("pub.year <= $to_year")
                 params["to_year"] = spec.time_range.to_year
             conditions.append(
-                "EXISTS { (n)-[:described_in]->(pub:Publication) WHERE "
+                "EXISTS { (n)-[:DESCRIBED_IN]->(pub:Publication) WHERE "
                 + " AND ".join(time_conds) + " }"
             )
 
@@ -87,7 +87,7 @@ class Neo4jClient:
         for i, nc in enumerate(spec.numeric_constraints):
             prefix = f"nc{i}"
             meas_match = (
-                f"EXISTS {{ (n)-[:has_measurement]->(meas:Measurement) "
+                f"EXISTS {{ (n)-[:HAS_MEASUREMENT]->(meas:Measurement) "
                 f"WHERE meas.property = ${prefix}_prop"
             )
             params[f"{prefix}_prop"] = nc.property
@@ -121,16 +121,17 @@ class Neo4jClient:
         MATCH (n)
         WHERE {where_clause}
         WITH n
-        OPTIONAL MATCH (n)-[:described_in]->(pub:Publication)
-        OPTIONAL MATCH (n)-[:has_source]->(src:Source)
-        RETURN n.canonical_name AS name,
+        OPTIONAL MATCH (n)-[:DESCRIBED_IN]->(pub:Publication)
+        OPTIONAL MATCH (n)-[:HAS_SOURCE]->(src:Source)
+        RETURN n.id AS name,
                labels(n) AS types,
                n.confidence AS confidence,
                pub.title AS source_title,
                pub.year AS source_year,
                pub.geography AS source_geo,
                src.span AS span,
-               src.doc_id AS doc_id
+               n.source_document AS doc_id,
+               n.ingestion_date AS extracted_at
         LIMIT $limit
         """
         return query, params
@@ -143,7 +144,7 @@ class Neo4jClient:
         """Extract subgraph around given nodes for visualization."""
         query = f"""
         UNWIND $node_names AS name
-        MATCH (n {{canonical_name: name}})
+        MATCH (n {{id: name}})
         CALL apoc.path.subgraphNodes(n, {{
             relationshipFilter: null,
             minLevel: 0,
@@ -151,9 +152,9 @@ class Neo4jClient:
         }}) YIELD node
         WITH DISTINCT node
         OPTIONAL MATCH (node)-[r]->(m)
-        RETURN node.canonical_name AS source,
+        RETURN node.id AS source,
                type(r) AS relation,
-               m.canonical_name AS target,
+               m.id AS target,
                labels(node) AS source_labels,
                labels(m) AS target_labels
         """

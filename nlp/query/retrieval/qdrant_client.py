@@ -30,21 +30,22 @@ class QdrantSearchClient:
     ) -> list[dict]:
         """Search Qdrant with vector + payload filters from QuerySpec."""
         filters = self._build_filters(spec)
-        results = self._client.search(
+        response = self._client.query_points(
             collection_name=self._collection,
-            query_vector=query_vector,
+            query=query_vector,
             query_filter=filters,
             limit=limit,
             with_payload=True,
         )
+        results = response.points
         return [
             {
                 "id": r.id,
                 "score": r.score,
-                "doc_id": r.payload.get("doc_id"),
+                "doc_id": r.payload.get("doc_id") or r.payload.get("source_document"),
                 "page": r.payload.get("page"),
                 "lang": r.payload.get("lang"),
-                "entity_ids": r.payload.get("entity_ids", []),
+                "entity_ids": [r.payload["entity_id"]] if r.payload.get("entity_id") else [],
                 "text": r.payload.get("text", ""),
             }
             for r in results

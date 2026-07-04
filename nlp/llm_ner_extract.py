@@ -72,17 +72,8 @@ EXTRACTION_SYSTEM_PROMPT = """Ты — NLP-извлекатель для нау�
 
 
 def extract_from_text(text: str) -> dict:
-    parser = QuerySpecParser()
-    payload = parser._build_payload(text)  # reuse auth/config
-    payload["messages"][0]["text"] = EXTRACTION_SYSTEM_PROMPT
-    payload["messages"][1]["text"] = f"Фрагмент текста:\n{text}\n\nВерни JSON:"
-    response = parser._session.post(
-        f"{parser._config.yandex_base_url}/foundationModels/v1/completion",
-        json=payload,
-        timeout=120,
-    )
-    response.raise_for_status()
-    raw_text = parser._extract_text(response.json())
+    parser = QuerySpecParser()  # reuse auth/config (RouterAI or Yandex, whichever is configured)
+    raw_text = parser.complete(EXTRACTION_SYSTEM_PROMPT, f"Фрагмент текста:\n{text}\n\nВерни JSON:")
     cleaned = parser._clean_json(raw_text)
     return json.loads(cleaned)
 
