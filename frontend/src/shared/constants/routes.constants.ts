@@ -3,6 +3,7 @@ export const ROUTES = {
   login: "/",
   search: "/search",
   answer: "/answer",
+  upload: "/upload",
   history: "/history",
   notFound: "*",
 } as const;
