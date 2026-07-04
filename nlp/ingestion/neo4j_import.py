@@ -157,6 +157,41 @@ def _create_constraints(tx):
             logger.warning(f"constraint creation failed for {label}", extra={"error": str(exc)})
 
 
+# Properties that make a Measurement/Finding a "fact" whose change is worth
+# keeping history for (case-specification.md: "Версионирование фактов:
+# отслеживание изменений в выводах, обновление данных при появлении новых
+# источников"). Administrative fields (ingestion_date, source_document,
+# validation_status) always change on re-import and would version every
+# single re-run for no reason, so they're excluded.
+_FACT_FIELDS: dict[str, tuple[str, ...]] = {
+    "Measurement": ("value", "min", "max", "unit", "operator"),
+    "Finding": ("confidence",),
+}
+
+
+def _fact_changed(old_props: dict[str, Any], new_props: dict[str, Any], label: str) -> bool:
+    fields = _FACT_FIELDS.get(label, ())
+    return any(old_props.get(f) != new_props.get(f) for f in fields)
+
+
+def _archive_previous_version(tx, node_id: str, label: str, old_props: dict[str, Any], superseded_by: str) -> None:
+    """Snapshot a Measurement/Finding's prior properties onto a :Revision
+    node before overwriting it, instead of losing the old value to MERGE's
+    last-write-wins SET."""
+    tx.run(
+        """
+        MATCH (n {id: $id})
+        CREATE (rev:Revision)
+        SET rev = $old_props, rev.superseded_at = $superseded_at, rev.superseded_by_document = $superseded_by
+        CREATE (rev)-[:REVISION_OF]->(n)
+        """,
+        id=node_id,
+        old_props=old_props,
+        superseded_at=datetime.utcnow().isoformat(),
+        superseded_by=superseded_by,
+    )
+
+
 def _import_nodes(tx, nodes: list[dict[str, Any]]):
     """Import nodes into Neo4j."""
     for node in nodes:
@@ -175,6 +210,18 @@ def _import_nodes(tx, nodes: list[dict[str, Any]]):
                 flat_props[k] = v
 
         label = node["label"]
+
+        if label in _FACT_FIELDS:
+            existing = tx.run(f"MATCH (n:{label} {{id: $id}}) RETURN n AS n", id=node["id"]).single()
+            if existing is not None:
+                old_props = dict(existing["n"])
+                if _fact_changed(old_props, flat_props, label):
+                    _archive_previous_version(tx, node["id"], label, old_props, flat_props["source_document"])
+                    logger.info(
+                        "archived previous fact version",
+                        extra={"id": node["id"], "label": label, "superseded_by": flat_props["source_document"]},
+                    )
+
         query = f"""
         MERGE (n:{label} {{id: $id}})
         SET n += $props
