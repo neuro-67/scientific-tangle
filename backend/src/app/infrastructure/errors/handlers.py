@@ -17,6 +17,7 @@ from app.domain.exceptions.auth import (
 )
 from app.domain.exceptions.base import InfrastructureError
 from app.domain.exceptions.document import DocumentNotFoundError, DocumentStateError
+from app.domain.exceptions.query import GraphSearchError, QueryParseError
 from app.domain.exceptions.user import UserAlreadyExistsError, UserNotFoundError
 from app.infrastructure.errors.schemas import ErrorResponse
 
@@ -65,6 +66,16 @@ def register_exception_handlers(app: FastAPI) -> None:
     @app.exception_handler(DocumentStateError)
     async def _doc_state(_: Request, exc: DocumentStateError) -> JSONResponse:
         return _envelope(409, "document_invalid_state", _detail_or_none(exc))
+
+    @app.exception_handler(QueryParseError)
+    async def _query_parse(_: Request, exc: QueryParseError) -> JSONResponse:
+        logger.warning("query parse failed", extra={"reason": exc.reason})
+        return _envelope(422, "query_parse_failed", _detail_or_none(exc))
+
+    @app.exception_handler(GraphSearchError)
+    async def _graph_search(_: Request, exc: GraphSearchError) -> JSONResponse:
+        logger.error("graph search failed", exc_info=exc)
+        return _envelope(502, "graph_search_failed", _detail_or_none(exc))
 
     @app.exception_handler(InfrastructureError)
     async def _infra(_: Request, exc: InfrastructureError) -> JSONResponse:
