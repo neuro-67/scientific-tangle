@@ -53,6 +53,15 @@ class MinioObjectStorage(IObjectStorage):
             response.close()
             response.release_conn()
 
+    async def delete(self, key: str) -> None:
+        try:
+            await asyncio.to_thread(self._client.remove_object, self._bucket, key)
+        except S3Error as exc:
+            # Treat "not found" as success — delete is idempotent.
+            if getattr(exc, "code", "") == "NoSuchKey":
+                return
+            raise ObjectStorageError(f"failed to delete object {key!r}") from exc
+
     def ensure_bucket(self) -> None:
         """Create the target bucket if it does not already exist (blocking)."""
         if not self._client.bucket_exists(self._bucket):

@@ -21,6 +21,11 @@ docker compose up -d --build            # инфра + бекенд
 # сид локального админа (dev-креды admin / admin)
 docker compose exec backend python -m app.cli.seed_admin --username admin --password admin --reset-password
 
+
+# закачка из дампа в бд
+docker compose exec backend sh -lc 'python -m nlp.ingestion.qdrant_upload /app/nlp/corpus_test_results/*_graph.json'
+
+docker compose exec backend sh -lc 'python -m nlp.ingestion.neo4j_import /app/nlp/corpus_test_results/*_graph.json'
 # API:      http://localhost:8000/docs
 # frontend: http://localhost:5173 (запускается отдельно)
 ```

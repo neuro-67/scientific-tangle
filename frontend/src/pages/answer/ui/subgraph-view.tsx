@@ -64,6 +64,7 @@ export function SubgraphView({ subgraph }: Props) {
   const [mode, setMode] = useState<Mode>("select");
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [edgeSource, setEdgeSource] = useState<string | null>(null);
+  const [isFullscreen, setIsFullscreen] = useState(false);
 
   const cyRef = useRef<cytoscape.Core | null>(null);
   const positionsRef = useRef<Record<string, cytoscape.Position>>({});
@@ -280,17 +281,35 @@ export function SubgraphView({ subgraph }: Props) {
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
+      // Don't hijack Delete/Backspace while the user is typing in a prompt or
+      // some other input — only trigger when focus is on the body/graph.
+      const t = e.target as HTMLElement | null;
+      const typing =
+        t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable);
+      if (typing) return;
       if (e.key === "Delete" || e.key === "Backspace") {
         e.preventDefault();
         void removeSelected();
       } else if (e.key === "Escape") {
+        if (isFullscreen) setIsFullscreen(false);
         setMode("select");
         clearSelection();
       }
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [removeSelected, clearSelection]);
+  }, [removeSelected, clearSelection, isFullscreen]);
+
+  // Poke Cytoscape to recompute its viewport after the parent size flips.
+  useEffect(() => {
+    const cy = cyRef.current;
+    if (!cy) return;
+    const id = window.setTimeout(() => {
+      cy.resize();
+      cy.fit(undefined, 60);
+    }, 50);
+    return () => window.clearTimeout(id);
+  }, [isFullscreen]);
 
   // Disable node dragging while drawing an edge.
   useEffect(() => {
@@ -361,6 +380,10 @@ export function SubgraphView({ subgraph }: Props) {
     };
 
     const handleTapBg = (evt: cytoscape.EventObject) => {
+      // Cytoscape fires `tap` on cy for both background and elements. We only
+      // want background — otherwise a node tap immediately clears the very
+      // selection that handleTapNode just set.
+      if (evt.target !== cy) return;
       if (draggingRef.current) return;
       if (mode === "addEdge") return;
       if (mode === "addNode") {
@@ -467,8 +490,14 @@ export function SubgraphView({ subgraph }: Props) {
     </button>
   );
 
+  // In fullscreen we jump out of the normal card and cover the viewport.
+  // The graph inside adapts because it fills its parent.
+  const containerClass = isFullscreen
+    ? "fixed inset-0 z-50 flex h-screen w-screen flex-col gap-2 bg-background p-4"
+    : "flex h-full flex-col gap-2";
+
   return (
-    <div className="flex h-full flex-col gap-2">
+    <div className={containerClass}>
       <div className="flex flex-wrap items-center gap-2">
         {toolbarButton("select", "Выбрать", "Выделить элемент")}
         {toolbarButton("addNode", "+ Шар", "Добавить узел (кликни в свободное место)")}
@@ -490,6 +519,14 @@ export function SubgraphView({ subgraph }: Props) {
         >
           Удалить
         </button>
+        <button
+          type="button"
+          onClick={() => setIsFullscreen((v) => !v)}
+          title={isFullscreen ? "Свернуть" : "На весь экран"}
+          className="rounded-lg px-2.5 py-1.5 text-xs font-medium transition-colors bg-muted text-foreground hover:bg-muted/80"
+        >
+          {isFullscreen ? "⤡ Свернуть" : "⛶ На весь экран"}
+        </button>
         <span className="ml-auto text-[11px] text-muted-foreground">
           Правки идут в общий граф Neo4j
         </span>
@@ -500,6 +537,7 @@ export function SubgraphView({ subgraph }: Props) {
           elements={elements}
           stylesheet={stylesheet}
           layout={initialLayout}
+          wheelSensitivity={2}
           style={{ width: "100%", height: "100%" }}
           cy={(cy) => {
             cyRef.current = cy;

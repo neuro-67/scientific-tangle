@@ -7,6 +7,7 @@ from app.features.auth.logout.controller import router as logout_router
 from app.features.auth.me.controller import router as me_router
 from app.features.auth.refresh.controller import router as refresh_router
 from app.features.dashboard.summary.controller import router as dashboard_summary_router
+from app.features.document.delete.controller import router as document_delete_router
 from app.features.document.get.controller import router as document_get_router
 from app.features.document.list.controller import router as document_list_router
 from app.features.document.upload.controller import router as document_upload_router
@@ -30,6 +31,7 @@ ROUTERS: list[APIRouter] = [
     document_upload_router,
     document_list_router,
     document_get_router,
+    document_delete_router,
     query_ask_router,
     answers_history_router,
     graph_router,

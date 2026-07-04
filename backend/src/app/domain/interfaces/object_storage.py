@@ -13,3 +13,7 @@ class IObjectStorage(ABC):
     @abstractmethod
     async def get(self, key: str) -> bytes:
         """Retrieve the bytes stored under ``key``."""
+
+    @abstractmethod
+    async def delete(self, key: str) -> None:
+        """Remove the object stored under ``key``. Idempotent."""
