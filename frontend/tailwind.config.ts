@@ -47,6 +47,17 @@ const config: Config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        main: "hsl(var(--main-text))",
+        description: "hsl(var(--description))",
+        label: "hsl(var(--label))",
+        placeholder: "hsl(var(--placeholder))",
+        eyebrow: "hsl(var(--eyebrow))",
+        sidebar: {
+          DEFAULT: "hsl(var(--sidebar))",
+          foreground: "hsl(var(--sidebar-foreground))",
+          muted: "hsl(var(--sidebar-muted))",
+          accent: "hsl(var(--sidebar-accent))",
+        },
         // Domain semantics — confidence levels of an answer/fact.
         confidence: {
           high: "hsl(var(--confidence-high))",

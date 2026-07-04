@@ -21,47 +21,92 @@ const cssHsl = (name: string, fallback: string): string => {
  * `dot` is a literal Tailwind class so the legend colors survive purging.
  */
 export const NODE_TYPES = [
-  { type: "Material", label: "Материал", token: "--node-material", dot: "bg-node-material" },
-  { type: "Process", label: "Процесс", token: "--node-process", dot: "bg-node-process" },
-  { type: "Equipment", label: "Оборудование", token: "--node-equipment", dot: "bg-node-equipment" },
-  { type: "Result", label: "Результат", token: "--node-result", dot: "bg-node-result" },
+  {
+    type: "Material",
+    label: "Материал",
+    colorToken: "--node-material",
+    bgToken: "--node-material-bg",
+    dot: "bg-node-material",
+  },
+  {
+    type: "Process",
+    label: "Процесс",
+    colorToken: "--node-process",
+    bgToken: "--node-process-bg",
+    dot: "bg-node-process",
+  },
+  {
+    type: "Equipment",
+    label: "Оборудование",
+    colorToken: "--node-equipment",
+    bgToken: "--node-equipment-bg",
+    dot: "bg-node-equipment",
+  },
+  {
+    type: "Result",
+    label: "Результат",
+    colorToken: "--node-result",
+    bgToken: "--node-result-bg",
+    dot: "bg-node-result",
+  },
 ] as const;
 
 /** Cytoscape stylesheet built from the current theme's CSS variables. */
 export function buildSubgraphStylesheet(): cytoscape.StylesheetStyle[] {
-  const edgeColor = cssHsl("--border", "#cbd5e1");
+  const edgeColor = cssHsl("--graph-edge", "#94a3b8");
   const contradiction = cssHsl("--contradiction", "#e11d48");
 
-  const base: cytoscape.StylesheetStyle[] = [
+  const base = [
     {
       selector: "node",
       style: {
         label: "data(label)",
-        "font-size": 11,
+        "font-size": 20,
+        "font-weight": 700,
         "text-valign": "center",
         "text-halign": "center",
         "text-wrap": "wrap",
-        "text-max-width": "120px",
-        shape: "round-rectangle",
-        width: "label",
-        height: "label",
-        padding: "10px",
-        "background-opacity": 0.15,
-        "border-width": 1.5,
+        "text-max-width": "160px",
+        "line-height": 1.2,
+        "text-outline-color": "#ffffff",
+        "text-outline-width": 4,
+        "text-outline-opacity": 0.95,
+        shape: "ellipse",
+        width: "190px",
+        height: "190px",
+        padding: "0px",
+        "background-opacity": 1,
+        "border-width": 4,
+        "shadow-blur": 24,
+        "shadow-opacity": 0.5,
+        "shadow-offset-x": 0,
+        "shadow-offset-y": 0,
       },
     },
     {
       selector: "edge",
       style: {
-        width: 1.5,
+        width: 5,
         "line-color": edgeColor,
-        "target-arrow-color": edgeColor,
         "target-arrow-shape": "triangle",
+        "target-arrow-color": edgeColor,
+        "arrow-scale": 1.8,
         "curve-style": "bezier",
-        "font-size": 9,
-        color: cssHsl("--muted-foreground", "#64748b"),
         label: "data(label)",
-        "text-background-opacity": 0,
+        "font-size": 16,
+        "font-weight": 700,
+        color: "#1e293b",
+        "text-valign": "center",
+        "text-halign": "center",
+        "text-background-color": "#ffffff",
+        "text-background-opacity": 1,
+        "text-background-padding": 6,
+        "text-background-shape": "roundrectangle",
+        "text-outline-color": "#ffffff",
+        "text-outline-width": 3,
+        "text-outline-opacity": 1,
+        "text-margin-y": -20,
+        "z-index": 1,
       },
     },
     {
@@ -73,19 +118,53 @@ export function buildSubgraphStylesheet(): cytoscape.StylesheetStyle[] {
         width: 2,
       },
     },
-  ];
-
-  const byType: cytoscape.StylesheetStyle[] = NODE_TYPES.map(({ type, token }) => {
-    const color = cssHsl(token, "#64748b");
-    return {
-      selector: `node[type = "${type}"]`,
+    {
+      selector: 'node[type = "Comment"]',
       style: {
-        "background-color": color,
-        "border-color": color,
-        color,
+        shape: "roundrectangle",
+        width: "label",
+        height: "label",
+        padding: "8px",
+        "background-color": "#f1f5f9",
+        "border-color": "#cbd5e1",
+        "border-width": 1,
+        color: "#475569",
+        "font-size": 12,
+        "text-max-width": "140px",
+        "text-valign": "center",
+        "text-halign": "center",
+        "text-outline-color": "#ffffff",
+        "text-outline-width": 1,
+        "shadow-blur": 0,
       },
-    };
-  });
+    },
+    {
+      selector: "node:selected, edge:selected",
+      style: {
+        "border-width": 4,
+        "border-color": "#0f172a",
+        "line-color": "#0f172a",
+        "target-arrow-color": "#0f172a",
+        "z-index": 999,
+      },
+    },
+  ] as unknown as cytoscape.StylesheetStyle[];
+
+  const byType: cytoscape.StylesheetStyle[] = NODE_TYPES.map(
+    ({ type, colorToken, bgToken }) => {
+      const color = cssHsl(colorToken, "#64748b");
+      const bg = cssHsl(bgToken, "#f1f5f9");
+      return {
+        selector: `node[type = "${type}"]`,
+        style: {
+          "background-color": bg,
+          "border-color": color,
+          color,
+          "shadow-color": color,
+        },
+      };
+    }
+  );
 
   return [...base, ...byType];
 }

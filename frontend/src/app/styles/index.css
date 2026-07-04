@@ -9,40 +9,57 @@
  */
 @layer base {
   :root {
-    --background: 0 0% 100%; /* page background */
-    --foreground: 222.2 84% 4.9%; /* default text */
+    /* Page / surface tokens matched to the design reference. */
+    --background: 230 100% 98%; /* #F5F7FF page background */
+    --foreground: 220 43% 11%; /* #111827 main text */
 
-    --card: 0 0% 100%; /* card surface */
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%; /* #FFFFFF card surface */
+    --card-foreground: 220 43% 11%;
 
     --popover: 0 0% 100%; /* dropdown/popover surface */
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 220 43% 11%;
 
-    --primary: 222.2 47.4% 11.2%; /* primary actions, brand */
-    --primary-foreground: 210 40% 98%;
+    --primary: 227 100% 59%; /* #2D5BFF brand start */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%; /* secondary surfaces/buttons */
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 242 100% 64%; /* #4B49FF brand end */
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96.1%; /* muted backgrounds */
-    --muted-foreground: 215.4 16.3% 46.9%; /* secondary/hint text */
+    --muted: 220 40% 94%; /* muted backgrounds */
+    --muted-foreground: 218 14% 56%; /* #7A869A description/hint text */
 
-    --accent: 210 40% 96.1%; /* hover/active accents */
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 217 91% 95%; /* hover/active accents */
+    --accent-foreground: 220 43% 11%;
 
     --destructive: 0 84.2% 60.2%; /* errors, destructive actions */
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%; /* borders, dividers */
-    --input: 214.3 31.8% 91.4%; /* form control borders */
-    --ring: 222.2 84% 4.9%; /* focus ring */
+    --border: 228 33% 93%; /* #E5EAF7 borders, dividers */
+    --input: 228 33% 93%; /* #E5EAF7 form control borders */
+    --ring: 227 100% 59%; /* #2D5BFF focus ring */
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Text / form helper tokens. */
+    --main-text: 218 25% 25%; /* #374151 body text */
+    --description: 218 14% 56%; /* #7A869A descriptions */
+    --label: 222 25% 45%; /* #5E6A87 field labels */
+    --placeholder: 222 30% 69%; /* #9AA5C4 placeholders */
+    --eyebrow: 232 100% 68%; /* #5B74FF eyebrow text */
+
+    /* One-off brand utilities. */
+    --brand-gradient: linear-gradient(90deg, #2d5bff, #4b49ff);
+    --search-shadow: 0 10px 25px rgba(45, 91, 255, 0.25);
 
     /* Domain semantics — answer/fact confidence level. */
-    --confidence-high: 142 71% 40%; /* high confidence (green) */
-    --confidence-medium: 38 92% 48%; /* medium confidence (amber) */
-    --confidence-low: 0 72% 51%; /* low confidence (red) */
+    --confidence-high: 142 71% 52%; /* #22C55E high confidence */
+    --confidence-medium: 38 92% 52%; /* #F59E0B medium confidence */
+    --confidence-low: 0 84% 60%; /* #EF4444 low confidence */
+
+    /* Confidence badge backgrounds. */
+    --confidence-high-bg: 142 76% 95%; /* #EAFBF0 */
+    --confidence-medium-bg: 32 100% 95%; /* #FFF4E8 */
+    --confidence-low-bg: 0 100% 96%; /* #FFECEC */
 
     /* Domain semantics — source geography. */
     --geo-ru: 221 83% 53%; /* Russian sources (blue) */
@@ -53,10 +70,28 @@
     --contradiction: 340 82% 52%; /* contradiction highlight (pink/red) */
 
     /* Knowledge-graph node types (chain material→process→equipment→result). */
-    --node-material: 190 90% 42%; /* Material (cyan) */
-    --node-process: 250 78% 60%; /* Process (indigo) */
-    --node-equipment: 292 70% 52%; /* Equipment (purple) */
-    --node-result: 142 71% 40%; /* Result (green) */
+    --node-material: 199 95% 58%; /* Material #38BDF8 */
+    --node-process: 243 75% 59%; /* Process #4F46E5 */
+    --node-equipment: 333 84% 62%; /* Equipment #EC4899 */
+    --node-result: 142 71% 52%; /* Result #22C55E */
+
+    --node-material-bg: 199 100% 94%; /* #DFF5FF */
+    --node-process-bg: 243 100% 95%; /* #EEF2FF */
+    --node-equipment-bg: 333 90% 95%; /* #FCE7F3 */
+    --node-result-bg: 142 90% 94%; /* #DCFCE7 */
+
+    /* Answer screen specifics. */
+    --answer-back: 222 20% 54%; /* #6B7AA8 */
+    --save-hover: 225 100% 98%; /* #F5F8FF */
+    --source-info: 222 18% 63%; /* #8B96B5 */
+    --source-border: 228 60% 96%; /* #EEF2FF */
+    --graph-edge: 227 58% 89%; /* #CDD6F9 */
+
+    /* App-shell specific colors used by the dark sidebar layout. */
+    --sidebar: 227 84% 20%; /* #081A5C sidebar background */
+    --sidebar-foreground: 0 0% 100%; /* #FFFFFF sidebar text */
+    --sidebar-muted: 227 60% 25%;
+    --sidebar-accent: 227 60% 28%;
   }
 
   .dark {
@@ -69,7 +104,7 @@
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 210 40% 98%;
+    --primary: 217 91% 60%;
     --primary-foreground: 222.2 47.4% 11.2%;
 
     --secondary: 217.2 32.6% 17.5%;
@@ -82,7 +117,7 @@
     --accent-foreground: 210 40% 98%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
@@ -114,5 +149,14 @@
     font-feature-settings:
       "rlig" 1,
       "calt" 1;
+  }
+}
+
+@layer components {
+  .bg-brand-gradient {
+    background: var(--brand-gradient);
+  }
+  .shadow-search {
+    box-shadow: var(--search-shadow);
   }
 }

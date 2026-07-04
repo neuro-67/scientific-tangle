@@ -9,8 +9,8 @@ export const emptyQueryFilters = (): QueryFilters => ({
   materials: [],
   processes: [],
   geography: "any",
-  yearFrom: null,
-  yearTo: null,
+  dateFrom: null,
+  dateTo: null,
   confidence: "any",
 });
 
@@ -20,8 +20,8 @@ export const filtersToRequest = (filters: QueryFilters): PostQueryReq => ({
   materials: filters.materials.length ? filters.materials : undefined,
   processes: filters.processes.length ? filters.processes : undefined,
   geography: filters.geography !== "any" ? filters.geography : undefined,
-  year_from: filters.yearFrom ?? undefined,
-  year_to: filters.yearTo ?? undefined,
+  date_from: filters.dateFrom ?? undefined,
+  date_to: filters.dateTo ?? undefined,
   confidence: filters.confidence !== "any" ? filters.confidence : undefined,
 });
 
@@ -32,17 +32,19 @@ export const requestToSearchParams = (req: PostQueryReq): URLSearchParams => {
   if (req.materials?.length) params.set("materials", req.materials.join(","));
   if (req.processes?.length) params.set("processes", req.processes.join(","));
   if (req.geography) params.set("geo", req.geography);
-  if (req.year_from !== undefined) params.set("yf", String(req.year_from));
-  if (req.year_to !== undefined) params.set("yt", String(req.year_to));
+  if (req.date_from) params.set("df", req.date_from);
+  if (req.date_to) params.set("dt", req.date_to);
   if (req.confidence) params.set("conf", req.confidence);
   return params;
 };
 
-const num = (raw: string | null): number | undefined =>
-  raw === null || raw === "" ? undefined : Number(raw);
-
 const list = (raw: string | null): string[] | undefined =>
-  raw ? raw.split(",").map((s) => s.trim()).filter(Boolean) : undefined;
+  raw
+    ? raw
+        .split(",")
+        .map((s) => s.trim())
+        .filter(Boolean)
+    : undefined;
 
 /** Reconstruct a request from URL search params (answer screen entry point). */
 export const searchParamsToRequest = (
@@ -52,7 +54,18 @@ export const searchParamsToRequest = (
   materials: list(params.get("materials")),
   processes: list(params.get("processes")),
   geography: (params.get("geo") as Geography | null) ?? undefined,
-  year_from: num(params.get("yf")),
-  year_to: num(params.get("yt")),
+  date_from: params.get("df") ?? undefined,
+  date_to: params.get("dt") ?? undefined,
   confidence: (params.get("conf") as ConfidenceLevel | null) ?? undefined,
+});
+
+/** Convert an API request back to the search form filter state. */
+export const requestToFilters = (req: PostQueryReq): QueryFilters => ({
+  question: req.question,
+  materials: req.materials ?? [],
+  processes: req.processes ?? [],
+  geography: req.geography ?? "any",
+  dateFrom: req.date_from ?? null,
+  dateTo: req.date_to ?? null,
+  confidence: req.confidence ?? "any",
 });

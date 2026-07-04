@@ -5,6 +5,7 @@ import type {
   AnswerSource,
   Disagreement,
   Expert,
+  Laboratory,
   QueryAnswer,
   QuerySpec,
 } from "../model/query.types";
@@ -14,8 +15,9 @@ export type Req = {
   materials?: string[];
   processes?: string[];
   geography?: Geography;
-  year_from?: number;
-  year_to?: number;
+  /** Publication date range in ISO format (YYYY-MM-DD). */
+  date_from?: string;
+  date_to?: string;
   /** Minimum confidence level of returned sources. */
   confidence?: ConfidenceLevel;
 };
@@ -35,7 +37,12 @@ type AskQuestionResponse = {
     materials?: string[];
     processes?: string[];
     geography?: Geography;
-    time_range?: { from?: number; to?: number; from_year?: number; to_year?: number } | null;
+    time_range?: {
+      from?: number;
+      to?: number;
+      from_year?: number;
+      to_year?: number;
+    } | null;
     numeric_constraints?: QuerySpec["numeric_constraints"];
     compare?: string | null;
   };
@@ -46,8 +53,16 @@ type AskQuestionResponse = {
     sources?: Array<Partial<AnswerSource>>;
     gaps?: string[];
     experts?: Array<Partial<Expert>>;
+    laboratories?: Array<Partial<Laboratory>>;
     confidence?: ConfidenceLevel | null;
   };
+};
+
+/** Extract a 4-digit year from an ISO date; the backend filters by year int. */
+const yearOf = (iso?: string): number | undefined => {
+  if (!iso) return undefined;
+  const year = Number(iso.slice(0, 4));
+  return Number.isFinite(year) && year > 0 ? year : undefined;
 };
 
 const toSpec = (raw: AskQuestionResponse["query_spec"]): QuerySpec => ({
@@ -85,6 +100,11 @@ const toExpert = (e: Partial<Expert>): Expert => ({
   affiliation: e.affiliation ?? "",
 });
 
+const toLaboratory = (l: Partial<Laboratory>): Laboratory => ({
+  name: l.name ?? "",
+  institution: l.institution ?? "",
+});
+
 /** Flatten the backend's {query_spec, synthesis} envelope into a QueryAnswer. */
 const toQueryAnswer = (res: AskQuestionResponse): QueryAnswer => {
   const { synthesis } = res;
@@ -97,8 +117,11 @@ const toQueryAnswer = (res: AskQuestionResponse): QueryAnswer => {
     sources: (synthesis.sources ?? []).map(toSource),
     gaps: synthesis.gaps ?? [],
     experts: (synthesis.experts ?? []).map(toExpert).filter((e) => e.name),
+    laboratories: (synthesis.laboratories ?? [])
+      .map(toLaboratory)
+      .filter((l) => l.name),
     confidence: synthesis.confidence ?? "low",
-    // The ask endpoint doesn't return a subgraph yet; render nothing for it.
+    // The ask endpoint doesn't return a subgraph yet; render an empty canvas.
     subgraph: { nodes: [], edges: [] },
     spec: toSpec(res.query_spec),
   };
@@ -112,6 +135,6 @@ export const postQuery = (body: Req) =>
     materials: body.materials,
     processes: body.processes,
     geography: body.geography,
-    year_from: body.year_from,
-    year_to: body.year_to,
+    year_from: yearOf(body.date_from),
+    year_to: yearOf(body.date_to),
   }).then((r) => toQueryAnswer(r.data));

@@ -22,8 +22,9 @@ export type QueryFilters = {
   materials: string[];
   processes: string[];
   geography: Geography;
-  yearFrom: number | null;
-  yearTo: number | null;
+  /** Publication date range in ISO format (YYYY-MM-DD). */
+  dateFrom: string | null;
+  dateTo: string | null;
   /** Minimum confidence level of returned sources; "any" = no filter. */
   confidence: ConfidenceLevel | "any";
 };
@@ -62,6 +63,11 @@ export type Expert = {
   affiliation: string;
 };
 
+export type Laboratory = {
+  name: string;
+  institution: string;
+};
+
 /** A node of the answer subgraph (material/process/equipment/result). */
 export type GraphNode = {
   id: string;
@@ -75,6 +81,7 @@ export type GraphEdge = {
   source: string;
   target: string;
   type: string;
+  label?: string;
 };
 
 export type AnswerSubgraph = {
@@ -90,6 +97,7 @@ export type QueryAnswer = {
   sources: AnswerSource[];
   gaps: string[];
   experts: Expert[];
+  laboratories: Laboratory[];
   confidence: ConfidenceLevel;
   subgraph: AnswerSubgraph;
   spec: QuerySpec;
