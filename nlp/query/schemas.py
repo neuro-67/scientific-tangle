@@ -243,9 +243,11 @@ class SynthesisResponse(BaseModel):
         default_factory=list,
         description=(
             "case-specification.md 'Дополнительные пожелания': comparison table for "
-            "compare-intent queries, one row per criterion actually present in the "
-            "findings (e.g. efficiency, capex, cold-climate applicability, ecological "
-            "constraints) -- {criterion, side_a, side_b}. Empty for non-compare queries."
+            "compare-intent queries. Always 4 fixed rows -- эффективность, капитальные "
+            "затраты, применимость в холодном климате, экологические ограничения -- "
+            "{criterion, side_a, side_b}, with 'нет данных' where the graph has nothing "
+            "for that criterion/side (never omitted, never fabricated). Empty list for "
+            "non-compare queries."
         ),
     )
     confidence: Literal["high", "medium", "low"] | None = None
