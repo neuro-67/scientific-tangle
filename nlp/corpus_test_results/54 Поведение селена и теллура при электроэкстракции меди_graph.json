@@ -1,0 +1,4783 @@
+{
+  "document": "54 Поведение селена и теллура при электроэкстракции меди.docx",
+  "language": "ru",
+  "nodes": [
+    {
+      "id": "электроэкстракция меди",
+      "label": "Topic",
+      "properties": {
+        "domain": "металлургия",
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "медные катоды",
+      "label": "Topic",
+      "properties": {}
+    },
+    {
+      "id": "медный электролит",
+      "label": "Topic",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "селен",
+      "label": "Material",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "теллур",
+      "label": "Material",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "съем меди",
+      "label": "Property",
+      "properties": {
+        "unit": "г/дм3"
+      }
+    },
+    {
+      "id": "допустимое содержание вредных микропримесей",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "чистота меди",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "finding_selenium_tellurium_reduction",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "src_unknown",
+      "label": "Source",
+      "properties": {
+        "span": "unknown"
+      }
+    },
+    {
+      "id": "Затицкий Борис Эдуардович",
+      "label": "Expert",
+      "properties": {
+        "email": "boris.zatickij@hypromet.ru",
+        "affiliation": "ОАО «Институт Гипроникель»",
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "Трубина Ольга Акимовна",
+      "label": "Expert",
+      "properties": {
+        "email": "olga.trubina@nornickel.ru",
+        "affiliation": "ПАО «ГМК «Норильский никель»",
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "ОАО «Институт Гипроникель»",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "ПАО «ГМК «Норильский никель»",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "поведение селена и теллура при электроэкстракции меди",
+      "label": "Topic",
+      "properties": {}
+    },
+    {
+      "id": "src_p1",
+      "label": "Source",
+      "properties": {
+        "span": "p.1"
+      }
+    },
+    {
+      "id": "диффузионная кинетика",
+      "label": "Process",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "meas_order_minus1",
+      "label": "Measurement",
+      "properties": {
+        "value": -1,
+        "unit": "порядок",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "finding_impurity_reduction",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "загрязнение катодной меди селеном и теллуром быстро снижается с увеличением съема меди"
+      }
+    },
+    {
+      "id": "property_concentration_chalcogenites",
+      "label": "Property",
+      "properties": {
+        "name": "концентрация халькогенитов"
+      }
+    },
+    {
+      "id": "property_copper_cathode_recovery",
+      "label": "Property",
+      "properties": {
+        "name": "съем меди из единичного объема электролита"
+      }
+    },
+    {
+      "id": "property_Se_VI_Te_VI",
+      "label": "Property",
+      "properties": {
+        "name": "селен (VI) и теллур (VI)"
+      }
+    },
+    {
+      "id": "property_circulating_electrolyte",
+      "label": "Property",
+      "properties": {
+        "name": "циркулирующие растворы"
+      }
+    },
+    {
+      "id": "свинцовый анод",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "process_oxidation_Se_IV_Te_IV",
+      "label": "Process",
+      "properties": {
+        "description": "окисление селена (IV) и теллура (IV) до селена (VI) и теллура (VI) на свинцовом аноде"
+      }
+    },
+    {
+      "id": "src_p12",
+      "label": "Source",
+      "properties": {
+        "span": "p.12"
+      }
+    },
+    {
+      "id": "селен (IV)",
+      "label": "Material",
+      "properties": {
+        "type": "impurity"
+      }
+    },
+    {
+      "id": "теллур (IV)",
+      "label": "Material",
+      "properties": {
+        "type": "impurity"
+      }
+    },
+    {
+      "id": "селен (VI)",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "теллур (VI)",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "требования к чистоте продукционных растворов по селену (IV)",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "требования к чистоте продукционных растворов по теллуру (IV)",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "требования к чистоте продукционных растворов по селену (VI)",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "требования к чистоте продукционных растворов по теллуру (VI)",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "meas_selen_4",
+      "label": "Measurement",
+      "properties": {
+        "max": 1.0,
+        "unit": "мг/л",
+        "operator": "<=",
+        "verified": true,
+        "unit_normalized_from": "мг/дм³"
+      }
+    },
+    {
+      "id": "finding_low_selen_iv",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_no_requirements_tellur_iv",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_no_requirements_selen_vi",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_no_requirements_tellur_vi",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "высокое содержание теллура в электролите",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "загрязнение им катодной меди",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "src_p3",
+      "label": "Source",
+      "properties": {
+        "span": "p.3"
+      }
+    },
+    {
+      "id": "катодное восстановление меди",
+      "label": "Process",
+      "properties": {
+        "domain": "электрохимия",
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "разряд селена (IV)",
+      "label": "Process",
+      "properties": {
+        "domain": "электрохимия",
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "разряд теллура (IV)",
+      "label": "Process",
+      "properties": {
+        "domain": "электрохимия",
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "предельный ток",
+      "label": "Property",
+      "properties": {
+        "geography": "RU",
+        "description": "условие, при котором скорость реакции ограничена массообменом"
+      }
+    },
+    {
+      "id": "пропорциональность",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "накопление селена и теллура",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "снижение качества товарных металлов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "требования к медному электролиту",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "товарные медные катоды высшей марки",
+      "label": "Material",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "файнштейн",
+      "label": "Material",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "продукты выщелачивания",
+      "label": "Material",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "обжиговые газы",
+      "label": "Material",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "сернокислотное производство",
+      "label": "Process",
+      "properties": {
+        "domain": "химическая промышленность",
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "циркулирующие оборотные полупродукты",
+      "label": "Material",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "микропримеси",
+      "label": "Property",
+      "properties": {
+        "geography": "RU",
+        "description": "микропримеси в электролите"
+      }
+    },
+    {
+      "id": "халькогениты",
+      "label": "Material",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "концентрация халькогенитов в растворе",
+      "label": "Property",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "содержание селена и теллура в меди",
+      "label": "Property",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "реферат",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "СТРАНИЦА 1",
+      "label": "Source",
+      "properties": {
+        "span": "p.1"
+      }
+    },
+    {
+      "id": "finding_tellurium_hazard",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Теллур оказывается существенно более вредной, чем селен примесью, что противоречит информации о соотношении селена и теллура в катодной меди и производственных растворах"
+      }
+    },
+    {
+      "id": "электроэкстракционный способ",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "продукционный раствор питания ванн",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "выщелачивание богатых промпродуктов",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "реэкстракция",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "технология SX-EW",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "электроэкстракция напрямую",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "очистка медных растворов",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "форма соединений Me (IV)",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "форма соединений Me (VI)",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "0,5 г/т",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.5,
+        "unit": "г/т",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "14 тыс. т",
+      "label": "Measurement",
+      "properties": {
+        "value": 14000,
+        "unit": "т",
+        "operator": "=",
+        "verified": false
+      }
+    },
+    {
+      "id": "5 тыс. т",
+      "label": "Measurement",
+      "properties": {
+        "value": 5000,
+        "unit": "т",
+        "operator": "=",
+        "verified": false
+      }
+    },
+    {
+      "id": "18,5%",
+      "label": "Measurement",
+      "properties": {
+        "value": 18.5,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "5 заводов",
+      "label": "Measurement",
+      "properties": {
+        "value": 5,
+        "unit": "шт",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "необходимый низ",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "аттестованная на ЛБМ катодная медь",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "медно-никелевый файнштейн",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "аналитическое определение форм нахождения селена и теллура",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "src_p2",
+      "label": "Source",
+      "properties": {
+        "span": "p.2"
+      }
+    },
+    {
+      "id": "src_p4",
+      "label": "Source",
+      "properties": {
+        "span": "p.4"
+      }
+    },
+    {
+      "id": "src_p5",
+      "label": "Source",
+      "properties": {
+        "span": "p.5"
+      }
+    },
+    {
+      "id": "AES ICP",
+      "label": "Process",
+      "properties": {
+        "domain": "анализ"
+      }
+    },
+    {
+      "id": "MS ICP",
+      "label": "Process",
+      "properties": {
+        "domain": "анализ"
+      }
+    },
+    {
+      "id": "ICAP 6500 Duo",
+      "label": "Equipment",
+      "properties": {
+        "manufacturer": "Thermo Fisher Scientific"
+      }
+    },
+    {
+      "id": "iCAP Qc",
+      "label": "Equipment",
+      "properties": {
+        "manufacturer": "Thermo Fisher Scientific"
+      }
+    },
+    {
+      "id": "добавки в электролит",
+      "label": "Process",
+      "properties": {
+        "description": "введение добавок в электролит перед электролизом"
+      }
+    },
+    {
+      "id": "Na2SeO3",
+      "label": "Material",
+      "properties": {
+        "purity": "реактивная квалификация"
+      }
+    },
+    {
+      "id": "H2TeO3",
+      "label": "Material",
+      "properties": {
+        "source": "растворение в серной кислоте технического оксида TeO"
+      }
+    },
+    {
+      "id": "Na2SeO4",
+      "label": "Material",
+      "properties": {
+        "purity": "реактивная квалификация"
+      }
+    },
+    {
+      "id": "Na2TeO4",
+      "label": "Material",
+      "properties": {
+        "source": "окисление технического оксида TeO пероксидом водорода в избытке соды (способ ИРЕА)"
+      }
+    },
+    {
+      "id": "TeO",
+      "label": "Material",
+      "properties": {
+        "type": "технический оксид"
+      }
+    },
+    {
+      "id": "основной карбонат меди",
+      "label": "Material",
+      "properties": {
+        "purity": "реактивная квалификация"
+      }
+    },
+    {
+      "id": "рабочий электролит",
+      "label": "Material",
+      "properties": {
+        "description": "раствор, используемый в процессе электролиза"
+      }
+    },
+    {
+      "id": "концентрация меди",
+      "label": "Property",
+      "properties": {
+        "description": "концентрация меди в растворе"
+      }
+    },
+    {
+      "id": "стабильный состав электролита",
+      "label": "Process",
+      "properties": {
+        "description": "обеспечение стабильного состава электролита по основным компонентам"
+      }
+    },
+    {
+      "id": "finding_impurity_harm",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Селен примесью является существенно более вредной, чем теллур, что противоречит информации о соотношении селена и теллура в катодной меди и производственных растворах"
+      }
+    },
+    {
+      "id": "meas_current_density_280",
+      "label": "Measurement",
+      "properties": {
+        "value": 280,
+        "unit": "А/м²",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_temperature_50",
+      "label": "Measurement",
+      "properties": {
+        "value": 50,
+        "unit": "°C",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_copper_conc_35",
+      "label": "Measurement",
+      "properties": {
+        "value": 35000.0,
+        "unit": "мг/л",
+        "operator": "=",
+        "verified": true,
+        "unit_normalized_from": "г/дм³"
+      }
+    },
+    {
+      "id": "meas_nickel_conc_20",
+      "label": "Measurement",
+      "properties": {
+        "value": 20000.0,
+        "unit": "мг/л",
+        "operator": "=",
+        "verified": true,
+        "unit_normalized_from": "г/дм³"
+      }
+    },
+    {
+      "id": "meas_iron_conc_0.5",
+      "label": "Measurement",
+      "properties": {
+        "value": 500.0,
+        "unit": "мг/л",
+        "operator": "=",
+        "verified": true,
+        "unit_normalized_from": "г/дм³"
+      }
+    },
+    {
+      "id": "meas_acid_conc_120",
+      "label": "Measurement",
+      "properties": {
+        "value": 120000.0,
+        "unit": "мг/л",
+        "operator": "=",
+        "verified": true,
+        "unit_normalized_from": "г/дм³"
+      }
+    },
+    {
+      "id": "electroextraction",
+      "label": "Process",
+      "properties": {
+        "domain": "металлургия"
+      }
+    },
+    {
+      "id": "experiment_lab_scale",
+      "label": "Experiment",
+      "properties": {
+        "scale": "лабораторный"
+      }
+    },
+    {
+      "id": "facility_laboratory",
+      "label": "Facility",
+      "properties": {
+        "type": "лаборатория"
+      }
+    },
+    {
+      "id": "process_periodic_mode",
+      "label": "Condition",
+      "properties": {
+        "mode": "периодический"
+      }
+    },
+    {
+      "id": "material_synthetic_solution",
+      "label": "Material",
+      "properties": {
+        "type": "синтетический раствор"
+      }
+    },
+    {
+      "id": "material_reagent_salts",
+      "label": "Material",
+      "properties": {
+        "type": "реактивные соли"
+      }
+    },
+    {
+      "id": "equipment_titanium_cathodes",
+      "label": "Equipment",
+      "properties": {
+        "type": "титановые матрицы"
+      }
+    },
+    {
+      "id": "equipment_lead_anodes",
+      "label": "Equipment",
+      "properties": {
+        "type": "аноды из холодно катанного свинца"
+      }
+    },
+    {
+      "id": "process_copper_deposition",
+      "label": "Process",
+      "properties": {
+        "domain": "электролиз"
+      }
+    },
+    {
+      "id": "material_cathode_copper",
+      "label": "Material",
+      "properties": {
+        "type": "катодная медь"
+      }
+    },
+    {
+      "id": "property_selenium_content",
+      "label": "Property",
+      "properties": {
+        "name": "содержание селена"
+      }
+    },
+    {
+      "id": "property_tellurium_content",
+      "label": "Property",
+      "properties": {
+        "name": "содержание теллура"
+      }
+    },
+    {
+      "id": "material_electrolyte",
+      "label": "Material",
+      "properties": {
+        "type": "электролит"
+      }
+    },
+    {
+      "id": "method_aes_icp",
+      "label": "Process",
+      "properties": {
+        "name": "атомно-эмиссионная спектрометрия (AES ICP)"
+      }
+    },
+    {
+      "id": "method_ms_icp",
+      "label": "Process",
+      "properties": {
+        "name": "масс-спектрометрия с индуктивно-связанной плазмой (MS ICP)"
+      }
+    },
+    {
+      "id": "method_aes",
+      "label": "Process",
+      "properties": {
+        "name": "атомно-эмиссионная спектрометрия"
+      }
+    },
+    {
+      "id": "method_ms",
+      "label": "Process",
+      "properties": {
+        "name": "масс-спектрометрия"
+      }
+    },
+    {
+      "id": "equipment_icap_6500_duo",
+      "label": "Equipment",
+      "properties": {
+        "model": "ICAP 6500 Duo",
+        "manufacturer": "Thermo Fisher Scientific"
+      }
+    },
+    {
+      "id": "equipment_icap_qc",
+      "label": "Equipment",
+      "properties": {
+        "model": "iCAP Qc",
+        "manufacturer": "Thermo Fisher Scientific"
+      }
+    },
+    {
+      "id": "standard_gost_57061_2016",
+      "label": "Publication",
+      "properties": {
+        "type": "ГОСТ",
+        "title": "ГОСТ Р 57061-2016",
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "finding_no_clear_criteria",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Отсутствуют обоснованные требования к чистоте медного электролита по селену и теллуру, их связь с чистотой катодной меди, либо они представляются недостаточно достоверными"
+      }
+    },
+    {
+      "id": "finding_no_prediction",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Невозможно прогнозирование чистоты товарной продукции, отсутствуют критерии для оценки целесообразности специальной очистки рабочих растворов"
+      }
+    },
+    {
+      "id": "expert_ivanov_ivan_ivanovich",
+      "label": "Expert",
+      "properties": {
+        "name": "Иванов Иван Иванович",
+        "email": "ivanov@institute.ru",
+        "affiliation": "Институт горно-металлургических исследований"
+      }
+    },
+    {
+      "id": "катодная медь",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "содержание теллура",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "осаждение меди",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "селенистая кислота",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "селениды переменного состава",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "CuxSe",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "1<х<1,8",
+      "label": "Measurement",
+      "properties": {
+        "min": 1,
+        "max": 1.8,
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "условия электролиза",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "механизм деградации медных осадков",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "селеновая кислота",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "концентрация селена",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "шероховатость катодных осадков",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "текстура катодных осадков",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "цвет катодных осадков",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "адгезия осадков к основе",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "формирование темной порошковой массы",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "тиомочевина",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "селенит",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "микроглобулы",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "обогащенные селеном",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "обогащенные углеродом",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "обогащенные кислородом",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "содержание > 1%",
+      "label": "Measurement",
+      "properties": {
+        "min": 1,
+        "operator": ">",
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "теллурит",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "теллуриды меди",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "катион HTeO2+",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "влияние теллура",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "внешний вид медных осадков",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "более высокие концентрации в электролите",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "требования к чистоте растворов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "не предъявляются",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "обоснования требований",
+      "label": "Finding",
+      "properties": {
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "не выявлено",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "src_p6",
+      "label": "Source",
+      "properties": {
+        "span": "p.6"
+      }
+    },
+    {
+      "id": "src_p7",
+      "label": "Source",
+      "properties": {
+        "span": "p.7"
+      }
+    },
+    {
+      "id": "src_p8",
+      "label": "Source",
+      "properties": {
+        "span": "p.8"
+      }
+    },
+    {
+      "id": "src_p9",
+      "label": "Source",
+      "properties": {
+        "span": "p.9"
+      }
+    },
+    {
+      "id": "src_p10",
+      "label": "Source",
+      "properties": {
+        "span": "p.10"
+      }
+    },
+    {
+      "id": "src_p11",
+      "label": "Source",
+      "properties": {
+        "span": "p.11"
+      }
+    },
+    {
+      "id": "опыт",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "meas_copper_40",
+      "label": "Measurement",
+      "properties": {
+        "min": 40000.0,
+        "unit": "мг/л",
+        "operator": ">=",
+        "verified": true,
+        "unit_normalized_from": "г/дм3"
+      }
+    },
+    {
+      "id": "meas_copper_35",
+      "label": "Measurement",
+      "properties": {
+        "max": 35000.0,
+        "unit": "мг/л",
+        "operator": "<=",
+        "verified": true,
+        "unit_normalized_from": "г/дм3"
+      }
+    },
+    {
+      "id": "finding_linear_dependency",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_nonlinear_deviation",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_selenium_more_hazardous",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "literature_ref_6",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "literature_ref_10",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "table_1",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "ид медных осадков",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "электролит",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "сопоставление результатов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "работа [6]",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "работа [10]",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "сомнения",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "обоснования требований к продукционным растворам",
+      "label": "Finding",
+      "properties": {
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "литература",
+      "label": "Topic",
+      "properties": {}
+    },
+    {
+      "id": "соотношение селена и теллура в катодной меди",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "производственные растворы",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "meas_se_0.2",
+      "label": "Measurement",
+      "properties": {
+        "max": 0.2,
+        "unit": "г/т",
+        "operator": "<",
+        "value": 0.2,
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_te_0.02",
+      "label": "Measurement",
+      "properties": {
+        "max": 0.02,
+        "unit": "г/т",
+        "operator": "<",
+        "value": 0.02,
+        "verified": true
+      }
+    },
+    {
+      "id": "property_concentration_se",
+      "label": "Property",
+      "properties": {
+        "name": "содержание селена в осадке"
+      }
+    },
+    {
+      "id": "property_concentration_te",
+      "label": "Property",
+      "properties": {
+        "name": "содержание теллура в осадке"
+      }
+    },
+    {
+      "id": "finding_stabilization",
+      "label": "Finding",
+      "properties": {
+        "description": "снижение концентрации примесей в осадке происходит при практически неизменной их концентрации в растворе",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "анодное окисление",
+      "label": "Process",
+      "properties": {
+        "description": "процесс анодного окисления примеси, идущий на предельном токе"
+      }
+    },
+    {
+      "id": "катодное восстановление",
+      "label": "Process",
+      "properties": {
+        "description": "процесс катодного восстановления примеси"
+      }
+    },
+    {
+      "id": "массообмен",
+      "label": "Condition",
+      "properties": {
+        "description": "условие, способствующее интенсивному переносу вещества, особенно при анодном выделении кислорода"
+      }
+    },
+    {
+      "id": "восстановление теллура (IV)",
+      "label": "Process",
+      "properties": {
+        "description": "катодное восстановление теллура (IV)"
+      }
+    },
+    {
+      "id": "низкая скорость",
+      "label": "Finding",
+      "properties": {
+        "description": "аномально низкая скорость восстановления теллура (IV)",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "дополнительный опыт",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "селенат",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "теллурат",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "токовая нагрузка",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "падение активных примесей в растворе",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "содержание активных примесей в растворе падает сразу после включения токовой нагрузки"
+      }
+    },
+    {
+      "id": "независимость содержания микропримесей в осадке от содержания Se (VI) и Te (VI) в электролите",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "содержание микропримесей в осадке не зависит от концентрации Se (VI) и Te (VI) в электролите"
+      }
+    },
+    {
+      "id": "finding_independence_se_te",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "содержание микропримесей в осадке не зависит от концентрации Se (VI) и Te (VI) в электролите"
+      }
+    },
+    {
+      "id": "расчетное начальное содержание примеси Ств.0",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "коэффициент пропорциональности Кп.0",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "Кп.0_сelenium",
+      "label": "Measurement",
+      "properties": {
+        "value": 89.3,
+        "unit": "",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "Кп.0_tellurium",
+      "label": "Measurement",
+      "properties": {
+        "value": 2.02,
+        "unit": "",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "сelenium",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "tellurium",
+      "label": "Material",
+      "properties": {
+        "name": "tellurium"
+      }
+    },
+    {
+      "id": "расчетные прямые",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "расчетные зависимости между содержанием Me (IV) в растворе и содержанием примеси в осадке, отвечающие истинному содержанию примесей в катоде"
+      }
+    },
+    {
+      "id": "истинное содержание примесей в катоде",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "истинное содержание примесей в катоде, соответствующее расчетным прямым"
+      }
+    },
+    {
+      "id": "finding_true_content",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "истинное содержание примесей в катоде, соответствующее расчетным прямым"
+      }
+    },
+    {
+      "id": "счетные зависимости между содержанием Me (IV) в растворе и содержанием примеси в осадке",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "рисунок 1",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "линейные зависимости в координатах Ln (Сж.) – Q",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "минус первому порядку реакции по концентрации относительно удельного количества электричества",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "dCж./dQ= – ACж.",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "A – константа определяемой таким образом скорости реакции анодного окисления Ме(IV)",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "рисунок 2б",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "коэффициенты аппроксимирующих уравнений вида Ax+B",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "Сж.=Ств./Кп.",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "начальный момент осаждения",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "известное, начальное их содержание в электролите",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "экспериментальные прямые",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "среднее содержание примесей в металле",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "снижающаяся концентрация примесей в растворе",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "конечная величина",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "начальная концентрация",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "количество электричества, пропущенного через удельный объем электролита",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "анодное выделение кислорода",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "энергичный массообмен",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "низкая скорость восстановления",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "аномально низкая скорость восстановления теллура (IV)",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "сравнение с селеном (IV)",
+      "label": "Topic",
+      "properties": {}
+    },
+    {
+      "id": "известные затруднения реакции восстановления теллура (IV)",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "осаждение меди без циркуляции",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "периодический режим",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "снижение содержания примесей в осадке",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "уравнение Ств. = Ств.0 * exp(aQ + b)",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "коэффициенты аппроксимирующих уравнений на рисунке 2а",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "Ств.0",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "Q",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "среднее содержание примеси в осадке",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "уравнение (1)",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "рассчитанное содержание примеси в катоде",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "рисунок 3",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "коэффициент пропорциональности между содержанием примеси в растворе и осадке",
+      "label": "Property",
+      "properties": {
+        "unit": "безразмерный"
+      }
+    },
+    {
+      "id": "Кп. = Кп.0 * Ств. / Ств.0",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "Кп.0",
+      "label": "Property",
+      "properties": {
+        "description": "Начальный коэффициент пропорциональности"
+      }
+    },
+    {
+      "id": "Ств.",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "Ств.0_2",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "расчетное изменение среднего содержания примеси в катодной меди",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "содержание примеси в катодной меди",
+      "label": "Property",
+      "properties": {
+        "unit": "мг/дм3"
+      }
+    },
+    {
+      "id": "количество электричества пропущенного через дм3 раствора",
+      "label": "Property",
+      "properties": {
+        "unit": "А·ч/дм3"
+      }
+    },
+    {
+      "id": "q = 1,186 г/Ач",
+      "label": "Measurement",
+      "properties": {
+        "value": 1.186,
+        "unit": "г/Ач",
+        "verified": true
+      }
+    },
+    {
+      "id": "выход меди по току",
+      "label": "Property",
+      "properties": {
+        "unit": "%"
+      }
+    },
+    {
+      "id": "начальная концентрация селена (IV)",
+      "label": "Property",
+      "properties": {
+        "unit": "мг/дм3"
+      }
+    },
+    {
+      "id": "4 мг/дм3",
+      "label": "Measurement",
+      "properties": {
+        "value": 4.0,
+        "unit": "мг/л",
+        "verified": true,
+        "unit_normalized_from": "мг/дм3"
+      }
+    },
+    {
+      "id": "начальная концентрация теллура (IV)",
+      "label": "Property",
+      "properties": {
+        "unit": "мг/дм3"
+      }
+    },
+    {
+      "id": "40 мг/дм3",
+      "label": "Measurement",
+      "properties": {
+        "value": 40.0,
+        "unit": "мг/л",
+        "verified": true,
+        "unit_normalized_from": "мг/дм3"
+      }
+    },
+    {
+      "id": "Кп. = Кп.0exp(aQ)",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Коэффициент пропорциональности между содержанием примеси в растворе и осадке"
+      }
+    },
+    {
+      "id": "a – коэффициент аппроксимирующего уравнения",
+      "label": "Property",
+      "properties": {
+        "unit": "дм3/А·ч"
+      }
+    },
+    {
+      "id": "периодический режим осаждения",
+      "label": "Condition",
+      "properties": {
+        "mode": "периодический"
+      }
+    },
+    {
+      "id": "стационарный непрерывный режим",
+      "label": "Condition",
+      "properties": {
+        "mode": "непрерывный"
+      }
+    },
+    {
+      "id": "рисунок 2а",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "непрерывный режим осаждения",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "meas_selen_0_8",
+      "label": "Measurement",
+      "properties": {
+        "max": 0.8,
+        "unit": "мг/л",
+        "operator": "<=",
+        "verified": true,
+        "unit_normalized_from": "мг/дм3"
+      }
+    },
+    {
+      "id": "meas_tellur_7",
+      "label": "Measurement",
+      "properties": {
+        "max": 7.0,
+        "unit": "мг/л",
+        "operator": "<=",
+        "verified": true,
+        "unit_normalized_from": "мг/дм3"
+      }
+    },
+    {
+      "id": "property_selen_iv",
+      "label": "Property",
+      "properties": {
+        "name": "селен (IV)"
+      }
+    },
+    {
+      "id": "property_tellur_iv",
+      "label": "Property",
+      "properties": {
+        "name": "теллур (IV)"
+      }
+    },
+    {
+      "id": "finding_micropurities_reduction",
+      "label": "Finding",
+      "properties": {
+        "statement": "содержание микропримесей в катодах быстро снижается с увеличением съема меди",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_shlams_source",
+      "label": "Finding",
+      "properties": {
+        "statement": "при электрорафинировании основным источником загрязнения катодной меди селеном и теллуром являются шламы",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "a",
+      "label": "Property",
+      "properties": {
+        "description": "Коэффициент аппроксимирующего уравнения вида ax+b"
+      }
+    },
+    {
+      "id": "Ств = Сж. Кп.0 exp ((1,186*0,369*a*(∆Cu))",
+      "label": "Process",
+      "properties": {
+        "description": "Содержание примеси в катоде для непрерывного режима осаждения"
+      }
+    },
+    {
+      "id": "Сж.",
+      "label": "Property",
+      "properties": {
+        "description": "Концентрация примеси (IV) в питающем растворе"
+      }
+    },
+    {
+      "id": "∆Cu",
+      "label": "Property",
+      "properties": {
+        "description": "Съем меди"
+      }
+    },
+    {
+      "id": "0,369 = exp(-1)",
+      "label": "Finding",
+      "properties": {
+        "description": "Коэффициент, учитывающий степень превращения при работе единичного аппарата в непрерывном режиме",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "рисунок 4",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "селен в катодной меди",
+      "label": "Material",
+      "properties": {
+        "type": "product"
+      }
+    },
+    {
+      "id": "теллур в катодной меди",
+      "label": "Material",
+      "properties": {
+        "type": "product"
+      }
+    },
+    {
+      "id": "удельный съем меди, г/дм3",
+      "label": "Property",
+      "properties": {
+        "description": "Удельный съем меди в непрерывном режиме"
+      }
+    },
+    {
+      "id": "работающая в непрерывном режиме ванна",
+      "label": "Process",
+      "properties": {
+        "mode": "continuous"
+      }
+    },
+    {
+      "id": "существенно более чистый металл",
+      "label": "Finding",
+      "properties": {
+        "description": "При равных условиях в непрерывном режиме получается более чистый металл",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "сравнение",
+      "label": "Finding",
+      "properties": {
+        "description": "Сравнение результатов рисунков 3 и 4",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "электрорафинирование",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "шламы",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "электроэкстракция",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "meas_selen_001",
+      "label": "Measurement",
+      "properties": {
+        "max": 0.01,
+        "unit": "мг/л",
+        "operator": "<=",
+        "verified": true,
+        "unit_normalized_from": "мг/дм3"
+      }
+    },
+    {
+      "id": "meas_tellur_50",
+      "label": "Measurement",
+      "properties": {
+        "max": 0.5,
+        "unit": "мг/л",
+        "operator": "<=",
+        "verified": true,
+        "unit_normalized_from": "мг/дм3"
+      }
+    },
+    {
+      "id": "finding_electroextraction_efficiency",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Электроэкстракция, интегрированная в производство меди рафинированием черновых анодов, оказывается достаточно эффективной очистной операцией в отношении селена и теллура (IV)"
+      }
+    },
+    {
+      "id": "W.G. Davenport",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Lian-Kui Wu",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Chao-Chao Li",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Ze-Feng Zhang",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Hua-Zhen Cao",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Jin Xue",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Guo-Qu Zheng",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "P CAREZONNELLE",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "End L LAMBERTS",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "P. Carbonnelle",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "L. Lamberts",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Karolina Kołczykla",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Remigiusz Kowalik",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Krzysztof Mech",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Piotr Żabiński",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Copper electrowinning: 2013 world tankhouse operating data",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "Effect of Tellurium on Copper Electrodeposition in Copper Sulfate-Sulfuric Acid System",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "ELECTROCHEMICAL STUDY OF THE COPPER-SELENIUM SYSTEM USING CARBON PASTE ELECTRODE",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "A voltammetric study of the electrodeposition of the Cu + Se system",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "Electrochemical deposition of selenium on copper",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "title": "Electrochemical Deposition of Selenium on Copper",
+        "journal": "Key Engineering Materials",
+        "issn": "1662-9795",
+        "volume": "682",
+        "pages": "189-196",
+        "accepted": "2015-09-14",
+        "doi": "10.4028/www.scientific.net/KEM.682.189"
+      }
+    },
+    {
+      "id": "igiusz Kowalik",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Baral A.",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Safizadeh, F.",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "R. KOWALIK",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Franklin Ngandu",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Process_Electrochemical_Deposition",
+      "label": "Process",
+      "properties": {
+        "name": "Electrochemical Deposition"
+      }
+    },
+    {
+      "id": "Material_Copper",
+      "label": "Material",
+      "properties": {
+        "name": "Copper"
+      }
+    },
+    {
+      "id": "Material_Selenium",
+      "label": "Material",
+      "properties": {
+        "name": "Selenium"
+      }
+    },
+    {
+      "id": "Property_Selenium_Concentration",
+      "label": "Property",
+      "properties": {
+        "name": "Selenium Concentration"
+      }
+    },
+    {
+      "id": "Property_Copper_Deposition_Rate",
+      "label": "Property",
+      "properties": {
+        "name": "Copper Deposition Rate"
+      }
+    },
+    {
+      "id": "Condition_Electrochemical_Noise_Analysis",
+      "label": "Condition",
+      "properties": {
+        "name": "Electrochemical Noise Analysis"
+      }
+    },
+    {
+      "id": "Experiment_Electrodeposition_Selenium_Copper",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "Finding_Selenium_Inhibits_Copper_Deposition",
+      "label": "Finding",
+      "properties": {
+        "statement": "Selenium inhibits copper deposition during electrorefining.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "Finding_Selenium_Concentration_Affects_Deposition_Kinetics",
+      "label": "Finding",
+      "properties": {
+        "statement": "Selenium concentration influences the kinetics of copper electrodeposition.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "meas_k_se_70_4",
+      "label": "Measurement",
+      "properties": {
+        "value": 70.4,
+        "unit": "мА×м/мг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_k_se_40_3",
+      "label": "Measurement",
+      "properties": {
+        "value": 40.3,
+        "unit": "мА×м/мг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_k_te_36_5",
+      "label": "Measurement",
+      "properties": {
+        "value": 36.5,
+        "unit": "мА×м/мг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_k_te_0_56",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.56,
+        "unit": "мА×м/мг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "property_k_mam_mg",
+      "label": "Property",
+      "properties": {
+        "name": "k, (мА×м)/мг"
+      }
+    },
+    {
+      "id": "finding_k_se_70_4",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_k_se_40_3",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_k_te_36_5",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_k_te_0_56",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "A.M. Afront",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "E. Rudnik",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Букетов Е.А.",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Mohammad Mokmeli",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "An investigation of the influence of selenium on copper deposition during electrorefining using electrochemical noise analysis",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "year": 2012
+      }
+    },
+    {
+      "id": "Electrochemical studies on the codeposition of copper and tellurium from acidic nitrate solution",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "year": 2013
+      }
+    },
+    {
+      "id": "Гидрохимическое окисление халькогенов и хелькогенидов",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "year": 1975
+      }
+    },
+    {
+      "id": "Kinetics of selenium and tellurium removal with cuprous ion from copper sulfate-sulfuric acid solution",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "year": 2014
+      }
+    },
+    {
+      "id": "seleсen",
+      "label": "Property",
+      "properties": {
+        "name": "selenium"
+      }
+    },
+    {
+      "id": "meas_se_k_200",
+      "label": "Measurement",
+      "properties": {
+        "value": 1.35,
+        "unit": "г/т",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_se_k_29_7",
+      "label": "Measurement",
+      "properties": {
+        "value": 29.7,
+        "unit": "г/т",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_te_k_300",
+      "label": "Measurement",
+      "properties": {
+        "value": 300,
+        "unit": "А/м2",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "finding_se_yield_997",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Коэффициент извлечения селена при Dк=200 А/м2, t=31°C, Cu-40 г/дм3, H2SO4-150 г/дм3 составляет 0.997"
+      }
+    },
+    {
+      "id": "finding_se_yield_986",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Коэффициент извлечения селена по нашим данным составляет 0.986"
+      }
+    },
+    {
+      "id": "finding_te_yield_300",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Коэффициент извлечения теллура при Dк=300 А/м2 и комнатной температуре"
+      }
+    },
+    {
+      "id": "Dк= 200 А/м2; t = 31 0C; Cu- 40 г/дм3; H2SO4-150 г/дм3",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "Наши данные",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "Dк= 300 А/м2; комн. т-ра",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "src_p205",
+      "label": "Source",
+      "properties": {
+        "span": "p.205"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Затицкий Борис Эдуардович",
+      "target": "ОАО «Институт Гипроникель»",
+      "type": "authored_by"
+    },
+    {
+      "source": "Трубина Ольга Акимовна",
+      "target": "ОАО «Институт Гипроникель»",
+      "type": "authored_by"
+    },
+    {
+      "source": "ОАО «Институт Гипроникель»",
+      "target": "ПАО «ГМК «Норильский никель»",
+      "type": "conducted_at"
+    },
+    {
+      "source": "диффузионная кинетика",
+      "target": "meas_order_minus1",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_order_minus1",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "диффузионная кинетика",
+      "target": "finding_impurity_reduction",
+      "type": "showed"
+    },
+    {
+      "source": "finding_impurity_reduction",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "диффузионная кинетика",
+      "target": "property_concentration_chalcogenites",
+      "type": "measures_property"
+    },
+    {
+      "source": "диффузионная кинетика",
+      "target": "property_copper_cathode_recovery",
+      "type": "measures_property"
+    },
+    {
+      "source": "свинцовый анод",
+      "target": "process_oxidation_Se_IV_Te_IV",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "process_oxidation_Se_IV_Te_IV",
+      "target": "property_Se_VI_Te_VI",
+      "type": "produces_output"
+    },
+    {
+      "source": "process_oxidation_Se_IV_Te_IV",
+      "target": "property_circulating_electrolyte",
+      "type": "produces_output"
+    },
+    {
+      "source": "селен (IV)",
+      "target": "требования к чистоте продукционных растворов по селену (IV)",
+      "type": "applies_to"
+    },
+    {
+      "source": "требования к чистоте продукционных растворов по селену (IV)",
+      "target": "meas_selen_4",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_selen_4",
+      "target": "src_p3",
+      "type": "has_source"
+    },
+    {
+      "source": "требования к чистоте продукционных растворов по селену (IV)",
+      "target": "finding_low_selen_iv",
+      "type": "showed"
+    },
+    {
+      "source": "finding_low_selen_iv",
+      "target": "src_p3",
+      "type": "has_source"
+    },
+    {
+      "source": "теллур (IV)",
+      "target": "требования к чистоте продукционных растворов по теллуру (IV)",
+      "type": "applies_to"
+    },
+    {
+      "source": "требования к чистоте продукционных растворов по теллуру (IV)",
+      "target": "finding_no_requirements_tellur_iv",
+      "type": "showed"
+    },
+    {
+      "source": "finding_no_requirements_tellur_iv",
+      "target": "src_p3",
+      "type": "has_source"
+    },
+    {
+      "source": "селен (VI)",
+      "target": "требования к чистоте продукционных растворов по селену (VI)",
+      "type": "applies_to"
+    },
+    {
+      "source": "требования к чистоте продукционных растворов по селену (VI)",
+      "target": "finding_no_requirements_selen_vi",
+      "type": "showed"
+    },
+    {
+      "source": "finding_no_requirements_selen_vi",
+      "target": "src_p3",
+      "type": "has_source"
+    },
+    {
+      "source": "теллур (VI)",
+      "target": "требования к чистоте продукционных растворов по теллуру (VI)",
+      "type": "applies_to"
+    },
+    {
+      "source": "требования к чистоте продукционных растворов по теллуру (VI)",
+      "target": "finding_no_requirements_tellur_vi",
+      "type": "showed"
+    },
+    {
+      "source": "finding_no_requirements_tellur_vi",
+      "target": "src_p3",
+      "type": "has_source"
+    },
+    {
+      "source": "высокое содержание теллура в электролите",
+      "target": "загрязнение им катодной меди",
+      "type": "showed"
+    },
+    {
+      "source": "загрязнение им катодной меди",
+      "target": "src_p3",
+      "type": "has_source"
+    },
+    {
+      "source": "Затицкий Борис Эдуардович",
+      "target": "ПАО «ГМК «Норильский никель»",
+      "type": "authored_by"
+    },
+    {
+      "source": "Трубина Ольга Акимовна",
+      "target": "ПАО «ГМК «Норильский никель»",
+      "type": "authored_by"
+    },
+    {
+      "source": "ПАО «ГМК «Норильский никель»",
+      "target": "ОАО «Институт Гипроникель»",
+      "type": "conducted_at"
+    },
+    {
+      "source": "электроэкстракция меди",
+      "target": "селен",
+      "type": "applies_to"
+    },
+    {
+      "source": "электроэкстракция меди",
+      "target": "теллур",
+      "type": "applies_to"
+    },
+    {
+      "source": "электроэкстракция меди",
+      "target": "медный электролит",
+      "type": "applies_to"
+    },
+    {
+      "source": "электроэкстракция меди",
+      "target": "катодное восстановление меди",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "электроэкстракция меди",
+      "target": "разряд селена (IV)",
+      "type": "applies_to"
+    },
+    {
+      "source": "электроэкстракция меди",
+      "target": "разряд теллура (IV)",
+      "type": "applies_to"
+    },
+    {
+      "source": "разряд селена (IV)",
+      "target": "диффузионная кинетика",
+      "type": "supports"
+    },
+    {
+      "source": "разряд теллура (IV)",
+      "target": "диффузионная кинетика",
+      "type": "supports"
+    },
+    {
+      "source": "содержание селена и теллура в меди",
+      "target": "концентрация халькогенитов в растворе",
+      "type": "measures_property"
+    },
+    {
+      "source": "содержание селена и теллура в меди",
+      "target": "пропорциональность",
+      "type": "supports"
+    },
+    {
+      "source": "содержание селена и теллура в меди",
+      "target": "электроэкстракция меди",
+      "type": "produces_output"
+    },
+    {
+      "source": "электроэкстракция меди",
+      "target": "обжиговые газы",
+      "type": "produces_output"
+    },
+    {
+      "source": "обжиговые газы",
+      "target": "сернокислотное производство",
+      "type": "produces_output"
+    },
+    {
+      "source": "микропримеси",
+      "target": "продукты выщелачивания",
+      "type": "produces_output"
+    },
+    {
+      "source": "циркулирующие оборотные полупродукты",
+      "target": "накопление селена и теллура",
+      "type": "supports"
+    },
+    {
+      "source": "накопление селена и теллура",
+      "target": "снижение качества товарных металлов",
+      "type": "contradicts"
+    },
+    {
+      "source": "требования к медному электролиту",
+      "target": "получение товарных медных катодов высшей марки",
+      "type": "supports"
+    },
+    {
+      "source": "требования к медному электролиту",
+      "target": "микропримеси селена и теллура",
+      "type": "applies_to"
+    },
+    {
+      "source": "электроэкстракция меди",
+      "target": "продукты выщелачивания",
+      "type": "produces_output"
+    },
+    {
+      "source": "электроэкстракция меди",
+      "target": "циркулирующие оборотные полупродукты",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "электроэкстракция меди",
+      "target": "никелевое производство",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "электроэкстракция меди",
+      "target": "медное производство",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "электроэкстракция меди",
+      "target": "файнштейн",
+      "type": "applies_to"
+    },
+    {
+      "source": "файнштейн",
+      "target": "продукты выщелачивания",
+      "type": "produces_output"
+    },
+    {
+      "source": "файнштейн",
+      "target": "обжиговые газы",
+      "type": "produces_output"
+    },
+    {
+      "source": "файнштейн",
+      "target": "циркулирующие оборотные полупродукты",
+      "type": "produces_output"
+    },
+    {
+      "source": "файнштейн",
+      "target": "медный электролит",
+      "type": "produces_output"
+    },
+    {
+      "source": "файнштейн",
+      "target": "селен",
+      "type": "applies_to"
+    },
+    {
+      "source": "файнштейн",
+      "target": "теллур",
+      "type": "applies_to"
+    },
+    {
+      "source": "селен",
+      "target": "микропримеси",
+      "type": "applies_to"
+    },
+    {
+      "source": "теллур",
+      "target": "микропримеси",
+      "type": "applies_to"
+    },
+    {
+      "source": "селен",
+      "target": "халькогениты",
+      "type": "applies_to"
+    },
+    {
+      "source": "теллур",
+      "target": "халькогениты",
+      "type": "applies_to"
+    },
+    {
+      "source": "халькогениты",
+      "target": "концентрация",
+      "type": "measures_property"
+    },
+    {
+      "source": "концентрация халькогенитов в растворе",
+      "target": "содержание селена и теллура в меди",
+      "type": "measures_property"
+    },
+    {
+      "source": "диффузионная кинетика",
+      "target": "разряд селена (IV)",
+      "type": "supports"
+    },
+    {
+      "source": "диффузионная кинетика",
+      "target": "разряд теллура (IV)",
+      "type": "supports"
+    },
+    {
+      "source": "разряд селена (IV)",
+      "target": "предельный ток",
+      "type": "supports"
+    },
+    {
+      "source": "разряд теллура (IV)",
+      "target": "предельный ток",
+      "type": "supports"
+    },
+    {
+      "source": "предельный ток",
+      "target": "катодное восстановление меди",
+      "type": "conducted_at"
+    },
+    {
+      "source": "катодное восстановление меди",
+      "target": "электроэкстракция меди",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "товарные медные катоды высшей марки",
+      "target": "микропримеси селена и теллура",
+      "type": "applies_to"
+    },
+    {
+      "source": "товарные медные катоды высшей марки",
+      "target": "требования к медному электролиту",
+      "type": "supports"
+    },
+    {
+      "source": "требования к медному электролиту",
+      "target": "электроэкстракция меди",
+      "type": "applies_to"
+    },
+    {
+      "source": "электроэкстракция меди",
+      "target": "реферат",
+      "type": "described_in"
+    },
+    {
+      "source": "Затицкий Борис Эдуардович",
+      "target": "реферат",
+      "type": "authored_by"
+    },
+    {
+      "source": "Трубина Ольга Акимовна",
+      "target": "реферат",
+      "type": "authored_by"
+    },
+    {
+      "source": "реферат",
+      "target": "ОАО «Институт Гипроникель»",
+      "type": "described_in"
+    },
+    {
+      "source": "реферат",
+      "target": "ПАО «ГМК «Норильский никель»",
+      "type": "described_in"
+    },
+    {
+      "source": "реферат",
+      "target": "СТРАНИЦА 1",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_tellurium_hazard",
+      "target": "contradicts",
+      "type": "contradicts"
+    },
+    {
+      "source": "finding_tellurium_hazard",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "селен",
+      "target": "медный электролит",
+      "type": "applies_to"
+    },
+    {
+      "source": "теллур",
+      "target": "медный электролит",
+      "type": "applies_to"
+    },
+    {
+      "source": "электроэкстракционный способ",
+      "target": "продукционный раствор питания ванн",
+      "type": "uses_material"
+    },
+    {
+      "source": "продукционный раствор питания ванн",
+      "target": "селен",
+      "type": "produces_output"
+    },
+    {
+      "source": "продукционный раствор питания ванн",
+      "target": "теллур",
+      "type": "produces_output"
+    },
+    {
+      "source": "выщелачивание богатых промпродуктов",
+      "target": "продукционный раствор питания ванн",
+      "type": "produces_output"
+    },
+    {
+      "source": "реэкстракция",
+      "target": "продукционный раствор питания ванн",
+      "type": "produces_output"
+    },
+    {
+      "source": "технология SX-EW",
+      "target": "продукционный раствор питания ванн",
+      "type": "produces_output"
+    },
+    {
+      "source": "технология SX-EW",
+      "target": "медь",
+      "type": "produces_output"
+    },
+    {
+      "source": "электроэкстракция напрямую",
+      "target": "медь",
+      "type": "produces_output"
+    },
+    {
+      "source": "электроэкстракция напрямую",
+      "target": "медно-никелевый файнштейн",
+      "type": "uses_material"
+    },
+    {
+      "source": "очистка медных растворов",
+      "target": "селен",
+      "type": "applies_to"
+    },
+    {
+      "source": "очистка медных растворов",
+      "target": "теллур",
+      "type": "applies_to"
+    },
+    {
+      "source": "селен",
+      "target": "форма соединений Me (IV)",
+      "type": "measures_property"
+    },
+    {
+      "source": "теллур",
+      "target": "форма соединений Me (IV)",
+      "type": "measures_property"
+    },
+    {
+      "source": "селен",
+      "target": "форма соединений Me (VI)",
+      "type": "measures_property"
+    },
+    {
+      "source": "теллур",
+      "target": "форма соединений Me (VI)",
+      "type": "measures_property"
+    },
+    {
+      "source": "электроэкстракционный способ",
+      "target": "очистка медных растворов",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "технология SX-EW",
+      "target": "мировой объем горной добычи меди за 2017 г.",
+      "type": "applies_to"
+    },
+    {
+      "source": "медь",
+      "target": "аттестованная на ЛБМ катодная медь",
+      "type": "produces_output"
+    },
+    {
+      "source": "аттестованная на ЛБМ катодная медь",
+      "target": "селен",
+      "type": "applies_to"
+    },
+    {
+      "source": "аттестованная на ЛБМ катодная медь",
+      "target": "теллур",
+      "type": "applies_to"
+    },
+    {
+      "source": "селен",
+      "target": "0,5 г/т",
+      "type": "has_measurement"
+    },
+    {
+      "source": "теллур",
+      "target": "0,5 г/т",
+      "type": "has_measurement"
+    },
+    {
+      "source": "0,5 г/т",
+      "target": "аттестованная на ЛБМ катодная медь",
+      "type": "measures_property"
+    },
+    {
+      "source": "0,5 г/т",
+      "target": "селен",
+      "type": "measures_property"
+    },
+    {
+      "source": "0,5 г/т",
+      "target": "теллур",
+      "type": "measures_property"
+    },
+    {
+      "source": "выщелачивание богатых промпродуктов",
+      "target": "14 тыс. т",
+      "type": "has_measurement"
+    },
+    {
+      "source": "реэкстракция",
+      "target": "5 тыс. т",
+      "type": "has_measurement"
+    },
+    {
+      "source": "технология SX-EW",
+      "target": "18,5%",
+      "type": "has_measurement"
+    },
+    {
+      "source": "технология SX-EW",
+      "target": "мировой объем горной добычи меди за 2017 г.",
+      "type": "measures_property"
+    },
+    {
+      "source": "электроэкстракция напрямую",
+      "target": "5 заводов",
+      "type": "has_measurement"
+    },
+    {
+      "source": "аналитическое определение форм нахождения селена и теллура",
+      "target": "необходимый низ",
+      "type": "measures_property"
+    },
+    {
+      "source": "аналитическое определение форм нахождения селена и теллура",
+      "target": "селен",
+      "type": "measures_property"
+    },
+    {
+      "source": "аналитическое определение форм нахождения селена и теллура",
+      "target": "теллур",
+      "type": "measures_property"
+    },
+    {
+      "source": "ICAP 6500 Duo",
+      "target": "AES ICP",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "iCAP Qc",
+      "target": "MS ICP",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "AES ICP",
+      "target": "микропримеси",
+      "type": "measures_property"
+    },
+    {
+      "source": "MS ICP",
+      "target": "микропримеси",
+      "type": "measures_property"
+    },
+    {
+      "source": "добавки в электролит",
+      "target": "Na2SeO3",
+      "type": "uses_material"
+    },
+    {
+      "source": "добавки в электролит",
+      "target": "H2TeO3",
+      "type": "uses_material"
+    },
+    {
+      "source": "H2TeO3",
+      "target": "TeO",
+      "type": "produces_output"
+    },
+    {
+      "source": "добавки в электролит",
+      "target": "Na2SeO4",
+      "type": "uses_material"
+    },
+    {
+      "source": "добавки в электролит",
+      "target": "Na2TeO4",
+      "type": "uses_material"
+    },
+    {
+      "source": "Na2TeO4",
+      "target": "TeO",
+      "type": "produces_output"
+    },
+    {
+      "source": "стабильный состав электролита",
+      "target": "основной карбонат меди",
+      "type": "uses_material"
+    },
+    {
+      "source": "стабильный состав электролита",
+      "target": "рабочий электролит",
+      "type": "applies_to"
+    },
+    {
+      "source": "стабильный состав электролита",
+      "target": "концентрация меди",
+      "type": "measures_property"
+    },
+    {
+      "source": "finding_impurity_harm",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_impurity_harm",
+      "target": "expert_ivanov_ivan_ivanovich",
+      "type": "validated_by"
+    },
+    {
+      "source": "electroextraction",
+      "target": "meas_current_density_280",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_current_density_280",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "electroextraction",
+      "target": "meas_temperature_50",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_temperature_50",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "electroextraction",
+      "target": "meas_copper_conc_35",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_copper_conc_35",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "electroextraction",
+      "target": "meas_nickel_conc_20",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_nickel_conc_20",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "electroextraction",
+      "target": "meas_iron_conc_0.5",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_iron_conc_0.5",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "electroextraction",
+      "target": "meas_acid_conc_120",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_acid_conc_120",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "electroextraction",
+      "target": "experiment_lab_scale",
+      "type": "conducted_at"
+    },
+    {
+      "source": "experiment_lab_scale",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "experiment_lab_scale",
+      "target": "facility_laboratory",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "facility_laboratory",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "electroextraction",
+      "target": "process_periodic_mode",
+      "type": "applies_to"
+    },
+    {
+      "source": "process_periodic_mode",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "electroextraction",
+      "target": "material_synthetic_solution",
+      "type": "uses_material"
+    },
+    {
+      "source": "material_synthetic_solution",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "material_synthetic_solution",
+      "target": "material_reagent_salts",
+      "type": "produces_output"
+    },
+    {
+      "source": "material_reagent_salts",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "electroextraction",
+      "target": "equipment_titanium_cathodes",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "equipment_titanium_cathodes",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "electroextraction",
+      "target": "equipment_lead_anodes",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "equipment_lead_anodes",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "electroextraction",
+      "target": "process_copper_deposition",
+      "type": "produces_output"
+    },
+    {
+      "source": "process_copper_deposition",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "process_copper_deposition",
+      "target": "material_cathode_copper",
+      "type": "produces_output"
+    },
+    {
+      "source": "material_cathode_copper",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "material_cathode_copper",
+      "target": "property_selenium_content",
+      "type": "measures_property"
+    },
+    {
+      "source": "material_cathode_copper",
+      "target": "property_tellurium_content",
+      "type": "measures_property"
+    },
+    {
+      "source": "property_selenium_content",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "property_tellurium_content",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "material_electrolyte",
+      "target": "property_selenium_content",
+      "type": "measures_property"
+    },
+    {
+      "source": "material_electrolyte",
+      "target": "property_tellurium_content",
+      "type": "measures_property"
+    },
+    {
+      "source": "method_aes_icp",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "method_ms_icp",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "method_aes_icp",
+      "target": "equipment_icap_6500_duo",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "equipment_icap_6500_duo",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "method_ms_icp",
+      "target": "equipment_icap_qc",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "equipment_icap_qc",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "method_aes_icp",
+      "target": "method_aes",
+      "type": "applies_to"
+    },
+    {
+      "source": "method_ms_icp",
+      "target": "method_ms",
+      "type": "applies_to"
+    },
+    {
+      "source": "method_aes",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "method_ms",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "method_aes",
+      "target": "property_selenium_content",
+      "type": "measures_property"
+    },
+    {
+      "source": "method_ms",
+      "target": "property_tellurium_content",
+      "type": "measures_property"
+    },
+    {
+      "source": "method_aes",
+      "target": "material_electrolyte",
+      "type": "applies_to"
+    },
+    {
+      "source": "method_ms",
+      "target": "material_electrolyte",
+      "type": "applies_to"
+    },
+    {
+      "source": "method_aes",
+      "target": "material_cathode_copper",
+      "type": "applies_to"
+    },
+    {
+      "source": "method_ms",
+      "target": "material_cathode_copper",
+      "type": "applies_to"
+    },
+    {
+      "source": "method_aes",
+      "target": "standard_gost_57061_2016",
+      "type": "described_in"
+    },
+    {
+      "source": "method_ms",
+      "target": "standard_gost_57061_2016",
+      "type": "described_in"
+    },
+    {
+      "source": "standard_gost_57061_2016",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_no_clear_criteria",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_no_clear_criteria",
+      "target": "expert_ivanov_ivan_ivanovich",
+      "type": "validated_by"
+    },
+    {
+      "source": "finding_no_prediction",
+      "target": "src_p4",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_no_prediction",
+      "target": "expert_ivanov_ivan_ivanovich",
+      "type": "validated_by"
+    },
+    {
+      "source": "катодная медь",
+      "target": "содержание теллура",
+      "type": "contradicts"
+    },
+    {
+      "source": "осаждение меди",
+      "target": "селенистая кислота",
+      "type": "uses_material"
+    },
+    {
+      "source": "осаждение меди",
+      "target": "селениды переменного состава",
+      "type": "produces_output"
+    },
+    {
+      "source": "селениды переменного состава",
+      "target": "CuxSe",
+      "type": "described_in"
+    },
+    {
+      "source": "CuxSe",
+      "target": "1<х<1,8",
+      "type": "has_measurement"
+    },
+    {
+      "source": "1<х<1,8",
+      "target": "условия электролиза",
+      "type": "measures_property"
+    },
+    {
+      "source": "механизм деградации медных осадков",
+      "target": "селеновая кислота",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "механизм деградации медных осадков",
+      "target": "изучен",
+      "type": "showed"
+    },
+    {
+      "source": "концентрация селена",
+      "target": "шероховатость катодных осадков",
+      "type": "measures_property"
+    },
+    {
+      "source": "концентрация селена",
+      "target": "текстура катодных осадков",
+      "type": "measures_property"
+    },
+    {
+      "source": "концентрация селена",
+      "target": "цвет катодных осадков",
+      "type": "measures_property"
+    },
+    {
+      "source": "концентрация селена",
+      "target": "адгезия осадков к основе",
+      "type": "measures_property"
+    },
+    {
+      "source": "концентрация селена",
+      "target": "формирование темной порошковой массы",
+      "type": "measures_property"
+    },
+    {
+      "source": "электроэкстракция меди",
+      "target": "тиомочевина",
+      "type": "uses_material"
+    },
+    {
+      "source": "электроэкстракция меди",
+      "target": "селенит",
+      "type": "uses_material"
+    },
+    {
+      "source": "электроэкстракция меди",
+      "target": "микроглобулы",
+      "type": "produces_output"
+    },
+    {
+      "source": "микроглобулы",
+      "target": "обогащенные селеном",
+      "type": "has_measurement"
+    },
+    {
+      "source": "микроглобулы",
+      "target": "обогащенные углеродом",
+      "type": "has_measurement"
+    },
+    {
+      "source": "микроглобулы",
+      "target": "обогащенные кислородом",
+      "type": "has_measurement"
+    },
+    {
+      "source": "обогащенные селеном",
+      "target": "содержание > 1%",
+      "type": "has_measurement"
+    },
+    {
+      "source": "обогащенные углеродом",
+      "target": "содержание > 1%",
+      "type": "has_measurement"
+    },
+    {
+      "source": "обогащенные кислородом",
+      "target": "содержание > 1%",
+      "type": "has_measurement"
+    },
+    {
+      "source": "теллурит",
+      "target": "теллуриды меди",
+      "type": "produces_output"
+    },
+    {
+      "source": "теллурит",
+      "target": "катион HTeO2+",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "влияние теллура",
+      "target": "внешний вид медных осадков",
+      "type": "measures_property"
+    },
+    {
+      "source": "влияние теллура",
+      "target": "более высокие концентрации в электролите",
+      "type": "measures_property"
+    },
+    {
+      "source": "требования к чистоте растворов",
+      "target": "селен (VI)",
+      "type": "applies_to"
+    },
+    {
+      "source": "требования к чистоте растворов",
+      "target": "теллур (VI)",
+      "type": "applies_to"
+    },
+    {
+      "source": "требования к чистоте растворов",
+      "target": "не предъявляются",
+      "type": "showed"
+    },
+    {
+      "source": "обоснования требований",
+      "target": "селен",
+      "type": "contradicts"
+    },
+    {
+      "source": "обоснования требований",
+      "target": "не выявлено",
+      "type": "showed"
+    },
+    {
+      "source": "опыт",
+      "target": "meas_copper_40",
+      "type": "has_measurement"
+    },
+    {
+      "source": "опыт",
+      "target": "meas_copper_35",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_copper_40",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_copper_35",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "опыт",
+      "target": "finding_linear_dependency",
+      "type": "showed"
+    },
+    {
+      "source": "finding_linear_dependency",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_nonlinear_deviation",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "опыт",
+      "target": "finding_nonlinear_deviation",
+      "type": "showed"
+    },
+    {
+      "source": "опыт",
+      "target": "finding_selenium_more_hazardous",
+      "type": "showed"
+    },
+    {
+      "source": "finding_selenium_more_hazardous",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "опыт",
+      "target": "literature_ref_6",
+      "type": "described_in"
+    },
+    {
+      "source": "опыт",
+      "target": "literature_ref_10",
+      "type": "described_in"
+    },
+    {
+      "source": "literature_ref_6",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "literature_ref_10",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "table_1",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "ид медных осадков",
+      "target": "селен",
+      "type": "applies_to"
+    },
+    {
+      "source": "ид медных осадков",
+      "target": "теллур",
+      "type": "applies_to"
+    },
+    {
+      "source": "ид медных осадков",
+      "target": "электролит",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "ид медных осадков",
+      "target": "чистота меди",
+      "type": "measures_property"
+    },
+    {
+      "source": "ид медных осадков",
+      "target": "сопоставление результатов",
+      "type": "showed"
+    },
+    {
+      "source": "сопоставление результатов",
+      "target": "теллур",
+      "type": "contradicts"
+    },
+    {
+      "source": "сопоставление результатов",
+      "target": "селен",
+      "type": "contradicts"
+    },
+    {
+      "source": "сопоставление результатов",
+      "target": "соотношение селена и теллура в катодной меди",
+      "type": "contradicts"
+    },
+    {
+      "source": "сопоставление результатов",
+      "target": "производственные растворы",
+      "type": "contradicts"
+    },
+    {
+      "source": "сопоставление результатов",
+      "target": "обоснования требований к продукционным растворам",
+      "type": "contradicts"
+    },
+    {
+      "source": "сопоставление результатов",
+      "target": "литература",
+      "type": "described_in"
+    },
+    {
+      "source": "сопоставление результатов",
+      "target": "работа [6]",
+      "type": "described_in"
+    },
+    {
+      "source": "сопоставление результатов",
+      "target": "работа [10]",
+      "type": "described_in"
+    },
+    {
+      "source": "работа [6]",
+      "target": "сопоставление результатов",
+      "type": "supports"
+    },
+    {
+      "source": "работа [10]",
+      "target": "сопоставление результатов",
+      "type": "supports"
+    },
+    {
+      "source": "работа [6]",
+      "target": "чистота меди",
+      "type": "measures_property"
+    },
+    {
+      "source": "работа [6]",
+      "target": "электролит",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "работа [10]",
+      "target": "электролит",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "работа [6]",
+      "target": "теллур",
+      "type": "measures_property"
+    },
+    {
+      "source": "работа [10]",
+      "target": "селен",
+      "type": "measures_property"
+    },
+    {
+      "source": "работа [6]",
+      "target": "сопоставление результатов",
+      "type": "authored_by"
+    },
+    {
+      "source": "работа [10]",
+      "target": "сопоставление результатов",
+      "type": "authored_by"
+    },
+    {
+      "source": "сопоставление результатов",
+      "target": "сомнения",
+      "type": "showed"
+    },
+    {
+      "source": "сомнения",
+      "target": "работа [6]",
+      "type": "validated_by"
+    },
+    {
+      "source": "сомнения",
+      "target": "работа [10]",
+      "type": "validated_by"
+    },
+    {
+      "source": "сомнения",
+      "target": "обоснования требований к продукционным растворам",
+      "type": "contradicts"
+    },
+    {
+      "source": "сомнения",
+      "target": "литература",
+      "type": "contradicts"
+    },
+    {
+      "source": "сомнения",
+      "target": "соотношение селена и теллура в катодной меди",
+      "type": "contradicts"
+    },
+    {
+      "source": "сомнения",
+      "target": "производственные растворы",
+      "type": "contradicts"
+    },
+    {
+      "source": "сомнения",
+      "target": "теллур",
+      "type": "contradicts"
+    },
+    {
+      "source": "сомнения",
+      "target": "селен",
+      "type": "contradicts"
+    },
+    {
+      "source": "сомнения",
+      "target": "ид медных осадков",
+      "type": "contradicts"
+    },
+    {
+      "source": "сомнения",
+      "target": "работа [6]",
+      "type": "supports"
+    },
+    {
+      "source": "сомнения",
+      "target": "работа [10]",
+      "type": "supports"
+    },
+    {
+      "source": "сомнения",
+      "target": "сопоставление результатов",
+      "type": "supports"
+    },
+    {
+      "source": "сомнения",
+      "target": "обоснования требований к продукционным растворам",
+      "type": "supports"
+    },
+    {
+      "source": "сомнения",
+      "target": "литература",
+      "type": "supports"
+    },
+    {
+      "source": "сомнения",
+      "target": "соотношение селена и теллура в катодной меди",
+      "type": "supports"
+    },
+    {
+      "source": "сомнения",
+      "target": "производственные растворы",
+      "type": "supports"
+    },
+    {
+      "source": "сомнения",
+      "target": "теллур",
+      "type": "supports"
+    },
+    {
+      "source": "сомнения",
+      "target": "селен",
+      "type": "supports"
+    },
+    {
+      "source": "сомнения",
+      "target": "ид медных осадков",
+      "type": "supports"
+    },
+    {
+      "source": "осаждение меди",
+      "target": "meas_se_0.2",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_se_0.2",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "осаждение меди",
+      "target": "meas_te_0.02",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_te_0.02",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "осаждение меди",
+      "target": "finding_stabilization",
+      "type": "showed"
+    },
+    {
+      "source": "finding_stabilization",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "осаждение меди",
+      "target": "property_concentration_se",
+      "type": "measures_property"
+    },
+    {
+      "source": "осаждение меди",
+      "target": "property_concentration_te",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_se_0.2",
+      "target": "property_concentration_se",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_te_0.02",
+      "target": "property_concentration_te",
+      "type": "measures_property"
+    },
+    {
+      "source": "анодное окисление",
+      "target": "предельный ток",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "катодное восстановление",
+      "target": "предельный ток",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "анодное окисление",
+      "target": "массообмен",
+      "type": "supports"
+    },
+    {
+      "source": "восстановление теллура (IV)",
+      "target": "низкая скорость",
+      "type": "showed"
+    },
+    {
+      "source": "дополнительный опыт",
+      "target": "селенат",
+      "type": "uses_material"
+    },
+    {
+      "source": "дополнительный опыт",
+      "target": "теллурат",
+      "type": "uses_material"
+    },
+    {
+      "source": "дополнительный опыт",
+      "target": "электролит",
+      "type": "applies_to"
+    },
+    {
+      "source": "дополнительный опыт",
+      "target": "независимость содержания микропримесей в осадке от содержания Se (VI) и Te (VI) в электролите",
+      "type": "showed"
+    },
+    {
+      "source": "независимость содержания микропримесей в осадке от содержания Se (VI) и Te (VI) в электролите",
+      "target": "finding_independence_se_te",
+      "type": "validated_by"
+    },
+    {
+      "source": "дополнительный опыт",
+      "target": "токовая нагрузка",
+      "type": "applies_to"
+    },
+    {
+      "source": "токовая нагрузка",
+      "target": "падение активных примесей в растворе",
+      "type": "produces_output"
+    },
+    {
+      "source": "падение активных примесей в растворе",
+      "target": "finding_concentration_discrepancy",
+      "type": "described_in"
+    },
+    {
+      "source": "расчетное начальное содержание примеси Ств.0",
+      "target": "коэффициент пропорциональности Кп.0",
+      "type": "described_in"
+    },
+    {
+      "source": "коэффициент пропорциональности Кп.0",
+      "target": "Кп.0_сelenium",
+      "type": "has_measurement"
+    },
+    {
+      "source": "коэффициент пропорциональности Кп.0",
+      "target": "Кп.0_tellurium",
+      "type": "has_measurement"
+    },
+    {
+      "source": "Кп.0_сelenium",
+      "target": "сelenium",
+      "type": "measures_property"
+    },
+    {
+      "source": "Кп.0_tellurium",
+      "target": "tellurium",
+      "type": "measures_property"
+    },
+    {
+      "source": "Кп.0_сelenium",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "Кп.0_tellurium",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "расчетные прямые",
+      "target": "истинное содержание примесей в катоде",
+      "type": "described_in"
+    },
+    {
+      "source": "истинное содержание примесей в катоде",
+      "target": "finding_true_content",
+      "type": "described_in"
+    },
+    {
+      "source": "рисунок 1",
+      "target": "счетные зависимости между содержанием Me (IV) в растворе и содержанием примеси в осадке",
+      "type": "described_in"
+    },
+    {
+      "source": "рисунок 2б",
+      "target": "линейные зависимости в координатах Ln (Сж.) – Q",
+      "type": "described_in"
+    },
+    {
+      "source": "линейные зависимости в координатах Ln (Сж.) – Q",
+      "target": "минус первому порядку реакции по концентрации относительно удельного количества электричества",
+      "type": "supports"
+    },
+    {
+      "source": "минус первому порядку реакции по концентрации относительно удельного количества электричества",
+      "target": "dCж./dQ= – ACж.",
+      "type": "described_in"
+    },
+    {
+      "source": "dCж./dQ= – ACж.",
+      "target": "A – константа определяемой таким образом скорости реакции анодного окисления Ме(IV)",
+      "type": "described_in"
+    },
+    {
+      "source": "A – константа определяемой таким образом скорости реакции анодного окисления Ме(IV)",
+      "target": "рисунок 2б",
+      "type": "described_in"
+    },
+    {
+      "source": "рисунок 2б",
+      "target": "коэффициенты аппроксимирующих уравнений вида Ax+B",
+      "type": "described_in"
+    },
+    {
+      "source": "счетные зависимости между содержанием Me (IV) в растворе и содержанием примеси в осадке",
+      "target": "рисунок 1",
+      "type": "described_in"
+    },
+    {
+      "source": "начальный момент осаждения",
+      "target": "известное, начальное их содержание в электролите",
+      "type": "applies_to"
+    },
+    {
+      "source": "экспериментальные прямые",
+      "target": "среднее содержание примесей в металле",
+      "type": "measures_property"
+    },
+    {
+      "source": "среднее содержание примесей в металле",
+      "target": "снижающаяся концентрация примесей в растворе",
+      "type": "produces_output"
+    },
+    {
+      "source": "снижающаяся концентрация примесей в растворе",
+      "target": "конечная величина",
+      "type": "described_in"
+    },
+    {
+      "source": "конечная величина",
+      "target": "начальная концентрация",
+      "type": "applies_to"
+    },
+    {
+      "source": "конечная величина",
+      "target": "количество электричества, пропущенного через удельный объем электролита",
+      "type": "applies_to"
+    },
+    {
+      "source": "линейные зависимости в координатах Ln (Сж.) – Q",
+      "target": "Сж.=Ств./Кп.",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "Сж.=Ств./Кп.",
+      "target": "линейные зависимости в координатах Ln (Сж.) – Q",
+      "type": "applies_to"
+    },
+    {
+      "source": "анодное выделение кислорода",
+      "target": "объясняет",
+      "type": "contradicts"
+    },
+    {
+      "source": "анодное выделение кислорода",
+      "target": "энергичный массообмен",
+      "type": "supports"
+    },
+    {
+      "source": "восстановление теллура (IV)",
+      "target": "низкая скорость восстановления",
+      "type": "has_measurement"
+    },
+    {
+      "source": "низкая скорость восстановления",
+      "target": "аномально низкая скорость восстановления теллура (IV)",
+      "type": "described_in"
+    },
+    {
+      "source": "аномально низкая скорость восстановления теллура (IV)",
+      "target": "сравнение с селеном (IV)",
+      "type": "contradicts"
+    },
+    {
+      "source": "сравнение с селеном (IV)",
+      "target": "известные затруднения реакции восстановления теллура (IV)",
+      "type": "supports"
+    },
+    {
+      "source": "осаждение меди без циркуляции",
+      "target": "периодический режим",
+      "type": "applies_to"
+    },
+    {
+      "source": "осаждение меди без циркуляции",
+      "target": "снижение содержания примесей в осадке",
+      "type": "produces_output"
+    },
+    {
+      "source": "снижение содержания примесей в осадке",
+      "target": "уравнение Ств. = Ств.0 * exp(aQ + b)",
+      "type": "described_in"
+    },
+    {
+      "source": "уравнение Ств. = Ств.0 * exp(aQ + b)",
+      "target": "коэффициенты аппроксимирующих уравнений на рисунке 2а",
+      "type": "measures_property"
+    },
+    {
+      "source": "уравнение Ств. = Ств.0 * exp(aQ + b)",
+      "target": "Ств.0",
+      "type": "measures_property"
+    },
+    {
+      "source": "уравнение Ств. = Ств.0 * exp(aQ + b)",
+      "target": "Q",
+      "type": "measures_property"
+    },
+    {
+      "source": "среднее содержание примеси в осадке",
+      "target": "уравнение (1)",
+      "type": "described_in"
+    },
+    {
+      "source": "уравнение (1)",
+      "target": "рассчитанное содержание примеси в катоде",
+      "type": "produces_output"
+    },
+    {
+      "source": "рассчитанное содержание примеси в катоде",
+      "target": "рисунок 3",
+      "type": "described_in"
+    },
+    {
+      "source": "коэффициент пропорциональности между содержанием примеси в растворе и осадке",
+      "target": "Кп. = Кп.0 * Ств. / Ств.0",
+      "type": "described_in"
+    },
+    {
+      "source": "Кп. = Кп.0 * Ств. / Ств.0",
+      "target": "Кп.0",
+      "type": "measures_property"
+    },
+    {
+      "source": "Кп. = Кп.0 * Ств. / Ств.0",
+      "target": "Ств.",
+      "type": "measures_property"
+    },
+    {
+      "source": "Кп. = Кп.0 * Ств. / Ств.0",
+      "target": "Ств.0",
+      "type": "measures_property"
+    },
+    {
+      "source": "расчетное изменение среднего содержания примеси в катодной меди",
+      "target": "рисунок 3",
+      "type": "described_in"
+    },
+    {
+      "source": "рисунок 3",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "расчетное изменение среднего содержания примеси в катодной меди",
+      "target": "содержание примеси в катодной меди",
+      "type": "measures_property"
+    },
+    {
+      "source": "расчетное изменение среднего содержания примеси в катодной меди",
+      "target": "количество электричества пропущенного через дм3 раствора",
+      "type": "measures_property"
+    },
+    {
+      "source": "количество электричества пропущенного через дм3 раствора",
+      "target": "съем меди",
+      "type": "applies_to"
+    },
+    {
+      "source": "съем меди",
+      "target": "q = 1,186 г/Ач",
+      "type": "has_measurement"
+    },
+    {
+      "source": "q = 1,186 г/Ач",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "съем меди",
+      "target": "выход меди по току",
+      "type": "applies_to"
+    },
+    {
+      "source": "начальная концентрация селена (IV)",
+      "target": "4 мг/дм3",
+      "type": "has_measurement"
+    },
+    {
+      "source": "4 мг/дм3",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "начальная концентрация теллура (IV)",
+      "target": "40 мг/дм3",
+      "type": "has_measurement"
+    },
+    {
+      "source": "40 мг/дм3",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "коэффициент пропорциональности между содержанием примеси в растворе и осадке",
+      "target": "Кп. = Кп.0exp(aQ)",
+      "type": "described_in"
+    },
+    {
+      "source": "Кп. = Кп.0exp(aQ)",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "Кп. = Кп.0exp(aQ)",
+      "target": "a – коэффициент аппроксимирующего уравнения",
+      "type": "measures_property"
+    },
+    {
+      "source": "a – коэффициент аппроксимирующего уравнения",
+      "target": "рисунок 2а",
+      "type": "described_in"
+    },
+    {
+      "source": "рисунок 2а",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "периодический режим осаждения",
+      "target": "рисунок 3",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "стационарный непрерывный режим",
+      "target": "ванна",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "непрерывный режим осаждения",
+      "target": "обратный осмос",
+      "type": "applies_to"
+    },
+    {
+      "source": "непрерывный режим осаждения",
+      "target": "meas_selen_0_8",
+      "type": "has_measurement"
+    },
+    {
+      "source": "непрерывный режим осаждения",
+      "target": "meas_tellur_7",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_selen_0_8",
+      "target": "property_selen_iv",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_tellur_7",
+      "target": "property_tellur_iv",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_selen_0_8",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_tellur_7",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_micropurities_reduction",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_micropurities_reduction",
+      "target": "expert_ivanov_ivan_ivanovich",
+      "type": "validated_by"
+    },
+    {
+      "source": "finding_shlams_source",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_shlams_source",
+      "target": "expert_ivanov_ivan_ivanovich",
+      "type": "validated_by"
+    },
+    {
+      "source": "Кп. = Кп.0exp(aQ)",
+      "target": "a",
+      "type": "measures_property"
+    },
+    {
+      "source": "a",
+      "target": "рисунок 2а",
+      "type": "described_in"
+    },
+    {
+      "source": "Ств = Сж. Кп.0 exp ((1,186*0,369*a*(∆Cu))",
+      "target": "Сж.",
+      "type": "measures_property"
+    },
+    {
+      "source": "Ств = Сж. Кп.0 exp ((1,186*0,369*a*(∆Cu))",
+      "target": "Кп.0",
+      "type": "measures_property"
+    },
+    {
+      "source": "Ств = Сж. Кп.0 exp ((1,186*0,369*a*(∆Cu))",
+      "target": "a",
+      "type": "measures_property"
+    },
+    {
+      "source": "Ств = Сж. Кп.0 exp ((1,186*0,369*a*(∆Cu))",
+      "target": "∆Cu",
+      "type": "measures_property"
+    },
+    {
+      "source": "0,369 = exp(-1)",
+      "target": "exp(-1)",
+      "type": "described_in"
+    },
+    {
+      "source": "рисунок 4",
+      "target": "Сж.",
+      "type": "measures_property"
+    },
+    {
+      "source": "рисунок 4",
+      "target": "селен (IV)",
+      "type": "measures_property"
+    },
+    {
+      "source": "рисунок 4",
+      "target": "теллур (IV)",
+      "type": "measures_property"
+    },
+    {
+      "source": "рисунок 4",
+      "target": "селен в катодной меди",
+      "type": "measures_property"
+    },
+    {
+      "source": "рисунок 4",
+      "target": "теллур в катодной меди",
+      "type": "measures_property"
+    },
+    {
+      "source": "рисунок 4",
+      "target": "удельный съем меди, г/дм3",
+      "type": "measures_property"
+    },
+    {
+      "source": "рисунок 3",
+      "target": "сравнение",
+      "type": "contradicts"
+    },
+    {
+      "source": "рисунок 4",
+      "target": "сравнение",
+      "type": "supports"
+    },
+    {
+      "source": "сравнение",
+      "target": "работающая в непрерывном режиме ванна",
+      "type": "supports"
+    },
+    {
+      "source": "работающая в непрерывном режиме ванна",
+      "target": "существенно более чистый металл",
+      "type": "showed"
+    },
+    {
+      "source": "селен (IV)",
+      "target": "meas_selen_001",
+      "type": "has_measurement"
+    },
+    {
+      "source": "теллур (IV)",
+      "target": "meas_tellur_50",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_selen_001",
+      "target": "src_p10",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_tellur_50",
+      "target": "src_p10",
+      "type": "has_source"
+    },
+    {
+      "source": "электрорафинирование",
+      "target": "шламы",
+      "type": "produces_output"
+    },
+    {
+      "source": "электрорафинирование",
+      "target": "селен (IV)",
+      "type": "applies_to"
+    },
+    {
+      "source": "электрорафинирование",
+      "target": "теллур (IV)",
+      "type": "applies_to"
+    },
+    {
+      "source": "электроэкстракция",
+      "target": "электрорафинирование",
+      "type": "uses_material"
+    },
+    {
+      "source": "электроэкстракция",
+      "target": "электрорафинирование",
+      "type": "applies_to"
+    },
+    {
+      "source": "finding_electroextraction_efficiency",
+      "target": "src_p10",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_electroextraction_efficiency",
+      "target": "электроэкстракция",
+      "type": "validated_by"
+    },
+    {
+      "source": "finding_electroextraction_efficiency",
+      "target": "селен (IV)",
+      "type": "supports"
+    },
+    {
+      "source": "finding_electroextraction_efficiency",
+      "target": "теллур (IV)",
+      "type": "supports"
+    },
+    {
+      "source": "Copper electrowinning: 2013 world tankhouse operating data",
+      "target": "W.G. Davenport",
+      "type": "authored_by"
+    },
+    {
+      "source": "Effect of Tellurium on Copper Electrodeposition in Copper Sulfate-Sulfuric Acid System",
+      "target": "Lian-Kui Wu",
+      "type": "authored_by"
+    },
+    {
+      "source": "Effect of Tellurium on Copper Electrodeposition in Copper Sulfate-Sulfuric Acid System",
+      "target": "Chao-Chao Li",
+      "type": "authored_by"
+    },
+    {
+      "source": "Effect of Tellurium on Copper Electrodeposition in Copper Sulfate-Sulfuric Acid System",
+      "target": "Ze-Feng Zhang",
+      "type": "authored_by"
+    },
+    {
+      "source": "Effect of Tellurium on Copper Electrodeposition in Copper Sulfate-Sulfuric Acid System",
+      "target": "Hua-Zhen Cao",
+      "type": "authored_by"
+    },
+    {
+      "source": "Effect of Tellurium on Copper Electrodeposition in Copper Sulfate-Sulfuric Acid System",
+      "target": "Jin Xue",
+      "type": "authored_by"
+    },
+    {
+      "source": "Effect of Tellurium on Copper Electrodeposition in Copper Sulfate-Sulfuric Acid System",
+      "target": "Guo-Qu Zheng",
+      "type": "authored_by"
+    },
+    {
+      "source": "ELECTROCHEMICAL STUDY OF THE COPPER-SELENIUM SYSTEM USING CARBON PASTE ELECTRODE",
+      "target": "P CAREZONNELLE",
+      "type": "authored_by"
+    },
+    {
+      "source": "ELECTROCHEMICAL STUDY OF THE COPPER-SELENIUM SYSTEM USING CARBON PASTE ELECTRODE",
+      "target": "End L LAMBERTS",
+      "type": "authored_by"
+    },
+    {
+      "source": "A voltammetric study of the electrodeposition of the Cu + Se system",
+      "target": "P. Carbonnelle",
+      "type": "authored_by"
+    },
+    {
+      "source": "A voltammetric study of the electrodeposition of the Cu + Se system",
+      "target": "L. Lamberts",
+      "type": "authored_by"
+    },
+    {
+      "source": "Electrochemical deposition of selenium on copper",
+      "target": "Karolina Kołczykla",
+      "type": "authored_by"
+    },
+    {
+      "source": "Electrochemical deposition of selenium on copper",
+      "target": "Remigiusz Kowalik",
+      "type": "authored_by"
+    },
+    {
+      "source": "Electrochemical deposition of selenium on copper",
+      "target": "Krzysztof Mech",
+      "type": "authored_by"
+    },
+    {
+      "source": "Electrochemical deposition of selenium on copper",
+      "target": "Piotr Żabiński",
+      "type": "authored_by"
+    },
+    {
+      "source": "Electrochemical deposition of selenium on copper",
+      "target": "igiusz Kowalik",
+      "type": "authored_by"
+    },
+    {
+      "source": "Electrochemical deposition of selenium on copper",
+      "target": "Baral A.",
+      "type": "described_in"
+    },
+    {
+      "source": "Electrochemical deposition of selenium on copper",
+      "target": "Safizadeh, F.",
+      "type": "described_in"
+    },
+    {
+      "source": "Electrochemical deposition of selenium on copper",
+      "target": "R. KOWALIK",
+      "type": "described_in"
+    },
+    {
+      "source": "Electrochemical deposition of selenium on copper",
+      "target": "Franklin Ngandu",
+      "type": "described_in"
+    },
+    {
+      "source": "анодное окисление",
+      "target": "селен (IV)",
+      "type": "applies_to"
+    },
+    {
+      "source": "катодное восстановление",
+      "target": "селен (IV)",
+      "type": "applies_to"
+    },
+    {
+      "source": "анодное окисление",
+      "target": "теллур (IV)",
+      "type": "applies_to"
+    },
+    {
+      "source": "катодное восстановление",
+      "target": "теллур (IV)",
+      "type": "applies_to"
+    },
+    {
+      "source": "селен (IV)",
+      "target": "meas_k_se_70_4",
+      "type": "has_measurement"
+    },
+    {
+      "source": "селен (IV)",
+      "target": "meas_k_se_40_3",
+      "type": "has_measurement"
+    },
+    {
+      "source": "теллур (IV)",
+      "target": "meas_k_te_36_5",
+      "type": "has_measurement"
+    },
+    {
+      "source": "теллур (IV)",
+      "target": "meas_k_te_0_56",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_k_se_70_4",
+      "target": "property_k_mam_mg",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_k_se_40_3",
+      "target": "property_k_mam_mg",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_k_te_36_5",
+      "target": "property_k_mam_mg",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_k_te_0_56",
+      "target": "property_k_mam_mg",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_k_se_70_4",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_k_se_40_3",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_k_te_36_5",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_k_te_0_56",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "селен (IV)",
+      "target": "finding_k_se_70_4",
+      "type": "showed"
+    },
+    {
+      "source": "селен (IV)",
+      "target": "finding_k_se_40_3",
+      "type": "showed"
+    },
+    {
+      "source": "теллур (IV)",
+      "target": "finding_k_te_36_5",
+      "type": "showed"
+    },
+    {
+      "source": "теллур (IV)",
+      "target": "finding_k_te_0_56",
+      "type": "showed"
+    },
+    {
+      "source": "finding_k_se_70_4",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_k_se_40_3",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_k_te_36_5",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_k_te_0_56",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "A.M. Afront",
+      "target": "An investigation of the influence of selenium on copper deposition during electrorefining using electrochemical noise analysis",
+      "type": "authored_by"
+    },
+    {
+      "source": "E. Rudnik",
+      "target": "Electrochemical studies on the codeposition of copper and tellurium from acidic nitrate solution",
+      "type": "authored_by"
+    },
+    {
+      "source": "Букетов Е.А.",
+      "target": "Гидрохимическое окисление халькогенов и хелькогенидов",
+      "type": "authored_by"
+    },
+    {
+      "source": "Mohammad Mokmeli",
+      "target": "Kinetics of selenium and tellurium removal with cuprous ion from copper sulfate-sulfuric acid solution",
+      "type": "authored_by"
+    },
+    {
+      "source": "An investigation of the influence of selenium on copper deposition during electrorefining using electrochemical noise analysis",
+      "target": "Hydrometallurgy 111",
+      "type": "described_in"
+    },
+    {
+      "source": "Electrochemical studies on the codeposition of copper and tellurium from acidic nitrate solution",
+      "target": "Electrochim. Acta, 107",
+      "type": "described_in"
+    },
+    {
+      "source": "Гидрохимическое окисление халькогенов и хелькогенидов",
+      "target": "Алма–Ата, «Наука», КазССР, 1975 г.",
+      "type": "described_in"
+    },
+    {
+      "source": "Kinetics of selenium and tellurium removal with cuprous ion from copper sulfate-sulfuric acid solution",
+      "target": "THE UNIVERSITY OF BRITISH COLUMBIA (Vancouver)",
+      "type": "conducted_at"
+    },
+    {
+      "source": "Kinetics of selenium and tellurium removal with cuprous ion from copper sulfate-sulfuric acid solution",
+      "target": "April 2014",
+      "type": "described_in"
+    },
+    {
+      "source": "An investigation of the influence of selenium on copper deposition during electrorefining using electrochemical noise analysis",
+      "target": "seleсen",
+      "type": "measures_property"
+    },
+    {
+      "source": "Electrochemical studies on the codeposition of copper and tellurium from acidic nitrate solution",
+      "target": "tellurium",
+      "type": "measures_property"
+    },
+    {
+      "source": "Kinetics of selenium and tellurium removal with cuprous ion from copper sulfate-sulfuric acid solution",
+      "target": "selenium",
+      "type": "measures_property"
+    },
+    {
+      "source": "Kinetics of selenium and tellurium removal with cuprous ion from copper sulfate-sulfuric acid solution",
+      "target": "tellurium",
+      "type": "measures_property"
+    },
+    {
+      "source": "seleсen",
+      "target": "meas_se_k_200",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_se_k_200",
+      "target": "src_p205",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_se_k_200",
+      "target": "Dк= 200 А/м2; t = 31 0C; Cu- 40 г/дм3; H2SO4-150 г/дм3",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "meas_se_k_29_7",
+      "target": "src_p205",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_se_k_29_7",
+      "target": "Наши данные",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "meas_te_k_300",
+      "target": "src_p205",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_te_k_300",
+      "target": "Dк= 300 А/м2; комн. т-ра",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "finding_se_yield_997",
+      "target": "A.M. Afront",
+      "type": "validated_by"
+    },
+    {
+      "source": "finding_se_yield_986",
+      "target": "Mohammad Mokmeli",
+      "type": "validated_by"
+    },
+    {
+      "source": "finding_te_yield_300",
+      "target": "Mohammad Mokmeli",
+      "type": "validated_by"
+    }
+  ]
+}

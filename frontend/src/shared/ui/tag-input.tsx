@@ -11,13 +11,21 @@ type Props = {
   placeholder?: string;
   className?: string;
   id?: string;
+  icon?: string;
 };
 
 /**
  * Generic chip/tag input: type a value and press Enter (or comma) to add it.
  * Used for free-form multi-select filters like materials and processes.
  */
-function TagInput({ value, onChange, placeholder, className, id }: Props) {
+function TagInput({
+  value,
+  onChange,
+  placeholder,
+  className,
+  id,
+  icon,
+}: Props) {
   const [draft, setDraft] = useState("");
 
   const add = (raw: string) => {
@@ -41,10 +49,13 @@ function TagInput({ value, onChange, placeholder, className, id }: Props) {
   return (
     <div
       className={cn(
-        "flex min-h-9 w-full flex-wrap items-center gap-1.5 rounded-md border border-input bg-transparent px-2 py-1 text-sm shadow-sm focus-within:ring-1 focus-within:ring-ring",
+        "flex min-h-9 w-full flex-wrap items-center gap-1.5 rounded-lg border border-input bg-card px-2 py-1.5 text-sm shadow-sm focus-within:ring-1 focus-within:ring-ring",
         className
       )}
     >
+      {icon ? (
+        <img src={icon} alt="" className="h-5 w-5 shrink-0 object-contain" />
+      ) : null}
       {value.map((tag) => (
         <Badge key={tag} variant="secondary" className="gap-1">
           {tag}
@@ -65,7 +76,7 @@ function TagInput({ value, onChange, placeholder, className, id }: Props) {
         onKeyDown={onKeyDown}
         onBlur={() => add(draft)}
         placeholder={value.length ? undefined : placeholder}
-        className="min-w-24 flex-1 bg-transparent outline-none placeholder:text-muted-foreground"
+        className="min-w-24 flex-1 bg-transparent text-sm text-main outline-none placeholder:text-placeholder"
       />
     </div>
   );

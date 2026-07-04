@@ -1,7 +1,9 @@
 /** App-wide route paths. Import these instead of hardcoding URL strings. */
 export const ROUTES = {
-  login: "/login",
-  search: "/",
+  login: "/",
+  search: "/search",
   answer: "/answer",
+  upload: "/upload",
+  history: "/history",
   notFound: "*",
 } as const;

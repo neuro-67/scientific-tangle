@@ -1,0 +1,6152 @@
+{
+  "document": "40 Анализ аффинированных СЕРЕБРА и ПЛАТИНЫ. ЦВЕТНЫЕ МЕТАЛЛЫ rev 22-05-23.docx",
+  "language": "ru",
+  "nodes": [
+    {
+      "id": "ICP-AES",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "determination_of_impurities_in_silver_and_platinum",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "review_of_state_and_international_applications_standardized_for_the_analysis_of_precious_metals_by_icp_aes",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "George_L_Buchbinder",
+      "label": "Expert",
+      "properties": {
+        "email": "george.buchbinder@icp-aes.org"
+      }
+    },
+    {
+      "id": "Elena_S_Poslavskaya",
+      "label": "Expert",
+      "properties": {
+        "email": "elena.poslavskaya@icp-aes.org"
+      }
+    },
+    {
+      "id": "Valeriy_A_Korotkov",
+      "label": "Expert",
+      "properties": {
+        "email": "valeriy.korotkov@icp-aes.org"
+      }
+    },
+    {
+      "id": "Tatyana_I_Velikaya",
+      "label": "Expert",
+      "properties": {
+        "email": "tatyana.velikaya@icp-aes.org"
+      }
+    },
+    {
+      "id": "АЭС-ИСП",
+      "label": "Process",
+      "properties": {
+        "domain": "анализ"
+      }
+    },
+    {
+      "id": "спектрометр с ИСП",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "анализ растворов",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "многоэлементный анализ",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "предел обнаружения на уровне мкг/дм3 и ниже",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "линейность градуировочных графиков в пределах 6 порядков величины",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "повторяемость измерений, относительное СКО 0,5 - 1 % отн",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "анализ чистых аффинированных металлов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "анализ промежуточных продуктов и отходов производства",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "серебро",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "платина",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "государственные и международные стандарты",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "лаборатории предприятий и организаций, связанных с производством, оборотом, хранением серебра и платины",
+      "label": "Facility",
+      "properties": {}
+    },
+    {
+      "id": "Бухбиндер Георгий Львович",
+      "label": "Expert",
+      "properties": {
+        "email": "georgiy.bukhbinder@siberian-analytical.ru",
+        "position": "к.х.н.",
+        "organization": "ООО «Сибирские Аналитические Системы» (Красноярск)"
+      }
+    },
+    {
+      "id": "Пославская Елена Степановна",
+      "label": "Expert",
+      "properties": {
+        "position": "ведущий инженер",
+        "organization": "ООО «Институт Гипроникель» (Санкт-Петербург)"
+      }
+    },
+    {
+      "id": "Коротков Валерий Алексеевич",
+      "label": "Expert",
+      "properties": {
+        "position": "Заведующий Испытательным аналитическим центром",
+        "organization": "ООО «Институт Гипроникель» (Санкт-Петербург)"
+      }
+    },
+    {
+      "id": "Великая Татьяна Ивановна",
+      "label": "Expert",
+      "properties": {
+        "position": "главный специалист",
+        "organization": "ООО «Институт Гипроникель» (Санкт-Петербург)",
+        "affiliation": "ООО «Институт Гипроникель» (Санкт-Петербург)"
+      }
+    },
+    {
+      "id": "Анализ аффинированных СЕРЕБРА и ПЛАТИНЫ методом атомно-эмиссионной спектрометрии с индуктивно связанной плазмой",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "ООО «Сибирские Аналитические Системы» (Красноярск)",
+      "label": "Facility",
+      "properties": {}
+    },
+    {
+      "id": "ООО «Институт Гипроникель» (Санкт-Петербург)",
+      "label": "Facility",
+      "properties": {}
+    },
+    {
+      "id": "СТРАНИЦА 1",
+      "label": "Source",
+      "properties": {
+        "span": "p.1"
+      }
+    },
+    {
+      "id": "методика анализа",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "учет матричных влияний",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "выбор аналитических линий",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "растворение материалов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "выравнивание растворов по матричному составу",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "градуировка методом добавок",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "отделение примесей от основы",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "применение плазмы с повышенной мощностью",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "использование внутреннего стандарта",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "градуировочные растворы",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "анализируемые материалы",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "анализируемые растворы",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "государственные стандарты",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "международные стандарты",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "источник_1",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "источник_2",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "источник_3",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "источник_4",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "источник_5",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "src_p3",
+      "label": "Source",
+      "properties": {
+        "span": "p.3"
+      }
+    },
+    {
+      "id": "src_p4",
+      "label": "Source",
+      "properties": {
+        "span": "p.4"
+      }
+    },
+    {
+      "id": "src_p5",
+      "label": "Source",
+      "properties": {
+        "span": "p.5"
+      }
+    },
+    {
+      "id": "внутренний стандарт",
+      "label": "Material",
+      "properties": {
+        "type": "стандарт"
+      }
+    },
+    {
+      "id": "понижение мощности плазменного разряда",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "растворение образцов в закрытых пробирках",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "новый подход для приготовления растворов золота в хлорной кислоте",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "смешивание растворов золота и серебра",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "градуировочные графики для прямого анализа серебра",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "приставка искрового пробоотбора",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "новый вариант растворения серебра в смеси азотной и плавиковой кислот",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "градуировка по отношениям концентраций",
+      "label": "Material",
+      "properties": {
+        "type": "метод градуировки"
+      }
+    },
+    {
+      "id": "содержания серебра и платины менее 99,99%",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "максимальная точность анализа",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "обзор",
+      "label": "Publication",
+      "properties": {
+        "title": "Выполнен обзор государственных и международных стандартов для анализа аффинированных серебра и платины с использованием АЭС-ИСП",
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "George L. Buchbinder",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Elena S. Poslavskaya",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Valeriy A. Korotkov",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Tatyana I. Velikaya",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Determination of impurities in silver and platinum by ICP- AES",
+      "label": "Publication",
+      "properties": {
+        "title": "Determination of impurities in silver and platinum by ICP- AES",
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "спектрометр iCAP 6500 Duo",
+      "label": "Equipment",
+      "properties": {
+        "manufacturer": "Thermo Fisher Scientific",
+        "country": "США",
+        "features": [
+          "одновременное измерение линий определяемых и мешающих элементов",
+          "свободный выбор линий в оптическом диапазоне 166-847 нм",
+          "двойное (аксиальное и радиальное) наблюдение плазмы",
+          "пределы обнаружения 70 элементов не более 1 мкг/дм3"
+        ]
+      }
+    },
+    {
+      "id": "Thermo Fisher Scientific",
+      "label": "Facility",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "США",
+      "label": "Facility",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "анализ серебра и платины",
+      "label": "Process",
+      "properties": {
+        "domain": "анализ металлов"
+      }
+    },
+    {
+      "id": "специфическая градуировка по водным растворам",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "позволяет анализировать серебро и платину без матричного элемента"
+      }
+    },
+    {
+      "id": "отсутствие матричного элемента",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "возможно при использовании специфической градуировки по водным растворам"
+      }
+    },
+    {
+      "id": "мощность плазменного разряда",
+      "label": "Property",
+      "properties": {
+        "unit": "кВт"
+      }
+    },
+    {
+      "id": "оценка возможностей стандартизованных методик",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "цель работы — оценка возможностей и конкурентоспособности стандартизованных методик анализа серебра и платины"
+      }
+    },
+    {
+      "id": "поиск перспективных направлений развития методов определения примесей",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "цель работы — поиск перспективных направлений развития методов определения примесей в серебре и платине"
+      }
+    },
+    {
+      "id": "одновременное измерение линий определяемых и мешающих элементов",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.001,
+        "unit": "мг/л",
+        "operator": "<=",
+        "min": 0.0,
+        "max": 0.001,
+        "verified": true,
+        "unit_normalized_from": "мкг/дм3"
+      }
+    },
+    {
+      "id": "свободный выбор линий в оптическом диапазоне 166-847 нм",
+      "label": "Measurement",
+      "properties": {
+        "min": 166,
+        "max": 847,
+        "unit": "нм",
+        "verified": true
+      }
+    },
+    {
+      "id": "двойное наблюдение плазмы (аксиальное и радиальное)",
+      "label": "Measurement",
+      "properties": {
+        "value": 2,
+        "unit": "наблюдения",
+        "verified": true
+      }
+    },
+    {
+      "id": "пределы обнаружения 70 элементов не более 1 мкг/дм3",
+      "label": "Measurement",
+      "properties": {
+        "max": 0.001,
+        "unit": "мг/л",
+        "operator": "<=",
+        "min": 0.0,
+        "verified": true,
+        "unit_normalized_from": "мкг/дм3"
+      }
+    },
+    {
+      "id": "source_p1",
+      "label": "Source",
+      "properties": {
+        "span": "p.1"
+      }
+    },
+    {
+      "id": "iCAP 6500 Duo",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "CID детектор",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "плазменный разряд",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "мощность подводимая к плазме",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "скорость охлаждающего потока",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "скорость вспомогательного потока",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "скорость распылительного потока",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "скорость подачи раствора",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "время измерения",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "обзор плазмы",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "предельные значения обнаружения",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "70 элементов",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "предел обнаружения",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "1 мкг/дм3",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.001,
+        "unit": "мг/л",
+        "operator": "=",
+        "verified": true,
+        "unit_normalized_from": "мкг/дм3"
+      }
+    },
+    {
+      "id": "800 Вт",
+      "label": "Measurement",
+      "properties": {
+        "value": 800,
+        "unit": "Вт",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "12 л/мин",
+      "label": "Measurement",
+      "properties": {
+        "value": 12,
+        "unit": "л/мин",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "0,5 л/мин",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.5,
+        "unit": "л/мин",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "0,65 л/мин",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.65,
+        "unit": "л/мин",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "2 см3/мин",
+      "label": "Measurement",
+      "properties": {
+        "value": 2,
+        "unit": "см3/мин",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "20 с",
+      "label": "Measurement",
+      "properties": {
+        "value": 20,
+        "unit": "с",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "аксиальный",
+      "label": "Measurement",
+      "properties": {
+        "value": "аксиальный",
+        "operator": "="
+      }
+    },
+    {
+      "id": "полные спектры",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "качественный анализ",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "полуколичественный анализ",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "приставка искрового пробоотбора SSEA",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "прямой анализ металлических образцов",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "без растворения",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "анализ растворов, содержащих серебро и платину",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "алгоритм действий",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "оценка аналитических линий",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "отсутствие спектральных наложений",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "отношение сигнал/фон",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "абсолютная величина сигнала",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "СТРАНИЦА 5",
+      "label": "Source",
+      "properties": {
+        "span": "p.5"
+      }
+    },
+    {
+      "id": "iCAP 6500",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "SSEA",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "обратный осмос",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "растворение серебра и платины",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "HotBox 300",
+      "label": "Equipment",
+      "properties": {
+        "manufacturer": "ООО «Сибирские аналитические системы»",
+        "location": "г. Красноярск"
+      }
+    },
+    {
+      "id": "максимальная температура 300°С",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "полипропиленовые пробирки",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "тефлоновые пробирки",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "автоклавы",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "эксперименты по растворению платины в системе HotBox 300",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "снижение расхода реактивов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "таблица 1",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "расход смеси кислот (HCl и HNO3) при растворении 1 г платины",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "src_p12",
+      "label": "Source",
+      "properties": {
+        "span": "p.12"
+      }
+    },
+    {
+      "id": "фильтрование",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "meas_sulf_300",
+      "label": "Measurement",
+      "properties": {
+        "max": 300,
+        "unit": "мг/л",
+        "operator": "<=",
+        "verified": true
+      }
+    },
+    {
+      "id": "анализ серебра",
+      "label": "Process",
+      "properties": {
+        "domain": "анализ материалов"
+      }
+    },
+    {
+      "id": "первый способ",
+      "label": "Process",
+      "properties": {
+        "description": "Растворение навески серебра в азотной кислоте, отделение осадка Au и Rh фильтрованием, растворение осадка в смеси HCl и HNO3, анализ растворов на спектрометре с ИСП"
+      }
+    },
+    {
+      "id": "растворение навески серебра",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "азотная кислота",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "отделение осадка не растворившихся Au и Rh",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "растворение металлов в смеси HCl и HNO3",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "смесь HCl и HNO3",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "анализ на спектрометре с ИСП",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "определение элементов в первом растворе",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "определение Au и Rh во втором растворе",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "навеска серебра",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "0,5-1 г",
+      "label": "Measurement",
+      "properties": {
+        "min": 0.5,
+        "max": 1,
+        "unit": "г",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "ГОСТ 28353.2-89",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "src_p6",
+      "label": "Source",
+      "properties": {
+        "span": "p.6"
+      }
+    },
+    {
+      "id": "плавиковая кислота",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "iCAP 6500 Duo SSEA",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "спецификация градуировки",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "meas_ag_20",
+      "label": "Measurement",
+      "properties": {
+        "value": 20,
+        "unit": "мг/см³",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_imp_01_to_5",
+      "label": "Measurement",
+      "properties": {
+        "min": 0.1,
+        "max": 5,
+        "unit": "мкг/см³",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "finding_au_not_soluble",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Золото не растворяется в растворах, содержащих HCl, при смешивании с растворами серебра из-за выпадения осадка AgCl"
+      }
+    },
+    {
+      "id": "src_p7",
+      "label": "Source",
+      "properties": {
+        "span": "p.7"
+      }
+    },
+    {
+      "id": "метод добавок",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "meas_Au_2_0",
+      "label": "Measurement",
+      "properties": {
+        "value": 2.0,
+        "min": 1.8,
+        "max": 2.2,
+        "unit": "г/т",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "finding_gold_consistency",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Результат анализа золота в ГСО серебра СО СР1 методом добавок хорошо согласуется с аттестованным значением"
+      }
+    },
+    {
+      "id": "finding_Rh_overestimation",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Совместные градуировочные графики показывают завышенное содержание Rh в стандартном образце VCH 2-4"
+      }
+    },
+    {
+      "id": "золото",
+      "label": "Property",
+      "properties": {
+        "chemical_symbol": "Au"
+      }
+    },
+    {
+      "id": "ГСО серебра СО СР1",
+      "label": "Material",
+      "properties": {
+        "type": "ГСО",
+        "composition": "серебро",
+        "standard": "10754-2016"
+      }
+    },
+    {
+      "id": "src_p8",
+      "label": "Source",
+      "properties": {
+        "span": "p.8"
+      }
+    },
+    {
+      "id": "meas_Au_10",
+      "label": "Measurement",
+      "properties": {
+        "value": 10,
+        "unit": "мкг/см3",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "property_concentration_Au",
+      "label": "Property",
+      "properties": {
+        "name": "концентрация Au"
+      }
+    },
+    {
+      "id": "property_stability",
+      "label": "Property",
+      "properties": {
+        "name": "стабильность раствора"
+      }
+    },
+    {
+      "id": "process_removal_chlorides",
+      "label": "Process",
+      "properties": {
+        "name": "удаление хлоридов упариванием с HClO4"
+      }
+    },
+    {
+      "id": "equipment_quartz_beaker",
+      "label": "Equipment",
+      "properties": {
+        "name": "кварцевый стакан"
+      }
+    },
+    {
+      "id": "material_HClO4",
+      "label": "Material",
+      "properties": {
+        "name": "хлорная кислота"
+      }
+    },
+    {
+      "id": "material_Au_Ir_Pd_Pt_Rh_Ru_solution",
+      "label": "Material",
+      "properties": {
+        "name": "солянокислый совместный раствор Au, Ir, Pd, Pt, Rh, Ru"
+      }
+    },
+    {
+      "id": "condition_drying_to_fumes",
+      "label": "Condition",
+      "properties": {
+        "name": "упаривание до паров хлорной кислоты"
+      }
+    },
+    {
+      "id": "experiment_new_preparation_method",
+      "label": "Experiment",
+      "properties": {
+        "name": "новый способ приготовления градуировочных растворов"
+      }
+    },
+    {
+      "id": "finding_mixed_solution_stable",
+      "label": "Finding",
+      "properties": {
+        "text": "раствор можно смешивать с растворами, полученными после растворения навески 1 г серебра",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "publication_new_method",
+      "label": "Publication",
+      "properties": {
+        "title": "новый способ приготовления градуировочных растворов, содержащих одновременно Ag и Au",
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "expert_ivanov_ivan_ivanovich",
+      "label": "Expert",
+      "properties": {
+        "name": "Иванов Иван Иванович",
+        "email": "ivanov@institute.ru"
+      }
+    },
+    {
+      "id": "ISO 15096:2015",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "ISO 15093:2015",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "silver_content",
+      "label": "Property",
+      "properties": {
+        "name": "содержание серебра"
+      }
+    },
+    {
+      "id": "meas_silver_99.9",
+      "label": "Measurement",
+      "properties": {
+        "min": 99.9,
+        "unit": "%",
+        "operator": ">=",
+        "verified": true
+      }
+    },
+    {
+      "id": "finding_inefficient_dissolution",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "использование концентрированной HNO3 для растворения серебра неоптимально, так как серебро лучше растворяется в разбавленной HNO3"
+      }
+    },
+    {
+      "id": "finding_incomplete_procedure",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "в стандарте не указано, как отделить, высушить и взвесить нерастворимые частицы после растворения серебра"
+      }
+    },
+    {
+      "id": "finding_inefficient_precipitation",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "вместо прямого определения примесей используется сложная процедура осаждения хлорида серебра, что не соответствует реальным методикам анализа"
+      }
+    },
+    {
+      "id": "src_p1",
+      "label": "Source",
+      "properties": {
+        "span": "p.1"
+      }
+    },
+    {
+      "id": "ГСО серебра",
+      "label": "Material",
+      "properties": {
+        "type": "standard reference material"
+      }
+    },
+    {
+      "id": "VCH-2",
+      "label": "Material",
+      "properties": {
+        "type": "standard reference material"
+      }
+    },
+    {
+      "id": "СО СР",
+      "label": "Material",
+      "properties": {
+        "type": "standard reference material"
+      }
+    },
+    {
+      "id": "межлабораторный эксперимент",
+      "label": "Experiment",
+      "properties": {
+        "n": 20
+      }
+    },
+    {
+      "id": "таблица 3",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "таблица 4",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "таблица 5",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "n=20",
+      "label": "Measurement",
+      "properties": {
+        "value": 20,
+        "verified": true
+      }
+    },
+    {
+      "id": "опубликованные аттестованные значения",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "нахождение содержаний Rh, Al и Si",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "совершенствование первой схемы растворения серебра",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "HNO3 (1:1) и HF",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "использование пониженной мощности",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "внутренний стандарт – скандий",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "использование приставки искрового пробоотбора SSEAдля прямого анализа металлических образцов серебра",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "прямой анализ металлических образцов серебра",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "ГОСТ 28353.2-2017",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "src_p9",
+      "label": "Source",
+      "properties": {
+        "span": "p.9"
+      }
+    },
+    {
+      "id": "Pt",
+      "label": "Property",
+      "properties": {
+        "chemical_symbol": "Pt"
+      }
+    },
+    {
+      "id": "Pd",
+      "label": "Property",
+      "properties": {
+        "chemical_symbol": "Pd"
+      }
+    },
+    {
+      "id": "Rh",
+      "label": "Property",
+      "properties": {
+        "chemical_symbol": "Rh"
+      }
+    },
+    {
+      "id": "Al",
+      "label": "Property",
+      "properties": {
+        "chemical_symbol": "Al"
+      }
+    },
+    {
+      "id": "Si",
+      "label": "Property",
+      "properties": {
+        "chemical_symbol": "Si"
+      }
+    },
+    {
+      "id": "проблемы стандартизованных методов определения примесей в аффинированном серебре",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "HNO3 и 5 мл HNO3 (1:1)",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "осаждение хлорида серебра",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "HCl (1:2)",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "чувствительность метода АЭС-ИСП",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "HCl (1:10)",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "градуировка по 0 и 5 мкг/см3",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "линейность графиков",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "Ti II 334,941 нм",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "графики 2-го порядка",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "занижение результатов анализа примесей",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "завышение результатов определения содержания серебра",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "градуировка в относительных концентрациях",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "ГОСТ 33730-2016",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "ошибки в методике",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "неправильные результаты анализа",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "неудобство выполнения анализа",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "длительность анализа",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "экономическая нецелесообразность",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "неконкурентоспособность по сравнению с другими методами спектрального анализа",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "src_p11",
+      "label": "Source",
+      "properties": {
+        "span": "p.11"
+      }
+    },
+    {
+      "id": "растворение образцов платины на плите",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "чрезмерный расход реактивов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "очень длительное выполнение анализа",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "негерметичные сосуды",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "низкая температура",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "смесь соляной и азотной кислот 3:1",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "Ag I 328,068 нм",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "Fe II 259,940 нм",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "спектральные наложения",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "Pt 328,081 нм",
+      "label": "Property",
+      "properties": {
+        "name": "Pt 328,081 нм",
+        "type": "spectral_line"
+      }
+    },
+    {
+      "id": "Pt 259,956 нм",
+      "label": "Property",
+      "properties": {
+        "name": "Pt 259,956 нм",
+        "type": "spectral_line"
+      }
+    },
+    {
+      "id": "Ir II 224,268 нм",
+      "label": "Property",
+      "properties": {
+        "name": "Ir II 224,268 нм",
+        "type": "spectral_line"
+      }
+    },
+    {
+      "id": "Sn I 283,999 нм",
+      "label": "Property",
+      "properties": {
+        "name": "Sn I 283,999 нм",
+        "type": "spectral_line"
+      }
+    },
+    {
+      "id": "сильные спектральные влияния",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "интенсивные линии примесей",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "стакан",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "тефлоновая крышка",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "1 г пробы",
+      "label": "Measurement",
+      "properties": {
+        "value": 1,
+        "unit": "г",
+        "verified": true
+      }
+    },
+    {
+      "id": "20 см3 смеси",
+      "label": "Measurement",
+      "properties": {
+        "value": 20,
+        "unit": "см3",
+        "verified": true
+      }
+    },
+    {
+      "id": "4-5 часов",
+      "label": "Measurement",
+      "properties": {
+        "min": 4,
+        "max": 5,
+        "unit": "часов",
+        "verified": true
+      }
+    },
+    {
+      "id": "30 минут",
+      "label": "Measurement",
+      "properties": {
+        "value": 30,
+        "unit": "минут",
+        "verified": true
+      }
+    },
+    {
+      "id": "5 см3 смеси",
+      "label": "Measurement",
+      "properties": {
+        "value": 5,
+        "unit": "см3",
+        "verified": true
+      }
+    },
+    {
+      "id": "рисунок 8",
+      "label": "Source",
+      "properties": {
+        "span": "p.8"
+      }
+    },
+    {
+      "id": "процедура анализа платины",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "новый способ растворения в закрытых пробирках",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "аналитические линии Ir 224,268 нм",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "аналитические линии Sn 283,999 нм",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "спектральные наложения от меди",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "спектральные наложения от хрома",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "раствор 100 г/дм3 Pt",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "срок хранения градуировочных растворов 5 дней",
+      "label": "Measurement",
+      "properties": {
+        "value": 5,
+        "unit": "дней",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "расход 10 г драгоценного металла каждую неделю",
+      "label": "Measurement",
+      "properties": {
+        "value": 10,
+        "unit": "г/неделю",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "необходимость больших количеств кислот",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "необходимость больших затрат времени",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "необходимо изменить",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "иридий",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "олово",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "молекулярная полоса ОН",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "отсутствует",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "спектральные наложения в области 306-315 нм",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "meas_ir_224_268",
+      "label": "Measurement",
+      "properties": {
+        "value": 224.268,
+        "unit": "нм",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_sn_283_999",
+      "label": "Measurement",
+      "properties": {
+        "value": 283.999,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "Property_iridium_line",
+      "label": "Property",
+      "properties": {
+        "name": "аналитическая линия иридия"
+      }
+    },
+    {
+      "id": "Property_tin_line",
+      "label": "Property",
+      "properties": {
+        "name": "аналитическая линия олова"
+      }
+    },
+    {
+      "id": "finding_standard_errors",
+      "label": "Finding",
+      "properties": {
+        "statement": "Стандартизованные методы анализа серебра и платины содержат существенные ошибки",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "GOST_33730_2016",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "ISO_standards",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "finding_optimal_method_ag",
+      "label": "Finding",
+      "properties": {
+        "statement": "При анализе серебра и платины чистотой 99,99% наиболее эффективным способом применения метода АЭС-ИСП является использование атомных и ионных линий внутреннего стандарта скандия в сочетании со снижением мощности плазменного разряда",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "Scandium_internal_standard",
+      "label": "Material",
+      "properties": {
+        "name": "скандий"
+      }
+    },
+    {
+      "id": "reduced_plasma_power",
+      "label": "Condition",
+      "properties": {
+        "name": "снижение мощности плазменного разряда"
+      }
+    },
+    {
+      "id": "finding_optimal_method_pt",
+      "label": "Finding",
+      "properties": {
+        "statement": "При определении основного металла в образцах чистотой менее 99,99% наиболее эффективным и точным способом является градуировка в относительных концентрациях",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "relative_concentration_calibration",
+      "label": "Process",
+      "properties": {
+        "name": "градуировка в относительных концентрациях"
+      }
+    },
+    {
+      "id": "src_p13",
+      "label": "Source",
+      "properties": {
+        "span": "p.13"
+      }
+    },
+    {
+      "id": "Cu II 224,261 нм",
+      "label": "Property",
+      "properties": {
+        "name": "Cu II 224,261 нм",
+        "type": "spectral_line"
+      }
+    },
+    {
+      "id": "Cr II 284,000 нм",
+      "label": "Property",
+      "properties": {
+        "name": "Cr II 284,000 нм",
+        "type": "spectral_line"
+      }
+    },
+    {
+      "id": "Bi 306,770 нм",
+      "label": "Property",
+      "properties": {
+        "name": "Bi 306,770 нм",
+        "type": "spectral_line"
+      }
+    },
+    {
+      "id": "meas_pt_328_081",
+      "label": "Measurement",
+      "properties": {
+        "value": 328.081,
+        "unit": "нм",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_pt_259_956",
+      "label": "Measurement",
+      "properties": {
+        "value": 259.956,
+        "unit": "нм",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_cu_224_261",
+      "label": "Measurement",
+      "properties": {
+        "value": 224.261,
+        "unit": "нм",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_cr_284_000",
+      "label": "Measurement",
+      "properties": {
+        "value": 284.0,
+        "unit": "нм",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_bi_306_770",
+      "label": "Measurement",
+      "properties": {
+        "value": 306.77,
+        "unit": "нм",
+        "verified": true
+      }
+    },
+    {
+      "id": "finding_spectral_interference_ir_cu",
+      "label": "Finding",
+      "properties": {
+        "description": "На линии Ir II 224,268 нм наблюдается сильное спектральное влияние от линии Cu II 224,261 нм",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_spectral_interference_sn_cr",
+      "label": "Finding",
+      "properties": {
+        "description": "На линии Sn I 283,999 нм наблюдается сильное спектральное влияние от линии Cr II 284,000 нм",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_bi_line_306_770_oh_interference",
+      "label": "Finding",
+      "properties": {
+        "description": "Линия Bi 306,770 нм подвержена сильному влиянию со стороны молекулярной полосы OH в диапазоне 306–315 нм",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_no_correction_procedure_gost",
+      "label": "Finding",
+      "properties": {
+        "description": "В ГОСТ не описана процедура учета спектральных наложений Cu на Ir и Cr на Sn",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_incorrect_calibration_graphs_ir",
+      "label": "Finding",
+      "properties": {
+        "description": "Рекомендованные градуировочные растворы содержат одновременно иридий и медь, что приводит к неправильным градуировочным графикам для Ir",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_oh_band_interference_306_315_nm",
+      "label": "Finding",
+      "properties": {
+        "description": "Тонкая структура молекулярной полосы ОН в диапазоне 306–315 нм приводит к неточным, как правило, завышенным результатам анализа",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_no_oh_interference_with_spike",
+      "label": "Finding",
+      "properties": {
+        "description": "При работе с приставкой искрового пробоотбора молекулярная полоса ОН отсутствует и не оказывает спектральных наложений в области 306–315 нм",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "градуировка по водным растворам",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "матричный элемент",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "палладий",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "метод атомно-эмиссионного анализа с индуктивно связанной плазмой",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "ГОСТ 28353.0-89",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "ГОСТ 28353.1-89",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "ГОСТ 28353.3-89",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "meas_Au_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 242.795,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Bi_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 1,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Cd_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 228.802,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Co_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 228.616,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Cr_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 267.716,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Cu_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 324.754,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Fe_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 238.204,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Mg_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 279.553,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Mn_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 257.61,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Ni_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 231.604,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Pb_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 220.353,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Pd_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 340.458,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Pt_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 265.945,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Rh_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 343.489,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Sb_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 1,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Se_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 1,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Si_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 251.611,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Sn_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 189.989,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Te_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 214.275,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Ti_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 334.941,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Zn_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 213.856,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Al_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.4,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_As_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.48,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Au_2",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.82,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Bi_2",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.51,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "src_p15",
+      "label": "Source",
+      "properties": {
+        "span": "p.15"
+      }
+    },
+    {
+      "id": "Bi",
+      "label": "Material",
+      "properties": {
+        "chemical_symbol": "Bi"
+      }
+    },
+    {
+      "id": "Cd",
+      "label": "Material",
+      "properties": {
+        "chemical_symbol": "Cd"
+      }
+    },
+    {
+      "id": "Co",
+      "label": "Material",
+      "properties": {
+        "chemical_symbol": "Co"
+      }
+    },
+    {
+      "id": "Cr",
+      "label": "Material",
+      "properties": {
+        "chemical_symbol": "Cr"
+      }
+    },
+    {
+      "id": "медь",
+      "label": "Material",
+      "properties": {
+        "chemical_symbol": "Cu"
+      }
+    },
+    {
+      "id": "Fe",
+      "label": "Material",
+      "properties": {
+        "chemical_symbol": "Fe"
+      }
+    },
+    {
+      "id": "Mg",
+      "label": "Material",
+      "properties": {
+        "chemical_symbol": "Mg"
+      }
+    },
+    {
+      "id": "Mn",
+      "label": "Material",
+      "properties": {
+        "chemical_symbol": "Mn"
+      }
+    },
+    {
+      "id": "никель",
+      "label": "Material",
+      "properties": {
+        "chemical_symbol": "Ni"
+      }
+    },
+    {
+      "id": "Pb",
+      "label": "Material",
+      "properties": {
+        "chemical_symbol": "Pb"
+      }
+    },
+    {
+      "id": "Sb",
+      "label": "Material",
+      "properties": {
+        "chemical_symbol": "Sb"
+      }
+    },
+    {
+      "id": "Se",
+      "label": "Material",
+      "properties": {
+        "chemical_symbol": "Se"
+      }
+    },
+    {
+      "id": "Sn",
+      "label": "Material",
+      "properties": {
+        "chemical_symbol": "Sn"
+      }
+    },
+    {
+      "id": "Te",
+      "label": "Material",
+      "properties": {
+        "chemical_symbol": "Te"
+      }
+    },
+    {
+      "id": "Ti",
+      "label": "Material",
+      "properties": {
+        "chemical_symbol": "Ti"
+      }
+    },
+    {
+      "id": "Zn",
+      "label": "Material",
+      "properties": {
+        "chemical_symbol": "Zn"
+      }
+    },
+    {
+      "id": "As",
+      "label": "Material",
+      "properties": {
+        "chemical_symbol": "As"
+      }
+    },
+    {
+      "id": "Property_Au",
+      "label": "Property",
+      "properties": {
+        "name": "Au",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Property_Bi",
+      "label": "Property",
+      "properties": {
+        "name": "Bi",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Property_Cd",
+      "label": "Property",
+      "properties": {
+        "name": "Cd",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Property_Co",
+      "label": "Property",
+      "properties": {
+        "name": "Co",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Property_Cr",
+      "label": "Property",
+      "properties": {
+        "name": "Cr",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Property_Cu",
+      "label": "Property",
+      "properties": {
+        "name": "Cu",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Property_Fe",
+      "label": "Property",
+      "properties": {
+        "name": "Fe",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Property_Mg",
+      "label": "Property",
+      "properties": {
+        "name": "Mg",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Property_Mn",
+      "label": "Property",
+      "properties": {
+        "name": "Mn",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Property_Ni",
+      "label": "Property",
+      "properties": {
+        "name": "Ni",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Property_Pb",
+      "label": "Property",
+      "properties": {
+        "name": "Pb",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Property_Pd",
+      "label": "Property",
+      "properties": {
+        "name": "Pd",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Property_Pt",
+      "label": "Property",
+      "properties": {
+        "name": "концентрация платины",
+        "unit": "мг/кг"
+      }
+    },
+    {
+      "id": "Property_Rh",
+      "label": "Property",
+      "properties": {
+        "name": "Rh",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Property_Sb",
+      "label": "Property",
+      "properties": {
+        "name": "Sb",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Property_Se",
+      "label": "Property",
+      "properties": {
+        "name": "Se",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Property_Si",
+      "label": "Property",
+      "properties": {
+        "name": "Si",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Property_Sn",
+      "label": "Property",
+      "properties": {
+        "name": "Sn",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Property_Te",
+      "label": "Property",
+      "properties": {
+        "name": "концентрация теллура",
+        "unit": "мг/кг"
+      }
+    },
+    {
+      "id": "Property_Ti",
+      "label": "Property",
+      "properties": {
+        "name": "концентрация титана",
+        "unit": "мг/кг"
+      }
+    },
+    {
+      "id": "Property_Zn",
+      "label": "Property",
+      "properties": {
+        "name": "концентрация цинка",
+        "unit": "мг/кг"
+      }
+    },
+    {
+      "id": "Property_Al",
+      "label": "Property",
+      "properties": {
+        "name": "концентрация алюминия",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Property_As",
+      "label": "Property",
+      "properties": {
+        "name": "концентрация мышьяка",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Материал пробирок для HotBox 300",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "Температура растворения",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "ГОСТ [2]",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "Н.Н.Гаврилюков",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "В.Н.Самопляс",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "В.В.Мандрыгин",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "А.И.Сапрыкин",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Б.Пахомова",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Использование градуировки по водным растворам для ИСП-АЭС анализа металлических образцов с искровой абляцией",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "Определение примесей в серебре методом атомно-эмиссионной спектрометрии с индуктивно-связанной плазмой",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "Предлагаемая методика с растворением",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "Предлагаемая методика с SSEA",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "meas_Al_396_152",
+      "label": "Measurement",
+      "properties": {
+        "value": 1,
+        "unit": "г/т",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_As_193_759",
+      "label": "Measurement",
+      "properties": {
+        "value": 5,
+        "unit": "г/т",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Au_242_795",
+      "label": "Measurement",
+      "properties": {
+        "value": 1,
+        "unit": "г/т",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Bi_223_061",
+      "label": "Measurement",
+      "properties": {
+        "value": 1,
+        "unit": "г/т",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Cd_228_802",
+      "label": "Measurement",
+      "properties": {
+        "value": 1,
+        "unit": "г/т",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Co_228_616",
+      "label": "Measurement",
+      "properties": {
+        "value": 2,
+        "unit": "г/т",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Al_396_152_ssea",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.1,
+        "unit": "г/т",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_As_189_042_ssea",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.3,
+        "unit": "г/т",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Au_267_595_ssea",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.1,
+        "unit": "г/т",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Bi_223_061_ssea",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.3,
+        "unit": "г/т",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Cd_228_802_ssea",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.1,
+        "unit": "г/т",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Co_228_616_ssea",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.03,
+        "unit": "г/т",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_temp_140",
+      "label": "Measurement",
+      "properties": {
+        "value": 140,
+        "unit": "°С",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_vol_60_70",
+      "label": "Measurement",
+      "properties": {
+        "min": 60,
+        "max": 70,
+        "unit": "см³",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_vol_30",
+      "label": "Measurement",
+      "properties": {
+        "value": 30,
+        "unit": "см³",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_vol_6",
+      "label": "Measurement",
+      "properties": {
+        "value": 6,
+        "unit": "см³",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Sb_217_581",
+      "label": "Measurement",
+      "properties": {
+        "value": 217.581,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Se_196_090",
+      "label": "Measurement",
+      "properties": {
+        "value": 196.09,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Si_288_158",
+      "label": "Measurement",
+      "properties": {
+        "value": 288.158,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "Sr",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "meas_Sr_407_771",
+      "label": "Measurement",
+      "properties": {
+        "value": 407.771,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Te_214_281",
+      "label": "Measurement",
+      "properties": {
+        "value": 214.281,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Ti_336_121",
+      "label": "Measurement",
+      "properties": {
+        "value": 336.121,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Zn_213_856",
+      "label": "Measurement",
+      "properties": {
+        "value": 213.856,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "Zr",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "meas_Zr_343_823",
+      "label": "Measurement",
+      "properties": {
+        "value": 343.823,
+        "unit": "мг/кг",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "analyzing_porous_platinum_powder",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "meas_Au_2_5",
+      "label": "Measurement",
+      "properties": {
+        "value": 2.5,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Ca_15",
+      "label": "Measurement",
+      "properties": {
+        "value": 15,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Cd_0_5",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.5,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Co_0_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.1,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Cr_0_33",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.33,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Cu_2_2",
+      "label": "Measurement",
+      "properties": {
+        "value": 2.2,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Fe_12",
+      "label": "Measurement",
+      "properties": {
+        "value": 12,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Ga_0_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.1,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_In_0_05",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.05,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Ir_0_62",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.62,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Mg_1_9",
+      "label": "Measurement",
+      "properties": {
+        "value": 1.9,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Mn_0_04",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.04,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Mo_0_3",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.3,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Ni_4_0",
+      "label": "Measurement",
+      "properties": {
+        "value": 4.0,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Pb_0_5",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.5,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Pd_1_0",
+      "label": "Measurement",
+      "properties": {
+        "value": 1.0,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Rh_18",
+      "label": "Measurement",
+      "properties": {
+        "value": 18,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Ru_0_55",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.55,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Si_4_0",
+      "label": "Measurement",
+      "properties": {
+        "value": 4.0,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Sn_0_15",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.15,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "property_Ca",
+      "label": "Property",
+      "properties": {
+        "name": "Ca",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "property_Ga",
+      "label": "Property",
+      "properties": {
+        "name": "Ga",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "property_In",
+      "label": "Property",
+      "properties": {
+        "name": "In",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "property_Ir",
+      "label": "Property",
+      "properties": {
+        "name": "Ir",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "property_Mo",
+      "label": "Property",
+      "properties": {
+        "name": "Mo",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "property_Ru",
+      "label": "Property",
+      "properties": {
+        "name": "Ru",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "src_p17",
+      "label": "Source",
+      "properties": {
+        "span": "p.17"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "ICP-AES",
+      "target": "determination_of_impurities_in_silver_and_platinum",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "determination_of_impurities_in_silver_and_platinum",
+      "target": "review_of_state_and_international_applications_standardized_for_the_analysis_of_precious_metals_by_icp_aes",
+      "type": "described_in"
+    },
+    {
+      "source": "review_of_state_and_international_applications_standardized_for_the_analysis_of_precious_metals_by_icp_aes",
+      "target": "George_L_Buchbinder",
+      "type": "authored_by"
+    },
+    {
+      "source": "review_of_state_and_international_applications_standardized_for_the_analysis_of_precious_metals_by_icp_aes",
+      "target": "Elena_S_Poslavskaya",
+      "type": "authored_by"
+    },
+    {
+      "source": "review_of_state_and_international_applications_standardized_for_the_analysis_of_precious_metals_by_icp_aes",
+      "target": "Valeriy_A_Korotkov",
+      "type": "authored_by"
+    },
+    {
+      "source": "review_of_state_and_international_applications_standardized_for_the_analysis_of_precious_metals_by_icp_aes",
+      "target": "Tatyana_I_Velikaya",
+      "type": "authored_by"
+    },
+    {
+      "source": "АЭС-ИСП",
+      "target": "спектрометр с ИСП",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "АЭС-ИСП",
+      "target": "анализ растворов",
+      "type": "applies_to"
+    },
+    {
+      "source": "АЭС-ИСП",
+      "target": "многоэлементный анализ",
+      "type": "supports"
+    },
+    {
+      "source": "АЭС-ИСП",
+      "target": "предел обнаружения на уровне мкг/дм3 и ниже",
+      "type": "supports"
+    },
+    {
+      "source": "АЭС-ИСП",
+      "target": "линейность градуировочных графиков в пределах 6 порядков величины",
+      "type": "supports"
+    },
+    {
+      "source": "АЭС-ИСП",
+      "target": "повторяемость измерений, относительное СКО 0,5 - 1 % отн",
+      "type": "supports"
+    },
+    {
+      "source": "АЭС-ИСП",
+      "target": "анализ чистых аффинированных металлов",
+      "type": "supports"
+    },
+    {
+      "source": "АЭС-ИСП",
+      "target": "анализ промежуточных продуктов и отходов производства",
+      "type": "supports"
+    },
+    {
+      "source": "АЭС-ИСП",
+      "target": "государственные и международные стандарты",
+      "type": "described_in"
+    },
+    {
+      "source": "спектрометр с ИСП",
+      "target": "лаборатории предприятий и организаций, связанных с производством, оборотом, хранением серебра и платины",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "анализ растворов",
+      "target": "АЭС-ИСП",
+      "type": "uses_material"
+    },
+    {
+      "source": "серебро",
+      "target": "АЭС-ИСП",
+      "type": "applies_to"
+    },
+    {
+      "source": "платина",
+      "target": "АЭС-ИСП",
+      "type": "applies_to"
+    },
+    {
+      "source": "многоэлементный анализ",
+      "target": "АЭС-ИСП",
+      "type": "has_measurement"
+    },
+    {
+      "source": "предел обнаружения на уровне мкг/дм3 и ниже",
+      "target": "АЭС-ИСП",
+      "type": "has_measurement"
+    },
+    {
+      "source": "линейность градуировочных графиков в пределах 6 порядков величины",
+      "target": "АЭС-ИСП",
+      "type": "has_measurement"
+    },
+    {
+      "source": "повторяемость измерений, относительное СКО 0,5 - 1 % отн",
+      "target": "АЭС-ИСП",
+      "type": "has_measurement"
+    },
+    {
+      "source": "анализ чистых аффинированных металлов",
+      "target": "АЭС-ИСП",
+      "type": "has_measurement"
+    },
+    {
+      "source": "анализ промежуточных продуктов и отходов производства",
+      "target": "АЭС-ИСП",
+      "type": "has_measurement"
+    },
+    {
+      "source": "государственные и международные стандарты",
+      "target": "АЭС-ИСП",
+      "type": "described_in"
+    },
+    {
+      "source": "Бухбиндер Георгий Львович",
+      "target": "Анализ аффинированных СЕРЕБРА и ПЛАТИНЫ методом атомно-эмиссионной спектрометрии с индуктивно связанной плазмой",
+      "type": "authored_by"
+    },
+    {
+      "source": "Пославская Елена Степановна",
+      "target": "Анализ аффинированных СЕРЕБРА и ПЛАТИНЫ методом атомно-эмиссионной спектрометрии с индуктивно связанной плазмой",
+      "type": "authored_by"
+    },
+    {
+      "source": "Коротков Валерий Алексеевич",
+      "target": "Анализ аффинированных СЕРЕБРА и ПЛАТИНЫ методом атомно-эмиссионной спектрометрии с индуктивно связанной плазмой",
+      "type": "authored_by"
+    },
+    {
+      "source": "Великая Татьяна Ивановна",
+      "target": "Анализ аффинированных СЕРЕБРА и ПЛАТИНЫ методом атомно-эмиссионной спектрометрии с индуктивно связанной плазмой",
+      "type": "authored_by"
+    },
+    {
+      "source": "Анализ аффинированных СЕРЕБРА и ПЛАТИНЫ методом атомно-эмиссионной спектрометрии с индуктивно связанной плазмой",
+      "target": "ООО «Сибирские Аналитические Системы» (Красноярск)",
+      "type": "conducted_at"
+    },
+    {
+      "source": "Анализ аффинированных СЕРЕБРА и ПЛАТИНЫ методом атомно-эмиссионной спектрометрии с индуктивно связанной плазмой",
+      "target": "ООО «Институт Гипроникель» (Санкт-Петербург)",
+      "type": "conducted_at"
+    },
+    {
+      "source": "Анализ аффинированных СЕРЕБРА и ПЛАТИНЫ методом атомно-эмиссионной спектрометрии с индуктивно связанной плазмой",
+      "target": "СТРАНИЦА 1",
+      "type": "has_source"
+    },
+    {
+      "source": "АЭС-ИСП",
+      "target": "методика анализа",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "методика анализа",
+      "target": "серебро",
+      "type": "applies_to"
+    },
+    {
+      "source": "методика анализа",
+      "target": "платина",
+      "type": "applies_to"
+    },
+    {
+      "source": "методика анализа",
+      "target": "учет матричных влияний",
+      "type": "supports"
+    },
+    {
+      "source": "методика анализа",
+      "target": "выбор аналитических линий",
+      "type": "supports"
+    },
+    {
+      "source": "методика анализа",
+      "target": "растворение материалов",
+      "type": "supports"
+    },
+    {
+      "source": "выравнивание растворов по матричному составу",
+      "target": "градуировочные растворы",
+      "type": "uses_material"
+    },
+    {
+      "source": "градуировка методом добавок",
+      "target": "градуировочные растворы",
+      "type": "uses_material"
+    },
+    {
+      "source": "отделение примесей от основы",
+      "target": "анализируемые материалы",
+      "type": "applies_to"
+    },
+    {
+      "source": "применение плазмы с повышенной мощностью",
+      "target": "АЭС-ИСП",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "использование внутреннего стандарта",
+      "target": "анализируемые растворы",
+      "type": "uses_material"
+    },
+    {
+      "source": "методика анализа",
+      "target": "государственные стандарты",
+      "type": "described_in"
+    },
+    {
+      "source": "методика анализа",
+      "target": "международные стандарты",
+      "type": "described_in"
+    },
+    {
+      "source": "методика анализа",
+      "target": "источник_1",
+      "type": "described_in"
+    },
+    {
+      "source": "методика анализа",
+      "target": "источник_2",
+      "type": "described_in"
+    },
+    {
+      "source": "методика анализа",
+      "target": "источник_3",
+      "type": "described_in"
+    },
+    {
+      "source": "методика анализа",
+      "target": "источник_4",
+      "type": "described_in"
+    },
+    {
+      "source": "методика анализа",
+      "target": "источник_5",
+      "type": "described_in"
+    },
+    {
+      "source": "АЭС-ИСП",
+      "target": "внутренний стандарт",
+      "type": "uses_material"
+    },
+    {
+      "source": "АЭС-ИСП",
+      "target": "понижение мощности плазменного разряда",
+      "type": "applies_to"
+    },
+    {
+      "source": "растворение образцов в закрытых пробирках",
+      "target": "сокращение расхода кислот",
+      "type": "produces_output"
+    },
+    {
+      "source": "новый подход для приготовления растворов золота в хлорной кислоте",
+      "target": "смешивание растворов золота и серебра",
+      "type": "produces_output"
+    },
+    {
+      "source": "новый подход для приготовления растворов золота в хлорной кислоте",
+      "target": "градуировочные графики для прямого анализа серебра",
+      "type": "produces_output"
+    },
+    {
+      "source": "анализ серебра и платины",
+      "target": "приставка искрового пробоотбора",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "новый вариант растворения серебра в смеси азотной и плавиковой кислот",
+      "target": "анализ серебра и платины",
+      "type": "applies_to"
+    },
+    {
+      "source": "анализ серебра и платины",
+      "target": "градуировка по отношениям концентраций",
+      "type": "uses_material"
+    },
+    {
+      "source": "анализ серебра и платины",
+      "target": "содержания серебра и платины менее 99,99%",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "максимальная точность анализа",
+      "target": "градуировка по отношениям концентраций",
+      "type": "supports"
+    },
+    {
+      "source": "АЭС-ИСП",
+      "target": "анализ аффинированных серебра и платины",
+      "type": "applies_to"
+    },
+    {
+      "source": "анализ аффинированных серебра и платины",
+      "target": "государственные и международные стандарты",
+      "type": "described_in"
+    },
+    {
+      "source": "анализ аффинированных серебра и платины",
+      "target": "обзор",
+      "type": "described_in"
+    },
+    {
+      "source": "обзор",
+      "target": "ООО «Институт Гипроникель» (Санкт-Петербург)",
+      "type": "conducted_at"
+    },
+    {
+      "source": "обзор",
+      "target": "Великая Татьяна Ивановна",
+      "type": "authored_by"
+    },
+    {
+      "source": "обзор",
+      "target": "George L. Buchbinder",
+      "type": "authored_by"
+    },
+    {
+      "source": "обзор",
+      "target": "Elena S. Poslavskaya",
+      "type": "authored_by"
+    },
+    {
+      "source": "обзор",
+      "target": "Valeriy A. Korotkov",
+      "type": "authored_by"
+    },
+    {
+      "source": "обзор",
+      "target": "Tatyana I. Velikaya",
+      "type": "authored_by"
+    },
+    {
+      "source": "обзор",
+      "target": "АЭС-ИСП",
+      "type": "described_in"
+    },
+    {
+      "source": "обзор",
+      "target": "внутренний стандарт",
+      "type": "described_in"
+    },
+    {
+      "source": "обзор",
+      "target": "понижение мощности плазменного разряда",
+      "type": "described_in"
+    },
+    {
+      "source": "обзор",
+      "target": "растворение образцов в закрытых пробирках",
+      "type": "described_in"
+    },
+    {
+      "source": "обзор",
+      "target": "новый подход для приготовления растворов золота в хлорной кислоте",
+      "type": "described_in"
+    },
+    {
+      "source": "обзор",
+      "target": "смешивание растворов золота и серебра",
+      "type": "described_in"
+    },
+    {
+      "source": "обзор",
+      "target": "градуировочные графики для прямого анализа серебра",
+      "type": "described_in"
+    },
+    {
+      "source": "обзор",
+      "target": "приставка искрового пробоотбора",
+      "type": "described_in"
+    },
+    {
+      "source": "обзор",
+      "target": "новый вариант растворения серебра в смеси азотной и плавиковой кислот",
+      "type": "described_in"
+    },
+    {
+      "source": "обзор",
+      "target": "градуировка по отношениям концентраций",
+      "type": "described_in"
+    },
+    {
+      "source": "обзор",
+      "target": "содержания серебра и платины менее 99,99%",
+      "type": "described_in"
+    },
+    {
+      "source": "обзор",
+      "target": "максимальная точность анализа",
+      "type": "described_in"
+    },
+    {
+      "source": "обзор",
+      "target": "серебро",
+      "type": "tagged"
+    },
+    {
+      "source": "обзор",
+      "target": "платина",
+      "type": "tagged"
+    },
+    {
+      "source": "обзор",
+      "target": "внутренний стандарт",
+      "type": "tagged"
+    },
+    {
+      "source": "обзор",
+      "target": "градуировка по отношениям концентраций",
+      "type": "tagged"
+    },
+    {
+      "source": "обзор",
+      "target": "система искрового пробоотбора",
+      "type": "tagged"
+    },
+    {
+      "source": "обзор",
+      "target": "АЭС-ИСП",
+      "type": "tagged"
+    },
+    {
+      "source": "обзор",
+      "target": "Determination of impurities in silver and platinum by ICP- AES",
+      "type": "described_in"
+    },
+    {
+      "source": "Великая Татьяна Ивановна",
+      "target": "ООО «Институт Гипроникель» (Санкт-Петербург)",
+      "type": "expert_in"
+    },
+    {
+      "source": "George L. Buchbinder",
+      "target": "foreign",
+      "type": "tagged"
+    },
+    {
+      "source": "Elena S. Poslavskaya",
+      "target": "foreign",
+      "type": "tagged"
+    },
+    {
+      "source": "Valeriy A. Korotkov",
+      "target": "foreign",
+      "type": "tagged"
+    },
+    {
+      "source": "Tatyana I. Velikaya",
+      "target": "foreign",
+      "type": "tagged"
+    },
+    {
+      "source": "спектрометр iCAP 6500 Duo",
+      "target": "Thermo Fisher Scientific",
+      "type": "produces_output"
+    },
+    {
+      "source": "спектрометр iCAP 6500 Duo",
+      "target": "США",
+      "type": "conducted_at"
+    },
+    {
+      "source": "спектрометр iCAP 6500 Duo",
+      "target": "анализ серебра и платины",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "анализ серебра и платины",
+      "target": "специфическая градуировка по водным растворам",
+      "type": "applies_to"
+    },
+    {
+      "source": "анализ серебра и платины",
+      "target": "отсутствие матричного элемента",
+      "type": "applies_to"
+    },
+    {
+      "source": "анализ серебра и платины",
+      "target": "мощность плазменного разряда",
+      "type": "measures_property"
+    },
+    {
+      "source": "мощность плазменного разряда",
+      "target": "спектрометр iCAP 6500 Duo",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "спектрометр iCAP 6500 Duo",
+      "target": "одновременное измерение линий определяемых и мешающих элементов",
+      "type": "has_measurement"
+    },
+    {
+      "source": "спектрометр iCAP 6500 Duo",
+      "target": "свободный выбор линий в оптическом диапазоне 166-847 нм",
+      "type": "has_measurement"
+    },
+    {
+      "source": "спектрометр iCAP 6500 Duo",
+      "target": "двойное наблюдение плазмы (аксиальное и радиальное)",
+      "type": "has_measurement"
+    },
+    {
+      "source": "спектрометр iCAP 6500 Duo",
+      "target": "пределы обнаружения 70 элементов не более 1 мкг/дм3",
+      "type": "has_measurement"
+    },
+    {
+      "source": "анализ серебра и платины",
+      "target": "оценка возможностей стандартизованных методик",
+      "type": "described_in"
+    },
+    {
+      "source": "оценка возможностей стандартизованных методик",
+      "target": "поиск перспективных направлений развития методов определения примесей",
+      "type": "described_in"
+    },
+    {
+      "source": "оценка возможностей стандартизованных методик",
+      "target": "специфическая градуировка по водным растворам",
+      "type": "supports"
+    },
+    {
+      "source": "специфическая градуировка по водным растворам",
+      "target": "отсутствие матричного элемента",
+      "type": "supports"
+    },
+    {
+      "source": "специфическая градуировка по водным растворам",
+      "target": "анализ серебра и платины",
+      "type": "applies_to"
+    },
+    {
+      "source": "iCAP 6500 Duo",
+      "target": "CID детектор",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "iCAP 6500 Duo",
+      "target": "плазменный разряд",
+      "type": "applies_to"
+    },
+    {
+      "source": "плазменный разряд",
+      "target": "мощность подводимая к плазме",
+      "type": "measures_property"
+    },
+    {
+      "source": "плазменный разряд",
+      "target": "скорость охлаждающего потока",
+      "type": "measures_property"
+    },
+    {
+      "source": "плазменный разряд",
+      "target": "скорость вспомогательного потока",
+      "type": "measures_property"
+    },
+    {
+      "source": "плазменный разряд",
+      "target": "скорость распылительного потока",
+      "type": "measures_property"
+    },
+    {
+      "source": "плазменный разряд",
+      "target": "скорость подачи раствора",
+      "type": "measures_property"
+    },
+    {
+      "source": "плазменный разряд",
+      "target": "время измерения",
+      "type": "measures_property"
+    },
+    {
+      "source": "плазменный разряд",
+      "target": "обзор плазмы",
+      "type": "measures_property"
+    },
+    {
+      "source": "плазменный разряд",
+      "target": "предельные значения обнаружения",
+      "type": "measures_property"
+    },
+    {
+      "source": "предельные значения обнаружения",
+      "target": "70 элементов",
+      "type": "applies_to"
+    },
+    {
+      "source": "70 элементов",
+      "target": "предел обнаружения",
+      "type": "measures_property"
+    },
+    {
+      "source": "предел обнаружения",
+      "target": "1 мкг/дм3",
+      "type": "has_measurement"
+    },
+    {
+      "source": "мощность подводимая к плазме",
+      "target": "800 Вт",
+      "type": "has_measurement"
+    },
+    {
+      "source": "скорость охлаждающего потока",
+      "target": "12 л/мин",
+      "type": "has_measurement"
+    },
+    {
+      "source": "скорость вспомогательного потока",
+      "target": "0,5 л/мин",
+      "type": "has_measurement"
+    },
+    {
+      "source": "скорость распылительного потока",
+      "target": "0,65 л/мин",
+      "type": "has_measurement"
+    },
+    {
+      "source": "скорость подачи раствора",
+      "target": "2 см3/мин",
+      "type": "has_measurement"
+    },
+    {
+      "source": "время измерения",
+      "target": "20 с",
+      "type": "has_measurement"
+    },
+    {
+      "source": "обзор плазмы",
+      "target": "аксиальный",
+      "type": "has_measurement"
+    },
+    {
+      "source": "полные спектры",
+      "target": "выбор аналитических линий",
+      "type": "supports"
+    },
+    {
+      "source": "полные спектры",
+      "target": "качественный анализ",
+      "type": "supports"
+    },
+    {
+      "source": "полные спектры",
+      "target": "полуколичественный анализ",
+      "type": "supports"
+    },
+    {
+      "source": "iCAP 6500 Duo",
+      "target": "приставка искрового пробоотбора SSEA",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "приставка искрового пробоотбора SSEA",
+      "target": "прямой анализ металлических образцов",
+      "type": "supports"
+    },
+    {
+      "source": "прямой анализ металлических образцов",
+      "target": "без растворения",
+      "type": "applies_to"
+    },
+    {
+      "source": "анализ растворов, содержащих серебро и платину",
+      "target": "плазменный разряд",
+      "type": "applies_to"
+    },
+    {
+      "source": "анализ растворов, содержащих серебро и платину",
+      "target": "iCAP 6500 Duo",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "анализ растворов, содержащих серебро и платину",
+      "target": "полные спектры",
+      "type": "produces_output"
+    },
+    {
+      "source": "алгоритм действий",
+      "target": "получение полных спектров чистого образца матрицы",
+      "type": "described_in"
+    },
+    {
+      "source": "алгоритм действий",
+      "target": "получение полных спектров матрицы с определяемыми элементами",
+      "type": "described_in"
+    },
+    {
+      "source": "алгоритм действий",
+      "target": "включение нескольких линий определяемого элемента",
+      "type": "described_in"
+    },
+    {
+      "source": "алгоритм действий",
+      "target": "полуколичественный анализ",
+      "type": "described_in"
+    },
+    {
+      "source": "оценка аналитических линий",
+      "target": "отсутствие спектральных наложений",
+      "type": "supports"
+    },
+    {
+      "source": "оценка аналитических линий",
+      "target": "отношение сигнал/фон",
+      "type": "supports"
+    },
+    {
+      "source": "оценка аналитических линий",
+      "target": "абсолютная величина сигнала",
+      "type": "supports"
+    },
+    {
+      "source": "70 элементов",
+      "target": "1 мкг/дм3",
+      "type": "has_measurement"
+    },
+    {
+      "source": "iCAP 6500 Duo",
+      "target": "СТРАНИЦА 5",
+      "type": "has_source"
+    },
+    {
+      "source": "плазменный разряд",
+      "target": "СТРАНИЦА 5",
+      "type": "has_source"
+    },
+    {
+      "source": "мощность подводимая к плазме",
+      "target": "СТРАНИЦА 5",
+      "type": "has_source"
+    },
+    {
+      "source": "скорость охлаждающего потока",
+      "target": "СТРАНИЦА 5",
+      "type": "has_source"
+    },
+    {
+      "source": "скорость вспомогательного потока",
+      "target": "СТРАНИЦА 5",
+      "type": "has_source"
+    },
+    {
+      "source": "скорость распылительного потока",
+      "target": "СТРАНИЦА 5",
+      "type": "has_source"
+    },
+    {
+      "source": "скорость подачи раствора",
+      "target": "СТРАНИЦА 5",
+      "type": "has_source"
+    },
+    {
+      "source": "время измерения",
+      "target": "СТРАНИЦА 5",
+      "type": "has_source"
+    },
+    {
+      "source": "обзор плазмы",
+      "target": "СТРАНИЦА 5",
+      "type": "has_source"
+    },
+    {
+      "source": "предельные значения обнаружения",
+      "target": "СТРАНИЦА 5",
+      "type": "has_source"
+    },
+    {
+      "source": "анализ растворов, содержащих серебро и платину",
+      "target": "СТРАНИЦА 5",
+      "type": "has_source"
+    },
+    {
+      "source": "алгоритм действий",
+      "target": "СТРАНИЦА 5",
+      "type": "has_source"
+    },
+    {
+      "source": "оценка аналитических линий",
+      "target": "СТРАНИЦА 5",
+      "type": "has_source"
+    },
+    {
+      "source": "iCAP 6500",
+      "target": "SSEA",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "SSEA",
+      "target": "обратный осмос",
+      "type": "applies_to"
+    },
+    {
+      "source": "растворение серебра и платины",
+      "target": "HotBox 300",
+      "type": "conducted_at"
+    },
+    {
+      "source": "HotBox 300",
+      "target": "максимальная температура 300°С",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "HotBox 300",
+      "target": "полипропиленовые пробирки",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "HotBox 300",
+      "target": "тефлоновые пробирки",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "HotBox 300",
+      "target": "автоклавы",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "растворение платины",
+      "target": "эксперименты по растворению платины в системе HotBox 300",
+      "type": "described_in"
+    },
+    {
+      "source": "эксперименты по растворению платины в системе HotBox 300",
+      "target": "снижение расхода реактивов",
+      "type": "showed"
+    },
+    {
+      "source": "снижение расхода реактивов",
+      "target": "таблица 1",
+      "type": "described_in"
+    },
+    {
+      "source": "таблица 1",
+      "target": "расход смеси кислот (HCl и HNO3) при растворении 1 г платины",
+      "type": "described_in"
+    },
+    {
+      "source": "фильтрование",
+      "target": "meas_sulf_300",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_sulf_300",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "анализ серебра",
+      "target": "ГОСТ 28353.2-89",
+      "type": "described_in"
+    },
+    {
+      "source": "ГОСТ 28353.2-89",
+      "target": "стандартизованные методы анализа серебра",
+      "type": "applies_to"
+    },
+    {
+      "source": "первый способ",
+      "target": "анализ серебра",
+      "type": "applies_to"
+    },
+    {
+      "source": "первый способ",
+      "target": "растворение навески серебра",
+      "type": "uses_material"
+    },
+    {
+      "source": "растворение навески серебра",
+      "target": "азотная кислота",
+      "type": "uses_material"
+    },
+    {
+      "source": "первый способ",
+      "target": "отделение осадка не растворившихся Au и Rh",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "отделение осадка не растворившихся Au и Rh",
+      "target": "фильтрование",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "первый способ",
+      "target": "растворение металлов в смеси HCl и HNO3",
+      "type": "uses_material"
+    },
+    {
+      "source": "растворение металлов в смеси HCl и HNO3",
+      "target": "смесь HCl и HNO3",
+      "type": "uses_material"
+    },
+    {
+      "source": "первый способ",
+      "target": "анализ на спектрометре с ИСП",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "анализ на спектрометре с ИСП",
+      "target": "АЭС-ИСП",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "первый способ",
+      "target": "определение элементов в первом растворе",
+      "type": "produces_output"
+    },
+    {
+      "source": "первый способ",
+      "target": "определение Au и Rh во втором растворе",
+      "type": "produces_output"
+    },
+    {
+      "source": "первый способ",
+      "target": "навеска серебра",
+      "type": "uses_material"
+    },
+    {
+      "source": "навеска серебра",
+      "target": "0,5-1 г",
+      "type": "has_measurement"
+    },
+    {
+      "source": "0,5-1 г",
+      "target": "src_p6",
+      "type": "has_source"
+    },
+    {
+      "source": "ГОСТ 28353.2-89",
+      "target": "src_p6",
+      "type": "has_source"
+    },
+    {
+      "source": "первый способ",
+      "target": "src_p6",
+      "type": "has_source"
+    },
+    {
+      "source": "анализ серебра",
+      "target": "src_p6",
+      "type": "has_source"
+    },
+    {
+      "source": "плавиковая кислота",
+      "target": "обратный осмос",
+      "type": "uses_material"
+    },
+    {
+      "source": "обратный осмос",
+      "target": "meas_sulf_300",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_sulf_300",
+      "target": "src_p7",
+      "type": "has_source"
+    },
+    {
+      "source": "iCAP 6500 Duo SSEA",
+      "target": "спецификация градуировки",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "спецификация градуировки",
+      "target": "meas_ag_20",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_ag_20",
+      "target": "src_p7",
+      "type": "has_source"
+    },
+    {
+      "source": "спецификация градуировки",
+      "target": "meas_imp_01_to_5",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_imp_01_to_5",
+      "target": "src_p7",
+      "type": "has_source"
+    },
+    {
+      "source": "спецификация градуировки",
+      "target": "finding_au_not_soluble",
+      "type": "showed"
+    },
+    {
+      "source": "finding_au_not_soluble",
+      "target": "src_p7",
+      "type": "has_source"
+    },
+    {
+      "source": "метод добавок",
+      "target": "meas_Au_2_0",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Au_2_0",
+      "target": "src_p8",
+      "type": "has_source"
+    },
+    {
+      "source": "метод добавок",
+      "target": "finding_gold_consistency",
+      "type": "showed"
+    },
+    {
+      "source": "finding_gold_consistency",
+      "target": "src_p8",
+      "type": "has_source"
+    },
+    {
+      "source": "метод добавок",
+      "target": "finding_Rh_overestimation",
+      "type": "showed"
+    },
+    {
+      "source": "finding_Rh_overestimation",
+      "target": "src_p8",
+      "type": "has_source"
+    },
+    {
+      "source": "ГСО серебра СО СР1",
+      "target": "meas_Au_2_0",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Au_2_0",
+      "target": "золото",
+      "type": "measures_property"
+    },
+    {
+      "source": "ГСО серебра СО СР1",
+      "target": "finding_gold_consistency",
+      "type": "validated_by"
+    },
+    {
+      "source": "ГСО серебра СО СР1",
+      "target": "finding_Rh_overestimation",
+      "type": "validated_by"
+    },
+    {
+      "source": "meas_Au_10",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Au_10",
+      "target": "property_concentration_Au",
+      "type": "measures_property"
+    },
+    {
+      "source": "process_removal_chlorides",
+      "target": "meas_Au_10",
+      "type": "has_measurement"
+    },
+    {
+      "source": "process_removal_chlorides",
+      "target": "equipment_quartz_beaker",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "process_removal_chlorides",
+      "target": "material_HClO4",
+      "type": "uses_material"
+    },
+    {
+      "source": "process_removal_chlorides",
+      "target": "material_Au_Ir_Pd_Pt_Rh_Ru_solution",
+      "type": "applies_to"
+    },
+    {
+      "source": "process_removal_chlorides",
+      "target": "condition_drying_to_fumes",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "process_removal_chlorides",
+      "target": "experiment_new_preparation_method",
+      "type": "conducted_at"
+    },
+    {
+      "source": "experiment_new_preparation_method",
+      "target": "finding_mixed_solution_stable",
+      "type": "showed"
+    },
+    {
+      "source": "finding_mixed_solution_stable",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_mixed_solution_stable",
+      "target": "property_stability",
+      "type": "measures_property"
+    },
+    {
+      "source": "finding_mixed_solution_stable",
+      "target": "expert_ivanov_ivan_ivanovich",
+      "type": "validated_by"
+    },
+    {
+      "source": "publication_new_method",
+      "target": "expert_ivanov_ivan_ivanovich",
+      "type": "authored_by"
+    },
+    {
+      "source": "publication_new_method",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "ISO 15096:2015",
+      "target": "standard",
+      "type": "described_in"
+    },
+    {
+      "source": "ISO 15093:2015",
+      "target": "standard",
+      "type": "described_in"
+    },
+    {
+      "source": "ISO 15096:2015",
+      "target": "silver_content",
+      "type": "applies_to"
+    },
+    {
+      "source": "silver_content",
+      "target": "meas_silver_99.9",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_silver_99.9",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "silver_content",
+      "target": "finding_inefficient_dissolution",
+      "type": "showed"
+    },
+    {
+      "source": "finding_inefficient_dissolution",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "silver_content",
+      "target": "finding_incomplete_procedure",
+      "type": "showed"
+    },
+    {
+      "source": "finding_incomplete_procedure",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "silver_content",
+      "target": "finding_inefficient_precipitation",
+      "type": "showed"
+    },
+    {
+      "source": "finding_inefficient_precipitation",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "ГСО серебра",
+      "target": "СО СР",
+      "type": "applies_to"
+    },
+    {
+      "source": "ГСО серебра",
+      "target": "VCH-2",
+      "type": "applies_to"
+    },
+    {
+      "source": "межлабораторный эксперимент",
+      "target": "таблица 3",
+      "type": "described_in"
+    },
+    {
+      "source": "межлабораторный эксперимент",
+      "target": "таблица 4",
+      "type": "described_in"
+    },
+    {
+      "source": "межлабораторный эксперимент",
+      "target": "таблица 5",
+      "type": "described_in"
+    },
+    {
+      "source": "межлабораторный эксперимент",
+      "target": "n=20",
+      "type": "has_measurement"
+    },
+    {
+      "source": "n=20",
+      "target": "таблица 3",
+      "type": "measures_property"
+    },
+    {
+      "source": "n=20",
+      "target": "таблица 4",
+      "type": "measures_property"
+    },
+    {
+      "source": "n=20",
+      "target": "таблица 5",
+      "type": "measures_property"
+    },
+    {
+      "source": "ГОСТ 28353.2-2017",
+      "target": "совершенствование первой схемы растворения серебра",
+      "type": "contradicts"
+    },
+    {
+      "source": "ГОСТ 28353.2-2017",
+      "target": "использование новой смеси для растворения серебра -HNO3 (1:1) и HF",
+      "type": "contradicts"
+    },
+    {
+      "source": "ГОСТ 28353.2-2017",
+      "target": "использование пониженной мощности в сочетании с использованием внутреннего стандарта – скандия",
+      "type": "contradicts"
+    },
+    {
+      "source": "ГОСТ 28353.2-2017",
+      "target": "использование приставки искрового пробоотбора SSEAдля прямого анализа металлических образцов серебра",
+      "type": "contradicts"
+    },
+    {
+      "source": "нахождение содержаний Rh, Al и Si",
+      "target": "СО СР",
+      "type": "measures_property"
+    },
+    {
+      "source": "нахождение содержаний Rh, Al и Si",
+      "target": "опубликованные аттестованные значения",
+      "type": "contradicts"
+    },
+    {
+      "source": "нахождение содержаний Rh, Al и Si",
+      "target": "проблемы стандартизованных методов определения примесей в аффинированном серебре",
+      "type": "supports"
+    },
+    {
+      "source": "нахождение содержаний Rh, Al и Si",
+      "target": "таблица 3",
+      "type": "described_in"
+    },
+    {
+      "source": "нахождение содержаний Rh, Al и Si",
+      "target": "таблица 4",
+      "type": "described_in"
+    },
+    {
+      "source": "нахождение содержаний Rh, Al и Si",
+      "target": "таблица 5",
+      "type": "described_in"
+    },
+    {
+      "source": "опубликованные аттестованные значения",
+      "target": "золото",
+      "type": "measures_property"
+    },
+    {
+      "source": "опубликованные аттестованные значения",
+      "target": "Pt",
+      "type": "measures_property"
+    },
+    {
+      "source": "опубликованные аттестованные значения",
+      "target": "Pd",
+      "type": "measures_property"
+    },
+    {
+      "source": "опубликованные аттестованные значения",
+      "target": "Rh",
+      "type": "measures_property"
+    },
+    {
+      "source": "опубликованные аттестованные значения",
+      "target": "Al",
+      "type": "measures_property"
+    },
+    {
+      "source": "опубликованные аттестованные значения",
+      "target": "Si",
+      "type": "measures_property"
+    },
+    {
+      "source": "опубликованные аттестованные значения",
+      "target": "таблица 3",
+      "type": "described_in"
+    },
+    {
+      "source": "опубликованные аттестованные значения",
+      "target": "таблица 4",
+      "type": "described_in"
+    },
+    {
+      "source": "опубликованные аттестованные значения",
+      "target": "таблица 5",
+      "type": "described_in"
+    },
+    {
+      "source": "совершенствование первой схемы растворения серебра",
+      "target": "HNO3 (1:1) и HF",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "использование пониженной мощности",
+      "target": "внутренний стандарт – скандий",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "использование приставки искрового пробоотбора SSEAдля прямого анализа металлических образцов серебра",
+      "target": "SSEA",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "SSEA",
+      "target": "прямой анализ металлических образцов серебра",
+      "type": "applies_to"
+    },
+    {
+      "source": "межлабораторный эксперимент",
+      "target": "ГСО серебра",
+      "type": "conducted_at"
+    },
+    {
+      "source": "межлабораторный эксперимент",
+      "target": "таблица 3",
+      "type": "has_source"
+    },
+    {
+      "source": "межлабораторный эксперимент",
+      "target": "таблица 4",
+      "type": "has_source"
+    },
+    {
+      "source": "межлабораторный эксперимент",
+      "target": "таблица 5",
+      "type": "has_source"
+    },
+    {
+      "source": "таблица 3",
+      "target": "src_p9",
+      "type": "has_source"
+    },
+    {
+      "source": "таблица 4",
+      "target": "src_p9",
+      "type": "has_source"
+    },
+    {
+      "source": "таблица 5",
+      "target": "src_p9",
+      "type": "has_source"
+    },
+    {
+      "source": "нахождение содержаний Rh, Al и Si",
+      "target": "src_p9",
+      "type": "has_source"
+    },
+    {
+      "source": "опубликованные аттестованные значения",
+      "target": "src_p9",
+      "type": "has_source"
+    },
+    {
+      "source": "совершенствование первой схемы растворения серебра",
+      "target": "src_p9",
+      "type": "has_source"
+    },
+    {
+      "source": "использование новой смеси для растворения серебра -HNO3 (1:1) и HF",
+      "target": "src_p9",
+      "type": "has_source"
+    },
+    {
+      "source": "использование пониженной мощности в сочетании с использованием внутреннего стандарта – скандия",
+      "target": "src_p9",
+      "type": "has_source"
+    },
+    {
+      "source": "использование приставки искрового пробоотбора SSEAдля прямого анализа металлических образцов серебра",
+      "target": "src_p9",
+      "type": "has_source"
+    },
+    {
+      "source": "HNO3 и 5 мл HNO3 (1:1)",
+      "target": "обратный осмос",
+      "type": "uses_material"
+    },
+    {
+      "source": "обратный осмос",
+      "target": "осаждение хлорида серебра",
+      "type": "applies_to"
+    },
+    {
+      "source": "осаждение хлорида серебра",
+      "target": "HCl (1:2)",
+      "type": "uses_material"
+    },
+    {
+      "source": "HCl (1:2)",
+      "target": "чувствительность метода АЭС-ИСП",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "HCl (1:10)",
+      "target": "чувствительность метода АЭС-ИСП",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "градуировка по 0 и 5 мкг/см3",
+      "target": "линейность графиков",
+      "type": "supports"
+    },
+    {
+      "source": "Ti II 334,941 нм",
+      "target": "графики 2-го порядка",
+      "type": "showed"
+    },
+    {
+      "source": "графики 2-го порядка",
+      "target": "занижение результатов анализа примесей",
+      "type": "showed"
+    },
+    {
+      "source": "занижение результатов анализа примесей",
+      "target": "завышение результатов определения содержания серебра",
+      "type": "showed"
+    },
+    {
+      "source": "приставка искрового пробоотбора",
+      "target": "градуировка в относительных концентрациях",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "ГОСТ 33730-2016",
+      "target": "анализ платины методом АЭС-ИСП",
+      "type": "described_in"
+    },
+    {
+      "source": "ГОСТ 33730-2016",
+      "target": "ошибки в методике",
+      "type": "contradicts"
+    },
+    {
+      "source": "ошибки в методике",
+      "target": "неправильные результаты анализа",
+      "type": "showed"
+    },
+    {
+      "source": "ошибки в методике",
+      "target": "неудобство выполнения анализа",
+      "type": "showed"
+    },
+    {
+      "source": "ошибки в методике",
+      "target": "длительность анализа",
+      "type": "showed"
+    },
+    {
+      "source": "ошибки в методике",
+      "target": "экономическая нецелесообразность",
+      "type": "showed"
+    },
+    {
+      "source": "ошибки в методике",
+      "target": "неконкурентоспособность по сравнению с другими методами спектрального анализа",
+      "type": "showed"
+    },
+    {
+      "source": "растворение образцов платины на плите",
+      "target": "чрезмерный расход реактивов",
+      "type": "showed"
+    },
+    {
+      "source": "растворение образцов платины на плите",
+      "target": "очень длительное выполнение анализа",
+      "type": "showed"
+    },
+    {
+      "source": "растворение образцов платины на плите",
+      "target": "негерметичные сосуды",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "растворение образцов платины на плите",
+      "target": "низкая температура",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "растворение образцов платины на плите",
+      "target": "смесь соляной и азотной кислот 3:1",
+      "type": "uses_material"
+    },
+    {
+      "source": "смесь соляной и азотной кислот 3:1",
+      "target": "растворение образцов платины на плите",
+      "type": "uses_material"
+    },
+    {
+      "source": "ГОСТ 33730-2016",
+      "target": "выбор аналитических линий примесей",
+      "type": "described_in"
+    },
+    {
+      "source": "ГОСТ 33730-2016",
+      "target": "Ag I 328,068 нм",
+      "type": "measures_property"
+    },
+    {
+      "source": "ГОСТ 33730-2016",
+      "target": "Fe II 259,940 нм",
+      "type": "measures_property"
+    },
+    {
+      "source": "Ag I 328,068 нм",
+      "target": "спектральные наложения",
+      "type": "contradicts"
+    },
+    {
+      "source": "Fe II 259,940 нм",
+      "target": "спектральные наложения",
+      "type": "contradicts"
+    },
+    {
+      "source": "спектральные наложения",
+      "target": "Pt 328,081 нм",
+      "type": "has_source"
+    },
+    {
+      "source": "спектральные наложения",
+      "target": "Pt 259,956 нм",
+      "type": "has_source"
+    },
+    {
+      "source": "Ir II 224,268 нм",
+      "target": "сильные спектральные влияния",
+      "type": "showed"
+    },
+    {
+      "source": "Sn I 283,999 нм",
+      "target": "сильные спектральные влияния",
+      "type": "showed"
+    },
+    {
+      "source": "сильные спектральные влияния",
+      "target": "интенсивные линии примесей",
+      "type": "has_source"
+    },
+    {
+      "source": "растворение образцов платины на плите",
+      "target": "стакан",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "стакан",
+      "target": "растворение образцов платины на плите",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "тефлоновая крышка",
+      "target": "стакан",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "стакан",
+      "target": "тефлоновая крышка",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "растворение образцов платины на плите",
+      "target": "1 г пробы",
+      "type": "has_measurement"
+    },
+    {
+      "source": "растворение образцов платины на плите",
+      "target": "20 см3 смеси",
+      "type": "has_measurement"
+    },
+    {
+      "source": "растворение образцов платины на плите",
+      "target": "4-5 часов",
+      "type": "has_measurement"
+    },
+    {
+      "source": "растворение образцов платины на плите",
+      "target": "30 минут",
+      "type": "has_measurement"
+    },
+    {
+      "source": "растворение образцов платины на плите",
+      "target": "5 см3 смеси",
+      "type": "has_measurement"
+    },
+    {
+      "source": "ГОСТ 33730-2016",
+      "target": "рисунок 8",
+      "type": "described_in"
+    },
+    {
+      "source": "ГОСТ 33730-2016",
+      "target": "процедура анализа платины",
+      "type": "applies_to"
+    },
+    {
+      "source": "процедура анализа платины",
+      "target": "новый способ растворения в закрытых пробирках",
+      "type": "uses_material"
+    },
+    {
+      "source": "новый способ растворения в закрытых пробирках",
+      "target": "внутренний стандарт",
+      "type": "uses_material"
+    },
+    {
+      "source": "новый способ растворения в закрытых пробирках",
+      "target": "градуировка методом добавок",
+      "type": "uses_material"
+    },
+    {
+      "source": "процедура анализа платины",
+      "target": "аналитические линии Ir 224,268 нм",
+      "type": "measures_property"
+    },
+    {
+      "source": "процедура анализа платины",
+      "target": "аналитические линии Sn 283,999 нм",
+      "type": "measures_property"
+    },
+    {
+      "source": "аналитические линии Ir 224,268 нм",
+      "target": "спектральные наложения от меди",
+      "type": "contradicts"
+    },
+    {
+      "source": "аналитические линии Sn 283,999 нм",
+      "target": "спектральные наложения от хрома",
+      "type": "contradicts"
+    },
+    {
+      "source": "ГОСТ 33730-2016",
+      "target": "раствор 100 г/дм3 Pt",
+      "type": "uses_material"
+    },
+    {
+      "source": "раствор 100 г/дм3 Pt",
+      "target": "платина",
+      "type": "produces_output"
+    },
+    {
+      "source": "ГОСТ 33730-2016",
+      "target": "срок хранения градуировочных растворов 5 дней",
+      "type": "has_measurement"
+    },
+    {
+      "source": "срок хранения градуировочных растворов 5 дней",
+      "target": "ГОСТ 33730-2016",
+      "type": "measures_property"
+    },
+    {
+      "source": "ГОСТ 33730-2016",
+      "target": "расход 10 г драгоценного металла каждую неделю",
+      "type": "has_measurement"
+    },
+    {
+      "source": "расход 10 г драгоценного металла каждую неделю",
+      "target": "ГОСТ 33730-2016",
+      "type": "measures_property"
+    },
+    {
+      "source": "ГОСТ 33730-2016",
+      "target": "необходимость больших количеств кислот",
+      "type": "has_measurement"
+    },
+    {
+      "source": "необходимость больших количеств кислот",
+      "target": "ГОСТ 33730-2016",
+      "type": "measures_property"
+    },
+    {
+      "source": "ГОСТ 33730-2016",
+      "target": "необходимость больших затрат времени",
+      "type": "has_measurement"
+    },
+    {
+      "source": "необходимость больших затрат времени",
+      "target": "ГОСТ 33730-2016",
+      "type": "measures_property"
+    },
+    {
+      "source": "ГОСТ 33730-2016",
+      "target": "необходимо изменить",
+      "type": "showed"
+    },
+    {
+      "source": "необходимо изменить",
+      "target": "процедура анализа платины",
+      "type": "supports"
+    },
+    {
+      "source": "аналитические линии Ir 224,268 нм",
+      "target": "иридий",
+      "type": "measures_property"
+    },
+    {
+      "source": "аналитические линии Sn 283,999 нм",
+      "target": "олово",
+      "type": "measures_property"
+    },
+    {
+      "source": "молекулярная полоса ОН",
+      "target": "отсутствует",
+      "type": "showed"
+    },
+    {
+      "source": "отсутствует",
+      "target": "спектральные наложения в области 306-315 нм",
+      "type": "contradicts"
+    },
+    {
+      "source": "АЭС-ИСП",
+      "target": "meas_ir_224_268",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_ir_224_268",
+      "target": "src_p13",
+      "type": "has_source"
+    },
+    {
+      "source": "АЭС-ИСП",
+      "target": "meas_sn_283_999",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_sn_283_999",
+      "target": "src_p13",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_ir_224_268",
+      "target": "Property_iridium_line",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_sn_283_999",
+      "target": "Property_tin_line",
+      "type": "measures_property"
+    },
+    {
+      "source": "finding_standard_errors",
+      "target": "src_p13",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_standard_errors",
+      "target": "GOST_33730_2016",
+      "type": "contradicts"
+    },
+    {
+      "source": "finding_standard_errors",
+      "target": "ISO_standards",
+      "type": "contradicts"
+    },
+    {
+      "source": "finding_optimal_method_ag",
+      "target": "src_p13",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_optimal_method_ag",
+      "target": "Scandium_internal_standard",
+      "type": "uses_material"
+    },
+    {
+      "source": "finding_optimal_method_ag",
+      "target": "reduced_plasma_power",
+      "type": "applies_to"
+    },
+    {
+      "source": "finding_optimal_method_pt",
+      "target": "src_p13",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_optimal_method_pt",
+      "target": "relative_concentration_calibration",
+      "type": "uses_material"
+    },
+    {
+      "source": "Pt 328,081 нм",
+      "target": "meas_pt_328_081",
+      "type": "measures_property"
+    },
+    {
+      "source": "Pt 259,956 нм",
+      "target": "meas_pt_259_956",
+      "type": "measures_property"
+    },
+    {
+      "source": "Ir II 224,268 нм",
+      "target": "meas_ir_224_268",
+      "type": "measures_property"
+    },
+    {
+      "source": "Sn I 283,999 нм",
+      "target": "meas_sn_283_999",
+      "type": "measures_property"
+    },
+    {
+      "source": "Cu II 224,261 нм",
+      "target": "meas_cu_224_261",
+      "type": "measures_property"
+    },
+    {
+      "source": "Cr II 284,000 нм",
+      "target": "meas_cr_284_000",
+      "type": "measures_property"
+    },
+    {
+      "source": "Bi 306,770 нм",
+      "target": "meas_bi_306_770",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_pt_328_081",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_pt_259_956",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_ir_224_268",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_sn_283_999",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_cu_224_261",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_cr_284_000",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_bi_306_770",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_spectral_interference_ir_cu",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_spectral_interference_sn_cr",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_bi_line_306_770_oh_interference",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_no_correction_procedure_gost",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_incorrect_calibration_graphs_ir",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_oh_band_interference_306_315_nm",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_no_oh_interference_with_spike",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "АЭС-ИСП",
+      "target": "градуировка по водным растворам",
+      "type": "uses_material"
+    },
+    {
+      "source": "АЭС-ИСП",
+      "target": "приставка искрового пробоотбора",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "АЭС-ИСП",
+      "target": "анализ серебра",
+      "type": "applies_to"
+    },
+    {
+      "source": "АЭС-ИСП",
+      "target": "анализ золота",
+      "type": "applies_to"
+    },
+    {
+      "source": "градуировка по водным растворам",
+      "target": "матричный элемент",
+      "type": "uses_material"
+    },
+    {
+      "source": "АЭС-ИСП",
+      "target": "метод атомно-эмиссионного анализа с индуктивно связанной плазмой",
+      "type": "applies_to"
+    },
+    {
+      "source": "метод атомно-эмиссионного анализа с индуктивно связанной плазмой",
+      "target": "ГОСТ 28353.2-2017",
+      "type": "described_in"
+    },
+    {
+      "source": "метод атомно-эмиссионного анализа с индуктивно связанной плазмой",
+      "target": "ГОСТ 33730-2016",
+      "type": "described_in"
+    },
+    {
+      "source": "метод атомно-эмиссионного анализа с индуктивно связанной плазмой",
+      "target": "ISO 15093:2015",
+      "type": "described_in"
+    },
+    {
+      "source": "ГОСТ 28353.2-2017",
+      "target": "серебро",
+      "type": "applies_to"
+    },
+    {
+      "source": "ГОСТ 33730-2016",
+      "target": "платина",
+      "type": "applies_to"
+    },
+    {
+      "source": "ISO 15093:2015",
+      "target": "золото",
+      "type": "applies_to"
+    },
+    {
+      "source": "ISO 15093:2015",
+      "target": "платина",
+      "type": "applies_to"
+    },
+    {
+      "source": "ISO 15093:2015",
+      "target": "палладий",
+      "type": "applies_to"
+    },
+    {
+      "source": "метод атомно-эмиссионного анализа с индуктивно связанной плазмой",
+      "target": "ГОСТ 28353.0-89",
+      "type": "described_in"
+    },
+    {
+      "source": "метод атомно-эмиссионного анализа с индуктивно связанной плазмой",
+      "target": "ГОСТ 28353.1-89",
+      "type": "described_in"
+    },
+    {
+      "source": "метод атомно-эмиссионного анализа с индуктивно связанной плазмой",
+      "target": "ГОСТ 28353.3-89",
+      "type": "described_in"
+    },
+    {
+      "source": "ГОСТ 28353.0-89",
+      "target": "серебро",
+      "type": "applies_to"
+    },
+    {
+      "source": "ГОСТ 28353.1-89",
+      "target": "серебро",
+      "type": "applies_to"
+    },
+    {
+      "source": "ГОСТ 28353.3-89",
+      "target": "серебро",
+      "type": "applies_to"
+    },
+    {
+      "source": "meas_Au_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Bi_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Cd_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Co_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Cr_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Cu_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Fe_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Mg_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Mn_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Ni_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Pb_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Pd_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Pt_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Rh_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Sb_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Se_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Si_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Sn_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Te_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Ti_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Zn_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Al_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_As_1",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Au_2",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Bi_2",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "ГОСТ 33730-2016",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "ISO 15093:2015",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "HotBox 300",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "Материал пробирок для HotBox 300",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "Температура растворения",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "ГОСТ [2]",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "Н.Н.Гаврилюков",
+      "target": "src_p12",
+      "type": "authored_by"
+    },
+    {
+      "source": "В.Н.Самопляс",
+      "target": "src_p12",
+      "type": "authored_by"
+    },
+    {
+      "source": "В.В.Мандрыгин",
+      "target": "src_p12",
+      "type": "authored_by"
+    },
+    {
+      "source": "А.И.Сапрыкин",
+      "target": "src_p12",
+      "type": "authored_by"
+    },
+    {
+      "source": "Б.Пахомова",
+      "target": "src_p12",
+      "type": "authored_by"
+    },
+    {
+      "source": "Использование градуировки по водным растворам для ИСП-АЭС анализа металлических образцов с искровой абляцией",
+      "target": "src_p12",
+      "type": "described_in"
+    },
+    {
+      "source": "Определение примесей в серебре методом атомно-эмиссионной спектрометрии с индуктивно-связанной плазмой",
+      "target": "src_p12",
+      "type": "described_in"
+    },
+    {
+      "source": "ГОСТ 33730-2016",
+      "target": "ГОСТ [2]",
+      "type": "contradicts"
+    },
+    {
+      "source": "ГОСТ 33730-2016",
+      "target": "ISO 15093:2015",
+      "type": "supports"
+    },
+    {
+      "source": "HotBox 300",
+      "target": "Материал пробирок для HotBox 300",
+      "type": "uses_material"
+    },
+    {
+      "source": "HotBox 300",
+      "target": "Температура растворения",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "Использование градуировки по водным растворам для ИСП-АЭС анализа металлических образцов с искровой абляцией",
+      "target": "ГОСТ [2]",
+      "type": "contradicts"
+    },
+    {
+      "source": "Использование градуировки по водным растворам для ИСП-АЭС анализа металлических образцов с искровой абляцией",
+      "target": "Предлагаемая методика с растворением",
+      "type": "supports"
+    },
+    {
+      "source": "Использование градуировки по водным растворам для ИСП-АЭС анализа металлических образцов с искровой абляцией",
+      "target": "Предлагаемая методика с SSEA",
+      "type": "supports"
+    },
+    {
+      "source": "Предлагаемая методика с растворением",
+      "target": "Al",
+      "type": "applies_to"
+    },
+    {
+      "source": "Предлагаемая методика с растворением",
+      "target": "As",
+      "type": "applies_to"
+    },
+    {
+      "source": "Предлагаемая методика с растворением",
+      "target": "золото",
+      "type": "applies_to"
+    },
+    {
+      "source": "Предлагаемая методика с растворением",
+      "target": "Bi",
+      "type": "applies_to"
+    },
+    {
+      "source": "Предлагаемая методика с растворением",
+      "target": "Cd",
+      "type": "applies_to"
+    },
+    {
+      "source": "Предлагаемая методика с растворением",
+      "target": "Co",
+      "type": "applies_to"
+    },
+    {
+      "source": "Предлагаемая методика с SSEA",
+      "target": "Al",
+      "type": "applies_to"
+    },
+    {
+      "source": "Предлагаемая методика с SSEA",
+      "target": "As",
+      "type": "applies_to"
+    },
+    {
+      "source": "Предлагаемая методика с SSEA",
+      "target": "золото",
+      "type": "applies_to"
+    },
+    {
+      "source": "Предлагаемая методика с SSEA",
+      "target": "Bi",
+      "type": "applies_to"
+    },
+    {
+      "source": "Предлагаемая методика с SSEA",
+      "target": "Cd",
+      "type": "applies_to"
+    },
+    {
+      "source": "Предлагаемая методика с SSEA",
+      "target": "Co",
+      "type": "applies_to"
+    },
+    {
+      "source": "Предлагаемая методика с растворением",
+      "target": "meas_Al_396_152",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Al_396_152",
+      "target": "Al",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Al_396_152",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "Предлагаемая методика с растворением",
+      "target": "meas_As_193_759",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_As_193_759",
+      "target": "As",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_As_193_759",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "Предлагаемая методика с растворением",
+      "target": "meas_Au_242_795",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Au_242_795",
+      "target": "золото",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Au_242_795",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "Предлагаемая методика с растворением",
+      "target": "meas_Bi_223_061",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Bi_223_061",
+      "target": "Bi",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Bi_223_061",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "Предлагаемая методика с растворением",
+      "target": "meas_Cd_228_802",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Cd_228_802",
+      "target": "Cd",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Cd_228_802",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "Предлагаемая методика с растворением",
+      "target": "meas_Co_228_616",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Co_228_616",
+      "target": "Co",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Co_228_616",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "Предлагаемая методика с SSEA",
+      "target": "meas_Al_396_152_ssea",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Al_396_152_ssea",
+      "target": "Al",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Al_396_152_ssea",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "Предлагаемая методика с SSEA",
+      "target": "meas_As_189_042_ssea",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_As_189_042_ssea",
+      "target": "As",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_As_189_042_ssea",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "Предлагаемая методика с SSEA",
+      "target": "meas_Au_267_595_ssea",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Au_267_595_ssea",
+      "target": "золото",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Au_267_595_ssea",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "Предлагаемая методика с SSEA",
+      "target": "meas_Bi_223_061_ssea",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Bi_223_061_ssea",
+      "target": "Bi",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Bi_223_061_ssea",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "Предлагаемая методика с SSEA",
+      "target": "meas_Cd_228_802_ssea",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Cd_228_802_ssea",
+      "target": "Cd",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Cd_228_802_ssea",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "Предлагаемая методика с SSEA",
+      "target": "meas_Co_228_616_ssea",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Co_228_616_ssea",
+      "target": "Co",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Co_228_616_ssea",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "Температура растворения",
+      "target": "meas_temp_140",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_temp_140",
+      "target": "Температура растворения",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_temp_140",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "ГОСТ 33730-2016",
+      "target": "meas_vol_60_70",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_vol_60_70",
+      "target": "ГОСТ 33730-2016",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_vol_60_70",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "ISO 15093:2015",
+      "target": "meas_vol_30",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_vol_30",
+      "target": "ISO 15093:2015",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_vol_30",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "HotBox 300",
+      "target": "meas_vol_6",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_vol_6",
+      "target": "HotBox 300",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_vol_6",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "Sb",
+      "target": "meas_Sb_217_581",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Sb_217_581",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "Se",
+      "target": "meas_Se_196_090",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Se_196_090",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "Si",
+      "target": "meas_Si_288_158",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Si_288_158",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "Sn",
+      "target": "meas_sn_283_999",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_sn_283_999",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "Sr",
+      "target": "meas_Sr_407_771",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Sr_407_771",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "Te",
+      "target": "meas_Te_214_281",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Te_214_281",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "Ti",
+      "target": "meas_Ti_336_121",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Ti_336_121",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "Zn",
+      "target": "meas_Zn_213_856",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Zn_213_856",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "Zr",
+      "target": "meas_Zr_343_823",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Zr_343_823",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Au_2_5",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Bi_1",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Ca_15",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Cd_0_5",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Co_0_1",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Cr_0_33",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Cu_2_2",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Fe_12",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Ga_0_1",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_In_0_05",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Ir_0_62",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Mg_1_9",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Mn_0_04",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Mo_0_3",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Ni_4_0",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Pb_0_5",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Pd_1_0",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Rh_18",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Ru_0_55",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Sb_1",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Se_1",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Si_4_0",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Sn_0_15",
+      "target": "src_p17",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Au_2_5",
+      "target": "Property_Au",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Bi_1",
+      "target": "Property_Bi",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Ca_15",
+      "target": "property_Ca",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Cd_0_5",
+      "target": "Property_Cd",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Co_0_1",
+      "target": "Property_Co",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Cr_0_33",
+      "target": "Property_Cr",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Cu_2_2",
+      "target": "Property_Cu",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Fe_12",
+      "target": "Property_Fe",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Ga_0_1",
+      "target": "property_Ga",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_In_0_05",
+      "target": "property_In",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Ir_0_62",
+      "target": "property_Ir",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Mg_1_9",
+      "target": "Property_Mg",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Mn_0_04",
+      "target": "Property_Mn",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Mo_0_3",
+      "target": "property_Mo",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Ni_4_0",
+      "target": "Property_Ni",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Pb_0_5",
+      "target": "Property_Pb",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Pd_1_0",
+      "target": "Property_Pd",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Rh_18",
+      "target": "Property_Rh",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Ru_0_55",
+      "target": "property_Ru",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Sb_1",
+      "target": "Property_Sb",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Se_1",
+      "target": "Property_Se",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Si_4_0",
+      "target": "Property_Si",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_Sn_0_15",
+      "target": "Property_Sn",
+      "type": "measures_property"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Au_2_5",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Bi_1",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Ca_15",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Cd_0_5",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Co_0_1",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Cr_0_33",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Cu_2_2",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Fe_12",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Ga_0_1",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_In_0_05",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Ir_0_62",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Mg_1_9",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Mn_0_04",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Mo_0_3",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Ni_4_0",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Pb_0_5",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Pd_1_0",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Rh_18",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Ru_0_55",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Sb_1",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Se_1",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Si_4_0",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "meas_Sn_0_15",
+      "type": "has_measurement"
+    },
+    {
+      "source": "analyzing_porous_platinum_powder",
+      "target": "src_p17",
+      "type": "has_source"
+    }
+  ]
+}

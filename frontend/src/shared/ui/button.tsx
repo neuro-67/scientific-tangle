@@ -39,7 +39,13 @@ type Props = React.ComponentProps<"button"> &
     asChild?: boolean;
   };
 
-function Button({ className, variant, size, asChild = false, ...props }: Props) {
+function Button({
+  className,
+  variant,
+  size,
+  asChild = false,
+  ...props
+}: Props) {
   const Comp = asChild ? Slot : "button";
   return (
     <Comp

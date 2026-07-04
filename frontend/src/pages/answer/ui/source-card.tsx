@@ -1,35 +1,22 @@
 import type { AnswerSource } from "@/entities/query";
-import { Badge, Card, CardContent } from "@/shared/ui";
-
-import {
-  confidenceLabel,
-  confidenceVariant,
-  geographyLabel,
-  geographyVariant,
-} from "../lib/confidence";
+import { Card, CardContent } from "@/shared/ui";
 
 type Props = {
   source: AnswerSource;
 };
 
-/** Compact citation card: title, year, geography, confidence, span. */
+/** Compact citation card matching the design reference. */
 export function SourceCard({ source }: Props) {
   return (
-    <Card>
-      <CardContent className="flex flex-col gap-2 p-4">
-        <div className="font-medium">{source.title}</div>
-        <div className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
-          <span>{source.year}</span>
-          <span>·</span>
-          <span>{source.span}</span>
+    <Card className="rounded-[14px] border border-[hsl(var(--source-border))] bg-card shadow-none">
+      <CardContent className="flex flex-col gap-1 p-4">
+        <div className="text-[15px] font-semibold leading-snug text-foreground">
+          {source.title}
         </div>
-        <div className="flex flex-wrap gap-2">
-          <Badge variant={geographyVariant(source.geography)}>
-            {geographyLabel(source.geography)}
-          </Badge>
-          <Badge variant={confidenceVariant(source.confidence)}>
-            {confidenceLabel(source.confidence)}
-          </Badge>
+        <div className="flex items-center gap-1 text-[13px] text-[hsl(var(--source-info))]">
+          {source.year != null ? <span>{source.year}</span> : null}
+          {source.year != null && source.span ? <span>·</span> : null}
+          {source.span ? <span>{source.span}</span> : null}
         </div>
       </CardContent>
     </Card>

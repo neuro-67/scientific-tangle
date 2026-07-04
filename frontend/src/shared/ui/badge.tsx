@@ -12,10 +12,12 @@ const badgeVariants = cva(
         secondary: "border-transparent bg-secondary text-secondary-foreground",
         outline: "text-foreground",
         // Domain variants driven by index.css semantic colors.
-        confidenceHigh: "border-transparent bg-confidence-high/15 text-confidence-high",
+        confidenceHigh:
+          "border-transparent bg-[hsl(var(--confidence-high-bg))] text-[hsl(var(--confidence-high))]",
         confidenceMedium:
-          "border-transparent bg-confidence-medium/15 text-confidence-medium",
-        confidenceLow: "border-transparent bg-confidence-low/15 text-confidence-low",
+          "border-transparent bg-[hsl(var(--confidence-medium-bg))] text-[hsl(var(--confidence-medium))]",
+        confidenceLow:
+          "border-transparent bg-[hsl(var(--confidence-low-bg))] text-[hsl(var(--confidence-low))]",
         geoRu: "border-transparent bg-geo-ru/15 text-geo-ru",
         geoForeign: "border-transparent bg-geo-foreign/15 text-geo-foreign",
         gap: "border-transparent bg-gap/15 text-gap",

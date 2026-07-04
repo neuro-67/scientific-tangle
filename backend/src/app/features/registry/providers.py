@@ -6,6 +6,7 @@ from app.features.auth.login.provider import LoginProvider
 from app.features.auth.refresh.provider import RefreshProvider
 from app.features.dashboard.summary.provider import DashboardSummaryProvider
 from app.features.document.get.provider import GetDocumentProvider
+from app.features.document.list.provider import ListDocumentsProvider
 from app.features.document.process.provider import ProcessDocumentProvider
 from app.features.document.upload.provider import UploadDocumentProvider
 from app.features.health.check.provider import HealthCheckProvider
@@ -37,6 +38,7 @@ PROVIDERS: list[Provider] = [
     ListUsersProvider(),
     UploadDocumentProvider(),
     GetDocumentProvider(),
+    ListDocumentsProvider(),
     ProcessDocumentProvider(),
     Neo4jProvider(),
     QdrantProvider(),

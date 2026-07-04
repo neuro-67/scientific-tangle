@@ -15,6 +15,15 @@ from nlp.query.schemas import QuerySpec
 
 logger = logging.getLogger(__name__)
 
+_FINDING_HOP = (
+    "OPTIONAL MATCH (entry)"
+    "-[:USES_MATERIAL|APPLIES_TO|OPERATES_AT_CONDITION|HAS_MEASUREMENT|"
+    "USES_EQUIPMENT|SHOWED|DESCRIBED_IN|AUTHORED_BY|VALIDATED_BY|"
+    "CONDUCTED_AT|EXPERT_IN|HAS_SOURCE*1..3]-(f:Finding)\n"
+    "OPTIONAL MATCH (f)-[:DESCRIBED_IN]->(pub:Publication)\n"
+    "OPTIONAL MATCH (f)-[:HAS_SOURCE]->(src:Source)"
+)
+
 
 class Neo4jGraphSearch(IGraphSearch):
     """Executes Cypher queries built from QuerySpec against Neo4j."""
@@ -48,140 +57,71 @@ class Neo4jGraphSearch(IGraphSearch):
     # ------------------------------------------------------------------
 
     def _build_cypher(self, spec: QuerySpec, limit: int) -> tuple[str, dict[str, Any]]:
-        """Generate a Cypher query and parameter dict from the QuerySpec.
-
-        Strategy:
-        1. Start from the most specific nodes (materials, processes, equipment).
-        2. Follow relationship hints if present.
-        3. Apply numeric constraints on properties.
-        4. Collect connected publications, findings, and measurements.
-        """
         params: dict[str, Any] = {"limit": limit}
 
-        # Build the main query with connected pattern
         query_parts: list[str] = []
+        query_parts.append(self._build_path_clause(spec, params))
 
-        # --- Entry point and path to findings ---
-        path_clause = self._build_path_clause(spec, params)
-        query_parts.append(path_clause)
-
-        # --- Node filters ---
-        filter_clauses = self._build_filter_clauses(spec, params)
-        if filter_clauses:
-            query_parts.append("WHERE " + " AND ".join(filter_clauses))
-
-        # --- Numeric constraints on measurements ---
         numeric_clause = self._build_numeric_clause(spec, params)
         if numeric_clause:
             query_parts.append(numeric_clause)
 
-        # --- Time range on publications ---
         time_clause = self._build_time_clause(spec, params)
         if time_clause:
             query_parts.append(time_clause)
 
-        # --- Geography filter ---
         geo_clause = self._build_geo_clause(spec, params)
         if geo_clause:
             query_parts.append(geo_clause)
 
-        # --- RETURN with scoring ---
-        query_parts.append(self._build_return_clause(spec))
+        query_parts.append(self._build_return_clause())
 
-        query = "\n".join(query_parts)
-        return query, params
+        return "\n".join(query_parts), params
 
     def _build_path_clause(self, spec: QuerySpec, params: dict[str, Any]) -> str:
-        """Build the main MATCH pattern connecting entities to findings."""
-        if spec.materials:
-            params["materials"] = spec.materials
-            return """
-            MATCH (m:Material)
-            WHERE m.id IN $materials
-            OPTIONAL MATCH (m)-[:USES_MATERIAL|APPLIES_TO|OPERATES_AT_CONDITION|HAS_MEASUREMENT|USES_EQUIPMENT|SHOWED|DESCRIBED_IN*1..3]-(f:Finding)
-            OPTIONAL MATCH (f)-[:DESCRIBED_IN]->(pub:Publication)
-            OPTIONAL MATCH (f)-[:HAS_SOURCE]->(src:Source)
-            """
-        elif spec.processes:
-            params["processes"] = spec.processes
-            return """
-            MATCH (p:Process)
-            WHERE p.id IN $processes
-            OPTIONAL MATCH (p)-[:USES_MATERIAL|APPLIES_TO|OPERATES_AT_CONDITION|HAS_MEASUREMENT|USES_EQUIPMENT|SHOWED|DESCRIBED_IN*1..3]-(f:Finding)
-            OPTIONAL MATCH (f)-[:DESCRIBED_IN]->(pub:Publication)
-            OPTIONAL MATCH (f)-[:HAS_SOURCE]->(src:Source)
-            """
-        elif spec.equipment:
-            params["equipment"] = spec.equipment
-            return """
-            MATCH (e:Equipment)
-            WHERE e.id IN $equipment
-            OPTIONAL MATCH (e)-[:USES_MATERIAL|APPLIES_TO|OPERATES_AT_CONDITION|HAS_MEASUREMENT|USES_EQUIPMENT|SHOWED|DESCRIBED_IN*1..3]-(f:Finding)
-            OPTIONAL MATCH (f)-[:DESCRIBED_IN]->(pub:Publication)
-            OPTIONAL MATCH (f)-[:HAS_SOURCE]->(src:Source)
-            """
-        elif spec.properties:
-            params["properties"] = spec.properties
-            return """
-            MATCH (prop:Property)
-            WHERE prop.id IN $properties
-            OPTIONAL MATCH (prop)-[:USES_MATERIAL|APPLIES_TO|OPERATES_AT_CONDITION|HAS_MEASUREMENT|USES_EQUIPMENT|SHOWED|DESCRIBED_IN*1..3]-(f:Finding)
-            OPTIONAL MATCH (f)-[:DESCRIBED_IN]->(pub:Publication)
-            OPTIONAL MATCH (f)-[:HAS_SOURCE]->(src:Source)
-            """
-        elif spec.conditions:
-            params["conditions"] = spec.conditions
-            return """
-            MATCH (c:Condition)
-            WHERE c.id IN $conditions
-            OPTIONAL MATCH (c)-[:USES_MATERIAL|APPLIES_TO|OPERATES_AT_CONDITION|HAS_MEASUREMENT|USES_EQUIPMENT|SHOWED|DESCRIBED_IN*1..3]-(f:Finding)
-            OPTIONAL MATCH (f)-[:DESCRIBED_IN]->(pub:Publication)
-            OPTIONAL MATCH (f)-[:HAS_SOURCE]->(src:Source)
-            """
-        elif spec.experts:
-            params["experts"] = spec.experts
-            return """
-            MATCH (ex:Expert)
-            WHERE ex.id IN $experts
-            OPTIONAL MATCH (ex)-[:USES_MATERIAL|APPLIES_TO|OPERATES_AT_CONDITION|HAS_MEASUREMENT|USES_EQUIPMENT|SHOWED|DESCRIBED_IN*1..3]-(f:Finding)
-            OPTIONAL MATCH (f)-[:DESCRIBED_IN]->(pub:Publication)
-            OPTIONAL MATCH (f)-[:HAS_SOURCE]->(src:Source)
-            """
-        elif spec.facilities:
-            params["facilities"] = spec.facilities
-            return """
-            MATCH (fac:Facility)
-            WHERE fac.id IN $facilities
-            OPTIONAL MATCH (fac)-[:USES_MATERIAL|APPLIES_TO|OPERATES_AT_CONDITION|HAS_MEASUREMENT|USES_EQUIPMENT|SHOWED|DESCRIBED_IN*1..3]-(f:Finding)
-            OPTIONAL MATCH (f)-[:DESCRIBED_IN]->(pub:Publication)
-            OPTIONAL MATCH (f)-[:HAS_SOURCE]->(src:Source)
-            """
-        else:
-            return """
-            MATCH (f:Finding)
-            OPTIONAL MATCH (f)-[:DESCRIBED_IN]->(pub:Publication)
-            OPTIONAL MATCH (f)-[:HAS_SOURCE]->(src:Source)
-            """
+        """Build the MATCH pattern.
 
-    def _build_filter_clauses(self, spec: QuerySpec, params: dict[str, Any]) -> list[str]:
-        """Build additional WHERE clauses for secondary entity filters."""
-        clauses: list[str] = []
-        # For now, secondary filtering is done through path traversal
-        return clauses
+        Each branch unifies the entry node under a common `entry` variable so
+        the downstream WITH/RETURN can quote a single set of columns regardless
+        of which entity type kicked off the retrieval. The fallback (no filters
+        in the spec) matches any meta-node so questions about authors, orgs,
+        or standalone measurements still surface results even when no Finding
+        exists in the graph yet.
+        """
+        primary_branches: list[tuple[str, list[str] | None, str]] = [
+            ("Material", spec.materials, "materials"),
+            ("Process", spec.processes, "processes"),
+            ("Equipment", spec.equipment, "equipment"),
+            ("Property", spec.properties, "properties"),
+            ("Condition", spec.conditions, "conditions"),
+            ("Expert", spec.experts, "experts"),
+            ("Facility", spec.facilities, "facilities"),
+        ]
+        for label, values, key in primary_branches:
+            if not values:
+                continue
+            params[key] = values
+            return (
+                f"MATCH (entry:{label})\n"
+                f"WHERE entry.id IN ${key} OR entry.name IN ${key}\n"
+                f"{_FINDING_HOP}"
+            )
+
+        # Fallback: no primary entity was pulled out of the question. Search
+        # broadly across meta-nodes so we can still answer meta questions
+        # ("кто автор?", "какие организации?") on a graph that has no Finding
+        # nodes yet.
+        return (
+            "MATCH (entry)\n"
+            "WHERE any(l IN labels(entry) WHERE l IN "
+            "['Finding','Publication','Expert','Facility','Measurement','Material','Process'])\n"
+            "OPTIONAL MATCH (entry)-[:DESCRIBED_IN]->(pub:Publication)\n"
+            "OPTIONAL MATCH (entry)-[:HAS_SOURCE]->(src:Source)\n"
+            "WITH entry, pub, src, "
+            "CASE WHEN 'Finding' IN labels(entry) THEN entry ELSE null END AS f"
+        )
 
     def _build_numeric_clause(self, spec: QuerySpec, params: dict[str, Any]) -> str:
-        """Build numeric constraint clause with proper parameter binding.
-
-        The property name is NOT an attribute of Measurement itself -- it
-        lives on a separate Property node, linked via MEASURES_PROPERTY
-        (docs/ONTOLOGY.md; nlp/ingestion/neo4j_import.py writes it that
-        way). Matching meas.id against the property name (as this did
-        before) never matches anything, since Measurement ids are
-        LLM-generated strings like "meas_sulf_200", not "сульфаты" --
-        confirmed empirically with a synthetic Neo4j test case. Also match
-        against meas.min/meas.max, not just meas.value, so a reported range
-        ("200-300 мг/л") is considered against a single-threshold query.
-        """
         if not spec.numeric_constraints:
             return ""
         conditions: list[str] = []
@@ -206,13 +146,14 @@ class Neo4jGraphSearch(IGraphSearch):
                 )
         if not conditions:
             return ""
-        return f"""
-        MATCH (f)-[:HAS_MEASUREMENT]->(meas:Measurement)-[:MEASURES_PROPERTY]->(prop:Property)
-        WHERE {" OR ".join(conditions)}
-        """
+        return (
+            "WITH entry, f, pub, src\n"
+            "MATCH (f)-[:HAS_MEASUREMENT]->(meas:Measurement)-[:MEASURES_PROPERTY]->(prop:Property)\n"
+            f"WHERE {' OR '.join(conditions)}\n"
+            "WITH entry, f, pub, src, meas, prop"
+        )
 
     def _build_time_clause(self, spec: QuerySpec, params: dict[str, Any]) -> str:
-        """Build publication year filter."""
         if spec.time_range.from_year is None and spec.time_range.to_year is None:
             return ""
         conditions: list[str] = []
@@ -222,41 +163,64 @@ class Neo4jGraphSearch(IGraphSearch):
         if spec.time_range.to_year is not None:
             params["to_year"] = spec.time_range.to_year
             conditions.append("pub.year <= $to_year")
-        return f"""
-        WITH f, pub, src
-        WHERE {' AND '.join(conditions)}
-        """
+        return (
+            "WITH entry, f, pub, src\n"
+            f"WHERE {' AND '.join(conditions)}"
+        )
 
     def _build_geo_clause(self, spec: QuerySpec, params: dict[str, Any]) -> str:
-        """Build geography filter."""
         if spec.geography.value == "any":
             return ""
         params["geography"] = spec.geography.value
-        return """
-        WITH f, pub, src
-        WHERE pub.geography = $geography
-        """
+        return (
+            "WITH entry, f, pub, src\n"
+            "WHERE COALESCE(pub.geography, entry.geography) = $geography"
+        )
 
-    def _build_return_clause(self, spec: QuerySpec) -> str:
-        """Build RETURN clause with all relevant fields.
+    def _build_return_clause(self) -> str:
+        """RETURN unified across all path branches.
 
-        f.confidence is stored as either a string ("high"/"medium"/"low", set
-        by the LLM extractor on Finding nodes) or a float default (0.5, set by
-        neo4j_import.py for nodes without an explicit confidence) -- ORDER BY
-        on the raw mixed-type property would not rank meaningfully, so rank
-        via an explicit CASE instead.
+        finding_text falls back through: Finding.description → Finding.id →
+        an assembled meta-string ("Expert: name — position", "Publication:
+        title", "Measurement: 500 сотрудников") so the synthesizer still
+        receives usable context even when no Finding node exists.
         """
         return """
-        RETURN f.id as finding_text,
-               f.confidence as finding_confidence,
-               f.description as finding_description,
-               pub.id as source_title,
-               pub.year as source_year,
-               pub.geography as source_geography,
-               src.span as span,
-               f.ingestion_date as extracted_at
-        ORDER BY CASE toString(f.confidence)
-                   WHEN 'high' THEN 3 WHEN 'medium' THEN 2 WHEN 'low' THEN 1 ELSE 0
+        RETURN
+            COALESCE(
+                f.description,
+                f.id,
+                CASE WHEN entry IS NULL THEN NULL
+                     WHEN 'Expert' IN labels(entry)
+                       THEN 'Эксперт: ' + COALESCE(entry.name, entry.id)
+                         + CASE WHEN entry.position IS NOT NULL
+                                THEN ' — ' + entry.position ELSE '' END
+                         + CASE WHEN entry.email IS NOT NULL
+                                THEN ' (' + entry.email + ')' ELSE '' END
+                     WHEN 'Publication' IN labels(entry)
+                       THEN 'Публикация: ' + COALESCE(entry.name, entry.id)
+                     WHEN 'Facility' IN labels(entry)
+                       THEN 'Организация: ' + COALESCE(entry.name, entry.id)
+                     WHEN 'Measurement' IN labels(entry)
+                       THEN 'Измерение: ' + toString(COALESCE(entry.value, entry.min))
+                         + CASE WHEN entry.unit IS NOT NULL
+                                THEN ' ' + entry.unit ELSE '' END
+                     WHEN 'Material' IN labels(entry)
+                       THEN 'Материал: ' + COALESCE(entry.name, entry.id)
+                     WHEN 'Process' IN labels(entry)
+                       THEN 'Процесс: ' + COALESCE(entry.name, entry.id)
+                     ELSE COALESCE(entry.name, entry.id) END
+            ) AS finding_text,
+            COALESCE(f.confidence, entry.confidence) AS finding_confidence,
+            COALESCE(f.description, entry.description) AS finding_description,
+            COALESCE(pub.id, pub.name, entry.source_document) AS source_title,
+            pub.year AS source_year,
+            COALESCE(pub.geography, entry.geography) AS source_geography,
+            src.span AS span,
+            COALESCE(f.ingestion_date, entry.ingestion_date) AS extracted_at
+        ORDER BY CASE toString(COALESCE(f.confidence, entry.confidence))
+                    WHEN 'high' THEN 3 WHEN 'medium' THEN 2 WHEN 'low' THEN 1
+                    ELSE 0
                  END DESC
         LIMIT $limit
         """

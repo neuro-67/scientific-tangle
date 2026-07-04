@@ -14,11 +14,15 @@ export default defineConfig({
   server: {
     host: true,
     port: 5173,
+    allowedHosts: process.env.VITE_ALLOWED_HOSTS
+      ? process.env.VITE_ALLOWED_HOSTS.split(",").map((h) => h.trim())
+      : ["neuro67.ula-logistics.ru", "localhost"],
     proxy: {
       // Backend (FastAPI) is proxied under /api during local dev.
       "/api": {
         target: process.env.VITE_PROXY_TARGET ?? "http://localhost:8000",
         changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, ""),
       },
     },
   },

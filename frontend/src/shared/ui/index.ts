@@ -1,5 +1,7 @@
 export { Button, buttonVariants } from "./button";
 export { Input } from "./input";
+export { IconInput } from "./icon-input";
+export { AppLogo } from "./app-logo";
 export { Textarea } from "./textarea";
 export { Label } from "./label";
 export {
@@ -10,6 +12,7 @@ export {
   SelectItem,
 } from "./select";
 export { TagInput } from "./tag-input";
+export { DateRangeInput } from "./date-range-input";
 export {
   Card,
   CardHeader,
