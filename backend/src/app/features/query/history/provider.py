@@ -8,6 +8,7 @@ from app.features.query.history.handler import (
     ListAnswersHandler,
     RegenerateAnswerHandler,
 )
+from app.features.query.history.mutations import AnswerGraphMutations
 from app.features.query.history.repository import AnswersRepository
 
 
@@ -18,3 +19,4 @@ class AnswerHistoryProvider(Provider):
     get_handler = provide(GetAnswerHandler)
     delete_handler = provide(DeleteAnswerHandler)
     regenerate_handler = provide(RegenerateAnswerHandler)
+    graph_mutations = provide(AnswerGraphMutations)

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import logging
 from dataclasses import dataclass
 from uuid import UUID
 
@@ -11,6 +12,8 @@ from app.features.query.ask.handler import AskQuestionHandler
 from app.features.query.ask.schemas import AskQuestionCommand, AskQuestionResponse
 from app.features.query.history.repository import AnswersRepository
 from app.features.query.history.schemas import AnswerListItem, AnswerRecord
+
+logger = logging.getLogger(__name__)
 
 
 @dataclass(frozen=True, slots=True)
@@ -28,6 +31,13 @@ class ListAnswersHandler:
 
 
 class GetAnswerHandler:
+    """Returns the stored answer snapshot.
+
+    Edits made through /answers/{id}/nodes|edges endpoints update both Neo4j
+    and this snapshot in lock-step, so the stored copy is the source of truth
+    for what the user sees on the answer canvas.
+    """
+
     def __init__(self, repository: AnswersRepository) -> None:
         self._repository = repository
 

@@ -189,7 +189,10 @@ export function AnswerPage() {
                 </span>
                 <div className="min-h-0 flex-1">
                   <Suspense fallback={<Skeleton className="h-full w-full" />}>
-                    <SubgraphView subgraph={data.subgraph} />
+                    <SubgraphView
+                      subgraph={data.subgraph}
+                      answerId={currentAnswerId ?? null}
+                    />
                   </Suspense>
                 </div>
               </section>

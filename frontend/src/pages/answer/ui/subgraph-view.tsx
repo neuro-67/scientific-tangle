@@ -4,29 +4,55 @@ import CytoscapeComponent from "react-cytoscapejs";
 import { toast } from "sonner";
 
 import {
+  createGraphEdge,
   createGraphNode,
   deleteGraphEdge,
   deleteGraphNode,
   updateGraphEdge,
   updateGraphNode,
 } from "@/entities/graph";
-import type { AnswerSubgraph, GraphEdge, GraphNode } from "@/entities/query";
+import {
+  createAnswerEdge,
+  createAnswerNode,
+  deleteAnswerEdge,
+  deleteAnswerNode,
+  updateAnswerEdge,
+  updateAnswerNode,
+  type AnswerSubgraph,
+  type GraphEdge,
+  type GraphNode,
+} from "@/entities/query";
 import { handleApiError } from "@/shared/lib/api-error";
 
 import { NODE_TYPES, buildSubgraphStylesheet } from "../lib/subgraph-style";
+import { GraphElementModal, type NodeDraft, type EdgeDraft } from "./graph-element-modal";
 
 type Props = {
   subgraph: AnswerSubgraph;
+  /**
+   * If set, mutations are routed through /answers/{answerId}/... so the
+   * change is written to Neo4j AND mirrored on the stored answer snapshot.
+   * Absent only for the brief window between /query/ask returning and the
+   * answer row being persisted — we fall back to /graph/* in that case.
+   */
+  answerId: string | null;
 };
 
-type Mode = "select" | "addNode" | "addComment";
+type Mode = "select" | "addNode" | "addComment" | "addEdge";
 
-/**
- * Force-directed layout — hub nodes (like a facility with many expert
- * neighbors) get pushed to the center automatically, and disconnected
- * meta-nodes end up in a readable cluster instead of one horizontal row.
- * Cytoscape core ships `cose`; no extension install needed.
- */
+const NODE_TYPE_OPTIONS = ["Material", "Process", "Equipment", "Result"] as const;
+
+const EDGE_TYPE_OPTIONS: { value: string; label: string }[] = [
+  { value: "RELATED_TO", label: "Связано с" },
+  { value: "DEPENDS_ON", label: "Зависит от" },
+  { value: "PART_OF", label: "Часть" },
+  { value: "RESULTS_IN", label: "Приводит к" },
+  { value: "USES", label: "Использует" },
+  { value: "CONTRADICTS", label: "Противоречит" },
+];
+
+const DEFAULT_EDGE_TYPE = EDGE_TYPE_OPTIONS[0].value;
+
 function buildLayout(): cytoscape.LayoutOptions {
   return {
     name: "cose",
@@ -45,28 +71,52 @@ function buildLayout(): cytoscape.LayoutOptions {
   } as unknown as cytoscape.LayoutOptions;
 }
 
-const TYPE_OPTIONS = ["Material", "Process", "Equipment", "Result"];
-
 let __tempSeq = 0;
 const tempId = (prefix: string) => `__tmp_${prefix}_${++__tempSeq}`;
 
-/** Cytoscape rendering of the answer subgraph + editing toolbar + legend. */
-export function SubgraphView({ subgraph }: Props) {
+// Comments have no dedicated `created_at` field in Neo4j, so we embed the date
+// straight in the label — the graph shows it as part of the sticky note.
+function stampComment(text: string): string {
+  const today = new Date().toISOString().slice(0, 10);
+  return `[${today}] ${text}`.trim();
+}
+
+export function SubgraphView({ subgraph, answerId }: Props) {
   const [nodes, setNodes] = useState<GraphNode[]>(subgraph.nodes);
   const [edges, setEdges] = useState<GraphEdge[]>(subgraph.edges);
   const [mode, setMode] = useState<Mode>("select");
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
 
+  // Modal state for creating/editing nodes and edges. `null` = closed.
+  const [nodeModal, setNodeModal] = useState<
+    | {
+        mode: "create";
+        kind: "node" | "comment";
+        position: cytoscape.Position;
+      }
+    | {
+        mode: "edit";
+        node: GraphNode;
+      }
+    | null
+  >(null);
+  const [edgeModal, setEdgeModal] = useState<
+    | { mode: "create"; source: string; target: string }
+    | { mode: "edit"; edge: GraphEdge }
+    | null
+  >(null);
+  const [edgeSource, setEdgeSource] = useState<string | null>(null);
+
   const cyRef = useRef<cytoscape.Core | null>(null);
   const positionsRef = useRef<Record<string, cytoscape.Position>>({});
 
-  // Sync state when a different subgraph is loaded (nav to another answer).
   useEffect(() => {
     setNodes(subgraph.nodes);
     setEdges(subgraph.edges);
     positionsRef.current = {};
     setSelectedId(null);
+    setEdgeSource(null);
   }, [subgraph]);
 
   const stylesheet = useMemo(() => buildSubgraphStylesheet(), []);
@@ -84,11 +134,7 @@ export function SubgraphView({ subgraph }: Props) {
   const elements = useMemo<cytoscape.ElementDefinition[]>(() => {
     return [
       ...nodes.map((n) => ({
-        data: {
-          id: n.id,
-          label: n.label,
-          type: n.type,
-        },
+        data: { id: n.id, label: n.label, type: n.type },
         position: positionsRef.current[n.id],
       })),
       ...edges.map((e) => ({
@@ -113,28 +159,56 @@ export function SubgraphView({ subgraph }: Props) {
 
   const clearSelection = useCallback(() => {
     setSelectedId(null);
+    setEdgeSource(null);
     cyRef.current?.elements().unselect();
   }, []);
 
   // ---- Mutations ----
-  // Each editor action is optimistic: mutate local state immediately with a
-  // temp id, fire the request; on success swap temp id → server id, on error
-  // roll back and toast. This keeps the graph responsive on slow networks and
-  // avoids a full-page loading state for every action.
+
+  const persistCreateNode = useCallback(
+    (body: { type: string; label: string }) =>
+      answerId ? createAnswerNode(answerId, body) : createGraphNode(body),
+    [answerId]
+  );
+  const persistUpdateNode = useCallback(
+    (id: string, body: { label: string }) =>
+      answerId ? updateAnswerNode(answerId, id, body) : updateGraphNode(id, body),
+    [answerId]
+  );
+  const persistDeleteNode = useCallback(
+    (id: string) =>
+      answerId ? deleteAnswerNode(answerId, id) : deleteGraphNode(id),
+    [answerId]
+  );
+  const persistCreateEdge = useCallback(
+    (body: { source: string; target: string; type: string; label?: string }) =>
+      answerId ? createAnswerEdge(answerId, body) : createGraphEdge(body),
+    [answerId]
+  );
+  const persistUpdateEdge = useCallback(
+    (id: string, body: { label: string }) =>
+      answerId ? updateAnswerEdge(answerId, id, body) : updateGraphEdge(id, body),
+    [answerId]
+  );
+  const persistDeleteEdge = useCallback(
+    (id: string) =>
+      answerId ? deleteAnswerEdge(answerId, id) : deleteGraphEdge(id),
+    [answerId]
+  );
 
   const addNode = useCallback(
-    async (position: cytoscape.Position, type: string, label: string) => {
-      const localId = tempId(type === "Comment" ? "c" : "n");
+    async (position: cytoscape.Position, draft: NodeDraft, isComment: boolean) => {
+      const label = isComment ? stampComment(draft.label) : draft.label;
+      const type = isComment ? "Comment" : draft.type;
+      const localId = tempId(isComment ? "c" : "n");
       positionsRef.current[localId] = position;
       setNodes((prev) => [...prev, { id: localId, label, type }]);
       markSelected(localId);
       try {
-        const created = await createGraphNode({ type, label });
+        const created = await persistCreateNode({ type, label });
         positionsRef.current[created.id] = positionsRef.current[localId];
         delete positionsRef.current[localId];
-        setNodes((prev) =>
-          prev.map((n) => (n.id === localId ? created : n))
-        );
+        setNodes((prev) => prev.map((n) => (n.id === localId ? created : n)));
         markSelected(created.id);
       } catch (err) {
         setNodes((prev) => prev.filter((n) => n.id !== localId));
@@ -142,47 +216,75 @@ export function SubgraphView({ subgraph }: Props) {
         handleApiError(err, { fallback: "Не удалось создать узел" });
       }
     },
-    [markSelected]
+    [markSelected, persistCreateNode]
   );
 
   const updateNode = useCallback(
     async (id: string, label: string) => {
-      const prevLabel = nodes.find((n) => n.id === id)?.label;
-      setNodes((prev) => prev.map((n) => (n.id === id ? { ...n, label } : n)));
-      // Temp ids belong to nodes that haven't been persisted yet — skip PATCH
-      // and let the follow-up server response own the label. This shouldn't
-      // happen in practice (double-click on freshly-created node before the
-      // POST resolves), but the guard is cheap.
+      const prev = nodes.find((n) => n.id === id);
+      const prevLabel = prev?.label;
+      setNodes((current) =>
+        current.map((n) => (n.id === id ? { ...n, label } : n))
+      );
       if (id.startsWith("__tmp_")) return;
       try {
-        await updateGraphNode(id, { label });
+        await persistUpdateNode(id, { label });
       } catch (err) {
-        setNodes((prev) =>
-          prev.map((n) => (n.id === id ? { ...n, label: prevLabel ?? "" } : n))
+        setNodes((current) =>
+          current.map((n) => (n.id === id ? { ...n, label: prevLabel ?? "" } : n))
         );
         handleApiError(err, { fallback: "Не удалось обновить узел" });
       }
     },
-    [nodes]
+    [nodes, persistUpdateNode]
+  );
+
+  const addEdge = useCallback(
+    async (draft: EdgeDraft, source: string, target: string) => {
+      const localId = tempId("e");
+      const optimistic: GraphEdge = {
+        id: localId,
+        source,
+        target,
+        type: draft.type,
+        label: draft.label || null,
+      };
+      setEdges((prev) => [...prev, optimistic]);
+      markSelected(localId);
+      try {
+        const created = await persistCreateEdge({
+          source,
+          target,
+          type: draft.type,
+          label: draft.label || undefined,
+        });
+        setEdges((prev) => prev.map((e) => (e.id === localId ? created : e)));
+        markSelected(created.id);
+      } catch (err) {
+        setEdges((prev) => prev.filter((e) => e.id !== localId));
+        handleApiError(err, { fallback: "Не удалось создать связь" });
+      }
+    },
+    [markSelected, persistCreateEdge]
   );
 
   const updateEdge = useCallback(
     async (id: string, label: string) => {
       const prevLabel = edges.find((e) => e.id === id)?.label;
-      setEdges((prev) => prev.map((e) => (e.id === id ? { ...e, label } : e)));
+      setEdges((prev) =>
+        prev.map((e) => (e.id === id ? { ...e, label } : e))
+      );
       if (id.startsWith("__tmp_")) return;
       try {
-        await updateGraphEdge(id, { label });
+        await persistUpdateEdge(id, { label });
       } catch (err) {
         setEdges((prev) =>
-          prev.map((e) =>
-            e.id === id ? { ...e, label: prevLabel } : e
-          )
+          prev.map((e) => (e.id === id ? { ...e, label: prevLabel } : e))
         );
         handleApiError(err, { fallback: "Не удалось обновить связь" });
       }
     },
-    [edges]
+    [edges, persistUpdateEdge]
   );
 
   const removeSelected = useCallback(async () => {
@@ -190,14 +292,11 @@ export function SubgraphView({ subgraph }: Props) {
     const isNode = nodes.some((n) => n.id === selectedId);
     const isEdge = !isNode && edges.some((e) => e.id === selectedId);
 
-    // Snapshot for rollback.
     const prevNodes = nodes;
     const prevEdges = edges;
 
-    // Optimistic remove.
     if (isNode) {
       setNodes((prev) => prev.filter((n) => n.id !== selectedId));
-      // Neo4j DETACH DELETE removes attached edges; mirror that on the client.
       setEdges((prev) =>
         prev.filter(
           (e) => e.source !== selectedId && e.target !== selectedId
@@ -208,35 +307,26 @@ export function SubgraphView({ subgraph }: Props) {
     }
     setSelectedId(null);
 
-    if (selectedId.startsWith("__tmp_")) return; // never persisted
+    if (selectedId.startsWith("__tmp_")) return;
 
     try {
-      if (isNode) await deleteGraphNode(selectedId);
-      else if (isEdge) await deleteGraphEdge(selectedId);
+      if (isNode) await persistDeleteNode(selectedId);
+      else if (isEdge) await persistDeleteEdge(selectedId);
       toast.success("Удалено");
     } catch (err) {
       setNodes(prevNodes);
       setEdges(prevEdges);
       handleApiError(err, { fallback: "Не удалось удалить" });
     }
-  }, [selectedId, nodes, edges]);
+  }, [selectedId, nodes, edges, persistDeleteNode, persistDeleteEdge]);
 
-  const handleEdit = useCallback(() => {
-    if (selectedNode) {
-      const next = window.prompt("Название узла:", selectedNode.label);
-      if (next !== null && next !== selectedNode.label)
-        void updateNode(selectedNode.id, next);
-    } else if (selectedEdge) {
-      const next = window.prompt("Название связи:", selectedEdge.label || "");
-      if (next !== null && next !== selectedEdge.label)
-        void updateEdge(selectedEdge.id, next);
-    }
-  }, [selectedNode, selectedEdge, updateNode, updateEdge]);
+  const openEditModal = useCallback(() => {
+    if (selectedNode) setNodeModal({ mode: "edit", node: selectedNode });
+    else if (selectedEdge) setEdgeModal({ mode: "edit", edge: selectedEdge });
+  }, [selectedNode, selectedEdge]);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      // Don't hijack Delete/Backspace while the user is typing in a prompt or
-      // some other input — only trigger when focus is on the body/graph.
       const t = e.target as HTMLElement | null;
       const typing =
         t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable);
@@ -254,7 +344,6 @@ export function SubgraphView({ subgraph }: Props) {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [removeSelected, clearSelection, isFullscreen]);
 
-  // Poke Cytoscape to recompute its viewport after the parent size flips.
   useEffect(() => {
     const cy = cyRef.current;
     if (!cy) return;
@@ -271,6 +360,22 @@ export function SubgraphView({ subgraph }: Props) {
 
     const handleTapNode = (evt: cytoscape.EventObject) => {
       const id = evt.target.id();
+      if (mode === "addEdge") {
+        if (!edgeSource) {
+          setEdgeSource(id);
+          markSelected(id);
+          return;
+        }
+        if (edgeSource === id) {
+          // Same node clicked twice — cancel edge start silently.
+          setEdgeSource(null);
+          clearSelection();
+          return;
+        }
+        setEdgeModal({ mode: "create", source: edgeSource, target: id });
+        setEdgeSource(null);
+        return;
+      }
       markSelected(id);
     };
 
@@ -283,27 +388,19 @@ export function SubgraphView({ subgraph }: Props) {
       const id = evt.target.id();
       if (!id) return;
       markSelected(id);
-      handleEdit();
+      openEditModal();
     };
 
     const handleTapBg = (evt: cytoscape.EventObject) => {
-      // Cytoscape fires `tap` on cy for both background and elements. We only
-      // want background — otherwise a node tap immediately clears the very
-      // selection that handleTapNode just set.
       if (evt.target !== cy) return;
       if (mode === "addNode") {
-        const label = window.prompt("Название шара:", "Новый узел");
-        if (label === null) return;
-        const type = window.prompt(
-          `Тип (${TYPE_OPTIONS.join(", ")}):`,
-          "Material"
-        );
-        if (!type || !TYPE_OPTIONS.includes(type)) return;
-        void addNode(evt.position, type, label);
+        setNodeModal({ mode: "create", kind: "node", position: evt.position });
       } else if (mode === "addComment") {
-        const text = window.prompt("Текст комментария:", "Комментарий");
-        if (text === null) return;
-        void addNode(evt.position, "Comment", text);
+        setNodeModal({
+          mode: "create",
+          kind: "comment",
+          position: evt.position,
+        });
       } else {
         clearSelection();
       }
@@ -329,13 +426,7 @@ export function SubgraphView({ subgraph }: Props) {
       cy.off("tap", handleTapBg);
       cy.off("dragfree", "node", handleDragFree);
     };
-  }, [
-    mode,
-    addNode,
-    markSelected,
-    clearSelection,
-    handleEdit,
-  ]);
+  }, [mode, edgeSource, markSelected, clearSelection, openEditModal]);
 
   const toolbarButton = (key: Mode, label: string, title: string) => (
     <button
@@ -356,8 +447,6 @@ export function SubgraphView({ subgraph }: Props) {
     </button>
   );
 
-  // In fullscreen we jump out of the normal card and cover the viewport.
-  // The graph inside adapts because it fills its parent.
   const containerClass = isFullscreen
     ? "fixed inset-0 z-50 flex h-screen w-screen flex-col gap-2 bg-background p-4"
     : "flex h-full flex-col gap-2";
@@ -366,21 +455,26 @@ export function SubgraphView({ subgraph }: Props) {
     <div className={containerClass}>
       <div className="flex flex-wrap items-center gap-2">
         {toolbarButton("select", "Выбрать", "Выделить элемент")}
-        {toolbarButton("addNode", "+ Шар", "Добавить узел (кликни в свободное место)")}
-        {toolbarButton("addComment", "+ Коммент", "Добавить комментарий")}
+        {toolbarButton("addNode", "+ Узел", "Добавить узел — кликни в свободное место")}
+        {toolbarButton("addComment", "+ Коммент", "Добавить комментарий с датой")}
+        {toolbarButton(
+          "addEdge",
+          edgeSource ? "→ Выбери цель" : "+ Связь",
+          "Создать связь: клик по источнику, затем по цели"
+        )}
         <button
           type="button"
           disabled={!selectedId}
-          onClick={handleEdit}
-          className="rounded-lg px-2.5 py-1.5 text-xs font-medium transition-colors disabled:opacity-50 bg-muted text-foreground hover:bg-muted/80"
+          onClick={openEditModal}
+          className="rounded-lg bg-muted px-2.5 py-1.5 text-xs font-medium text-foreground transition-colors hover:bg-muted/80 disabled:opacity-50"
         >
-          Изменить текст
+          Изменить
         </button>
         <button
           type="button"
           disabled={!selectedId}
           onClick={() => void removeSelected()}
-          className="rounded-lg px-2.5 py-1.5 text-xs font-medium transition-colors disabled:opacity-50 bg-destructive text-destructive-foreground hover:bg-destructive/90"
+          className="rounded-lg bg-destructive px-2.5 py-1.5 text-xs font-medium text-destructive-foreground transition-colors hover:bg-destructive/90 disabled:opacity-50"
         >
           Удалить
         </button>
@@ -388,12 +482,12 @@ export function SubgraphView({ subgraph }: Props) {
           type="button"
           onClick={() => setIsFullscreen((v) => !v)}
           title={isFullscreen ? "Свернуть" : "На весь экран"}
-          className="rounded-lg px-2.5 py-1.5 text-xs font-medium transition-colors bg-muted text-foreground hover:bg-muted/80"
+          className="rounded-lg bg-muted px-2.5 py-1.5 text-xs font-medium text-foreground transition-colors hover:bg-muted/80"
         >
           {isFullscreen ? "⤡ Свернуть" : "⛶ На весь экран"}
         </button>
         <span className="ml-auto text-[11px] text-muted-foreground">
-          Правки идут в общий граф Neo4j
+          Правки сохраняются в этом ответе и в общем графе
         </span>
       </div>
 
@@ -415,9 +509,6 @@ export function SubgraphView({ subgraph }: Props) {
 
       <div className="flex flex-wrap gap-3 text-xs text-muted-foreground">
         {NODE_TYPES.map((t) => {
-          // Hex colors render inline; tailwind classes render via className so
-          // JIT can pick them up. Splitting them here keeps the config file
-          // free of a colossal switch statement.
           const isHex = t.dot.startsWith("#");
           return (
             <span key={t.type} className="flex items-center gap-1.5">
@@ -440,6 +531,63 @@ export function SubgraphView({ subgraph }: Props) {
           противоречие
         </span>
       </div>
+
+      {nodeModal ? (
+        <GraphElementModal
+          kind="node"
+          initial={
+            nodeModal.mode === "edit"
+              ? { type: nodeModal.node.type, label: nodeModal.node.label }
+              : nodeModal.kind === "comment"
+                ? { type: "Comment", label: "" }
+                : { type: NODE_TYPE_OPTIONS[0], label: "" }
+          }
+          isComment={nodeModal.mode === "create" && nodeModal.kind === "comment"}
+          nodeTypeOptions={NODE_TYPE_OPTIONS as unknown as string[]}
+          onClose={() => setNodeModal(null)}
+          onSubmit={(draft) => {
+            if (nodeModal.mode === "edit") {
+              void updateNode(nodeModal.node.id, draft.label);
+            } else {
+              void addNode(
+                nodeModal.position,
+                draft,
+                nodeModal.kind === "comment"
+              );
+            }
+            setNodeModal(null);
+          }}
+        />
+      ) : null}
+
+      {edgeModal ? (
+        <GraphElementModal
+          kind="edge"
+          initial={
+            edgeModal.mode === "edit"
+              ? {
+                  type: edgeModal.edge.type,
+                  label: edgeModal.edge.label ?? "",
+                }
+              : { type: DEFAULT_EDGE_TYPE, label: "" }
+          }
+          edgeTypeOptions={EDGE_TYPE_OPTIONS}
+          disableTypeEdit={edgeModal.mode === "edit"}
+          onClose={() => setEdgeModal(null)}
+          onSubmit={(draft) => {
+            if (edgeModal.mode === "edit") {
+              void updateEdge(edgeModal.edge.id, draft.label);
+            } else {
+              void addEdge(
+                draft as EdgeDraft,
+                edgeModal.source,
+                edgeModal.target
+              );
+            }
+            setEdgeModal(null);
+          }}
+        />
+      ) : null}
     </div>
   );
 }

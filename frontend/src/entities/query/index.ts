@@ -1,10 +1,16 @@
 export * as queryApi from "./api";
 
 export {
+  createAnswerEdge,
+  createAnswerNode,
   deleteAnswer,
+  deleteAnswerEdge,
+  deleteAnswerNode,
   getAnswer,
   listAnswers,
   regenerateAnswer,
+  updateAnswerEdge,
+  updateAnswerNode,
 } from "./api/answers";
 export { postQuery } from "./api/post-query";
 

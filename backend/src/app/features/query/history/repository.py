@@ -91,6 +91,22 @@ class AnswersRepository:
         row = (await self._session.execute(stmt)).mappings().first()
         return AnswerRecord.model_validate(dict(row)) if row else None
 
+    async def patch_subgraph(
+        self, answer_id: UUID, subgraph: dict[str, Any]
+    ) -> AnswerRecord | None:
+        """Replace only the `subgraph` column, bumping updated_at."""
+        now = datetime.now(tz=timezone.utc)
+        stmt = (
+            update(answers_table)
+            .where(answers_table.c.id == answer_id)
+            .values(subgraph=subgraph, updated_at=now)
+            .returning(answers_table)
+        )
+        result = await self._session.execute(stmt)
+        row = result.mappings().first()
+        await self._session.commit()
+        return AnswerRecord.model_validate(dict(row)) if row else None
+
     async def delete(self, answer_id: UUID) -> bool:
         stmt = delete(answers_table).where(answers_table.c.id == answer_id)
         result = await self._session.execute(stmt)
