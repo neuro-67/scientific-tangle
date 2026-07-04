@@ -141,6 +141,25 @@ class SourceCitation(BaseModel):
     span: str | None = Field(None, description="Page / offset reference")
     extracted_at: str | None = Field(None, description="Ingestion/modification date (ISO date), not the source's own year")
 
+    @field_validator("year", mode="before")
+    @classmethod
+    def _coerce_year(cls, value: object) -> object:
+        """The LLM sometimes writes a placeholder string ("не указан") instead
+        of null when a source has no year -- confirmed on real retrieval data
+        (sparse Publication links). Prompting alone doesn't reliably prevent
+        this, so fail soft here instead of raising validation errors that
+        would silently discard the whole synthesized answer."""
+        if isinstance(value, str) and not value.strip().isdigit():
+            return None
+        return value
+
+    @field_validator("geography", mode="before")
+    @classmethod
+    def _coerce_geography(cls, value: object) -> object:
+        if isinstance(value, str) and value not in ("RU", "foreign", "any"):
+            return None
+        return value
+
 
 class SynthesisResponse(BaseModel):
     """Final structured answer produced by the synthesis step."""
