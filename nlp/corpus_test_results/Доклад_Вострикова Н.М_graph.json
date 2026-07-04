@@ -1,0 +1,781 @@
+{
+  "document": "Доклад_Вострикова Н.М.pdf",
+  "nodes": [
+    {
+      "id": "курс",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "500",
+      "label": "Measurement",
+      "properties": {
+        "value": 500,
+        "unit": "сотрудников",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "4,9",
+      "label": "Measurement",
+      "properties": {
+        "value": 4.9,
+        "unit": "баллов",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "src_p7",
+      "label": "Source",
+      "properties": {
+        "span": "p.7"
+      }
+    },
+    {
+      "id": "src_p8",
+      "label": "Source",
+      "properties": {
+        "span": "p.8"
+      }
+    },
+    {
+      "id": "VostrikovaNM@nornik.ru",
+      "label": "Expert",
+      "properties": {
+        "email": "VostrikovaNM@nornik.ru",
+        "name": "Вострикова Наталья Михайловна"
+      }
+    },
+    {
+      "id": "эксперты",
+      "label": "Expert",
+      "properties": {}
+    },
+    {
+      "id": "Институт Гипроникель",
+      "label": "Facility",
+      "properties": {}
+    },
+    {
+      "id": "Тренинг-Бутик, Москва",
+      "label": "Facility",
+      "properties": {}
+    },
+    {
+      "id": "Ляпинов Дмитрий Васильевич",
+      "label": "Expert",
+      "properties": {
+        "position": "с.н.с. Лаб. геолого-технологического изучения сырья"
+      }
+    },
+    {
+      "id": "Румянцев Александр Евгеньевич",
+      "label": "Expert",
+      "properties": {
+        "position": "канд. техн. наук; вед. науч. сотр. Горной лаб."
+      }
+    },
+    {
+      "id": "Трофимов Андрей Викторович",
+      "label": "Expert",
+      "properties": {
+        "position": "канд. техн. наук; зам. Директора ДИР"
+      }
+    },
+    {
+      "id": "Вильчинский Владислав Борисович",
+      "label": "Expert",
+      "properties": {
+        "position": "канд. техн. наук, инженер-физик"
+      }
+    },
+    {
+      "id": "Клемятов Александр Анатольевич",
+      "label": "Expert",
+      "properties": {
+        "position": "канд. техн. наук"
+      }
+    },
+    {
+      "id": "Цымбулов Леонид Борисович",
+      "label": "Expert",
+      "properties": {
+        "position": "докт. техн. наук, Директор ДИР"
+      }
+    },
+    {
+      "id": "Пахомов Роман Александрович",
+      "label": "Expert",
+      "properties": {
+        "position": "канд. техн. наук, Лаб.ПП",
+        "title": "канд. техн. наук",
+        "affiliation": "Директор ДИР."
+      }
+    },
+    {
+      "id": "Вострикова Наталья Михайловна",
+      "label": "Expert",
+      "properties": {
+        "position": "канд. техн. наук, ЛГМ",
+        "title": "канд. техн. наук",
+        "affiliation": "ЛГМ"
+      }
+    },
+    {
+      "id": "Попов Владимир Анатольевич",
+      "label": "Expert",
+      "properties": {
+        "position": "канд. техн. наук, ЛПП",
+        "title": "канд. техн. наук",
+        "affiliation": "ЛПП"
+      }
+    },
+    {
+      "id": "СТРАНИЦА 2",
+      "label": "Source",
+      "properties": {
+        "span": "p.2"
+      }
+    },
+    {
+      "id": "Ориентация в специфике производственной деятельности Компании, и ее интересах",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "Применять полученные знания в процессе решения своих функциональных задач",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ознакомление с основами производственного цикла получения готовой товарной продукции, производимой в нашей компании",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "Дистанционный курс",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "Модуль 4-11 Металлургия",
+      "label": "Topic",
+      "properties": {
+        "description": "Модуль 4-11 Металлургия"
+      }
+    },
+    {
+      "id": "Модуль 1",
+      "label": "Topic",
+      "properties": {
+        "description": "Модуль 1"
+      }
+    },
+    {
+      "id": "Модуль 2",
+      "label": "Topic",
+      "properties": {
+        "description": "Модуль 2"
+      }
+    },
+    {
+      "id": "Модуль 3",
+      "label": "Topic",
+      "properties": {
+        "description": "Модуль 3"
+      }
+    },
+    {
+      "id": "Модуль 12",
+      "label": "Topic",
+      "properties": {
+        "description": "Модуль 12"
+      }
+    },
+    {
+      "id": "Горное дело",
+      "label": "Topic",
+      "properties": {
+        "description": "Горное дело"
+      }
+    },
+    {
+      "id": "Обогащение",
+      "label": "Topic",
+      "properties": {
+        "description": "Обогащение"
+      }
+    },
+    {
+      "id": "Металлургия",
+      "label": "Topic",
+      "properties": {
+        "description": "Металлургия"
+      }
+    },
+    {
+      "id": "Геология",
+      "label": "Topic",
+      "properties": {
+        "description": "Геология"
+      }
+    },
+    {
+      "id": "Экология",
+      "label": "Topic",
+      "properties": {
+        "description": "Экология"
+      }
+    },
+    {
+      "id": "Итоговое тестирование",
+      "label": "Topic",
+      "properties": {
+        "description": "Итоговое тестирование"
+      }
+    },
+    {
+      "id": "Разведка",
+      "label": "Topic",
+      "properties": {
+        "description": "Разведка"
+      }
+    },
+    {
+      "id": "Добыча полезных ископаемых",
+      "label": "Topic",
+      "properties": {
+        "description": "Добыча полезных ископаемых"
+      }
+    },
+    {
+      "id": "Обогащение руды с получением концентратов",
+      "label": "Topic",
+      "properties": {
+        "description": "Обогащение руды с получением концентратов"
+      }
+    },
+    {
+      "id": "Переработка концентратов с получением готовой продукции и промпродуктов, направляемых на переработку на смежные предприятия",
+      "label": "Topic",
+      "properties": {
+        "description": "Переработка концентратов с получением готовой продукции и промпродуктов, направляемых на переработку на смежные предприятия"
+      }
+    },
+    {
+      "id": "Экологические проблемы производства",
+      "label": "Topic",
+      "properties": {
+        "description": "Экологические проблемы производства"
+      }
+    },
+    {
+      "id": "36 разделов",
+      "label": "Topic",
+      "properties": {
+        "description": "36 разделов"
+      }
+    },
+    {
+      "id": "12 модулей",
+      "label": "Topic",
+      "properties": {
+        "description": "12 модулей"
+      }
+    },
+    {
+      "id": "5 блоков",
+      "label": "Topic",
+      "properties": {
+        "description": "5 блоков"
+      }
+    },
+    {
+      "id": "Процессы высокотемпературного обжига",
+      "label": "Topic",
+      "properties": {
+        "description": "Процессы высокотемпературного обжига"
+      }
+    },
+    {
+      "id": "Процессы плавки медных и медно-никелевых концентратов",
+      "label": "Topic",
+      "properties": {
+        "description": "Процессы плавки медных и медно-никелевых концентратов"
+      }
+    },
+    {
+      "id": "Основы гидрометаллургии рудного сырья",
+      "label": "Topic",
+      "properties": {
+        "description": "Основы гидрометаллургии рудного сырья"
+      }
+    },
+    {
+      "id": "Основы рафинирования меди",
+      "label": "Topic",
+      "properties": {
+        "description": "Основы рафинирования меди"
+      }
+    },
+    {
+      "id": "Основы рафинирования никеля и кобальта",
+      "label": "Topic",
+      "properties": {
+        "description": "Основы рафинирования никеля и кобальта"
+      }
+    },
+    {
+      "id": "Производство драгоценных металлов",
+      "label": "Topic",
+      "properties": {
+        "description": "Производство драгоценных металлов"
+      }
+    },
+    {
+      "id": "Основные понятия металлургии",
+      "label": "Topic",
+      "properties": {
+        "description": "Основные понятия металлургии"
+      }
+    },
+    {
+      "id": "Процессы подготовки сырья к металлургической переработке",
+      "label": "Topic",
+      "properties": {
+        "description": "Процессы подготовки сырья к металлургической переработке"
+      }
+    },
+    {
+      "id": "src_p3",
+      "label": "Source",
+      "properties": {
+        "span": "p.3"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "500",
+      "target": "курс",
+      "type": "has_measurement"
+    },
+    {
+      "source": "4,9",
+      "target": "курс",
+      "type": "has_measurement"
+    },
+    {
+      "source": "курс",
+      "target": "500",
+      "type": "measures_property"
+    },
+    {
+      "source": "курс",
+      "target": "4,9",
+      "type": "measures_property"
+    },
+    {
+      "source": "500",
+      "target": "src_p7",
+      "type": "has_source"
+    },
+    {
+      "source": "4,9",
+      "target": "src_p7",
+      "type": "has_source"
+    },
+    {
+      "source": "курс",
+      "target": "src_p7",
+      "type": "described_in"
+    },
+    {
+      "source": "VostrikovaNM@nornik.ru",
+      "target": "src_p8",
+      "type": "has_source"
+    },
+    {
+      "source": "VostrikovaNM@nornik.ru",
+      "target": "курс",
+      "type": "authored_by"
+    },
+    {
+      "source": "курс",
+      "target": "Ориентация в специфике производственной деятельности Компании, и ее интересах",
+      "type": "showed"
+    },
+    {
+      "source": "курс",
+      "target": "Применять полученные знания в процессе решения своих функциональных задач",
+      "type": "showed"
+    },
+    {
+      "source": "курс",
+      "target": "ознакомление с основами производственного цикла получения готовой товарной продукции, производимой в нашей компании",
+      "type": "has_measurement"
+    },
+    {
+      "source": "курс",
+      "target": "эксперты",
+      "type": "authored_by"
+    },
+    {
+      "source": "эксперты",
+      "target": "Институт Гипроникель",
+      "type": "expert_in"
+    },
+    {
+      "source": "эксперты",
+      "target": "Тренинг-Бутик, Москва",
+      "type": "conducted_at"
+    },
+    {
+      "source": "Ляпинов Дмитрий Васильевич",
+      "target": "эксперты",
+      "type": "authored_by"
+    },
+    {
+      "source": "Румянцев Александр Евгеньевич",
+      "target": "эксперты",
+      "type": "authored_by"
+    },
+    {
+      "source": "Трофимов Андрей Викторович",
+      "target": "эксперты",
+      "type": "authored_by"
+    },
+    {
+      "source": "Вильчинский Владислав Борисович",
+      "target": "эксперты",
+      "type": "authored_by"
+    },
+    {
+      "source": "Клемятов Александр Анатольевич",
+      "target": "эксперты",
+      "type": "authored_by"
+    },
+    {
+      "source": "Цымбулов Леонид Борисович",
+      "target": "эксперты",
+      "type": "authored_by"
+    },
+    {
+      "source": "Пахомов Роман Александрович",
+      "target": "эксперты",
+      "type": "authored_by"
+    },
+    {
+      "source": "Вострикова Наталья Михайловна",
+      "target": "эксперты",
+      "type": "authored_by"
+    },
+    {
+      "source": "Попов Владимир Анатольевич",
+      "target": "эксперты",
+      "type": "authored_by"
+    },
+    {
+      "source": "курс",
+      "target": "СТРАНИЦА 2",
+      "type": "has_source"
+    },
+    {
+      "source": "эксперты",
+      "target": "СТРАНИЦА 2",
+      "type": "has_source"
+    },
+    {
+      "source": "Ляпинов Дмитрий Васильевич",
+      "target": "СТРАНИЦА 2",
+      "type": "has_source"
+    },
+    {
+      "source": "Румянцев Александр Евгеньевич",
+      "target": "СТРАНИЦА 2",
+      "type": "has_source"
+    },
+    {
+      "source": "Трофимов Андрей Викторович",
+      "target": "СТРАНИЦА 2",
+      "type": "has_source"
+    },
+    {
+      "source": "Вильчинский Владислав Борисович",
+      "target": "СТРАНИЦА 2",
+      "type": "has_source"
+    },
+    {
+      "source": "Клемятов Александр Анатольевич",
+      "target": "СТРАНИЦА 2",
+      "type": "has_source"
+    },
+    {
+      "source": "Цымбулов Леонид Борисович",
+      "target": "СТРАНИЦА 2",
+      "type": "has_source"
+    },
+    {
+      "source": "Пахомов Роман Александрович",
+      "target": "СТРАНИЦА 2",
+      "type": "has_source"
+    },
+    {
+      "source": "Вострикова Наталья Михайловна",
+      "target": "СТРАНИЦА 2",
+      "type": "has_source"
+    },
+    {
+      "source": "Попов Владимир Анатольевич",
+      "target": "СТРАНИЦА 2",
+      "type": "has_source"
+    },
+    {
+      "source": "Пахомов Роман Александрович",
+      "target": "Директор ДИР.",
+      "type": "expert_in"
+    },
+    {
+      "source": "Вострикова Наталья Михайловна",
+      "target": "ЛГМ",
+      "type": "expert_in"
+    },
+    {
+      "source": "Попов Владимир Анатольевич",
+      "target": "ЛПП",
+      "type": "expert_in"
+    },
+    {
+      "source": "Модуль 4-11 Металлургия",
+      "target": "Модуль 12",
+      "type": "applies_to"
+    },
+    {
+      "source": "Модуль 4-11 Металлургия",
+      "target": "Модуль 1",
+      "type": "applies_to"
+    },
+    {
+      "source": "Модуль 4-11 Металлургия",
+      "target": "Модуль 2",
+      "type": "applies_to"
+    },
+    {
+      "source": "Модуль 4-11 Металлургия",
+      "target": "Модуль 3",
+      "type": "applies_to"
+    },
+    {
+      "source": "Модуль 4-11 Металлургия",
+      "target": "Модуль 4-11",
+      "type": "applies_to"
+    },
+    {
+      "source": "Модуль 4-11 Металлургия",
+      "target": "Горное дело",
+      "type": "applies_to"
+    },
+    {
+      "source": "Модуль 4-11 Металлургия",
+      "target": "Обогащение",
+      "type": "applies_to"
+    },
+    {
+      "source": "Модуль 4-11 Металлургия",
+      "target": "Металлургия",
+      "type": "applies_to"
+    },
+    {
+      "source": "Модуль 4-11 Металлургия",
+      "target": "Геология",
+      "type": "applies_to"
+    },
+    {
+      "source": "Модуль 4-11 Металлургия",
+      "target": "Экология",
+      "type": "applies_to"
+    },
+    {
+      "source": "Модуль 4-11 Металлургия",
+      "target": "Итоговое тестирование",
+      "type": "applies_to"
+    },
+    {
+      "source": "Модуль 4-11 Металлургия",
+      "target": "Процессы высокотемпературного обжига",
+      "type": "applies_to"
+    },
+    {
+      "source": "Модуль 4-11 Металлургия",
+      "target": "Процессы плавки медных и медно-никелевых концентратов",
+      "type": "applies_to"
+    },
+    {
+      "source": "Модуль 4-11 Металлургия",
+      "target": "Основы гидрометаллургии рудного сырья",
+      "type": "applies_to"
+    },
+    {
+      "source": "Модуль 4-11 Металлургия",
+      "target": "Основы рафинирования меди",
+      "type": "applies_to"
+    },
+    {
+      "source": "Модуль 4-11 Металлургия",
+      "target": "Основы рафинирования никеля и кобальта",
+      "type": "applies_to"
+    },
+    {
+      "source": "Модуль 4-11 Металлургия",
+      "target": "Производство драгоценных металлов",
+      "type": "applies_to"
+    },
+    {
+      "source": "Модуль 4-11 Металлургия",
+      "target": "Основные понятия металлургии",
+      "type": "applies_to"
+    },
+    {
+      "source": "Модуль 4-11 Металлургия",
+      "target": "Процессы подготовки сырья к металлургической переработке",
+      "type": "applies_to"
+    },
+    {
+      "source": "Модуль 4-11 Металлургия",
+      "target": "Дистанционный курс",
+      "type": "applies_to"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "Модуль 4-11 Металлургия",
+      "type": "applies_to"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "Модуль 1",
+      "type": "applies_to"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "Модуль 2",
+      "type": "applies_to"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "Модуль 3",
+      "type": "applies_to"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "Модуль 4-11",
+      "type": "applies_to"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "Модуль 12",
+      "type": "applies_to"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "Горное дело",
+      "type": "applies_to"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "Обогащение",
+      "type": "applies_to"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "Металлургия",
+      "type": "applies_to"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "Геология",
+      "type": "applies_to"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "Экология",
+      "type": "applies_to"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "Итоговое тестирование",
+      "type": "applies_to"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "Разведка",
+      "type": "applies_to"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "Добыча полезных ископаемых",
+      "type": "applies_to"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "Обогащение руды с получением концентратов",
+      "type": "applies_to"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "Переработка концентратов с получением готовой продукции и промпродуктов, направляемых на переработку на смежные предприятия",
+      "type": "applies_to"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "Экологические проблемы производства",
+      "type": "applies_to"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "36 разделов",
+      "type": "applies_to"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "12 модулей",
+      "type": "applies_to"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "5 блоков",
+      "type": "applies_to"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "Пахомов Роман Александрович",
+      "type": "authored_by"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "Вострикова Наталья Михайловна",
+      "type": "authored_by"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "Попов Владимир Анатольевич",
+      "type": "authored_by"
+    },
+    {
+      "source": "Дистанционный курс",
+      "target": "src_p3",
+      "type": "has_source"
+    }
+  ]
+}

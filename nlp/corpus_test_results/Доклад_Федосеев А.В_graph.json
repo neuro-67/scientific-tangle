@@ -1,0 +1,2408 @@
+{
+  "document": "Доклад_Федосеев А.В.pdf",
+  "nodes": [
+    {
+      "id": "Федосеев Антон Владимирович",
+      "label": "Expert",
+      "properties": {
+        "email": "FedoseevAV@nornik.ru",
+        "position": "Ведущий научный сотрудник",
+        "degree": "к.т.н.",
+        "title": "к.т.н., Ведущий научный сотрудник"
+      }
+    },
+    {
+      "id": "Лаборатория Геотехники",
+      "label": "Facility",
+      "properties": {}
+    },
+    {
+      "id": "ВЕЛОСИМЕТР И АКСЕЛИРОМЕТР ВЗРЫВОЗАЩИЩЕННОГО ИСПОЛНЕНИЯ",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "СЕЙСМОСТАНЦИЯ ДЛЯ СИНХРОННОЙ РЕГИСТРАЦИИ ВИБРАЦИЙ В ДВУХ ТОЧКАХ",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "ТЕНЗОМЕТРИЧЕСКАЯ СТАНЦИЯ",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "ВИБРОМОНИТОР С ФУНКИЦЕЙ ИЗМЕРЕНИЯ УВВ",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "ВЫСОКОСКОРОСТНАЯ КАМЕРА",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "УСТАНОВКА СЕЙСМОДАТЧИКОВ В ПРОИЗВОДСТВЕННЫХ УСЛОВИЯХ",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "Ростверк фундамента",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "Фундамент вентилятора",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "Почва выработки",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "Бок выработки",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "Кровля выработки",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "Массив (карьер)",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "Фундамент здания",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "Фундамент опоры ЛЭП",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "src_p1",
+      "label": "Source",
+      "properties": {
+        "span": "p.1"
+      }
+    },
+    {
+      "id": "src_p2",
+      "label": "Source",
+      "properties": {
+        "span": "p.2"
+      }
+    },
+    {
+      "id": "src_p3",
+      "label": "Source",
+      "properties": {
+        "span": "p.3"
+      }
+    },
+    {
+      "id": "рабочие уступы",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "рабочие борта карьеров",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "PPVX",
+      "label": "Property",
+      "properties": {
+        "description": "максимальная скорость колебаний по направлению перпендикулярно Vx"
+      }
+    },
+    {
+      "id": "PPVY",
+      "label": "Property",
+      "properties": {
+        "description": "максимальная скорость колебаний по направлению перпендикулярно Vy"
+      }
+    },
+    {
+      "id": "PPVZ",
+      "label": "Property",
+      "properties": {
+        "description": "максимальная скорость колебаний по вертикальному направлению"
+      }
+    },
+    {
+      "id": "PVS",
+      "label": "Property",
+      "properties": {
+        "formula": "sqrt(VZ^2 + VX^2 + VY^2)"
+      }
+    },
+    {
+      "id": "Векторная сумма скоростей колебаний",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "VСАД",
+      "label": "Property",
+      "properties": {
+        "formula": "sqrt(PPVX^2 + PPVY^2 + PPVZ^2)"
+      }
+    },
+    {
+      "id": "КРИТЕРИИ ДОПУСТИМОЙ СКОРОСТИ",
+      "label": "Topic",
+      "properties": {}
+    },
+    {
+      "id": "Лаборатории Геотехники",
+      "label": "Facility",
+      "properties": {}
+    },
+    {
+      "id": "СПАСИБО ЗА ВНИМАНИЕ!",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "src_p12",
+      "label": "Source",
+      "properties": {
+        "span": "p.12"
+      }
+    },
+    {
+      "id": "src_p13",
+      "label": "Source",
+      "properties": {
+        "span": "p.13"
+      }
+    },
+    {
+      "id": "сейсмическое действие взрыва",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "измерение скорости распространения продольной волны",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "допустимая скорость колебаний",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "класс сооружений I",
+      "label": "Condition",
+      "properties": {
+        "characteristic": "Особо ответственные сооружения длительного срока эксплуатации (более 10 – 15 лет): гидротехнические тоннели, стволы шахт, капитальные штольни, камеры дробления, водоотлива, околоствольные дворы",
+        "service_life": "более 10 – 15 лет"
+      }
+    },
+    {
+      "id": "класс сооружений II",
+      "label": "Condition",
+      "properties": {
+        "characteristic": "Ответственные сооружения со сроком эксплуатации более 5 - 10 лет: обводные и транспортные тоннели гидротехнических сооружений, надкамерные целики, квершлаги, уступы карьеров, отвалов",
+        "service_life": "более 5 - 10 лет"
+      }
+    },
+    {
+      "id": "класс сооружений III",
+      "label": "Condition",
+      "properties": {
+        "characteristic": "Кратковременно эксплуатируемые сооружения (от 1 до 5 лет): камеры, уступы, штреки",
+        "service_life": "от 1 до 5 лет"
+      }
+    },
+    {
+      "id": "класс сооружений IV",
+      "label": "Condition",
+      "properties": {
+        "characteristic": "Неответственные сооружения со сроком эксплуатации до 1 года: очистные блоки, рабочие уступы, рабочие борта карьеров и др.",
+        "service_life": "до 1 года"
+      }
+    },
+    {
+      "id": "сейсмостанция и датчик №1",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "датчик №2",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "формула для расчета скорости продольной волны",
+      "label": "Finding",
+      "properties": {
+        "equation": "V = 0.375 ∙ CP^2 - 4 / 3 ∙ CS^2 / (1 + 1 - 2νε0^(8/3) - 1) ∙ (CP1 + 1 - 2νε0^4) ∙ 10^2",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "эксперимент по измерению сейсмического действия",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "источник_стр11",
+      "label": "Source",
+      "properties": {
+        "span": "p.11"
+      }
+    },
+    {
+      "id": "тензометрические датчики",
+      "label": "Equipment",
+      "properties": {
+        "origin": "ЛГТ"
+      }
+    },
+    {
+      "id": "измерительный элемент",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "установка тензометрических датчиков на трещины в конструкциях здания",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "деформационный мониторинг дефектов в конструкциях здания",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "изменения ширины раскрытия трещин",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "движение графиков в сторону положительных значений",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "движение графиков в сторону отрицательных значений",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "закрытие трещин",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "раскрытие трещин",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ведением БВР в карьере",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "погодные условия",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "зарегистрированные на фундаменте здания велосиграммы от ведения взрывных работ в карьере",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "высокоскоростная видеосъемка (2000 кадров в секунду) взрываемых блоков",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "анализ работы сети коммутации скважинных зарядов",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "фактическая очередность взрывания скважин блока",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "схема инициирования скважинных зарядов взрываемого блока",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "результаты анализа сети коммутации скважинных зарядов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "камера Phantom MIRO C320",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "измерения влияния сейсмического действия взрыва",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "результаты измерений сейсмического действия взрыва",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "PVS=0,68см/с",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.68,
+        "unit": "см/с",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "PVS=1,36см/с",
+      "label": "Measurement",
+      "properties": {
+        "value": 1.36,
+        "unit": "см/с",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "PVS=1,31см/с",
+      "label": "Measurement",
+      "properties": {
+        "value": 1.31,
+        "unit": "см/с",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "src_p7",
+      "label": "Source",
+      "properties": {
+        "span": "p.7"
+      }
+    },
+    {
+      "id": "src_p8",
+      "label": "Source",
+      "properties": {
+        "span": "p.8"
+      }
+    },
+    {
+      "id": "src_p9",
+      "label": "Source",
+      "properties": {
+        "span": "p.9"
+      }
+    },
+    {
+      "id": "src_p10",
+      "label": "Source",
+      "properties": {
+        "span": "p.10"
+      }
+    },
+    {
+      "id": "V",
+      "label": "Property",
+      "properties": {
+        "description": "пиковое значение скорости смещения"
+      }
+    },
+    {
+      "id": "PPVmax",
+      "label": "Property",
+      "properties": {
+        "description": "максимальная из PPVX, PPVY, PPVZ"
+      }
+    },
+    {
+      "id": "K",
+      "label": "Property",
+      "properties": {
+        "description": "коэффициент сейсмичности, зависящий от условий взрывания и физико-механических характеристик среды"
+      }
+    },
+    {
+      "id": "n",
+      "label": "Property",
+      "properties": {
+        "description": "показатель затухания сейсмовзрывной волны с расстоянием, отражающий характер преобладающего типа волны"
+      }
+    },
+    {
+      "id": "rП",
+      "label": "Property",
+      "properties": {
+        "formula": "r / Q^a",
+        "description": "приведенное расстояние"
+      }
+    },
+    {
+      "id": "a",
+      "label": "Property",
+      "properties": {
+        "description": "показатель степени"
+      }
+    },
+    {
+      "id": "Q",
+      "label": "Property",
+      "properties": {
+        "description": "максимальная масса единовременно взрываемого заряда, кг"
+      }
+    },
+    {
+      "id": "r",
+      "label": "Property",
+      "properties": {
+        "description": "гипоцентральное расстояние до рассматриваемой точки, м"
+      }
+    },
+    {
+      "id": "meas_PVS",
+      "label": "Measurement",
+      "properties": {}
+    },
+    {
+      "id": "meas_VСАД",
+      "label": "Measurement",
+      "properties": {}
+    },
+    {
+      "id": "meas_PPVZ",
+      "label": "Measurement",
+      "properties": {}
+    },
+    {
+      "id": "meas_PPVX",
+      "label": "Measurement",
+      "properties": {}
+    },
+    {
+      "id": "meas_PPVY",
+      "label": "Measurement",
+      "properties": {}
+    },
+    {
+      "id": "meas_PPVmax",
+      "label": "Measurement",
+      "properties": {}
+    },
+    {
+      "id": "finding_PPVX_direction",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_PPVY_direction",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_PPVZ_direction",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_PVS_direction",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_VСАД_direction",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_PPVmax_direction",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_V_definition",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_K_dependency",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_n_dependency",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_rП_definition",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_a_dependency",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_Q_dependency",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_r_dependency",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "src_p14",
+      "label": "Source",
+      "properties": {
+        "span": "p.14"
+      }
+    },
+    {
+      "id": "ось X",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "ось Y",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "ось Z",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "измерения параметров собственных колебаний здания",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "параметры собственных колебаний здания",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "распределение энергии по частотам, %",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "частота",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "вертикальная ось",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "малая ось",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "большая ось",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "декремент",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "3-5",
+      "label": "Measurement",
+      "properties": {
+        "min": 3,
+        "max": 5,
+        "unit": "Гц",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "3,8-4,6",
+      "label": "Measurement",
+      "properties": {
+        "min": 3.8,
+        "max": 4.6,
+        "unit": "Гц",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "3,11-3,37",
+      "label": "Measurement",
+      "properties": {
+        "min": 3.11,
+        "max": 3.37,
+        "unit": "Гц",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "0,09-0,5",
+      "label": "Measurement",
+      "properties": {
+        "min": 0.09,
+        "max": 0.5,
+        "unit": "",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "0,09",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.09,
+        "unit": "",
+        "verified": true
+      }
+    },
+    {
+      "id": "0,08-0,19",
+      "label": "Measurement",
+      "properties": {
+        "min": 0.08,
+        "max": 0.19,
+        "unit": "",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "определение параметров собственных колебаний здания ПО «Fundamental Tone»",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "спектр сейсмовзрывной волны",
+      "label": "Topic",
+      "properties": {}
+    },
+    {
+      "id": "примеры установки датчиков",
+      "label": "Topic",
+      "properties": {}
+    },
+    {
+      "id": "интерфейс ПО «Fundamental Tone»",
+      "label": "Topic",
+      "properties": {}
+    },
+    {
+      "id": "нижний ярус",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "верхний ярус",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "здания делового назначения, производственные здания и сооружения",
+      "label": "Facility",
+      "properties": {}
+    },
+    {
+      "id": "жилые здания",
+      "label": "Facility",
+      "properties": {}
+    },
+    {
+      "id": "социально значимые объекты, памятники архитектуры",
+      "label": "Facility",
+      "properties": {}
+    },
+    {
+      "id": "src_p4",
+      "label": "Source",
+      "properties": {
+        "span": "p.4"
+      }
+    },
+    {
+      "id": "dзар=25-76мм",
+      "label": "Measurement",
+      "properties": {
+        "min": 25,
+        "max": 76,
+        "unit": "мм",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "Преобладающая частота, Гц",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "Исследования Горного Бюро США",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "Факторы определяющие частотный состав регистрируемой сейсмовзрывной волн при взрыве одиночного заряда",
+      "label": "Topic",
+      "properties": {}
+    },
+    {
+      "id": "Рекомендуется",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "Не рекомендуется",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "РЕКОМЕНДАЦИИ ПО УСТАНОВКЕ ДАТЧИКОВ ИЗМЕРЕНИЯ СЕЙСМИЧЕСКОГО ВОЗДЕЙСТВИЯ ВЗРЫВОВ",
+      "label": "Topic",
+      "properties": {}
+    },
+    {
+      "id": "src_p17",
+      "label": "Source",
+      "properties": {
+        "span": "p.17"
+      }
+    },
+    {
+      "id": "стандарт",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "src_p15",
+      "label": "Source",
+      "properties": {
+        "span": "p.15"
+      }
+    },
+    {
+      "id": "ГОСТ Р 52892-2007",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "DIN 4150-3",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "BS 7385-2:1993",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "USBM RI № 8507",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "NS 8141–1:2022",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "РБ Г-05-039-96",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "AS.2187.2-2006",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "GB6722-2014",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "SS 460 48 66",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "SNI 7571:2010",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "UNE 22.381/93",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "NP2074",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "DGMS CIRCULARS",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "Groupe Français de l'Énergie Explosive",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "ISRM: BLAST VIBRATION MONITORING SUGGESTED METHOD",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "измерение раскачки здания от ведения взрывных работ в карьере",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "сейсмовзрывная волна",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "ударно воздушная волна",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "наибольшие значения скорости смещения, мм/с",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "наибольшие значения перемещения, мм",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "раскачка",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "13.03.20",
+      "label": "Measurement",
+      "properties": {
+        "value": "13.03.20",
+        "unit": "дата"
+      }
+    },
+    {
+      "id": "25.09.20",
+      "label": "Measurement",
+      "properties": {
+        "value": "25.09.20",
+        "unit": "дата"
+      }
+    },
+    {
+      "id": "meas_vel_nj_0_41",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.41,
+        "unit": "мм/с",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_vel_vj_1_28",
+      "label": "Measurement",
+      "properties": {
+        "value": 1.28,
+        "unit": "мм/с",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_disp_nj_3_12",
+      "label": "Measurement",
+      "properties": {
+        "value": 3.12,
+        "unit": "мм",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_disp_vj_0_072",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.072,
+        "unit": "мм",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_rock_nj_0_0052",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.0052,
+        "unit": "мм",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_rock_vj_0_021",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.021,
+        "unit": "мм",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_vel_nj_0_64",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.64,
+        "unit": "мм/с",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_vel_vj_2_429",
+      "label": "Measurement",
+      "properties": {
+        "value": 2.429,
+        "unit": "мм/с",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_disp_nj_3_80",
+      "label": "Measurement",
+      "properties": {
+        "value": 3.8,
+        "unit": "мм",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_disp_vj_0_185",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.185,
+        "unit": "мм",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_rock_nj_0_01132",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.01132,
+        "unit": "мм",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_rock_vj_0_0478",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.0478,
+        "unit": "мм",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "тензометрический датчик перемещений",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "датчик №1",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "датчик №6",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "датчик №3",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "изготовленные в ЛГТ тензометрические датчики",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "калибровка тензометрических датчиков",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "src_p5",
+      "label": "Source",
+      "properties": {
+        "span": "p.5"
+      }
+    },
+    {
+      "id": "src_p6",
+      "label": "Source",
+      "properties": {
+        "span": "p.6"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Федосеев Антон Владимирович",
+      "target": "Лаборатория Геотехники",
+      "type": "expert_in"
+    },
+    {
+      "source": "Лаборатория Геотехники",
+      "target": "ВЕЛОСИМЕТР И АКСЕЛИРОМЕТР ВЗРЫВОЗАЩИЩЕННОГО ИСПОЛНЕНИЯ",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "Лаборатория Геотехники",
+      "target": "СЕЙСМОСТАНЦИЯ ДЛЯ СИНХРОННОЙ РЕГИСТРАЦИИ ВИБРАЦИЙ В ДВУХ ТОЧКАХ",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "Лаборатория Геотехники",
+      "target": "ТЕНЗОМЕТРИЧЕСКАЯ СТАНЦИЯ",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "Лаборатория Геотехники",
+      "target": "ВИБРОМОНИТОР С ФУНКИЦЕЙ ИЗМЕРЕНИЯ УВВ",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "Лаборатория Геотехники",
+      "target": "ВЫСОКОСКОРОСТНАЯ КАМЕРА",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "УСТАНОВКА СЕЙСМОДАТЧИКОВ В ПРОИЗВОДСТВЕННЫХ УСЛОВИЯХ",
+      "target": "Ростверк фундамента",
+      "type": "applies_to"
+    },
+    {
+      "source": "УСТАНОВКА СЕЙСМОДАТЧИКОВ В ПРОИЗВОДСТВЕННЫХ УСЛОВИЯХ",
+      "target": "Фундамент вентилятора",
+      "type": "applies_to"
+    },
+    {
+      "source": "УСТАНОВКА СЕЙСМОДАТЧИКОВ В ПРОИЗВОДСТВЕННЫХ УСЛОВИЯХ",
+      "target": "Почва выработки",
+      "type": "applies_to"
+    },
+    {
+      "source": "УСТАНОВКА СЕЙСМОДАТЧИКОВ В ПРОИЗВОДСТВЕННЫХ УСЛОВИЯХ",
+      "target": "Бок выработки",
+      "type": "applies_to"
+    },
+    {
+      "source": "УСТАНОВКА СЕЙСМОДАТЧИКОВ В ПРОИЗВОДСТВЕННЫХ УСЛОВИЯХ",
+      "target": "Кровля выработки",
+      "type": "applies_to"
+    },
+    {
+      "source": "УСТАНОВКА СЕЙСМОДАТЧИКОВ В ПРОИЗВОДСТВЕННЫХ УСЛОВИЯХ",
+      "target": "Массив (карьер)",
+      "type": "applies_to"
+    },
+    {
+      "source": "УСТАНОВКА СЕЙСМОДАТЧИКОВ В ПРОИЗВОДСТВЕННЫХ УСЛОВИЯХ",
+      "target": "Фундамент здания",
+      "type": "applies_to"
+    },
+    {
+      "source": "УСТАНОВКА СЕЙСМОДАТЧИКОВ В ПРОИЗВОДСТВЕННЫХ УСЛОВИЯХ",
+      "target": "Фундамент опоры ЛЭП",
+      "type": "applies_to"
+    },
+    {
+      "source": "Федосеев Антон Владимирович",
+      "target": "УСТАНОВКА СЕЙСМОДАТЧИКОВ В ПРОИЗВОДСТВЕННЫХ УСЛОВИЯХ",
+      "type": "authored_by"
+    },
+    {
+      "source": "УСТАНОВКА СЕЙСМОДАТЧИКОВ В ПРОИЗВОДСТВЕННЫХ УСЛОВИЯХ",
+      "target": "Лаборатория Геотехники",
+      "type": "conducted_at"
+    },
+    {
+      "source": "Федосеев Антон Владимирович",
+      "target": "СПАСИБО ЗА ВНИМАНИЕ!",
+      "type": "authored_by"
+    },
+    {
+      "source": "Федосеев Антон Владимирович",
+      "target": "Лаборатории Геотехники",
+      "type": "expert_in"
+    },
+    {
+      "source": "рабочие уступы",
+      "target": "PPVX",
+      "type": "measures_property"
+    },
+    {
+      "source": "рабочие уступы",
+      "target": "PPVY",
+      "type": "measures_property"
+    },
+    {
+      "source": "рабочие уступы",
+      "target": "PPVZ",
+      "type": "measures_property"
+    },
+    {
+      "source": "рабочие борта карьеров",
+      "target": "PPVX",
+      "type": "measures_property"
+    },
+    {
+      "source": "рабочие борта карьеров",
+      "target": "PPVY",
+      "type": "measures_property"
+    },
+    {
+      "source": "рабочие борта карьеров",
+      "target": "PPVZ",
+      "type": "measures_property"
+    },
+    {
+      "source": "PPVX",
+      "target": "PVS",
+      "type": "measures_property"
+    },
+    {
+      "source": "PPVY",
+      "target": "PVS",
+      "type": "measures_property"
+    },
+    {
+      "source": "PPVZ",
+      "target": "PVS",
+      "type": "measures_property"
+    },
+    {
+      "source": "PVS",
+      "target": "Векторная сумма скоростей колебаний",
+      "type": "measures_property"
+    },
+    {
+      "source": "Векторная сумма скоростей колебаний",
+      "target": "VСАД",
+      "type": "measures_property"
+    },
+    {
+      "source": "VСАД",
+      "target": "КРИТЕРИИ ДОПУСТИМОЙ СКОРОСТИ",
+      "type": "described_in"
+    },
+    {
+      "source": "КРИТЕРИИ ДОПУСТИМОЙ СКОРОСТИ",
+      "target": "src_p13",
+      "type": "has_source"
+    },
+    {
+      "source": "Федосеев Антон Владимирович",
+      "target": "src_p12",
+      "type": "authored_by"
+    },
+    {
+      "source": "СПАСИБО ЗА ВНИМАНИЕ!",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "сейсмическое действие взрыва",
+      "target": "измерение скорости распространения продольной волны",
+      "type": "has_measurement"
+    },
+    {
+      "source": "измерение скорости распространения продольной волны",
+      "target": "допустимая скорость колебаний",
+      "type": "measures_property"
+    },
+    {
+      "source": "допустимая скорость колебаний",
+      "target": "класс сооружений I",
+      "type": "applies_to"
+    },
+    {
+      "source": "допустимая скорость колебаний",
+      "target": "класс сооружений II",
+      "type": "applies_to"
+    },
+    {
+      "source": "допустимая скорость колебаний",
+      "target": "класс сооружений III",
+      "type": "applies_to"
+    },
+    {
+      "source": "допустимая скорость колебаний",
+      "target": "класс сооружений IV",
+      "type": "applies_to"
+    },
+    {
+      "source": "измерение скорости распространения продольной волны",
+      "target": "сейсмостанция и датчик №1",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "измерение скорости распространения продольной волны",
+      "target": "датчик №2",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "измерение скорости распространения продольной волны",
+      "target": "формула для расчета скорости продольной волны",
+      "type": "described_in"
+    },
+    {
+      "source": "формула для расчета скорости продольной волны",
+      "target": "сейсмическое действие взрыва",
+      "type": "applies_to"
+    },
+    {
+      "source": "сейсмическое действие взрыва",
+      "target": "эксперимент по измерению сейсмического действия",
+      "type": "conducted_at"
+    },
+    {
+      "source": "эксперимент по измерению сейсмического действия",
+      "target": "Лаборатория Геотехники",
+      "type": "conducted_at"
+    },
+    {
+      "source": "эксперимент по измерению сейсмического действия",
+      "target": "Федосеев Антон Владимирович",
+      "type": "authored_by"
+    },
+    {
+      "source": "эксперимент по измерению сейсмического действия",
+      "target": "Федосеев Антон Владимирович",
+      "type": "validated_by"
+    },
+    {
+      "source": "эксперимент по измерению сейсмического действия",
+      "target": "источник_стр11",
+      "type": "has_source"
+    },
+    {
+      "source": "измерение скорости распространения продольной волны",
+      "target": "источник_стр11",
+      "type": "has_source"
+    },
+    {
+      "source": "допустимая скорость колебаний",
+      "target": "источник_стр11",
+      "type": "has_source"
+    },
+    {
+      "source": "класс сооружений I",
+      "target": "источник_стр11",
+      "type": "has_source"
+    },
+    {
+      "source": "класс сооружений II",
+      "target": "источник_стр11",
+      "type": "has_source"
+    },
+    {
+      "source": "класс сооружений III",
+      "target": "источник_стр11",
+      "type": "has_source"
+    },
+    {
+      "source": "класс сооружений IV",
+      "target": "источник_стр11",
+      "type": "has_source"
+    },
+    {
+      "source": "формула для расчета скорости продольной волны",
+      "target": "источник_стр11",
+      "type": "has_source"
+    },
+    {
+      "source": "тензометрические датчики",
+      "target": "измерительный элемент",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "установка тензометрических датчиков на трещины в конструкциях здания",
+      "target": "тензометрические датчики",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "установка тензометрических датчиков на трещины в конструкциях здания",
+      "target": "деформационный мониторинг дефектов в конструкциях здания",
+      "type": "applies_to"
+    },
+    {
+      "source": "деформационный мониторинг дефектов в конструкциях здания",
+      "target": "изменения ширины раскрытия трещин",
+      "type": "measures_property"
+    },
+    {
+      "source": "изменения ширины раскрытия трещин",
+      "target": "движение графиков в сторону положительных значений",
+      "type": "showed"
+    },
+    {
+      "source": "движение графиков в сторону положительных значений",
+      "target": "закрытие трещин",
+      "type": "showed"
+    },
+    {
+      "source": "движение графиков в сторону отрицательных значений",
+      "target": "раскрытие трещин",
+      "type": "showed"
+    },
+    {
+      "source": "изменения ширины раскрытия трещин",
+      "target": "ведением БВР в карьере",
+      "type": "described_in"
+    },
+    {
+      "source": "изменения ширины раскрытия трещин",
+      "target": "погодные условия",
+      "type": "described_in"
+    },
+    {
+      "source": "зарегистрированные на фундаменте здания велосиграммы от ведения взрывных работ в карьере",
+      "target": "сейсмическое действие взрыва",
+      "type": "measures_property"
+    },
+    {
+      "source": "сейсмическое действие взрыва",
+      "target": "высокоскоростная видеосъемка (2000 кадров в секунду) взрываемых блоков",
+      "type": "applies_to"
+    },
+    {
+      "source": "высокоскоростная видеосъемка (2000 кадров в секунду) взрываемых блоков",
+      "target": "анализ работы сети коммутации скважинных зарядов",
+      "type": "applies_to"
+    },
+    {
+      "source": "высокоскоростная видеосъемка (2000 кадров в секунду) взрываемых блоков",
+      "target": "фактическая очередность взрывания скважин блока",
+      "type": "showed"
+    },
+    {
+      "source": "фактическая очередность взрывания скважин блока",
+      "target": "схема инициирования скважинных зарядов взрываемого блока",
+      "type": "described_in"
+    },
+    {
+      "source": "результаты анализа сети коммутации скважинных зарядов",
+      "target": "фактическая очередность взрывания скважин блока",
+      "type": "described_in"
+    },
+    {
+      "source": "высокоскоростная видеосъемка (2000 кадров в секунду) взрываемых блоков",
+      "target": "камера Phantom MIRO C320",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "измерения влияния сейсмического действия взрыва",
+      "target": "результаты измерений сейсмического действия взрыва",
+      "type": "described_in"
+    },
+    {
+      "source": "PVS=0,68см/с",
+      "target": "результаты измерений сейсмического действия взрыва",
+      "type": "has_measurement"
+    },
+    {
+      "source": "PVS=1,36см/с",
+      "target": "результаты измерений сейсмического действия взрыва",
+      "type": "has_measurement"
+    },
+    {
+      "source": "PVS=1,31см/с",
+      "target": "результаты измерений сейсмического действия взрыва",
+      "type": "has_measurement"
+    },
+    {
+      "source": "PVS=0,68см/с",
+      "target": "src_p7",
+      "type": "has_source"
+    },
+    {
+      "source": "PVS=1,36см/с",
+      "target": "src_p7",
+      "type": "has_source"
+    },
+    {
+      "source": "PVS=1,31см/с",
+      "target": "src_p7",
+      "type": "has_source"
+    },
+    {
+      "source": "результаты измерений сейсмического действия взрыва",
+      "target": "src_p10",
+      "type": "has_source"
+    },
+    {
+      "source": "высокоскоростная видеосъемка (2000 кадров в секунду) взрываемых блоков",
+      "target": "src_p8",
+      "type": "has_source"
+    },
+    {
+      "source": "фактическая очередность взрывания скважин блока",
+      "target": "src_p9",
+      "type": "has_source"
+    },
+    {
+      "source": "результаты анализа сети коммутации скважинных зарядов",
+      "target": "src_p9",
+      "type": "has_source"
+    },
+    {
+      "source": "схема инициирования скважинных зарядов взрываемого блока",
+      "target": "src_p9",
+      "type": "has_source"
+    },
+    {
+      "source": "PVS",
+      "target": "V",
+      "type": "measures_property"
+    },
+    {
+      "source": "PPVX",
+      "target": "VСАД",
+      "type": "measures_property"
+    },
+    {
+      "source": "PPVY",
+      "target": "VСАД",
+      "type": "measures_property"
+    },
+    {
+      "source": "PPVZ",
+      "target": "VСАД",
+      "type": "measures_property"
+    },
+    {
+      "source": "VСАД",
+      "target": "V",
+      "type": "measures_property"
+    },
+    {
+      "source": "PPVmax",
+      "target": "V",
+      "type": "measures_property"
+    },
+    {
+      "source": "PVS",
+      "target": "meas_PVS",
+      "type": "has_measurement"
+    },
+    {
+      "source": "VСАД",
+      "target": "meas_VСАД",
+      "type": "has_measurement"
+    },
+    {
+      "source": "PPVZ",
+      "target": "meas_PPVZ",
+      "type": "has_measurement"
+    },
+    {
+      "source": "PPVX",
+      "target": "meas_PPVX",
+      "type": "has_measurement"
+    },
+    {
+      "source": "PPVY",
+      "target": "meas_PPVY",
+      "type": "has_measurement"
+    },
+    {
+      "source": "PPVmax",
+      "target": "meas_PPVmax",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_PVS",
+      "target": "src_p14",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_VСАД",
+      "target": "src_p14",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_PPVZ",
+      "target": "src_p14",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_PPVX",
+      "target": "src_p14",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_PPVY",
+      "target": "src_p14",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_PPVmax",
+      "target": "src_p14",
+      "type": "has_source"
+    },
+    {
+      "source": "PPVX",
+      "target": "finding_PPVX_direction",
+      "type": "showed"
+    },
+    {
+      "source": "PPVY",
+      "target": "finding_PPVY_direction",
+      "type": "showed"
+    },
+    {
+      "source": "PPVZ",
+      "target": "finding_PPVZ_direction",
+      "type": "showed"
+    },
+    {
+      "source": "PVS",
+      "target": "finding_PVS_direction",
+      "type": "showed"
+    },
+    {
+      "source": "VСАД",
+      "target": "finding_VСАД_direction",
+      "type": "showed"
+    },
+    {
+      "source": "PPVmax",
+      "target": "finding_PPVmax_direction",
+      "type": "showed"
+    },
+    {
+      "source": "finding_PPVX_direction",
+      "target": "src_p14",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_PPVY_direction",
+      "target": "src_p14",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_PPVZ_direction",
+      "target": "src_p14",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_PVS_direction",
+      "target": "src_p14",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_VСАД_direction",
+      "target": "src_p14",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_PPVmax_direction",
+      "target": "src_p14",
+      "type": "has_source"
+    },
+    {
+      "source": "V",
+      "target": "finding_V_definition",
+      "type": "showed"
+    },
+    {
+      "source": "finding_V_definition",
+      "target": "src_p14",
+      "type": "has_source"
+    },
+    {
+      "source": "K",
+      "target": "finding_K_dependency",
+      "type": "showed"
+    },
+    {
+      "source": "finding_K_dependency",
+      "target": "src_p14",
+      "type": "has_source"
+    },
+    {
+      "source": "n",
+      "target": "finding_n_dependency",
+      "type": "showed"
+    },
+    {
+      "source": "finding_n_dependency",
+      "target": "src_p14",
+      "type": "has_source"
+    },
+    {
+      "source": "rП",
+      "target": "finding_rП_definition",
+      "type": "showed"
+    },
+    {
+      "source": "finding_rП_definition",
+      "target": "src_p14",
+      "type": "has_source"
+    },
+    {
+      "source": "a",
+      "target": "finding_a_dependency",
+      "type": "showed"
+    },
+    {
+      "source": "finding_a_dependency",
+      "target": "src_p14",
+      "type": "has_source"
+    },
+    {
+      "source": "Q",
+      "target": "finding_Q_dependency",
+      "type": "showed"
+    },
+    {
+      "source": "finding_Q_dependency",
+      "target": "src_p14",
+      "type": "has_source"
+    },
+    {
+      "source": "r",
+      "target": "finding_r_dependency",
+      "type": "showed"
+    },
+    {
+      "source": "finding_r_dependency",
+      "target": "src_p14",
+      "type": "has_source"
+    },
+    {
+      "source": "ось X",
+      "target": "измерения параметров собственных колебаний здания",
+      "type": "measures_property"
+    },
+    {
+      "source": "ось Y",
+      "target": "измерения параметров собственных колебаний здания",
+      "type": "measures_property"
+    },
+    {
+      "source": "ось Z",
+      "target": "измерения параметров собственных колебаний здания",
+      "type": "measures_property"
+    },
+    {
+      "source": "измерения параметров собственных колебаний здания",
+      "target": "параметры собственных колебаний здания",
+      "type": "has_measurement"
+    },
+    {
+      "source": "параметры собственных колебаний здания",
+      "target": "ось X",
+      "type": "measures_property"
+    },
+    {
+      "source": "параметры собственных колебаний здания",
+      "target": "ось Y",
+      "type": "measures_property"
+    },
+    {
+      "source": "параметры собственных колебаний здания",
+      "target": "ось Z",
+      "type": "measures_property"
+    },
+    {
+      "source": "распределение энергии по частотам, %",
+      "target": "частота",
+      "type": "measures_property"
+    },
+    {
+      "source": "частота",
+      "target": "вертикальная ось",
+      "type": "measures_property"
+    },
+    {
+      "source": "частота",
+      "target": "малая ось",
+      "type": "measures_property"
+    },
+    {
+      "source": "частота",
+      "target": "большая ось",
+      "type": "measures_property"
+    },
+    {
+      "source": "частота",
+      "target": "декремент",
+      "type": "measures_property"
+    },
+    {
+      "source": "декремент",
+      "target": "0,09-0,5",
+      "type": "has_measurement"
+    },
+    {
+      "source": "декремент",
+      "target": "0,09",
+      "type": "has_measurement"
+    },
+    {
+      "source": "декремент",
+      "target": "0,08-0,19",
+      "type": "has_measurement"
+    },
+    {
+      "source": "частота",
+      "target": "3-5",
+      "type": "has_measurement"
+    },
+    {
+      "source": "частота",
+      "target": "3,8-4,6",
+      "type": "has_measurement"
+    },
+    {
+      "source": "частота",
+      "target": "3,11-3,37",
+      "type": "has_measurement"
+    },
+    {
+      "source": "определение параметров собственных колебаний здания ПО «Fundamental Tone»",
+      "target": "измерения параметров собственных колебаний здания",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "определение параметров собственных колебаний здания ПО «Fundamental Tone»",
+      "target": "спектр сейсмовзрывной волны",
+      "type": "described_in"
+    },
+    {
+      "source": "определение параметров собственных колебаний здания ПО «Fundamental Tone»",
+      "target": "примеры установки датчиков",
+      "type": "described_in"
+    },
+    {
+      "source": "определение параметров собственных колебаний здания ПО «Fundamental Tone»",
+      "target": "интерфейс ПО «Fundamental Tone»",
+      "type": "described_in"
+    },
+    {
+      "source": "нижний ярус",
+      "target": "здания делового назначения, производственные здания и сооружения",
+      "type": "applies_to"
+    },
+    {
+      "source": "верхний ярус",
+      "target": "здания делового назначения, производственные здания и сооружения",
+      "type": "applies_to"
+    },
+    {
+      "source": "здания делового назначения, производственные здания и сооружения",
+      "target": "жилые здания",
+      "type": "applies_to"
+    },
+    {
+      "source": "жилые здания",
+      "target": "социально значимые объекты, памятники архитектуры",
+      "type": "applies_to"
+    },
+    {
+      "source": "dзар=25-76мм",
+      "target": "Преобладающая частота, Гц",
+      "type": "measures_property"
+    },
+    {
+      "source": "Преобладающая частота, Гц",
+      "target": "Исследования Горного Бюро США",
+      "type": "described_in"
+    },
+    {
+      "source": "Исследования Горного Бюро США",
+      "target": "Факторы определяющие частотный состав регистрируемой сейсмовзрывной волн при взрыве одиночного заряда",
+      "type": "described_in"
+    },
+    {
+      "source": "Рекомендуется",
+      "target": "Установка на твердые породы или на значительную бетонную массу плотно контактирующую с грунтом на гипс или анкерные (болтовые) крепления",
+      "type": "supports"
+    },
+    {
+      "source": "Рекомендуется",
+      "target": "Установка в грунт закапыванием и утрамбовкой",
+      "type": "supports"
+    },
+    {
+      "source": "Рекомендуется",
+      "target": "Установка на грунт при помощи шипов",
+      "type": "supports"
+    },
+    {
+      "source": "Рекомендуется",
+      "target": "Пригрузка мешком с песком (только для низких уровней воздействия)",
+      "type": "supports"
+    },
+    {
+      "source": "Не рекомендуется",
+      "target": "Рыхлые породы и неровные поверхности",
+      "type": "contradicts"
+    },
+    {
+      "source": "Не рекомендуется",
+      "target": "Тонкий слой бетона",
+      "type": "contradicts"
+    },
+    {
+      "source": "Не рекомендуется",
+      "target": "Рыхлый кирпич или брусчатка",
+      "type": "contradicts"
+    },
+    {
+      "source": "Не рекомендуется",
+      "target": "Установка на шипы при отсутствии контакта между датчиком и поверхностью из-за слабой прижимки или растительности",
+      "type": "contradicts"
+    },
+    {
+      "source": "Рекомендуется",
+      "target": "РЕКОМЕНДАЦИИ ПО УСТАНОВКЕ ДАТЧИКОВ ИЗМЕРЕНИЯ СЕЙСМИЧЕСКОГО ВОЗДЕЙСТВИЯ ВЗРЫВОВ",
+      "type": "supports"
+    },
+    {
+      "source": "Не рекомендуется",
+      "target": "РЕКОМЕНДАЦИИ ПО УСТАНОВКЕ ДАТЧИКОВ ИЗМЕРЕНИЯ СЕЙСМИЧЕСКОГО ВОЗДЕЙСТВИЯ ВЗРЫВОВ",
+      "type": "contradicts"
+    },
+    {
+      "source": "ГОСТ Р 52892-2007",
+      "target": "стандарт",
+      "type": "described_in"
+    },
+    {
+      "source": "DIN 4150-3",
+      "target": "стандарт",
+      "type": "described_in"
+    },
+    {
+      "source": "BS 7385-2:1993",
+      "target": "стандарт",
+      "type": "described_in"
+    },
+    {
+      "source": "USBM RI № 8507",
+      "target": "стандарт",
+      "type": "described_in"
+    },
+    {
+      "source": "NS 8141–1:2022",
+      "target": "стандарт",
+      "type": "described_in"
+    },
+    {
+      "source": "РБ Г-05-039-96",
+      "target": "стандарт",
+      "type": "described_in"
+    },
+    {
+      "source": "AS.2187.2-2006",
+      "target": "стандарт",
+      "type": "described_in"
+    },
+    {
+      "source": "GB6722-2014",
+      "target": "стандарт",
+      "type": "described_in"
+    },
+    {
+      "source": "SS 460 48 66",
+      "target": "стандарт",
+      "type": "described_in"
+    },
+    {
+      "source": "SNI 7571:2010",
+      "target": "стандарт",
+      "type": "described_in"
+    },
+    {
+      "source": "UNE 22.381/93",
+      "target": "стандарт",
+      "type": "described_in"
+    },
+    {
+      "source": "NP2074",
+      "target": "стандарт",
+      "type": "described_in"
+    },
+    {
+      "source": "DGMS CIRCULARS",
+      "target": "стандарт",
+      "type": "described_in"
+    },
+    {
+      "source": "Groupe Français de l'Énergie Explosive",
+      "target": "стандарт",
+      "type": "described_in"
+    },
+    {
+      "source": "ISRM: BLAST VIBRATION MONITORING SUGGESTED METHOD",
+      "target": "стандарт",
+      "type": "described_in"
+    },
+    {
+      "source": "стандарт",
+      "target": "PPVZ",
+      "type": "measures_property"
+    },
+    {
+      "source": "стандарт",
+      "target": "PPVmax",
+      "type": "measures_property"
+    },
+    {
+      "source": "стандарт",
+      "target": "PVS",
+      "type": "measures_property"
+    },
+    {
+      "source": "PPVZ",
+      "target": "PPVmax",
+      "type": "has_source"
+    },
+    {
+      "source": "PPVZ",
+      "target": "PVS",
+      "type": "has_source"
+    },
+    {
+      "source": "PPVmax",
+      "target": "PVS",
+      "type": "has_source"
+    },
+    {
+      "source": "PPVmax",
+      "target": "PPVZ",
+      "type": "has_source"
+    },
+    {
+      "source": "PVS",
+      "target": "PPVZ",
+      "type": "has_source"
+    },
+    {
+      "source": "PVS",
+      "target": "PPVmax",
+      "type": "has_source"
+    },
+    {
+      "source": "PPVZ",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "PPVmax",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "PVS",
+      "target": "src_p15",
+      "type": "has_source"
+    },
+    {
+      "source": "измерение раскачки здания от ведения взрывных работ в карьере",
+      "target": "сейсмовзрывная волна",
+      "type": "measures_property"
+    },
+    {
+      "source": "измерение раскачки здания от ведения взрывных работ в карьере",
+      "target": "ударно воздушная волна",
+      "type": "measures_property"
+    },
+    {
+      "source": "измерение раскачки здания от ведения взрывных работ в карьере",
+      "target": "наибольшие значения скорости смещения, мм/с",
+      "type": "measures_property"
+    },
+    {
+      "source": "измерение раскачки здания от ведения взрывных работ в карьере",
+      "target": "наибольшие значения перемещения, мм",
+      "type": "measures_property"
+    },
+    {
+      "source": "измерение раскачки здания от ведения взрывных работ в карьере",
+      "target": "раскачка",
+      "type": "measures_property"
+    },
+    {
+      "source": "измерение раскачки здания от ведения взрывных работ в карьере",
+      "target": "нижний ярус",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "измерение раскачки здания от ведения взрывных работ в карьере",
+      "target": "верхний ярус",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "измерение раскачки здания от ведения взрывных работ в карьере",
+      "target": "13.03.20",
+      "type": "has_measurement"
+    },
+    {
+      "source": "измерение раскачки здания от ведения взрывных работ в карьере",
+      "target": "25.09.20",
+      "type": "has_measurement"
+    },
+    {
+      "source": "13.03.20",
+      "target": "meas_vel_nj_0_41",
+      "type": "has_measurement"
+    },
+    {
+      "source": "13.03.20",
+      "target": "meas_vel_vj_1_28",
+      "type": "has_measurement"
+    },
+    {
+      "source": "13.03.20",
+      "target": "meas_disp_nj_3_12",
+      "type": "has_measurement"
+    },
+    {
+      "source": "13.03.20",
+      "target": "meas_disp_vj_0_072",
+      "type": "has_measurement"
+    },
+    {
+      "source": "13.03.20",
+      "target": "meas_rock_nj_0_0052",
+      "type": "has_measurement"
+    },
+    {
+      "source": "13.03.20",
+      "target": "meas_rock_vj_0_021",
+      "type": "has_measurement"
+    },
+    {
+      "source": "25.09.20",
+      "target": "meas_vel_nj_0_64",
+      "type": "has_measurement"
+    },
+    {
+      "source": "25.09.20",
+      "target": "meas_vel_vj_2_429",
+      "type": "has_measurement"
+    },
+    {
+      "source": "25.09.20",
+      "target": "meas_disp_nj_3_80",
+      "type": "has_measurement"
+    },
+    {
+      "source": "25.09.20",
+      "target": "meas_disp_vj_0_185",
+      "type": "has_measurement"
+    },
+    {
+      "source": "25.09.20",
+      "target": "meas_rock_nj_0_01132",
+      "type": "has_measurement"
+    },
+    {
+      "source": "25.09.20",
+      "target": "meas_rock_vj_0_0478",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_vel_nj_0_41",
+      "target": "наибольшие значения скорости смещения, мм/с",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_vel_vj_1_28",
+      "target": "наибольшие значения скорости смещения, мм/с",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_disp_nj_3_12",
+      "target": "наибольшие значения перемещения, мм",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_disp_vj_0_072",
+      "target": "наибольшие значения перемещения, мм",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_rock_nj_0_0052",
+      "target": "раскачка",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_rock_vj_0_021",
+      "target": "раскачка",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_vel_nj_0_64",
+      "target": "наибольшие значения скорости смещения, мм/с",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_vel_vj_2_429",
+      "target": "наибольшие значения скорости смещения, мм/с",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_disp_nj_3_80",
+      "target": "наибольшие значения перемещения, мм",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_disp_vj_0_185",
+      "target": "наибольшие значения перемещения, мм",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_rock_nj_0_01132",
+      "target": "раскачка",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_rock_vj_0_0478",
+      "target": "раскачка",
+      "type": "measures_property"
+    },
+    {
+      "source": "измерение раскачки здания от ведения взрывных работ в карьере",
+      "target": "деформационный мониторинг дефектов в конструкциях здания",
+      "type": "described_in"
+    },
+    {
+      "source": "деформационный мониторинг дефектов в конструкциях здания",
+      "target": "тензометрический датчик перемещений",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "деформационный мониторинг дефектов в конструкциях здания",
+      "target": "измерительный элемент",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "деформационный мониторинг дефектов в конструкциях здания",
+      "target": "датчик №1",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "деформационный мониторинг дефектов в конструкциях здания",
+      "target": "датчик №6",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "деформационный мониторинг дефектов в конструкциях здания",
+      "target": "датчик №3",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "деформационный мониторинг дефектов в конструкциях здания",
+      "target": "установка тензометрических датчиков на трещины в конструкциях здания",
+      "type": "described_in"
+    },
+    {
+      "source": "установка тензометрических датчиков на трещины в конструкциях здания",
+      "target": "изготовленные в ЛГТ тензометрические датчики",
+      "type": "produces_output"
+    },
+    {
+      "source": "установка тензометрических датчиков на трещины в конструкциях здания",
+      "target": "калибровка тензометрических датчиков",
+      "type": "described_in"
+    },
+    {
+      "source": "калибровка тензометрических датчиков",
+      "target": "тензометрический датчик перемещений",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "калибровка тензометрических датчиков",
+      "target": "измерительный элемент",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "калибровка тензометрических датчиков",
+      "target": "датчик №1",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "калибровка тензометрических датчиков",
+      "target": "датчик №6",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "калибровка тензометрических датчиков",
+      "target": "датчик №3",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "измерение раскачки здания от ведения взрывных работ в карьере",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "деформационный мониторинг дефектов в конструкциях здания",
+      "target": "src_p6",
+      "type": "has_source"
+    },
+    {
+      "source": "установка тензометрических датчиков на трещины в конструкциях здания",
+      "target": "src_p6",
+      "type": "has_source"
+    },
+    {
+      "source": "калибровка тензометрических датчиков",
+      "target": "src_p6",
+      "type": "has_source"
+    }
+  ]
+}

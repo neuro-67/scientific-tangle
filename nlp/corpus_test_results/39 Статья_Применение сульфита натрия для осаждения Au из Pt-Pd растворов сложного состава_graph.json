@@ -1,0 +1,4160 @@
+{
+  "document": "39 Статья_Применение сульфита натрия для осаждения Au из Pt-Pd растворов сложного состава.docx",
+  "language": "ru",
+  "nodes": [
+    {
+      "id": "PdCl42–/Pd",
+      "label": "Property",
+      "properties": {
+        "name": "окислительно-восстановительный потенциал"
+      }
+    },
+    {
+      "id": "PtCl62–/PtCl42–",
+      "label": "Property",
+      "properties": {
+        "name": "окислительно-восстановительный потенциал"
+      }
+    },
+    {
+      "id": "PtCl42–/Pt",
+      "label": "Property",
+      "properties": {
+        "name": "окислительно-восстановительный потенциал"
+      }
+    },
+    {
+      "id": "meas_pot_0.62",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.62,
+        "unit": "В",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_pot_0.68",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.68,
+        "unit": "В",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_pot_0.73",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.73,
+        "unit": "В",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_pot_1.0",
+      "label": "Measurement",
+      "properties": {
+        "value": 1.0,
+        "unit": "В",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "finding_gold_extraction",
+      "label": "Finding",
+      "properties": {
+        "description": "возможность извлечения золота методом химического восстановления на фоне примесей",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "src_p2",
+      "label": "Source",
+      "properties": {
+        "span": "p.2"
+      }
+    },
+    {
+      "id": "химическое восстановление",
+      "label": "Process",
+      "properties": {
+        "name": "химическое восстановление"
+      }
+    },
+    {
+      "id": "таллов вскрытие платино-палладиевых концентратов",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "солянокислый раствор",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "растворы хлорирования",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "Pd(IV)",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "Se(VI)",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "Au(III)",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "дегазация",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "Pd(II)",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "Se(IV)",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "AuCl4–/Au",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "meas_potential_1",
+      "label": "Measurement",
+      "properties": {
+        "value": 1,
+        "unit": "В (НВЭ)",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_potential_0_62",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.62,
+        "unit": "В",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_potential_0_68",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.68,
+        "unit": "В",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_potential_0_73",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.73,
+        "unit": "В",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "src_p1",
+      "label": "Source",
+      "properties": {
+        "span": "p.1"
+      }
+    },
+    {
+      "id": "гидрометаллургии ООО «Институт Гипроникель»",
+      "label": "Facility",
+      "properties": {}
+    },
+    {
+      "id": "исследование",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "стеклянный реактор",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "механическое перемешивание",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "системы контроля рН и окислительно-восстановительного потенциала",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "нагрев",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "50-60°С",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "подача раствора сульфита натрия",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "250 г/дм3",
+      "label": "Measurement",
+      "properties": {
+        "value": 250000.0,
+        "unit": "мг/л",
+        "verified": true,
+        "unit_normalized_from": "г/дм3"
+      }
+    },
+    {
+      "id": "кварцевая трубка",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "перистальтический насос",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "отбор проб",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "50%",
+      "label": "Measurement",
+      "properties": {
+        "value": 50,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "100%",
+      "label": "Measurement",
+      "properties": {
+        "value": 100,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "150%",
+      "label": "Measurement",
+      "properties": {
+        "value": 150,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "200%",
+      "label": "Measurement",
+      "properties": {
+        "value": 200,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "125%",
+      "label": "Measurement",
+      "properties": {
+        "value": 125,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "175%",
+      "label": "Measurement",
+      "properties": {
+        "value": 175,
+        "unit": "%",
+        "verified": true
+      }
+    },
+    {
+      "id": "1 ч",
+      "label": "Measurement",
+      "properties": {
+        "value": 1,
+        "unit": "ч",
+        "verified": true
+      }
+    },
+    {
+      "id": "реакции (1-3)",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "раствор сульфита натрия",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "соль натрия",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "восстановитель",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "восстановление металлов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "непрореагировавший восстановитель",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "жидкая часть пульпы",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "выдерживание пробы",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "под стеклом",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "периодическое перемешивание",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "Таблица 1 – Состав исходных растворов для исследования",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "src_p12",
+      "label": "Source",
+      "properties": {
+        "span": "p.12"
+      }
+    },
+    {
+      "id": "осаждение золота",
+      "label": "Process",
+      "properties": {
+        "domain": "металлургия благородных металлов"
+      }
+    },
+    {
+      "id": "золотой продукт",
+      "label": "Material",
+      "properties": {
+        "type": "металл"
+      }
+    },
+    {
+      "id": "гидрохинон",
+      "label": "Material",
+      "properties": {
+        "type": "восстановитель"
+      }
+    },
+    {
+      "id": "нитрит натрия",
+      "label": "Material",
+      "properties": {
+        "type": "восстановитель"
+      }
+    },
+    {
+      "id": "щавелевая кислота",
+      "label": "Material",
+      "properties": {
+        "type": "восстановитель",
+        "solubility": "низкая"
+      }
+    },
+    {
+      "id": "пиросульфит натрия",
+      "label": "Material",
+      "properties": {
+        "type": "восстановитель"
+      }
+    },
+    {
+      "id": "серосодержащие восстановители",
+      "label": "Material",
+      "properties": {
+        "type": "восстановитель"
+      }
+    },
+    {
+      "id": "металлы платиновой группы",
+      "label": "Material",
+      "properties": {
+        "type": "металлы"
+      }
+    },
+    {
+      "id": "неблагородные металлы",
+      "label": "Material",
+      "properties": {
+        "type": "металлы"
+      }
+    },
+    {
+      "id": "оксиды азота",
+      "label": "Material",
+      "properties": {
+        "type": "отход"
+      }
+    },
+    {
+      "id": "платино-палладиевые растворы",
+      "label": "Material",
+      "properties": {
+        "type": "раствор",
+        "origin": "гидрохлорирование платино-палладиевых концентратов"
+      }
+    },
+    {
+      "id": "нитросоединения",
+      "label": "Material",
+      "properties": {
+        "type": "соединение"
+      }
+    },
+    {
+      "id": "рН",
+      "label": "Property",
+      "properties": {
+        "type": "условие"
+      }
+    },
+    {
+      "id": "температура",
+      "label": "Property",
+      "properties": {
+        "type": "условие"
+      }
+    },
+    {
+      "id": "концентрация восстановителя",
+      "label": "Property",
+      "properties": {
+        "type": "условие"
+      }
+    },
+    {
+      "id": "кислотность раствора",
+      "label": "Property",
+      "properties": {
+        "type": "условие"
+      }
+    },
+    {
+      "id": "содержание примесей",
+      "label": "Property",
+      "properties": {
+        "type": "параметр"
+      }
+    },
+    {
+      "id": "полнота осаждения золота",
+      "label": "Property",
+      "properties": {
+        "type": "параметр"
+      }
+    },
+    {
+      "id": "селективность осаждения",
+      "label": "Property",
+      "properties": {
+        "type": "параметр"
+      }
+    },
+    {
+      "id": "растворимость щавелевой кислоты",
+      "label": "Property",
+      "properties": {
+        "type": "параметр"
+      }
+    },
+    {
+      "id": "АО «Уралэлектромедь»",
+      "label": "Facility",
+      "properties": {
+        "type": "завод"
+      }
+    },
+    {
+      "id": "аффинажные заводы",
+      "label": "Facility",
+      "properties": {
+        "type": "завод"
+      }
+    },
+    {
+      "id": "сорбция",
+      "label": "Process",
+      "properties": {
+        "domain": "извлечение"
+      }
+    },
+    {
+      "id": "экстракция",
+      "label": "Process",
+      "properties": {
+        "domain": "извлечение"
+      }
+    },
+    {
+      "id": "химическое осаждение",
+      "label": "Process",
+      "properties": {
+        "domain": "извлечение"
+      }
+    },
+    {
+      "id": "src_ref1",
+      "label": "Source",
+      "properties": {
+        "span": "p.1"
+      }
+    },
+    {
+      "id": "src_ref5",
+      "label": "Source",
+      "properties": {
+        "span": "p.5"
+      }
+    },
+    {
+      "id": "src_ref6",
+      "label": "Source",
+      "properties": {
+        "span": "p.6"
+      }
+    },
+    {
+      "id": "src_ref9",
+      "label": "Source",
+      "properties": {
+        "span": "p.9"
+      }
+    },
+    {
+      "id": "src_ref12",
+      "label": "Source",
+      "properties": {
+        "span": "p.12"
+      }
+    },
+    {
+      "id": "таблица 2",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "рисунок 3",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "опыты 22-Au",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "рентгенофазовый анализ",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "растровая электронная микроскопия",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "рентгеноспектральный микроанализ",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "рентгеновский дифрактометр ДРОН-8",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "сканирующий двулучевой электронно-ионный микроскоп TESCAN LYRA3GMH",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "таблица 3",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "элементарное золото",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "два типа",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "сульфит натрия",
+      "label": "Material",
+      "properties": {
+        "type": "восстановитель"
+      }
+    },
+    {
+      "id": "обратное осаждение золота",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "осадок золота",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "ОВП системы",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "Рисунок 2",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "meas_sulf_096",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.96,
+        "unit": "г/г Au",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "finding_gold_precipitation_low",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_poor_precipitation_at_stoich",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_increased_precipitation_with_excess",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_sele_n_pall_platinum_tellurium_precipitation",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "src_p5",
+      "label": "Source",
+      "properties": {
+        "span": "p.5"
+      }
+    },
+    {
+      "id": "эксперимент",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "температура 50-60 °С",
+      "label": "Condition",
+      "properties": {
+        "min": 50,
+        "max": 60,
+        "unit": "°С"
+      }
+    },
+    {
+      "id": "время выдержки 1 ч",
+      "label": "Condition",
+      "properties": {
+        "value": 1,
+        "unit": "ч"
+      }
+    },
+    {
+      "id": "расход восстановителя",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "скорость ввода восстановителя",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "глубина осаждения металлов",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "кинетика осаждения компонентов раствора",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "влияние расхода восстановителя на полноту и последовательность осаждения",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "зависимость ОВП от количества восстановителя",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "зависимость глубины осаждения от скорости ввода восстановителя",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "осадок",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "химический анализ",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "анализ продуктов",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "Институт Гипроникель",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "аттестат аккредитации № РОСС RU.0001.510042",
+      "label": "Source",
+      "properties": {
+        "span": "p.4"
+      }
+    },
+    {
+      "id": "14 сентября 2015 г.",
+      "label": "Source",
+      "properties": {
+        "span": "p.4"
+      }
+    },
+    {
+      "id": "p.4",
+      "label": "Source",
+      "properties": {
+        "span": "p.4"
+      }
+    },
+    {
+      "id": "рисунок 1",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "зависимость продолжительности ввода восстановителя от его количества",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "зависимость расхода восстановителя от ОВП системы",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "зависимость глубины осаждения металлов от скорости ввода восстановителя",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "измерение pH",
+      "label": "Measurement",
+      "properties": {}
+    },
+    {
+      "id": "измерение ОВП",
+      "label": "Measurement",
+      "properties": {}
+    },
+    {
+      "id": "золото",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "селенистая кислота",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "элементарный селен",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "гексахлороплатинат-ион",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "тетрахлороплатинат-ион",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "теллур",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "палладий",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "ввод восстановителя",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "скорость подачи восстановителя",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "последовательность процессов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "неполное восстановление золота",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "кинетические закономерности осаждения золота",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "формирование зародышей частиц металлической фазы",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "укрупнение зародышей частиц металлической фазы",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "уравнение реакции 1",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "уравнение реакции 2",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "уравнение реакции 3",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign"
+      }
+    },
+    {
+      "id": "титановый реактор",
+      "label": "Equipment",
+      "properties": {
+        "volume": "50 и 250 дм3",
+        "unit": "дм3"
+      }
+    },
+    {
+      "id": "обратный осмос",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "meas_temp_70_80",
+      "label": "Measurement",
+      "properties": {
+        "min": 70,
+        "max": 80,
+        "unit": "°С",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_ph_0_5",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.5,
+        "unit": "ед.",
+        "verified": true
+      }
+    },
+    {
+      "id": "ОВП",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "meas_ovp_600_700",
+      "label": "Measurement",
+      "properties": {
+        "min": 600,
+        "max": 700,
+        "unit": "мВ",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "охлаждение",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "meas_temp_60",
+      "label": "Measurement",
+      "properties": {
+        "value": 60,
+        "unit": "°С",
+        "verified": true
+      }
+    },
+    {
+      "id": "концентрат чернового золота",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "содержание золота",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "meas_gold_resid_0_00061_0_0013",
+      "label": "Measurement",
+      "properties": {
+        "min": 0.61,
+        "max": 1.3,
+        "unit": "мг/л",
+        "operator": "range",
+        "verified": true,
+        "unit_normalized_from": "г/дм3"
+      }
+    },
+    {
+      "id": "finding_gold_recovery",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Существует реальная возможность глубокого осаждения золота сульфитом натрия до остаточного содержания в растворе 0,00061–0,0013 г/дм3"
+      }
+    },
+    {
+      "id": "meas_gold_resid_0_88",
+      "label": "Measurement",
+      "properties": {
+        "value": 880.0,
+        "unit": "мг/л",
+        "verified": true,
+        "unit_normalized_from": "г/дм3"
+      }
+    },
+    {
+      "id": "src_p7",
+      "label": "Source",
+      "properties": {
+        "span": "p.7"
+      }
+    },
+    {
+      "id": "осаждение золота сульфитом натрия",
+      "label": "Process",
+      "properties": {}
+    },
+    {
+      "id": "meas_au_resid_00061_0013",
+      "label": "Measurement",
+      "properties": {
+        "min": 0.61,
+        "max": 1.3,
+        "unit": "мг/л",
+        "operator": "range",
+        "verified": true,
+        "unit_normalized_from": "г/дм3"
+      }
+    },
+    {
+      "id": "meas_au_resid_088",
+      "label": "Measurement",
+      "properties": {
+        "value": 880.0,
+        "unit": "мг/л",
+        "verified": true,
+        "unit_normalized_from": "г/дм3"
+      }
+    },
+    {
+      "id": "finding_time_dependency",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Продолжительность процесса является определяющим фактором для снижения остаточного содержания золота"
+      }
+    },
+    {
+      "id": "meas_sodium_sulfite_154_1232",
+      "label": "Measurement",
+      "properties": {
+        "min": 1.54,
+        "max": 12.32,
+        "unit": "г/г Au",
+        "operator": "range",
+        "verified": true
+      }
+    },
+    {
+      "id": "finding_excess_sulfite",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Избыточный расход сульфита натрия приводит к снижению содержания золота в концентрате из-за соосаждения примесей"
+      }
+    },
+    {
+      "id": "finding_degasging_necessity",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Тщательная дегазация пульпы после гидрохлорирования необходима для снижения соосаждения примесей и точного управления процессом"
+      }
+    },
+    {
+      "id": "condition_oxidation_reduction_potential",
+      "label": "Condition",
+      "properties": {
+        "description": "ОВП системы должна быть менее 600 мВ"
+      }
+    },
+    {
+      "id": "meas_orep_600",
+      "label": "Measurement",
+      "properties": {
+        "max": 600,
+        "unit": "мВ",
+        "operator": "<=",
+        "verified": true
+      }
+    },
+    {
+      "id": "condition_time_hold",
+      "label": "Condition",
+      "properties": {
+        "description": "Время выдержки пульпы после окончания введения восстановителя — не менее 2 часов"
+      }
+    },
+    {
+      "id": "meas_time_hold_2h",
+      "label": "Measurement",
+      "properties": {
+        "min": 2,
+        "unit": "час",
+        "operator": ">=",
+        "verified": true
+      }
+    },
+    {
+      "id": "condition_total_process_time",
+      "label": "Condition",
+      "properties": {
+        "description": "Общая продолжительность процесса — не менее 4,5 часов"
+      }
+    },
+    {
+      "id": "meas_total_time_45h",
+      "label": "Measurement",
+      "properties": {
+        "min": 4.5,
+        "unit": "час",
+        "operator": ">=",
+        "verified": true
+      }
+    },
+    {
+      "id": "condition_partial_neutralization",
+      "label": "Condition",
+      "properties": {
+        "description": "Частичная нейтрализация свободной кислоты в растворе"
+      }
+    },
+    {
+      "id": "condition_degasging",
+      "label": "Condition",
+      "properties": {
+        "description": "Дегазация пульпы после окончания процесса гидрохлорирования"
+      }
+    },
+    {
+      "id": "PdPtkClLSemTen",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "Pd-Cl-Se",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "Pd-Pt-Cl-Se-Te",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "чешуйчатые тончайшие частицы",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "объем пробы",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "увеличение количества поданного восстановителя",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "повышение расхода сульфита натрия",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "двукратный избыток",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "Таблица 4",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "Рисунок 4",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "Рисунок 5",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "аншлиф (золотой концентрат 22-Au-1-3)",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "TESCAN LYRA3GMH",
+      "label": "Equipment",
+      "properties": {}
+    },
+    {
+      "id": "src_p6",
+      "label": "Source",
+      "properties": {
+        "span": "p.6"
+      }
+    },
+    {
+      "id": "meas_gold_10",
+      "label": "Measurement",
+      "properties": {
+        "max": 10.0,
+        "unit": "мг/л",
+        "operator": "<=",
+        "verified": true,
+        "unit_normalized_from": "мг/дм³"
+      }
+    },
+    {
+      "id": "src_p9",
+      "label": "Source",
+      "properties": {
+        "span": "p.9"
+      }
+    },
+    {
+      "id": "process_purification",
+      "label": "Process",
+      "properties": {
+        "domain": "металлургия"
+      }
+    },
+    {
+      "id": "остаточное содержание золота в растворе",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "продолжительность процесса",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "содержание золота в золотом концентрате",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "расход сульфита натрия",
+      "label": "Condition",
+      "properties": {}
+    },
+    {
+      "id": "содержание платины в золотом концентрате",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "содержание палладия в золотом концентрате",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "содержание селена в золотом концентрате",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "содержание теллура в золотом концентрате",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "извлечение золота в золотой концентрат",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "последовательность осаждения металлов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "выделение палладия",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "выделение селена",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "выделение платины",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "выделение теллура",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "сложные двойные соли – халькогениды-хлориды",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "лабораторные исследования",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "опытно-промышленные испытания",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "заключение",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "meas_au_res_45",
+      "label": "Measurement",
+      "properties": {
+        "max": 45.0,
+        "unit": "мг/л",
+        "operator": "<=",
+        "verified": true,
+        "unit_normalized_from": "мг/дм³"
+      }
+    },
+    {
+      "id": "meas_pt_2",
+      "label": "Measurement",
+      "properties": {
+        "value": 2,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_pd_9",
+      "label": "Measurement",
+      "properties": {
+        "value": 9,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_se_lt_1",
+      "label": "Measurement",
+      "properties": {
+        "max": 1,
+        "unit": "%",
+        "operator": "<",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_tell_lt_1",
+      "label": "Measurement",
+      "properties": {
+        "max": 1,
+        "unit": "%",
+        "operator": "<",
+        "verified": true
+      }
+    },
+    {
+      "id": "finding_yield_997",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "value": 99.7,
+        "unit": "%"
+      }
+    },
+    {
+      "id": "finding_sequence",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_pd_separation",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_se_separation",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_pt_separation",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_tell_separation",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "finding_complex_salts",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "src_p8",
+      "label": "Source",
+      "properties": {
+        "span": "p.8"
+      }
+    },
+    {
+      "id": "восстановительная обработка",
+      "label": "Process",
+      "properties": {
+        "domain": "металлургия"
+      }
+    },
+    {
+      "id": "гидрохлорирование",
+      "label": "Process",
+      "properties": {
+        "domain": "металлургия"
+      }
+    },
+    {
+      "id": "платино-палладиевые концентраты",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "ПАО «ГМК «Норильский Никель»",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "ИУ НТЦ",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "ИГН",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "ООО «Институт Гипроникель»",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "испытательный аналитический центр ООО «Институт Гипроникель»",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "двойные соли (селенид-хлорид палладия)",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "селенотеллурид-хлорид платины-палладия",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "селен",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "платина",
+      "label": "Material",
+      "properties": {}
+    },
+    {
+      "id": "BSE-изображение",
+      "label": "Topic",
+      "properties": {}
+    },
+    {
+      "id": "карта распределения элементов",
+      "label": "Topic",
+      "properties": {}
+    },
+    {
+      "id": "состав компонентов золотых концентратов",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "вес. %",
+      "label": "Property",
+      "properties": {}
+    },
+    {
+      "id": "РСМА",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU"
+      }
+    },
+    {
+      "id": "70-80°С",
+      "label": "Condition",
+      "properties": {
+        "min": 70,
+        "max": 80,
+        "unit": "°С"
+      }
+    },
+    {
+      "id": "подтверждение данных лабораторных испытаний",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "масштабный перенос",
+      "label": "Topic",
+      "properties": {}
+    },
+    {
+      "id": "meas_au_10",
+      "label": "Measurement",
+      "properties": {
+        "max": 10.0,
+        "unit": "мг/л",
+        "operator": "<=",
+        "verified": true,
+        "unit_normalized_from": "мг/дм3"
+      }
+    },
+    {
+      "id": "finding_selective_recovery_au",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "возможность практически селективного осаждения золота от прочих примесей"
+      }
+    },
+    {
+      "id": "finding_concentrate_recovery",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "возможность совместного осаждения золото-селенового концентрата, содержащего платину и палладий"
+      }
+    },
+    {
+      "id": "condition_700_750_mv",
+      "label": "Condition",
+      "properties": {
+        "description": "снижение ОВП системы до 700-750 мВ и ниже"
+      }
+    },
+    {
+      "id": "process_chlorination",
+      "label": "Process",
+      "properties": {
+        "domain": "обработка концентратов"
+      }
+    },
+    {
+      "id": "material_palladium",
+      "label": "Material",
+      "properties": {
+        "type": "металл"
+      }
+    },
+    {
+      "id": "material_platinum",
+      "label": "Material",
+      "properties": {
+        "type": "металл"
+      }
+    },
+    {
+      "id": "material_selenium",
+      "label": "Material",
+      "properties": {
+        "type": "элемент"
+      }
+    },
+    {
+      "id": "material_tellurium",
+      "label": "Material",
+      "properties": {
+        "type": "элемент"
+      }
+    },
+    {
+      "id": "property_se_iv_se_vi_ratio",
+      "label": "Property",
+      "properties": {
+        "name": "Se(IV)/Se(VI) ratio"
+      }
+    },
+    {
+      "id": "property_te_iv_te_vi_ratio",
+      "label": "Property",
+      "properties": {
+        "name": "Te(IV)/Te(VI) ratio"
+      }
+    },
+    {
+      "id": "src_p361",
+      "label": "Source",
+      "properties": {
+        "span": "p.361"
+      }
+    },
+    {
+      "id": "22-Au-1-1",
+      "label": "Experiment",
+      "properties": {}
+    },
+    {
+      "id": "meas_Au_79_4",
+      "label": "Measurement",
+      "properties": {
+        "value": 79.4,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Pt_18",
+      "label": "Measurement",
+      "properties": {
+        "value": 18,
+        "unit": "мг/л",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Pd_3_3",
+      "label": "Measurement",
+      "properties": {
+        "value": 3.3,
+        "unit": "мг/л",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Se_0_015",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.015,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Te_0_005",
+      "label": "Measurement",
+      "properties": {
+        "value": 0.005,
+        "unit": "%",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_OVP_729",
+      "label": "Measurement",
+      "properties": {
+        "value": 729,
+        "unit": "мВ",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Na2SO3_18",
+      "label": "Measurement",
+      "properties": {
+        "value": 18,
+        "unit": "мин",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Au_input_1_8",
+      "label": "Measurement",
+      "properties": {
+        "value": 1.8,
+        "unit": "г/г Au",
+        "operator": "=",
+        "verified": true
+      }
+    },
+    {
+      "id": "meas_Au_residual_4_01",
+      "label": "Measurement",
+      "properties": {
+        "value": 4010.0,
+        "unit": "мг/л",
+        "operator": "=",
+        "verified": true,
+        "unit_normalized_from": "г/дм³"
+      }
+    },
+    {
+      "id": "finding_Au_recovery_79_4",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Доля извлечения золота составила 79,4%"
+      }
+    },
+    {
+      "id": "Property_Au",
+      "label": "Property",
+      "properties": {
+        "name": "Au",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Property_Pt",
+      "label": "Property",
+      "properties": {
+        "name": "Pt",
+        "unit": "мг/л"
+      }
+    },
+    {
+      "id": "Property_Pd",
+      "label": "Property",
+      "properties": {
+        "name": "Pd",
+        "unit": "мг/л"
+      }
+    },
+    {
+      "id": "Property_Se",
+      "label": "Property",
+      "properties": {
+        "name": "Se",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Property_Te",
+      "label": "Property",
+      "properties": {
+        "name": "Te",
+        "unit": "%"
+      }
+    },
+    {
+      "id": "Property_OVP",
+      "label": "Property",
+      "properties": {
+        "name": "ОВП",
+        "unit": "мВ"
+      }
+    },
+    {
+      "id": "Property_Na2SO3",
+      "label": "Property",
+      "properties": {
+        "name": "Na2SO3",
+        "unit": "мин"
+      }
+    },
+    {
+      "id": "Property_Au_input",
+      "label": "Property",
+      "properties": {
+        "name": "г/г Au",
+        "unit": "г/г Au"
+      }
+    },
+    {
+      "id": "Property_Au_residual",
+      "label": "Property",
+      "properties": {
+        "name": "Auост",
+        "unit": "г/дм³"
+      }
+    },
+    {
+      "id": "Expert_Иванов_Иван_Иванович",
+      "label": "Expert",
+      "properties": {
+        "name": "Иванов Иван Иванович",
+        "email": "ivanov@institute.ru"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "PdCl42–/Pd",
+      "target": "meas_pot_0.62",
+      "type": "has_measurement"
+    },
+    {
+      "source": "PtCl62–/PtCl42–",
+      "target": "meas_pot_0.68",
+      "type": "has_measurement"
+    },
+    {
+      "source": "PtCl42–/Pt",
+      "target": "meas_pot_0.73",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_pot_0.62",
+      "target": "src_p2",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_pot_0.68",
+      "target": "src_p2",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_pot_0.73",
+      "target": "src_p2",
+      "type": "has_source"
+    },
+    {
+      "source": "химическое восстановление",
+      "target": "finding_gold_extraction",
+      "type": "showed"
+    },
+    {
+      "source": "finding_gold_extraction",
+      "target": "src_p2",
+      "type": "has_source"
+    },
+    {
+      "source": "химическое восстановление",
+      "target": "meas_pot_1.0",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_pot_1.0",
+      "target": "src_p2",
+      "type": "has_source"
+    },
+    {
+      "source": "таллов вскрытие платино-палладиевых концентратов",
+      "target": "солянокислый раствор",
+      "type": "produces_output"
+    },
+    {
+      "source": "солянокислый раствор",
+      "target": "AuCl4–/Au",
+      "type": "has_measurement"
+    },
+    {
+      "source": "AuCl4–/Au",
+      "target": "meas_potential_1",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_potential_1",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "таллов вскрытие платино-палладиевых концентратов",
+      "target": "растворы хлорирования",
+      "type": "applies_to"
+    },
+    {
+      "source": "растворы хлорирования",
+      "target": "Pd(IV)",
+      "type": "measures_property"
+    },
+    {
+      "source": "растворы хлорирования",
+      "target": "Se(VI)",
+      "type": "measures_property"
+    },
+    {
+      "source": "растворы хлорирования",
+      "target": "Au(III)",
+      "type": "measures_property"
+    },
+    {
+      "source": "дегазация",
+      "target": "Pd(IV)",
+      "type": "has_measurement"
+    },
+    {
+      "source": "дегазация",
+      "target": "Se(VI)",
+      "type": "has_measurement"
+    },
+    {
+      "source": "дегазация",
+      "target": "Pd(II)",
+      "type": "produces_output"
+    },
+    {
+      "source": "дегазация",
+      "target": "Se(IV)",
+      "type": "produces_output"
+    },
+    {
+      "source": "дегазация",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "PdCl42–/Pd",
+      "target": "meas_potential_0_62",
+      "type": "measures_property"
+    },
+    {
+      "source": "PtCl62–/PtCl42–",
+      "target": "meas_potential_0_68",
+      "type": "measures_property"
+    },
+    {
+      "source": "PtCl42–/Pt",
+      "target": "meas_potential_0_73",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_potential_0_62",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_potential_0_68",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_potential_0_73",
+      "target": "src_p1",
+      "type": "has_source"
+    },
+    {
+      "source": "гидрометаллургии ООО «Институт Гипроникель»",
+      "target": "исследование",
+      "type": "conducted_at"
+    },
+    {
+      "source": "исследование",
+      "target": "Таблица 1 – Состав исходных растворов для исследования",
+      "type": "described_in"
+    },
+    {
+      "source": "исследование",
+      "target": "стеклянный реактор",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "стеклянный реактор",
+      "target": "механическое перемешивание",
+      "type": "has_measurement"
+    },
+    {
+      "source": "механическое перемешивание",
+      "target": "системы контроля рН и окислительно-восстановительного потенциала",
+      "type": "has_measurement"
+    },
+    {
+      "source": "исследование",
+      "target": "нагрев",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "нагрев",
+      "target": "50-60°С",
+      "type": "has_measurement"
+    },
+    {
+      "source": "подача раствора сульфита натрия",
+      "target": "250 г/дм3",
+      "type": "has_measurement"
+    },
+    {
+      "source": "подача раствора сульфита натрия",
+      "target": "кварцевая трубка",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "подача раствора сульфита натрия",
+      "target": "перистальтический насос",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "исследование",
+      "target": "отбор проб",
+      "type": "has_measurement"
+    },
+    {
+      "source": "отбор проб",
+      "target": "50%",
+      "type": "has_measurement"
+    },
+    {
+      "source": "отбор проб",
+      "target": "100%",
+      "type": "has_measurement"
+    },
+    {
+      "source": "отбор проб",
+      "target": "150%",
+      "type": "has_measurement"
+    },
+    {
+      "source": "отбор проб",
+      "target": "200%",
+      "type": "has_measurement"
+    },
+    {
+      "source": "отбор проб",
+      "target": "125%",
+      "type": "has_measurement"
+    },
+    {
+      "source": "отбор проб",
+      "target": "175%",
+      "type": "has_measurement"
+    },
+    {
+      "source": "отбор проб",
+      "target": "1 ч",
+      "type": "has_measurement"
+    },
+    {
+      "source": "отбор проб",
+      "target": "50-60 °С",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "отбор проб",
+      "target": "периодическое перемешивание",
+      "type": "has_measurement"
+    },
+    {
+      "source": "исследование",
+      "target": "реакции (1-3)",
+      "type": "described_in"
+    },
+    {
+      "source": "реакции (1-3)",
+      "target": "раствор сульфита натрия",
+      "type": "uses_material"
+    },
+    {
+      "source": "раствор сульфита натрия",
+      "target": "250 г/дм3",
+      "type": "has_measurement"
+    },
+    {
+      "source": "раствор сульфита натрия",
+      "target": "соль натрия",
+      "type": "produces_output"
+    },
+    {
+      "source": "раствор сульфита натрия",
+      "target": "восстановитель",
+      "type": "uses_material"
+    },
+    {
+      "source": "исследование",
+      "target": "восстановление металлов",
+      "type": "showed"
+    },
+    {
+      "source": "восстановление металлов",
+      "target": "непрореагировавший восстановитель",
+      "type": "produces_output"
+    },
+    {
+      "source": "непрореагировавший восстановитель",
+      "target": "жидкая часть пульпы",
+      "type": "applies_to"
+    },
+    {
+      "source": "исследование",
+      "target": "выдерживание пробы",
+      "type": "has_measurement"
+    },
+    {
+      "source": "выдерживание пробы",
+      "target": "1 ч",
+      "type": "has_measurement"
+    },
+    {
+      "source": "выдерживание пробы",
+      "target": "50-60 °С",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "выдерживание пробы",
+      "target": "под стеклом",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "выдерживание пробы",
+      "target": "периодическое перемешивание",
+      "type": "has_measurement"
+    },
+    {
+      "source": "гидрохинон",
+      "target": "осаждение золота",
+      "type": "uses_material"
+    },
+    {
+      "source": "нитрит натрия",
+      "target": "осаждение золота",
+      "type": "uses_material"
+    },
+    {
+      "source": "щавелевая кислота",
+      "target": "осаждение золота",
+      "type": "uses_material"
+    },
+    {
+      "source": "пиросульфит натрия",
+      "target": "осаждение золота",
+      "type": "uses_material"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "золотой продукт",
+      "type": "produces_output"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "металлы платиновой группы",
+      "type": "applies_to"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "неблагородные металлы",
+      "type": "applies_to"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "рН",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "температура",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "концентрация восстановителя",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "щавелевая кислота",
+      "type": "uses_material"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "гидрохинон",
+      "type": "uses_material"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "нитрит натрия",
+      "type": "uses_material"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "пиросульфит натрия",
+      "type": "uses_material"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "оксиды азота",
+      "type": "produces_output"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "платино-палладиевые растворы",
+      "type": "applies_to"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "нитросоединения",
+      "type": "applies_to"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "содержание примесей",
+      "type": "measures_property"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "полнота осаждения золота",
+      "type": "measures_property"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "селективность осаждения",
+      "type": "measures_property"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "растворимость щавелевой кислоты",
+      "type": "measures_property"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "кислотность раствора",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "серосодержащие восстановители",
+      "type": "uses_material"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "АО «Уралэлектромедь»",
+      "type": "conducted_at"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "аффинажные заводы",
+      "type": "applies_to"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "сорбция",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "экстракция",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "химическое осаждение",
+      "type": "applies_to"
+    },
+    {
+      "source": "таблица 2",
+      "target": "опыты 22-Au",
+      "type": "described_in"
+    },
+    {
+      "source": "опыты 22-Au",
+      "target": "рентгенофазовый анализ",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "опыты 22-Au",
+      "target": "растровая электронная микроскопия",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "опыты 22-Au",
+      "target": "рентгеноспектральный микроанализ",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "рентгенофазовый анализ",
+      "target": "рентгеновский дифрактометр ДРОН-8",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "растровая электронная микроскопия",
+      "target": "сканирующий двулучевой электронно-ионный микроскоп TESCAN LYRA3GMH",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "таблица 3",
+      "target": "элементарное золото",
+      "type": "described_in"
+    },
+    {
+      "source": "таблица 3",
+      "target": "два типа",
+      "type": "described_in"
+    },
+    {
+      "source": "опыты 22-Au",
+      "target": "таблица 3",
+      "type": "described_in"
+    },
+    {
+      "source": "сульфит натрия",
+      "target": "обратное осаждение золота",
+      "type": "uses_material"
+    },
+    {
+      "source": "обратное осаждение золота",
+      "target": "осадок золота",
+      "type": "produces_output"
+    },
+    {
+      "source": "обратное осаждение золота",
+      "target": "ОВП системы",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "обратное осаждение золота",
+      "target": "Рисунок 2",
+      "type": "described_in"
+    },
+    {
+      "source": "обратное осаждение золота",
+      "target": "рисунок 3",
+      "type": "described_in"
+    },
+    {
+      "source": "Рисунок 2",
+      "target": "таблица 2",
+      "type": "described_in"
+    },
+    {
+      "source": "таблица 2",
+      "target": "meas_sulf_096",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_sulf_096",
+      "target": "сульфит натрия",
+      "type": "measures_property"
+    },
+    {
+      "source": "meas_sulf_096",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "обратное осаждение золота",
+      "target": "finding_gold_precipitation_low",
+      "type": "showed"
+    },
+    {
+      "source": "finding_gold_precipitation_low",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "обратное осаждение золота",
+      "target": "finding_poor_precipitation_at_stoich",
+      "type": "showed"
+    },
+    {
+      "source": "finding_poor_precipitation_at_stoich",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "обратное осаждение золота",
+      "target": "finding_increased_precipitation_with_excess",
+      "type": "showed"
+    },
+    {
+      "source": "finding_increased_precipitation_with_excess",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "обратное осаждение золота",
+      "target": "finding_sele_n_pall_platinum_tellurium_precipitation",
+      "type": "showed"
+    },
+    {
+      "source": "finding_sele_n_pall_platinum_tellurium_precipitation",
+      "target": "src_p5",
+      "type": "has_source"
+    },
+    {
+      "source": "эксперимент",
+      "target": "измерение pH",
+      "type": "has_measurement"
+    },
+    {
+      "source": "эксперимент",
+      "target": "измерение ОВП",
+      "type": "has_measurement"
+    },
+    {
+      "source": "эксперимент",
+      "target": "фильтрация",
+      "type": "produces_output"
+    },
+    {
+      "source": "фильтрация",
+      "target": "осадок",
+      "type": "produces_output"
+    },
+    {
+      "source": "осадок",
+      "target": "химический анализ",
+      "type": "applies_to"
+    },
+    {
+      "source": "осадок",
+      "target": "рентгенофазовый анализ",
+      "type": "applies_to"
+    },
+    {
+      "source": "эксперимент",
+      "target": "анализ продуктов",
+      "type": "described_in"
+    },
+    {
+      "source": "анализ продуктов",
+      "target": "Институт Гипроникель",
+      "type": "conducted_at"
+    },
+    {
+      "source": "эксперимент",
+      "target": "рисунок 1",
+      "type": "described_in"
+    },
+    {
+      "source": "эксперимент",
+      "target": "Рисунок 2",
+      "type": "described_in"
+    },
+    {
+      "source": "эксперимент",
+      "target": "восстановитель",
+      "type": "uses_material"
+    },
+    {
+      "source": "эксперимент",
+      "target": "температура 50-60 °С",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "эксперимент",
+      "target": "периодическое перемешивание",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "эксперимент",
+      "target": "время выдержки 1 ч",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "эксперимент",
+      "target": "скорость ввода восстановителя",
+      "type": "measures_property"
+    },
+    {
+      "source": "эксперимент",
+      "target": "расход восстановителя",
+      "type": "measures_property"
+    },
+    {
+      "source": "эксперимент",
+      "target": "ОВП системы",
+      "type": "measures_property"
+    },
+    {
+      "source": "эксперимент",
+      "target": "глубина осаждения металлов",
+      "type": "measures_property"
+    },
+    {
+      "source": "эксперимент",
+      "target": "кинетика осаждения компонентов раствора",
+      "type": "measures_property"
+    },
+    {
+      "source": "эксперимент",
+      "target": "влияние расхода восстановителя на полноту и последовательность осаждения",
+      "type": "showed"
+    },
+    {
+      "source": "эксперимент",
+      "target": "зависимость ОВП от количества восстановителя",
+      "type": "showed"
+    },
+    {
+      "source": "эксперимент",
+      "target": "зависимость глубины осаждения от скорости ввода восстановителя",
+      "type": "showed"
+    },
+    {
+      "source": "рисунок 1",
+      "target": "зависимость продолжительности ввода восстановителя от его количества",
+      "type": "described_in"
+    },
+    {
+      "source": "рисунок 1",
+      "target": "зависимость расхода восстановителя от ОВП системы",
+      "type": "described_in"
+    },
+    {
+      "source": "Рисунок 2",
+      "target": "зависимость глубины осаждения металлов от скорости ввода восстановителя",
+      "type": "described_in"
+    },
+    {
+      "source": "восстановитель",
+      "target": "непрореагировавший восстановитель",
+      "type": "produces_output"
+    },
+    {
+      "source": "непрореагировавший восстановитель",
+      "target": "прекращение процесса восстановления",
+      "type": "contradicts"
+    },
+    {
+      "source": "эксперимент",
+      "target": "Институт Гипроникель",
+      "type": "validated_by"
+    },
+    {
+      "source": "эксперимент",
+      "target": "аттестат аккредитации № РОСС RU.0001.510042",
+      "type": "has_source"
+    },
+    {
+      "source": "эксперимент",
+      "target": "14 сентября 2015 г.",
+      "type": "has_source"
+    },
+    {
+      "source": "эксперимент",
+      "target": "p.4",
+      "type": "has_source"
+    },
+    {
+      "source": "рисунок 1",
+      "target": "Рисунок 2",
+      "type": "contradicts"
+    },
+    {
+      "source": "рисунок 1",
+      "target": "уравнение реакции 1",
+      "type": "described_in"
+    },
+    {
+      "source": "уравнение реакции 1",
+      "target": "золото",
+      "type": "produces_output"
+    },
+    {
+      "source": "уравнение реакции 2",
+      "target": "селенистая кислота",
+      "type": "applies_to"
+    },
+    {
+      "source": "уравнение реакции 2",
+      "target": "элементарный селен",
+      "type": "produces_output"
+    },
+    {
+      "source": "уравнение реакции 3",
+      "target": "гексахлороплатинат-ион",
+      "type": "applies_to"
+    },
+    {
+      "source": "уравнение реакции 3",
+      "target": "тетрахлороплатинат-ион",
+      "type": "produces_output"
+    },
+    {
+      "source": "теллур",
+      "target": "палладий",
+      "type": "produces_output"
+    },
+    {
+      "source": "скорость подачи восстановителя",
+      "target": "ввод восстановителя",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "расход восстановителя",
+      "target": "ОВП системы",
+      "type": "measures_property"
+    },
+    {
+      "source": "ОВП системы",
+      "target": "уравнение реакции 1",
+      "type": "described_in"
+    },
+    {
+      "source": "ввод восстановителя",
+      "target": "рисунок 1",
+      "type": "described_in"
+    },
+    {
+      "source": "ввод восстановителя",
+      "target": "Рисунок 2",
+      "type": "described_in"
+    },
+    {
+      "source": "скорость подачи восстановителя",
+      "target": "рисунок 1",
+      "type": "described_in"
+    },
+    {
+      "source": "расход восстановителя",
+      "target": "рисунок 1",
+      "type": "described_in"
+    },
+    {
+      "source": "ввод восстановителя",
+      "target": "скорость подачи восстановителя",
+      "type": "measures_property"
+    },
+    {
+      "source": "ввод восстановителя",
+      "target": "расход восстановителя",
+      "type": "measures_property"
+    },
+    {
+      "source": "ввод восстановителя",
+      "target": "последовательность процессов",
+      "type": "supports"
+    },
+    {
+      "source": "последовательность процессов",
+      "target": "золото",
+      "type": "produces_output"
+    },
+    {
+      "source": "последовательность процессов",
+      "target": "селенистая кислота",
+      "type": "produces_output"
+    },
+    {
+      "source": "последовательность процессов",
+      "target": "гексахлороплатинат-ион",
+      "type": "produces_output"
+    },
+    {
+      "source": "последовательность процессов",
+      "target": "теллур",
+      "type": "produces_output"
+    },
+    {
+      "source": "последовательность процессов",
+      "target": "палладий",
+      "type": "produces_output"
+    },
+    {
+      "source": "последовательность процессов",
+      "target": "неполное восстановление золота",
+      "type": "contradicts"
+    },
+    {
+      "source": "неполное восстановление золота",
+      "target": "скорость подачи восстановителя",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "неполное восстановление золота",
+      "target": "расход восстановителя",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "неполное восстановление золота",
+      "target": "кинетические закономерности осаждения золота",
+      "type": "supports"
+    },
+    {
+      "source": "кинетические закономерности осаждения золота",
+      "target": "формирование зародышей частиц металлической фазы",
+      "type": "described_in"
+    },
+    {
+      "source": "кинетические закономерности осаждения золота",
+      "target": "укрупнение зародышей частиц металлической фазы",
+      "type": "described_in"
+    },
+    {
+      "source": "последовательность процессов",
+      "target": "рисунок 1",
+      "type": "described_in"
+    },
+    {
+      "source": "последовательность процессов",
+      "target": "Рисунок 2",
+      "type": "described_in"
+    },
+    {
+      "source": "сульфит натрия",
+      "target": "обратный осмос",
+      "type": "uses_material"
+    },
+    {
+      "source": "титановый реактор",
+      "target": "обратный осмос",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "обратный осмос",
+      "target": "температура",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "температура",
+      "target": "meas_temp_70_80",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_temp_70_80",
+      "target": "src_p7",
+      "type": "has_source"
+    },
+    {
+      "source": "обратный осмос",
+      "target": "рН",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "рН",
+      "target": "meas_ph_0_5",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_ph_0_5",
+      "target": "src_p7",
+      "type": "has_source"
+    },
+    {
+      "source": "обратный осмос",
+      "target": "ОВП",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "ОВП",
+      "target": "meas_ovp_600_700",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_ovp_600_700",
+      "target": "src_p7",
+      "type": "has_source"
+    },
+    {
+      "source": "обратный осмос",
+      "target": "охлаждение",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "охлаждение",
+      "target": "meas_temp_60",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_temp_60",
+      "target": "src_p7",
+      "type": "has_source"
+    },
+    {
+      "source": "обратный осмос",
+      "target": "концентрат чернового золота",
+      "type": "produces_output"
+    },
+    {
+      "source": "концентрат чернового золота",
+      "target": "содержание золота",
+      "type": "measures_property"
+    },
+    {
+      "source": "содержание золота",
+      "target": "meas_gold_resid_0_00061_0_0013",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_gold_resid_0_00061_0_0013",
+      "target": "src_p7",
+      "type": "has_source"
+    },
+    {
+      "source": "обратный осмос",
+      "target": "finding_gold_recovery",
+      "type": "showed"
+    },
+    {
+      "source": "finding_gold_recovery",
+      "target": "src_p7",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_gold_recovery",
+      "target": "meas_gold_resid_0_00061_0_0013",
+      "type": "supports"
+    },
+    {
+      "source": "finding_gold_recovery",
+      "target": "meas_gold_resid_0_88",
+      "type": "contradicts"
+    },
+    {
+      "source": "meas_gold_resid_0_88",
+      "target": "src_p7",
+      "type": "has_source"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "meas_au_resid_00061_0013",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_au_resid_00061_0013",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "meas_au_resid_088",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_au_resid_088",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "finding_time_dependency",
+      "type": "showed"
+    },
+    {
+      "source": "finding_time_dependency",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "meas_sodium_sulfite_154_1232",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_sodium_sulfite_154_1232",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "finding_excess_sulfite",
+      "type": "showed"
+    },
+    {
+      "source": "finding_excess_sulfite",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "finding_degasging_necessity",
+      "type": "showed"
+    },
+    {
+      "source": "finding_degasging_necessity",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "condition_oxidation_reduction_potential",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "condition_oxidation_reduction_potential",
+      "target": "meas_orep_600",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_orep_600",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "condition_time_hold",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "condition_time_hold",
+      "target": "meas_time_hold_2h",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_time_hold_2h",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "condition_total_process_time",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "condition_total_process_time",
+      "target": "meas_total_time_45h",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_total_time_45h",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "condition_partial_neutralization",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "condition_degasging",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "TESCAN LYRA3GMH",
+      "target": "обратный осмос",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "обратный осмос",
+      "target": "элементарное золото",
+      "type": "produces_output"
+    },
+    {
+      "source": "обратный осмос",
+      "target": "PdPtkClLSemTen",
+      "type": "produces_output"
+    },
+    {
+      "source": "обратный осмос",
+      "target": "Pd-Cl-Se",
+      "type": "produces_output"
+    },
+    {
+      "source": "обратный осмос",
+      "target": "Pd-Pt-Cl-Se-Te",
+      "type": "produces_output"
+    },
+    {
+      "source": "элементарное золото",
+      "target": "чешуйчатые тончайшие частицы",
+      "type": "applies_to"
+    },
+    {
+      "source": "Pd-Cl-Se",
+      "target": "объем пробы",
+      "type": "measures_property"
+    },
+    {
+      "source": "Pd-Pt-Cl-Se-Te",
+      "target": "объем пробы",
+      "type": "measures_property"
+    },
+    {
+      "source": "обратный осмос",
+      "target": "сульфит натрия",
+      "type": "uses_material"
+    },
+    {
+      "source": "сульфит натрия",
+      "target": "двукратный избыток",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "обратный осмос",
+      "target": "увеличение количества поданного восстановителя",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "обратный осмос",
+      "target": "повышение расхода сульфита натрия",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "обратный осмос",
+      "target": "таблица 3",
+      "type": "described_in"
+    },
+    {
+      "source": "обратный осмос",
+      "target": "Таблица 4",
+      "type": "described_in"
+    },
+    {
+      "source": "обратный осмос",
+      "target": "Рисунок 5",
+      "type": "described_in"
+    },
+    {
+      "source": "Рисунок 5",
+      "target": "BSE-изображение",
+      "type": "produces_output"
+    },
+    {
+      "source": "Рисунок 5",
+      "target": "карта распределения элементов",
+      "type": "produces_output"
+    },
+    {
+      "source": "Рисунок 5",
+      "target": "аншлиф (золотой концентрат 22-Au-1-3)",
+      "type": "applies_to"
+    },
+    {
+      "source": "обратный осмос",
+      "target": "исследование",
+      "type": "conducted_at"
+    },
+    {
+      "source": "исследование",
+      "target": "таблица 3",
+      "type": "described_in"
+    },
+    {
+      "source": "исследование",
+      "target": "Рисунок 4",
+      "type": "described_in"
+    },
+    {
+      "source": "исследование",
+      "target": "Рисунок 5",
+      "type": "described_in"
+    },
+    {
+      "source": "исследование",
+      "target": "Таблица 4",
+      "type": "described_in"
+    },
+    {
+      "source": "исследование",
+      "target": "PdPtkClLSemTen",
+      "type": "showed"
+    },
+    {
+      "source": "исследование",
+      "target": "элементарное золото",
+      "type": "showed"
+    },
+    {
+      "source": "исследование",
+      "target": "Pd-Cl-Se",
+      "type": "showed"
+    },
+    {
+      "source": "исследование",
+      "target": "Pd-Pt-Cl-Se-Te",
+      "type": "showed"
+    },
+    {
+      "source": "исследование",
+      "target": "чешуйчатые тончайшие частицы",
+      "type": "showed"
+    },
+    {
+      "source": "исследование",
+      "target": "объем пробы",
+      "type": "showed"
+    },
+    {
+      "source": "исследование",
+      "target": "увеличение количества поданного восстановителя",
+      "type": "showed"
+    },
+    {
+      "source": "исследование",
+      "target": "повышение расхода сульфита натрия",
+      "type": "showed"
+    },
+    {
+      "source": "исследование",
+      "target": "двукратный избыток",
+      "type": "showed"
+    },
+    {
+      "source": "исследование",
+      "target": "таблица 3",
+      "type": "validated_by"
+    },
+    {
+      "source": "исследование",
+      "target": "Таблица 4",
+      "type": "validated_by"
+    },
+    {
+      "source": "исследование",
+      "target": "Рисунок 5",
+      "type": "validated_by"
+    },
+    {
+      "source": "исследование",
+      "target": "Рисунок 4",
+      "type": "validated_by"
+    },
+    {
+      "source": "исследование",
+      "target": "аншлиф (золотой концентрат 22-Au-1-3)",
+      "type": "validated_by"
+    },
+    {
+      "source": "исследование",
+      "target": "обратный осмос",
+      "type": "validated_by"
+    },
+    {
+      "source": "исследование",
+      "target": "TESCAN LYRA3GMH",
+      "type": "validated_by"
+    },
+    {
+      "source": "исследование",
+      "target": "элементарное золото",
+      "type": "validated_by"
+    },
+    {
+      "source": "исследование",
+      "target": "Pd-Cl-Se",
+      "type": "validated_by"
+    },
+    {
+      "source": "исследование",
+      "target": "Pd-Pt-Cl-Se-Te",
+      "type": "validated_by"
+    },
+    {
+      "source": "исследование",
+      "target": "чешуйчатые тончайшие частицы",
+      "type": "validated_by"
+    },
+    {
+      "source": "исследование",
+      "target": "объем пробы",
+      "type": "validated_by"
+    },
+    {
+      "source": "исследование",
+      "target": "увеличение количества поданного восстановителя",
+      "type": "validated_by"
+    },
+    {
+      "source": "исследование",
+      "target": "повышение расхода сульфита натрия",
+      "type": "validated_by"
+    },
+    {
+      "source": "исследование",
+      "target": "двукратный избыток",
+      "type": "validated_by"
+    },
+    {
+      "source": "исследование",
+      "target": "таблица 3",
+      "type": "authored_by"
+    },
+    {
+      "source": "исследование",
+      "target": "Таблица 4",
+      "type": "authored_by"
+    },
+    {
+      "source": "исследование",
+      "target": "Рисунок 5",
+      "type": "authored_by"
+    },
+    {
+      "source": "исследование",
+      "target": "Рисунок 4",
+      "type": "authored_by"
+    },
+    {
+      "source": "исследование",
+      "target": "аншлиф (золотой концентрат 22-Au-1-3)",
+      "type": "authored_by"
+    },
+    {
+      "source": "исследование",
+      "target": "обратный осмос",
+      "type": "authored_by"
+    },
+    {
+      "source": "исследование",
+      "target": "TESCAN LYRA3GMH",
+      "type": "authored_by"
+    },
+    {
+      "source": "исследование",
+      "target": "элементарное золото",
+      "type": "authored_by"
+    },
+    {
+      "source": "исследование",
+      "target": "Pd-Cl-Se",
+      "type": "authored_by"
+    },
+    {
+      "source": "исследование",
+      "target": "Pd-Pt-Cl-Se-Te",
+      "type": "authored_by"
+    },
+    {
+      "source": "исследование",
+      "target": "чешуйчатые тончайшие частицы",
+      "type": "authored_by"
+    },
+    {
+      "source": "исследование",
+      "target": "объем пробы",
+      "type": "authored_by"
+    },
+    {
+      "source": "исследование",
+      "target": "увеличение количества поданного восстановителя",
+      "type": "authored_by"
+    },
+    {
+      "source": "исследование",
+      "target": "повышение расхода сульфита натрия",
+      "type": "authored_by"
+    },
+    {
+      "source": "исследование",
+      "target": "двукратный избыток",
+      "type": "authored_by"
+    },
+    {
+      "source": "исследование",
+      "target": "таблица 3",
+      "type": "has_source"
+    },
+    {
+      "source": "исследование",
+      "target": "Таблица 4",
+      "type": "has_source"
+    },
+    {
+      "source": "исследование",
+      "target": "Рисунок 5",
+      "type": "has_source"
+    },
+    {
+      "source": "исследование",
+      "target": "Рисунок 4",
+      "type": "has_source"
+    },
+    {
+      "source": "исследование",
+      "target": "аншлиф (золотой концентрат 22-Au-1-3)",
+      "type": "has_source"
+    },
+    {
+      "source": "исследование",
+      "target": "обратный осмос",
+      "type": "has_source"
+    },
+    {
+      "source": "исследование",
+      "target": "TESCAN LYRA3GMH",
+      "type": "has_source"
+    },
+    {
+      "source": "исследование",
+      "target": "элементарное золото",
+      "type": "has_source"
+    },
+    {
+      "source": "исследование",
+      "target": "Pd-Cl-Se",
+      "type": "has_source"
+    },
+    {
+      "source": "исследование",
+      "target": "Pd-Pt-Cl-Se-Te",
+      "type": "has_source"
+    },
+    {
+      "source": "исследование",
+      "target": "чешуйчатые тончайшие частицы",
+      "type": "has_source"
+    },
+    {
+      "source": "исследование",
+      "target": "объем пробы",
+      "type": "has_source"
+    },
+    {
+      "source": "исследование",
+      "target": "увеличение количества поданного восстановителя",
+      "type": "has_source"
+    },
+    {
+      "source": "исследование",
+      "target": "повышение расхода сульфита натрия",
+      "type": "has_source"
+    },
+    {
+      "source": "исследование",
+      "target": "двукратный избыток",
+      "type": "has_source"
+    },
+    {
+      "source": "исследование",
+      "target": "таблица 3",
+      "type": "tagged"
+    },
+    {
+      "source": "исследование",
+      "target": "Таблица 4",
+      "type": "tagged"
+    },
+    {
+      "source": "исследование",
+      "target": "Рисунок 5",
+      "type": "tagged"
+    },
+    {
+      "source": "исследование",
+      "target": "Рисунок 4",
+      "type": "tagged"
+    },
+    {
+      "source": "исследование",
+      "target": "аншлиф (золотой концентрат 22-Au-1-3)",
+      "type": "tagged"
+    },
+    {
+      "source": "исследование",
+      "target": "обратный осмос",
+      "type": "tagged"
+    },
+    {
+      "source": "исследование",
+      "target": "TESCAN LYRA3GMH",
+      "type": "tagged"
+    },
+    {
+      "source": "исследование",
+      "target": "элементарное золото",
+      "type": "tagged"
+    },
+    {
+      "source": "исследование",
+      "target": "Pd-Cl-Se",
+      "type": "tagged"
+    },
+    {
+      "source": "исследование",
+      "target": "Pd-Pt-Cl-Se-Te",
+      "type": "tagged"
+    },
+    {
+      "source": "исследование",
+      "target": "чешуйчатые тончайшие частицы",
+      "type": "tagged"
+    },
+    {
+      "source": "исследование",
+      "target": "объем пробы",
+      "type": "tagged"
+    },
+    {
+      "source": "исследование",
+      "target": "увеличение количества поданного восстановителя",
+      "type": "tagged"
+    },
+    {
+      "source": "исследование",
+      "target": "повышение расхода сульфита натрия",
+      "type": "tagged"
+    },
+    {
+      "source": "исследование",
+      "target": "двукратный избыток",
+      "type": "tagged"
+    },
+    {
+      "source": "meas_gold_10",
+      "target": "src_p9",
+      "type": "has_source"
+    },
+    {
+      "source": "process_purification",
+      "target": "meas_gold_10",
+      "type": "has_measurement"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "остаточное содержание золота в растворе",
+      "type": "measures_property"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "продолжительность процесса",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "содержание золота в золотом концентрате",
+      "type": "measures_property"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "расход сульфита натрия",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "содержание платины в золотом концентрате",
+      "type": "measures_property"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "содержание палладия в золотом концентрате",
+      "type": "measures_property"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "содержание селена в золотом концентрате",
+      "type": "measures_property"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "содержание теллура в золотом концентрате",
+      "type": "measures_property"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "извлечение золота в золотой концентрат",
+      "type": "measures_property"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "ОВП системы",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "последовательность осаждения металлов",
+      "type": "showed"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "выделение палладия",
+      "type": "produces_output"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "выделение селена",
+      "type": "produces_output"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "выделение платины",
+      "type": "produces_output"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "выделение теллура",
+      "type": "produces_output"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "сложные двойные соли – халькогениды-хлориды",
+      "type": "produces_output"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "лабораторные исследования",
+      "type": "conducted_at"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "опытно-промышленные испытания",
+      "type": "conducted_at"
+    },
+    {
+      "source": "осаждение золота сульфитом натрия",
+      "target": "заключение",
+      "type": "described_in"
+    },
+    {
+      "source": "остаточное содержание золота в растворе",
+      "target": "meas_au_res_45",
+      "type": "has_measurement"
+    },
+    {
+      "source": "содержание платины в золотом концентрате",
+      "target": "meas_pt_2",
+      "type": "has_measurement"
+    },
+    {
+      "source": "содержание палладия в золотом концентрате",
+      "target": "meas_pd_9",
+      "type": "has_measurement"
+    },
+    {
+      "source": "содержание селена в золотом концентрате",
+      "target": "meas_se_lt_1",
+      "type": "has_measurement"
+    },
+    {
+      "source": "содержание теллура в золотом концентрате",
+      "target": "meas_tell_lt_1",
+      "type": "has_measurement"
+    },
+    {
+      "source": "извлечение золота в золотой концентрат",
+      "target": "finding_yield_997",
+      "type": "showed"
+    },
+    {
+      "source": "последовательность осаждения металлов",
+      "target": "finding_sequence",
+      "type": "showed"
+    },
+    {
+      "source": "выделение палладия",
+      "target": "finding_pd_separation",
+      "type": "showed"
+    },
+    {
+      "source": "выделение селена",
+      "target": "finding_se_separation",
+      "type": "showed"
+    },
+    {
+      "source": "выделение платины",
+      "target": "finding_pt_separation",
+      "type": "showed"
+    },
+    {
+      "source": "выделение теллура",
+      "target": "finding_tell_separation",
+      "type": "showed"
+    },
+    {
+      "source": "сложные двойные соли – халькогениды-хлориды",
+      "target": "finding_complex_salts",
+      "type": "produces_output"
+    },
+    {
+      "source": "meas_au_res_45",
+      "target": "src_p8",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_pt_2",
+      "target": "src_p8",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_pd_9",
+      "target": "src_p8",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_se_lt_1",
+      "target": "src_p8",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_tell_lt_1",
+      "target": "src_p8",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_yield_997",
+      "target": "src_p8",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_sequence",
+      "target": "src_p8",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_pd_separation",
+      "target": "src_p8",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_se_separation",
+      "target": "src_p8",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_pt_separation",
+      "target": "src_p8",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_tell_separation",
+      "target": "src_p8",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_complex_salts",
+      "target": "src_p8",
+      "type": "has_source"
+    },
+    {
+      "source": "восстановительная обработка",
+      "target": "осаждение золота",
+      "type": "applies_to"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "сульфит натрия",
+      "type": "uses_material"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "титановый реактор",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "70-80°С",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "механическое перемешивание",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "платино-палладиевые растворы",
+      "type": "produces_output"
+    },
+    {
+      "source": "платино-палладиевые растворы",
+      "target": "гидрохлорирование",
+      "type": "produces_output"
+    },
+    {
+      "source": "гидрохлорирование",
+      "target": "платино-палладиевые концентраты",
+      "type": "applies_to"
+    },
+    {
+      "source": "гидрохлорирование",
+      "target": "ПАО «ГМК «Норильский Никель»",
+      "type": "conducted_at"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "опытно-промышленные испытания",
+      "type": "described_in"
+    },
+    {
+      "source": "опытно-промышленные испытания",
+      "target": "ИУ НТЦ",
+      "type": "conducted_at"
+    },
+    {
+      "source": "опытно-промышленные испытания",
+      "target": "ИГН",
+      "type": "authored_by"
+    },
+    {
+      "source": "опытно-промышленные испытания",
+      "target": "ООО «Институт Гипроникель»",
+      "type": "authored_by"
+    },
+    {
+      "source": "опытно-промышленные испытания",
+      "target": "испытательный аналитический центр ООО «Институт Гипроникель»",
+      "type": "conducted_at"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "двойные соли (селенид-хлорид палладия)",
+      "type": "produces_output"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "селенотеллурид-хлорид платины-палладия",
+      "type": "produces_output"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "восстановительная обработка",
+      "type": "applies_to"
+    },
+    {
+      "source": "восстановительная обработка",
+      "target": "растворы гидрохлорирования",
+      "type": "applies_to"
+    },
+    {
+      "source": "восстановительная обработка",
+      "target": "золото",
+      "type": "measures_property"
+    },
+    {
+      "source": "восстановительная обработка",
+      "target": "селен",
+      "type": "measures_property"
+    },
+    {
+      "source": "восстановительная обработка",
+      "target": "палладий",
+      "type": "measures_property"
+    },
+    {
+      "source": "восстановительная обработка",
+      "target": "теллур",
+      "type": "measures_property"
+    },
+    {
+      "source": "восстановительная обработка",
+      "target": "платина",
+      "type": "measures_property"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "Рисунок 5",
+      "type": "described_in"
+    },
+    {
+      "source": "Рисунок 5",
+      "target": "BSE-изображение",
+      "type": "described_in"
+    },
+    {
+      "source": "Рисунок 5",
+      "target": "карта распределения элементов",
+      "type": "described_in"
+    },
+    {
+      "source": "Рисунок 5",
+      "target": "аншлиф (золотой концентрат 22-Au-1-3)",
+      "type": "described_in"
+    },
+    {
+      "source": "Таблица 4",
+      "target": "состав компонентов золотых концентратов",
+      "type": "described_in"
+    },
+    {
+      "source": "Таблица 4",
+      "target": "РСМА",
+      "type": "described_in"
+    },
+    {
+      "source": "Таблица 4",
+      "target": "вес. %",
+      "type": "described_in"
+    },
+    {
+      "source": "опытно-промышленные испытания",
+      "target": "подтверждение данных лабораторных испытаний",
+      "type": "showed"
+    },
+    {
+      "source": "опытно-промышленные испытания",
+      "target": "масштабный перенос",
+      "type": "applies_to"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "титановый реактор объемом 50 и 250 дм3",
+      "type": "uses_equipment"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "meas_au_10",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_au_10",
+      "target": "src_p361",
+      "type": "has_source"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "finding_selective_recovery_au",
+      "type": "showed"
+    },
+    {
+      "source": "finding_selective_recovery_au",
+      "target": "src_p361",
+      "type": "has_source"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "finding_concentrate_recovery",
+      "type": "showed"
+    },
+    {
+      "source": "finding_concentrate_recovery",
+      "target": "src_p361",
+      "type": "has_source"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "condition_700_750_mv",
+      "type": "operates_at_condition"
+    },
+    {
+      "source": "condition_700_750_mv",
+      "target": "src_p361",
+      "type": "has_source"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "process_chlorination",
+      "type": "applies_to"
+    },
+    {
+      "source": "process_chlorination",
+      "target": "src_p361",
+      "type": "has_source"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "material_palladium",
+      "type": "produces_output"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "material_platinum",
+      "type": "produces_output"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "material_selenium",
+      "type": "produces_output"
+    },
+    {
+      "source": "осаждение золота",
+      "target": "material_tellurium",
+      "type": "produces_output"
+    },
+    {
+      "source": "material_palladium",
+      "target": "src_p361",
+      "type": "has_source"
+    },
+    {
+      "source": "material_platinum",
+      "target": "src_p361",
+      "type": "has_source"
+    },
+    {
+      "source": "material_selenium",
+      "target": "src_p361",
+      "type": "has_source"
+    },
+    {
+      "source": "material_tellurium",
+      "target": "src_p361",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_selective_recovery_au",
+      "target": "property_se_iv_se_vi_ratio",
+      "type": "measures_property"
+    },
+    {
+      "source": "finding_concentrate_recovery",
+      "target": "property_te_iv_te_vi_ratio",
+      "type": "measures_property"
+    },
+    {
+      "source": "property_se_iv_se_vi_ratio",
+      "target": "src_p361",
+      "type": "has_source"
+    },
+    {
+      "source": "property_te_iv_te_vi_ratio",
+      "target": "src_p361",
+      "type": "has_source"
+    },
+    {
+      "source": "22-Au-1-1",
+      "target": "meas_Au_79_4",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Au_79_4",
+      "target": "Property_Au",
+      "type": "measures_property"
+    },
+    {
+      "source": "22-Au-1-1",
+      "target": "meas_Pt_18",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Pt_18",
+      "target": "Property_Pt",
+      "type": "measures_property"
+    },
+    {
+      "source": "22-Au-1-1",
+      "target": "meas_Pd_3_3",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Pd_3_3",
+      "target": "Property_Pd",
+      "type": "measures_property"
+    },
+    {
+      "source": "22-Au-1-1",
+      "target": "meas_Se_0_015",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Se_0_015",
+      "target": "Property_Se",
+      "type": "measures_property"
+    },
+    {
+      "source": "22-Au-1-1",
+      "target": "meas_Te_0_005",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Te_0_005",
+      "target": "Property_Te",
+      "type": "measures_property"
+    },
+    {
+      "source": "22-Au-1-1",
+      "target": "meas_OVP_729",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_OVP_729",
+      "target": "Property_OVP",
+      "type": "measures_property"
+    },
+    {
+      "source": "22-Au-1-1",
+      "target": "meas_Na2SO3_18",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Na2SO3_18",
+      "target": "Property_Na2SO3",
+      "type": "measures_property"
+    },
+    {
+      "source": "22-Au-1-1",
+      "target": "meas_Au_input_1_8",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Au_input_1_8",
+      "target": "Property_Au_input",
+      "type": "measures_property"
+    },
+    {
+      "source": "22-Au-1-1",
+      "target": "meas_Au_residual_4_01",
+      "type": "has_measurement"
+    },
+    {
+      "source": "meas_Au_residual_4_01",
+      "target": "Property_Au_residual",
+      "type": "measures_property"
+    },
+    {
+      "source": "22-Au-1-1",
+      "target": "finding_Au_recovery_79_4",
+      "type": "showed"
+    },
+    {
+      "source": "finding_Au_recovery_79_4",
+      "target": "Expert_Иванов_Иван_Иванович",
+      "type": "validated_by"
+    },
+    {
+      "source": "22-Au-1-1",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Au_79_4",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Pt_18",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Pd_3_3",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Se_0_015",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Te_0_005",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_OVP_729",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Na2SO3_18",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Au_input_1_8",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "meas_Au_residual_4_01",
+      "target": "src_p12",
+      "type": "has_source"
+    },
+    {
+      "source": "finding_Au_recovery_79_4",
+      "target": "src_p12",
+      "type": "has_source"
+    }
+  ]
+}
