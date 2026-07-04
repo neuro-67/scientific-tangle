@@ -56,7 +56,7 @@ export function buildSubgraphStylesheet(): cytoscape.StylesheetStyle[] {
   const edgeColor = cssHsl("--graph-edge", "#94a3b8");
   const contradiction = cssHsl("--contradiction", "#e11d48");
 
-  const base: cytoscape.StylesheetStyle[] = [
+  const base = [
     {
       selector: "node",
       style: {
@@ -81,7 +81,7 @@ export function buildSubgraphStylesheet(): cytoscape.StylesheetStyle[] {
         "shadow-opacity": 0.5,
         "shadow-offset-x": 0,
         "shadow-offset-y": 0,
-      } as any,
+      },
     },
     {
       selector: "edge",
@@ -107,7 +107,7 @@ export function buildSubgraphStylesheet(): cytoscape.StylesheetStyle[] {
         "text-outline-opacity": 1,
         "text-margin-y": -20,
         "z-index": 1,
-      } as any,
+      },
     },
     {
       selector: 'edge[type = "contradicts"]',
@@ -136,7 +136,7 @@ export function buildSubgraphStylesheet(): cytoscape.StylesheetStyle[] {
         "text-outline-color": "#ffffff",
         "text-outline-width": 1,
         "shadow-blur": 0,
-      } as any,
+      },
     },
     {
       selector: "node:selected, edge:selected",
@@ -146,9 +146,9 @@ export function buildSubgraphStylesheet(): cytoscape.StylesheetStyle[] {
         "line-color": "#0f172a",
         "target-arrow-color": "#0f172a",
         "z-index": 999,
-      } as any,
+      },
     },
-  ];
+  ] as unknown as cytoscape.StylesheetStyle[];
 
   const byType: cytoscape.StylesheetStyle[] = NODE_TYPES.map(
     ({ type, colorToken, bgToken }) => {

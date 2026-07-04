@@ -1,8 +1,15 @@
 import { useQuery } from "@tanstack/react-query";
-import { lazy, Suspense, useMemo } from "react";
+import { lazy, Suspense, useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 
-import { queryApi, searchParamsToRequest } from "@/entities/query";
+import {
+  addQueryHistory,
+  getQueryHistory,
+  queryApi,
+  requestToFilters,
+  searchParamsToRequest,
+  toggleQueryHistoryFavorite,
+} from "@/entities/query";
 import { ROUTES } from "@/shared/constants";
 import { handleApiError } from "@/shared/lib/api-error";
 import { Badge, Skeleton } from "@/shared/ui";
@@ -24,6 +31,22 @@ export function AnswerPage() {
 
   const answerQuery = useQuery(queryApi.queries.ask(request));
   const data = answerQuery.data;
+
+  const [isFavorite, setIsFavorite] = useState(() => {
+    const item = getQueryHistory().find((i) => i.question === request.question);
+    return item?.favorite ?? false;
+  });
+
+  const toggleFavorite = () => {
+    const item = getQueryHistory().find((i) => i.question === request.question);
+    if (item) {
+      toggleQueryHistoryFavorite(item.id);
+      setIsFavorite((v) => !v);
+    } else {
+      addQueryHistory(request.question, requestToFilters(request), true);
+      setIsFavorite(true);
+    }
+  };
 
   return (
     <div className="flex max-w-[1280px] flex-col gap-4 pb-8">
@@ -47,14 +70,21 @@ export function AnswerPage() {
         </div>
         <button
           type="button"
-          className="flex h-10 w-[110px] items-center justify-center gap-2 rounded-xl border border-input bg-card text-sm font-medium text-main transition-colors hover:bg-[hsl(var(--save-hover))]"
+          onClick={toggleFavorite}
+          className={`flex h-10 w-[120px] items-center justify-center gap-2 rounded-xl border text-sm font-medium transition-colors ${
+            isFavorite
+              ? "border-yellow-400 bg-yellow-50 text-yellow-600"
+              : "border-input bg-card text-main hover:bg-[hsl(var(--save-hover))]"
+          }`}
         >
           <img
             src="/assets/icon-star.png"
             alt=""
-            className="h-4 w-4 object-contain"
+            className={`h-4 w-4 object-contain ${
+              isFavorite ? "" : "brightness-0"
+            }`}
           />
-          Сохранить
+          {isFavorite ? "Сохранено" : "Сохранить"}
         </button>
       </div>
 

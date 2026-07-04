@@ -3,5 +3,6 @@ export const ROUTES = {
   login: "/",
   search: "/search",
   answer: "/answer",
+  history: "/history",
   notFound: "*",
 } as const;

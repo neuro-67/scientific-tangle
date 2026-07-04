@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import {
+  addQueryHistory,
   emptyQueryFilters,
   filtersToRequest,
   requestToSearchParams,
@@ -33,6 +34,7 @@ export function SearchPage() {
 
   const runSearch = (current: QueryFilters) => {
     if (!current.question.trim()) return;
+    addQueryHistory(current.question, current);
     const params = requestToSearchParams(filtersToRequest(current));
     navigate(`${ROUTES.answer}?${params.toString()}`);
   };

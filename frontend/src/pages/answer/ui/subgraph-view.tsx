@@ -24,13 +24,14 @@ function buildLayout(nodeCount: number): cytoscape.LayoutOptions {
   return {
     name: "grid",
     fit: true,
-    padding: 24,
+    padding: 80,
     rows: 1,
     cols: nodeCount,
     avoidOverlap: true,
+    avoidOverlapPadding: 80,
     condense: false,
     animate: false,
-  } as any;
+  } as unknown as cytoscape.LayoutOptions;
 }
 
 const TYPE_OPTIONS = ["Material", "Process", "Equipment", "Result"];
@@ -50,9 +51,13 @@ export function SubgraphView({ subgraph }: Props) {
   const [edgeSource, setEdgeSource] = useState<string | null>(null);
 
   const cyRef = useRef<cytoscape.Core | null>(null);
-  const prevCountRef = useRef({ nodes: nodes.length, edges: edges.length });
+  const positionsRef = useRef<Record<string, cytoscape.Position>>({});
 
   const stylesheet = useMemo(() => buildSubgraphStylesheet(), []);
+  const initialLayout = useMemo(
+    () => buildLayout(subgraph.nodes.length),
+    [subgraph]
+  );
 
   const selectedNode = useMemo(
     () => nodes.find((n) => n.id === selectedId) ?? null,
@@ -74,6 +79,7 @@ export function SubgraphView({ subgraph }: Props) {
           label: n.label,
           type: n.type,
         },
+        position: positionsRef.current[n.id],
       })),
       ...edges.map((e) => ({
         data: {
@@ -85,21 +91,7 @@ export function SubgraphView({ subgraph }: Props) {
         },
       })),
     ];
-  }, [nodes, edges, selectedId]);
-
-  const runLayout = useCallback(() => {
-    if (!cyRef.current) return;
-    cyRef.current.layout(buildLayout(nodes.length)).run();
-  }, [nodes.length]);
-
-  useEffect(() => {
-    const prev = prevCountRef.current;
-    if (prev.nodes !== nodes.length || prev.edges !== edges.length) {
-      prevCountRef.current = { nodes: nodes.length, edges: edges.length };
-      // Defer layout to the next tick so Cytoscape has updated elements.
-      requestAnimationFrame(runLayout);
-    }
-  }, [nodes.length, edges.length, runLayout]);
+  }, [nodes, edges]);
 
   const markSelected = useCallback((id: string | null) => {
     setSelectedId(id);
@@ -116,7 +108,7 @@ export function SubgraphView({ subgraph }: Props) {
   }, []);
 
   const addNode = useCallback(
-    (_position: cytoscape.Position, type: string, label: string) => {
+    (position: cytoscape.Position, type: string, label: string) => {
       const id = nextId(
         type === "Comment" ? "c" : "n",
         nodes.map((n) => n.id)
@@ -126,6 +118,7 @@ export function SubgraphView({ subgraph }: Props) {
         label,
         type,
       };
+      positionsRef.current[id] = position;
       setNodes((prev) => [...prev, newNode]);
       markSelected(id);
     },
@@ -319,6 +312,11 @@ export function SubgraphView({ subgraph }: Props) {
       }
     };
 
+    const handleDragFree = (evt: cytoscape.EventObject) => {
+      const node = evt.target as cytoscape.NodeSingular;
+      positionsRef.current[node.id()] = { ...node.position() };
+    };
+
     cy.on("tap", "node", handleTapNode);
     cy.on("tap", "edge", handleTapEdge);
     cy.on("dbltap", "node", handleDblTap);
@@ -327,6 +325,7 @@ export function SubgraphView({ subgraph }: Props) {
     cy.on("mousedown", "node", handleMouseDownNode);
     cy.on("mousemove", handleMouseMove);
     cy.on("mouseup", handleMouseUp);
+    cy.on("dragfree", "node", handleDragFree);
 
     return () => {
       cy.off("tap", "node", handleTapNode);
@@ -337,6 +336,7 @@ export function SubgraphView({ subgraph }: Props) {
       cy.off("mousedown", "node", handleMouseDownNode);
       cy.off("mousemove", handleMouseMove);
       cy.off("mouseup", handleMouseUp);
+      cy.off("dragfree", "node", handleDragFree);
     };
   }, [
     mode,
@@ -396,10 +396,13 @@ export function SubgraphView({ subgraph }: Props) {
         <CytoscapeComponent
           elements={elements}
           stylesheet={stylesheet}
-          layout={buildLayout(nodes.length)}
+          layout={initialLayout}
           style={{ width: "100%", height: "100%" }}
           cy={(cy) => {
             cyRef.current = cy;
+            positionsRef.current = Object.fromEntries(
+              cy.nodes().map((n) => [n.id(), { ...n.position() }])
+            );
           }}
         />
       </div>

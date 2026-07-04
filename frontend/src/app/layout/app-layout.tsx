@@ -7,6 +7,7 @@ import { AppLogo } from "@/shared/ui";
 
 const ACTIVE_ROUTE_LABEL: Record<string, string> = {
   [ROUTES.search]: "Новый поиск",
+  [ROUTES.history]: "История запросов",
 };
 
 const NAV = [
@@ -17,7 +18,7 @@ const NAV = [
   },
   {
     label: "История запросов",
-    href: ROUTES.search,
+    href: ROUTES.history,
     icon: "/assets/icon-list.png",
   },
 ];

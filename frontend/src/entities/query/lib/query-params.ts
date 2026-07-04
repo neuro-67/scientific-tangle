@@ -58,3 +58,14 @@ export const searchParamsToRequest = (
   date_to: params.get("dt") ?? undefined,
   confidence: (params.get("conf") as ConfidenceLevel | null) ?? undefined,
 });
+
+/** Convert an API request back to the search form filter state. */
+export const requestToFilters = (req: PostQueryReq): QueryFilters => ({
+  question: req.question,
+  materials: req.materials ?? [],
+  processes: req.processes ?? [],
+  geography: req.geography ?? "any",
+  dateFrom: req.date_from ?? null,
+  dateTo: req.date_to ?? null,
+  confidence: req.confidence ?? "any",
+});
