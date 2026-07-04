@@ -99,6 +99,10 @@ def upload_graph(graph_path: str, client: QdrantClient, generator: BgeEmbeddingG
                     "entity_id": chunk["entity_id"],
                     "entity_type": chunk["entity_type"],
                     "source_document": chunk["source_document"],
+                    "doc_id": chunk["source_document"],  # alias read by QdrantSearchClient
+                    # unprefixed so geography/year payload filters in QdrantSearchClient match;
+                    # prop_-prefixed kept too for backward compat with any existing readers
+                    **chunk["properties"],
                     **{f"prop_{k}": v for k, v in chunk["properties"].items()},
                 },
             )

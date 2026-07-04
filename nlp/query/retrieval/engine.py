@@ -38,8 +38,29 @@ class HybridRetrievalEngine:
         # Build ranked lists for RRF
         ranked_lists = self._build_ranked_lists(vector_results, graph_results)
 
+        # Keep the original per-id metadata (title/year/geography/confidence/
+        # span/extracted_at/text) so it survives the RRF merge -- otherwise
+        # synthesis receives bare {id, rrf_score, sources} and can't cite
+        # anything properly (confirmed missing: metadata was being dropped
+        # here before reaching SynthesisEngine).
+        metadata_by_id: dict[str, dict] = {}
+        for r in vector_results:
+            metadata_by_id[str(r["id"])] = r
+        for r in graph_results:
+            if r.get("name"):
+                metadata_by_id.setdefault(r["name"], {}).update(r)
+
         # RRF merge
         merged = self._reciprocal_rank_fusion(ranked_lists, limit)
+        for item in merged:
+            meta = metadata_by_id.get(item["id"], {})
+            item["finding_text"] = meta.get("text") or item["id"]
+            item["source_title"] = meta.get("source_title")
+            item["source_year"] = meta.get("source_year")
+            item["source_geography"] = meta.get("source_geo")
+            item["finding_confidence"] = meta.get("confidence")
+            item["span"] = meta.get("span")
+            item["extracted_at"] = meta.get("extracted_at")
         return merged
 
     def _build_ranked_lists(
@@ -58,7 +79,7 @@ class HybridRetrievalEngine:
             graph_results,
             key=lambda x: (
                 {"high": 3, "medium": 2, "low": 1}.get(x.get("confidence"), 0),
-                x.get("source_year", 0),
+                x.get("source_year") or 0,
             ),
             reverse=True,
         )

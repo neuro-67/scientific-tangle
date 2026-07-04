@@ -17,20 +17,28 @@ logger = logging.getLogger(__name__)
 
 
 class SynthesisEngine:
-    """Generates a structured answer from retrieved findings using YandexGPT."""
+    """Generates a structured answer from retrieved findings via the configured LLM provider."""
 
     def __init__(self, config: QueryConfig | None = None) -> None:
         self._config = config or QueryConfig()
         self._session = requests.Session()
-        self._session.headers.update(
-            {
-                "Authorization": f"Api-Key {self._config.yandex_api_key}",
-                "Content-Type": "application/json",
-            }
-        )
+        if self._config.provider == "routerai":
+            self._session.headers.update(
+                {
+                    "Authorization": f"Bearer {self._config.routerai_api_key}",
+                    "Content-Type": "application/json",
+                }
+            )
+        elif self._config.provider == "yandex":
+            self._session.headers.update(
+                {
+                    "Authorization": f"Api-Key {self._config.yandex_api_key}",
+                    "Content-Type": "application/json",
+                }
+            )
 
     def synthesize(self, question: str, findings: list[dict[str, Any]]) -> SynthesisResponse:
-        """Synthesize a structured answer from findings via YandexGPT."""
+        """Synthesize a structured answer from findings via the configured LLM provider."""
         if not findings:
             return SynthesisResponse(
                 answer="No data found in the knowledge graph for this query.",
@@ -42,31 +50,51 @@ class SynthesisEngine:
                 confidence="low",
             )
 
-        if not self._config.yandex_api_key:
-            logger.warning("No Yandex API key configured, using fallback synthesis")
+        if self._config.provider == "none":
+            logger.warning("No LLM provider configured, using fallback synthesis")
             return self._fallback_synthesize(question, findings)
 
-        payload = self._build_payload(question, findings)
+        findings_text = format_findings(findings)
+        user_text = SYNTHESIS_USER_TEMPLATE.format(question=question, findings=findings_text)
         try:
-            response = self._session.post(
-                f"{self._config.yandex_base_url}/foundationModels/v1/completion",
-                json=payload,
-                timeout=30,
-            )
-            response.raise_for_status()
-            data = response.json()
-            raw_text = self._extract_text(data)
+            raw_text = self._complete(SYNTHESIS_SYSTEM, user_text)
             cleaned = self._clean_json(raw_text)
             parsed = json.loads(cleaned)
             return SynthesisResponse.model_validate(parsed)
-        except Exception as exc:
+        except Exception:
             logger.exception("synthesis failed", extra={"question": question})
             return self._fallback_synthesize(question, findings)
 
-    def _build_payload(self, question: str, findings: list[dict[str, Any]]) -> dict[str, Any]:
+    def _complete(self, system_text: str, user_text: str) -> str:
+        if self._config.provider == "routerai":
+            return self._complete_routerai(system_text, user_text)
+        return self._complete_yandex(system_text, user_text)
+
+    def _complete_routerai(self, system_text: str, user_text: str) -> str:
+        payload = {
+            "model": self._config.routerai_model,
+            "messages": [
+                {"role": "system", "content": system_text},
+                {"role": "user", "content": user_text},
+            ],
+            "temperature": 0.2,
+            "max_tokens": self._config.routerai_max_tokens,
+        }
+        response = self._session.post(
+            f"{self._config.routerai_base_url}/chat/completions",
+            json=payload,
+            timeout=60,
+        )
+        response.raise_for_status()
+        data = response.json()
+        choices = data.get("choices", [])
+        if not choices:
+            raise ValueError("No choices in RouterAI response")
+        return choices[0].get("message", {}).get("content", "")
+
+    def _complete_yandex(self, system_text: str, user_text: str) -> str:
         model_uri = f"gpt://{self._config.yandex_folder_id}/{self._config.yandex_model}"
-        findings_text = format_findings(findings)
-        return {
+        payload = {
             "modelUri": model_uri,
             "completionOptions": {
                 "stream": False,
@@ -74,15 +102,17 @@ class SynthesisEngine:
                 "maxTokens": 2000,
             },
             "messages": [
-                {"role": "system", "text": SYNTHESIS_SYSTEM},
-                {
-                    "role": "user",
-                    "text": SYNTHESIS_USER_TEMPLATE.format(
-                        question=question, findings=findings_text
-                    ),
-                },
+                {"role": "system", "text": system_text},
+                {"role": "user", "text": user_text},
             ],
         }
+        response = self._session.post(
+            f"{self._config.yandex_base_url}/foundationModels/v1/completion",
+            json=payload,
+            timeout=30,
+        )
+        response.raise_for_status()
+        return self._extract_text(response.json())
 
     @staticmethod
     def _extract_text(data: dict[str, Any]) -> str:

@@ -45,22 +45,8 @@ class SynthesisEngine:
         # Build context string
         context_str = self._format_context(context)
 
-        # Build payload using parser's config
-        payload = self._parser._build_payload(query)
-        payload["messages"][0]["text"] = SYNTHESIS_SYSTEM_PROMPT
-        payload["messages"][1]["text"] = (
-            f"Вопрос: {query}\n\n"
-            f"Контекст:\n{context_str}\n\n"
-            f"Верни JSON:"
-        )
-
-        response = self._parser._session.post(
-            f"{self._parser._config.yandex_base_url}/foundationModels/v1/completion",
-            json=payload,
-            timeout=120,
-        )
-        response.raise_for_status()
-        raw_text = self._parser._extract_text(response.json())
+        user_text = f"Вопрос: {query}\n\nКонтекст:\n{context_str}\n\nВерни JSON:"
+        raw_text = self._parser.complete(SYNTHESIS_SYSTEM_PROMPT, user_text)
         cleaned = self._parser._clean_json(raw_text)
         parsed = json.loads(cleaned)
         return SynthesisResponse.model_validate(parsed)
