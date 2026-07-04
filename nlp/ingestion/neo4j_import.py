@@ -176,9 +176,38 @@ def _sanitize_value(value: Any) -> Any:
     return json.dumps(value, ensure_ascii=False)
 
 
-def _batched(items: list[Any], size: int = 500):
+def _batched(items: list[Any], size: int = 100):
     for i in range(0, len(items), size):
         yield items[i : i + size]
+
+
+# Labels whose ids the model generates generically (per-occurrence, not a
+# reusable concept) and therefore collide across documents.
+_INSTANCE_LABELS = {"Measurement", "Source"}
+
+
+def _namespace_instance_ids(
+    nodes: list[dict[str, Any]], edges: list[dict[str, Any]], source_doc: str
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    """Prefix Measurement/Source node ids (and the edge endpoints that point at
+    them) with the source document, so generic ids don't collide across docs."""
+    prefix = f"{source_doc}::"
+    remap: dict[str, str] = {}
+    for node in nodes:
+        if node.get("label") in _INSTANCE_LABELS:
+            old = node.get("id", "")
+            if old and not old.startswith(prefix):
+                new = prefix + old
+                remap[old] = new
+                node["id"] = new
+    if not remap:
+        return nodes, edges
+    for edge in edges:
+        if edge.get("source") in remap:
+            edge["source"] = remap[edge["source"]]
+        if edge.get("target") in remap:
+            edge["target"] = remap[edge["target"]]
+    return nodes, edges
 
 
 def _get_neo4j_driver():
@@ -337,7 +366,12 @@ def _import_nodes(tx, nodes: list[dict[str, Any]]):
             existing = tx.run(f"MATCH (n:{label} {{id: $id}}) RETURN n AS n", id=node["id"]).single()
             if existing is not None:
                 old_props = dict(existing["n"])
-                if _fact_changed(old_props, flat_props, label):
+                # Only version a genuine cross-document update. Re-importing the
+                # same document (same source_document) must never archive -- that
+                # was the second half of the 260k-Revision explosion, since every
+                # retry/re-import re-triggered the "change".
+                same_source = old_props.get("source_document") == flat_props["source_document"]
+                if not same_source and _fact_changed(old_props, flat_props, label):
                     _archive_previous_version(tx, node["id"], label, old_props, flat_props["source_document"])
                     logger.info(
                         "archived previous fact version",
@@ -384,6 +418,17 @@ def import_graph(graph_path: str, driver) -> dict[str, int]:
     source_doc = data.get("document", graph_path)
     raw_nodes = data.get("nodes", [])
     raw_edges = data.get("edges", [])
+
+    # Namespace instance-like ids by document. The extraction model generates
+    # GENERIC ids for Measurement/Source nodes ("meas_sulf_300", "src_p12") that
+    # collide across documents -- MERGE-by-id then silently fuses two unrelated
+    # measurements into one node, and (because their values differ) the fact
+    # versioning treats every such collision as a "change" and archives a
+    # Revision, which ballooned to 260k+ junk Revision nodes. Prefixing these
+    # ids with the source document keeps each document's instances distinct;
+    # concept nodes (Material/Process/etc.) are intentionally NOT namespaced so
+    # they still merge across documents.
+    raw_nodes, raw_edges = _namespace_instance_ids(raw_nodes, raw_edges, source_doc)
 
     # Validate and enrich
     valid_nodes = []
