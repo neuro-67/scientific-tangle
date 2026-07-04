@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 
 import { AnswerPage } from "@/pages/answer";
+import { DashboardPage } from "@/pages/dashboard";
 import { HistoryPage } from "@/pages/history";
 import { LoginPage } from "@/pages/login";
 import { NotFoundPage } from "@/pages/not-found";
@@ -21,6 +22,7 @@ export const router = createBrowserRouter([
         children: [
           { path: ROUTES.search, element: <SearchPage /> },
           { path: ROUTES.answer, element: <AnswerPage /> },
+          { path: ROUTES.dashboard, element: <DashboardPage /> },
           { path: ROUTES.upload, element: <UploadPage /> },
           { path: ROUTES.history, element: <HistoryPage /> },
           { path: ROUTES.notFound, element: <NotFoundPage /> },
