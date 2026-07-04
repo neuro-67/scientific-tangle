@@ -31,7 +31,7 @@ def main() -> int:
     parser.add_argument("question", help="Question to parse")
     args = parser.parse_args()
 
-    _load_env_file(Path(__file__).parent / ".env")
+    _load_env_file(Path(__file__).parent.parent / ".env")
 
     # Force UTF-8 output on Windows terminals
     if hasattr(sys.stdout, "reconfigure"):

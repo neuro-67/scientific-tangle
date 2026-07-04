@@ -27,7 +27,7 @@ def _load_env_file(path: Path) -> None:
         os.environ.setdefault(key, value)
 
 
-_load_env_file(Path(__file__).parent.parent / ".env")
+_load_env_file(Path(__file__).parent.parent.parent / ".env")
 
 QUESTIONS = [
     "методы обессоливания воды: сульфаты/хлориды/Ca/Mg/Na по 200-300 мг/л, сухой остаток <=1000 мг/дм3",
