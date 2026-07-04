@@ -24,7 +24,9 @@ import {
 } from "@/entities/query";
 import { handleApiError } from "@/shared/lib/api-error";
 
+import { canShowFactHistory } from "../lib/fact-history";
 import { NODE_TYPES, buildSubgraphStylesheet } from "../lib/subgraph-style";
+import { FactHistoryPanel } from "./fact-history-panel";
 import { GraphElementModal, type NodeDraft, type EdgeDraft } from "./graph-element-modal";
 
 type Props = {
@@ -134,7 +136,12 @@ export function SubgraphView({ subgraph, answerId }: Props) {
   const elements = useMemo<cytoscape.ElementDefinition[]>(() => {
     return [
       ...nodes.map((n) => ({
-        data: { id: n.id, label: n.label, type: n.type },
+        data: {
+          id: n.id,
+          label: n.revision_count ? `${n.label}\n↺ ${n.revision_count}` : n.label,
+          type: n.type,
+          revisionCount: n.revision_count ?? 0,
+        },
         position: positionsRef.current[n.id],
       })),
       ...edges.map((e) => ({
@@ -536,7 +543,15 @@ export function SubgraphView({ subgraph, answerId }: Props) {
           <span className="h-0 w-4 border-t-2 border-dashed border-contradiction" />
           противоречие
         </span>
+        <span className="flex items-center gap-1.5">
+          <span className="h-2.5 w-2.5 rounded-full border-2 border-gap" />
+          есть версии факта
+        </span>
       </div>
+
+      {canShowFactHistory(selectedNode) ? (
+        <FactHistoryPanel factId={selectedNode.id} factType={selectedNode.type} />
+      ) : null}
 
       {nodeModal ? (
         <GraphElementModal

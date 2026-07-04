@@ -53,3 +53,9 @@ class GraphEdgeResponse(BaseModel):
     target: str
     type: str
     label: str | None = None
+
+
+class FactRevisionResponse(BaseModel):
+    superseded_at: str
+    superseded_by_document: str | None = None
+    previous_properties: dict[str, Any]

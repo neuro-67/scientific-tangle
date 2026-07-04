@@ -11,6 +11,7 @@ class SubgraphNode(BaseModel):
     id: str
     label: str
     type: str
+    revision_count: int = 0
 
 
 class SubgraphEdge(BaseModel):

@@ -86,6 +86,7 @@ export type GraphNode = {
   id: string;
   label: string;
   type: string;
+  revision_count?: number;
 };
 
 /** An edge of the answer subgraph; `contradicts` edges are highlighted in UI. */

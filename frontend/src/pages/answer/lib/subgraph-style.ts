@@ -135,6 +135,7 @@ export const NODE_TYPES = [
 export function buildSubgraphStylesheet(): cytoscape.StylesheetStyle[] {
   const edgeColor = cssHsl("--graph-edge", "#94a3b8");
   const contradiction = cssHsl("--contradiction", "#e11d48");
+  const gap = cssHsl("--gap", "#f97316");
 
   const base = [
     {
@@ -216,6 +217,19 @@ export function buildSubgraphStylesheet(): cytoscape.StylesheetStyle[] {
         "text-outline-color": "#ffffff",
         "text-outline-width": 1,
         "shadow-blur": 0,
+      },
+    },
+    {
+      selector: "node[revisionCount > 0]",
+      style: {
+        "border-width": 8,
+        "border-color": gap,
+        "overlay-color": gap,
+        "overlay-opacity": 0.08,
+        "text-background-color": "#ffffff",
+        "text-background-opacity": 0.9,
+        "text-background-padding": 5,
+        "text-background-shape": "roundrectangle",
       },
     },
     {
