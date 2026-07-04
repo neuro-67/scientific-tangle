@@ -5,6 +5,25 @@ from pydantic import BaseModel, ConfigDict, Field
 from nlp.query.schemas import Geography, QuerySpec, SynthesisResponse
 
 
+class SubgraphNode(BaseModel):
+    id: str
+    label: str
+    type: str
+
+
+class SubgraphEdge(BaseModel):
+    id: str
+    source: str
+    target: str
+    type: str
+    label: str | None = None
+
+
+class AnswerSubgraph(BaseModel):
+    nodes: list[SubgraphNode] = []
+    edges: list[SubgraphEdge] = []
+
+
 class AskQuestionCommand(BaseModel):
     """A natural-language question submitted by the user.
 
@@ -35,3 +54,4 @@ class AskQuestionResponse(BaseModel):
     question: str
     query_spec: QuerySpec
     synthesis: SynthesisResponse
+    subgraph: AnswerSubgraph = AnswerSubgraph()

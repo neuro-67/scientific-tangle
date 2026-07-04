@@ -77,6 +77,101 @@ class Neo4jGraphSearch(IGraphSearch):
             or spec.facilities
         )
 
+    async def fetch_subgraph(self, spec: QuerySpec, node_limit: int = 30) -> dict[str, Any]:
+        """Return nodes+edges around entries matched by the spec.
+
+        Same primary/fallback matching as `search`, then one-hop expansion. If
+        primary label branch yields no entries (graph doesn't have Material/
+        Process nodes yet, only meta-nodes), retries against the meta-node
+        fallback so the answer screen still shows a populated graph.
+        """
+        nodes_map, edges_map = await self._collect_subgraph(spec, node_limit)
+        if not nodes_map and self._has_primary_filters(spec):
+            fallback = spec.model_copy(
+                update={
+                    "materials": [],
+                    "processes": [],
+                    "equipment": [],
+                    "properties": [],
+                    "conditions": [],
+                    "experts": [],
+                    "facilities": [],
+                }
+            )
+            nodes_map, edges_map = await self._collect_subgraph(fallback, node_limit)
+        return {"nodes": list(nodes_map.values()), "edges": list(edges_map.values())}
+
+    async def _collect_subgraph(
+        self, spec: QuerySpec, node_limit: int
+    ) -> tuple[dict[str, dict[str, Any]], dict[str, dict[str, Any]]]:
+        query, params = self._build_subgraph_cypher(spec, node_limit)
+        logger.debug("subgraph cypher", extra={"query": query, "params": params})
+        nodes: dict[str, dict[str, Any]] = {}
+        edges: dict[str, dict[str, Any]] = {}
+        async with self._driver.session() as session:
+            result = await session.run(query, **params)
+            async for record in result:
+                for n in (record.get("entry"), record.get("neighbor")):
+                    if n is None:
+                        continue
+                    self._add_node(nodes, n)
+                rel = record.get("rel")
+                if rel is not None:
+                    self._add_edge(edges, rel)
+        return nodes, edges
+
+    def _build_subgraph_cypher(self, spec: QuerySpec, node_limit: int) -> tuple[str, dict[str, Any]]:
+        params: dict[str, Any] = {"node_limit": node_limit}
+        path_clause = self._build_path_clause(spec, params)
+        # Strip the trailing WITH/OPTIONAL MATCH we don't need — subgraph
+        # collection expands its own neighbours. Only keep the first MATCH+WHERE.
+        match_prefix = path_clause.split("\n", 2)
+        head = "\n".join(match_prefix[:2])
+        return (
+            f"{head}\n"
+            "WITH DISTINCT entry LIMIT $node_limit\n"
+            "OPTIONAL MATCH (entry)-[r]-(neighbor)\n"
+            "RETURN entry, r AS rel, neighbor"
+        ), params
+
+    @staticmethod
+    def _add_node(bucket: dict[str, dict[str, Any]], node: Any) -> None:
+        node_id = node.element_id
+        if node_id in bucket:
+            return
+        props = dict(node)
+        labels = list(node.labels)
+        display_id = props.get("id") or props.get("name") or node_id
+        label = (
+            props.get("name")
+            or props.get("title")
+            or props.get("description")
+            or props.get("id")
+            or (labels[0] if labels else "Node")
+        )
+        bucket[node_id] = {
+            "id": str(display_id),
+            "label": str(label),
+            "type": labels[0] if labels else "Node",
+        }
+
+    @staticmethod
+    def _add_edge(bucket: dict[str, dict[str, Any]], rel: Any) -> None:
+        rel_id = rel.element_id
+        if rel_id in bucket:
+            return
+        start_props = dict(rel.start_node)
+        end_props = dict(rel.end_node)
+        source = start_props.get("id") or start_props.get("name") or rel.start_node.element_id
+        target = end_props.get("id") or end_props.get("name") or rel.end_node.element_id
+        bucket[rel_id] = {
+            "id": str(rel_id),
+            "source": str(source),
+            "target": str(target),
+            "type": rel.type,
+            "label": rel.type,
+        }
+
     async def get_entity_context(self, entity_name: str, entity_type: str) -> dict[str, Any] | None:
         query = """
         MATCH (n {name: $name})

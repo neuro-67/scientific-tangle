@@ -26,7 +26,11 @@ from app.domain.interfaces.query_parser import IQueryParser
 from app.domain.interfaces.reranker import IReranker
 from app.domain.interfaces.synthesis_engine import ISynthesisEngine
 from app.domain.interfaces.vector_search import IVectorSearch
-from app.features.query.ask.schemas import AskQuestionCommand, AskQuestionResponse
+from app.features.query.ask.schemas import (
+    AnswerSubgraph,
+    AskQuestionCommand,
+    AskQuestionResponse,
+)
 from nlp.query.schemas import QuerySpec, build_compare_specs
 
 logger = logging.getLogger(__name__)
@@ -93,10 +97,21 @@ class AskQuestionHandler:
         # 6. Synthesize an answer
         synthesis = self._synthesis_engine.synthesize(command.question, reranked_results)
 
+        # 7. Fetch a subgraph around the matched entries for the answer canvas.
+        # Non-fatal: if this fails we still return the synthesized answer with
+        # an empty graph rather than 500-ing the whole request.
+        try:
+            subgraph_data = await self._graph_search.fetch_subgraph(query_spec)
+            subgraph = AnswerSubgraph(**subgraph_data)
+        except Exception as exc:
+            logger.warning("subgraph fetch failed", extra={"error": str(exc)})
+            subgraph = AnswerSubgraph()
+
         return AskQuestionResponse(
             question=command.question,
             query_spec=query_spec,
             synthesis=synthesis,
+            subgraph=subgraph,
         )
 
     def _apply_filter_overrides(

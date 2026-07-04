@@ -3,8 +3,11 @@ import type { ConfidenceLevel, Geography } from "@/shared/types";
 
 import type {
   AnswerSource,
+  AnswerSubgraph,
   Disagreement,
   Expert,
+  GraphEdge,
+  GraphNode,
   Laboratory,
   QueryAnswer,
   QuerySpec,
@@ -56,6 +59,10 @@ type AskQuestionResponse = {
     laboratories?: Array<Partial<Laboratory>>;
     confidence?: ConfidenceLevel | null;
   };
+  subgraph?: {
+    nodes?: Array<Partial<GraphNode>>;
+    edges?: Array<Partial<GraphEdge>>;
+  } | null;
 };
 
 /** Extract a 4-digit year from an ISO date; the backend filters by year int. */
@@ -105,6 +112,38 @@ const toLaboratory = (l: Partial<Laboratory>): Laboratory => ({
   institution: l.institution ?? "",
 });
 
+const toSubgraph = (
+  raw: AskQuestionResponse["subgraph"]
+): AnswerSubgraph => {
+  if (!raw) return { nodes: [], edges: [] };
+  const nodes: GraphNode[] = (raw.nodes ?? [])
+    .filter((n): n is GraphNode => Boolean(n?.id))
+    .map((n) => ({
+      id: String(n.id),
+      label: n.label ?? String(n.id),
+      type: n.type ?? "Node",
+    }));
+  const nodeIds = new Set(nodes.map((n) => n.id));
+  const edges: GraphEdge[] = (raw.edges ?? [])
+    .filter(
+      (e): e is GraphEdge =>
+        Boolean(e?.id) &&
+        Boolean(e?.source) &&
+        Boolean(e?.target) &&
+        // Cytoscape throws on edges that reference missing nodes — drop them.
+        nodeIds.has(String(e.source)) &&
+        nodeIds.has(String(e.target))
+    )
+    .map((e) => ({
+      id: String(e.id),
+      source: String(e.source),
+      target: String(e.target),
+      type: e.type ?? "related",
+      label: e.label ?? e.type ?? "",
+    }));
+  return { nodes, edges };
+};
+
 /** Flatten the backend's {query_spec, synthesis} envelope into a QueryAnswer. */
 const toQueryAnswer = (res: AskQuestionResponse): QueryAnswer => {
   const { synthesis } = res;
@@ -121,8 +160,7 @@ const toQueryAnswer = (res: AskQuestionResponse): QueryAnswer => {
       .map(toLaboratory)
       .filter((l) => l.name),
     confidence: synthesis.confidence ?? "low",
-    // The ask endpoint doesn't return a subgraph yet; render an empty canvas.
-    subgraph: { nodes: [], edges: [] },
+    subgraph: toSubgraph(res.subgraph),
     spec: toSpec(res.query_spec),
   };
 };
