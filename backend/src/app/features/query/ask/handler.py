@@ -27,7 +27,7 @@ from app.domain.interfaces.reranker import IReranker
 from app.domain.interfaces.synthesis_engine import ISynthesisEngine
 from app.domain.interfaces.vector_search import IVectorSearch
 from app.features.query.ask.schemas import AskQuestionCommand, AskQuestionResponse
-from nlp.query.schemas import QuerySpec
+from nlp.query.schemas import QuerySpec, build_compare_specs
 
 logger = logging.getLogger(__name__)
 
@@ -63,24 +63,30 @@ class AskQuestionHandler:
             },
         )
 
-        # 2. Search the knowledge graph (structured)
-        graph_results = await self._graph_search.search(query_spec, limit=command.top_k)
-        logger.info("graph results", extra={"count": len(graph_results)})
-
-        # 3. Search Qdrant (semantic) using generated embedding
-        vector_results = await self._vector_search_with_embedding(command.question, query_spec, command.top_k)
-        if vector_results:
-            logger.info("vector results", extra={"count": len(vector_results)})
-
-        # 4. Merge candidates (dedup only -- ranking is the reranker's job, next step)
-        merged_results = self._merge_results(graph_results, vector_results)
-        logger.info("merged results", extra={"count": len(merged_results)})
-
-        # 5. Rerank with cross-encoder
-        reranked_results = self._reranker.rerank(
-            command.question, merged_results, top_k=command.top_k
-        )
-        logger.info("reranked results", extra={"count": len(reranked_results)})
+        # 2-5. Retrieve + rerank. Compare intent ("«отечественная практика» vs
+        # «мировая практика»", "«вариант А» vs «вариант Б»") runs retrieval
+        # twice, once per side, and tags each result with which side it came
+        # from -- a single unscoped query can't be relied on to surface both
+        # sides, and even when it does, synthesis has no signal for which
+        # finding belongs to which side of the comparison.
+        compare_specs = build_compare_specs(query_spec)
+        if compare_specs is not None:
+            side_a, side_b = compare_specs
+            half_k = max(command.top_k // 2, 1)
+            results_a = await self._retrieve_and_rerank(command.question, side_a, half_k)
+            results_b = await self._retrieve_and_rerank(command.question, side_b, half_k)
+            for r in results_a:
+                r["compare_side"] = "A"
+            for r in results_b:
+                r["compare_side"] = "B"
+            logger.info(
+                "compare retrieval", extra={"side_a_count": len(results_a), "side_b_count": len(results_b)}
+            )
+            reranked_results = results_a + results_b
+        else:
+            reranked_results = await self._retrieve_and_rerank(
+                command.question, query_spec, command.top_k
+            )
 
         # 6. Synthesize an answer
         synthesis = self._synthesis_engine.synthesize(command.question, reranked_results)
@@ -90,6 +96,17 @@ class AskQuestionHandler:
             query_spec=query_spec,
             synthesis=synthesis,
         )
+
+    async def _retrieve_and_rerank(
+        self, question: str, spec: QuerySpec, top_k: int
+    ) -> list[dict[str, Any]]:
+        """Graph search + vector search + dedup-merge + cross-encoder rerank
+        for a single QuerySpec. Shared by the normal path and by each side of
+        a compare-intent query (see build_compare_specs)."""
+        graph_results = await self._graph_search.search(spec, limit=top_k)
+        vector_results = await self._vector_search_with_embedding(question, spec, top_k)
+        merged_results = self._merge_results(graph_results, vector_results)
+        return self._reranker.rerank(question, merged_results, top_k=top_k)
 
     async def _vector_search_with_embedding(
         self, question: str, spec: QuerySpec, limit: int

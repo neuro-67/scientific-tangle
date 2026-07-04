@@ -142,6 +142,53 @@ class QuerySpec(BaseModel):
         return value if value is not None else {}
 
 
+_FOREIGN_MARKERS = ("мировой", "мировая", "мировую", "зарубежн", "иностран", "foreign", "world", "международн")
+_DOMESTIC_MARKERS = ("отечественн", "росси", " рф ", "рф,", "рф.", "domestic", "russia")
+
+
+def _is_geography_compare(spec: QuerySpec) -> bool:
+    if not spec.compare:
+        return False
+    compare_lower = f" {spec.compare.lower()} "
+    return any(m in compare_lower for m in _FOREIGN_MARKERS + _DOMESTIC_MARKERS)
+
+
+def build_compare_specs(spec: QuerySpec) -> tuple[QuerySpec, QuerySpec] | None:
+    """Split a compare-intent QuerySpec into one QuerySpec per side, so
+    retrieval runs separately for each side instead of a single unscoped
+    query that synthesis then has to somehow untangle into two groups
+    (case-specification.md: "«отечественная практика» vs «мировая практика»",
+    "«вариант А» vs «вариант Б»"). Returns None when there's nothing to split
+    (not a compare intent, or no `compare` value parsed).
+    """
+    if spec.intent != QueryIntent.COMPARE or not spec.compare:
+        return None
+
+    if _is_geography_compare(spec):
+        compare_lower = f" {spec.compare.lower()} "
+        b_geography = (
+            Geography.FOREIGN if any(m in compare_lower for m in _FOREIGN_MARKERS) else Geography.RU
+        )
+        a_geography = (
+            spec.geography
+            if spec.geography != Geography.ANY
+            else (Geography.RU if b_geography == Geography.FOREIGN else Geography.FOREIGN)
+        )
+        side_a = spec.model_copy(update={"geography": a_geography})
+        side_b = spec.model_copy(update={"geography": b_geography})
+        return side_a, side_b
+
+    # Entity-axis compare ("вариант А" vs "вариант Б"): swap the compare value
+    # into whichever entity field is already populated, so side B targets the
+    # alternate named variant instead of duplicating side A's query.
+    for field in ("topics", "processes", "materials", "conditions", "equipment"):
+        if getattr(spec, field):
+            side_b = spec.model_copy(update={field: [spec.compare]})
+            return spec, side_b
+
+    return None
+
+
 class SourceCitation(BaseModel):
     """One cited source attached to an answer fragment.
 
