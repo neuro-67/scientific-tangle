@@ -17,7 +17,7 @@ Usage:
     pip install requests python-dotenv  # dotenv optional, falls back to manual parse
     python nlp/benchmark_router_ai.py
 
-Requires ROUTERAI_API_KEY in nlp/.env (see nlp/.env.example).
+Requires ROUTERAI_API_KEY in .env (repo root).
 """
 
 from __future__ import annotations
@@ -49,13 +49,13 @@ def _load_env_file(path: Path) -> None:
         os.environ.setdefault(key, value)
 
 
-_load_env_file(Path(__file__).parent / ".env")
+_load_env_file(Path(__file__).parent.parent / ".env")
 
 API_KEY = os.environ.get("ROUTERAI_API_KEY", "")
 BASE_URL = os.environ.get("ROUTERAI_BASE_URL", "https://routerai.ru/api/v1")
 
 if not API_KEY:
-    raise SystemExit("Set ROUTERAI_API_KEY in nlp/.env (see nlp/.env.example)")
+    raise SystemExit("Set ROUTERAI_API_KEY in .env (repo root; see .env.example)")
 
 HEADERS = {
     "Authorization": f"Bearer {API_KEY}",

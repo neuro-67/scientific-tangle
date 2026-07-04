@@ -5,10 +5,10 @@
 
 ## Быстрый старт
 
-1. Скопируй `.env.example` в `.env` и подставь ключи:
+1. Скопируй корневой `.env.example` в `.env` и подставь ключи:
 
 ```bash
-cp nlp/.env.example nlp/.env
+cp .env.example .env
 ```
 
 `ROUTERAI_API_KEY` — если задан, используется вместо Yandex (Yandex AI Studio сейчас недоступен,

@@ -13,7 +13,7 @@ Yandex AI Studio недоступен. `nlp/query/config.py::QueryConfig.provide
 2. Иначе `YANDEX_API_KEY` установлен → YandexGPT.
 3. Иначе → rule-based fallback (простой keyword-парсер в `parser.py::_rule_based_parse`).
 
-Настройка — в `nlp/.env` (см. `nlp/.env.example`) и в корневом `.env` (для backend через docker-compose).
+Настройка — в корневом `.env` (см. `.env.example`). Он же используется и backend'ом через docker-compose, и CLI/бенчмарками в `nlp/`.
 
 ### Выбор модели (обоснование — реальный бенчмарк, не предположение)
 
@@ -67,7 +67,7 @@ parse (PyMuPDF) → chunk (recursive_split, без langchain) → extract (LLM +
 ### Запуск
 
 ```bash
-# .env с ROUTERAI_API_KEY должен быть в nlp/.env
+# .env с ROUTERAI_API_KEY должен лежать в корне репозитория
 python nlp/run_corpus_test.py path/to/doc1.pdf path/to/doc2.pdf
 
 # записать результат в реальный Neo4j/Qdrant (нужен docker compose up neo4j qdrant)
