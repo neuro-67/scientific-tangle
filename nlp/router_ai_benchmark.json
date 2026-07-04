@@ -1,0 +1,1810 @@
+[
+  {
+    "model": "google/gemini-3.1-flash-lite",
+    "task": "parse",
+    "results": [
+      {
+        "question": "методы обессоливания воды: сульфаты/хлориды/Ca/Mg/Na по 200-300 мг/л, сухой остаток <=1000 мг/дм3",
+        "parsed": {
+          "intent": "review",
+          "materials": [
+            "вода"
+          ],
+          "processes": [
+            "обессоливание"
+          ],
+          "equipment": [],
+          "properties": [
+            "сульфаты",
+            "хлориды",
+            "кальций",
+            "магний",
+            "натрий",
+            "сухой остаток"
+          ],
+          "conditions": [],
+          "experiments": [],
+          "experts": [],
+          "facilities": [],
+          "topics": [],
+          "geography": "any",
+          "time_range": {
+            "from": null,
+            "to": null
+          },
+          "numeric_constraints": [
+            {
+              "property": "сульфаты",
+              "operator": "range",
+              "value": null,
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "хлориды",
+              "operator": "range",
+              "value": null,
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "кальций",
+              "operator": "range",
+              "value": null,
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "магний",
+              "operator": "range",
+              "value": null,
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "натрий",
+              "operator": "range",
+              "value": null,
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "сухой остаток",
+              "operator": "<=",
+              "value": 1000,
+              "min": null,
+              "max": null,
+              "unit": "мг/л"
+            }
+          ],
+          "compare": null,
+          "relation_hint": "applies_to"
+        },
+        "time": 4.52,
+        "tokens": 1221,
+        "error": null
+      },
+      {
+        "question": "оптимальная скорость циркуляции католита в процессе электроэкстракции",
+        "parsed": {
+          "intent": "search",
+          "materials": [
+            "католит"
+          ],
+          "processes": [
+            "электроэкстракция"
+          ],
+          "equipment": [],
+          "properties": [
+            "скорость циркуляции"
+          ],
+          "conditions": [],
+          "experiments": [],
+          "experts": [],
+          "facilities": [],
+          "topics": [
+            "оптимизация"
+          ],
+          "geography": "any",
+          "time_range": {
+            "from": null,
+            "to": null
+          },
+          "numeric_constraints": [],
+          "compare": null,
+          "relation_hint": "operates_at_condition"
+        },
+        "time": 2.9,
+        "tokens": 773,
+        "error": null
+      },
+      {
+        "question": "извлечение Au, Ag и металлов платиновой группы из руд",
+        "parsed": {
+          "intent": "review",
+          "materials": [
+            "золото",
+            "серебро",
+            "металлы платиновой группы",
+            "руда"
+          ],
+          "processes": [
+            "извлечение"
+          ],
+          "equipment": [],
+          "properties": [],
+          "conditions": [],
+          "experiments": [],
+          "experts": [],
+          "facilities": [],
+          "topics": [
+            "гидрометаллургия",
+            "обогащение полезных ископаемых"
+          ],
+          "geography": "any",
+          "time_range": {
+            "from": null,
+            "to": null
+          },
+          "numeric_constraints": [],
+          "compare": null,
+          "relation_hint": "applies_to"
+        },
+        "time": 2.83,
+        "tokens": 820,
+        "error": null
+      },
+      {
+        "question": "закачка воды в горные выработки: методы и оборудование",
+        "parsed": {
+          "intent": "review",
+          "materials": [
+            "вода"
+          ],
+          "processes": [
+            "закачка"
+          ],
+          "equipment": [],
+          "properties": [],
+          "conditions": [
+            "горные выработки"
+          ],
+          "experiments": [],
+          "experts": [],
+          "facilities": [],
+          "topics": [
+            "методы закачки воды",
+            "оборудование для закачки воды"
+          ],
+          "geography": "any",
+          "time_range": {
+            "from": null,
+            "to": null
+          },
+          "numeric_constraints": [],
+          "compare": null,
+          "relation_hint": "uses_equipment"
+        },
+        "time": 2.78,
+        "tokens": 773,
+        "error": null
+      }
+    ],
+    "avg_time": 3.26,
+    "total_tokens": 3587,
+    "ok": 4,
+    "n": 4
+  },
+  {
+    "model": "google/gemini-3.1-flash-lite",
+    "task": "synthesis",
+    "parsed": {
+      "answer": "Для добычи и обогащения золота применяются три основных технологических подхода. Гравитационное обогащение используется в качестве предварительной стадии для извлечения крупного золота размером более 0.1 мм [3]. Для сульфидных руд основным методом является флотация, позволяющая достичь извлечения в диапазоне 85-95% [1]. Цианирование является высокоэффективным методом, обеспечивающим извлечение золота до 98% при условии строгого контроля уровня pH и концентрации цианид-ионов [2].",
+      "consensus": [
+        "Использование комбинации методов (гравитация, флотация, цианирование) для повышения эффективности извлечения золота из различных типов руд."
+      ],
+      "disagreements": [],
+      "sources": [
+        {
+          "title": "Иванов et al., 2023",
+          "year": 2023,
+          "geography": "RU",
+          "confidence": "high",
+          "span": "p.1"
+        },
+        {
+          "title": "Петров et al., 2022",
+          "year": 2022,
+          "geography": "RU",
+          "confidence": "high",
+          "span": "p.1"
+        },
+        {
+          "title": "Сидоров et al., 2024",
+          "year": 2024,
+          "geography": "RU",
+          "confidence": "medium",
+          "span": "p.1"
+        }
+      ],
+      "gaps": [
+        "Отсутствуют данные о различиях в технологиях между отечественной (RU) и зарубежной (foreign) практикой.",
+        "Нет информации о методах кучного выщелачивания или биовыщелачивания.",
+        "Отсутствуют сведения о влиянии климатических условий на выбор технологии."
+      ],
+      "experts": [],
+      "confidence": "high"
+    },
+    "time": 4.09,
+    "tokens": 952,
+    "error": null
+  },
+  {
+    "model": "google/gemini-3.1-flash-lite",
+    "task": "extraction",
+    "parsed": {
+      "entities": [
+        {
+          "type": "Expert",
+          "surface": "Kozlova O.Yu.",
+          "canonical": "Козлова О.Ю."
+        },
+        {
+          "type": "Expert",
+          "surface": "Agafonov V.V.",
+          "canonical": "Агафонов В.В."
+        },
+        {
+          "type": "Expert",
+          "surface": "Kozlov V.V.",
+          "canonical": "Козлов В.В."
+        },
+        {
+          "type": "Facility",
+          "surface": "MIREA – Russian Technological University",
+          "canonical": "МИРЭА – Российский технологический университет"
+        },
+        {
+          "type": "Facility",
+          "surface": "National University of Science and Technology “MISIS”",
+          "canonical": "НИТУ МИСИС"
+        },
+        {
+          "type": "Facility",
+          "surface": "Moscow Polytechnic University",
+          "canonical": "Московский политехнический университет"
+        },
+        {
+          "type": "Publication",
+          "surface": "Procedure for modeling and synthesizing of technological systems for coal mines based on integration with the smart paradigms",
+          "canonical": "Procedure for modeling and synthesizing of technological systems for coal mines based on integration with the smart paradigms"
+        }
+      ],
+      "measurements": [],
+      "relations": [
+        {
+          "head": "Kozlova O.Yu.",
+          "type": "uses_material",
+          "tail": "Procedure for modeling and synthesizing of technological systems for coal mines based on integration with the smart paradigms",
+          "evidence": "Kozlova O.Yu., Agafonov V .V ., Kozlov V .V . Procedure for modeling and synthesizing of technological systems for coal mines based on integration with the smart paradigms."
+        }
+      ],
+      "findings": [
+        {
+          "statement": "Предложен методологический подход для синтеза проектных решений технологических систем угольных шахт на основе интеграции нечеткой логики, нейронных сетей и вероятностных алгоритмов.",
+          "confidence": "high"
+        },
+        {
+          "statement": "Использование байесовского подхода позволяет учитывать фактор неопределенности при проектировании технологических систем угольных шахт.",
+          "confidence": "high"
+        }
+      ]
+    },
+    "n_entities": 7,
+    "n_relations": 1,
+    "time": 5.92,
+    "tokens": 1884,
+    "error": null
+  },
+  {
+    "model": "google/gemma-4-31b-it",
+    "task": "parse",
+    "results": [
+      {
+        "question": "методы обессоливания воды: сульфаты/хлориды/Ca/Mg/Na по 200-300 мг/л, сухой остаток <=1000 мг/дм3",
+        "parsed": {
+          "intent": "review",
+          "materials": [
+            "вода"
+          ],
+          "processes": [
+            "обессоливание"
+          ],
+          "equipment": [],
+          "properties": [
+            "сульфаты",
+            "хлориды",
+            "кальций",
+            "магний",
+            "натрий",
+            "сухой остаток"
+          ],
+          "conditions": [],
+          "experiments": [],
+          "experts": [],
+          "facilities": [],
+          "topics": [],
+          "geography": "any",
+          "time_range": {
+            "from": null,
+            "to": null
+          },
+          "numeric_constraints": [
+            {
+              "property": "сульфаты",
+              "operator": "range",
+              "value": null,
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "хлориды",
+              "operator": "range",
+              "value": null,
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "кальций",
+              "operator": "range",
+              "value": null,
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "магний",
+              "operator": "range",
+              "value": null,
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "натрий",
+              "operator": "range",
+              "value": null,
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "сухой остаток",
+              "operator": "<=",
+              "value": 1000,
+              "min": null,
+              "max": null,
+              "unit": "мг/л"
+            }
+          ],
+          "compare": null,
+          "relation_hint": "applies_to"
+        },
+        "time": 20.35,
+        "tokens": 1209,
+        "error": null
+      },
+      {
+        "question": "оптимальная скорость циркуляции католита в процессе электроэкстракции",
+        "parsed": {
+          "intent": "search",
+          "materials": [],
+          "processes": [
+            "электроэкстракция"
+          ],
+          "equipment": [],
+          "properties": [
+            "скорость циркуляции католита"
+          ],
+          "conditions": [],
+          "experiments": [],
+          "experts": [],
+          "facilities": [],
+          "topics": [],
+          "geography": "any",
+          "time_range": {
+            "from": null,
+            "to": null
+          },
+          "numeric_constraints": [],
+          "compare": null,
+          "relation_hint": "operates_at_condition"
+        },
+        "time": 4.98,
+        "tokens": 777,
+        "error": null
+      },
+      {
+        "question": "извлечение Au, Ag и металлов платиновой группы из руд",
+        "parsed": {
+          "intent": "review",
+          "materials": [
+            "золото",
+            "серебро",
+            "металлы платиновой группы",
+            "руды"
+          ],
+          "processes": [
+            "извлечение"
+          ],
+          "equipment": [],
+          "properties": [],
+          "conditions": [],
+          "experiments": [],
+          "experts": [],
+          "facilities": [],
+          "topics": [],
+          "geography": "any",
+          "time_range": {
+            "from": null,
+            "to": null
+          },
+          "numeric_constraints": [],
+          "compare": null,
+          "relation_hint": "applies_to"
+        },
+        "time": 5.78,
+        "tokens": 824,
+        "error": null
+      },
+      {
+        "question": "закачка воды в горные выработки: методы и оборудование",
+        "parsed": {
+          "intent": "review",
+          "materials": [
+            "вода"
+          ],
+          "processes": [
+            "закачка воды в горные выработки"
+          ],
+          "equipment": [
+            "оборудование"
+          ],
+          "properties": [],
+          "conditions": [],
+          "experiments": [],
+          "experts": [],
+          "facilities": [
+            "горные выработки"
+          ],
+          "topics": [],
+          "geography": "any",
+          "time_range": {
+            "from": null,
+            "to": null
+          },
+          "numeric_constraints": [],
+          "compare": null,
+          "relation_hint": "uses_equipment"
+        },
+        "time": 3.7,
+        "tokens": 784,
+        "error": null
+      }
+    ],
+    "avg_time": 8.7,
+    "total_tokens": 3594,
+    "ok": 4,
+    "n": 4
+  },
+  {
+    "model": "google/gemma-4-31b-it",
+    "task": "synthesis",
+    "parsed": {
+      "answer": "Для добычи и обогащения золота применяются следующие технологии: гравитационное обогащение, которое используется на предварительной стадии для извлечения крупных частиц золота размером более 0,1 мм [3]; флотация, являющаяся основным методом для сульфидных руд с показателем извлечения 85-95% [1]; и цианирование, позволяющее достичь извлечения до 98% при условии контроля концентрации CN- и уровня pH [2].",
+      "consensus": [
+        "Использование комбинации физических (гравитация, флотация) и химических (цианирование) методов для максимизации извлечения золота"
+      ],
+      "disagreements": [],
+      "sources": [
+        {
+          "title": "Иванов et al.",
+          "year": 2023,
+          "geography": "RU",
+          "confidence": "high",
+          "span": "p.1"
+        },
+        {
+          "title": "Петров et al.",
+          "year": 2022,
+          "geography": "RU",
+          "confidence": "high",
+          "span": "p.2"
+        },
+        {
+          "title": "Сидоров et al.",
+          "year": 2024,
+          "geography": "RU",
+          "confidence": "medium",
+          "span": "p.3"
+        }
+      ],
+      "gaps": [
+        "Отсутствуют данные по зарубежной практике (foreign)",
+        "Нет информации о методах добычи для окисленных руд или кучного выщелачивания"
+      ],
+      "experts": [],
+      "confidence": "high"
+    },
+    "time": 6.67,
+    "tokens": 912,
+    "error": null
+  },
+  {
+    "model": "google/gemma-4-31b-it",
+    "task": "extraction",
+    "parsed": {
+      "entities": [
+        {
+          "type": "Material",
+          "surface": "coal",
+          "canonical": "уголь"
+        },
+        {
+          "type": "Process",
+          "surface": "modeling and synthesizing of technological systems",
+          "canonical": "моделирование и синтез технологических систем"
+        },
+        {
+          "type": "Process",
+          "surface": "Data Mining",
+          "canonical": "интеллектуальный анализ данных"
+        },
+        {
+          "type": "Condition",
+          "surface": "coal mines",
+          "canonical": "угольные шахты"
+        },
+        {
+          "type": "Publication",
+          "surface": "Procedure for modeling and synthesizing of technological systems for coal mines based on integration with the smart paradigms",
+          "canonical": "Procedure for modeling and synthesizing of technological systems for coal mines based on integration with the smart paradigms"
+        },
+        {
+          "type": "Expert",
+          "surface": "Kozlova O.Yu.",
+          "canonical": "Козлова О.Ю."
+        },
+        {
+          "type": "Expert",
+          "surface": "Agafonov V .V .",
+          "canonical": "Агафонов В.В."
+        },
+        {
+          "type": "Expert",
+          "surface": "Kozlov V .V .",
+          "canonical": "Козлов В.В."
+        },
+        {
+          "type": "Facility",
+          "surface": "MIREA – Russian Technological University",
+          "canonical": "РТУ МИРЭА"
+        },
+        {
+          "type": "Facility",
+          "surface": "National University of Science and Technology “MISIS”",
+          "canonical": "НИТУ МИСИС"
+        },
+        {
+          "type": "Facility",
+          "surface": "Moscow Polytechnic University",
+          "canonical": "Московский политехнический университет"
+        }
+      ],
+      "measurements": [],
+      "relations": [
+        {
+          "head": "Procedure for modeling and synthesizing of technological systems for coal mines based on integration with the smart paradigms",
+          "type": "uses_material",
+          "tail": "уголь",
+          "evidence": "technological systems for coal mines"
+        },
+        {
+          "head": "Kozlova O.Yu.",
+          "type": "operates_at_condition",
+          "tail": "РТУ МИРЭА",
+          "evidence": "1 MIREA – Russian Technological University"
+        },
+        {
+          "head": "Agafonov V .V .",
+          "type": "operates_at_condition",
+          "tail": "НИТУ МИСИС",
+          "evidence": "2 National University of Science and Technology “MISIS”"
+        },
+        {
+          "head": "Kozlov V .V .",
+          "type": "operates_at_condition",
+          "tail": "Московский политехнический университет",
+          "evidence": "3 Moscow Polytechnic University"
+        }
+      ],
+      "findings": [
+        {
+          "statement": "The procedure for synthesizing design solutions for technological systems in coal mines is updated and formalized within the framework of combining components of fuzzy logic, artificial neural networks, probabilistic reasoning and evolutionary algorithms.",
+          "confidence": "high"
+        },
+        {
+          "statement": "The proposed approach allows for the joint application of probabilistic-statistical and deterministic models, which is consistent with the Bayesian approach to justifying design solutions.",
+          "confidence": "high"
+        }
+      ]
+    },
+    "n_entities": 11,
+    "n_relations": 4,
+    "time": 23.87,
+    "tokens": 2214,
+    "error": null
+  },
+  {
+    "model": "google/gemma-4-26b-a4b-it",
+    "task": "parse",
+    "results": [
+      {
+        "question": "методы обессоливания воды: сульфаты/хлориды/Ca/Mg/Na по 200-300 мг/л, сухой остаток <=1000 мг/дм3",
+        "parsed": {
+          "intent": "review",
+          "materials": [
+            "вода"
+          ],
+          "processes": [
+            "обессоливание"
+          ],
+          "equipment": [],
+          "properties": [
+            "сульфаты",
+            "хлориды",
+            "кальций",
+            "магний",
+            "натрий",
+            "сухой остаток"
+          ],
+          "conditions": [],
+          "experiments": [],
+          "experts": [],
+          "facilities": [],
+          "topics": [],
+          "geography": "any",
+          "time_range": {
+            "from": null,
+            "to": null
+          },
+          "numeric_constraints": [
+            {
+              "property": "сульфаты",
+              "operator": "range",
+              "value": null,
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "хлориды",
+              "operator": "range",
+              "value": null,
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "кальций",
+              "operator": "range",
+              "value": null,
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "магний",
+              "operator": "range",
+              "value": null,
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "натрий",
+              "operator": "range",
+              "value": null,
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "сухой остаток",
+              "operator": "<=",
+              "value": 1000,
+              "min": null,
+              "max": null,
+              "unit": "мг/л"
+            }
+          ],
+          "compare": null,
+          "relation_hint": "applies_to"
+        },
+        "time": 5.93,
+        "tokens": 1236,
+        "error": null
+      },
+      {
+        "question": "оптимальная скорость циркуляции католита в процессе электроэкстракции",
+        "parsed": {
+          "intent": "search",
+          "materials": [
+            "католит"
+          ],
+          "processes": [
+            "электроэкстракция"
+          ],
+          "equipment": [],
+          "properties": [
+            "скорость циркуляции"
+          ],
+          "conditions": [],
+          "experiments": [],
+          "experts": [],
+          "facilities": [],
+          "topics": [],
+          "geography": "any",
+          "time_range": {
+            "from": null,
+            "to": null
+          },
+          "numeric_constraints": [],
+          "compare": null,
+          "relation_hint": "operates_at_condition"
+        },
+        "time": 3.65,
+        "tokens": 776,
+        "error": null
+      },
+      {
+        "question": "извлечение Au, Ag и металлов платиновой группы из руд",
+        "parsed": {
+          "intent": "review",
+          "materials": [
+            "золото",
+            "серебро",
+            "металлы платиновой группы",
+            "руда"
+          ],
+          "processes": [
+            "извлечение"
+          ],
+          "equipment": [],
+          "properties": [],
+          "conditions": [],
+          "experiments": [],
+          "experts": [],
+          "facilities": [],
+          "topics": [
+            "гидрометаллургия",
+            "обогащение полезных ископаемых"
+          ],
+          "geography": "any",
+          "time_range": {
+            "from": null,
+            "to": null
+          },
+          "numeric_constraints": [],
+          "compare": null,
+          "relation_hint": "applies_to"
+        },
+        "time": 7.57,
+        "tokens": 836,
+        "error": null
+      },
+      {
+        "question": "закачка воды в горные выработки: методы и оборудование",
+        "parsed": {
+          "intent": "review",
+          "materials": [
+            "вода"
+          ],
+          "processes": [
+            "закачка воды"
+          ],
+          "equipment": [],
+          "properties": [],
+          "conditions": [
+            "горные выработки"
+          ],
+          "experiments": [],
+          "experts": [],
+          "facilities": [
+            "горные выработки"
+          ],
+          "topics": [
+            "гидротехнические работы в шахтах",
+            "водопонижение"
+          ],
+          "geography": "any",
+          "time_range": {
+            "from": null,
+            "to": null
+          },
+          "numeric_constraints": [],
+          "compare": null,
+          "relation_hint": "applies_to"
+        },
+        "time": 2.65,
+        "tokens": 829,
+        "error": null
+      }
+    ],
+    "avg_time": 4.95,
+    "total_tokens": 3677,
+    "ok": 4,
+    "n": 4
+  },
+  {
+    "model": "google/gemma-4-26b-a4b-it",
+    "task": "synthesis",
+    "parsed": {
+      "answer": "Технологии добычи и извлечения золота включают несколько ключевых этапов обогащения. Для предварительной стадии, направленной на извлечение крупного золота (размером более 0.1 мм), применяется гравитационное обогащение [3]. Основным методом обогащения сульфидных руд золота является флотация, которая позволяет достичь уровня извлечения в диапазоне 85–95% [1]. Для финального извлечения золота используется метод цианирования, обеспечивающий эффективность до 98% при условии строгого контроля уровня pH и концентрации цианид-ионов (CN-) [2].",
+      "consensus": [
+        "Использование многостадийных процессов (предварительное обогащение и последующее извлечение) является стандартной практикой."
+      ],
+      "disagreements": [],
+      "sources": [
+        {
+          "title": "Иванов et al.",
+          "year": 2023,
+          "geography": "RU",
+          "confidence": "high",
+          "span": "n/a"
+        },
+        {
+          "title": "Петров et al.",
+          "year": 2022,
+          "geography": "RU",
+          "confidence": "high",
+          "span": "n/a"
+        },
+        {
+          "title": "Сидоров et al.",
+          "year": 2024,
+          "geography": "RU",
+          "confidence": "medium",
+          "span": "n/a"
+        }
+      ],
+      "gaps": [
+        "В предоставленном контексте отсутствуют данные о зарубежной (foreign) практике.",
+        "Не указаны технологии для добычи золота из мелкодисперсных или несульфидных руд.",
+        "Отсутствует информация о методах экологической рекультивации после использования цианирования."
+      ],
+      "experts": [],
+      "confidence": "high"
+    },
+    "time": 21.88,
+    "tokens": 969,
+    "error": null
+  },
+  {
+    "model": "google/gemma-4-26b-a4b-it",
+    "task": "extraction",
+    "parsed": {
+      "entities": [
+        {
+          "type": "Material",
+          "surface": "угольных шахт",
+          "canonical": "уголь"
+        },
+        {
+          "type": "Process",
+          "surface": "проектирования технологических систем",
+          "canonical": "проектирование технологических систем"
+        },
+        {
+          "type": "Process",
+          "surface": "синтеза технологических систем",
+          "canonical": "синтез технологических систем"
+        },
+        {
+          "type": "Process",
+          "surface": "modeling",
+          "canonical": "моделирование"
+        },
+        {
+          "type": "Experiment",
+          "surface": "Procedure for modeling and synthesizing of technological systems for coal mines based on integration with the smart paradigms",
+          "canonical": "Методологический подход к моделированию и синтезу технологических систем угольных шахт на основе интеграции с интеллектуальными парадигмами"
+        },
+        {
+          "type": "Publication",
+          "surface": "Russian Mining Industry. 2026;(2):74–77",
+          "canonical": "Russian Mining Industry, 2026, №2"
+        },
+        {
+          "type": "Expert",
+          "surface": "Kozlova O.Yu.",
+          "canonical": "Kozlova O.Yu."
+        },
+        {
+          "type": "Expert",
+          "surface": "Agafonov V.V.",
+          "canonical": "Agafonov V.V."
+        },
+        {
+          "type": "Expert",
+          "surface": "Kozlov V.V.",
+          "canonical": "Kozlov V.V."
+        },
+        {
+          "type": "Facility",
+          "surface": "MIREA – Russian Technological University",
+          "canonical": "МИРЭА – Российский технологический университет"
+        },
+        {
+          "type": "Facility",
+          "surface": "National University of Science and Technology “MISIS”",
+          "canonical": "НИТУ МИСИС"
+        },
+        {
+          "type": "Facility",
+          "surface": "Moscow Polytechnic University",
+          "canonical": "Московский политехнический университет"
+        }
+      ],
+      "measurements": [],
+      "relations": [
+        {
+          "head": "Procedure for modeling and synthesizing of technological systems for coal mines based on integration with the smart paradigms",
+          "type": "uses_material",
+          "tail": "fuzzy logic, artificial neural networks, probabilistic reasoning and evolutionary algorithms",
+          "evidence": "combining components of fuzzy logic, artiﬁcial neural networks, probabilistic reasoning and evolutionary algorithms"
+        },
+        {
+          "head": "Procedure for modeling and synthesizing of technological systems for coal mines based on integration with the smart paradigms",
+          "type": "operates_at_condition",
+          "tail": "uncertainty factor",
+          "evidence": "allows for the most comprehensive consideration of the uncertainty factor"
+        }
+      ],
+      "findings": [
+        {
+          "statement": "Предложенный подход позволяет осуществлять совместное применение вероятностно-статистической и детерминированной моделей.",
+          "confidence": "high"
+        },
+        {
+          "statement": "Использование байесовского подхода позволяет расширить границы возможности интеллектуальной генерации лучших альтернатив для проектных решений.",
+          "confidence": "high"
+        }
+      ]
+    },
+    "n_entities": 12,
+    "n_relations": 2,
+    "time": 34.42,
+    "tokens": 2180,
+    "error": null
+  },
+  {
+    "model": "qwen/qwen3.7-plus",
+    "task": "parse",
+    "results": [
+      {
+        "question": "методы обессоливания воды: сульфаты/хлориды/Ca/Mg/Na по 200-300 мг/л, сухой остаток <=1000 мг/дм3",
+        "parsed": {
+          "intent": "review",
+          "materials": [
+            "вода"
+          ],
+          "processes": [
+            "обессоливание"
+          ],
+          "equipment": [],
+          "properties": [
+            "сульфаты",
+            "хлориды",
+            "кальций",
+            "магний",
+            "натрий",
+            "сухой остаток"
+          ],
+          "conditions": [],
+          "experiments": [],
+          "experts": [],
+          "facilities": [],
+          "topics": [
+            "методы обессоливания воды"
+          ],
+          "geography": "any",
+          "time_range": {
+            "from": null,
+            "to": null
+          },
+          "numeric_constraints": [
+            {
+              "property": "сульфаты",
+              "operator": "range",
+              "value": null,
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "хлориды",
+              "operator": "range",
+              "value": null,
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "кальций",
+              "operator": "range",
+              "value": null,
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "магний",
+              "operator": "range",
+              "value": null,
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "натрий",
+              "operator": "range",
+              "value": null,
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "сухой остаток",
+              "operator": "<=",
+              "value": 1000,
+              "min": null,
+              "max": null,
+              "unit": "мг/л"
+            }
+          ],
+          "compare": null,
+          "relation_hint": null
+        },
+        "time": 54.99,
+        "tokens": 4426,
+        "error": null
+      },
+      {
+        "question": "оптимальная скорость циркуляции католита в процессе электроэкстракции",
+        "parsed": {
+          "intent": "search",
+          "materials": [
+            "католит"
+          ],
+          "processes": [
+            "электроэкстракция"
+          ],
+          "equipment": [],
+          "properties": [
+            "скорость циркуляции"
+          ],
+          "conditions": [],
+          "experiments": [],
+          "experts": [],
+          "facilities": [],
+          "topics": [],
+          "geography": "any",
+          "time_range": {
+            "from": null,
+            "to": null
+          },
+          "numeric_constraints": [],
+          "compare": null,
+          "relation_hint": "operates_at_condition"
+        },
+        "time": 39.5,
+        "tokens": 3686,
+        "error": null
+      },
+      {
+        "question": "извлечение Au, Ag и металлов платиновой группы из руд",
+        "parsed": {
+          "intent": "review",
+          "materials": [
+            "руды",
+            "золото",
+            "серебро",
+            "металлы платиновой группы"
+          ],
+          "processes": [
+            "извлечение"
+          ],
+          "equipment": [],
+          "properties": [],
+          "conditions": [],
+          "experiments": [],
+          "experts": [],
+          "facilities": [],
+          "topics": [
+            "извлечение золота, серебра и металлов платиновой группы из руд"
+          ],
+          "geography": "any",
+          "time_range": {
+            "from": null,
+            "to": null
+          },
+          "numeric_constraints": [],
+          "compare": null,
+          "relation_hint": "uses_material"
+        },
+        "time": 47.84,
+        "tokens": 4138,
+        "error": null
+      },
+      {
+        "question": "закачка воды в горные выработки: методы и оборудование",
+        "parsed": {
+          "intent": "review",
+          "materials": [
+            "вода"
+          ],
+          "processes": [
+            "закачка воды"
+          ],
+          "equipment": [],
+          "properties": [],
+          "conditions": [
+            "горные выработки"
+          ],
+          "experiments": [],
+          "experts": [],
+          "facilities": [],
+          "topics": [
+            "закачка воды в горные выработки"
+          ],
+          "geography": "any",
+          "time_range": {
+            "from": null,
+            "to": null
+          },
+          "numeric_constraints": [],
+          "compare": null,
+          "relation_hint": "uses_equipment"
+        },
+        "time": 22.12,
+        "tokens": 3030,
+        "error": null
+      }
+    ],
+    "avg_time": 41.11,
+    "total_tokens": 15280,
+    "ok": 4,
+    "n": 4
+  },
+  {
+    "model": "qwen/qwen3.7-plus",
+    "task": "synthesis",
+    "parsed": {
+      "answer": "Для добычи и обогащения золота применяется ряд технологий, различающихся по типу руды и стадии переработки. Флотация является основным методом обогащения сульфидных руд золота, обеспечивая извлечение на уровне 85–95 % [1]. Цианирование позволяет достигать извлечения золота до 98 % при условии корректного контроля pH и концентрации цианид-ионов (CN⁻) [2]. Гравитационное обогащение применяется для выделения крупного золота (частицы >0,1 мм) и обычно используется как предварительная стадия перед другими методами [3]. В предоставленном контексте не содержится информации о различиях между отечественной и зарубежной практикой применения этих технологий, а также о других методах (кучное выщелачивание, CIP/CIL, биоокисление и др.).",
+      "consensus": [],
+      "disagreements": [],
+      "sources": [
+        {
+          "title": "Флотация сульфидных руд золота",
+          "year": 2023,
+          "geography": "RU",
+          "confidence": "high",
+          "span": "Иванов et al., 2023"
+        },
+        {
+          "title": "Цианирование золота: контроль параметров",
+          "year": 2022,
+          "geography": "RU",
+          "confidence": "high",
+          "span": "Петров et al., 2022"
+        },
+        {
+          "title": "Гравитационное обогащение золотосодержащих руд",
+          "year": 2024,
+          "geography": "RU",
+          "confidence": "medium",
+          "span": "Сидоров et al., 2024"
+        }
+      ],
+      "gaps": [
+        "Нет данных о кучном выщелачивании (heap leaching)",
+        "Нет информации о технологиях CIP (Carbon-in-Pulp) и CIL (Carbon-in-Leach)",
+        "Не охвачены методы переработки упорных (рефрактерных) руд: биоокисление, автоклавное окисление",
+        "Отсутствует сравнение отечественной (RU) и зарубежной (foreign) практики",
+        "Нет данных о комбинированных технологических схемах"
+      ],
+      "experts": [
+        {
+          "name": "Иванов et al.",
+          "affiliation": "не указана"
+        },
+        {
+          "name": "Петров et al.",
+          "affiliation": "не указана"
+        },
+        {
+          "name": "Сидоров et al.",
+          "affiliation": "не указана"
+        }
+      ],
+      "confidence": "medium"
+    },
+    "time": 28.46,
+    "tokens": 2876,
+    "error": null
+  },
+  {
+    "model": "qwen/qwen3.7-plus",
+    "task": "extraction",
+    "parsed": null,
+    "time": 0,
+    "tokens": 0,
+    "error": "HTTPSConnectionPool(host='routerai.ru', port=443): Read timed out. (read timeout=120)"
+  },
+  {
+    "model": "deepseek/deepseek-v4-flash",
+    "task": "parse",
+    "results": [
+      {
+        "question": "методы обессоливания воды: сульфаты/хлориды/Ca/Mg/Na по 200-300 мг/л, сухой остаток <=1000 мг/дм3",
+        "parsed": null,
+        "time": 0,
+        "tokens": 0,
+        "error": "Unterminated string starting at: line 18 column 7 (char 416)"
+      },
+      {
+        "question": "оптимальная скорость циркуляции католита в процессе электроэкстракции",
+        "parsed": {
+          "intent": "search",
+          "materials": [],
+          "processes": [
+            "электроэкстракция"
+          ],
+          "equipment": [],
+          "properties": [
+            "скорость циркуляции"
+          ],
+          "conditions": [],
+          "experiments": [],
+          "experts": [],
+          "facilities": [],
+          "topics": [],
+          "geography": "any",
+          "time_range": {
+            "from": null,
+            "to": null
+          },
+          "numeric_constraints": [],
+          "compare": null,
+          "relation_hint": "operates_at_condition"
+        },
+        "time": 10.94,
+        "tokens": 1576,
+        "error": null
+      },
+      {
+        "question": "извлечение Au, Ag и металлов платиновой группы из руд",
+        "parsed": null,
+        "time": 0,
+        "tokens": 0,
+        "error": "Expecting value: line 1 column 1 (char 0)"
+      },
+      {
+        "question": "закачка воды в горные выработки: методы и оборудование",
+        "parsed": {
+          "intent": "review",
+          "materials": [],
+          "processes": [
+            "закачка воды"
+          ],
+          "equipment": [],
+          "properties": [],
+          "conditions": [],
+          "experiments": [],
+          "experts": [],
+          "facilities": [],
+          "topics": [
+            "закачка воды",
+            "горные выработки"
+          ],
+          "geography": "any",
+          "time_range": {
+            "from": null,
+            "to": null
+          },
+          "numeric_constraints": [],
+          "compare": null,
+          "relation_hint": null
+        },
+        "time": 8.72,
+        "tokens": 1374,
+        "error": null
+      }
+    ],
+    "avg_time": 10.43,
+    "total_tokens": 6272,
+    "ok": 2,
+    "n": 4
+  },
+  {
+    "model": "deepseek/deepseek-v4-flash",
+    "task": "synthesis",
+    "parsed": {
+      "answer": "На основе предоставленного контекста, для добычи золота используются три основные технологии. Флотация применяется для обогащения сульфидных руд, обеспечивая извлечение золота на уровне 85–95% [1]. Цианирование позволяет достичь извлечения до 98% при контроле pH и концентрации цианида [2]. Гравитационное обогащение используется как предварительная стадия для извлечения крупного золота (>0,1 мм) [3]. Все три метода являются традиционными и широко применяются в российской практике.",
+      "consensus": [
+        "Флотация, цианирование и гравитационное обогащение — основные технологии добычи золота, подтверждённые всеми источниками."
+      ],
+      "disagreements": [],
+      "sources": [
+        {
+          "title": "Флотация сульфидных руд золота",
+          "year": 2023,
+          "geography": "RU",
+          "confidence": "high",
+          "span": "N/A"
+        },
+        {
+          "title": "Цианирование золотосодержащих руд",
+          "year": 2022,
+          "geography": "RU",
+          "confidence": "high",
+          "span": "N/A"
+        },
+        {
+          "title": "Гравитационное обогащение крупного золота",
+          "year": 2024,
+          "geography": "RU",
+          "confidence": "medium",
+          "span": "N/A"
+        }
+      ],
+      "gaps": [
+        "Нет данных о других технологиях (кучное выщелачивание, биовыщелачивание, сорбционное цианирование и др.).",
+        "Отсутствуют экспериментальные данные для холодного климата или специфических типов руд."
+      ],
+      "experts": [
+        {
+          "name": "Иванов et al.",
+          "affiliation": "Не указана"
+        },
+        {
+          "name": "Петров et al.",
+          "affiliation": "Не указана"
+        },
+        {
+          "name": "Сидоров et al.",
+          "affiliation": "Не указана"
+        }
+      ],
+      "confidence": "medium"
+    },
+    "time": 12.54,
+    "tokens": 1406,
+    "error": null
+  },
+  {
+    "model": "deepseek/deepseek-v4-flash",
+    "task": "extraction",
+    "parsed": null,
+    "time": 0,
+    "tokens": 0,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "model": "qwen/qwen3-30b-a3b-instruct-2507",
+    "task": "parse",
+    "results": [
+      {
+        "question": "методы обессоливания воды: сульфаты/хлориды/Ca/Mg/Na по 200-300 мг/л, сухой остаток <=1000 мг/дм3",
+        "parsed": {
+          "intent": "review",
+          "properties": [
+            "сульфаты",
+            "хлориды",
+            "кальций",
+            "магний",
+            "натрий",
+            "сухой остаток"
+          ],
+          "numeric_constraints": [
+            {
+              "property": "сульфаты",
+              "operator": "range",
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "хлориды",
+              "operator": "range",
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "кальций",
+              "operator": "range",
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "магний",
+              "operator": "range",
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "натрий",
+              "operator": "range",
+              "min": 200,
+              "max": 300,
+              "unit": "мг/л"
+            },
+            {
+              "property": "сухой остаток",
+              "operator": "<=",
+              "value": 1000,
+              "unit": "мг/л"
+            }
+          ],
+          "processes": [
+            "обессоливание воды"
+          ],
+          "geography": "any",
+          "relation_hint": "applies_to"
+        },
+        "time": 5.69,
+        "tokens": 1085,
+        "error": null
+      },
+      {
+        "question": "оптимальная скорость циркуляции католита в процессе электроэкстракции",
+        "parsed": {
+          "intent": "search",
+          "processes": [
+            "электроэкстракция"
+          ],
+          "properties": [
+            "скорость циркуляции католита"
+          ],
+          "numeric_constraints": [
+            {
+              "property": "скорость циркуляции католита",
+              "operator": "range",
+              "value": null,
+              "min": null,
+              "max": null,
+              "unit": "м/с"
+            }
+          ],
+          "relation_hint": "оптимальная_скорость_для",
+          "geography": "any"
+        },
+        "time": 6.03,
+        "tokens": 791,
+        "error": null
+      },
+      {
+        "question": "извлечение Au, Ag и металлов платиновой группы из руд",
+        "parsed": {
+          "intent": "review",
+          "materials": [
+            "руды"
+          ],
+          "processes": [
+            "извлечение"
+          ],
+          "properties": [
+            "Au",
+            "Ag",
+            "металлы платиновой группы"
+          ],
+          "geography": "any",
+          "relation_hint": "uses_material"
+        },
+        "time": 4.24,
+        "tokens": 722,
+        "error": null
+      },
+      {
+        "question": "закачка воды в горные выработки: методы и оборудование",
+        "parsed": {
+          "intent": "review",
+          "materials": [],
+          "processes": [
+            "закачка воды"
+          ],
+          "equipment": [
+            "оборудование для закачки воды"
+          ],
+          "properties": [],
+          "conditions": [],
+          "experiments": [],
+          "experts": [],
+          "facilities": [],
+          "topics": [
+            "закачка воды в горные выработки",
+            "методы закачки воды",
+            "оборудование для закачки воды"
+          ],
+          "geography": "any",
+          "time_range": {
+            "from": null,
+            "to": null
+          },
+          "numeric_constraints": [],
+          "compare": null,
+          "relation_hint": "applies_to|uses_equipment|operates_at_condition"
+        },
+        "time": 3.28,
+        "tokens": 817,
+        "error": null
+      }
+    ],
+    "avg_time": 4.81,
+    "total_tokens": 3415,
+    "ok": 4,
+    "n": 4
+  },
+  {
+    "model": "qwen/qwen3-30b-a3b-instruct-2507",
+    "task": "synthesis",
+    "parsed": {
+      "answer": "Для добычи золота используются несколько ключевых технологий. Флотация применяется как основной метод обогащения сульфидных руд золота, обеспечивая извлечение в диапазоне 85–95%. Цианирование позволяет достичь высокого извлечения золота — до 98% — при условии точного контроля pH и концентрации цианида. Гравитационное обогащение используется для крупного золота (с размером частиц более 0.1 мм) и часто применяется на предварительной стадии обогащения. Эти технологии могут использоваться как отдельно, так и в комбинации в зависимости от характеристик руды.",
+      "consensus": [
+        "Флотация эффективна для сульфидных руд золота с извлечением 85–95%",
+        "Цианирование обеспечивает высокое извлечение золота (до 98%) при контроле параметров процесса",
+        "Гравитационное обогащение применимо для крупного золота (>0.1 мм) как предварительная стадия"
+      ],
+      "disagreements": [],
+      "sources": [
+        {
+          "title": "Обогащение сульфидных руд золота: современные подходы",
+          "year": 2023,
+          "geography": "RU",
+          "confidence": "high",
+          "span": "p.15"
+        },
+        {
+          "title": "Оптимизация цианирования в условиях российских рудников",
+          "year": 2022,
+          "geography": "RU",
+          "confidence": "high",
+          "span": "p.33"
+        },
+        {
+          "title": "Гравитационные методы в добыче золота: перспективы и ограничения",
+          "year": 2024,
+          "geography": "RU",
+          "confidence": "medium",
+          "span": "p.47"
+        }
+      ],
+      "gaps": [],
+      "experts": [
+        {
+          "name": "Иванов А.С.",
+          "affiliation": "Институт горного дела РАН"
+        },
+        {
+          "name": "Петров Д.В.",
+          "affiliation": "Горно-технологический институт МГГУ"
+        },
+        {
+          "name": "Сидоров Е.М.",
+          "affiliation": "Сибирский федеральный университет"
+        }
+      ],
+      "confidence": "high"
+    },
+    "time": 17.18,
+    "tokens": 1173,
+    "error": null
+  },
+  {
+    "model": "qwen/qwen3-30b-a3b-instruct-2507",
+    "task": "extraction",
+    "parsed": {
+      "entities": [
+        {
+          "type": "Material",
+          "surface": "уголь",
+          "canonical": "уголь"
+        },
+        {
+          "type": "Process",
+          "surface": "проектирование",
+          "canonical": "проектирование"
+        },
+        {
+          "type": "Process",
+          "surface": "синтез решений",
+          "canonical": "синтез решений"
+        },
+        {
+          "type": "Process",
+          "surface": "моделирование",
+          "canonical": "моделирование"
+        },
+        {
+          "type": "Process",
+          "surface": "обоснование решений",
+          "canonical": "обоснование решений"
+        },
+        {
+          "type": "Equipment",
+          "surface": "системы",
+          "canonical": "технологическая система"
+        },
+        {
+          "type": "Property",
+          "surface": "цели",
+          "canonical": "цель"
+        },
+        {
+          "type": "Property",
+          "surface": "ограничения",
+          "canonical": "ограничение"
+        },
+        {
+          "type": "Property",
+          "surface": "последствия",
+          "canonical": "последствие"
+        },
+        {
+          "type": "Property",
+          "surface": "неопределенность",
+          "canonical": "неопределенность"
+        },
+        {
+          "type": "Property",
+          "surface": "риски инвестиций",
+          "canonical": "инвестиционные риски"
+        },
+        {
+          "type": "Property",
+          "surface": "достоверность",
+          "canonical": "достоверность"
+        },
+        {
+          "type": "Property",
+          "surface": "надежность",
+          "canonical": "надежность"
+        },
+        {
+          "type": "Experiment",
+          "surface": "моделирование технологических систем",
+          "canonical": "моделирование технологических систем"
+        },
+        {
+          "type": "Publication",
+          "surface": "Original Paper",
+          "canonical": "оригинальная статья"
+        },
+        {
+          "type": "Publication",
+          "surface": "Russian Mining Industry. 2026;(2):74–77",
+          "canonical": "Russian Mining Industry, 2026, (2), 74–77"
+        },
+        {
+          "type": "Expert",
+          "surface": "Kozlova O.Yu.",
+          "canonical": "Kozlova O.Yu."
+        },
+        {
+          "type": "Expert",
+          "surface": "Agafonov V.V.",
+          "canonical": "Agafonov V.V."
+        },
+        {
+          "type": "Expert",
+          "surface": "Kozlov V.V.",
+          "canonical": "Kozlov V.V."
+        },
+        {
+          "type": "Facility",
+          "surface": "MIREA – Russian Technological University",
+          "canonical": "MIREA – Russian Technological University"
+        },
+        {
+          "type": "Facility",
+          "surface": "National University of Science and Technology “MISIS”",
+          "canonical": "National University of Science and Technology “MISIS”"
+        },
+        {
+          "type": "Facility",
+          "surface": "Moscow Polytechnic University (Tuchkovsky Branch)",
+          "canonical": "Moscow Polytechnic University (Tuchkovsky Branch)"
+        }
+      ],
+      "measurements": [],
+      "relations": [
+        {
+          "head": "синтез решений",
+          "type": "uses_material",
+          "tail": "уголь",
+          "evidence": "процедура синтеза проектных решений для технологических систем в угольных шахтах"
+        },
+        {
+          "head": "моделирование технологических систем",
+          "type": "operates_at_condition",
+          "tail": "неопределенность",
+          "evidence": "принятие основных проектных решений происходит в условиях, когда цели, ограничения и последствия их реализации точно неизвестны"
+        },
+        {
+          "head": "моделирование технологических систем",
+          "type": "has_measurement",
+          "tail": "неопределенность",
+          "evidence": "позволяет с достаточно большой достоверностью и надежностью дать общую, пусть даже наиболее приближенную к реальности оценку"
+        },
+        {
+          "head": "моделирование технологических систем",
+          "type": "produces_output",
+          "tail": "наилучшие альтернативы проектных решений",
+          "evidence": "позволяет целенаправленно генерировать наилучшие альтернативы для проектных решений"
+        },
+        {
+          "head": "моделирование технологических систем",
+          "type": "uses_material",
+          "tail": "неопределенность",
+          "evidence": "позволяет учитывать фактор неопределенности"
+        },
+        {
+          "head": "моделирование технологических систем",
+          "type": "has_measurement",
+          "tail": "достоверность",
+          "evidence": "с достаточно большой достоверностью и надежностью"
+        },
+        {
+          "head": "моделирование технологических систем",
+          "type": "has_measurement",
+          "tail": "надежность",
+          "evidence": "с достаточно большой достоверностью и надежностью"
+        },
+        {
+          "head": "проектирование",
+          "type": "has_measurement",
+          "tail": "инвестиционные риски",
+          "evidence": "учет факторов, влияющих на принятие решений, приводит к появлению сложных моделей, что связано с рисками инвестиций"
+        }
+      ],
+      "findings": [
+        {
+          "statement": "Интеграция нечеткой логики, нейросетей, вероятностного вывода и эволюционных алгоритмов позволяет расширить границы целенаправленной интеллектуальной генерации наилучших альтернатив проектных решений для технологических систем угольных шахт.",
+          "confidence": "high",
+          "evidence": "методологические особенности предложенного научно-методического подхода обеспечивают возможность совместного применения двух моделей (вероятностно-статистической и детерминированной), что согласуется с байесовским подходом и позволяет полноценно учитывать фактор неопределенности"
+        },
+        {
+          "statement": "Современные условия проектирования технологических систем угольных шахт требуют простого и наглядного подхода к обоснованию проектных решений из-за сложности и неоднозначности моделей.",
+          "confidence": "high",
+          "evidence": "отсюда со всей очевидностью возникает необходимость пересмотра основных методологических аспектов проектирования горнотехнических систем и необходимости в простом, наглядном подходе к обоснованию основных проектных решений"
+        }
+      ]
+    },
+    "n_entities": 22,
+    "n_relations": 8,
+    "time": 16.48,
+    "tokens": 2960,
+    "error": null
+  }
+]

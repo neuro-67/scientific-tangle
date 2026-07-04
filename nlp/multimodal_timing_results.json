@@ -1,0 +1,77 @@
+{
+  "variant_a": {
+    "wall_seconds": 13.75946760000079,
+    "stats": {
+      "n_nodes": 43,
+      "n_edges": 37,
+      "label_counts": {
+        "Equipment": 9,
+        "Expert": 1,
+        "Facility": 2,
+        "Finding": 4,
+        "Material": 11,
+        "Measurement": 3,
+        "Process": 4,
+        "Property": 9
+      },
+      "rel_counts": {
+        "applies_to": 7,
+        "conducted_at": 1,
+        "expert_in": 1,
+        "has_measurement": 3,
+        "measures_property": 10,
+        "showed": 4,
+        "supports": 1,
+        "uses_equipment": 5,
+        "uses_material": 4,
+        "validated_by": 1
+      },
+      "ontology_violations_labels": [],
+      "ontology_violations_relations": [],
+      "likely_duplicate_nodes": 5
+    }
+  },
+  "variant_b": {
+    "wall_seconds": 205.48964150002575,
+    "vision_seconds": 82.85000000000002,
+    "stats": {
+      "n_nodes": 268,
+      "n_edges": 258,
+      "label_counts": {
+        "Condition": 1,
+        "Equipment": 50,
+        "Experiment": 1,
+        "Expert": 2,
+        "Facility": 10,
+        "Finding": 34,
+        "Material": 29,
+        "Measurement": 46,
+        "Process": 39,
+        "Property": 45,
+        "Publication": 3,
+        "Topic": 7,
+        "штейн": 1
+      },
+      "rel_counts": {
+        "applies_to": 29,
+        "conducted_at": 9,
+        "described_in": 10,
+        "expert_in": 3,
+        "has_measurement": 44,
+        "measures_property": 65,
+        "operates_at_condition": 2,
+        "showed": 32,
+        "supports": 2,
+        "tagged": 7,
+        "uses_equipment": 31,
+        "uses_material": 22,
+        "validated_by": 2
+      },
+      "ontology_violations_labels": [
+        "штейн"
+      ],
+      "ontology_violations_relations": [],
+      "likely_duplicate_nodes": 72
+    }
+  }
+}

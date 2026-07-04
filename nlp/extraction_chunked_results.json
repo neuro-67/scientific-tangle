@@ -1,0 +1,628 @@
+{
+  "per_chunk": [
+    {
+      "chunk": 0,
+      "n_nodes": 25,
+      "n_edges": 26,
+      "elapsed": 33.77,
+      "tokens": 3250,
+      "error": null
+    },
+    {
+      "chunk": 1,
+      "error": "Expecting ',' delimiter: line 60 column 125 (char 5561)"
+    },
+    {
+      "chunk": 2,
+      "n_nodes": 22,
+      "n_edges": 27,
+      "elapsed": 34.02,
+      "tokens": 2798,
+      "error": null
+    }
+  ],
+  "merged_stats": {
+    "n_nodes": 47,
+    "n_edges": 53,
+    "label_counts": {
+      "Condition": 4,
+      "Equipment": 2,
+      "Experiment": 3,
+      "Expert": 1,
+      "Facility": 7,
+      "Finding": 5,
+      "Material": 2,
+      "Measurement": 3,
+      "Process": 12,
+      "Property": 7,
+      "Publication": 1
+    },
+    "rel_counts": {
+      "applies_to": 19,
+      "authored_by": 1,
+      "conducted_at": 3,
+      "contradicts": 1,
+      "described_in": 4,
+      "expert_in": 1,
+      "has_measurement": 3,
+      "measures_property": 6,
+      "operates_at_condition": 1,
+      "produces_output": 1,
+      "showed": 5,
+      "supports": 2,
+      "uses_equipment": 4,
+      "uses_material": 1,
+      "validated_by": 1
+    },
+    "ontology_violations_labels": [],
+    "ontology_violations_relations": [],
+    "likely_duplicate_nodes": 0,
+    "total_elapsed_seconds": 67.79,
+    "total_tokens": 6048,
+    "n_chunks": 3
+  },
+  "merged_graph": {
+    "nodes": [
+      {
+        "id": "математическое моделирование",
+        "label": "Process",
+        "properties": {
+          "domain": "металлургия"
+        }
+      },
+      {
+        "id": "CFD",
+        "label": "Process",
+        "properties": {
+          "description": "Вычислительная гидродинамика"
+        }
+      },
+      {
+        "id": "инженерные расчеты",
+        "label": "Process",
+        "properties": {
+          "description": "Этапы выполнения инженерных расчетов"
+        }
+      },
+      {
+        "id": "моделирование пылегазового потока в печи Ванюкова",
+        "label": "Experiment",
+        "properties": {}
+      },
+      {
+        "id": "моделирование течения расплава в печи Ванюкова",
+        "label": "Experiment",
+        "properties": {}
+      },
+      {
+        "id": "геометрическая модель",
+        "label": "Process",
+        "properties": {}
+      },
+      {
+        "id": "расчетная модель",
+        "label": "Process",
+        "properties": {}
+      },
+      {
+        "id": "течение газового пространства печи",
+        "label": "Process",
+        "properties": {}
+      },
+      {
+        "id": "течение расплава",
+        "label": "Process",
+        "properties": {}
+      },
+      {
+        "id": "кислородно-воздушная смесь",
+        "label": "Material",
+        "properties": {}
+      },
+      {
+        "id": "расплав",
+        "label": "Material",
+        "properties": {}
+      },
+      {
+        "id": "фурмы",
+        "label": "Equipment",
+        "properties": {}
+      },
+      {
+        "id": "застойные зоны",
+        "label": "Finding",
+        "properties": {
+          "description": "Обнаруженные зоны с низкой динамикой потока"
+        }
+      },
+      {
+        "id": "работа печи под давлением",
+        "label": "Condition",
+        "properties": {
+          "description": "Режим эксплуатации печи под избыточным давлением"
+        }
+      },
+      {
+        "id": "анимация 3-фазного течения",
+        "label": "Finding",
+        "properties": {
+          "description": "Визуализация взаимодействия газа, расплава и твердых частиц"
+        }
+      },
+      {
+        "id": "лаборатория пирометаллургии",
+        "label": "Facility",
+        "properties": {
+          "institution": "Институт Гипроникель"
+        }
+      },
+      {
+        "id": "Мария Луканина",
+        "label": "Expert",
+        "properties": {
+          "affiliation": "Институт Гипроникель"
+        }
+      },
+      {
+        "id": "вычислительная техника",
+        "label": "Equipment",
+        "properties": {
+          "type": "высокопроизводительные вычислительные системы"
+        }
+      },
+      {
+        "id": "неструктурированная расчетная сетка",
+        "label": "Property",
+        "properties": {
+          "description": "Тип расчетной сетки, используемой в CFD"
+        }
+      },
+      {
+        "id": "уравнения движения",
+        "label": "Property",
+        "properties": {
+          "description": "Фундаментальные уравнения в CFD"
+        }
+      },
+      {
+        "id": "уравнения теплопереноса",
+        "label": "Property",
+        "properties": {
+          "description": "Фундаментальные уравнения в CFD"
+        }
+      },
+      {
+        "id": "визуализация течений",
+        "label": "Property",
+        "properties": {
+          "description": "Результат визуализации в CFD"
+        }
+      },
+      {
+        "id": "построение расчетной сетки",
+        "label": "Process",
+        "properties": {}
+      },
+      {
+        "id": "обработка результатов",
+        "label": "Process",
+        "properties": {}
+      },
+      {
+        "id": "подготовка специалиста по моделированию",
+        "label": "Condition",
+        "properties": {
+          "description": "Требование к квалификации пользователя CFD"
+        }
+      },
+      {
+        "id": "моделирование течения горячего газа",
+        "label": "Process",
+        "properties": {
+          "domain": "термодинамика"
+        }
+      },
+      {
+        "id": "дымовая труба КГМК",
+        "label": "Facility",
+        "properties": {}
+      },
+      {
+        "id": "печь взвешенной плавки",
+        "label": "Facility",
+        "properties": {}
+      },
+      {
+        "id": "реакционная шахта",
+        "label": "Facility",
+        "properties": {}
+      },
+      {
+        "id": "аптейк",
+        "label": "Facility",
+        "properties": {}
+      },
+      {
+        "id": "температура",
+        "label": "Property",
+        "properties": {}
+      },
+      {
+        "id": "скорость",
+        "label": "Property",
+        "properties": {}
+      },
+      {
+        "id": "давление",
+        "label": "Property",
+        "properties": {}
+      },
+      {
+        "id": "распределение температуры",
+        "label": "Finding",
+        "properties": {
+          "description": "распределение температуры в толще свода ПВП"
+        }
+      },
+      {
+        "id": "тепловое расширение",
+        "label": "Finding",
+        "properties": {
+          "description": "расчет теплового расширения материалов свода"
+        }
+      },
+      {
+        "id": "meas_temp_1200",
+        "label": "Measurement",
+        "properties": {
+          "max": 1200,
+          "unit": "°C",
+          "operator": "<="
+        }
+      },
+      {
+        "id": "meas_expansion_237",
+        "label": "Measurement",
+        "properties": {
+          "value": 237,
+          "unit": "мм"
+        }
+      },
+      {
+        "id": "meas_expansion_71_5",
+        "label": "Measurement",
+        "properties": {
+          "value": 71.5,
+          "unit": "мм"
+        }
+      },
+      {
+        "id": "тепловизионные исследования 2017",
+        "label": "Experiment",
+        "properties": {
+          "year": 2017
+        }
+      },
+      {
+        "id": "ООО «Институт Гипроникель»",
+        "label": "Facility",
+        "properties": {}
+      },
+      {
+        "id": "ПВП",
+        "label": "Facility",
+        "properties": {}
+      },
+      {
+        "id": "линия 4",
+        "label": "Condition",
+        "properties": {
+          "description": "участок свода ПВП"
+        }
+      },
+      {
+        "id": "линия 17",
+        "label": "Condition",
+        "properties": {
+          "description": "участок свода ПВП"
+        }
+      },
+      {
+        "id": "3D модель",
+        "label": "Publication",
+        "properties": {
+          "title": "Детальная 3D картина распределения скоростей, температуры и давления газа в дымовой трубе КГМК"
+        }
+      },
+      {
+        "id": "упрощенное моделирование",
+        "label": "Process",
+        "properties": {
+          "domain": "моделирование"
+        }
+      },
+      {
+        "id": "расчет теплового расширения",
+        "label": "Process",
+        "properties": {
+          "domain": "механика"
+        }
+      },
+      {
+        "id": "научный вывод",
+        "label": "Finding",
+        "properties": {
+          "description": "результаты расчета хорошо соответствуют тепловизионным исследованиям"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "математическое моделирование",
+        "target": "CFD",
+        "type": "applies_to"
+      },
+      {
+        "source": "CFD",
+        "target": "уравнения движения",
+        "type": "measures_property"
+      },
+      {
+        "source": "CFD",
+        "target": "уравнения теплопереноса",
+        "type": "measures_property"
+      },
+      {
+        "source": "CFD",
+        "target": "неструктурированная расчетная сетка",
+        "type": "uses_equipment"
+      },
+      {
+        "source": "CFD",
+        "target": "визуализация течений",
+        "type": "produces_output"
+      },
+      {
+        "source": "CFD",
+        "target": "вычислительная техника",
+        "type": "uses_equipment"
+      },
+      {
+        "source": "инженерные расчеты",
+        "target": "описание задачи",
+        "type": "applies_to"
+      },
+      {
+        "source": "инженерные расчеты",
+        "target": "геометрическая модель",
+        "type": "applies_to"
+      },
+      {
+        "source": "инженерные расчеты",
+        "target": "расчетная модель",
+        "type": "applies_to"
+      },
+      {
+        "source": "инженерные расчеты",
+        "target": "проведение расчетов и обработка результатов",
+        "type": "applies_to"
+      },
+      {
+        "source": "моделирование пылегазового потока в печи Ванюкова",
+        "target": "течение газового пространства печи",
+        "type": "applies_to"
+      },
+      {
+        "source": "моделирование пылегазового потока в печи Ванюкова",
+        "target": "застойные зоны",
+        "type": "showed"
+      },
+      {
+        "source": "моделирование пылегазового потока в печи Ванюкова",
+        "target": "работа печи под давлением",
+        "type": "contradicts"
+      },
+      {
+        "source": "моделирование течения расплава в печи Ванюкова",
+        "target": "течение расплава",
+        "type": "applies_to"
+      },
+      {
+        "source": "моделирование течения расплава в печи Ванюкова",
+        "target": "кислородно-воздушная смесь",
+        "type": "uses_material"
+      },
+      {
+        "source": "моделирование течения расплава в печи Ванюкова",
+        "target": "фурмы",
+        "type": "uses_equipment"
+      },
+      {
+        "source": "моделирование течения расплава в печи Ванюкова",
+        "target": "анимация 3-фазного течения",
+        "type": "showed"
+      },
+      {
+        "source": "моделирование течения расплава в печи Ванюкова",
+        "target": "CFD",
+        "type": "uses_equipment"
+      },
+      {
+        "source": "моделирование течения расплава в печи Ванюкова",
+        "target": "построение расчетной сетки",
+        "type": "applies_to"
+      },
+      {
+        "source": "моделирование течения расплава в печи Ванюкова",
+        "target": "обработка результатов",
+        "type": "applies_to"
+      },
+      {
+        "source": "математическое моделирование",
+        "target": "инженерные расчеты",
+        "type": "applies_to"
+      },
+      {
+        "source": "математическое моделирование",
+        "target": "лаборатория пирометаллургии",
+        "type": "conducted_at"
+      },
+      {
+        "source": "Мария Луканина",
+        "target": "математическое моделирование",
+        "type": "authored_by"
+      },
+      {
+        "source": "Мария Луканина",
+        "target": "лаборатория пирометаллургии",
+        "type": "expert_in"
+      },
+      {
+        "source": "подготовка специалиста по моделированию",
+        "target": "CFD",
+        "type": "operates_at_condition"
+      },
+      {
+        "source": "CFD",
+        "target": "инженерные расчеты",
+        "type": "applies_to"
+      },
+      {
+        "source": "моделирование течения горячего газа",
+        "target": "дымовая труба КГМК",
+        "type": "conducted_at"
+      },
+      {
+        "source": "моделирование течения горячего газа",
+        "target": "температура",
+        "type": "measures_property"
+      },
+      {
+        "source": "моделирование течения горячего газа",
+        "target": "скорость",
+        "type": "measures_property"
+      },
+      {
+        "source": "моделирование течения горячего газа",
+        "target": "давление",
+        "type": "measures_property"
+      },
+      {
+        "source": "моделирование течения горячего газа",
+        "target": "meas_temp_1200",
+        "type": "has_measurement"
+      },
+      {
+        "source": "meas_temp_1200",
+        "target": "температура",
+        "type": "measures_property"
+      },
+      {
+        "source": "моделирование течения горячего газа",
+        "target": "распределение температуры",
+        "type": "showed"
+      },
+      {
+        "source": "упрощенное моделирование",
+        "target": "печь взвешенной плавки",
+        "type": "applies_to"
+      },
+      {
+        "source": "упрощенное моделирование",
+        "target": "реакционная шахта",
+        "type": "applies_to"
+      },
+      {
+        "source": "упрощенное моделирование",
+        "target": "аптейк",
+        "type": "applies_to"
+      },
+      {
+        "source": "упрощенное моделирование",
+        "target": "распределение температуры",
+        "type": "showed"
+      },
+      {
+        "source": "расчет теплового расширения",
+        "target": "тепловое расширение",
+        "type": "showed"
+      },
+      {
+        "source": "расчет теплового расширения",
+        "target": "meas_expansion_237",
+        "type": "has_measurement"
+      },
+      {
+        "source": "расчет теплового расширения",
+        "target": "meas_expansion_71_5",
+        "type": "has_measurement"
+      },
+      {
+        "source": "meas_expansion_237",
+        "target": "линия 4",
+        "type": "applies_to"
+      },
+      {
+        "source": "meas_expansion_71_5",
+        "target": "линия 17",
+        "type": "applies_to"
+      },
+      {
+        "source": "распределение температуры",
+        "target": "тепловизионные исследования 2017",
+        "type": "validated_by"
+      },
+      {
+        "source": "тепловизионные исследования 2017",
+        "target": "ООО «Институт Гипроникель»",
+        "type": "conducted_at"
+      },
+      {
+        "source": "распределение температуры",
+        "target": "3D модель",
+        "type": "described_in"
+      },
+      {
+        "source": "научный вывод",
+        "target": "распределение температуры",
+        "type": "supports"
+      },
+      {
+        "source": "научный вывод",
+        "target": "тепловизионные исследования 2017",
+        "type": "supports"
+      },
+      {
+        "source": "моделирование течения горячего газа",
+        "target": "ПВП",
+        "type": "applies_to"
+      },
+      {
+        "source": "упрощенное моделирование",
+        "target": "ПВП",
+        "type": "applies_to"
+      },
+      {
+        "source": "расчет теплового расширения",
+        "target": "ПВП",
+        "type": "applies_to"
+      },
+      {
+        "source": "моделирование течения горячего газа",
+        "target": "3D модель",
+        "type": "described_in"
+      },
+      {
+        "source": "упрощенное моделирование",
+        "target": "3D модель",
+        "type": "described_in"
+      },
+      {
+        "source": "расчет теплового расширения",
+        "target": "3D модель",
+        "type": "described_in"
+      }
+    ]
+  }
+}
