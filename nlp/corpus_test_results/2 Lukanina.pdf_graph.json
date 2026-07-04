@@ -1,0 +1,4656 @@
+{
+  "document": "2 Lukanina.pdf",
+  "nodes": [
+    {
+      "id": "расплав",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "расплав",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438614"
+      }
+    },
+    {
+      "id": "src_p7",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "src_p7",
+        "ingestion_date": "2026-07-04T16:06:55.438787",
+        "span": "p.7"
+      }
+    },
+    {
+      "id": "src_p8",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "src_p8",
+        "ingestion_date": "2026-07-04T16:06:55.438818",
+        "span": "p.8"
+      }
+    },
+    {
+      "id": "src_p11",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "src_p11",
+        "ingestion_date": "2026-07-04T16:06:55.438978",
+        "span": "p.11"
+      }
+    },
+    {
+      "id": "src_p13",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "src_p13",
+        "ingestion_date": "2026-07-04T16:06:55.439147",
+        "span": "p.13"
+      }
+    },
+    {
+      "id": "src_p15",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "src_p15",
+        "ingestion_date": "2026-07-04T16:06:55.439011",
+        "span": "p.15"
+      }
+    },
+    {
+      "id": "meas_flow_3",
+      "label": "Measurement",
+      "properties": {
+        "unit": "секунды",
+        "min": 3,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_flow_3",
+        "value": 3,
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:06:55.438769"
+      }
+    },
+    {
+      "id": "минеральная вата",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "минеральная вата",
+        "ingestion_date": "2026-07-04T16:06:55.438608"
+      }
+    },
+    {
+      "id": "cfd",
+      "label": "Topic",
+      "properties": {
+        "domain": "computational physics",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "cfd",
+        "ingestion_date": "2026-07-04T16:06:55.438580"
+      }
+    },
+    {
+      "id": "вычислительная гидрогазодинамика",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "вычислительная гидрогазодинамика",
+        "ingestion_date": "2026-07-04T16:06:55.438600"
+      }
+    },
+    {
+      "id": "фидер",
+      "label": "Process",
+      "properties": {
+        "domain": "металлургия",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "фидер",
+        "ingestion_date": "2026-07-04T16:06:55.438821"
+      }
+    },
+    {
+      "id": "meas_vel_5",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мм/с",
+        "max": 5,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_vel_5",
+        "operator": "<",
+        "ingestion_date": "2026-07-04T16:06:55.438824"
+      }
+    },
+    {
+      "id": "finding_filter_100_200",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "statement": "колебания с периодом выше 100-200 секунд должны практически полностью пропускаться фидером, более быстрые изменения – с той или иной эффективностью отфильтровываться",
+        "description": "Колебания с периодом выше 100–200 секунд должны практически полностью пропускаться фидером, более быстрые изменения — с той или иной эффективностью отфильтровываться",
+        "source_document": "2 Lukanina.pdf",
+        "id": "finding_filter_100_200",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438827"
+      }
+    },
+    {
+      "id": "синусоидальная зависимость расхода",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "синусоидальная зависимость расхода",
+        "ingestion_date": "2026-07-04T16:06:55.438829"
+      }
+    },
+    {
+      "id": "meas_flow_amp_1_to_5",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/ч",
+        "min": 1,
+        "max": 5,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_flow_amp_1_to_5",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:06:55.438832"
+      }
+    },
+    {
+      "id": "meas_flow_period_1_9_120",
+      "label": "Measurement",
+      "properties": {
+        "unit": "секунд",
+        "min": 1,
+        "max": 120,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_flow_period_1_9_120",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:06:55.438835"
+      }
+    },
+    {
+      "id": "перегородка",
+      "label": "Equipment",
+      "properties": {
+        "material": "огнеупорный материал",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "перегородка",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439014"
+      }
+    },
+    {
+      "id": "поле скоростей",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "description": "распределение скоростей в расплаве",
+        "source_document": "2 Lukanina.pdf",
+        "id": "поле скоростей",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439023"
+      }
+    },
+    {
+      "id": "пульсация расхода",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "description": "периодическая пульсация расхода расплава",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "пульсация расхода",
+        "ingestion_date": "2026-07-04T16:06:55.439028"
+      }
+    },
+    {
+      "id": "фидер с перегородкой",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "description": "Установка погруженной в расплав перегородки из огнеупорного материала в основной части ванны для стабилизации потока на выходе",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "фидер с перегородкой",
+        "ingestion_date": "2026-07-04T16:06:55.439041"
+      }
+    },
+    {
+      "id": "коэффициент передачи",
+      "label": "Property",
+      "properties": {
+        "unit": "безразмерный",
+        "confidence": 0.5,
+        "name": "коэффициент передачи",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "коэффициент передачи",
+        "ingestion_date": "2026-07-04T16:06:55.439016"
+      }
+    },
+    {
+      "id": "фильтрует пульсации",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "фильтрует пульсации",
+        "ingestion_date": "2026-07-04T16:06:55.439105"
+      }
+    },
+    {
+      "id": "исследование движения газового потока в печи взвешенной плавки Надеждинского металлургического завода методами математического моделирования",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "исследование движения газового потока в печи взвешенной плавки Надеждинского металлургического завода методами математического моделирования",
+        "ingestion_date": "2026-07-04T16:06:55.439292"
+      }
+    },
+    {
+      "id": "meas_period_1",
+      "label": "Measurement",
+      "properties": {
+        "unit": "с",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "id": "meas_period_1",
+        "validation_status": "pending",
+        "value": 1,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.438893"
+      }
+    },
+    {
+      "id": "meas_period_9",
+      "label": "Measurement",
+      "properties": {
+        "unit": "с",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "id": "meas_period_9",
+        "validation_status": "pending",
+        "value": 9,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.438896"
+      }
+    },
+    {
+      "id": "meas_period_120",
+      "label": "Measurement",
+      "properties": {
+        "unit": "с",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "id": "meas_period_120",
+        "validation_status": "pending",
+        "value": 120,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.438899"
+      }
+    },
+    {
+      "id": "src_p16",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "src_p16",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439039",
+        "span": "p.16"
+      }
+    },
+    {
+      "id": "программа ANSYS Fluent",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "программа ANSYS Fluent",
+        "ingestion_date": "2026-07-04T16:06:55.438605"
+      }
+    },
+    {
+      "id": "вагранка",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "вагранка",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438611"
+      }
+    },
+    {
+      "id": "computer_modeling",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "computer_modeling",
+        "ingestion_date": "2026-07-04T16:06:55.438617"
+      }
+    },
+    {
+      "id": "field_of_velocity",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "field_of_velocity",
+        "ingestion_date": "2026-07-04T16:06:55.438620"
+      }
+    },
+    {
+      "id": "short_period_pulsations",
+      "label": "Property",
+      "properties": {
+        "period": "approximately 1 s",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "short_period_pulsations",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438622"
+      }
+    },
+    {
+      "id": "long_period_fluctuations",
+      "label": "Property",
+      "properties": {
+        "period": "more than 100 seconds",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "long_period_fluctuations",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438625"
+      }
+    },
+    {
+      "id": "flow_stabilization",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "2 Lukanina.pdf",
+        "id": "flow_stabilization",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438627"
+      }
+    },
+    {
+      "id": "reduced_dead_zones",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "2 Lukanina.pdf",
+        "id": "reduced_dead_zones",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438630"
+      }
+    },
+    {
+      "id": "reduced_heat_loss",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "reduced_heat_loss",
+        "ingestion_date": "2026-07-04T16:06:55.438632"
+      }
+    },
+    {
+      "id": "partition_in_basin",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "partition_in_basin",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438635"
+      }
+    },
+    {
+      "id": "inclined_tapered_exit",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "inclined_tapered_exit",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438637"
+      }
+    },
+    {
+      "id": "brick_with_cut",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "brick_with_cut",
+        "ingestion_date": "2026-07-04T16:06:55.438640"
+      }
+    },
+    {
+      "id": "feeders_stabilization",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "2 Lukanina.pdf",
+        "id": "feeders_stabilization",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438642"
+      }
+    },
+    {
+      "id": "modified_design",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "modified_design",
+        "ingestion_date": "2026-07-04T16:06:55.438644"
+      }
+    },
+    {
+      "id": "lukаниna_2026",
+      "label": "Publication",
+      "properties": {
+        "issue": 1,
+        "year": 2026,
+        "confidence": 0.5,
+        "title": "Компьютерное моделирование узла выдачи расплава базальта из газоэлектрической вагранки",
+        "edn": "BICHXU",
+        "ingestion_date": "2026-07-04T16:06:55.438647",
+        "volume": 19,
+        "journal": "Журн. Сиб. федер. ун-та. Техника и технологии",
+        "pages": "78–91",
+        "geography": "RU",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "lukаниna_2026",
+        "authors": [
+          "Луканина М. А.",
+          "Попов В. А.",
+          "Лапин А. В.",
+          "Лазарев В. И."
+        ]
+      }
+    },
+    {
+      "id": "lukаниna_m_a",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Луканина М. А.",
+        "affiliation": "Сиб. федер. ун-т",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "lukаниna_m_a",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438650"
+      }
+    },
+    {
+      "id": "popov_v_a",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Попов В. А.",
+        "affiliation": "Сиб. федер. ун-т",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "popov_v_a",
+        "ingestion_date": "2026-07-04T16:06:55.438653"
+      }
+    },
+    {
+      "id": "lapin_a_v",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Лапин А. В.",
+        "affiliation": "Сиб. федер. ун-т",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "lapin_a_v",
+        "ingestion_date": "2026-07-04T16:06:55.438655"
+      }
+    },
+    {
+      "id": "lazarev_v_i",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Лазарев В. И.",
+        "affiliation": "Сиб. федер. ун-т",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "lazarev_v_i",
+        "ingestion_date": "2026-07-04T16:06:55.438658"
+      }
+    },
+    {
+      "id": "sibfu",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Сиб. федер. ун-т",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "sibfu",
+        "ingestion_date": "2026-07-04T16:06:55.438661"
+      }
+    },
+    {
+      "id": "edn_bichxu",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "edn_bichxu",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438663",
+        "span": "EDN: BICHXU"
+      }
+    },
+    {
+      "id": "src_p78",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "src_p78",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438666",
+        "span": "p.78"
+      }
+    },
+    {
+      "id": "numerical simulation",
+      "label": "Process",
+      "properties": {
+        "domain": "metallurgy",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "numerical simulation",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438668"
+      }
+    },
+    {
+      "id": "meas_pulsation_short",
+      "label": "Measurement",
+      "properties": {
+        "unit": "sec",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_pulsation_short",
+        "value": 1,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.438671"
+      }
+    },
+    {
+      "id": "meas_pulsation_long",
+      "label": "Measurement",
+      "properties": {
+        "unit": "sec",
+        "min": 100,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_pulsation_long",
+        "operator": ">",
+        "ingestion_date": "2026-07-04T16:06:55.438674"
+      }
+    },
+    {
+      "id": "finding_pulsation_upper",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Maximum pulsation of velocity occurs in the upper part of the flow",
+        "source_document": "2 Lukanina.pdf",
+        "id": "finding_pulsation_upper",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438676"
+      }
+    },
+    {
+      "id": "finding_velocity_lower_stable",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Velocities in the lower part of the melt practically do not change when the melt flow rate changes",
+        "source_document": "2 Lukanina.pdf",
+        "id": "finding_velocity_lower_stable",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438679"
+      }
+    },
+    {
+      "id": "finding_height_ineffective",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Increase in the size of the feeder (its height) does not significantly affect stabilization of the output flow",
+        "source_document": "2 Lukanina.pdf",
+        "id": "finding_height_ineffective",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438681"
+      }
+    },
+    {
+      "id": "modification proposal",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "description": "Proposed modification: incorporating a baffle in the center of the feeder tray",
+        "source_document": "2 Lukanina.pdf",
+        "id": "modification proposal",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438684"
+      }
+    },
+    {
+      "id": "finding_baffle_efficient",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Baffle increases efficiency of pulsation damper for both short-period and long-period fluctuations",
+        "source_document": "2 Lukanina.pdf",
+        "id": "finding_baffle_efficient",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438686"
+      }
+    },
+    {
+      "id": "finding_skew_brick_beneficial",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Inclined slag melt flow via skew brick reduces stagnant zones and heat loss",
+        "source_document": "2 Lukanina.pdf",
+        "id": "finding_skew_brick_beneficial",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438689"
+      }
+    },
+    {
+      "id": "ANSYS Fluent",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "ANSYS Fluent",
+        "ingestion_date": "2026-07-04T16:06:55.438691"
+      }
+    },
+    {
+      "id": "melt",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "melt",
+        "ingestion_date": "2026-07-04T16:06:55.438694"
+      }
+    },
+    {
+      "id": "velocity field",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "velocity field",
+        "ingestion_date": "2026-07-04T16:06:55.438696"
+      }
+    },
+    {
+      "id": "gas-electric cupola",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "gas-electric cupola",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438699"
+      }
+    },
+    {
+      "id": "basalt melt",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "basalt melt",
+        "ingestion_date": "2026-07-04T16:06:55.438701"
+      }
+    },
+    {
+      "id": "feeder tray",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "feeder tray",
+        "ingestion_date": "2026-07-04T16:06:55.438703"
+      }
+    },
+    {
+      "id": "mineral wool",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "mineral wool",
+        "ingestion_date": "2026-07-04T16:06:55.438706"
+      }
+    },
+    {
+      "id": "Lukanina M. A.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "Lukanina M. A.",
+        "validation_status": "pending",
+        "email": "lukanina@sfedu.ru",
+        "ingestion_date": "2026-07-04T16:06:55.438709"
+      }
+    },
+    {
+      "id": "Popov V. A.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Popov V. A.",
+        "ingestion_date": "2026-07-04T16:06:55.438712"
+      }
+    },
+    {
+      "id": "Lapin A. V.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Lapin A. V.",
+        "ingestion_date": "2026-07-04T16:06:55.438714"
+      }
+    },
+    {
+      "id": "Lazarev V. I.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Lazarev V. I.",
+        "ingestion_date": "2026-07-04T16:06:55.438716"
+      }
+    },
+    {
+      "id": "J. Sib. Fed. Univ. Eng. & Technol.",
+      "label": "Publication",
+      "properties": {
+        "volume": "19",
+        "pages": "78–91",
+        "issue": "1",
+        "year": 2026,
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "J. Sib. Fed. Univ. Eng. & Technol.",
+        "ingestion_date": "2026-07-04T16:06:55.438719"
+      }
+    },
+    {
+      "id": "EDN: BICHXU",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "EDN: BICHXU",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438725",
+        "span": "p.1"
+      }
+    },
+    {
+      "id": "Topic_CFD",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "CFD",
+        "source_document": "2 Lukanina.pdf",
+        "id": "Topic_CFD",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438734"
+      }
+    },
+    {
+      "id": "Topic_numerical_simulation",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "numerical simulation",
+        "source_document": "2 Lukanina.pdf",
+        "id": "Topic_numerical_simulation",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438738"
+      }
+    },
+    {
+      "id": "Topic_melt_flow",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "melt flow",
+        "source_document": "2 Lukanina.pdf",
+        "id": "Topic_melt_flow",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438744"
+      }
+    },
+    {
+      "id": "Topic_pulsation",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "pulsation",
+        "source_document": "2 Lukanina.pdf",
+        "id": "Topic_pulsation",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438748"
+      }
+    },
+    {
+      "id": "Topic_baffle",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "baffle",
+        "source_document": "2 Lukanina.pdf",
+        "id": "Topic_baffle",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438751"
+      }
+    },
+    {
+      "id": "Topic_skew_brick",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "skew brick",
+        "source_document": "2 Lukanina.pdf",
+        "id": "Topic_skew_brick",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438753"
+      }
+    },
+    {
+      "id": "Topic_heat_loss",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "heat loss",
+        "source_document": "2 Lukanina.pdf",
+        "id": "Topic_heat_loss",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438756"
+      }
+    },
+    {
+      "id": "Topic_stagnant_zones",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "stagnant zones",
+        "source_document": "2 Lukanina.pdf",
+        "id": "Topic_stagnant_zones",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438758"
+      }
+    },
+    {
+      "id": "расчёт",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "расчёт",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438761"
+      }
+    },
+    {
+      "id": "прямоугольный импульс",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "прямоугольный импульс",
+        "ingestion_date": "2026-07-04T16:06:55.438763"
+      }
+    },
+    {
+      "id": "meas_flow_100",
+      "label": "Measurement",
+      "properties": {
+        "unit": "секунды",
+        "min": 100,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_flow_100",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:06:55.438774"
+      }
+    },
+    {
+      "id": "finding_response_delay",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "расход на выходе начинает увеличиваться приблизительно через 3 секунды после скачка на входе",
+        "source_document": "2 Lukanina.pdf",
+        "id": "finding_response_delay",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438778"
+      }
+    },
+    {
+      "id": "finding_stabilization_time",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "для стабилизации расхода на выходе требуется больше 100 секунд",
+        "source_document": "2 Lukanina.pdf",
+        "id": "finding_stabilization_time",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438782"
+      }
+    },
+    {
+      "id": "temperature_field_longitudinal",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "поле температуры в продольном сечении расплава",
+        "source_document": "2 Lukanina.pdf",
+        "id": "temperature_field_longitudinal",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438792"
+      }
+    },
+    {
+      "id": "temperature_field_transverse",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "поле температуры в поперечных сечениях расплава",
+        "source_document": "2 Lukanina.pdf",
+        "id": "temperature_field_transverse",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438796"
+      }
+    },
+    {
+      "id": "velocity_field_surface_longitudinal",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "поле скорости на поверхности расплава и в продольном сечении фидера",
+        "source_document": "2 Lukanina.pdf",
+        "id": "velocity_field_surface_longitudinal",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438802"
+      }
+    },
+    {
+      "id": "flow_rate_change_sharp_increase",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "description": "резкое увеличение расхода расплава с 1 до 5 т/ч",
+        "source_document": "2 Lukanina.pdf",
+        "id": "flow_rate_change_sharp_increase",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438807"
+      }
+    },
+    {
+      "id": "flow_rate_change_sharp_decrease",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "description": "резкое падение расхода расплава с 5 до 1 т/ч",
+        "source_document": "2 Lukanina.pdf",
+        "id": "flow_rate_change_sharp_decrease",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438811"
+      }
+    },
+    {
+      "id": "flow_rate_response_time_increase",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "при резком падении входного расхода с 5 до 1 т/ч требуется 2.5 секунды, чтобы расход на выходе начал снижаться",
+        "source_document": "2 Lukanina.pdf",
+        "id": "flow_rate_response_time_increase",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438813"
+      }
+    },
+    {
+      "id": "flow_rate_response_time_stabilization",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "при резком падении входного расхода с 5 до 1 т/ч требуется 200 секунд для выравнивания расхода на выходе",
+        "source_document": "2 Lukanina.pdf",
+        "id": "flow_rate_response_time_stabilization",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438816"
+      }
+    },
+    {
+      "id": "синусоидальные пульсации",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "синусоидальные пульсации",
+        "ingestion_date": "2026-07-04T16:06:55.438840"
+      }
+    },
+    {
+      "id": "максимальная амплитуда",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "максимальная амплитуда",
+        "ingestion_date": "2026-07-04T16:06:55.438843"
+      }
+    },
+    {
+      "id": "распределение скоростей в ванне",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "распределение скоростей в ванне",
+        "ingestion_date": "2026-07-04T16:06:55.438845"
+      }
+    },
+    {
+      "id": "изменение расхода на входе и выходе",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "изменение расхода на входе и выходе",
+        "ingestion_date": "2026-07-04T16:06:55.438867"
+      }
+    },
+    {
+      "id": "период пульсаций",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "период пульсаций",
+        "ingestion_date": "2026-07-04T16:06:55.438870"
+      }
+    },
+    {
+      "id": "рис. 11",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "рис. 11",
+        "validation_status": "pending",
+        "title": "Изменение расхода на входе и выходе с периодом пульсаций",
+        "ingestion_date": "2026-07-04T16:06:55.438872"
+      }
+    },
+    {
+      "id": "fig. 11",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "fig. 11",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438875"
+      }
+    },
+    {
+      "id": "период 1 секунда",
+      "label": "Condition",
+      "properties": {
+        "unit": "с",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "период 1 секунда",
+        "validation_status": "pending",
+        "value": 1,
+        "ingestion_date": "2026-07-04T16:06:55.438880"
+      }
+    },
+    {
+      "id": "период 9 с",
+      "label": "Condition",
+      "properties": {
+        "unit": "с",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "период 9 с",
+        "validation_status": "pending",
+        "value": 9,
+        "ingestion_date": "2026-07-04T16:06:55.438883"
+      }
+    },
+    {
+      "id": "период 120 с",
+      "label": "Condition",
+      "properties": {
+        "unit": "с",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "период 120 с",
+        "validation_status": "pending",
+        "value": 120,
+        "ingestion_date": "2026-07-04T16:06:55.438886"
+      }
+    },
+    {
+      "id": "Рис. 12",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Рис. 12",
+        "title": "Поле скорости вдоль стенки ванны фидера",
+        "ingestion_date": "2026-07-04T16:06:55.438888"
+      }
+    },
+    {
+      "id": "Рис. 13",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Рис. 13",
+        "title": "Поле скоростей в продольном сечении и на поверхности расплава",
+        "ingestion_date": "2026-07-04T16:06:55.438891"
+      }
+    },
+    {
+      "id": "поле скорости вдоль стенки ванны фидера",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "поле скорости вдоль стенки ванны фидера",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "поле скорости вдоль стенки ванны фидера",
+        "ingestion_date": "2026-07-04T16:06:55.438902"
+      }
+    },
+    {
+      "id": "поле скоростей в продольном сечении",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "поле скоростей в продольном сечении",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "поле скоростей в продольном сечении",
+        "ingestion_date": "2026-07-04T16:06:55.438905"
+      }
+    },
+    {
+      "id": "поверхность расплава",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "поверхность расплава",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "поверхность расплава",
+        "ingestion_date": "2026-07-04T16:06:55.438907"
+      }
+    },
+    {
+      "id": "расход на входе",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "расход на входе",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "расход на входе",
+        "ingestion_date": "2026-07-04T16:06:55.438909"
+      }
+    },
+    {
+      "id": "расход на выходе",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "расход на выходе",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "расход на выходе",
+        "ingestion_date": "2026-07-04T16:06:55.438912"
+      }
+    },
+    {
+      "id": "волновое движение расплава",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Две последовательные волны расплава: передняя переходит из лотка в основную часть ванны, теряет скорость, распространяется на большую массу расплава; вторая только сформировалась у входа, виден небольшой «вал» на поверхности.",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "волновое движение расплава",
+        "ingestion_date": "2026-07-04T16:06:55.438915"
+      }
+    },
+    {
+      "id": "meas_transfer_coeff_5_5",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_transfer_coeff_5_5",
+        "value": 5.5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.438917"
+      }
+    },
+    {
+      "id": "meas_transfer_coeff_8_05",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_transfer_coeff_8_05",
+        "value": 8.05,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.438920"
+      }
+    },
+    {
+      "id": "meas_transfer_coeff_53",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_transfer_coeff_53",
+        "value": 53,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.438922"
+      }
+    },
+    {
+      "id": "prop_transfer_coeff",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "коэффициент передачи",
+        "source_document": "2 Lukanina.pdf",
+        "id": "prop_transfer_coeff",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438924"
+      }
+    },
+    {
+      "id": "prop_stability",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "стабильность потока",
+        "source_document": "2 Lukanina.pdf",
+        "id": "prop_stability",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438927"
+      }
+    },
+    {
+      "id": "prop_vortex",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "завихрение",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "prop_vortex",
+        "ingestion_date": "2026-07-04T16:06:55.438929"
+      }
+    },
+    {
+      "id": "prop_velocity",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "скорость",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "prop_velocity",
+        "ingestion_date": "2026-07-04T16:06:55.438931"
+      }
+    },
+    {
+      "id": "prop_smoothing_efficiency",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "эффективность сглаживания",
+        "source_document": "2 Lukanina.pdf",
+        "id": "prop_smoothing_efficiency",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438934"
+      }
+    },
+    {
+      "id": "cond_period_1s",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "период пульсаций 1 секунда",
+        "source_document": "2 Lukanina.pdf",
+        "id": "cond_period_1s",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438936"
+      }
+    },
+    {
+      "id": "cond_period_9s",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "период пульсаций 9 секунд",
+        "source_document": "2 Lukanina.pdf",
+        "id": "cond_period_9s",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438939"
+      }
+    },
+    {
+      "id": "cond_period_120s",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "период пульсаций 120 секунд",
+        "source_document": "2 Lukanina.pdf",
+        "id": "cond_period_120s",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438941"
+      }
+    },
+    {
+      "id": "exp_period_1s",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "description": "эксперимент с периодом пульсаций 1 секунда",
+        "source_document": "2 Lukanina.pdf",
+        "id": "exp_period_1s",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438944"
+      }
+    },
+    {
+      "id": "exp_period_9s",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "description": "эксперимент с периодом пульсаций 9 секунд",
+        "source_document": "2 Lukanina.pdf",
+        "id": "exp_period_9s",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438946"
+      }
+    },
+    {
+      "id": "exp_period_120s",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "description": "эксперимент с периодом пульсаций 120 секунд",
+        "source_document": "2 Lukanina.pdf",
+        "id": "exp_period_120s",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438948"
+      }
+    },
+    {
+      "id": "fig_velocity_outlet_1s",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "поле скоростей у выхода фидера при периоде 1 секунда",
+        "source_document": "2 Lukanina.pdf",
+        "id": "fig_velocity_outlet_1s",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438951"
+      }
+    },
+    {
+      "id": "fig_velocity_outlet_9s",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "поле скоростей у выхода фидера при периоде 9 секунд",
+        "source_document": "2 Lukanina.pdf",
+        "id": "fig_velocity_outlet_9s",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438953"
+      }
+    },
+    {
+      "id": "fig_velocity_outlet_120s",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "поле скоростей у выхода фидера при периоде 120 секунд",
+        "source_document": "2 Lukanina.pdf",
+        "id": "fig_velocity_outlet_120s",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438956"
+      }
+    },
+    {
+      "id": "fig_velocity_longitudinal_1s",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "поле скоростей в продольном сечении при периоде 1 секунда",
+        "source_document": "2 Lukanina.pdf",
+        "id": "fig_velocity_longitudinal_1s",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438959"
+      }
+    },
+    {
+      "id": "fig_velocity_longitudinal_9s",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "поле скоростей в продольном сечении при периоде 9 секунд",
+        "source_document": "2 Lukanina.pdf",
+        "id": "fig_velocity_longitudinal_9s",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438963"
+      }
+    },
+    {
+      "id": "fig_velocity_longitudinal_120s",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "поле скоростей в продольном сечении при периоде 120 секунд",
+        "source_document": "2 Lukanina.pdf",
+        "id": "fig_velocity_longitudinal_120s",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438965"
+      }
+    },
+    {
+      "id": "finding_high_stability_outlet",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "на выходе фидера течение заметно более стабильно",
+        "source_document": "2 Lukanina.pdf",
+        "id": "finding_high_stability_outlet",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438968"
+      }
+    },
+    {
+      "id": "finding_large_vortex_inlet",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "в момент выхода волны в основной объём фидера имеет место крупномасштабное завихрение в левую по ходу потока область",
+        "source_document": "2 Lukanina.pdf",
+        "id": "finding_large_vortex_inlet",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438970"
+      }
+    },
+    {
+      "id": "finding_high_velocity_zone_outlet",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "имеет место сравнительно постоянная область высоких скоростей в выходном канале",
+        "source_document": "2 Lukanina.pdf",
+        "id": "finding_high_velocity_zone_outlet",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438973"
+      }
+    },
+    {
+      "id": "finding_low_smoothing_efficiency",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "для периода 120 секунд эффективность сглаживания значительно ниже",
+        "source_document": "2 Lukanina.pdf",
+        "id": "finding_low_smoothing_efficiency",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.438975"
+      }
+    },
+    {
+      "id": "meas_trans_coeff_1s",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_trans_coeff_1s",
+        "value": 0.055,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.438981"
+      }
+    },
+    {
+      "id": "meas_trans_coeff_9s",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_trans_coeff_9s",
+        "value": 0.0805,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.438983"
+      }
+    },
+    {
+      "id": "meas_trans_coeff_120s",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_trans_coeff_120s",
+        "value": 0.53,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.438986"
+      }
+    },
+    {
+      "id": "meas_input_amp_1s",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/ч",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_input_amp_1s",
+        "value": 4,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.438989"
+      }
+    },
+    {
+      "id": "meas_input_amp_9s",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/ч",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_input_amp_9s",
+        "value": 4,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.438992"
+      }
+    },
+    {
+      "id": "meas_input_amp_120s",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/ч",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_input_amp_120s",
+        "value": 4,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.438994"
+      }
+    },
+    {
+      "id": "meas_output_amp_1s",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/ч",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_output_amp_1s",
+        "value": 0.22,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.438996"
+      }
+    },
+    {
+      "id": "meas_output_amp_9s",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/ч",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_output_amp_9s",
+        "value": 0.322,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.438999"
+      }
+    },
+    {
+      "id": "meas_output_amp_120s",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/ч",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_output_amp_120s",
+        "value": 2.12,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.439001"
+      }
+    },
+    {
+      "id": "property_коэффициент_передачи",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "коэффициент передачи",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "property_коэффициент_передачи",
+        "ingestion_date": "2026-07-04T16:06:55.439004"
+      }
+    },
+    {
+      "id": "property_входная_амплитуда",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "входная амплитуда",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "property_входная_амплитуда",
+        "ingestion_date": "2026-07-04T16:06:55.439006"
+      }
+    },
+    {
+      "id": "property_выходная_амплитуда",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "выходная амплитуда",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "property_выходная_амплитуда",
+        "ingestion_date": "2026-07-04T16:06:55.439009"
+      }
+    },
+    {
+      "id": "колебания с периодом ниже 1 секунды",
+      "label": "Condition",
+      "properties": {
+        "period": "1 с",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "колебания с периодом ниже 1 секунды",
+        "validation_status": "pending",
+        "operator": "<",
+        "ingestion_date": "2026-07-04T16:06:55.439019"
+      }
+    },
+    {
+      "id": "колебания с периодом 9 секунд",
+      "label": "Condition",
+      "properties": {
+        "period": "9 с",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "колебания с периодом 9 секунд",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439021"
+      }
+    },
+    {
+      "id": "продольное сечение",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "продольное сечение",
+        "ingestion_date": "2026-07-04T16:06:55.439026"
+      }
+    },
+    {
+      "id": "период 1 с",
+      "label": "Condition",
+      "properties": {
+        "period": "1 с",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "период 1 с",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439031"
+      }
+    },
+    {
+      "id": "рис. 15",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "рис. 15",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439033"
+      }
+    },
+    {
+      "id": "табл. 4",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "табл. 4",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439036"
+      }
+    },
+    {
+      "id": "период пульсации 1 с",
+      "label": "Condition",
+      "properties": {
+        "period": 1,
+        "unit": "с",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "период пульсации 1 с",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439044"
+      }
+    },
+    {
+      "id": "период пульсации 9 с",
+      "label": "Condition",
+      "properties": {
+        "period": 9,
+        "unit": "с",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "период пульсации 9 с",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439046"
+      }
+    },
+    {
+      "id": "период пульсации 120 с",
+      "label": "Condition",
+      "properties": {
+        "period": 120,
+        "unit": "с",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "период пульсации 120 с",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439048"
+      }
+    },
+    {
+      "id": "meas_coeff_1s",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_coeff_1s",
+        "value": 0.055,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.439051"
+      }
+    },
+    {
+      "id": "meas_coeff_9s",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_coeff_9s",
+        "value": 0.0805,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.439054"
+      }
+    },
+    {
+      "id": "meas_coeff_120s",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_coeff_120s",
+        "value": 0.53,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.439059"
+      }
+    },
+    {
+      "id": "установка фидера и перегородки",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "установка фидера и перегородки",
+        "ingestion_date": "2026-07-04T16:06:55.439068"
+      }
+    },
+    {
+      "id": "meas_flow_0_33",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/час",
+        "max": 0.33,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_flow_0_33",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:06:55.439073"
+      }
+    },
+    {
+      "id": "condition_initial_flow_rate_1_to_5",
+      "label": "Condition",
+      "properties": {
+        "unit": "т/час",
+        "min": 1,
+        "max": 5,
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "condition_initial_flow_rate_1_to_5",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:06:55.439078"
+      }
+    },
+    {
+      "id": "condition_initial_temperature_1440",
+      "label": "Condition",
+      "properties": {
+        "unit": "°C",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "condition_initial_temperature_1440",
+        "validation_status": "pending",
+        "value": 1440,
+        "ingestion_date": "2026-07-04T16:06:55.439082"
+      }
+    },
+    {
+      "id": "meas_temp_min_1415",
+      "label": "Measurement",
+      "properties": {
+        "unit": "°C",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "id": "meas_temp_min_1415",
+        "validation_status": "pending",
+        "value": 1415,
+        "ingestion_date": "2026-07-04T16:06:55.439085"
+      }
+    },
+    {
+      "id": "property_min_temperature",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "наименьшая температура в основной части ванны",
+        "source_document": "2 Lukanina.pdf",
+        "id": "property_min_temperature",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439087"
+      }
+    },
+    {
+      "id": "finding_stabilize_flow",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "statement": "установка фидера и перегородки позволяет исключить колебания расхода на входе в центрифугу",
+        "source_document": "2 Lukanina.pdf",
+        "id": "finding_stabilize_flow",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439090"
+      }
+    },
+    {
+      "id": "finding_reduce_stagnation_zone",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "statement": "целесообразно заменить прямоугольную кладку наклонным сходом расплава для уменьшения застойной зоны",
+        "source_document": "2 Lukanina.pdf",
+        "id": "finding_reduce_stagnation_zone",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439092"
+      }
+    },
+    {
+      "id": "finding_compensate_cooling",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "statement": "целесообразно заменить прямоугольную кладку наклонным сходом расплава для компенсации охлаждения ванны",
+        "source_document": "2 Lukanina.pdf",
+        "id": "finding_compensate_cooling",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439095"
+      }
+    },
+    {
+      "id": "finding_replace_rectangular_masonry",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "statement": "целесообразно заменить прямоугольную кладку наклонным сходом расплава",
+        "source_document": "2 Lukanina.pdf",
+        "id": "finding_replace_rectangular_masonry",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439098"
+      }
+    },
+    {
+      "id": "пульсации расхода",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "пульсации расхода",
+        "ingestion_date": "2026-07-04T16:06:55.439100"
+      }
+    },
+    {
+      "id": "предложенная конструкция",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "предложенная конструкция",
+        "ingestion_date": "2026-07-04T16:06:55.439103"
+      }
+    },
+    {
+      "id": "высокочастотные пульсации",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "высокочастотные пульсации",
+        "ingestion_date": "2026-07-04T16:06:55.439108"
+      }
+    },
+    {
+      "id": "низкочастотные пульсации",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "низкочастотные пульсации",
+        "ingestion_date": "2026-07-04T16:06:55.439110"
+      }
+    },
+    {
+      "id": "сглаживает пульсации",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "сглаживает пульсации",
+        "ingestion_date": "2026-07-04T16:06:55.439113"
+      }
+    },
+    {
+      "id": "колебания расхода",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "колебания расхода",
+        "ingestion_date": "2026-07-04T16:06:55.439116"
+      }
+    },
+    {
+      "id": "0.33 т/час",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/час",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "id": "0.33 т/час",
+        "validation_status": "pending",
+        "value": 0.33,
+        "ingestion_date": "2026-07-04T16:06:55.439119"
+      }
+    },
+    {
+      "id": "1 т/час",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/час",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "id": "1 т/час",
+        "validation_status": "pending",
+        "value": 1,
+        "ingestion_date": "2026-07-04T16:06:55.439122"
+      }
+    },
+    {
+      "id": "5 т/час",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/час",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "id": "5 т/час",
+        "validation_status": "pending",
+        "value": 5,
+        "ingestion_date": "2026-07-04T16:06:55.439124"
+      }
+    },
+    {
+      "id": "анализ движения расплава",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "анализ движения расплава",
+        "ingestion_date": "2026-07-04T16:06:55.439127"
+      }
+    },
+    {
+      "id": "поля скоростей",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "поля скоростей",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439129"
+      }
+    },
+    {
+      "id": "верхняя часть потока",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "верхняя часть потока",
+        "ingestion_date": "2026-07-04T16:06:55.439132"
+      }
+    },
+    {
+      "id": "нижняя часть расплава",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "нижняя часть расплава",
+        "ingestion_date": "2026-07-04T16:06:55.439134"
+      }
+    },
+    {
+      "id": "увеличение размеров фидера",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "увеличение размеров фидера",
+        "ingestion_date": "2026-07-04T16:06:55.439137"
+      }
+    },
+    {
+      "id": "не влияет на стабилизацию",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "не влияет на стабилизацию",
+        "ingestion_date": "2026-07-04T16:06:55.439140"
+      }
+    },
+    {
+      "id": "ГЭВ",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "ГЭВ",
+        "ingestion_date": "2026-07-04T16:06:55.439142"
+      }
+    },
+    {
+      "id": "экстремальный характер",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "экстремальный характер",
+        "ingestion_date": "2026-07-04T16:06:55.439144"
+      }
+    },
+    {
+      "id": "Demuth M.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Demuth M.",
+        "ingestion_date": "2026-07-04T16:06:55.439149"
+      }
+    },
+    {
+      "id": "Gaber C.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Gaber C.",
+        "ingestion_date": "2026-07-04T16:06:55.439171"
+      }
+    },
+    {
+      "id": "Hochenauer C.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Hochenauer C.",
+        "ingestion_date": "2026-07-04T16:06:55.439175"
+      }
+    },
+    {
+      "id": "Detailed comparison of physical fining methods in an industrial glass melting furnace using coupled CFD simulations",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "Detailed comparison of physical fining methods in an industrial glass melting furnace using coupled CFD simulations",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439178"
+      }
+    },
+    {
+      "id": "Applied Thermal Engineering",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "Applied Thermal Engineering",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439180"
+      }
+    },
+    {
+      "id": "Table 4. Feeder transmission coefficient with a partition",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "Table 4. Feeder transmission coefficient with a partition",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439183"
+      }
+    },
+    {
+      "id": "Process: physical fining methods",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "Process: physical fining methods",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439185"
+      }
+    },
+    {
+      "id": "Equipment: industrial glass melting furnace",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Equipment: industrial glass melting furnace",
+        "ingestion_date": "2026-07-04T16:06:55.439187"
+      }
+    },
+    {
+      "id": "Equipment: coupled CFD simulations",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "Equipment: coupled CFD simulations",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439190"
+      }
+    },
+    {
+      "id": "Property: feeder transmission coefficient",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Property: feeder transmission coefficient",
+        "ingestion_date": "2026-07-04T16:06:55.439192"
+      }
+    },
+    {
+      "id": "Property: input amplitude",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "Property: input amplitude",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439195"
+      }
+    },
+    {
+      "id": "Property: output amplitude",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "Property: output amplitude",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439197"
+      }
+    },
+    {
+      "id": "Measurement: transmission coefficient 0.0398 at 1 s",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Measurement: transmission coefficient 0.0398 at 1 s",
+        "value": 0.0398,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.439200"
+      }
+    },
+    {
+      "id": "Measurement: transmission coefficient 0.0825 at 9 s",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Measurement: transmission coefficient 0.0825 at 9 s",
+        "value": 0.0825,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.439202"
+      }
+    },
+    {
+      "id": "Measurement: input amplitude 4 t/h",
+      "label": "Measurement",
+      "properties": {
+        "unit": "t/h",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Measurement: input amplitude 4 t/h",
+        "value": 4,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.439206"
+      }
+    },
+    {
+      "id": "Measurement: output amplitude 0.16 t/h",
+      "label": "Measurement",
+      "properties": {
+        "unit": "t/h",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Measurement: output amplitude 0.16 t/h",
+        "value": 0.16,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.439209"
+      }
+    },
+    {
+      "id": "Measurement: output amplitude 0.33 t/h",
+      "label": "Measurement",
+      "properties": {
+        "unit": "t/h",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Measurement: output amplitude 0.33 t/h",
+        "value": 0.33,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.439211"
+      }
+    },
+    {
+      "id": "Condition: period 1 s",
+      "label": "Condition",
+      "properties": {
+        "unit": "s",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "Condition: period 1 s",
+        "validation_status": "pending",
+        "value": 1,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.439214"
+      }
+    },
+    {
+      "id": "Condition: period 9 s",
+      "label": "Condition",
+      "properties": {
+        "unit": "s",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "Condition: period 9 s",
+        "validation_status": "pending",
+        "value": 9,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.439216"
+      }
+    },
+    {
+      "id": "Finding: transmission coefficient increases with period",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Finding: transmission coefficient increases with period",
+        "ingestion_date": "2026-07-04T16:06:55.439218"
+      }
+    },
+    {
+      "id": "Source: p.12",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "Source: p.12",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439221",
+        "span": "p.12"
+      }
+    },
+    {
+      "id": "передачи фидера с перегородкой",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "передачи фидера с перегородкой",
+        "ingestion_date": "2026-07-04T16:06:55.439224"
+      }
+    },
+    {
+      "id": "meas_transmission_00398",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_transmission_00398",
+        "value": 0.0398,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.439226"
+      }
+    },
+    {
+      "id": "meas_transmission_00825",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_transmission_00825",
+        "value": 0.0825,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.439229"
+      }
+    },
+    {
+      "id": "property_коэффициент передачи",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "коэффициент передачи",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "property_коэффициент передачи",
+        "ingestion_date": "2026-07-04T16:06:55.439231"
+      }
+    },
+    {
+      "id": "condition_1 с",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "1 с",
+        "source_document": "2 Lukanina.pdf",
+        "id": "condition_1 с",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439234"
+      }
+    },
+    {
+      "id": "condition_9 с",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "9 с",
+        "source_document": "2 Lukanina.pdf",
+        "id": "condition_9 с",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439236"
+      }
+    },
+    {
+      "id": "meas_input_4",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/ч",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_input_4",
+        "value": 4,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.439239"
+      }
+    },
+    {
+      "id": "property_входная амплитуда, т/ч",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "входная амплитуда, т/ч",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "property_входная амплитуда, т/ч",
+        "ingestion_date": "2026-07-04T16:06:55.439242"
+      }
+    },
+    {
+      "id": "meas_output_016",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/ч",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_output_016",
+        "value": 0.16,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.439244"
+      }
+    },
+    {
+      "id": "meas_output_033",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/ч",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "meas_output_033",
+        "value": 0.33,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:55.439247"
+      }
+    },
+    {
+      "id": "property_выходная амплитуда, т/ч",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "выходная амплитуда, т/ч",
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "property_выходная амплитуда, т/ч",
+        "ingestion_date": "2026-07-04T16:06:55.439249"
+      }
+    },
+    {
+      "id": "publication_journal_siberian_federal_university",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "publication_journal_siberian_federal_university",
+        "title": "Journal of Siberian Federal University. Engineering & Technologies 2026 19(1): 78–91",
+        "ingestion_date": "2026-07-04T16:06:55.439252"
+      }
+    },
+    {
+      "id": "expert_saad_s_b",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Saad S.B.",
+        "source_document": "2 Lukanina.pdf",
+        "orcid": "",
+        "validation_status": "pending",
+        "id": "expert_saad_s_b",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T16:06:55.439254"
+      }
+    },
+    {
+      "id": "expert_gentric_c",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Gentric C.",
+        "source_document": "2 Lukanina.pdf",
+        "orcid": "",
+        "validation_status": "pending",
+        "id": "expert_gentric_c",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T16:06:55.439256"
+      }
+    },
+    {
+      "id": "expert_fourmigue_j_f",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Fourmigué J.-F.",
+        "source_document": "2 Lukanina.pdf",
+        "orcid": "",
+        "validation_status": "pending",
+        "id": "expert_fourmigue_j_f",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T16:06:55.439259"
+      }
+    },
+    {
+      "id": "expert_clement_p",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Clement P.",
+        "source_document": "2 Lukanina.pdf",
+        "orcid": "",
+        "validation_status": "pending",
+        "id": "expert_clement_p",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T16:06:55.439261"
+      }
+    },
+    {
+      "id": "expert_leclerc_j_p",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Leclerc J.-P.",
+        "source_document": "2 Lukanina.pdf",
+        "orcid": "",
+        "validation_status": "pending",
+        "id": "expert_leclerc_j_p",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T16:06:55.439263"
+      }
+    },
+    {
+      "id": "expert_zaguskin_v_l",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Загускин В. Л.",
+        "source_document": "2 Lukanina.pdf",
+        "orcid": "",
+        "validation_status": "pending",
+        "id": "expert_zaguskin_v_l",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T16:06:55.439266"
+      }
+    },
+    {
+      "id": "expert_fedorova_n_n",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Федорова Н. Н.",
+        "source_document": "2 Lukanina.pdf",
+        "orcid": "",
+        "validation_status": "pending",
+        "id": "expert_fedorova_n_n",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T16:06:55.439268"
+      }
+    },
+    {
+      "id": "expert_valger_s_a",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Вальгер С. А.",
+        "source_document": "2 Lukanina.pdf",
+        "orcid": "",
+        "validation_status": "pending",
+        "id": "expert_valger_s_a",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T16:06:55.439270"
+      }
+    },
+    {
+      "id": "expert_danilov_m_n",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Данилов М. Н.",
+        "source_document": "2 Lukanina.pdf",
+        "orcid": "",
+        "validation_status": "pending",
+        "id": "expert_danilov_m_n",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T16:06:55.439272"
+      }
+    },
+    {
+      "id": "expert_zakharova_yu_v",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Захарова Ю. В.",
+        "source_document": "2 Lukanina.pdf",
+        "orcid": "",
+        "validation_status": "pending",
+        "id": "expert_zakharova_yu_v",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T16:06:55.439275"
+      }
+    },
+    {
+      "id": "expert_yanyshev_d_s",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Янышев Д. С.",
+        "source_document": "2 Lukanina.pdf",
+        "orcid": "",
+        "validation_status": "pending",
+        "id": "expert_yanyshev_d_s",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T16:06:55.439277"
+      }
+    },
+    {
+      "id": "expert_bykov_l_v",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Быков Л. В.",
+        "source_document": "2 Lukanina.pdf",
+        "orcid": "",
+        "validation_status": "pending",
+        "position": "",
+        "id": "expert_bykov_l_v",
+        "email": "",
+        "ingestion_date": "2026-07-04T16:06:55.439279"
+      }
+    },
+    {
+      "id": "expert_taherifar_a",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Тахерифард А.",
+        "source_document": "2 Lukanina.pdf",
+        "orcid": "",
+        "validation_status": "pending",
+        "id": "expert_taherifar_a",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T16:06:55.439281"
+      }
+    },
+    {
+      "id": "expert_elistratov_v_v",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Елистратов В. В.",
+        "source_document": "2 Lukanina.pdf",
+        "orcid": "",
+        "validation_status": "pending",
+        "id": "expert_elistratov_v_v",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T16:06:55.439284"
+      }
+    },
+    {
+      "id": "численное моделирование гидродинамики многофазного потока методами CFD-анализа в трубопроводе с двойным коленом",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "численное моделирование гидродинамики многофазного потока методами CFD-анализа в трубопроводе с двойным коленом",
+        "ingestion_date": "2026-07-04T16:06:55.439290"
+      }
+    },
+    {
+      "id": "изменение динамики газопылевого потока в ПВП НМЗ при установке защитного козырька. Модельные расчеты",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "изменение динамики газопылевого потока в ПВП НМЗ при установке защитного козырька. Модельные расчеты",
+        "ingestion_date": "2026-07-04T16:06:55.439294"
+      }
+    },
+    {
+      "id": "Takherifard, A.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "Takherifard, A.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439297"
+      }
+    },
+    {
+      "id": "Elistratov, V. V.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "Elistratov, V. V.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439299"
+      }
+    },
+    {
+      "id": "Talalov, V. A.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Talalov, V. A.",
+        "ingestion_date": "2026-07-04T16:06:55.439302"
+      }
+    },
+    {
+      "id": "Krupnov, L. V.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Krupnov, L. V.",
+        "ingestion_date": "2026-07-04T16:06:55.439305"
+      }
+    },
+    {
+      "id": "Rumyantsev, D. V.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "Rumyantsev, D. V.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439307"
+      }
+    },
+    {
+      "id": "Pakhomov, R. A.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "id": "Pakhomov, R. A.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:55.439310"
+      }
+    },
+    {
+      "id": "Starykh, R. V.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Starykh, R. V.",
+        "ingestion_date": "2026-07-04T16:06:55.439313"
+      }
+    },
+    {
+      "id": "Вестник МГСУ. Гидравлика. Геотехника. Гидротехническое строительство, 2023",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Вестник МГСУ. Гидравлика. Геотехника. Гидротехническое строительство, 2023",
+        "ingestion_date": "2026-07-04T16:06:55.439315"
+      }
+    },
+    {
+      "id": "Цветные металлы, 2015, 5, 86–91",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Цветные металлы, 2015, 5, 86–91",
+        "ingestion_date": "2026-07-04T16:06:55.439318"
+      }
+    },
+    {
+      "id": "Цветные металлы, 2021, 10, 63–71",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "2 Lukanina.pdf",
+        "validation_status": "pending",
+        "id": "Цветные металлы, 2021, 10, 63–71",
+        "ingestion_date": "2026-07-04T16:06:55.439320"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "фидер",
+      "target": "meas_vel_5",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "фидер",
+      "target": "meas_vel_5",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "фидер",
+      "target": "finding_filter_100_200",
+      "type": "SHOWED"
+    },
+    {
+      "source": "фидер",
+      "target": "finding_filter_100_200",
+      "type": "SHOWED"
+    },
+    {
+      "source": "синусоидальная зависимость расхода",
+      "target": "meas_flow_amp_1_to_5",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "синусоидальная зависимость расхода",
+      "target": "meas_flow_period_1_9_120",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "фидер с перегородкой",
+      "target": "коэффициент передачи",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "cfd",
+      "target": "computer_modeling",
+      "type": "TAGGED"
+    },
+    {
+      "source": "вычислительная гидрогазодинамика",
+      "target": "computer_modeling",
+      "type": "TAGGED"
+    },
+    {
+      "source": "программа ANSYS Fluent",
+      "target": "computer_modeling",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "computer_modeling",
+      "target": "field_of_velocity",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "computer_modeling",
+      "target": "feeders_stabilization",
+      "type": "SHOWED"
+    },
+    {
+      "source": "feeders_stabilization",
+      "target": "short_period_pulsations",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "feeders_stabilization",
+      "target": "long_period_fluctuations",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "feeders_stabilization",
+      "target": "flow_stabilization",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "feeders_stabilization",
+      "target": "reduced_dead_zones",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "feeders_stabilization",
+      "target": "reduced_heat_loss",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "feeders_stabilization",
+      "target": "modified_design",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "modified_design",
+      "target": "partition_in_basin",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "modified_design",
+      "target": "inclined_tapered_exit",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "inclined_tapered_exit",
+      "target": "brick_with_cut",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "computer_modeling",
+      "target": "lukаниna_2026",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "lukаниna_2026",
+      "target": "lukаниna_m_a",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "lukаниna_2026",
+      "target": "popov_v_a",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "lukаниna_2026",
+      "target": "lapin_a_v",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "lukаниna_2026",
+      "target": "lazarev_v_i",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "lukаниna_m_a",
+      "target": "lukаниna_2026",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "popov_v_a",
+      "target": "lukаниna_2026",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "lapin_a_v",
+      "target": "lukаниna_2026",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "lazarev_v_i",
+      "target": "lukаниna_2026",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "lukаниna_2026",
+      "target": "sibfu",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "lukаниna_2026",
+      "target": "edn_bichxu",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "short_period_pulsations",
+      "target": "src_p78",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "long_period_fluctuations",
+      "target": "src_p78",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "flow_stabilization",
+      "target": "src_p78",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "reduced_dead_zones",
+      "target": "src_p78",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "reduced_heat_loss",
+      "target": "src_p78",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "partition_in_basin",
+      "target": "src_p78",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "brick_with_cut",
+      "target": "src_p78",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "field_of_velocity",
+      "target": "src_p78",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "computer_modeling",
+      "target": "src_p78",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "numerical simulation",
+      "target": "meas_pulsation_short",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_pulsation_short",
+      "target": "src_p1",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "numerical simulation",
+      "target": "meas_pulsation_long",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_pulsation_long",
+      "target": "src_p1",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "numerical simulation",
+      "target": "finding_pulsation_upper",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_pulsation_upper",
+      "target": "src_p1",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "numerical simulation",
+      "target": "finding_velocity_lower_stable",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_velocity_lower_stable",
+      "target": "src_p1",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "numerical simulation",
+      "target": "finding_height_ineffective",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_height_ineffective",
+      "target": "src_p1",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "modification proposal",
+      "target": "finding_baffle_efficient",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_baffle_efficient",
+      "target": "src_p1",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "modification proposal",
+      "target": "finding_skew_brick_beneficial",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "finding_skew_brick_beneficial",
+      "target": "src_p1",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "numerical simulation",
+      "target": "cfd",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "numerical simulation",
+      "target": "ANSYS Fluent",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "numerical simulation",
+      "target": "melt",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "numerical simulation",
+      "target": "velocity field",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "numerical simulation",
+      "target": "gas-electric cupola",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "numerical simulation",
+      "target": "basalt melt",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "numerical simulation",
+      "target": "feeder tray",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "numerical simulation",
+      "target": "mineral wool",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "Lukanina M. A.",
+      "target": "numerical simulation",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Popov V. A.",
+      "target": "numerical simulation",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Lapin A. V.",
+      "target": "numerical simulation",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Lazarev V. I.",
+      "target": "numerical simulation",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "numerical simulation",
+      "target": "J. Sib. Fed. Univ. Eng. & Technol.",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "J. Sib. Fed. Univ. Eng. & Technol.",
+      "target": "EDN: BICHXU",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "J. Sib. Fed. Univ. Eng. & Technol.",
+      "target": "src_p1",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_baffle_efficient",
+      "target": "Lukanina M. A.",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "finding_skew_brick_beneficial",
+      "target": "Lukanina M. A.",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "прямоугольный импульс",
+      "target": "meas_flow_3",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "прямоугольный импульс",
+      "target": "meas_flow_3",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_flow_3",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_flow_3",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "прямоугольный импульс",
+      "target": "meas_flow_100",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_flow_100",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "расчёт",
+      "target": "прямоугольный импульс",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "расчёт",
+      "target": "meas_flow_3",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "расчёт",
+      "target": "meas_flow_3",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "расчёт",
+      "target": "meas_flow_100",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "расчёт",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "расчёт",
+      "target": "finding_response_delay",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_response_delay",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_stabilization_time",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "temperature_field_longitudinal",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "temperature_field_transverse",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "velocity_field_surface_longitudinal",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "flow_rate_change_sharp_increase",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "flow_rate_change_sharp_decrease",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "flow_rate_response_time_increase",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "flow_rate_response_time_stabilization",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_vel_5",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_filter_100_200",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_flow_amp_1_to_5",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_flow_period_1_9_120",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "фидер",
+      "target": "meas_vel_5",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "фидер",
+      "target": "meas_vel_5",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "фидер",
+      "target": "finding_filter_100_200",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "фидер",
+      "target": "finding_filter_100_200",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "синусоидальные пульсации",
+      "target": "распределение скоростей в ванне",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "максимальная амплитуда",
+      "target": "распределение скоростей в ванне",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "изменение расхода на входе и выходе",
+      "target": "синусоидальные пульсации",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "изменение расхода на входе и выходе",
+      "target": "синусоидальные пульсации",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "изменение расхода на входе и выходе",
+      "target": "период пульсаций",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "изменение расхода на входе и выходе",
+      "target": "период пульсаций",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "изменение расхода на входе и выходе",
+      "target": "рис. 11",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "изменение расхода на входе и выходе",
+      "target": "рис. 11",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "рис. 11",
+      "target": "fig. 11",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Рис. 13",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Рис. 12",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "рис. 11",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "фидер",
+      "target": "meas_transfer_coeff_5_5",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "фидер",
+      "target": "meas_transfer_coeff_5_5",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_transfer_coeff_5_5",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "фидер",
+      "target": "meas_transfer_coeff_8_05",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "фидер",
+      "target": "meas_transfer_coeff_8_05",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_transfer_coeff_8_05",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "фидер",
+      "target": "meas_transfer_coeff_53",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "фидер",
+      "target": "meas_transfer_coeff_53",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_transfer_coeff_53",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_transfer_coeff_5_5",
+      "target": "prop_transfer_coeff",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_transfer_coeff_8_05",
+      "target": "prop_transfer_coeff",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_transfer_coeff_53",
+      "target": "prop_transfer_coeff",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "exp_period_1s",
+      "target": "cond_period_1s",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "exp_period_9s",
+      "target": "cond_period_9s",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "exp_period_120s",
+      "target": "cond_period_120s",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "exp_period_1s",
+      "target": "fig_velocity_outlet_1s",
+      "type": "SHOWED"
+    },
+    {
+      "source": "exp_period_9s",
+      "target": "fig_velocity_outlet_9s",
+      "type": "SHOWED"
+    },
+    {
+      "source": "exp_period_120s",
+      "target": "fig_velocity_outlet_120s",
+      "type": "SHOWED"
+    },
+    {
+      "source": "fig_velocity_outlet_1s",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "fig_velocity_outlet_9s",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "fig_velocity_outlet_120s",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "exp_period_1s",
+      "target": "fig_velocity_longitudinal_1s",
+      "type": "SHOWED"
+    },
+    {
+      "source": "exp_period_9s",
+      "target": "fig_velocity_longitudinal_9s",
+      "type": "SHOWED"
+    },
+    {
+      "source": "exp_period_120s",
+      "target": "fig_velocity_longitudinal_120s",
+      "type": "SHOWED"
+    },
+    {
+      "source": "fig_velocity_longitudinal_1s",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "fig_velocity_longitudinal_9s",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "fig_velocity_longitudinal_120s",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "exp_period_1s",
+      "target": "finding_high_stability_outlet",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_high_stability_outlet",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_high_stability_outlet",
+      "target": "prop_stability",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "exp_period_1s",
+      "target": "finding_large_vortex_inlet",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_large_vortex_inlet",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_large_vortex_inlet",
+      "target": "prop_vortex",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "exp_period_1s",
+      "target": "finding_high_velocity_zone_outlet",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_high_velocity_zone_outlet",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_high_velocity_zone_outlet",
+      "target": "prop_velocity",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "exp_period_120s",
+      "target": "finding_low_smoothing_efficiency",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_low_smoothing_efficiency",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_low_smoothing_efficiency",
+      "target": "prop_smoothing_efficiency",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "фидер",
+      "target": "meas_trans_coeff_1s",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "фидер",
+      "target": "meas_trans_coeff_1s",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_trans_coeff_1s",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "фидер",
+      "target": "meas_trans_coeff_9s",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "фидер",
+      "target": "meas_trans_coeff_9s",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_trans_coeff_9s",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "фидер",
+      "target": "meas_trans_coeff_120s",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "фидер",
+      "target": "meas_trans_coeff_120s",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_trans_coeff_120s",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_trans_coeff_1s",
+      "target": "property_коэффициент_передачи",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_trans_coeff_9s",
+      "target": "property_коэффициент_передачи",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_trans_coeff_120s",
+      "target": "property_коэффициент_передачи",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_input_amp_1s",
+      "target": "property_входная_амплитуда",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_input_amp_9s",
+      "target": "property_входная_амплитуда",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_input_amp_120s",
+      "target": "property_входная_амплитуда",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_output_amp_1s",
+      "target": "property_выходная_амплитуда",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_output_amp_9s",
+      "target": "property_выходная_амплитуда",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_output_amp_120s",
+      "target": "property_выходная_амплитуда",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "перегородка",
+      "target": "коэффициент передачи",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "перегородка",
+      "target": "колебания с периодом ниже 1 секунды",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "колебания с периодом ниже 1 секунды",
+      "target": "коэффициент передачи",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "колебания с периодом 9 секунд",
+      "target": "коэффициент передачи",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "перегородка",
+      "target": "поле скоростей",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "поле скоростей",
+      "target": "поверхность расплава",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "поле скоростей",
+      "target": "продольное сечение",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "пульсация расхода",
+      "target": "период 1 с",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "пульсация расхода",
+      "target": "период 1 с",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "период 1 с",
+      "target": "поле скоростей",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "период 1 с",
+      "target": "поле скоростей",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "рис. 15",
+      "target": "поле скоростей",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "рис. 15",
+      "target": "перегородка",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "табл. 4",
+      "target": "коэффициент передачи",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "табл. 4",
+      "target": "колебания с периодом ниже 1 секунды",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "табл. 4",
+      "target": "колебания с периодом 9 секунд",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "фидер с перегородкой",
+      "target": "период пульсации 1 с",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "фидер с перегородкой",
+      "target": "период пульсации 9 с",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "фидер с перегородкой",
+      "target": "период пульсации 120 с",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "период пульсации 1 с",
+      "target": "meas_coeff_1s",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "период пульсации 9 с",
+      "target": "meas_coeff_9s",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "период пульсации 120 с",
+      "target": "meas_coeff_120s",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_coeff_1s",
+      "target": "коэффициент передачи",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_coeff_9s",
+      "target": "коэффициент передачи",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_coeff_120s",
+      "target": "коэффициент передачи",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_coeff_1s",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_coeff_9s",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_coeff_120s",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "фидер с перегородкой",
+      "target": "src_p12",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "установка фидера и перегородки",
+      "target": "meas_flow_0_33",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_flow_0_33",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "установка фидера и перегородки",
+      "target": "finding_stabilize_flow",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_stabilize_flow",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "установка фидера и перегородки",
+      "target": "finding_reduce_stagnation_zone",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_reduce_stagnation_zone",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "установка фидера и перегородки",
+      "target": "finding_compensate_cooling",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_compensate_cooling",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "установка фидера и перегородки",
+      "target": "condition_initial_flow_rate_1_to_5",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "condition_initial_flow_rate_1_to_5",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "установка фидера и перегородки",
+      "target": "condition_initial_temperature_1440",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "condition_initial_temperature_1440",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_temp_min_1415",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "установка фидера и перегородки",
+      "target": "meas_temp_min_1415",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_temp_min_1415",
+      "target": "property_min_temperature",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "property_min_temperature",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "установка фидера и перегородки",
+      "target": "finding_replace_rectangular_masonry",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_replace_rectangular_masonry",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "фидер",
+      "target": "перегородка",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "фидер",
+      "target": "перегородка",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "фидер",
+      "target": "пульсации расхода",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "фидер",
+      "target": "пульсации расхода",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "пульсации расхода",
+      "target": "период 1 с",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "пульсации расхода",
+      "target": "период 1 с",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "фидер",
+      "target": "предложенная конструкция",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "фидер",
+      "target": "предложенная конструкция",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "предложенная конструкция",
+      "target": "фильтрует пульсации",
+      "type": "SHOWED"
+    },
+    {
+      "source": "предложенная конструкция",
+      "target": "высокочастотные пульсации",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "предложенная конструкция",
+      "target": "высокочастотные пульсации",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "предложенная конструкция",
+      "target": "низкочастотные пульсации",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "перегородка",
+      "target": "сглаживает пульсации",
+      "type": "SHOWED"
+    },
+    {
+      "source": "перегородка",
+      "target": "колебания расхода",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "колебания расхода",
+      "target": "0.33 т/час",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "анализ движения расплава",
+      "target": "поля скоростей",
+      "type": "SHOWED"
+    },
+    {
+      "source": "поля скоростей",
+      "target": "верхняя часть потока",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "поля скоростей",
+      "target": "нижняя часть расплава",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "увеличение размеров фидера",
+      "target": "не влияет на стабилизацию",
+      "type": "SHOWED"
+    },
+    {
+      "source": "ГЭВ",
+      "target": "высокочастотные пульсации",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "ГЭВ",
+      "target": "высокочастотные пульсации",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Demuth M.",
+      "target": "Gaber C.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Demuth M.",
+      "target": "Hochenauer C.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Detailed comparison of physical fining methods in an industrial glass melting furnace using coupled CFD simulations",
+      "target": "Demuth M.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Detailed comparison of physical fining methods in an industrial glass melting furnace using coupled CFD simulations",
+      "target": "Gaber C.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Detailed comparison of physical fining methods in an industrial glass melting furnace using coupled CFD simulations",
+      "target": "Hochenauer C.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Detailed comparison of physical fining methods in an industrial glass melting furnace using coupled CFD simulations",
+      "target": "Applied Thermal Engineering",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Detailed comparison of physical fining methods in an industrial glass melting furnace using coupled CFD simulations",
+      "target": "Table 4. Feeder transmission coefficient with a partition",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Table 4. Feeder transmission coefficient with a partition",
+      "target": "Process: physical fining methods",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Process: physical fining methods",
+      "target": "Equipment: industrial glass melting furnace",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Process: physical fining methods",
+      "target": "Equipment: coupled CFD simulations",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "Process: physical fining methods",
+      "target": "Property: feeder transmission coefficient",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Process: physical fining methods",
+      "target": "Measurement: transmission coefficient 0.0398 at 1 s",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Measurement: transmission coefficient 0.0398 at 1 s",
+      "target": "Property: feeder transmission coefficient",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Measurement: transmission coefficient 0.0398 at 1 s",
+      "target": "Source: p.12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Process: physical fining methods",
+      "target": "Measurement: transmission coefficient 0.0825 at 9 s",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Measurement: transmission coefficient 0.0825 at 9 s",
+      "target": "Property: feeder transmission coefficient",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Measurement: transmission coefficient 0.0825 at 9 s",
+      "target": "Source: p.12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Measurement: transmission coefficient 0.0398 at 1 s",
+      "target": "Condition: period 1 s",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Measurement: transmission coefficient 0.0825 at 9 s",
+      "target": "Condition: period 9 s",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Measurement: transmission coefficient 0.0398 at 1 s",
+      "target": "Measurement: input amplitude 4 t/h",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Measurement: transmission coefficient 0.0825 at 9 s",
+      "target": "Measurement: input amplitude 4 t/h",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Measurement: input amplitude 4 t/h",
+      "target": "Property: input amplitude",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Measurement: input amplitude 4 t/h",
+      "target": "Source: p.12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Measurement: transmission coefficient 0.0398 at 1 s",
+      "target": "Measurement: output amplitude 0.16 t/h",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Measurement: transmission coefficient 0.0825 at 9 s",
+      "target": "Measurement: output amplitude 0.33 t/h",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Measurement: output amplitude 0.16 t/h",
+      "target": "Property: output amplitude",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Measurement: output amplitude 0.33 t/h",
+      "target": "Property: output amplitude",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Measurement: output amplitude 0.16 t/h",
+      "target": "Source: p.12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Measurement: output amplitude 0.33 t/h",
+      "target": "Source: p.12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Finding: transmission coefficient increases with period",
+      "target": "Measurement: transmission coefficient 0.0398 at 1 s",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "Finding: transmission coefficient increases with period",
+      "target": "Measurement: transmission coefficient 0.0825 at 9 s",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "Finding: transmission coefficient increases with period",
+      "target": "Demuth M.",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Finding: transmission coefficient increases with period",
+      "target": "Gaber C.",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Finding: transmission coefficient increases with period",
+      "target": "Hochenauer C.",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Finding: transmission coefficient increases with period",
+      "target": "Source: p.12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "передачи фидера с перегородкой",
+      "target": "meas_transmission_00398",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_transmission_00398",
+      "target": "src_p14",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "передачи фидера с перегородкой",
+      "target": "meas_transmission_00825",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_transmission_00825",
+      "target": "src_p14",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_transmission_00398",
+      "target": "property_коэффициент передачи",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_transmission_00825",
+      "target": "property_коэффициент передачи",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "передачи фидера с перегородкой",
+      "target": "condition_1 с",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "передачи фидера с перегородкой",
+      "target": "condition_9 с",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "condition_1 с",
+      "target": "src_p14",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "condition_9 с",
+      "target": "src_p14",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_transmission_00398",
+      "target": "meas_input_4",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_input_4",
+      "target": "src_p14",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_transmission_00825",
+      "target": "meas_input_4",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_input_4",
+      "target": "property_входная амплитуда, т/ч",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_transmission_00398",
+      "target": "meas_output_016",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_output_016",
+      "target": "src_p14",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_transmission_00825",
+      "target": "meas_output_033",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_output_033",
+      "target": "src_p14",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_output_016",
+      "target": "property_выходная амплитуда, т/ч",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_output_033",
+      "target": "property_выходная амплитуда, т/ч",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "передачи фидера с перегородкой",
+      "target": "publication_journal_siberian_federal_university",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "publication_journal_siberian_federal_university",
+      "target": "src_p14",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "publication_journal_siberian_federal_university",
+      "target": "expert_saad_s_b",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "publication_journal_siberian_federal_university",
+      "target": "expert_gentric_c",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "publication_journal_siberian_federal_university",
+      "target": "expert_fourmigue_j_f",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "publication_journal_siberian_federal_university",
+      "target": "expert_clement_p",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "publication_journal_siberian_federal_university",
+      "target": "expert_leclerc_j_p",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "publication_journal_siberian_federal_university",
+      "target": "expert_zaguskin_v_l",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "publication_journal_siberian_federal_university",
+      "target": "expert_fedorova_n_n",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "publication_journal_siberian_federal_university",
+      "target": "expert_valger_s_a",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "publication_journal_siberian_federal_university",
+      "target": "expert_danilov_m_n",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "publication_journal_siberian_federal_university",
+      "target": "expert_zakharova_yu_v",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "publication_journal_siberian_federal_university",
+      "target": "expert_yanyshev_d_s",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "publication_journal_siberian_federal_university",
+      "target": "expert_bykov_l_v",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "publication_journal_siberian_federal_university",
+      "target": "expert_taherifar_a",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "publication_journal_siberian_federal_university",
+      "target": "expert_elistratov_v_v",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "численное моделирование гидродинамики многофазного потока методами CFD-анализа в трубопроводе с двойным коленом",
+      "target": "Takherifard, A.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "численное моделирование гидродинамики многофазного потока методами CFD-анализа в трубопроводе с двойным коленом",
+      "target": "Elistratov, V. V.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "численное моделирование гидродинамики многофазного потока методами CFD-анализа в трубопроводе с двойным коленом",
+      "target": "Вестник МГСУ. Гидравлика. Геотехника. Гидротехническое строительство, 2023",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "исследование движения газового потока в печи взвешенной плавки Надеждинского металлургического завода методами математического моделирования",
+      "target": "Talalov, V. A.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "исследование движения газового потока в печи взвешенной плавки Надеждинского металлургического завода методами математического моделирования",
+      "target": "Krupnov, L. V.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "исследование движения газового потока в печи взвешенной плавки Надеждинского металлургического завода методами математического моделирования",
+      "target": "Rumyantsev, D. V.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "исследование движения газового потока в печи взвешенной плавки Надеждинского металлургического завода методами математического моделирования",
+      "target": "Цветные металлы, 2015, 5, 86–91",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "изменение динамики газопылевого потока в ПВП НМЗ при установке защитного козырька. Модельные расчеты",
+      "target": "Krupnov, L. V.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "изменение динамики газопылевого потока в ПВП НМЗ при установке защитного козырька. Модельные расчеты",
+      "target": "Pakhomov, R. A.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "изменение динамики газопылевого потока в ПВП НМЗ при установке защитного козырька. Модельные расчеты",
+      "target": "Starykh, R. V.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "изменение динамики газопылевого потока в ПВП НМЗ при установке защитного козырька. Модельные расчеты",
+      "target": "Цветные металлы, 2021, 10, 63–71",
+      "type": "DESCRIBED_IN"
+    }
+  ]
+}

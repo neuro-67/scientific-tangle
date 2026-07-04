@@ -1,0 +1,2846 @@
+{
+  "document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+  "nodes": [
+    {
+      "id": "температура",
+      "label": "Property",
+      "properties": {
+        "unit": "°C",
+        "domain": "термодинамика",
+        "confidence": 0.5,
+        "name": "temperature",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "температура",
+        "validation_status": "pending",
+        "type": "temperature",
+        "ingestion_date": "2026-07-04T16:07:55.992478"
+      }
+    },
+    {
+      "id": "src_p5",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "src_p5",
+        "ingestion_date": "2026-07-04T16:07:55.992651",
+        "span": "p.5"
+      }
+    },
+    {
+      "id": "src_p6",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "src_p6",
+        "ingestion_date": "2026-07-04T16:07:55.992496",
+        "span": "p.6"
+      }
+    },
+    {
+      "id": "src_p1",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "src_p1",
+        "ingestion_date": "2026-07-04T16:07:55.992417",
+        "span": "p.1"
+      }
+    },
+    {
+      "id": "src_p12",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "src_p12",
+        "ingestion_date": "2026-07-04T16:07:55.992589",
+        "span": "p.12"
+      }
+    },
+    {
+      "id": "src_p14",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "src_p14",
+        "ingestion_date": "2026-07-04T16:07:55.992693",
+        "span": "p.14"
+      }
+    },
+    {
+      "id": "Богатырев Д.М.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "Богатырев Д.М.",
+        "validation_status": "pending",
+        "email": "BogatyrevDM@nornik.ru",
+        "ingestion_date": "2026-07-04T16:07:55.992387"
+      }
+    },
+    {
+      "id": "растровая электронная микроскопия",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "растровая электронная микроскопия",
+        "ingestion_date": "2026-07-04T16:07:55.992563"
+      }
+    },
+    {
+      "id": "технологическая схема",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "технологическая схема",
+        "ingestion_date": "2026-07-04T16:07:55.992465"
+      }
+    },
+    {
+      "id": "meas_temp_250",
+      "label": "Measurement",
+      "properties": {
+        "unit": "°С",
+        "min": 230,
+        "max": 250,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_temp_250",
+        "value": 250,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:07:55.992683"
+      }
+    },
+    {
+      "id": "meas_temp_280",
+      "label": "Measurement",
+      "properties": {
+        "unit": "°С",
+        "min": 250,
+        "max": 280,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_temp_280",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:07:55.992511"
+      }
+    },
+    {
+      "id": "обжиг",
+      "label": "Process",
+      "properties": {
+        "domain": "металлургия",
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "обжиг",
+        "ingestion_date": "2026-07-04T16:07:55.992434"
+      }
+    },
+    {
+      "id": "атомно-эмиссионная спектрометрия",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "атомно-эмиссионная спектрометрия",
+        "ingestion_date": "2026-07-04T16:07:55.992529"
+      }
+    },
+    {
+      "id": "анод",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "анод",
+        "ingestion_date": "2026-07-04T16:07:55.992577"
+      }
+    },
+    {
+      "id": "время",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "время",
+        "ingestion_date": "2026-07-04T16:07:55.992481"
+      }
+    },
+    {
+      "id": "соосаждение",
+      "label": "Process",
+      "properties": {
+        "domain": "материаловедение",
+        "confidence": 0.5,
+        "description": "метод синтеза с последующим литирующим обжигом в атмосфере кислорода",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "соосаждение",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992436"
+      }
+    },
+    {
+      "id": "Иванова Е.А.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "Иванова Е.А.",
+        "validation_status": "pending",
+        "email": "IvanovaElAn@nornik.ru",
+        "ingestion_date": "2026-07-04T16:07:55.992390"
+      }
+    },
+    {
+      "id": "meas_time_1",
+      "label": "Measurement",
+      "properties": {
+        "unit": "час",
+        "min": 1,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_time_1",
+        "value": 1,
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:07:55.992522"
+      }
+    },
+    {
+      "id": "meas_time_2",
+      "label": "Measurement",
+      "properties": {
+        "unit": "час",
+        "max": 2,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_time_2",
+        "value": 2,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:07:55.992524"
+      }
+    },
+    {
+      "id": "meas_temp_750",
+      "label": "Measurement",
+      "properties": {
+        "unit": "°С",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "meas_temp_750",
+        "validation_status": "pending",
+        "value": 750,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:07:55.992691"
+      }
+    },
+    {
+      "id": "Косов Я.И.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "Косов Я.И.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992371"
+      }
+    },
+    {
+      "id": "Пакальнис В.В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "Пакальнис В.В.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992393"
+      }
+    },
+    {
+      "id": "литий-ионный аккумулятор (ЛИА)",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "литий-ионный аккумулятор (ЛИА)",
+        "ingestion_date": "2026-07-04T16:07:55.992397"
+      }
+    },
+    {
+      "id": "прекурсор катодного активного материала (РСАМ)",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "прекурсор катодного активного материала (РСАМ)",
+        "ingestion_date": "2026-07-04T16:07:55.992400"
+      }
+    },
+    {
+      "id": "катодный активный материал (САМ)",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "катодный активный материал (САМ)",
+        "ingestion_date": "2026-07-04T16:07:55.992402"
+      }
+    },
+    {
+      "id": "одностадийный обжиг",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "одностадийный обжиг",
+        "ingestion_date": "2026-07-04T16:07:55.992405"
+      }
+    },
+    {
+      "id": "двухстадийный обжиг",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "двухстадийный обжиг",
+        "ingestion_date": "2026-07-04T16:07:55.992408"
+      }
+    },
+    {
+      "id": "высокотемпературная обработка",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "высокотемпературная обработка",
+        "ingestion_date": "2026-07-04T16:07:55.992411"
+      }
+    },
+    {
+      "id": "исследование вариантов пирометаллургических операций технологии получения высоконикелевых катодных материалов типа NMC для литий-ионных аккумуляторов",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "исследование вариантов пирометаллургических операций технологии получения высоконикелевых катодных материалов типа NMC для литий-ионных аккумуляторов",
+        "ingestion_date": "2026-07-04T16:07:55.992414"
+      }
+    },
+    {
+      "id": "NMC",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "NMC",
+        "type": "слоистый оксид никеля, кобальта, марганца",
+        "ingestion_date": "2026-07-04T16:07:55.992420"
+      }
+    },
+    {
+      "id": "РСАМ",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "РСАМ",
+        "validation_status": "pending",
+        "type": "смешанный гидроксид никеля, кобальта, марганца",
+        "ingestion_date": "2026-07-04T16:07:55.992423"
+      }
+    },
+    {
+      "id": "САМ",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "САМ",
+        "validation_status": "pending",
+        "type": "литированный слоистый оксид никеля, кобальта, марганца",
+        "ingestion_date": "2026-07-04T16:07:55.992427"
+      }
+    },
+    {
+      "id": "литийсодержащий реагент",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "литийсодержащий реагент",
+        "ingestion_date": "2026-07-04T16:07:55.992431"
+      }
+    },
+    {
+      "id": "низкие электрохимические характеристики",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "низкие электрохимические характеристики",
+        "ingestion_date": "2026-07-04T16:07:55.992440"
+      }
+    },
+    {
+      "id": "недостаточная степень упорядоченности",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "недостаточная степень упорядоченности",
+        "ingestion_date": "2026-07-04T16:07:55.992444"
+      }
+    },
+    {
+      "id": "литий-ионный аккумулятор",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "литий-ионный аккумулятор",
+        "ingestion_date": "2026-07-04T16:07:55.992447"
+      }
+    },
+    {
+      "id": "вибросмеситель",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "вибросмеситель",
+        "ingestion_date": "2026-07-04T16:07:55.992450"
+      }
+    },
+    {
+      "id": "LiOH·H2O",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "LiOH·H2O",
+        "ingestion_date": "2026-07-04T16:07:55.992453"
+      }
+    },
+    {
+      "id": "в振动стенд Vibration Simulator 9363-SP",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "в振动стенд Vibration Simulator 9363-SP",
+        "ingestion_date": "2026-07-04T16:07:55.992455"
+      }
+    },
+    {
+      "id": "лабораторная трубчатая печь",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "лабораторная трубчатая печь",
+        "ingestion_date": "2026-07-04T16:07:55.992458"
+      }
+    },
+    {
+      "id": "одностадийная технология",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "одностадийная технология",
+        "ingestion_date": "2026-07-04T16:07:55.992460"
+      }
+    },
+    {
+      "id": "двухстадийная технология",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "двухстадийная технология",
+        "ingestion_date": "2026-07-04T16:07:55.992463"
+      }
+    },
+    {
+      "id": "измельчение источника лития",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "измельчение источника лития",
+        "ingestion_date": "2026-07-04T16:07:55.992468"
+      }
+    },
+    {
+      "id": "интенсивное смешивание гидроксида лития с прекурсором",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "интенсивное смешивание гидроксида лития с прекурсором",
+        "ingestion_date": "2026-07-04T16:07:55.992471"
+      }
+    },
+    {
+      "id": "обжиг смеси по многоступенчатой термической программе",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "обжиг смеси по многоступенчатой термической программе",
+        "ingestion_date": "2026-07-04T16:07:55.992473"
+      }
+    },
+    {
+      "id": "технологические параметры",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "технологические параметры",
+        "ingestion_date": "2026-07-04T16:07:55.992476"
+      }
+    },
+    {
+      "id": "программа обработки",
+      "label": "Property",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "программа обработки",
+        "ingestion_date": "2026-07-04T16:07:55.992483"
+      }
+    },
+    {
+      "id": "многоступенчатая термическая программа",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "многоступенчатая термическая программа",
+        "ingestion_date": "2026-07-04T16:07:55.992485"
+      }
+    },
+    {
+      "id": "планетарная мельница",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "планетарная мельница",
+        "ingestion_date": "2026-07-04T16:07:55.992488"
+      }
+    },
+    {
+      "id": "анализ литературных данных",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "анализ литературных данных",
+        "ingestion_date": "2026-07-04T16:07:55.992491"
+      }
+    },
+    {
+      "id": "наработанный практический опыт",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "наработанный практический опыт",
+        "ingestion_date": "2026-07-04T16:07:55.992493"
+      }
+    },
+    {
+      "id": "термическая обработка",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "термическая обработка",
+        "ingestion_date": "2026-07-04T16:07:55.992499"
+      }
+    },
+    {
+      "id": "условие_нагрева_1",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "условие_нагрева_1",
+        "ingestion_date": "2026-07-04T16:07:55.992501"
+      }
+    },
+    {
+      "id": "условие_нагрева_2",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "условие_нагрева_2",
+        "ingestion_date": "2026-07-04T16:07:55.992503"
+      }
+    },
+    {
+      "id": "условие_нагрева_3",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "условие_нагрева_3",
+        "ingestion_date": "2026-07-04T16:07:55.992505"
+      }
+    },
+    {
+      "id": "meas_temp_220",
+      "label": "Measurement",
+      "properties": {
+        "unit": "°С",
+        "min": 220,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_temp_220",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:07:55.992508"
+      }
+    },
+    {
+      "id": "meas_temp_420",
+      "label": "Measurement",
+      "properties": {
+        "unit": "°С",
+        "min": 420,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_temp_420",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:07:55.992513"
+      }
+    },
+    {
+      "id": "meas_temp_490",
+      "label": "Measurement",
+      "properties": {
+        "unit": "°С",
+        "max": 490,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_temp_490",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:07:55.992515"
+      }
+    },
+    {
+      "id": "meas_temp_730",
+      "label": "Measurement",
+      "properties": {
+        "unit": "°С",
+        "min": 730,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_temp_730",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:07:55.992517"
+      }
+    },
+    {
+      "id": "meas_temp_780",
+      "label": "Measurement",
+      "properties": {
+        "unit": "°С",
+        "max": 780,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_temp_780",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:07:55.992520"
+      }
+    },
+    {
+      "id": "meas_time_10",
+      "label": "Measurement",
+      "properties": {
+        "unit": "час",
+        "min": 10,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_time_10",
+        "value": 10,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:07:55.992527"
+      }
+    },
+    {
+      "id": "индуктивно связанная плазма",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "индуктивно связанная плазма",
+        "ingestion_date": "2026-07-04T16:07:55.992532"
+      }
+    },
+    {
+      "id": "спектрометр_iCAP_7600",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "спектрометр_iCAP_7600",
+        "ingestion_date": "2026-07-04T16:07:55.992534"
+      }
+    },
+    {
+      "id": "состав_соединений",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "состав_соединений",
+        "ingestion_date": "2026-07-04T16:07:55.992537"
+      }
+    },
+    {
+      "id": "meas_состав",
+      "label": "Measurement",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "meas_состав",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992539"
+      }
+    },
+    {
+      "id": "лазерный дифракционный анализатор",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "лазерный дифракционный анализатор",
+        "ingestion_date": "2026-07-04T16:07:55.992541"
+      }
+    },
+    {
+      "id": "ANALYSETTE_22_Next",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "ANALYSETTE_22_Next",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992544"
+      }
+    },
+    {
+      "id": "дистиллированная вода",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "дистиллированная вода",
+        "ingestion_date": "2026-07-04T16:07:55.992546"
+      }
+    },
+    {
+      "id": "спиртовой раствор",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "спиртовой раствор",
+        "ingestion_date": "2026-07-04T16:07:55.992549"
+      }
+    },
+    {
+      "id": "размер_частиц",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "размер_частиц",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992551"
+      }
+    },
+    {
+      "id": "meas_размер_частиц",
+      "label": "Measurement",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_размер_частиц",
+        "ingestion_date": "2026-07-04T16:07:55.992553"
+      }
+    },
+    {
+      "id": "рентгеновская дифракция порошков",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "рентгеновская дифракция порошков",
+        "ingestion_date": "2026-07-04T16:07:55.992556"
+      }
+    },
+    {
+      "id": "фазовый_состав",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "фазовый_состав",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992558"
+      }
+    },
+    {
+      "id": "meas_фазовый_состав",
+      "label": "Measurement",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_фазовый_состав",
+        "ingestion_date": "2026-07-04T16:07:55.992561"
+      }
+    },
+    {
+      "id": "морфология",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "морфология",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992565"
+      }
+    },
+    {
+      "id": "meas_морфология",
+      "label": "Measurement",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "meas_морфология",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992568"
+      }
+    },
+    {
+      "id": "TESCAN_LYRA3_GMH",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "TESCAN_LYRA3_GMH",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992570"
+      }
+    },
+    {
+      "id": "полу-элемент",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "полу-элемент",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992572"
+      }
+    },
+    {
+      "id": "катод",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "катод",
+        "ingestion_date": "2026-07-04T16:07:55.992574"
+      }
+    },
+    {
+      "id": "тестируемый материал",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "тестируемый материал",
+        "ingestion_date": "2026-07-04T16:07:55.992579"
+      }
+    },
+    {
+      "id": "литиевая фольга",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "литиевая фольга",
+        "ingestion_date": "2026-07-04T16:07:55.992582"
+      }
+    },
+    {
+      "id": "дисковый макет_CR2032",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "дисковый макет_CR2032",
+        "ingestion_date": "2026-07-04T16:07:55.992584"
+      }
+    },
+    {
+      "id": "электрохимические_свойства",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "электрохимические_свойства",
+        "ingestion_date": "2026-07-04T16:07:55.992587"
+      }
+    },
+    {
+      "id": "PCAM",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "description": "test material",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "PCAM",
+        "validation_status": "pending",
+        "type": "cathode",
+        "ingestion_date": "2026-07-04T16:07:55.992592"
+      }
+    },
+    {
+      "id": "meas_d50_37",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мкм",
+        "min": 3.7,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_d50_37",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:07:55.992594"
+      }
+    },
+    {
+      "id": "meas_d50_103",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мкм",
+        "max": 10.3,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_d50_103",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:07:55.992596"
+      }
+    },
+    {
+      "id": "finding_capacity_dependency",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "dependence of specific capacity on operating mode",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "finding_capacity_dependency",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992598"
+      }
+    },
+    {
+      "id": "experiment_cr2032",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "setup": "CR2032 coin cell",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "experiment_cr2032",
+        "validation_status": "pending",
+        "type": "electrochemical testing",
+        "ingestion_date": "2026-07-04T16:07:55.992601"
+      }
+    },
+    {
+      "id": "equipment_cr2032_molds",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "model": "CR2032",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "equipment_cr2032_molds",
+        "validation_status": "pending",
+        "type": "cell assembly molds",
+        "ingestion_date": "2026-07-04T16:07:55.992604"
+      }
+    },
+    {
+      "id": "material_lithium_foil",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "description": "lithium foil",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "material_lithium_foil",
+        "validation_status": "pending",
+        "type": "anode",
+        "ingestion_date": "2026-07-04T16:07:55.992606"
+      }
+    },
+    {
+      "id": "material_commercial_cathode_china",
+      "label": "Material",
+      "properties": {
+        "origin": "China",
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "material_commercial_cathode_china",
+        "validation_status": "pending",
+        "type": "commercial cathode",
+        "ingestion_date": "2026-07-04T16:07:55.992610"
+      }
+    },
+    {
+      "id": "facility_institute_gipronikel",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "name": "ООО «Институт Гипроникель»",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "facility_institute_gipronikel",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992612"
+      }
+    },
+    {
+      "id": "facility_kolская_gmk",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "name": "АО «Кольская ГМК»",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "facility_kolская_gmk",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992614"
+      }
+    },
+    {
+      "id": "property_d50",
+      "label": "Property",
+      "properties": {
+        "unit": "мкм",
+        "confidence": 0.5,
+        "name": "D50 particle size",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "property_d50",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992617"
+      }
+    },
+    {
+      "id": "property_specific_capacity",
+      "label": "Property",
+      "properties": {
+        "unit": "mAh/g",
+        "confidence": 0.5,
+        "name": "specific capacity",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "property_specific_capacity",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992619"
+      }
+    },
+    {
+      "id": "property_voltage_charge",
+      "label": "Property",
+      "properties": {
+        "unit": "V",
+        "confidence": 0.5,
+        "name": "charge voltage",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "property_voltage_charge",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992621"
+      }
+    },
+    {
+      "id": "property_voltage_discharge",
+      "label": "Property",
+      "properties": {
+        "unit": "V",
+        "confidence": 0.5,
+        "name": "discharge voltage",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "property_voltage_discharge",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992645"
+      }
+    },
+    {
+      "id": "topic_commercial_comparison",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "commercial material comparison",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "topic_commercial_comparison",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992649"
+      }
+    },
+    {
+      "id": "meas_d50_37_103",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мкм",
+        "min": 3.7,
+        "max": 10.3,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_d50_37_103",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:07:55.992654"
+      }
+    },
+    {
+      "id": "finding_bimodal_distribution",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "finding_bimodal_distribution",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992656"
+      }
+    },
+    {
+      "id": "finding_surface_area_impact",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "finding_surface_area_impact",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992659"
+      }
+    },
+    {
+      "id": "process_sintering",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "name": "одностадийная технология обжига",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "process_sintering",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992662"
+      }
+    },
+    {
+      "id": "property_order",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "степень упорядоченности структуры",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "property_order",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992664"
+      }
+    },
+    {
+      "id": "property_capacity",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "удельная электрохимическая емкость",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "property_capacity",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992666"
+      }
+    },
+    {
+      "id": "property_ratio_I003_I104",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "соотношение интенсивностей I003/I104",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "property_ratio_I003_I104",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992669"
+      }
+    },
+    {
+      "id": "property_ratio_I006_I012_I101",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "соотношение (I006+I012)/I101",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "property_ratio_I006_I012_I101",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992671"
+      }
+    },
+    {
+      "id": "meas_ratio_1",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "min": 1.2,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_ratio_1",
+        "source": "table_4",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:07:55.992673"
+      }
+    },
+    {
+      "id": "meas_ratio_2",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "max": 0.4,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_ratio_2",
+        "source": "table_4",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:07:55.992675"
+      }
+    },
+    {
+      "id": "finding_order_1",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "высокая степень упорядоченности структуры",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "finding_order_1",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992678"
+      }
+    },
+    {
+      "id": "finding_capacity_1",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "ожидание высоких значений удельной электрохимической емкости",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "finding_capacity_1",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992681"
+      }
+    },
+    {
+      "id": "meas_time_1_2",
+      "label": "Measurement",
+      "properties": {
+        "unit": "час",
+        "min": 1,
+        "max": 2,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_time_1_2",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:07:55.992686"
+      }
+    },
+    {
+      "id": "meas_temp_450",
+      "label": "Measurement",
+      "properties": {
+        "unit": "°С",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_temp_450",
+        "value": 450,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:07:55.992688"
+      }
+    },
+    {
+      "id": "cond_temp_250",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "температура_250",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "cond_temp_250",
+        "ingestion_date": "2026-07-04T16:07:55.992696"
+      }
+    },
+    {
+      "id": "cond_temp_450",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "температура_450",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "cond_temp_450",
+        "ingestion_date": "2026-07-04T16:07:55.992698"
+      }
+    },
+    {
+      "id": "cond_temp_750",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "температура_750",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "cond_temp_750",
+        "ingestion_date": "2026-07-04T16:07:55.992701"
+      }
+    },
+    {
+      "id": "cond_time_1_2",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "время_1_2",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "cond_time_1_2",
+        "ingestion_date": "2026-07-04T16:07:55.992703"
+      }
+    },
+    {
+      "id": "cond_time_2",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "время_2",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "cond_time_2",
+        "ingestion_date": "2026-07-04T16:07:55.992705"
+      }
+    },
+    {
+      "id": "cond_time_10",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "время_10",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "cond_time_10",
+        "ingestion_date": "2026-07-04T16:07:55.992707"
+      }
+    },
+    {
+      "id": "cond_oxygen_flow",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "ток_кислорода",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "cond_oxygen_flow",
+        "ingestion_date": "2026-07-04T16:07:55.992710"
+      }
+    },
+    {
+      "id": "бжиг",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "бжиг",
+        "ingestion_date": "2026-07-04T16:07:55.992713"
+      }
+    },
+    {
+      "id": "условие_температура_250",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "description": "нагрев до 250°С",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "условие_температура_250",
+        "ingestion_date": "2026-07-04T16:07:55.992715"
+      }
+    },
+    {
+      "id": "условие_температура_450",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "description": "нагрев до 450°С",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "условие_температура_450",
+        "ingestion_date": "2026-07-04T16:07:55.992718"
+      }
+    },
+    {
+      "id": "условие_температура_750",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "description": "нагрев до 750°С",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "условие_температура_750",
+        "ingestion_date": "2026-07-04T16:07:55.992720"
+      }
+    },
+    {
+      "id": "meas_li_7_09",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_li_7_09",
+        "value": 7.09,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:07:55.992723"
+      }
+    },
+    {
+      "id": "meas_ni_53_6",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_ni_53_6",
+        "value": 53.6,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:07:55.992725"
+      }
+    },
+    {
+      "id": "meas_co_5_66",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_co_5_66",
+        "value": 5.66,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:07:55.992727"
+      }
+    },
+    {
+      "id": "meas_mn_1_26",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_mn_1_26",
+        "value": 1.26,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:07:55.992729"
+      }
+    },
+    {
+      "id": "meas_al_0_312",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_al_0_312",
+        "value": 0.312,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:07:55.992732"
+      }
+    },
+    {
+      "id": "meas_li_mol_0_98",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мол. отн.",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_li_mol_0_98",
+        "value": 0.98,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:07:55.992734"
+      }
+    },
+    {
+      "id": "meas_me_ni_88_1",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_me_ni_88_1",
+        "value": 88.1,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:07:55.992737"
+      }
+    },
+    {
+      "id": "meas_me_co_9_3",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_me_co_9_3",
+        "value": 9.3,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:07:55.992739"
+      }
+    },
+    {
+      "id": "meas_me_mn_2_1",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_me_mn_2_1",
+        "value": 2.1,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:07:55.992741"
+      }
+    },
+    {
+      "id": "finding_sam2_1_n2_ratio_1_15",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "соотношение интенсивностей I003/I104 = 1,15",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "finding_sam2_1_n2_ratio_1_15",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992744"
+      }
+    },
+    {
+      "id": "finding_sam2_1_n2_ratio_0_44",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "соотношение интенсивностей (I006+I012)/I101 = 0,44",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "finding_sam2_1_n2_ratio_0_44",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992746"
+      }
+    },
+    {
+      "id": "finding_sam2_2_n2_ratio_1_17",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "соотношение интенсивностей I003/I104 = 1,17",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "finding_sam2_2_n2_ratio_1_17",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992748"
+      }
+    },
+    {
+      "id": "finding_sam2_2_n2_ratio_0_47",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "соотношение интенсивностей (I006+I012)/I101 = 0,47",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "finding_sam2_2_n2_ratio_0_47",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992751"
+      }
+    },
+    {
+      "id": "САМ2-1-N2",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "formula": "(Li0,973Ni0,027)(Ni0,8973Co0,1027)O2 ; Li(Ni0,65Co0,25Mn0,1)O2",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "САМ2-1-N2",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992754"
+      }
+    },
+    {
+      "id": "САМ2-2-N2",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "formula": "(Li0,973Ni0,027)(Ni0,8973Co0,1027)O2 ; Li(Ni0,65Co0,25Mn0,1)O2",
+        "source_document": "29 Статья - Косов Я.И. (ЛГМ).docx",
+        "id": "САМ2-2-N2",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:07:55.992756"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "meas_temp_250",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Косов Я.И.",
+      "target": "Пакальнис В.В.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Богатырев Д.М.",
+      "target": "Пакальнис В.В.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Иванова Е.А.",
+      "target": "Пакальнис В.В.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Пакальнис В.В.",
+      "target": "Пакальнис В.В.",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "NMC",
+      "target": "обжиг",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "NMC",
+      "target": "обжиг",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "обжиг",
+      "target": "РСАМ",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "обжиг",
+      "target": "литийсодержащий реагент",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "соосаждение",
+      "target": "РСАМ",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "РСАМ",
+      "target": "САМ",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "САМ",
+      "target": "литий-ионный аккумулятор",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "САМ",
+      "target": "низкие электрохимические характеристики",
+      "type": "SHOWED"
+    },
+    {
+      "source": "низкие электрохимические характеристики",
+      "target": "недостаточная степень упорядоченности",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "недостаточная степень упорядоченности",
+      "target": "САМ",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "вибросмеситель",
+      "target": "РСАМ",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "вибросмеситель",
+      "target": "LiOH·H2O",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "вибросмеситель",
+      "target": "в振动стенд Vibration Simulator 9363-SP",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "лабораторная трубчатая печь",
+      "target": "высокотемпературная обработка",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "одностадийная технология",
+      "target": "измельчение источника лития",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "одностадийная технология",
+      "target": "интенсивное смешивание гидроксида лития с прекурсором",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "одностадийная технология",
+      "target": "обжиг смеси по многоступенчатой термической программе",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "обжиг смеси по многоступенчатой термической программе",
+      "target": "катодный активный материал (САМ)",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "одностадийная технология",
+      "target": "технологическая схема",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "технологическая схема",
+      "target": "одностадийная технология",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "высокотемпературная обработка",
+      "target": "лабораторная трубчатая печь",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "высокотемпературная обработка",
+      "target": "технологические параметры",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "технологические параметры",
+      "target": "температура",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "технологические параметры",
+      "target": "температура",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "технологические параметры",
+      "target": "время",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "технологические параметры",
+      "target": "программа обработки",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "технологические параметры",
+      "target": "многоступенчатая термическая программа",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "многоступенчатая термическая программа",
+      "target": "обжиг смеси по многоступенчатой термической программе",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "измельчение источника лития",
+      "target": "планетарная мельница",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "интенсивное смешивание гидроксида лития с прекурсором",
+      "target": "вибросмеситель",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "обжиг смеси по многоступенчатой термической программе",
+      "target": "лабораторная трубчатая печь",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "обжиг смеси по многоступенчатой термической программе",
+      "target": "технологические параметры",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "технологические параметры",
+      "target": "высокотемпературная обработка",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "высокотемпературная обработка",
+      "target": "одностадийная технология",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "высокотемпературная обработка",
+      "target": "двухстадийная технология",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "двухстадийная технология",
+      "target": "технологическая схема",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "технологическая схема",
+      "target": "двухстадийная технология",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "технологические параметры",
+      "target": "анализ литературных данных",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "технологические параметры",
+      "target": "анализ литературных данных",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "технологические параметры",
+      "target": "наработанный практический опыт",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "технологические параметры",
+      "target": "программа обработки",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "термическая обработка",
+      "target": "условие_нагрева_1",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "термическая обработка",
+      "target": "условие_нагрева_2",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "термическая обработка",
+      "target": "условие_нагрева_3",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "условие_нагрева_1",
+      "target": "meas_temp_220",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "условие_нагрева_1",
+      "target": "meas_temp_280",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "условие_нагрева_1",
+      "target": "meas_temp_280",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "условие_нагрева_2",
+      "target": "meas_temp_420",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "условие_нагрева_2",
+      "target": "meas_temp_490",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "условие_нагрева_3",
+      "target": "meas_temp_730",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "условие_нагрева_3",
+      "target": "meas_temp_780",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "условие_нагрева_1",
+      "target": "meas_time_1",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "условие_нагрева_1",
+      "target": "meas_time_1",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "условие_нагрева_1",
+      "target": "meas_time_2",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "условие_нагрева_1",
+      "target": "meas_time_2",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "условие_нагрева_2",
+      "target": "meas_time_2",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "условие_нагрева_2",
+      "target": "meas_time_2",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "условие_нагрева_3",
+      "target": "meas_time_10",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "атомно-эмиссионная спектрометрия",
+      "target": "meas_состав",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "атомно-эмиссионная спектрометрия",
+      "target": "meas_состав",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "атомно-эмиссионная спектрометрия",
+      "target": "спектрометр_iCAP_7600",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "атомно-эмиссионная спектрометрия",
+      "target": "спектрометр_iCAP_7600",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "атомно-эмиссионная спектрометрия",
+      "target": "индуктивно связанная плазма",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "атомно-эмиссионная спектрометрия",
+      "target": "индуктивно связанная плазма",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "лазерный дифракционный анализатор",
+      "target": "meas_размер_частиц",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "лазерный дифракционный анализатор",
+      "target": "ANALYSETTE_22_Next",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "лазерный дифракционный анализатор",
+      "target": "дистиллированная вода",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "лазерный дифракционный анализатор",
+      "target": "спиртовой раствор",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "рентгеновская дифракция порошков",
+      "target": "meas_фазовый_состав",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "растровая электронная микроскопия",
+      "target": "meas_морфология",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "растровая электронная микроскопия",
+      "target": "meas_морфология",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "растровая электронная микроскопия",
+      "target": "TESCAN_LYRA3_GMH",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "растровая электронная микроскопия",
+      "target": "TESCAN_LYRA3_GMH",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "полу-элемент",
+      "target": "катод",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "полу-элемент",
+      "target": "анод",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "катод",
+      "target": "тестируемый материал",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "анод",
+      "target": "литиевая фольга",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "полу-элемент",
+      "target": "дисковый макет_CR2032",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "термическая обработка",
+      "target": "атомно-эмиссионная спектрометрия",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "термическая обработка",
+      "target": "атомно-эмиссионная спектрометрия",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "термическая обработка",
+      "target": "лазерный дифракционный анализатор",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "термическая обработка",
+      "target": "рентгеновская дифракция порошков",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "термическая обработка",
+      "target": "растровая электронная микроскопия",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "термическая обработка",
+      "target": "растровая электронная микроскопия",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "термическая обработка",
+      "target": "полу-элемент",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "атомно-эмиссионная спектрометрия",
+      "target": "состав_соединений",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "атомно-эмиссионная спектрометрия",
+      "target": "состав_соединений",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "лазерный дифракционный анализатор",
+      "target": "размер_частиц",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "рентгеновская дифракция порошков",
+      "target": "фазовый_состав",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "растровая электронная микроскопия",
+      "target": "морфология",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "растровая электронная микроскопия",
+      "target": "морфология",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "полу-элемент",
+      "target": "электрохимические_свойства",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "условие_нагрева_1",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "условие_нагрева_2",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "условие_нагрева_3",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "атомно-эмиссионная спектрометрия",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "атомно-эмиссионная спектрометрия",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "лазерный дифракционный анализатор",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "рентгеновская дифракция порошков",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "растровая электронная микроскопия",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "растровая электронная микроскопия",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "полу-элемент",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "PCAM",
+      "target": "meas_d50_37",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_d50_37",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "PCAM",
+      "target": "meas_d50_103",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_d50_103",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "PCAM",
+      "target": "finding_capacity_dependency",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_capacity_dependency",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "PCAM",
+      "target": "experiment_cr2032",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "experiment_cr2032",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "experiment_cr2032",
+      "target": "equipment_cr2032_molds",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "equipment_cr2032_molds",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "experiment_cr2032",
+      "target": "material_lithium_foil",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "material_lithium_foil",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "experiment_cr2032",
+      "target": "facility_institute_gipronikel",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "facility_institute_gipronikel",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "experiment_cr2032",
+      "target": "facility_kolская_gmk",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "facility_kolская_gmk",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_d50_37",
+      "target": "property_d50",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_d50_103",
+      "target": "property_d50",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "experiment_cr2032",
+      "target": "property_specific_capacity",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "experiment_cr2032",
+      "target": "property_voltage_charge",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "experiment_cr2032",
+      "target": "property_voltage_discharge",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "finding_capacity_dependency",
+      "target": "property_specific_capacity",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "material_commercial_cathode_china",
+      "target": "property_specific_capacity",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "material_commercial_cathode_china",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "material_commercial_cathode_china",
+      "target": "topic_commercial_comparison",
+      "type": "TAGGED"
+    },
+    {
+      "source": "topic_commercial_comparison",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "РСАМ",
+      "target": "meas_d50_37_103",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_d50_37_103",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "РСАМ",
+      "target": "finding_bimodal_distribution",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_bimodal_distribution",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_bimodal_distribution",
+      "target": "finding_surface_area_impact",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_surface_area_impact",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_order_1",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_capacity_1",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_ratio_1",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_ratio_2",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_ratio_1",
+      "target": "property_ratio_I003_I104",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_ratio_2",
+      "target": "property_ratio_I006_I012_I101",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "process_sintering",
+      "target": "meas_ratio_1",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "process_sintering",
+      "target": "meas_ratio_2",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "finding_order_1",
+      "target": "property_order",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_capacity_1",
+      "target": "property_capacity",
+      "type": "SHOWED"
+    },
+    {
+      "source": "обжиг",
+      "target": "meas_temp_250",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "обжиг",
+      "target": "meas_temp_250",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_temp_250",
+      "target": "src_p14",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_temp_250",
+      "target": "src_p14",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "обжиг",
+      "target": "meas_time_1_2",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_time_1_2",
+      "target": "src_p14",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "обжиг",
+      "target": "meas_temp_450",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_temp_450",
+      "target": "src_p14",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "обжиг",
+      "target": "meas_time_2",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "обжиг",
+      "target": "meas_time_2",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_time_2",
+      "target": "src_p14",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_time_2",
+      "target": "src_p14",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "обжиг",
+      "target": "meas_temp_750",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "обжиг",
+      "target": "meas_temp_750",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_temp_750",
+      "target": "src_p14",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_temp_750",
+      "target": "src_p14",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "обжиг",
+      "target": "meas_time_10",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_time_10",
+      "target": "src_p14",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_temp_250",
+      "target": "cond_temp_250",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_temp_250",
+      "target": "cond_temp_250",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_temp_450",
+      "target": "cond_temp_450",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_temp_750",
+      "target": "cond_temp_750",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_temp_750",
+      "target": "cond_temp_750",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_time_1_2",
+      "target": "cond_time_1_2",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_time_2",
+      "target": "cond_time_2",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_time_2",
+      "target": "cond_time_2",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_time_10",
+      "target": "cond_time_10",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "обжиг",
+      "target": "cond_oxygen_flow",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "meas_temp_250",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_temp_450",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_temp_750",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_temp_750",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_time_1_2",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_time_2",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_time_2",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_time_10",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "бжиг",
+      "target": "условие_температура_250",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "бжиг",
+      "target": "условие_температура_450",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "бжиг",
+      "target": "условие_температура_750",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "условие_температура_250",
+      "target": "meas_temp_250",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "условие_температура_250",
+      "target": "meas_temp_250",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "условие_температура_450",
+      "target": "meas_temp_450",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "условие_температура_750",
+      "target": "meas_temp_750",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "условие_температура_750",
+      "target": "meas_temp_750",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "САМ2-1-N2",
+      "target": "meas_li_7_09",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "САМ2-1-N2",
+      "target": "meas_ni_53_6",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "САМ2-1-N2",
+      "target": "meas_co_5_66",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "САМ2-1-N2",
+      "target": "meas_mn_1_26",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "САМ2-1-N2",
+      "target": "meas_al_0_312",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "САМ2-1-N2",
+      "target": "meas_li_mol_0_98",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "САМ2-1-N2",
+      "target": "meas_me_ni_88_1",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "САМ2-1-N2",
+      "target": "meas_me_co_9_3",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "САМ2-1-N2",
+      "target": "meas_me_mn_2_1",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_li_7_09",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_ni_53_6",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_co_5_66",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_mn_1_26",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_al_0_312",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_li_mol_0_98",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_me_ni_88_1",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_me_co_9_3",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_me_mn_2_1",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "САМ2-2-N2",
+      "target": "meas_li_7_09",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "САМ2-2-N2",
+      "target": "meas_ni_53_6",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "САМ2-2-N2",
+      "target": "meas_co_5_66",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "САМ2-2-N2",
+      "target": "meas_mn_1_26",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "САМ2-2-N2",
+      "target": "meas_al_0_312",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "САМ2-2-N2",
+      "target": "meas_li_mol_0_98",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "САМ2-2-N2",
+      "target": "meas_me_ni_88_1",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "САМ2-2-N2",
+      "target": "meas_me_co_9_3",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "САМ2-2-N2",
+      "target": "meas_me_mn_2_1",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "САМ2-1-N2",
+      "target": "finding_sam2_1_n2_ratio_1_15",
+      "type": "SHOWED"
+    },
+    {
+      "source": "САМ2-1-N2",
+      "target": "finding_sam2_1_n2_ratio_0_44",
+      "type": "SHOWED"
+    },
+    {
+      "source": "САМ2-2-N2",
+      "target": "finding_sam2_2_n2_ratio_1_17",
+      "type": "SHOWED"
+    },
+    {
+      "source": "САМ2-2-N2",
+      "target": "finding_sam2_2_n2_ratio_0_47",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_sam2_1_n2_ratio_1_15",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_sam2_1_n2_ratio_0_44",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_sam2_2_n2_ratio_1_17",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_sam2_2_n2_ratio_0_47",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    }
+  ]
+}

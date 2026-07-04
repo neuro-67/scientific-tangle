@@ -1,0 +1,3139 @@
+{
+  "document": "18 Статья потенциал удароропасности.docx",
+  "nodes": [
+    {
+      "id": "обработка результатов",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "обработка результатов",
+        "ingestion_date": "2026-07-04T16:03:00.165989"
+      }
+    },
+    {
+      "id": "предел прочности на сжатие",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "предел прочности на сжатие",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "предел прочности на сжатие",
+        "ingestion_date": "2026-07-04T16:03:00.166066"
+      }
+    },
+    {
+      "id": "80",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "80",
+        "value": 80,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:03:00.166024"
+      }
+    },
+    {
+      "id": "богатые сульфидные руды",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "богатые сульфидные руды",
+        "ingestion_date": "2026-07-04T16:03:00.165790"
+      }
+    },
+    {
+      "id": "роговики",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "роговики",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.165806"
+      }
+    },
+    {
+      "id": "вкрапленные руды",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "вкрапленные руды",
+        "ingestion_date": "2026-07-04T16:03:00.165810"
+      }
+    },
+    {
+      "id": "породные габбро-долериты",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "породные габбро-долериты",
+        "ingestion_date": "2026-07-04T16:03:00.165813"
+      }
+    },
+    {
+      "id": "потенциал удароопасности",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "потенциал удароопасности",
+        "ingestion_date": "2026-07-04T16:03:00.165816"
+      }
+    },
+    {
+      "id": "finding_low_impact_risk",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "испытанные литологические разности, кроме ангидритов, обладают низким потенциалом удароопасности",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "finding_low_impact_risk",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.165820"
+      }
+    },
+    {
+      "id": "А.П. Господариков",
+      "label": "Expert",
+      "properties": {
+        "country": "РФ",
+        "full_name": "А.П. Господариков",
+        "city": "Санкт-Петербург",
+        "affiliation": "Санкт-Петербургский горный университет императрицы Екатерины II",
+        "confidence": 0.5,
+        "degree": "д.т.н.",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "position": "профессор, заведующий кафедрой высшей математики",
+        "id": "А.П. Господариков",
+        "ingestion_date": "2026-07-04T16:03:00.165826"
+      }
+    },
+    {
+      "id": "М.А. Зацепин",
+      "label": "Expert",
+      "properties": {
+        "country": "РФ",
+        "full_name": "М.А. Зацепин",
+        "city": "Санкт-Петербург",
+        "affiliation": "Санкт-Петербургский горный университет императрицы Екатерины II",
+        "confidence": 0.5,
+        "degree": "к.ф.-м.н.",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "М.А. Зацепин",
+        "position": "доцент, доцент кафедры высшей математики",
+        "ingestion_date": "2026-07-04T16:03:00.165828"
+      }
+    },
+    {
+      "id": "А.П. Киркин",
+      "label": "Expert",
+      "properties": {
+        "country": "РФ",
+        "full_name": "А.П. Киркин",
+        "affiliation": "ООО «Институт Гипроникель»",
+        "city": "Санкт-Петербург",
+        "confidence": 0.5,
+        "degree": "к.т.н.",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "А.П. Киркин",
+        "position": "старший научный сотрудник лаборатории геотехники",
+        "ingestion_date": "2026-07-04T16:03:00.165831"
+      }
+    },
+    {
+      "id": "удароопасность горных пород",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "удароопасность горных пород",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "удароопасность горных пород",
+        "ingestion_date": "2026-07-04T16:03:00.165834"
+      }
+    },
+    {
+      "id": "испытания на сжатие",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "description": "испытания образцов на сжатие в жестких или сервогидравлических испытательных прессах с использованием графиков их полного деформирования",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "испытания на сжатие",
+        "ingestion_date": "2026-07-04T16:03:00.165837"
+      }
+    },
+    {
+      "id": "жесткие испытательные прессы",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "жесткие испытательные прессы",
+        "type": "испытательные прессы",
+        "ingestion_date": "2026-07-04T16:03:00.165840"
+      }
+    },
+    {
+      "id": "сервогидравлические испытательные прессы",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "сервогидравлические испытательные прессы",
+        "type": "испытательные прессы",
+        "ingestion_date": "2026-07-04T16:03:00.165842"
+      }
+    },
+    {
+      "id": "графики полного деформирования",
+      "label": "Property",
+      "properties": {
+        "confidence": "high",
+        "name": "графики полного деформирования",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "графики полного деформирования",
+        "ingestion_date": "2026-07-04T16:03:00.165845"
+      }
+    },
+    {
+      "id": "напряжения в массиве горных пород",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "напряжения в массиве горных пород",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "напряжения в массиве горных пород",
+        "ingestion_date": "2026-07-04T16:03:00.165848"
+      }
+    },
+    {
+      "id": "динамическая форма горного давления",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "statement": "возможное проявление горного давления в динамической форме",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "динамическая форма горного давления",
+        "ingestion_date": "2026-07-04T16:03:00.165850"
+      }
+    },
+    {
+      "id": "оценка склонности к хрупкому разрушению",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "statement": "оценка склонности горных пород к хрупкому разрушению",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "оценка склонности к хрупкому разрушению",
+        "ingestion_date": "2026-07-04T16:03:00.165853"
+      }
+    },
+    {
+      "id": "использование простых методов исследований",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "statement": "возможность оценки склонности к хрупкому разрушению простыми методами исследований без потери качества и достоверности",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "использование простых методов исследований",
+        "ingestion_date": "2026-07-04T16:03:00.165855"
+      }
+    },
+    {
+      "id": "склонность к хрупкому разрушению",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "склонность к хрупкому разрушению",
+        "ingestion_date": "2026-07-04T16:03:00.165863"
+      }
+    },
+    {
+      "id": "отношение модуля упругости к модулю спада",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "отношение модуля упругости к модулю спада",
+        "ingestion_date": "2026-07-04T16:03:00.165865"
+      }
+    },
+    {
+      "id": "удароопасный",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "удароопасный",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.165868"
+      }
+    },
+    {
+      "id": "неудароопасный",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "неудароопасный",
+        "ingestion_date": "2026-07-04T16:03:00.165870"
+      }
+    },
+    {
+      "id": "рост скорости поперечных деформаций",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "рост скорости поперечных деформаций",
+        "ingestion_date": "2026-07-04T16:03:00.165873"
+      }
+    },
+    {
+      "id": "метод А.Я. Бича",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "метод А.Я. Бича",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.165875"
+      }
+    },
+    {
+      "id": "публикация [10-12]",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "публикация [10-12]",
+        "ingestion_date": "2026-07-04T16:03:00.165878"
+      }
+    },
+    {
+      "id": "публикация [13]",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "публикация [13]",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.165881"
+      }
+    },
+    {
+      "id": "публикация [14]",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "публикация [14]",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.165883"
+      }
+    },
+    {
+      "id": "публикация [15-16]",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "публикация [15-16]",
+        "ingestion_date": "2026-07-04T16:03:00.165886"
+      }
+    },
+    {
+      "id": "публикация [17]",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "публикация [17]",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.165888"
+      }
+    },
+    {
+      "id": "Бич А.Я.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "Бич А.Я.",
+        "validation_status": "pending",
+        "email": "a.ya.bich@geol.ru",
+        "ingestion_date": "2026-07-04T16:03:00.165891"
+      }
+    },
+    {
+      "id": "испытания на одноосное сжатие и растяжение",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "испытания на одноосное сжатие и растяжение",
+        "ingestion_date": "2026-07-04T16:03:00.165894"
+      }
+    },
+    {
+      "id": "табл.1",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "табл.1",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.165896"
+      }
+    },
+    {
+      "id": "ФНИП",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "ФНИП",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.165899"
+      }
+    },
+    {
+      "id": "ГОСТ 21153.2",
+      "label": "Process",
+      "properties": {
+        "geography": "RU",
+        "domain": "испытания",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "ГОСТ 21153.2",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.165901"
+      }
+    },
+    {
+      "id": "ASTM (ISRM)",
+      "label": "Process",
+      "properties": {
+        "domain": "испытания",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "ASTM (ISRM)",
+        "ingestion_date": "2026-07-04T16:03:00.165903"
+      }
+    },
+    {
+      "id": "породы, склонные к хрупкому разрушению",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "породы, склонные к хрупкому разрушению",
+        "ingestion_date": "2026-07-04T16:03:00.165906"
+      }
+    },
+    {
+      "id": "месторождения Талнаха",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "месторождения Талнаха",
+        "ingestion_date": "2026-07-04T16:03:00.165908"
+      }
+    },
+    {
+      "id": "ангидриты",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "ангидриты",
+        "validation_status": "pending",
+        "type": "литология",
+        "ingestion_date": "2026-07-04T16:03:00.165911"
+      }
+    },
+    {
+      "id": "оценка потенциала удароопасности",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "оценка потенциала удароопасности",
+        "ingestion_date": "2026-07-04T16:03:00.165914"
+      }
+    },
+    {
+      "id": "источник [26]",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "источник [26]",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.165916"
+      }
+    },
+    {
+      "id": "предел прочности при сжатии",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "предел прочности при сжатии",
+        "ingestion_date": "2026-07-04T16:03:00.165921"
+      }
+    },
+    {
+      "id": "предел прочности при растяжении",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "предел прочности при растяжении",
+        "ingestion_date": "2026-07-04T16:03:00.165923"
+      }
+    },
+    {
+      "id": "горные удары",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "горные удары",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.165926"
+      }
+    },
+    {
+      "id": "динамическое проявление горного давления",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "динамическое проявление горного давления",
+        "ingestion_date": "2026-07-04T16:03:00.165928"
+      }
+    },
+    {
+      "id": "лабораторные результаты испытаний",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "лабораторные результаты испытаний",
+        "ingestion_date": "2026-07-04T16:03:00.165931"
+      }
+    },
+    {
+      "id": "физико-механические свойства",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "физико-механические свойства",
+        "ingestion_date": "2026-07-04T16:03:00.165933"
+      }
+    },
+    {
+      "id": "Хибинский массив",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Хибинский массив",
+        "ingestion_date": "2026-07-04T16:03:00.165936"
+      }
+    },
+    {
+      "id": "Новоширокинское месторождение полиметаллических руд",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Новоширокинское месторождение полиметаллических руд",
+        "ingestion_date": "2026-07-04T16:03:00.165938"
+      }
+    },
+    {
+      "id": "Забайкальский край",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Забайкальский край",
+        "ingestion_date": "2026-07-04T16:03:00.165943"
+      }
+    },
+    {
+      "id": "2018",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "2018",
+        "ingestion_date": "2026-07-04T16:03:00.165946"
+      }
+    },
+    {
+      "id": "2023",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "2023",
+        "ingestion_date": "2026-07-04T16:03:00.165948"
+      }
+    },
+    {
+      "id": "описано в [22]",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "описано в [22]",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.165951"
+      }
+    },
+    {
+      "id": "описано в [22-24]",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "описано в [22-24]",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.165954"
+      }
+    },
+    {
+      "id": "описано в [25]",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "описано в [25]",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.165956"
+      }
+    },
+    {
+      "id": "ГОСТ 21153.3",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "ГОСТ 21153.3",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.165961"
+      }
+    },
+    {
+      "id": "ASTM",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "ASTM",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.165964"
+      }
+    },
+    {
+      "id": "ISRM",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "ISRM",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.165966"
+      }
+    },
+    {
+      "id": "одноосное сжатие",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "одноосное сжатие",
+        "ingestion_date": "2026-07-04T16:03:00.165969"
+      }
+    },
+    {
+      "id": "одноосное растяжение",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "одноосное растяжение",
+        "ingestion_date": "2026-07-04T16:03:00.165971"
+      }
+    },
+    {
+      "id": "испытания на растяжение",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "испытания на растяжение",
+        "ingestion_date": "2026-07-04T16:03:00.165974"
+      }
+    },
+    {
+      "id": "испытания по ASTM",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "испытания по ASTM",
+        "ingestion_date": "2026-07-04T16:03:00.165976"
+      }
+    },
+    {
+      "id": "экспериментальные исследования",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "экспериментальные исследования",
+        "ingestion_date": "2026-07-04T16:03:00.165979"
+      }
+    },
+    {
+      "id": "прочностные свойства",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "прочностные свойства",
+        "ingestion_date": "2026-07-04T16:03:00.165982"
+      }
+    },
+    {
+      "id": "табл. 1",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "табл. 1",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.165984"
+      }
+    },
+    {
+      "id": "усреднение результатов",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "усреднение результатов",
+        "ingestion_date": "2026-07-04T16:03:00.165987"
+      }
+    },
+    {
+      "id": "отношение высоты к диаметру 2:1",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "отношение высоты к диаметру 2:1",
+        "ingestion_date": "2026-07-04T16:03:00.165992"
+      }
+    },
+    {
+      "id": "отношение высоты к диаметру 1:1",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "отношение высоты к диаметру 1:1",
+        "ingestion_date": "2026-07-04T16:03:00.165994"
+      }
+    },
+    {
+      "id": "отношение высоты к диаметру 2,5:1",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "отношение высоты к диаметру 2,5:1",
+        "ingestion_date": "2026-07-04T16:03:00.165996"
+      }
+    },
+    {
+      "id": "отношение высоты к диаметру 0,5:1",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "отношение высоты к диаметру 0,5:1",
+        "ingestion_date": "2026-07-04T16:03:00.165999"
+      }
+    },
+    {
+      "id": "6 образцов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "6 образцов",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166001"
+      }
+    },
+    {
+      "id": "4 образца",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "4 образца",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166004"
+      }
+    },
+    {
+      "id": "рис. 2",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "рис. 2",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166009"
+      }
+    },
+    {
+      "id": "методика I – ГОСТ",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "методика I – ГОСТ",
+        "ingestion_date": "2026-07-04T16:03:00.166011"
+      }
+    },
+    {
+      "id": "методика II – ASTM",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "методика II – ASTM",
+        "ingestion_date": "2026-07-04T16:03:00.166014"
+      }
+    },
+    {
+      "id": "низкий уровень потенциала удароопасности",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "низкий уровень потенциала удароопасности",
+        "ingestion_date": "2026-07-04T16:03:00.166016"
+      }
+    },
+    {
+      "id": "процентное соотношение неудароопасных проб",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "процентное соотношение неудароопасных проб",
+        "ingestion_date": "2026-07-04T16:03:00.166019"
+      }
+    },
+    {
+      "id": "54",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "54",
+        "value": 54,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:03:00.166021"
+      }
+    },
+    {
+      "id": "минимальный процент удароопасных пород должен составлять не менее 10%",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "минимальный процент удароопасных пород должен составлять не менее 10%",
+        "ingestion_date": "2026-07-04T16:03:00.166026"
+      }
+    },
+    {
+      "id": "наилучше",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "наилучше",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166029"
+      }
+    },
+    {
+      "id": "составлен авторами",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "авторами",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "составлен авторами",
+        "ingestion_date": "2026-07-04T16:03:00.166031"
+      }
+    },
+    {
+      "id": "габбро-долериты",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "габбро-долериты",
+        "ingestion_date": "2026-07-04T16:03:00.166036"
+      }
+    },
+    {
+      "id": "богатые руды",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "богатые руды",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166038"
+      }
+    },
+    {
+      "id": "meas_compressive_strength_300",
+      "label": "Measurement",
+      "properties": {
+        "unit": "МПа",
+        "max": 300,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "meas_compressive_strength_300",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:03:00.166040"
+      }
+    },
+    {
+      "id": "finding_rock_impact_hazard",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Удароопасность роговиков и габбро-долеритов обусловлена высокой прочностью на сжатие",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "finding_rock_impact_hazard",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166043"
+      }
+    },
+    {
+      "id": "finding_high_fragility_coefficient",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Для богатых руд характерно более высокое значение коэффициента хрупкости, что указывает на склонность к скалыванию тонкими пластинами",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "finding_high_fragility_coefficient",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166045"
+      }
+    },
+    {
+      "id": "finding_non_impact_hazard",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Ангидриты не обладают потенциалом удароопасности",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "finding_non_impact_hazard",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166048"
+      }
+    },
+    {
+      "id": "finding_method_discrepancy",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "description": "Наблюдается расхождение в результатах между отечественными и зарубежными методиками, однако значительных различий не выявлено",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "finding_method_discrepancy",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166051"
+      }
+    },
+    {
+      "id": "finding_rock_fragility",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Породы Норильского промышленного района проявляют склонность к динамическому разрушению",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "finding_rock_fragility",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166056"
+      }
+    },
+    {
+      "id": "meas_friability_8_75",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "meas_friability_8_75",
+        "value": 8.75,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:03:00.166059"
+      }
+    },
+    {
+      "id": "meas_compressive_strength_105",
+      "label": "Measurement",
+      "properties": {
+        "unit": "МПа",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "meas_compressive_strength_105",
+        "value": 105,
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:03:00.166061"
+      }
+    },
+    {
+      "id": "finding_low_friability_high_strength",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "У наиболее прочных пород наблюдается меньший коэффициент хрупкости, что подтверждено на апатит-нефелиновых месторождениях.",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "finding_low_friability_high_strength",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166064"
+      }
+    },
+    {
+      "id": "горные породы",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "горные породы",
+        "validation_status": "pending",
+        "type": "литология",
+        "ingestion_date": "2026-07-04T16:03:00.166069"
+      }
+    },
+    {
+      "id": "рудный массив",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "рудный массив",
+        "validation_status": "pending",
+        "type": "рудный массив",
+        "ingestion_date": "2026-07-04T16:03:00.166072"
+      }
+    },
+    {
+      "id": "шуба",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "При разработке месторождений на глубоких горизонтах приконтурная часть рудного массива отжимается, образуя характерную шубу.",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "шуба",
+        "ingestion_date": "2026-07-04T16:03:00.166074"
+      }
+    },
+    {
+      "id": "обобщенного критерия Хука-Брауна",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "обобщенного критерия Хука-Брауна",
+        "ingestion_date": "2026-07-04T16:03:00.166077"
+      }
+    },
+    {
+      "id": "тип крепей",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "тип крепей",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166080"
+      }
+    },
+    {
+      "id": "параметры крепей",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "параметры крепей",
+        "ingestion_date": "2026-07-04T16:03:00.166082"
+      }
+    },
+    {
+      "id": "Октябрьское месторождение медно-никелевых руд",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Октябрьское месторождение медно-никелевых руд",
+        "ingestion_date": "2026-07-04T16:03:00.166085"
+      }
+    },
+    {
+      "id": "Влияние горно-технологических факторов на буровзрывные работы",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Влияние горно-технологических факторов на буровзрывные работы",
+        "ingestion_date": "2026-07-04T16:03:00.166087"
+      }
+    },
+    {
+      "id": "Закалинский В.М.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Закалинский В.М.",
+        "ingestion_date": "2026-07-04T16:03:00.166090"
+      }
+    },
+    {
+      "id": "Мингазов Р.Я.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "Мингазов Р.Я.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166092"
+      }
+    },
+    {
+      "id": "Шиповский И.Е.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "Шиповский И.Е.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166094"
+      }
+    },
+    {
+      "id": "Исследование процессов селективной дезинтеграции медно-никелевых руд Заполярного месторождения",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Исследование процессов селективной дезинтеграции медно-никелевых руд Заполярного месторождения",
+        "ingestion_date": "2026-07-04T16:03:00.166097"
+      }
+    },
+    {
+      "id": "Александрова Т.Н.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Александрова Т.Н.",
+        "ingestion_date": "2026-07-04T16:03:00.166099"
+      }
+    },
+    {
+      "id": "Афанасова А.В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "Афанасова А.В.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166101"
+      }
+    },
+    {
+      "id": "Кузнецов В.В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "Кузнецов В.В.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166104"
+      }
+    },
+    {
+      "id": "Бабенко Т.А.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "Бабенко Т.А.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166106"
+      }
+    },
+    {
+      "id": "Минералого-технологические особенности и закономерности селективного разрушения железистых кварцитов Михайловского месторождения",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Минералого-технологические особенности и закономерности селективного разрушения железистых кварцитов Михайловского месторождения",
+        "ingestion_date": "2026-07-04T16:03:00.166108"
+      }
+    },
+    {
+      "id": "Чантурия А.В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "Чантурия А.В.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166111"
+      }
+    },
+    {
+      "id": "склонность к горным ударам",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "склонность к горным ударам",
+        "ingestion_date": "2026-07-04T16:03:00.166116"
+      }
+    },
+    {
+      "id": "kaiser_criterion",
+      "label": "Process",
+      "properties": {
+        "domain": "горная механика",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "kaiser_criterion",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166118"
+      }
+    },
+    {
+      "id": "meas_non_rock_impact_safe_ratio",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 54,
+        "max": 80,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "meas_non_rock_impact_safe_ratio",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:03:00.166121"
+      }
+    },
+    {
+      "id": "meas_rock_impact_safe_ratio",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "meas_rock_impact_safe_ratio",
+        "value": 50,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:03:00.166123"
+      }
+    },
+    {
+      "id": "meas_rock_impact_safe_ratio_gabbro_dolerite",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "meas_rock_impact_safe_ratio_gabbro_dolerite",
+        "value": 100,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:03:00.166126"
+      }
+    },
+    {
+      "id": "finding_method_convergence",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Отечественные и зарубежные методики испытаний показали высокую сходимость при испытании габбро-долеритов",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "finding_method_convergence",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166128"
+      }
+    },
+    {
+      "id": "meas_compressive_strength_ore",
+      "label": "Measurement",
+      "properties": {
+        "confidence": 0.5,
+        "description": "Богатые руды обладают наименьшей прочностью на сжатие",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "meas_compressive_strength_ore",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166131"
+      }
+    },
+    {
+      "id": "finding_low_compressive_strength",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Богатые руды имеют наименьшую прочность на сжатие",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "finding_low_compressive_strength",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166134"
+      }
+    },
+    {
+      "id": "Сидоров Д.В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "Сидоров Д.В.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166138"
+      }
+    },
+    {
+      "id": "Плешко М.С.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "Плешко М.С.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166140"
+      }
+    },
+    {
+      "id": "Сергунин М.П.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "Сергунин М.П.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166143"
+      }
+    },
+    {
+      "id": "Баландин В.В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "Баландин В.В.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166145"
+      }
+    },
+    {
+      "id": "Оценка удароопасности при освоении глубоких горизонтов Николаевского месторождения",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Оценка удароопасности при освоении глубоких горизонтов Николаевского месторождения",
+        "ingestion_date": "2026-07-04T16:03:00.166148"
+      }
+    },
+    {
+      "id": "Эффективные решения по креплению сверхглубокого ствола СКС-1 рудника «Скалистый» в сложных геомеханических условиях",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Эффективные решения по креплению сверхглубокого ствола СКС-1 рудника «Скалистый» в сложных геомеханических условиях",
+        "ingestion_date": "2026-07-04T16:03:00.166150"
+      }
+    },
+    {
+      "id": "Оценка напряжений впереди фронта очистных работ при увеличении ширины зоны разгрузки в условиях Октябрьского и Талнахского месторождений",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Оценка напряжений впереди фронта очистных работ при увеличении ширины зоны разгрузки в условиях Октябрьского и Талнахского месторождений",
+        "ingestion_date": "2026-07-04T16:03:00.166152"
+      }
+    },
+    {
+      "id": "Опыт применения обобщенного критерия Хука-Брауна к определению типов и параметров крепей в условиях Октябрьского месторождения медно-никелевых руд",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Опыт применения обобщенного критерия Хука-Брауна к определению типов и параметров крепей в условиях Октябрьского месторождения медно-никелевых руд",
+        "ingestion_date": "2026-07-04T16:03:00.166155"
+      }
+    },
+    {
+      "id": "Николаевское месторождение",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Николаевское месторождение",
+        "ingestion_date": "2026-07-04T16:03:00.166157"
+      }
+    },
+    {
+      "id": "СКС-1 рудника «Скалистый»",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "СКС-1 рудника «Скалистый»",
+        "ingestion_date": "2026-07-04T16:03:00.166159"
+      }
+    },
+    {
+      "id": "медно-никелевые руды",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "медно-никелевые руды",
+        "ingestion_date": "2026-07-04T16:03:00.166166"
+      }
+    },
+    {
+      "id": "удароопасность",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "удароопасность",
+        "ingestion_date": "2026-07-04T16:03:00.166169"
+      }
+    },
+    {
+      "id": "напряжения",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "напряжения",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166171"
+      }
+    },
+    {
+      "id": "крепи",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "крепи",
+        "ingestion_date": "2026-07-04T16:03:00.166174"
+      }
+    },
+    {
+      "id": "обобщенный критерий Хука-Брауна",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "обобщенный критерий Хука-Брауна",
+        "ingestion_date": "2026-07-04T16:03:00.166176"
+      }
+    },
+    {
+      "id": "глубокие горизонты",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "глубокие горизонты",
+        "ingestion_date": "2026-07-04T16:03:00.166178"
+      }
+    },
+    {
+      "id": "сложные геомеханические условия",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "сложные геомеханические условия",
+        "ingestion_date": "2026-07-04T16:03:00.166181"
+      }
+    },
+    {
+      "id": "СТРАНИЦА 9",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "СТРАНИЦА 9",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166184",
+        "span": "p.9"
+      }
+    },
+    {
+      "id": "meas_potential_low_15_7",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "meas_potential_low_15_7",
+        "value": 15.7,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:03:00.166187"
+      }
+    },
+    {
+      "id": "meas_potential_medium_27_5",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "meas_potential_medium_27_5",
+        "value": 27.5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:03:00.166189"
+      }
+    },
+    {
+      "id": "meas_potential_high_40_6",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "meas_potential_high_40_6",
+        "value": 40.6,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:03:00.166191"
+      }
+    },
+    {
+      "id": "meas_potential_very_high_33_6",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "meas_potential_very_high_33_6",
+        "value": 33.6,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:03:00.166194"
+      }
+    },
+    {
+      "id": "Property_потенциал_низкий",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "потенциал, %",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Property_потенциал_низкий",
+        "category": "потенциал",
+        "ingestion_date": "2026-07-04T16:03:00.166197"
+      }
+    },
+    {
+      "id": "Property_потенциал_средний",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "потенциал, %",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Property_потенциал_средний",
+        "category": "потенциал",
+        "ingestion_date": "2026-07-04T16:03:00.166199"
+      }
+    },
+    {
+      "id": "Property_потенциал_высокий",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "потенциал, %",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Property_потенциал_высокий",
+        "category": "потенциал",
+        "ingestion_date": "2026-07-04T16:03:00.166202"
+      }
+    },
+    {
+      "id": "Property_потенциал_очень_высокий",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "потенциал, %",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Property_потенциал_очень_высокий",
+        "category": "потенциал",
+        "ingestion_date": "2026-07-04T16:03:00.166204"
+      }
+    },
+    {
+      "id": "Property_литология",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "литология (средний коэффициент хрупкости)",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "Property_литология",
+        "validation_status": "pending",
+        "category": "литология",
+        "ingestion_date": "2026-07-04T16:03:00.166206"
+      }
+    },
+    {
+      "id": "Process_ГОСТ",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "name": "ГОСТ",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "Process_ГОСТ",
+        "validation_status": "pending",
+        "type": "методика",
+        "ingestion_date": "2026-07-04T16:03:00.166209"
+      }
+    },
+    {
+      "id": "литология",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "литология",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166212"
+      }
+    },
+    {
+      "id": "средний коэффициент хрупкости",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "средний коэффициент хрупкости",
+        "ingestion_date": "2026-07-04T16:03:00.166215"
+      }
+    },
+    {
+      "id": "богатая руда",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "богатая руда",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166217"
+      }
+    },
+    {
+      "id": "ГОСТ",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "ГОСТ",
+        "ingestion_date": "2026-07-04T16:03:00.166220"
+      }
+    },
+    {
+      "id": "meas_10_57_13_73",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "min": 10.57,
+        "max": 13.73,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "meas_10_57_13_73",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:03:00.166222"
+      }
+    },
+    {
+      "id": "meas_11_73_14_81",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "min": 11.73,
+        "max": 14.81,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "meas_11_73_14_81",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:03:00.166225"
+      }
+    },
+    {
+      "id": "meas_9_85_11_98",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "min": 9.85,
+        "max": 11.98,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "meas_9_85_11_98",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:03:00.166227"
+      }
+    },
+    {
+      "id": "meas_8_49_10_93",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "min": 8.49,
+        "max": 10.93,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "meas_8_49_10_93",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:03:00.166230"
+      }
+    },
+    {
+      "id": "meas_9_63_11_93",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "min": 9.63,
+        "max": 11.93,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "meas_9_63_11_93",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:03:00.166232"
+      }
+    },
+    {
+      "id": "meas_8_95_11_53",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "min": 8.95,
+        "max": 11.53,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "meas_8_95_11_53",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:03:00.166234"
+      }
+    },
+    {
+      "id": "meas_9_29_11_59",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "min": 9.29,
+        "max": 11.59,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "meas_9_29_11_59",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:03:00.166237"
+      }
+    },
+    {
+      "id": "meas_9_10_11_63",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "min": 9.1,
+        "max": 11.63,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "meas_9_10_11_63",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:03:00.166240"
+      }
+    },
+    {
+      "id": "низкий",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "низкий",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166242"
+      }
+    },
+    {
+      "id": "нет",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "нет",
+        "ingestion_date": "2026-07-04T16:03:00.166245"
+      }
+    },
+    {
+      "id": "ГОСТ 21153.2 «Породы горные. Методы определения предела прочности при одноосном сжатии»",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "ГОСТ 21153.2 «Породы горные. Методы определения предела прочности при одноосном сжатии»",
+        "ingestion_date": "2026-07-04T16:03:00.166247"
+      }
+    },
+    {
+      "id": "ГОСТ 21153.3 «Породы горные. Методы определения предела прочности при одноосном растяжении»",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "ГОСТ 21153.3 «Породы горные. Методы определения предела прочности при одноосном растяжении»",
+        "ingestion_date": "2026-07-04T16:03:00.166250"
+      }
+    },
+    {
+      "id": "ASTM D7012-14. Standard Test Methods for Compressive Strength and Elastic Moduli of Intact Rock Core Specimens under Varying States of Stress and Temperatures.",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "ASTM D7012-14. Standard Test Methods for Compressive Strength and Elastic Moduli of Intact Rock Core Specimens under Varying States of Stress and Temperatures.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166253"
+      }
+    },
+    {
+      "id": "ISRM Suggested Methods for Determining Tensile Strength of Rock Materials, part 2.",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "ISRM Suggested Methods for Determining Tensile Strength of Rock Materials, part 2.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166255"
+      }
+    },
+    {
+      "id": "Зубов В.П., Тхан Ван Зуи, Федоров А.С. Технология подземной разработки мощных пластов угля с низкими прочностными характеристиками // Уголь. 2023. № 5. С. 41-49. DOI: 10.18796/0041-5790-2023-5-41-49.",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Зубов В.П., Тхан Ван Зуи, Федоров А.С. Технология подземной разработки мощных пластов угля с низкими прочностными характеристиками // Уголь. 2023. № 5. С. 41-49. DOI: 10.18796/0041-5790-2023-5-41-49.",
+        "ingestion_date": "2026-07-04T16:03:00.166258"
+      }
+    },
+    {
+      "id": "Методические рекомендации по оценке склонности рудных и нерудных месторождений к горным ударам // Утверждены приказом № 216 Федеральной службы по экологическому, технологическому и атомному надзору от 23.05.2013.",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Методические рекомендации по оценке склонности рудных и нерудных месторождений к горным ударам // Утверждены приказом № 216 Федеральной службы по экологическому, технологическому и атомному надзору от 23.05.2013.",
+        "ingestion_date": "2026-07-04T16:03:00.166261"
+      }
+    },
+    {
+      "id": "Vennes I., Mitri H., Chinnasane D.R., Yao M. Effect of Stress Anisotropy on the Efficiency of",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "Vennes I., Mitri H., Chinnasane D.R., Yao M. Effect of Stress Anisotropy on the Efficiency of",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166263"
+      }
+    },
+    {
+      "id": "Зубов В.П.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "Зубов В.П.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166266"
+      }
+    },
+    {
+      "id": "Тхан Ван Зуи",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "Тхан Ван Зуи",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166268"
+      }
+    },
+    {
+      "id": "Федоров А.С.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "Федоров А.С.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166271"
+      }
+    },
+    {
+      "id": "Vennes I.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Vennes I.",
+        "ingestion_date": "2026-07-04T16:03:00.166273"
+      }
+    },
+    {
+      "id": "Mitri H.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Mitri H.",
+        "ingestion_date": "2026-07-04T16:03:00.166276"
+      }
+    },
+    {
+      "id": "Chinnasane D.R.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "Chinnasane D.R.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166278"
+      }
+    },
+    {
+      "id": "Yao M.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Yao M.",
+        "ingestion_date": "2026-07-04T16:03:00.166281"
+      }
+    },
+    {
+      "id": "Topic_Горные удачи",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Topic_Горные удачи",
+        "ingestion_date": "2026-07-04T16:03:00.166283"
+      }
+    },
+    {
+      "id": "Topic_Прочность пород",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Topic_Прочность пород",
+        "ingestion_date": "2026-07-04T16:03:00.166286"
+      }
+    },
+    {
+      "id": "Topic_Методы испытаний",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "validation_status": "pending",
+        "id": "Topic_Методы испытаний",
+        "ingestion_date": "2026-07-04T16:03:00.166288"
+      }
+    },
+    {
+      "id": "src_p49",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "src_p49",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166293",
+        "span": "p.49"
+      }
+    },
+    {
+      "id": "src_p23",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "18 Статья потенциал удароропасности.docx",
+        "id": "src_p23",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:03:00.166295",
+        "span": "p.23"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "богатые сульфидные руды",
+      "target": "потенциал удароопасности",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "роговики",
+      "target": "потенциал удароопасности",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "вкрапленные руды",
+      "target": "потенциал удароопасности",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "породные габбро-долериты",
+      "target": "потенциал удароопасности",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "потенциал удароопасности",
+      "target": "finding_low_impact_risk",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_low_impact_risk",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "А.П. Господариков",
+      "target": "А.П. Киркин",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "А.П. Господариков",
+      "target": "М.А. Зацепин",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "А.П. Киркин",
+      "target": "А.П. Господариков",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "А.П. Киркин",
+      "target": "М.А. Зацепин",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "горный удар",
+      "target": "склонность к хрупкому разрушению",
+      "type": "SHOWED"
+    },
+    {
+      "source": "склонность к хрупкому разрушению",
+      "target": "отношение модуля упругости к модулю спада",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "отношение модуля упругости к модулю спада",
+      "target": "удароопасный",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "отношение модуля упругости к модулю спада",
+      "target": "неудароопасный",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "испытания на сжатие",
+      "target": "графики полного деформирования",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "испытания на сжатие",
+      "target": "жесткие испытательные прессы",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "испытания на сжатие",
+      "target": "сервогидравлические испытательные прессы",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "испытания на сжатие",
+      "target": "рост скорости поперечных деформаций",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "метод А.Я. Бича",
+      "target": "склонность к хрупкому разрушению",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "метод А.Я. Бича",
+      "target": "публикация [17]",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "метод А.Я. Бича",
+      "target": "Бич А.Я.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "склонность к хрупкому разрушению",
+      "target": "публикация [14]",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "оценка склонности к хрупкому разрушению",
+      "target": "публикация [13]",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "испытания на сжатие",
+      "target": "публикация [15-16]",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "горный удар",
+      "target": "публикация [10-12]",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "испытания на одноосное сжатие и растяжение",
+      "target": "табл.1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "испытания на одноосное сжатие и растяжение",
+      "target": "ФНИП",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "испытания на одноосное сжатие и растяжение",
+      "target": "ГОСТ 21153.2",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "испытания на одноосное сжатие и растяжение",
+      "target": "ASTM (ISRM)",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "ФНИП",
+      "target": "породы, склонные к хрупкому разрушению",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "породы, склонные к хрупкому разрушению",
+      "target": "месторождения Талнаха",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "ангидриты",
+      "target": "породы, склонные к хрупкому разрушению",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "оценка потенциала удароопасности",
+      "target": "испытания на одноосное сжатие и растяжение",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "оценка потенциала удароопасности",
+      "target": "табл.1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "табл.1",
+      "target": "источник [26]",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "коэффициент хрупкости",
+      "target": "предел прочности при сжатии",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "коэффициент хрупкости",
+      "target": "предел прочности при растяжении",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "коэффициент хрупкости",
+      "target": "Хибинский массив",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "коэффициент хрупкости",
+      "target": "Новоширокинское месторождение полиметаллических руд",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "коэффициент хрупкости",
+      "target": "Норильский промышленный район",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "горные удары",
+      "target": "удароопасность",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "горные удары",
+      "target": "динамическое проявление горного давления",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "испытания на сжатие",
+      "target": "предел прочности при сжатии",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "испытания на растяжение",
+      "target": "предел прочности при растяжении",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "испытания на сжатие",
+      "target": "лабораторные результаты испытаний",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "испытания на растяжение",
+      "target": "лабораторные результаты испытаний",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "лабораторные результаты испытаний",
+      "target": "Норильский промышленный район",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "лабораторные результаты испытаний",
+      "target": "2018",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "лабораторные результаты испытаний",
+      "target": "2023",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "лабораторные результаты испытаний",
+      "target": "физико-механические свойства",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "физико-механические свойства",
+      "target": "рудный массив",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "физико-механические свойства",
+      "target": "Норильский промышленный район",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Новоширокинское месторождение полиметаллических руд",
+      "target": "Забайкальский край",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "коэффициент хрупкости",
+      "target": "описано в [22]",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "коэффициент хрупкости",
+      "target": "описано в [22-24]",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "горные удары",
+      "target": "описано в [25]",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "лабораторные результаты испытаний",
+      "target": "описано в [22-24]",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "лабораторные результаты испытаний",
+      "target": "2018",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "лабораторные результаты испытаний",
+      "target": "2023",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "коэффициент хрупкости",
+      "target": "2018",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "коэффициент хрупкости",
+      "target": "2023",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "физико-механические свойства",
+      "target": "2018",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "физико-механические свойства",
+      "target": "2023",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "ГОСТ 21153.2",
+      "target": "одноосное сжатие",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "ГОСТ 21153.3",
+      "target": "одноосное растяжение",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "ASTM",
+      "target": "одноосное сжатие",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "ISRM",
+      "target": "одноосное растяжение",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "испытания на сжатие",
+      "target": "отношение высоты к диаметру 2:1",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "испытания на растяжение",
+      "target": "отношение высоты к диаметру 1:1",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "испытания по ASTM",
+      "target": "отношение высоты к диаметру 2:1",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "испытания по ASTM",
+      "target": "отношение высоты к диаметру 2,5:1",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "испытания по ASTM",
+      "target": "отношение высоты к диаметру 0,5:1",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "испытания на сжатие",
+      "target": "6 образцов",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "экспериментальные исследования",
+      "target": "прочностные свойства",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "экспериментальные исследования",
+      "target": "потенциал удароопасности",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "экспериментальные исследования",
+      "target": "табл. 1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "табл. 1",
+      "target": "методика I – ГОСТ",
+      "type": "TAGGED"
+    },
+    {
+      "source": "табл. 1",
+      "target": "методика II – ASTM",
+      "type": "TAGGED"
+    },
+    {
+      "source": "экспериментальные исследования",
+      "target": "усреднение результатов",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "экспериментальные исследования",
+      "target": "обработка результатов",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "рис. 2",
+      "target": "составлен авторами",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "табл. 1",
+      "target": "методика I – ГОСТ",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "табл. 1",
+      "target": "методика II – ASTM",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "ангидриты",
+      "target": "низкий уровень потенциала удароопасности",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "процентное соотношение неудароопасных проб",
+      "target": "54",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "процентное соотношение неудароопасных проб",
+      "target": "80",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "процентное соотношение неудароопасных проб",
+      "target": "минимальный процент удароопасных пород должен составлять не менее 10%",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "наилучше",
+      "target": "процентное соотношение неудароопасных проб",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "габбро-долериты",
+      "target": "meas_compressive_strength_300",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_compressive_strength_300",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "роговики",
+      "target": "finding_rock_impact_hazard",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_rock_impact_hazard",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "богатые руды",
+      "target": "finding_high_fragility_coefficient",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_high_fragility_coefficient",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "ангидриты",
+      "target": "finding_non_impact_hazard",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_non_impact_hazard",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_method_discrepancy",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_rock_fragility",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_friability_8_75",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_compressive_strength_105",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_low_friability_high_strength",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "обобщенного критерия Хука-Брауна",
+      "target": "тип крепей",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "обобщенного критерия Хука-Брауна",
+      "target": "параметры крепей",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "обобщенного критерия Хука-Брауна",
+      "target": "Октябрьское месторождение медно-никелевых руд",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Влияние горно-технологических факторов на буровзрывные работы",
+      "target": "Закалинский В.М.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Влияние горно-технологических факторов на буровзрывные работы",
+      "target": "Мингазов Р.Я.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Влияние горно-технологических факторов на буровзрывные работы",
+      "target": "Шиповский И.Е.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Исследование процессов селективной дезинтеграции медно-никелевых руд Заполярного месторождения",
+      "target": "Александрова Т.Н.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Исследование процессов селективной дезинтеграции медно-никелевых руд Заполярного месторождения",
+      "target": "Афанасова А.В.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Исследование процессов селективной дезинтеграции медно-никелевых руд Заполярного месторождения",
+      "target": "Кузнецов В.В.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Исследование процессов селективной дезинтеграции медно-никелевых руд Заполярного месторождения",
+      "target": "Бабенко Т.А.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Минералого-технологические особенности и закономерности селективного разрушения железистых кварцитов Михайловского месторождения",
+      "target": "Александрова Т.Н.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Минералого-технологические особенности и закономерности селективного разрушения железистых кварцитов Михайловского месторождения",
+      "target": "Чантурия А.В.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Минералого-технологические особенности и закономерности селективного разрушения железистых кварцитов Михайловского месторождения",
+      "target": "Кузнецов В.В.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Методические рекомендации по оценке склонности рудных и нерудных месторождений к горным ударам",
+      "target": "склонность к горным ударам",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "finding_rock_fragility",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_rock_fragility",
+      "target": "kaiser_criterion",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "kaiser_criterion",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_non_rock_impact_safe_ratio",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_non_rock_impact_safe_ratio",
+      "target": "finding_rock_fragility",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "meas_rock_impact_safe_ratio",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_rock_impact_safe_ratio",
+      "target": "finding_rock_fragility",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "meas_rock_impact_safe_ratio_gabbro_dolerite",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_rock_impact_safe_ratio_gabbro_dolerite",
+      "target": "finding_method_convergence",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_method_convergence",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_compressive_strength_ore",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_compressive_strength_ore",
+      "target": "finding_low_compressive_strength",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_low_compressive_strength",
+      "target": "src_p15",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Сидоров Д.В.",
+      "target": "Оценка удароопасности при освоении глубоких горизонтов Николаевского месторождения",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Плешко М.С.",
+      "target": "Эффективные решения по креплению сверхглубокого ствола СКС-1 рудника «Скалистый» в сложных геомеханических условиях",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Сергунин М.П.",
+      "target": "Оценка напряжений впереди фронта очистных работ при увеличении ширины зоны разгрузки в условиях Октябрьского и Талнахского месторождений",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Баландин В.В.",
+      "target": "Опыт применения обобщенного критерия Хука-Брауна к определению типов и параметров крепей в условиях Октябрьского месторождения медно-никелевых руд",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Оценка удароопасности при освоении глубоких горизонтов Николаевского месторождения",
+      "target": "Николаевское месторождение",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Эффективные решения по креплению сверхглубокого ствола СКС-1 рудника «Скалистый» в сложных геомеханических условиях",
+      "target": "СКС-1 рудника «Скалистый»",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Оценка напряжений впереди фронта очистных работ при увеличении ширины зоны разгрузки в условиях Октябрьского и Талнахского месторождений",
+      "target": "Октябрьское месторождение",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Оценка напряжений впереди фронта очистных работ при увеличении ширины зоны разгрузки в условиях Октябрьского и Талнахского месторождений",
+      "target": "Талнахское месторождение",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Опыт применения обобщенного критерия Хука-Брауна к определению типов и параметров крепей в условиях Октябрьского месторождения медно-никелевых руд",
+      "target": "Октябрьское месторождение",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Опыт применения обобщенного критерия Хука-Брауна к определению типов и параметров крепей в условиях Октябрьского месторождения медно-никелевых руд",
+      "target": "медно-никелевые руды",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Оценка удароопасности при освоении глубоких горизонтов Николаевского месторождения",
+      "target": "удароопасность",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Оценка напряжений впереди фронта очистных работ при увеличении ширины зоны разгрузки в условиях Октябрьского и Талнахского месторождений",
+      "target": "напряжения",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Опыт применения обобщенного критерия Хука-Брауна к определению типов и параметров крепей в условиях Октябрьского месторождения медно-никелевых руд",
+      "target": "крепи",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "Опыт применения обобщенного критерия Хука-Брауна к определению типов и параметров крепей в условиях Октябрьского месторождения медно-никелевых руд",
+      "target": "обобщенный критерий Хука-Брауна",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "Оценка удароопасности при освоении глубоких горизонтов Николаевского месторождения",
+      "target": "глубокие горизонты",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Эффективные решения по креплению сверхглубокого ствола СКС-1 рудника «Скалистый» в сложных геомеханических условиях",
+      "target": "сложные геомеханические условия",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Оценка удароопасности при освоении глубоких горизонтов Николаевского месторождения",
+      "target": "СТРАНИЦА 9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Эффективные решения по креплению сверхглубокого ствола СКС-1 рудника «Скалистый» в сложных геомеханических условиях",
+      "target": "СТРАНИЦА 9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Оценка напряжений впереди фронта очистных работ при увеличении ширины зоны разгрузки в условиях Октябрьского и Талнахского месторождений",
+      "target": "СТРАНИЦА 9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Опыт применения обобщенного критерия Хука-Брауна к определению типов и параметров крепей в условиях Октябрьского месторождения медно-никелевых руд",
+      "target": "СТРАНИЦА 9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_potential_low_15_7",
+      "target": "Property_потенциал_низкий",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_potential_low_15_7",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_potential_medium_27_5",
+      "target": "Property_потенциал_средний",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_potential_medium_27_5",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_potential_high_40_6",
+      "target": "Property_потенциал_высокий",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_potential_high_40_6",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_potential_very_high_33_6",
+      "target": "Property_потенциал_очень_высокий",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_potential_very_high_33_6",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Process_ГОСТ",
+      "target": "Property_литология",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Process_ГОСТ",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "ГОСТ",
+      "target": "ASTM",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "ASTM",
+      "target": "литология",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "литология",
+      "target": "средний коэффициент хрупкости",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "средний коэффициент хрупкости",
+      "target": "богатая руда",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "средний коэффициент хрупкости",
+      "target": "роговики",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "средний коэффициент хрупкости",
+      "target": "вкрапленные руды",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "средний коэффициент хрупкости",
+      "target": "породные габбро-долериты",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "средний коэффициент хрупкости",
+      "target": "ангидриты",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "богатая руда",
+      "target": "низкий",
+      "type": "SHOWED"
+    },
+    {
+      "source": "роговики",
+      "target": "низкий",
+      "type": "SHOWED"
+    },
+    {
+      "source": "вкрапленные руды",
+      "target": "низкий",
+      "type": "SHOWED"
+    },
+    {
+      "source": "породные габбро-долериты",
+      "target": "низкий",
+      "type": "SHOWED"
+    },
+    {
+      "source": "ангидриты",
+      "target": "нет",
+      "type": "SHOWED"
+    },
+    {
+      "source": "средний коэффициент хрупкости",
+      "target": "meas_10_57_13_73",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "средний коэффициент хрупкости",
+      "target": "meas_11_73_14_81",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "средний коэффициент хрупкости",
+      "target": "meas_9_85_11_98",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "средний коэффициент хрупкости",
+      "target": "meas_8_49_10_93",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "средний коэффициент хрупкости",
+      "target": "meas_9_63_11_93",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "средний коэффициент хрупкости",
+      "target": "meas_8_95_11_53",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "средний коэффициент хрупкости",
+      "target": "meas_9_29_11_59",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "средний коэффициент хрупкости",
+      "target": "meas_9_10_11_63",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_10_57_13_73",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_11_73_14_81",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_9_85_11_98",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_8_49_10_93",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_9_63_11_93",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_8_95_11_53",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_9_29_11_59",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_9_10_11_63",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "ГОСТ 21153.2 «Породы горные. Методы определения предела прочности при одноосном сжатии»",
+      "target": "ASTM D7012-14. Standard Test Methods for Compressive Strength and Elastic Moduli of Intact Rock Core Specimens under Varying States of Stress and Temperatures.",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ГОСТ 21153.3 «Породы горные. Методы определения предела прочности при одноосном растяжении»",
+      "target": "ISRM Suggested Methods for Determining Tensile Strength of Rock Materials, part 2.",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "Зубов В.П., Тхан Ван Зуи, Федоров А.С. Технология подземной разработки мощных пластов угля с низкими прочностными характеристиками // Уголь. 2023. № 5. С. 41-49. DOI: 10.18796/0041-5790-2023-5-41-49.",
+      "target": "Методические рекомендации по оценке склонности рудных и нерудных месторождений к горным ударам // Утверждены приказом № 216 Федеральной службы по экологическому, технологическому и атомному надзору от 23.05.2013.",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "Vennes I., Mitri H., Chinnasane D.R., Yao M. Effect of Stress Anisotropy on the Efficiency of",
+      "target": "Методические рекомендации по оценке склонности рудных и нерудных месторождений к горным ударам // Утверждены приказом № 216 Федеральной службы по экологическому, технологическому и атомному надзору от 23.05.2013.",
+      "type": "SUPPORTS"
+    }
+  ]
+}

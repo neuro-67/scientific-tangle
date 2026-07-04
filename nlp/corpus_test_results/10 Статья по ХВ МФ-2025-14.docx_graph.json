@@ -1,0 +1,6587 @@
+{
+  "document": "10 Статья по ХВ МФ-2025-14.docx",
+  "nodes": [
+    {
+      "id": "S",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "сера элементная",
+        "description": "Сера",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "S",
+        "ingestion_date": "2026-07-04T16:02:17.106249"
+      }
+    },
+    {
+      "id": "классы крупности",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "классы крупности",
+        "ingestion_date": "2026-07-04T16:02:17.105684"
+      }
+    },
+    {
+      "id": "рН",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "рН",
+        "type": "условие",
+        "ingestion_date": "2026-07-04T16:02:17.105843"
+      }
+    },
+    {
+      "id": "рентгенофазовый анализ",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "рентгенофазовый анализ",
+        "ingestion_date": "2026-07-04T16:02:17.105677"
+      }
+    },
+    {
+      "id": "ОВП",
+      "label": "Property",
+      "properties": {
+        "unit": "мВ",
+        "confidence": 0.5,
+        "name": "окислительно-восстановительный потенциал",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "ОВП",
+        "ingestion_date": "2026-07-04T16:02:17.105845"
+      }
+    },
+    {
+      "id": "Property_OVP",
+      "label": "Property",
+      "properties": {
+        "unit": "мВ",
+        "confidence": 0.5,
+        "name": "ОВП",
+        "description": "Окислительно-восстановительный потенциал",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "Property_OVP",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106382"
+      }
+    },
+    {
+      "id": "золото",
+      "label": "Property",
+      "properties": {
+        "chemical_symbol": "Au",
+        "confidence": 0.5,
+        "name": "Извлечение Au",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "золото",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106305"
+      }
+    },
+    {
+      "id": "Pt",
+      "label": "Property",
+      "properties": {
+        "unit": "%",
+        "chemical_symbol": "Pt",
+        "confidence": 0.5,
+        "name": "платина",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "Pt",
+        "ingestion_date": "2026-07-04T16:02:17.105818"
+      }
+    },
+    {
+      "id": "Pd",
+      "label": "Property",
+      "properties": {
+        "unit": "%",
+        "chemical_symbol": "Pd",
+        "confidence": 0.5,
+        "name": "палладий",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "Pd",
+        "ingestion_date": "2026-07-04T16:02:17.105816"
+      }
+    },
+    {
+      "id": "Rh",
+      "label": "Property",
+      "properties": {
+        "unit": "%",
+        "chemical_symbol": "Rh",
+        "confidence": 0.5,
+        "name": "родий",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "Rh",
+        "ingestion_date": "2026-07-04T16:02:17.105806"
+      }
+    },
+    {
+      "id": "драгоценные металлы",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "драгоценные металлы",
+        "category": "драгоценные",
+        "type": "металлы",
+        "ingestion_date": "2026-07-04T16:02:17.105518"
+      }
+    },
+    {
+      "id": "лабораторный эксперимент",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "лабораторный эксперимент",
+        "ingestion_date": "2026-07-04T16:02:17.105672"
+      }
+    },
+    {
+      "id": "никель",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "никель",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105811"
+      }
+    },
+    {
+      "id": "файнштейн",
+      "label": "Material",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "description": "промежуточный продукт пирометаллургической фазы, в получении меди и никеля из сульфидных руд",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "файнштейн",
+        "source": "ЗФ ГМК «Норильский никель»",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105655"
+      }
+    },
+    {
+      "id": "медно-никелевый файнштейн",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "origin": "пирометаллургия",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "медно-никелевый файнштейн",
+        "type": "отход",
+        "ingestion_date": "2026-07-04T16:02:17.105748"
+      }
+    },
+    {
+      "id": "лабораторные эксперименты",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "лабораторные эксперименты",
+        "ingestion_date": "2026-07-04T16:02:17.105826"
+      }
+    },
+    {
+      "id": "Ru",
+      "label": "Property",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "name": "рутений",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "Ru",
+        "ingestion_date": "2026-07-04T16:02:17.105809"
+      }
+    },
+    {
+      "id": "Ir",
+      "label": "Property",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "name": "иритий",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "Ir",
+        "ingestion_date": "2026-07-04T16:02:17.105820"
+      }
+    },
+    {
+      "id": "фазовый состав",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "фазовый состав",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105690"
+      }
+    },
+    {
+      "id": "магнетит",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "магнетит",
+        "validation_status": "pending",
+        "chemical_formula": "Fe3O4",
+        "ingestion_date": "2026-07-04T16:02:17.105584"
+      }
+    },
+    {
+      "id": "металлическая фаза",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "description": "твердый раствор на основе никеля: (Ni,Fe)",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "металлическая фаза",
+        "ingestion_date": "2026-07-04T16:02:17.105567"
+      }
+    },
+    {
+      "id": "магнитная фракция",
+      "label": "Material",
+      "properties": {
+        "origin": "медно-никелевый файнштейн",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "магнитная фракция",
+        "type": "фракция",
+        "ingestion_date": "2026-07-04T16:02:17.105745"
+      }
+    },
+    {
+      "id": "Fe",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Извлечение Fe",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "Fe",
+        "ingestion_date": "2026-07-04T16:02:17.105804"
+      }
+    },
+    {
+      "id": "хлорное растворение",
+      "label": "Process",
+      "properties": {
+        "domain": "металлургия",
+        "confidence": 0.5,
+        "description": "процесс извлечения драгоценных металлов из материала с использованием хлорных растворов",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "хлорное растворение",
+        "ingestion_date": "2026-07-04T16:02:17.105493"
+      }
+    },
+    {
+      "id": "металлизированная магнитная фракция",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "металлизированная магнитная фракция",
+        "ingestion_date": "2026-07-04T16:02:17.105514"
+      }
+    },
+    {
+      "id": "окислительно-восстановительный потенциал",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "окислительно-восстановительный потенциал",
+        "ingestion_date": "2026-07-04T16:02:17.105522"
+      }
+    },
+    {
+      "id": "длительность процесса",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "длительность процесса",
+        "ingestion_date": "2026-07-04T16:02:17.105526"
+      }
+    },
+    {
+      "id": "концентрация хлорид-иона",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "концентрация хлорид-иона",
+        "ingestion_date": "2026-07-04T16:02:17.105529"
+      }
+    },
+    {
+      "id": "извлечение металлов в раствор",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "извлечение металлов в раствор",
+        "ingestion_date": "2026-07-04T16:02:17.105535"
+      }
+    },
+    {
+      "id": "металлическая фаза материала",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "металлическая фаза материала",
+        "ingestion_date": "2026-07-04T16:02:17.105537"
+      }
+    },
+    {
+      "id": "основной переход ДМ в раствор",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "основной переход ДМ в раствор",
+        "ingestion_date": "2026-07-04T16:02:17.105540"
+      }
+    },
+    {
+      "id": "Четверкин А.Ю.",
+      "label": "Expert",
+      "properties": {
+        "affiliation": "ООО «Институт Гипроникель»",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "Четверкин А.Ю.",
+        "validation_status": "pending",
+        "position": "старший научный сотрудник",
+        "ingestion_date": "2026-07-04T16:02:17.105543"
+      }
+    },
+    {
+      "id": "Павлов А.Ю.",
+      "label": "Expert",
+      "properties": {
+        "affiliation": "ООО «Институт Гипроникель»",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "Павлов А.Ю.",
+        "validation_status": "pending",
+        "position": "ведущий инженер",
+        "ingestion_date": "2026-07-04T16:02:17.105546"
+      }
+    },
+    {
+      "id": "Вергизова Т.В.",
+      "label": "Expert",
+      "properties": {
+        "affiliation": "ООО «Институт Гипроникель»",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "Вергизова Т.В.",
+        "validation_status": "pending",
+        "position": "ведущий научный сотрудник",
+        "ingestion_date": "2026-07-04T16:02:17.105550"
+      }
+    },
+    {
+      "id": "Дубровский В.Л.",
+      "label": "Expert",
+      "properties": {
+        "affiliation": "АО «Кольская горно-металлургическая компания»",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "Дубровский В.Л.",
+        "validation_status": "pending",
+        "position": "главный специалист ОНТР",
+        "ingestion_date": "2026-07-04T16:02:17.105553"
+      }
+    },
+    {
+      "id": "АО «Кольская горно-металлургическая компания»",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "АО «Кольская горно-металлургическая компания»",
+        "ingestion_date": "2026-07-04T16:02:17.105558"
+      }
+    },
+    {
+      "id": "магнитная фракция файнштейна",
+      "label": "Material",
+      "properties": {
+        "domain": "металлургия",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "магнитная фракция файнштейна",
+        "ingestion_date": "2026-07-04T16:02:17.105564"
+      }
+    },
+    {
+      "id": "хизлевудит",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "хизлевудит",
+        "validation_status": "pending",
+        "chemical_formula": "Ni3S2",
+        "ingestion_date": "2026-07-04T16:02:17.105569"
+      }
+    },
+    {
+      "id": "шпинельная фаза",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "description": "Fe3O4 магнетита или MgFe2O4",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "шпинельная фаза",
+        "ingestion_date": "2026-07-04T16:02:17.105572"
+      }
+    },
+    {
+      "id": "халькозин-борнит",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "халькозин-борнит",
+        "validation_status": "pending",
+        "chemical_formula": "Cu2S-Cu5FeS4",
+        "ingestion_date": "2026-07-04T16:02:17.105574"
+      }
+    },
+    {
+      "id": "тенорит",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "тенорит",
+        "validation_status": "pending",
+        "chemical_formula": "CuO",
+        "ingestion_date": "2026-07-04T16:02:17.105577"
+      }
+    },
+    {
+      "id": "дигенит",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "дигенит",
+        "validation_status": "pending",
+        "chemical_formula": "Cu9S5",
+        "ingestion_date": "2026-07-04T16:02:17.105582"
+      }
+    },
+    {
+      "id": "meas_sulf_34",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_sulf_34",
+        "value": 3.4,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.105587"
+      }
+    },
+    {
+      "id": "meas_sulf_92",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_sulf_92",
+        "value": 9.2,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.105589"
+      }
+    },
+    {
+      "id": "meas_sulf_126",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_sulf_126",
+        "value": 12.6,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.105592"
+      }
+    },
+    {
+      "id": "meas_sulf_135",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_sulf_135",
+        "value": 13.5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.105595"
+      }
+    },
+    {
+      "id": "meas_prec_14",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_prec_14",
+        "value": 0.14,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.105597"
+      }
+    },
+    {
+      "id": "meas_prec_35",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_prec_35",
+        "value": 0.35,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.105599"
+      }
+    },
+    {
+      "id": "никелевая сульфидная фаза",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "никелевая сульфидная фаза",
+        "ingestion_date": "2026-07-04T16:02:17.105604"
+      }
+    },
+    {
+      "id": "медная сульфидная фаза",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "медная сульфидная фаза",
+        "ingestion_date": "2026-07-04T16:02:17.105607"
+      }
+    },
+    {
+      "id": "фракция_крупнее_45мкм",
+      "label": "Condition",
+      "properties": {
+        "size": "45 мкм",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "фракция_крупнее_45мкм",
+        "validation_status": "pending",
+        "operator": ">",
+        "ingestion_date": "2026-07-04T16:02:17.105610"
+      }
+    },
+    {
+      "id": "фракция_тоньше_45мкм",
+      "label": "Condition",
+      "properties": {
+        "size": "45 мкм",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "фракция_тоньше_45мкм",
+        "validation_status": "pending",
+        "operator": "<",
+        "ingestion_date": "2026-07-04T16:02:17.105613"
+      }
+    },
+    {
+      "id": "микроскопические решетчатые структуры",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "микроскопические решетчатые структуры",
+        "ingestion_date": "2026-07-04T16:02:17.105616"
+      }
+    },
+    {
+      "id": "субмикронные выделения металлической меди",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "субмикронные выделения металлической меди",
+        "ingestion_date": "2026-07-04T16:02:17.105619"
+      }
+    },
+    {
+      "id": "окисление файнштейна",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "окисление файнштейна",
+        "ingestion_date": "2026-07-04T16:02:17.105621"
+      }
+    },
+    {
+      "id": "скопления изометричных кристаллов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "скопления изометричных кристаллов",
+        "ingestion_date": "2026-07-04T16:02:17.105624"
+      }
+    },
+    {
+      "id": "проба 1",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "проба 1",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105627"
+      }
+    },
+    {
+      "id": "проба 7",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "description": "МФ проба 7, S-13,5%",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "проба 7",
+        "validation_status": "pending",
+        "type": "sample",
+        "ingestion_date": "2026-07-04T16:02:17.105629"
+      }
+    },
+    {
+      "id": "meas_48_50",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 48,
+        "max": 50,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_48_50",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:17.105637"
+      }
+    },
+    {
+      "id": "meas_30_31",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 30,
+        "max": 31,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_30_31",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:17.105640"
+      }
+    },
+    {
+      "id": "meas_10_11",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 10,
+        "max": 11,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_10_11",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:17.105642"
+      }
+    },
+    {
+      "id": "meas_8_9",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 8,
+        "max": 9,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_8_9",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:17.105644"
+      }
+    },
+    {
+      "id": "meas_S_3_4",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 3.4,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_S_3_4",
+        "value": 3.4,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.105647"
+      }
+    },
+    {
+      "id": "meas_S_13_5",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_S_13_5",
+        "value": 13.5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.105649"
+      }
+    },
+    {
+      "id": "МФ",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Металлофаза",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "МФ",
+        "ingestion_date": "2026-07-04T16:02:17.105658"
+      }
+    },
+    {
+      "id": "остаток",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "остаток",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105660"
+      }
+    },
+    {
+      "id": "обогащение остатка по ДМ",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "обогащение остатка по ДМ",
+        "ingestion_date": "2026-07-04T16:02:17.105663"
+      }
+    },
+    {
+      "id": "переход ДМ в раствор",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "переход ДМ в раствор",
+        "ingestion_date": "2026-07-04T16:02:17.105666"
+      }
+    },
+    {
+      "id": "переход серы в раствор",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "переход серы в раствор",
+        "ingestion_date": "2026-07-04T16:02:17.105669"
+      }
+    },
+    {
+      "id": "рентгеноспектральный микроскоп",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "рентгеноспектральный микроскоп",
+        "ingestion_date": "2026-07-04T16:02:17.105679"
+      }
+    },
+    {
+      "id": "ситовый способ",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "ситовый способ",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105682"
+      }
+    },
+    {
+      "id": "вещественный состав",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "вещественный состав",
+        "ingestion_date": "2026-07-04T16:02:17.105687"
+      }
+    },
+    {
+      "id": "ЗФ ГМК «Норильский никель»",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "ЗФ ГМК «Норильский никель»",
+        "ingestion_date": "2026-07-04T16:02:17.105692"
+      }
+    },
+    {
+      "id": "meas_ovp_400",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мВ",
+        "min": 380,
+        "max": 400,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_ovp_400",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:17.105694"
+      }
+    },
+    {
+      "id": "meas_cl_250",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "г/л",
+        "max": 250000.0,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_cl_250",
+        "value": 250000.0,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.105697"
+      }
+    },
+    {
+      "id": "meas_cl_125",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "г/л",
+        "min": 125000.0,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_cl_125",
+        "value": 125000.0,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.105699"
+      }
+    },
+    {
+      "id": "finding_sulfur_release",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "на второй стадии – 430-450 мВ, на которой при взаимодействии с сульфидными составляющими МФ происходит выделение серы элементной",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_sulfur_release",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105702"
+      }
+    },
+    {
+      "id": "meas_fe_98_2",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 98.2,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_fe_98_2",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:02:17.105707"
+      }
+    },
+    {
+      "id": "meas_co_91_5",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 91.5,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_co_91_5",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:02:17.105710"
+      }
+    },
+    {
+      "id": "meas_cu_70",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 70,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_cu_70",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:02:17.105712"
+      }
+    },
+    {
+      "id": "finding_mediation",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Процесс реализуется через посредство ионов-медиаторов переменной валентности Cu(II)/Cu(I), а не по прямому механизму",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "finding_mediation",
+        "ingestion_date": "2026-07-04T16:02:17.105714"
+      }
+    },
+    {
+      "id": "condition_380_mV",
+      "label": "Condition",
+      "properties": {
+        "unit": "мВ",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "condition_380_mV",
+        "validation_status": "pending",
+        "value": 380,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.105717"
+      }
+    },
+    {
+      "id": "condition_1_5_h",
+      "label": "Condition",
+      "properties": {
+        "unit": "ч",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "condition_1_5_h",
+        "validation_status": "pending",
+        "value": 1.5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.105720"
+      }
+    },
+    {
+      "id": "condition_125_g_l",
+      "label": "Condition",
+      "properties": {
+        "unit": "г/л",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "condition_125_g_l",
+        "validation_status": "pending",
+        "value": 125,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.105722"
+      }
+    },
+    {
+      "id": "property_yield_ni",
+      "label": "Property",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "name": "извлечение никеля в раствор",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_yield_ni",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105725"
+      }
+    },
+    {
+      "id": "property_yield_fe",
+      "label": "Property",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "name": "извлечение железа в раствор",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_yield_fe",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105728"
+      }
+    },
+    {
+      "id": "property_yield_co",
+      "label": "Property",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "name": "извлечение кобальта в раствор",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_yield_co",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105730"
+      }
+    },
+    {
+      "id": "property_yield_cu",
+      "label": "Property",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "name": "извлечение меди в раствор",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_yield_cu",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105732"
+      }
+    },
+    {
+      "id": "property_oxidation_reduction_potential",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "ОВП",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_oxidation_reduction_potential",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105735"
+      }
+    },
+    {
+      "id": "property_chloride_concentration",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "содержание Cl⁻ в стартовом растворе",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_chloride_concentration",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105740"
+      }
+    },
+    {
+      "id": "металлы спутники платины",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "металлы спутники платины",
+        "type": "металлы",
+        "category": "спутники платины",
+        "ingestion_date": "2026-07-04T16:02:17.105755"
+      }
+    },
+    {
+      "id": "остаток растворения",
+      "label": "Material",
+      "properties": {
+        "origin": "хлорное растворение",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "остаток растворения",
+        "validation_status": "pending",
+        "type": "отход",
+        "ingestion_date": "2026-07-04T16:02:17.105758"
+      }
+    },
+    {
+      "id": "лабораторные испытания",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "лабораторные испытания",
+        "type": "лабораторные исследования",
+        "status": "завершены",
+        "ingestion_date": "2026-07-04T16:02:17.105761"
+      }
+    },
+    {
+      "id": "Институт горного дела",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "Институт горного дела",
+        "validation_status": "pending",
+        "type": "научно-исследовательский институт",
+        "ingestion_date": "2026-07-04T16:02:17.105764"
+      }
+    },
+    {
+      "id": "finding_deep_extraction",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "глубокое извлечение цветных металлов и драгоценных металлов при переработке магнитной фракции хлорным растворением",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_deep_extraction",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105769"
+      }
+    },
+    {
+      "id": "finding_concentrated_residue",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "получение концентрирующего драгоценные металлы остатка после растворения",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_concentrated_residue",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105772"
+      }
+    },
+    {
+      "id": "finding_magnetic_fractions",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "возможность выделения магнитной фракции из измельченного медно-никелевого файнштейна",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_magnetic_fractions",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105774"
+      }
+    },
+    {
+      "id": "finding_minimized_losses",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "исключение потерь металлов спутников платины и серебра с пылями на пирометаллургических переделах",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_minimized_losses",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105776"
+      }
+    },
+    {
+      "id": "finding_optimized_process",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "оптимизация технологии КГМК за счет исключения обжига и восстановления огарка",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_optimized_process",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105779"
+      }
+    },
+    {
+      "id": "кристаллизация",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "кристаллизация",
+        "ingestion_date": "2026-07-04T16:02:17.105784"
+      }
+    },
+    {
+      "id": "кристаллы",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "кристаллы",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105790"
+      }
+    },
+    {
+      "id": "пятна",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "пятна",
+        "ingestion_date": "2026-07-04T16:02:17.105792"
+      }
+    },
+    {
+      "id": "цепочки",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "цепочки",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105795"
+      }
+    },
+    {
+      "id": "ЦМ",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "ЦМ",
+        "ingestion_date": "2026-07-04T16:02:17.105798"
+      }
+    },
+    {
+      "id": "ДМ",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "ДМ",
+        "ingestion_date": "2026-07-04T16:02:17.105800"
+      }
+    },
+    {
+      "id": "Co",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "Co",
+        "ingestion_date": "2026-07-04T16:02:17.105813"
+      }
+    },
+    {
+      "id": "процесс хлорного растворения МФ",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "процесс хлорного растворения МФ",
+        "ingestion_date": "2026-07-04T16:02:17.105823"
+      }
+    },
+    {
+      "id": "методика [3]",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "методика [3]",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105828"
+      }
+    },
+    {
+      "id": "методика [4]",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "методика [4]",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105831"
+      }
+    },
+    {
+      "id": "хлоридный раствор",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "хлоридный раствор",
+        "ingestion_date": "2026-07-04T16:02:17.105833"
+      }
+    },
+    {
+      "id": "хлор",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "хлор",
+        "ingestion_date": "2026-07-04T16:02:17.105836"
+      }
+    },
+    {
+      "id": "электролизер",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "электролизер",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105838"
+      }
+    },
+    {
+      "id": "температура 100оС",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "температура 100оС",
+        "ingestion_date": "2026-07-04T16:02:17.105840"
+      }
+    },
+    {
+      "id": "380-400 мВ",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мВ",
+        "min": 380,
+        "max": 400,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "380-400 мВ",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:17.105848"
+      }
+    },
+    {
+      "id": "430-450 мВ",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мВ",
+        "min": 430,
+        "max": 450,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "430-450 мВ",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:17.105850"
+      }
+    },
+    {
+      "id": "хлорсеребряный электрод сравнения",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "хлорсеребряный электрод сравнения",
+        "ingestion_date": "2026-07-04T16:02:17.105853"
+      }
+    },
+    {
+      "id": "выделение серы элементной",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "выделение серы элементной",
+        "ingestion_date": "2026-07-04T16:02:17.105855"
+      }
+    },
+    {
+      "id": "процесс_окисления",
+      "label": "Process",
+      "properties": {
+        "domain": "металлургия",
+        "confidence": 0.5,
+        "description": "Окислительный процесс с участием ионов меди(II)/Cu(I) как медиаторов",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "процесс_окисления",
+        "ingestion_date": "2026-07-04T16:02:17.105863"
+      }
+    },
+    {
+      "id": "реакция_1",
+      "label": "Process",
+      "properties": {
+        "equation": "Me + Cl2 → Me2+ + 2 Cl-",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "реакция_1",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105865"
+      }
+    },
+    {
+      "id": "реакция_2",
+      "label": "Process",
+      "properties": {
+        "equation": "2Cu++ + Cl2 → 2Cu2+ + 2Cl-",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "реакция_2",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105868"
+      }
+    },
+    {
+      "id": "реакция_3",
+      "label": "Process",
+      "properties": {
+        "equation": "Me + 2Cu2+ → Me2+ + 2Cu+",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "реакция_3",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105870"
+      }
+    },
+    {
+      "id": "реакция_4",
+      "label": "Process",
+      "properties": {
+        "equation": "Cu9S5 + 4Cu2+ → 5CuS + 8Cu+",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "реакция_4",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105872"
+      }
+    },
+    {
+      "id": "реакция_5",
+      "label": "Process",
+      "properties": {
+        "equation": "2Ni3S2 + 6Cu2+ → Ni3S4 + 3Ni2+ + 6Cu+",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "реакция_5",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105874"
+      }
+    },
+    {
+      "id": "реакция_6",
+      "label": "Process",
+      "properties": {
+        "equation": "(Fe,Ni)9S8 + 24Cu2+ → 2FeNi2S4 + 7Fe2+ + 5Ni2+ + 24Cu+",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "реакция_6",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105877"
+      }
+    },
+    {
+      "id": "Me",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "Me",
+        "type": "металл",
+        "ingestion_date": "2026-07-04T16:02:17.105879"
+      }
+    },
+    {
+      "id": "Cl2",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "Cl2",
+        "validation_status": "pending",
+        "type": "газ",
+        "ingestion_date": "2026-07-04T16:02:17.105882"
+      }
+    },
+    {
+      "id": "Me2+",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "Me2+",
+        "validation_status": "pending",
+        "type": "ион",
+        "ingestion_date": "2026-07-04T16:02:17.105884"
+      }
+    },
+    {
+      "id": "Cl-",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "name": "хлорид-ионы",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "Cl-",
+        "validation_status": "pending",
+        "type": "ион",
+        "ingestion_date": "2026-07-04T16:02:17.105886"
+      }
+    },
+    {
+      "id": "Cu++",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "valence": "2",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "Cu++",
+        "type": "ион",
+        "ingestion_date": "2026-07-04T16:02:17.105889"
+      }
+    },
+    {
+      "id": "Cu2+",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "valence": "2",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "Cu2+",
+        "validation_status": "pending",
+        "type": "ион",
+        "ingestion_date": "2026-07-04T16:02:17.105891"
+      }
+    },
+    {
+      "id": "Cu+",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "valence": "1",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "Cu+",
+        "type": "ион",
+        "ingestion_date": "2026-07-04T16:02:17.105893"
+      }
+    },
+    {
+      "id": "Cu9S5",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "Cu9S5",
+        "type": "сульфид",
+        "ingestion_date": "2026-07-04T16:02:17.105896"
+      }
+    },
+    {
+      "id": "Ni3S2",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "Ni3S2",
+        "type": "сульфид",
+        "ingestion_date": "2026-07-04T16:02:17.105898"
+      }
+    },
+    {
+      "id": "FeNi9S8",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "FeNi9S8",
+        "type": "сульфид",
+        "ingestion_date": "2026-07-04T16:02:17.105901"
+      }
+    },
+    {
+      "id": "FeNi2S4",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "FeNi2S4",
+        "type": "сульфид",
+        "ingestion_date": "2026-07-04T16:02:17.105958"
+      }
+    },
+    {
+      "id": "Fe2+",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "Fe2+",
+        "validation_status": "pending",
+        "type": "ион",
+        "ingestion_date": "2026-07-04T16:02:17.105962"
+      }
+    },
+    {
+      "id": "Ni2+",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "Ni2+",
+        "validation_status": "pending",
+        "type": "ион",
+        "ingestion_date": "2026-07-04T16:02:17.105965"
+      }
+    },
+    {
+      "id": "CuS",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "CuS",
+        "type": "сульфид",
+        "ingestion_date": "2026-07-04T16:02:17.105967"
+      }
+    },
+    {
+      "id": "Cl-исх",
+      "label": "Property",
+      "properties": {
+        "unit": "г/л",
+        "confidence": 0.5,
+        "name": "концентрация хлоридов исходного раствора",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "Cl-исх",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105970"
+      }
+    },
+    {
+      "id": "время_выдержки",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "продолжительность выдержки",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "время_выдержки",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105972"
+      }
+    },
+    {
+      "id": "выход_ОХР_МФ",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "выход окисленного хвоста руды МФ",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "выход_ОХР_МФ",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105975"
+      }
+    },
+    {
+      "id": "извлечение_ЦМ",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "извлечение ценных металлов",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "извлечение_ЦМ",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105977"
+      }
+    },
+    {
+      "id": "извлечение_Fe",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "извлечение железа",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "извлечение_Fe",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.105980"
+      }
+    },
+    {
+      "id": "содержание_меди_в_остатке",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "содержание меди в остатке растворения",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "содержание_меди_в_остатке",
+        "ingestion_date": "2026-07-04T16:02:17.105985"
+      }
+    },
+    {
+      "id": "содержание_железа_в_остатке",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "содержание железа в остатке растворения",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "содержание_железа_в_остатке",
+        "ingestion_date": "2026-07-04T16:02:17.105987"
+      }
+    },
+    {
+      "id": "meas_овп_380_400",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мВ",
+        "min": 380,
+        "max": 400,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_овп_380_400",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:17.105990"
+      }
+    },
+    {
+      "id": "meas_овп_450",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мВ",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "meas_овп_450",
+        "validation_status": "pending",
+        "value": 450,
+        "ingestion_date": "2026-07-04T16:02:17.105993"
+      }
+    },
+    {
+      "id": "meas_cl_150",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "г/л",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_cl_150",
+        "value": 150000.0,
+        "ingestion_date": "2026-07-04T16:02:17.105995"
+      }
+    },
+    {
+      "id": "finding_снижение_выхода_ОХР",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Сокращение выхода ОХР МФ при увеличении ОВП с 380-400 до 450 мВ",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "finding_снижение_выхода_ОХР",
+        "ingestion_date": "2026-07-04T16:02:17.105998"
+      }
+    },
+    {
+      "id": "finding_рост_извлечения_металлов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Рост извлечения в раствор ЦМ и Fe при увеличении ОВП",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "finding_рост_извлечения_металлов",
+        "ingestion_date": "2026-07-04T16:02:17.106001"
+      }
+    },
+    {
+      "id": "finding_повышение_серы",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Повышение содержания общей серы в растворе при увеличении ОВП",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "finding_повышение_серы",
+        "ingestion_date": "2026-07-04T16:02:17.106004"
+      }
+    },
+    {
+      "id": "finding_снижение_меди_в_остатке",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Снижение содержания меди в остатке растворения при увеличении ОВП",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "finding_снижение_меди_в_остатке",
+        "ingestion_date": "2026-07-04T16:02:17.106006"
+      }
+    },
+    {
+      "id": "хлорное растворение МФ",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "хлорное растворение МФ",
+        "ingestion_date": "2026-07-04T16:02:17.106009"
+      }
+    },
+    {
+      "id": "медеочистка",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "медеочистка",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106012"
+      }
+    },
+    {
+      "id": "meas_sulf_20",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 20,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_sulf_20",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:02:17.106017"
+      }
+    },
+    {
+      "id": "meas_ox_red_pot_100",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мВ",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_ox_red_pot_100",
+        "value": 100,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.106020"
+      }
+    },
+    {
+      "id": "finding_pt_pd_ir_au_enriched",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Повышенное извлечение Pt, Pd, Ir и Au наблюдается в классах крупности более 45 мкм",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_pt_pd_ir_au_enriched",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106023"
+      }
+    },
+    {
+      "id": "finding_rh_ru_enriched",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Rh и Ru заметно обогащены в классах крупности более 71 мкм совместно с металлизированными фазами Ni и Co",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_rh_ru_enriched",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106026"
+      }
+    },
+    {
+      "id": "finding_pt_pd_ir_au_cemented",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Извлечение ДМ в цементную медь на этапе медеочистки",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_pt_pd_ir_au_cemented",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106028"
+      }
+    },
+    {
+      "id": "finding_process_feasible",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Возможность переработки магнитной фракции файнштейна с вариантными содержаниями серы методом хлорного растворения с глубоким извлечением цветных металлов в раствор и получением концентрирующего драгоценные металлы остатка",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_process_feasible",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106048"
+      }
+    },
+    {
+      "id": "meas_ox_red_pot_450",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мВ",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_ox_red_pot_450",
+        "value": 450,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.106054"
+      }
+    },
+    {
+      "id": "meas_cl_minus_240",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "г/л",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_cl_minus_240",
+        "value": 240000.0,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.106057"
+      }
+    },
+    {
+      "id": "meas_duration_1.5",
+      "label": "Measurement",
+      "properties": {
+        "unit": "ч",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_duration_1.5",
+        "value": 1.5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.106060"
+      }
+    },
+    {
+      "id": "meas_yield_oxh_mf_12.3",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_yield_oxh_mf_12.3",
+        "value": 12.3,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.106062"
+      }
+    },
+    {
+      "id": "meas_total_s_65.8",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_total_s_65.8",
+        "value": 65.8,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.106065"
+      }
+    },
+    {
+      "id": "meas_recovery_ni_97.6",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_recovery_ni_97.6",
+        "value": 97.6,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.106067"
+      }
+    },
+    {
+      "id": "meas_recovery_fe_96.1",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_recovery_fe_96.1",
+        "value": 96.1,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.106070"
+      }
+    },
+    {
+      "id": "meas_recovery_co_86.4",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_recovery_co_86.4",
+        "value": 86.4,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.106072"
+      }
+    },
+    {
+      "id": "meas_recovery_cu_90.2",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_recovery_cu_90.2",
+        "value": 90.2,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.106075"
+      }
+    },
+    {
+      "id": "property_ox_red_pot",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "ОВП",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_ox_red_pot",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106077"
+      }
+    },
+    {
+      "id": "property_cl_minus",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "содержание Cl-",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "property_cl_minus",
+        "ingestion_date": "2026-07-04T16:02:17.106080"
+      }
+    },
+    {
+      "id": "property_duration",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "продолжительность",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_duration",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106082"
+      }
+    },
+    {
+      "id": "property_yield_oxh_mf",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "выход ОХВ МФ",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_yield_oxh_mf",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106085"
+      }
+    },
+    {
+      "id": "property_total_s",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "содержание серы общей",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_total_s",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106087"
+      }
+    },
+    {
+      "id": "property_recovery_ni",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "извлечение никеля в раствор",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_recovery_ni",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106089"
+      }
+    },
+    {
+      "id": "property_recovery_fe",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "извлечение железа в раствор",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_recovery_fe",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106091"
+      }
+    },
+    {
+      "id": "property_recovery_co",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "извлечение кобальта в раствор",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_recovery_co",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106094"
+      }
+    },
+    {
+      "id": "property_recovery_cu",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "извлечение меди в раствор",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_recovery_cu",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106096"
+      }
+    },
+    {
+      "id": "finding_phase_transformation",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "При хлорировании происходит трансформация фаз: Ni3Fe → Ni3S4, Fe3O4 → FeNi2S4, (Fe,Ni)9S8 → Cu9S5, CuS, NiS",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_phase_transformation",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106099"
+      }
+    },
+    {
+      "id": "property_phase_transformation",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "фазовые превращения сульфидных фаз",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_phase_transformation",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106101"
+      }
+    },
+    {
+      "id": "reaction_7",
+      "label": "Process",
+      "properties": {
+        "equation": "NiS + 2Cu2+ → Ni2+ + S + 2Cu+",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "reaction_7",
+        "ingestion_date": "2026-07-04T16:02:17.106104"
+      }
+    },
+    {
+      "id": "reaction_8",
+      "label": "Process",
+      "properties": {
+        "equation": "CuS + 2Cu2+ → Cu2+ + S + 2Cu+",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "reaction_8",
+        "ingestion_date": "2026-07-04T16:02:17.106106"
+      }
+    },
+    {
+      "id": "table_4",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "table_4",
+        "validation_status": "pending",
+        "title": "Влияние ОВП, продолжительности и содержания Cl- в стартовом растворе на показатели ХР МФ",
+        "ingestion_date": "2026-07-04T16:02:17.106109"
+      }
+    },
+    {
+      "id": "table_5",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "table_5",
+        "validation_status": "pending",
+        "title": "Изменение фазового состава проб ОХР МФ при увеличении ОВП ХВ",
+        "ingestion_date": "2026-07-04T16:02:17.106112"
+      }
+    },
+    {
+      "id": "figure_5",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "figure_5",
+        "validation_status": "pending",
+        "title": "График зависимости извлечения металлов от ОВП",
+        "ingestion_date": "2026-07-04T16:02:17.106114"
+      }
+    },
+    {
+      "id": "publication_report",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "publication_report",
+        "validation_status": "pending",
+        "title": "Исследование хлорного растворения медно-сульфидных флотоконцентратов",
+        "ingestion_date": "2026-07-04T16:02:17.106117"
+      }
+    },
+    {
+      "id": "process_hydrochloric_leaching",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "name": "хлорное растворение металлизированной фазы",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "process_hydrochloric_leaching",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106121"
+      }
+    },
+    {
+      "id": "property_Pd_leaching",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "извлечение палладия в раствор",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_Pd_leaching",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106124"
+      }
+    },
+    {
+      "id": "property_Pt_leaching",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "извлечение платины в раствор",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_Pt_leaching",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106126"
+      }
+    },
+    {
+      "id": "property_Au_leaching",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "извлечение золота в раствор",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_Au_leaching",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106128"
+      }
+    },
+    {
+      "id": "property_Rh_leaching",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "извлечение родия в раствор",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_Rh_leaching",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106131"
+      }
+    },
+    {
+      "id": "property_Ru_leaching",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "извлечение рутения в раствор",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_Ru_leaching",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106133"
+      }
+    },
+    {
+      "id": "property_Ag_leaching",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "извлечение серебра в раствор",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_Ag_leaching",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106135"
+      }
+    },
+    {
+      "id": "property_Ir_leaching",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "извлечение иридия в раствор",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "property_Ir_leaching",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106138"
+      }
+    },
+    {
+      "id": "meas_Pd_0_01_to_0_10",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 0.01,
+        "max": 0.1,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_Pd_0_01_to_0_10",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:17.106140"
+      }
+    },
+    {
+      "id": "meas_Pt_0_01_to_0_09",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 0.01,
+        "max": 0.09,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_Pt_0_01_to_0_09",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:17.106142"
+      }
+    },
+    {
+      "id": "meas_Au_0_01_to_0_14",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 0.01,
+        "max": 0.14,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_Au_0_01_to_0_14",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:17.106145"
+      }
+    },
+    {
+      "id": "meas_Rh_0_4_to_6_2",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 0.4,
+        "max": 6.2,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_Rh_0_4_to_6_2",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:17.106147"
+      }
+    },
+    {
+      "id": "meas_Ru_20_4_to_25_6",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 20.4,
+        "max": 25.6,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_Ru_20_4_to_25_6",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:17.106150"
+      }
+    },
+    {
+      "id": "meas_Ag_80",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 80,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_Ag_80",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:02:17.106152"
+      }
+    },
+    {
+      "id": "meas_Ag_90",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 90,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_Ag_90",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:02:17.106154"
+      }
+    },
+    {
+      "id": "condition_OVP_380_to_400_mV",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "ОВП 380-400 мВ",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "condition_OVP_380_to_400_mV",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106157"
+      }
+    },
+    {
+      "id": "condition_time_1_5_hours",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "время 1,5 ч",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "condition_time_1_5_hours",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106159"
+      }
+    },
+    {
+      "id": "condition_S_content_9_2_percent",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "содержание серы 9,2%",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "condition_S_content_9_2_percent",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106161"
+      }
+    },
+    {
+      "id": "condition_S_content_4_2_to_9_2_percent",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "содержание серы 4,2-9,2%",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "condition_S_content_4_2_to_9_2_percent",
+        "ingestion_date": "2026-07-04T16:02:17.106164"
+      }
+    },
+    {
+      "id": "finding_Rh_Ru_extraction_increase",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_Rh_Ru_extraction_increase",
+        "validation_status": "pending",
+        "text": "Извлечение Rh и Ru возрастает при повышении ОВП в первые 1,5 часа растворения",
+        "ingestion_date": "2026-07-04T16:02:17.106166"
+      }
+    },
+    {
+      "id": "finding_Ag_extraction_increase",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_Ag_extraction_increase",
+        "validation_status": "pending",
+        "text": "Извлечение Ag >80% происходит при ОВП 380-400 мВ в первые 1,5 часа; при увеличении времени повышается до >90%",
+        "ingestion_date": "2026-07-04T16:02:17.106169"
+      }
+    },
+    {
+      "id": "finding_Ir_extraction_increase",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_Ir_extraction_increase",
+        "validation_status": "pending",
+        "text": "Извлечение Ir возрастает при увеличении продолжительности хлорного растворения и содержания серы в исходной МФ",
+        "ingestion_date": "2026-07-04T16:02:17.106171"
+      }
+    },
+    {
+      "id": "meas_kinetics_1",
+      "label": "Measurement",
+      "properties": {
+        "unit": "данные",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_kinetics_1",
+        "value": 1,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.106176"
+      }
+    },
+    {
+      "id": "opt_param_OVP",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 0,
+        "max": 100,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "opt_param_OVP",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:17.106179"
+      }
+    },
+    {
+      "id": "opt_param_duration",
+      "label": "Measurement",
+      "properties": {
+        "unit": "ч",
+        "min": 0,
+        "max": 24,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "opt_param_duration",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:17.106181"
+      }
+    },
+    {
+      "id": "finding_yield_decrease",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "при увеличении ОВП, содержании Cl-иона и продолжительности выдержки наблюдается сокращение выхода ОХР МФ",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_yield_decrease",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106184"
+      }
+    },
+    {
+      "id": "finding_leaching_increase",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "при увеличении ОВП, продолжительности хлорного растворения и содержания серы в исходной МФ наблюдается рост извлечения в раствор ЦМ и Fe",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_leaching_increase",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106187"
+      }
+    },
+    {
+      "id": "finding_sulfur_increase",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "при увеличении ОВП, продолжительности хлорного растворения и содержания серы в исходной МФ наблюдается повышение в них содержания общей (сульфидной + элементной) серы",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_sulfur_increase",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106190"
+      }
+    },
+    {
+      "id": "finding_no_effect_on_oxidation",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "изменение содержания серы в МФ, ОВП и продолжительности процесса хлорного растворения не оказывает значимого влияния на степень окисления сульфидной серы МФ до сульфатной",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_no_effect_on_oxidation",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106192"
+      }
+    },
+    {
+      "id": "finding_low_leaching_PdPtAu",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "для Pd, Pt и Au отмечался весьма низкий переход в раствор во всем диапазоне содержания серы в МФ и параметров процесса хлорирования",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_low_leaching_PdPtAu",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106194"
+      }
+    },
+    {
+      "id": "finding_increased_leaching_AgRhRuIr",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "извлечение Ag, Rh, Ru и Ir в раствор возрастает при увеличении ОВП, продолжительности хлорного растворения и содержания серы в исходной МФ",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_increased_leaching_AgRhRuIr",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106197"
+      }
+    },
+    {
+      "id": "finding_precipitation",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "практически все ДМ перешедшие в раствор осаждаются на по",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_precipitation",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106199"
+      }
+    },
+    {
+      "id": "meas_pot_380",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мВ",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_pot_380",
+        "value": 380,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.106201"
+      }
+    },
+    {
+      "id": "meas_pot_400",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мВ",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_pot_400",
+        "value": 400,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.106204"
+      }
+    },
+    {
+      "id": "meas_time_15",
+      "label": "Measurement",
+      "properties": {
+        "unit": "ч",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_time_15",
+        "value": 1.5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.106206"
+      }
+    },
+    {
+      "id": "meas_pot_430",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мВ",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_pot_430",
+        "value": 430,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.106209"
+      }
+    },
+    {
+      "id": "finding_dms_in_matrix",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "основная часть драгоценных металлов представлена в объеме многофазной тонкодисперсной матрицы однородного состава",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_dms_in_matrix",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106216"
+      }
+    },
+    {
+      "id": "finding_palladium_phases",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "выявлены металлические фазы на основе Pd",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_palladium_phases",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106218"
+      }
+    },
+    {
+      "id": "finding_platinum_phases",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "выявлены металлические фазы на основе Pt",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_platinum_phases",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106221"
+      }
+    },
+    {
+      "id": "finding_silver_chloride_inclusions",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "выявлены субмикронные включения хлорида серебра",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_silver_chloride_inclusions",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106224"
+      }
+    },
+    {
+      "id": "finding_extraction_consistent_with_size",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "результаты извлечения ДМ согласуются с распределением по классам крупности и связью с металлизированными фазами Ni и Co",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_extraction_consistent_with_size",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106226"
+      }
+    },
+    {
+      "id": "finding_dms_linked_to_ni_co",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "платиновые металлы преимущественно связаны с фазами Ni и Co",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_dms_linked_to_ni_co",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106228"
+      }
+    },
+    {
+      "id": "class_45_plus",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Класс +45 мкм",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "class_45_plus",
+        "ingestion_date": "2026-07-04T16:02:17.106231"
+      }
+    },
+    {
+      "id": "class_45",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "класс粒度",
+        "description": "класс +45 и -45 мкм",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "class_45",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106234"
+      }
+    },
+    {
+      "id": "fig_2",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "fig_2",
+        "title": "Общий вид и строение пробы МФ (проба 1, S-3,4%), расклассифицированной на 4 класса: +100, –100+71, –71+45 и –45 мкм",
+        "ingestion_date": "2026-07-04T16:02:17.106236"
+      }
+    },
+    {
+      "id": "fig_3",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "fig_3",
+        "title": "Общий вид и строение пробы МФ проба 7, S-13,5%, представленной 2 классами: +45 и –45 мкм",
+        "ingestion_date": "2026-07-04T16:02:17.106239"
+      }
+    },
+    {
+      "id": "meas_size_45",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мкм",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_size_45",
+        "value": 45,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.106244"
+      }
+    },
+    {
+      "id": "магнетит Fe3O4",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "магнетит Fe3O4",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106247"
+      }
+    },
+    {
+      "id": "полидимит Ni3S4",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "полидимит Ni3S4",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106251"
+      }
+    },
+    {
+      "id": "виоларит FeNi2S4",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "виоларит FeNi2S4",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106254"
+      }
+    },
+    {
+      "id": "кварц SiO2",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "кварц SiO2",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106256"
+      }
+    },
+    {
+      "id": "ХВ",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "name": "хлорное растворение",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "ХВ",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106259"
+      }
+    },
+    {
+      "id": "ОВП, мВ",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "ОВП",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "ОВП, мВ",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106261"
+      }
+    },
+    {
+      "id": "τ-1,5 ч",
+      "label": "Condition",
+      "properties": {
+        "unit": "ч",
+        "confidence": 0.5,
+        "name": "время, первая стадия",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "τ-1,5 ч",
+        "validation_status": "pending",
+        "value": 1.5,
+        "ingestion_date": "2026-07-04T16:02:17.106265"
+      }
+    },
+    {
+      "id": "τ-2 ч",
+      "label": "Condition",
+      "properties": {
+        "unit": "ч",
+        "confidence": 0.5,
+        "name": "время, вторая стадия",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "τ-2 ч",
+        "validation_status": "pending",
+        "value": 2,
+        "ingestion_date": "2026-07-04T16:02:17.106267"
+      }
+    },
+    {
+      "id": "извлечение в раствор ЦМ, Fe, S",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "извлечение в раствор ЦМ, Fe, S",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "извлечение в раствор ЦМ, Fe, S",
+        "ingestion_date": "2026-07-04T16:02:17.106269"
+      }
+    },
+    {
+      "id": "выход ОХР МФ",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "выход ОХР МФ",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "выход ОХР МФ",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106272"
+      }
+    },
+    {
+      "id": "содержание S в МФ",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "содержание серы в МФ",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "содержание S в МФ",
+        "ingestion_date": "2026-07-04T16:02:17.106275"
+      }
+    },
+    {
+      "id": "перевод сульфидной серы в сульфатную",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "description": "доля переведенной в сульфатную форму серы сульфидов колебалась неравномерно от 2 до 12 %",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "перевод сульфидной серы в сульфатную",
+        "ingestion_date": "2026-07-04T16:02:17.106279"
+      }
+    },
+    {
+      "id": "finding_sulf_2_to_12",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "доля переведенной в сульфатную форму серы сульфидов колебалась неравномерно от 2 до 12 %",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_sulf_2_to_12",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106282"
+      }
+    },
+    {
+      "id": "meas_sulf_2_to_12",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 2,
+        "max": 12,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_sulf_2_to_12",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:17.106284"
+      }
+    },
+    {
+      "id": "finding_sulf_oxidation",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Доля переведенной в сульфатную форму серы сульфидов колебалась неравномерно от 2 до 12 %, такой же разброс наблюдался и в параллельных опытах. Изменение содержания серы в МФ, ОВП и продолжительности процесса хлорного растворения не оказывает значимого влияния на степень окисления сульфидной серы МФ до сульфатной.",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_sulf_oxidation",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106287"
+      }
+    },
+    {
+      "id": "Rh, Ru",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Извлечение Rh, Ru",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "Rh, Ru",
+        "ingestion_date": "2026-07-04T16:02:17.106291"
+      }
+    },
+    {
+      "id": "Pt, Pd, Rh, Ru, Ir",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Извлечение Pt, Pd, Rh, Ru, Ir",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "Pt, Pd, Rh, Ru, Ir",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106294"
+      }
+    },
+    {
+      "id": "Ni, Co, Pd, Pt, Ir",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Извлечение Ni, Co, Pd, Pt, Ir",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "Ni, Co, Pd, Pt, Ir",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106296"
+      }
+    },
+    {
+      "id": "Ni, Co, Cu, Au, Ag",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Извлечение Ni, Co, Cu, Au, Ag",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "Ni, Co, Cu, Au, Ag",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106298"
+      }
+    },
+    {
+      "id": "Cu, Ag",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Извлечение Cu, Ag",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "Cu, Ag",
+        "ingestion_date": "2026-07-04T16:02:17.106301"
+      }
+    },
+    {
+      "id": "Fe, S",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Извлечение Fe, S",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "Fe, S",
+        "ingestion_date": "2026-07-04T16:02:17.106303"
+      }
+    },
+    {
+      "id": "Sмф %",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Содержание серы в МФ",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "Sмф %",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106308"
+      }
+    },
+    {
+      "id": "Cl-. г/л",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Концентрация Cl⁻ исходная",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "Cl-. г/л",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106310"
+      }
+    },
+    {
+      "id": "τ, ч",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Продолжительность хлорирования",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "τ, ч",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106312"
+      }
+    },
+    {
+      "id": "ОХВ МФ",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Оксидно-хлоридное выщелачивание МФ",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "ОХВ МФ",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106315"
+      }
+    },
+    {
+      "id": "meas_extraction_Rh_Ru_77",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 77,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_extraction_Rh_Ru_77",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:02:17.106318"
+      }
+    },
+    {
+      "id": "meas_extraction_Rh_Ru_67",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 67,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_extraction_Rh_Ru_67",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:02:17.106320"
+      }
+    },
+    {
+      "id": "meas_extraction_Pt_Pd_Rh_Ru_Ir_94_7",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 94.7,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_extraction_Pt_Pd_Rh_Ru_Ir_94_7",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:02:17.106323"
+      }
+    },
+    {
+      "id": "meas_extraction_Pt_Pd_Rh_Ru_Ir_90_1",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 90.1,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_extraction_Pt_Pd_Rh_Ru_Ir_90_1",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:02:17.106325"
+      }
+    },
+    {
+      "id": "meas_extraction_Ni_Co_Pd_Pt_Ir_60",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 60,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_extraction_Ni_Co_Pd_Pt_Ir_60",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:02:17.106328"
+      }
+    },
+    {
+      "id": "meas_extraction_Ni_Co_Pd_Pt_Ir_23",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 23,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_extraction_Ni_Co_Pd_Pt_Ir_23",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:02:17.106330"
+      }
+    },
+    {
+      "id": "meas_extraction_Ni_Co_Cu_Au_Ag_83_9",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 83.9,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_extraction_Ni_Co_Cu_Au_Ag_83_9",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:02:17.106332"
+      }
+    },
+    {
+      "id": "meas_extraction_Ni_Co_Cu_Au_Ag_78_9",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 78.9,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_extraction_Ni_Co_Cu_Au_Ag_78_9",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:02:17.106335"
+      }
+    },
+    {
+      "id": "meas_extraction_Cu_Ag_64",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 64,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_extraction_Cu_Ag_64",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:02:17.106337"
+      }
+    },
+    {
+      "id": "meas_extraction_Cu_Ag_49",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 49,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_extraction_Cu_Ag_49",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:02:17.106339"
+      }
+    },
+    {
+      "id": "meas_extraction_Fe_S_75",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 75,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_extraction_Fe_S_75",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:02:17.106342"
+      }
+    },
+    {
+      "id": "meas_extraction_Fe_S_71_4",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 71.4,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_extraction_Fe_S_71_4",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:02:17.106344"
+      }
+    },
+    {
+      "id": "meas_extraction_Au_58",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 58,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_extraction_Au_58",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:02:17.106346"
+      }
+    },
+    {
+      "id": "meas_extraction_Au_50",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 50,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_extraction_Au_50",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:02:17.106349"
+      }
+    },
+    {
+      "id": "meas_extraction_Fe_50",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 50,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_extraction_Fe_50",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:02:17.106351"
+      }
+    },
+    {
+      "id": "meas_extraction_Fe_40",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 40,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_extraction_Fe_40",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:02:17.106354"
+      }
+    },
+    {
+      "id": "meas_S_MF_12_6",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 12.6,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_S_MF_12_6",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:02:17.106357"
+      }
+    },
+    {
+      "id": "meas_S_MF_3_4",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 3.4,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_S_MF_3_4",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:02:17.106359"
+      }
+    },
+    {
+      "id": "meas_S_MF_13_5",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "meas_S_MF_13_5",
+        "validation_status": "pending",
+        "value": 13.5,
+        "ingestion_date": "2026-07-04T16:02:17.106362"
+      }
+    },
+    {
+      "id": "meas_Cl_initial_125",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "г/л",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_Cl_initial_125",
+        "value": 125000.0,
+        "ingestion_date": "2026-07-04T16:02:17.106364"
+      }
+    },
+    {
+      "id": "meas_time_chlorination_1_5",
+      "label": "Measurement",
+      "properties": {
+        "unit": "ч",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "meas_time_chlorination_1_5",
+        "validation_status": "pending",
+        "value": 1.5,
+        "ingestion_date": "2026-07-04T16:02:17.106366"
+      }
+    },
+    {
+      "id": "meas_potential_380",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мВ",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "meas_potential_380",
+        "validation_status": "pending",
+        "value": 380,
+        "ingestion_date": "2026-07-04T16:02:17.106369"
+      }
+    },
+    {
+      "id": "finding_oxidation_products",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "В ОХВ МФ обнаружены полидимит Ni3S4, виоларит FeNi2S4, ковеллин CuS, миллерит NiS, кварц SiO2, магнетит Fe3O4",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_oxidation_products",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106372"
+      }
+    },
+    {
+      "id": "finding_phase_composition_MF",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Фазовый состав МФ: Ni3Fe аваруит, Ni3S2 хизлевудит, Cu, магнетит Fe3O4, пентландит (Fe,Ni)9S8, дигенит Cu9S5",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_phase_composition_MF",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106374"
+      }
+    },
+    {
+      "id": "finding_dependency_extraction_on_S",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Выход, содержание ЦМ, Fe и S в ОХР МФ, а также извлечение в раствор зависят от содержания серы в МФ",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_dependency_extraction_on_S",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106377"
+      }
+    },
+    {
+      "id": "Property_S_MF",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Содержание S в МФ",
+        "description": "Содержание серы в медно-никелевом флотационном концентрате",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "Property_S_MF",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106384"
+      }
+    },
+    {
+      "id": "Property_tau_HV",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "τ ХВ МФ",
+        "description": "Время выдержки медно-никелевого флотационного концентрата",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "Property_tau_HV",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106387"
+      }
+    },
+    {
+      "id": "Property_Cl",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Cl-исх",
+        "description": "Концентрация хлоридов в исходной суспензии",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "Property_Cl",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106389"
+      }
+    },
+    {
+      "id": "meas_OVP_380_400",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мВ",
+        "min": 380,
+        "max": 400,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_OVP_380_400",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:02:17.106391"
+      }
+    },
+    {
+      "id": "meas_OVP_430",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мВ",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "meas_OVP_430",
+        "validation_status": "pending",
+        "value": 430,
+        "ingestion_date": "2026-07-04T16:02:17.106394"
+      }
+    },
+    {
+      "id": "meas_OVP_450",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мВ",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "meas_OVP_450",
+        "validation_status": "pending",
+        "value": 450,
+        "ingestion_date": "2026-07-04T16:02:17.106396"
+      }
+    },
+    {
+      "id": "meas_S_MF_9_2",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "meas_S_MF_9_2",
+        "validation_status": "pending",
+        "value": 9.2,
+        "ingestion_date": "2026-07-04T16:02:17.106399"
+      }
+    },
+    {
+      "id": "meas_tau_HV_1_5",
+      "label": "Measurement",
+      "properties": {
+        "unit": "ч",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "meas_tau_HV_1_5",
+        "validation_status": "pending",
+        "value": 1.5,
+        "ingestion_date": "2026-07-04T16:02:17.106401"
+      }
+    },
+    {
+      "id": "meas_Cl_240",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "г/л",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_Cl_240",
+        "value": 240000.0,
+        "ingestion_date": "2026-07-04T16:02:17.106403"
+      }
+    },
+    {
+      "id": "finding_phase_composition_380_400",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Фазовый состав ОХР МФ при ОВП 380-400 мВ: полидимит Ni3S4; виоларит FeNi2S4; ковеллин CuS; миллерит NiS; кварц SiO2; магнетит Fe3O4",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_phase_composition_380_400",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106406"
+      }
+    },
+    {
+      "id": "finding_phase_composition_430",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Фазовый состав ОХР МФ при ОВП 430 мВ: сера элементная S; полидимит Ni3S4; виоларит FeNi2S4; ковеллин CuS; кварц SiO2; магнетит Fe3O4",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_phase_composition_430",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106408"
+      }
+    },
+    {
+      "id": "finding_phase_composition_450",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Фазовый состав ОХР МФ при ОВП 450 мВ: сера элементная S; полидимит Ni3S4; виоларит FeNi2S4; кварц SiO2; магнетит Fe3O4",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_phase_composition_450",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106410"
+      }
+    },
+    {
+      "id": "finding_extraction_yield_380_400",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Извлечение ЦМ, Fe, S в раствор при ОВП 380-400 мВ: ЦМ – 72,5%; Fe – 98,7%; S – 92,9%; выход ОХР МФ – 93,5%",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_extraction_yield_380_400",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106413"
+      }
+    },
+    {
+      "id": "finding_extraction_yield_430",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Извлечение ЦМ, Fe, S в раствор при ОВП 430 мВ: ЦМ – 77,7%; Fe – 99,0%; S – 95,0%; выход ОХР МФ – 97,9%",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_extraction_yield_430",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106415"
+      }
+    },
+    {
+      "id": "finding_extraction_yield_450",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Извлечение ЦМ, Fe, S в раствор при ОВП 450 мВ: ЦМ – 85,2%; Fe – 98,8%; S – 86,7%; выход ОХР МФ – 98,6%",
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "id": "finding_extraction_yield_450",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:02:17.106417"
+      }
+    },
+    {
+      "id": "meas_ni_98",
+      "label": "Revision",
+      "properties": {
+        "superseded_at": "2026-07-04T16:07:02.776913",
+        "unit": "%",
+        "superseded_by_document": "b16.docx",
+        "max": 98,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_ni_98",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:02:17.105705"
+      }
+    },
+    {
+      "id": "meas_time_1",
+      "label": "Revision",
+      "properties": {
+        "superseded_at": "2026-07-04T16:07:56.121330",
+        "unit": "ч",
+        "superseded_by_document": "b15.docx",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_time_1",
+        "value": 1,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.106211"
+      }
+    },
+    {
+      "id": "meas_time_2",
+      "label": "Revision",
+      "properties": {
+        "superseded_at": "2026-07-04T16:07:56.144345",
+        "unit": "ч",
+        "superseded_by_document": "b15.docx",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "10 Статья по ХВ МФ-2025-14.docx",
+        "validation_status": "pending",
+        "id": "meas_time_2",
+        "value": 2,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:02:17.106213"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Четверкин А.Ю.",
+      "target": "Павлов А.Ю.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Четверкин А.Ю.",
+      "target": "Вергизова Т.В.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Четверкин А.Ю.",
+      "target": "Дубровский В.Л.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "ООО «Институт Гипроникель»",
+      "target": "Четверкин А.Ю.",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "АО «Кольская горно-металлургическая компания»",
+      "target": "Четверкин А.Ю.",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "металлизированная магнитная фракция",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "драгоценные металлы",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "окислительно-восстановительный потенциал",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "длительность процесса",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "концентрация хлорид-иона",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "содержание серы",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "извлечение металлов в раствор",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "металлическая фаза материала",
+      "target": "драгоценные металлы",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "основной переход ДМ в раствор",
+      "type": "SHOWED"
+    },
+    {
+      "source": "основной переход ДМ в раствор",
+      "target": "металлическая фаза материала",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "основной переход ДМ в раствор",
+      "target": "хлорное растворение",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "магнитная фракция файнштейна",
+      "target": "содержание серы",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "содержание серы",
+      "target": "meas_sulf_34",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "содержание серы",
+      "target": "meas_sulf_135",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "содержание серы",
+      "target": "meas_sulf_92",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "содержание серы",
+      "target": "meas_sulf_126",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "магнитная фракция файнштейна",
+      "target": "драгоценные металлы",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "драгоценные металлы",
+      "target": "meas_prec_14",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "драгоценные металлы",
+      "target": "meas_prec_35",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "магнитная фракция файнштейна",
+      "target": "металлическая фаза",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "магнитная фракция файнштейна",
+      "target": "хизлевудит",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "магнитная фракция файнштейна",
+      "target": "шпинельная фаза",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "магнитная фракция файнштейна",
+      "target": "халькозин-борнит",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "магнитная фракция файнштейна",
+      "target": "тенорит",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "магнитная фракция файнштейна",
+      "target": "пентландит",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "магнитная фракция файнштейна",
+      "target": "дигенит",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "хизлевудит",
+      "target": "содержание серы",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "пентландит",
+      "target": "содержание серы",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "дигенит",
+      "target": "содержание серы",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "металлическая фаза",
+      "target": "содержание серы",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "халькозин-борнит",
+      "target": "содержание серы",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "тенорит",
+      "target": "содержание серы",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "магнетит",
+      "target": "содержание серы",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "содержание серы",
+      "target": "src_p3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "драгоценные металлы",
+      "target": "src_p3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "металлическая фаза",
+      "target": "src_p3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хизлевудит",
+      "target": "src_p3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "шпинельная фаза",
+      "target": "src_p3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "халькозин-борнит",
+      "target": "src_p3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "тенорит",
+      "target": "src_p3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "пентландит",
+      "target": "src_p3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "дигенит",
+      "target": "src_p3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "магнетит",
+      "target": "src_p3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "металлическая фаза",
+      "target": "meas_48_50",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "никелевая сульфидная фаза",
+      "target": "meas_30_31",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "медная сульфидная фаза",
+      "target": "meas_10_11",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "магнетит",
+      "target": "meas_8_9",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "металлическая фаза",
+      "target": "фракция_крупнее_45мкм",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "металлическая фаза",
+      "target": "фракция_тоньше_45мкм",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "микроскопические решетчатые структуры",
+      "target": "субмикронные выделения металлической меди",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "магнетит",
+      "target": "окисление файнштейна",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "магнетит",
+      "target": "скопления изометричных кристаллов",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "проба 1",
+      "target": "рисунок 2",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "проба 7",
+      "target": "рисунок 3",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "проба 7",
+      "target": "рисунок 3",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "проба 1",
+      "target": "meas_S_3_4",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "проба 7",
+      "target": "meas_S_13_5",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_48_50",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_30_31",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_10_11",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_8_9",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_S_3_4",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_S_13_5",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "файнштейн",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "остаток",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "обогащение остатка по ДМ",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "переход ДМ в раствор",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "переход серы в раствор",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "лабораторный эксперимент",
+      "target": "хлорное растворение",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "лабораторный эксперимент",
+      "target": "файнштейн",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "лабораторный эксперимент",
+      "target": "МФ",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "лабораторный эксперимент",
+      "target": "содержание серы",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "лабораторный эксперимент",
+      "target": "классы крупности",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "лабораторный эксперимент",
+      "target": "вещественный состав",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "лабораторный эксперимент",
+      "target": "фазовый состав",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "химический анализ",
+      "target": "классы крупности",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "химический анализ",
+      "target": "содержание серы",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "рентгенофазовый анализ",
+      "target": "фазовый состав",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "рентгеноспектральный микроскоп",
+      "target": "вещественный состав",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "рентгеноспектральный микроскоп",
+      "target": "фазовый состав",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "рентгенофазовый анализ",
+      "target": "файнштейн",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "рентгенофазовый анализ",
+      "target": "МФ",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "рентгенофазовый анализ",
+      "target": "классы крупности",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "рентгенофазовый анализ",
+      "target": "содержание серы",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "рентгеноспектральный микроскоп",
+      "target": "файнштейн",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "рентгеноспектральный микроскоп",
+      "target": "МФ",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "рентгеноспектральный микроскоп",
+      "target": "классы крупности",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "лабораторный эксперимент",
+      "target": "ООО «Институт Гипроникель»",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "файнштейн",
+      "target": "ЗФ ГМК «Норильский никель»",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "МФ",
+      "target": "файнштейн",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "ситовый способ",
+      "target": "классы крупности",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "ситовый способ",
+      "target": "МФ",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "ситовый способ",
+      "target": "файнштейн",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_ovp_400",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_ovp_400",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_cl_250",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_cl_250",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_cl_125",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_cl_125",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "finding_sulfur_release",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_sulfur_release",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_ni_98",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_ni_98",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_fe_98_2",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_fe_98_2",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_co_91_5",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_co_91_5",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_cu_70",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_cu_70",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "finding_mediation",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_mediation",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "condition_380_mV",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "condition_380_mV",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "condition_1_5_h",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "condition_1_5_h",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "condition_125_g_l",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "condition_125_g_l",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "property_oxidation_reduction_potential",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "property_time",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "property_chloride_concentration",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_ni_98",
+      "target": "property_yield_ni",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_fe_98_2",
+      "target": "property_yield_fe",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_co_91_5",
+      "target": "property_yield_co",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_cu_70",
+      "target": "property_yield_cu",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "магнитная фракция",
+      "target": "хлорное растворение",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "магнитная фракция",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "магнитная фракция",
+      "target": "медно-никелевый файнштейн",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "цветные металлы",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "остаток растворения",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "драгоценные металлы",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "цветные металлы",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "серебро",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "металлы спутники платины",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "лабораторные испытания",
+      "target": "хлорное растворение",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "лабораторные испытания",
+      "target": "магнитная фракция",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "лабораторные испытания",
+      "target": "драгоценные металлы",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "лабораторные испытания",
+      "target": "цветные металлы",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "лабораторные испытания",
+      "target": "остаток растворения",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "лабораторные испытания",
+      "target": "драгоценные металлы",
+      "type": "SHOWED"
+    },
+    {
+      "source": "лабораторные испытания",
+      "target": "цветные металлы",
+      "type": "SHOWED"
+    },
+    {
+      "source": "лабораторные испытания",
+      "target": "остаток растворения",
+      "type": "SHOWED"
+    },
+    {
+      "source": "лабораторные испытания",
+      "target": "магнитная фракция",
+      "type": "SHOWED"
+    },
+    {
+      "source": "лабораторные испытания",
+      "target": "хлорное растворение",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "лабораторные испытания",
+      "target": "Институт горного дела",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "лабораторные испытания",
+      "target": "Иванов Иван Иванович",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "лабораторные испытания",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "магнитная фракция",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "драгоценные металлы",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "цветные металлы",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "остаток растворения",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "металлы спутники платины",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "серебро",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "драгоценные металлы",
+      "target": "finding_deep_extraction",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "цветные металлы",
+      "target": "finding_deep_extraction",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "остаток растворения",
+      "target": "finding_concentrated_residue",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "магнитная фракция",
+      "target": "finding_magnetic_fractions",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "finding_magnetic_fractions",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "finding_deep_extraction",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "finding_concentrated_residue",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "finding_minimized_losses",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "драгоценные металлы",
+      "target": "finding_minimized_losses",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "серебро",
+      "target": "finding_minimized_losses",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "металлы спутники платины",
+      "target": "finding_minimized_losses",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "finding_optimized_process",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "магнитная фракция",
+      "target": "finding_optimized_process",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "драгоценные металлы",
+      "target": "finding_optimized_process",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "цветные металлы",
+      "target": "finding_optimized_process",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "остаток растворения",
+      "target": "finding_optimized_process",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "лабораторные испытания",
+      "target": "finding_deep_extraction",
+      "type": "SHOWED"
+    },
+    {
+      "source": "лабораторные испытания",
+      "target": "finding_concentrated_residue",
+      "type": "SHOWED"
+    },
+    {
+      "source": "лабораторные испытания",
+      "target": "finding_magnetic_fractions",
+      "type": "SHOWED"
+    },
+    {
+      "source": "лабораторные испытания",
+      "target": "finding_minimized_losses",
+      "type": "SHOWED"
+    },
+    {
+      "source": "лабораторные испытания",
+      "target": "finding_optimized_process",
+      "type": "SHOWED"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "драгоценные металлы",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "цветные металлы",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "серебро",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "металлы спутники платины",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "остаток растворения",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "магнитная фракция",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "лабораторные испытания",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "Институт горного дела",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "Иванов Иван Иванович",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "драгоценные металлы",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "цветные металлы",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "серебро",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "металлы спутники платины",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "остаток растворения",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "магнитная фракция",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "лабораторные испытания",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "Институт горного дела",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "Иванов Иван Иванович",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "драгоценные металлы",
+      "type": "TAGGED"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "цветные металлы",
+      "type": "TAGGED"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "серебро",
+      "type": "TAGGED"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "металлы спутники платины",
+      "type": "TAGGED"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "остаток растворения",
+      "type": "TAGGED"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "магнитная фракция",
+      "type": "TAGGED"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "лабораторные испытания",
+      "type": "TAGGED"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "Институт горного дела",
+      "type": "TAGGED"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "Иванов Иван Иванович",
+      "type": "TAGGED"
+    },
+    {
+      "source": "магнетит",
+      "target": "кристаллизация",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "магнетит",
+      "target": "сульфиды",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "сульфиды",
+      "target": "кристаллы",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "кристаллы",
+      "target": "пятна",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "кристаллы",
+      "target": "цепочки",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "классы крупности",
+      "target": "ЦМ",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "классы крупности",
+      "target": "ДМ",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "классы крупности",
+      "target": "ДМ",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "классы крупности",
+      "target": "Fe",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "классы крупности",
+      "target": "Fe",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "классы крупности",
+      "target": "Rh",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "классы крупности",
+      "target": "Rh",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "классы крупности",
+      "target": "Ru",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "классы крупности",
+      "target": "Ru",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "классы крупности",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "классы крупности",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "классы крупности",
+      "target": "Co",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "классы крупности",
+      "target": "Co",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "классы крупности",
+      "target": "Pd",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "классы крупности",
+      "target": "Pt",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "классы крупности",
+      "target": "Ir",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "классы крупности",
+      "target": "Ir",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "процесс хлорного растворения МФ",
+      "target": "лабораторные эксперименты",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "процесс хлорного растворения МФ",
+      "target": "методика [3]",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "процесс хлорного растворения МФ",
+      "target": "хлоридный раствор",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "процесс хлорного растворения МФ",
+      "target": "хлор",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "процесс хлорного растворения МФ",
+      "target": "электролизер",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "процесс хлорного растворения МФ",
+      "target": "температура 100оС",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "процесс хлорного растворения МФ",
+      "target": "рН",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "процесс хлорного растворения МФ",
+      "target": "ОВП",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "ОВП",
+      "target": "380-400 мВ",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "ОВП",
+      "target": "430-450 мВ",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "380-400 мВ",
+      "target": "хлорсеребряный электрод сравнения",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "430-450 мВ",
+      "target": "хлорсеребряный электрод сравнения",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "процесс хлорного растворения МФ",
+      "target": "выделение серы элементной",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "таблица 2",
+      "target": "процесс хлорного растворения МФ",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "таблица 2",
+      "target": "лабораторные эксперименты",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "лабораторные эксперименты",
+      "target": "методика [3]",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "лабораторные эксперименты",
+      "target": "методика [4]",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "реакция_1",
+      "target": "Me",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "реакция_1",
+      "target": "Cl2",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "реакция_1",
+      "target": "Me2+",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "реакция_1",
+      "target": "Cl-",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "реакция_2",
+      "target": "Cu++",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "реакция_2",
+      "target": "Cl2",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "реакция_2",
+      "target": "Cu2+",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "реакция_2",
+      "target": "Cl-",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "реакция_3",
+      "target": "Me",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "реакция_3",
+      "target": "Cu2+",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "реакция_3",
+      "target": "Me2+",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "реакция_3",
+      "target": "Cu+",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "реакция_4",
+      "target": "Cu9S5",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "реакция_4",
+      "target": "Cu2+",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "реакция_4",
+      "target": "CuS",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "реакция_4",
+      "target": "Cu+",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "реакция_5",
+      "target": "Ni3S2",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "реакция_5",
+      "target": "Cu2+",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "реакция_5",
+      "target": "Ni2+",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "реакция_5",
+      "target": "Cu+",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "реакция_6",
+      "target": "FeNi9S8",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "реакция_6",
+      "target": "Cu2+",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "реакция_6",
+      "target": "FeNi2S4",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "реакция_6",
+      "target": "Fe2+",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "реакция_6",
+      "target": "Ni2+",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "реакция_6",
+      "target": "Cu+",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "реакция_1",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "реакция_2",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "реакция_3",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "реакция_4",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "реакция_5",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "реакция_6",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "Cu++",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "Cu2+",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "Cl2",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "Me",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "Cu9S5",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "Ni3S2",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "FeNi9S8",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "ОВП",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "Cl-исх",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "время_выдержки",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "выход_ОХР_МФ",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "извлечение_ЦМ",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "извлечение_Fe",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "содержание_серы",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "содержание_меди_в_остатке",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "содержание_железа_в_остатке",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "finding_снижение_выхода_ОХР",
+      "type": "SHOWED"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "finding_рост_извлечения_металлов",
+      "type": "SHOWED"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "finding_повышение_серы",
+      "type": "SHOWED"
+    },
+    {
+      "source": "процесс_окисления",
+      "target": "finding_снижение_меди_в_остатке",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_снижение_выхода_ОХР",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_рост_извлечения_металлов",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_повышение_серы",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_снижение_меди_в_остатке",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_овп_380_400",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_овп_450",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_cl_150",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение МФ",
+      "target": "meas_sulf_20",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_sulf_20",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение МФ",
+      "target": "meas_ox_red_pot_100",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_ox_red_pot_100",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение МФ",
+      "target": "finding_pt_pd_ir_au_enriched",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_pt_pd_ir_au_enriched",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение МФ",
+      "target": "finding_rh_ru_enriched",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_rh_ru_enriched",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "медеочистка",
+      "target": "finding_pt_pd_ir_au_cemented",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_pt_pd_ir_au_cemented",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "лабораторные исследования",
+      "target": "finding_process_feasible",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_process_feasible",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_ox_red_pot_450",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_cl_minus_240",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_duration_1.5",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_yield_oxh_mf_12.3",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_total_s_65.8",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_recovery_ni_97.6",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_recovery_fe_96.1",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_recovery_co_86.4",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_recovery_cu_90.2",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_ox_red_pot_450",
+      "target": "property_ox_red_pot",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_cl_minus_240",
+      "target": "property_cl_minus",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_duration_1.5",
+      "target": "property_duration",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_yield_oxh_mf_12.3",
+      "target": "property_yield_oxh_mf",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_total_s_65.8",
+      "target": "property_total_s",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_recovery_ni_97.6",
+      "target": "property_recovery_ni",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_recovery_fe_96.1",
+      "target": "property_recovery_fe",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_recovery_co_86.4",
+      "target": "property_recovery_co",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_recovery_cu_90.2",
+      "target": "property_recovery_cu",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "finding_phase_transformation",
+      "target": "property_phase_transformation",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "finding_phase_transformation",
+      "target": "reaction_7",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_phase_transformation",
+      "target": "reaction_8",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "table_4",
+      "target": "publication_report",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "table_5",
+      "target": "publication_report",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "figure_5",
+      "target": "publication_report",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "publication_report",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_ox_red_pot_450",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_cl_minus_240",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_duration_1.5",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_yield_oxh_mf_12.3",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_total_s_65.8",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_recovery_ni_97.6",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_recovery_fe_96.1",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_recovery_co_86.4",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_recovery_cu_90.2",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_phase_transformation",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_Pd_0_01_to_0_10",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_Pt_0_01_to_0_09",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_Au_0_01_to_0_14",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_Rh_0_4_to_6_2",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_Ru_20_4_to_25_6",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_Ag_80",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_Ag_90",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_Rh_Ru_extraction_increase",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_Ag_extraction_increase",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_Ir_extraction_increase",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "process_hydrochloric_leaching",
+      "target": "meas_Pd_0_01_to_0_10",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "process_hydrochloric_leaching",
+      "target": "meas_Pt_0_01_to_0_09",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "process_hydrochloric_leaching",
+      "target": "meas_Au_0_01_to_0_14",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "process_hydrochloric_leaching",
+      "target": "meas_Rh_0_4_to_6_2",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "process_hydrochloric_leaching",
+      "target": "meas_Ru_20_4_to_25_6",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "process_hydrochloric_leaching",
+      "target": "meas_Ag_80",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "process_hydrochloric_leaching",
+      "target": "meas_Ag_90",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_Pd_0_01_to_0_10",
+      "target": "property_Pd_leaching",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_Pt_0_01_to_0_09",
+      "target": "property_Pt_leaching",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_Au_0_01_to_0_14",
+      "target": "property_Au_leaching",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_Rh_0_4_to_6_2",
+      "target": "property_Rh_leaching",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_Ru_20_4_to_25_6",
+      "target": "property_Ru_leaching",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_Ag_80",
+      "target": "property_Ag_leaching",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_Ag_90",
+      "target": "property_Ag_leaching",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "process_hydrochloric_leaching",
+      "target": "condition_OVP_380_to_400_mV",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "process_hydrochloric_leaching",
+      "target": "condition_time_1_5_hours",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "process_hydrochloric_leaching",
+      "target": "condition_S_content_9_2_percent",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "process_hydrochloric_leaching",
+      "target": "condition_S_content_4_2_to_9_2_percent",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "finding_Rh_Ru_extraction_increase",
+      "target": "property_Rh_leaching",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_Rh_Ru_extraction_increase",
+      "target": "property_Ru_leaching",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_Ag_extraction_increase",
+      "target": "property_Ag_leaching",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_Ir_extraction_increase",
+      "target": "property_Ir_leaching",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_kinetics_1",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_kinetics_1",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "opt_param_OVP",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "opt_param_OVP",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "opt_param_duration",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "opt_param_duration",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "finding_yield_decrease",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_yield_decrease",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "finding_leaching_increase",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_leaching_increase",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "finding_sulfur_increase",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_sulfur_increase",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "finding_no_effect_on_oxidation",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_no_effect_on_oxidation",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "драгоценные металлы",
+      "target": "finding_low_leaching_PdPtAu",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_low_leaching_PdPtAu",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "драгоценные металлы",
+      "target": "finding_increased_leaching_AgRhRuIr",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_increased_leaching_AgRhRuIr",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "finding_precipitation",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_precipitation",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_sulf_92",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_sulf_92",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_pot_380",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "meas_pot_380",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_pot_400",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "meas_pot_400",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_time_15",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "meas_time_15",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_pot_430",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "meas_pot_430",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_time_1",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "meas_time_1",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "meas_time_2",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "meas_time_2",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "finding_dms_in_matrix",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_dms_in_matrix",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_dms_in_matrix",
+      "target": "finding_palladium_phases",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_dms_in_matrix",
+      "target": "finding_platinum_phases",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_dms_in_matrix",
+      "target": "finding_silver_chloride_inclusions",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_palladium_phases",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_platinum_phases",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_silver_chloride_inclusions",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "хлорное растворение",
+      "target": "finding_extraction_consistent_with_size",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_extraction_consistent_with_size",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_extraction_consistent_with_size",
+      "target": "finding_dms_linked_to_ni_co",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_dms_linked_to_ni_co",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_S_3_4",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_S_13_5",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "class_45_plus",
+      "target": "meas_S_13_5",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "class_45",
+      "target": "meas_S_13_5",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "class_45_plus",
+      "target": "meas_S_3_4",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "class_45",
+      "target": "meas_S_3_4",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "fig_2",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "fig_3",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "проба 7",
+      "target": "meas_size_45",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_size_45",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "проба 7",
+      "target": "class_45",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "class_45",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "магнетит Fe3O4",
+      "target": "S",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "полидимит Ni3S4",
+      "target": "S",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "виоларит FeNi2S4",
+      "target": "S",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "кварц SiO2",
+      "target": "S",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "ХВ",
+      "target": "ОВП, мВ",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "ХВ",
+      "target": "Cl-",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "ХВ",
+      "target": "τ-1,5 ч",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "ХВ",
+      "target": "τ-2 ч",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "ХВ",
+      "target": "извлечение в раствор ЦМ, Fe, S",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "ХВ",
+      "target": "выход ОХР МФ",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "ХВ",
+      "target": "содержание S в МФ",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "ХВ",
+      "target": "ОВП, мВ",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "ХВ",
+      "target": "продолжительность процесса",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "finding_sulf_2_to_12",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_sulf_2_to_12",
+      "target": "ХВ",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "meas_cl_125",
+      "target": "src_p13",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_cl_250",
+      "target": "src_p13",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_sulf_oxidation",
+      "target": "src_p13",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_sulf_oxidation",
+      "target": "meas_sulf_2_to_12",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_sulf_2_to_12",
+      "target": "src_p13",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Rh, Ru",
+      "target": "meas_extraction_Rh_Ru_77",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_extraction_Rh_Ru_77",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Rh, Ru",
+      "target": "meas_extraction_Rh_Ru_67",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_extraction_Rh_Ru_67",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Pt, Pd, Rh, Ru, Ir",
+      "target": "meas_extraction_Pt_Pd_Rh_Ru_Ir_94_7",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_extraction_Pt_Pd_Rh_Ru_Ir_94_7",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Pt, Pd, Rh, Ru, Ir",
+      "target": "meas_extraction_Pt_Pd_Rh_Ru_Ir_90_1",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_extraction_Pt_Pd_Rh_Ru_Ir_90_1",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Ni, Co, Pd, Pt, Ir",
+      "target": "meas_extraction_Ni_Co_Pd_Pt_Ir_60",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_extraction_Ni_Co_Pd_Pt_Ir_60",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Ni, Co, Pd, Pt, Ir",
+      "target": "meas_extraction_Ni_Co_Pd_Pt_Ir_23",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_extraction_Ni_Co_Pd_Pt_Ir_23",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Ni, Co, Cu, Au, Ag",
+      "target": "meas_extraction_Ni_Co_Cu_Au_Ag_83_9",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_extraction_Ni_Co_Cu_Au_Ag_83_9",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Ni, Co, Cu, Au, Ag",
+      "target": "meas_extraction_Ni_Co_Cu_Au_Ag_78_9",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_extraction_Ni_Co_Cu_Au_Ag_78_9",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Cu, Ag",
+      "target": "meas_extraction_Cu_Ag_64",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_extraction_Cu_Ag_64",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Cu, Ag",
+      "target": "meas_extraction_Cu_Ag_49",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_extraction_Cu_Ag_49",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Fe, S",
+      "target": "meas_extraction_Fe_S_75",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_extraction_Fe_S_75",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Fe, S",
+      "target": "meas_extraction_Fe_S_71_4",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_extraction_Fe_S_71_4",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "золото",
+      "target": "meas_extraction_Au_58",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "золото",
+      "target": "meas_extraction_Au_58",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_extraction_Au_58",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "золото",
+      "target": "meas_extraction_Au_50",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "золото",
+      "target": "meas_extraction_Au_50",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_extraction_Au_50",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Fe",
+      "target": "meas_extraction_Fe_50",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Fe",
+      "target": "meas_extraction_Fe_50",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_extraction_Fe_50",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Fe",
+      "target": "meas_extraction_Fe_40",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Fe",
+      "target": "meas_extraction_Fe_40",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_extraction_Fe_40",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Sмф %",
+      "target": "meas_S_MF_12_6",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_S_MF_12_6",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Sмф %",
+      "target": "meas_S_MF_3_4",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_S_MF_3_4",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Sмф %",
+      "target": "meas_S_MF_13_5",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_S_MF_13_5",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Cl-. г/л",
+      "target": "meas_Cl_initial_125",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_Cl_initial_125",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "τ, ч",
+      "target": "meas_time_chlorination_1_5",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_time_chlorination_1_5",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "ОВП, мВ",
+      "target": "meas_potential_380",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_potential_380",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "ОХВ МФ",
+      "target": "finding_phase_transformation",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_phase_transformation",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "ОХВ МФ",
+      "target": "finding_oxidation_products",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_oxidation_products",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "МФ",
+      "target": "finding_phase_composition_MF",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_phase_composition_MF",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Рисунок 4",
+      "target": "finding_dependency_extraction_on_S",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Рисунок 4",
+      "target": "finding_dependency_extraction_on_S",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "finding_dependency_extraction_on_S",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_OVP_380_400",
+      "target": "Property_OVP",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_OVP_430",
+      "target": "Property_OVP",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_OVP_450",
+      "target": "Property_OVP",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_S_MF_9_2",
+      "target": "Property_S_MF",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_tau_HV_1_5",
+      "target": "Property_tau_HV",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_Cl_240",
+      "target": "Property_Cl",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_S_MF_9_2",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_tau_HV_1_5",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_Cl_240",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_OVP_380_400",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_OVP_430",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_OVP_450",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_phase_composition_430",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_phase_composition_450",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_phase_composition_380_400",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_extraction_yield_430",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_extraction_yield_450",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_extraction_yield_380_400",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_extraction_yield_430",
+      "target": "finding_phase_composition_430",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_extraction_yield_450",
+      "target": "finding_phase_composition_450",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_extraction_yield_380_400",
+      "target": "finding_phase_composition_380_400",
+      "type": "SUPPORTS"
+    }
+  ]
+}

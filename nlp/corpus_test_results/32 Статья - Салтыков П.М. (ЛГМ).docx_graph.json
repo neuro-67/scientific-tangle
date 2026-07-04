@@ -1,0 +1,3523 @@
+{
+  "document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+  "nodes": [
+    {
+      "id": "перистальтический насос",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "перистальтический насос",
+        "ingestion_date": "2026-07-04T16:06:33.339842"
+      }
+    },
+    {
+      "id": "эксперимент",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "эксперимент",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.339849"
+      }
+    },
+    {
+      "id": "meas_sulf_300",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "max": 300,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_sulf_300",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:06:33.340079"
+      }
+    },
+    {
+      "id": "рисунок 8",
+      "label": "Source",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "рисунок 8",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.339952",
+        "span": "p.8"
+      }
+    },
+    {
+      "id": "концентрированная серная кислота",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "концентрированная серная кислота",
+        "ingestion_date": "2026-07-04T16:06:33.339806"
+      }
+    },
+    {
+      "id": "рисунок 3",
+      "label": "Source",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "рисунок 3",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.339863",
+        "span": "p.4"
+      }
+    },
+    {
+      "id": "нейтрализация серной кислоты известняком",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "нейтрализация серной кислоты известняком",
+        "ingestion_date": "2026-07-04T16:06:33.339773"
+      }
+    },
+    {
+      "id": "установка по нейтрализации серной кислоты на Надеждинском металлургическом заводе",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "установка по нейтрализации серной кислоты на Надеждинском металлургическом заводе",
+        "ingestion_date": "2026-07-04T16:06:33.339790"
+      }
+    },
+    {
+      "id": "Горно-металлургический комплекс АО «Казцинк»",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Горно-металлургический комплекс АО «Казцинк»",
+        "ingestion_date": "2026-07-04T16:06:33.339794"
+      }
+    },
+    {
+      "id": "Республика Казахстан",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Республика Казахстан",
+        "ingestion_date": "2026-07-04T16:06:33.339798"
+      }
+    },
+    {
+      "id": "каскад из четырех реакторов",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "каскад из четырех реакторов",
+        "ingestion_date": "2026-07-04T16:06:33.339800"
+      }
+    },
+    {
+      "id": "непрерывный режим",
+      "label": "Condition",
+      "properties": {
+        "mode": "непрерывный",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "непрерывный режим",
+        "ingestion_date": "2026-07-04T16:06:33.339803"
+      }
+    },
+    {
+      "id": "известняковая пульпа",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "известняковая пульпа",
+        "ingestion_date": "2026-07-04T16:06:33.339808"
+      }
+    },
+    {
+      "id": "первый реактор каскада",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "первый реактор каскада",
+        "ingestion_date": "2026-07-04T16:06:33.339811"
+      }
+    },
+    {
+      "id": "последний реактор каскада",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "последний реактор каскада",
+        "ingestion_date": "2026-07-04T16:06:33.339813"
+      }
+    },
+    {
+      "id": "фактическая производительность установки – 700 т/сутки (230 тыс. т/год)",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "фактическая производительность установки – 700 т/сутки (230 тыс. т/год)",
+        "ingestion_date": "2026-07-04T16:06:33.339816"
+      }
+    },
+    {
+      "id": "meas_prod_700",
+      "label": "Measurement",
+      "properties": {
+        "unit": "т/сутки",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_prod_700",
+        "value": 700,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:33.339819"
+      }
+    },
+    {
+      "id": "Property_700_t_per_day",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "производительность",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "Property_700_t_per_day",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.339822"
+      }
+    },
+    {
+      "id": "установка непрерывной нейтрализации",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "установка непрерывной нейтрализации",
+        "ingestion_date": "2026-07-04T16:06:33.339828"
+      }
+    },
+    {
+      "id": "реактор",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "реактор",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.339831"
+      }
+    },
+    {
+      "id": "перемешивание",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "перемешивание",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.339834"
+      }
+    },
+    {
+      "id": "мешалка – турбина открытого типа",
+      "label": "Equipment",
+      "properties": {
+        "unit": "см",
+        "diameter": 5,
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "мешалка – турбина открытого типа",
+        "ingestion_date": "2026-07-04T16:06:33.339837"
+      }
+    },
+    {
+      "id": "подача реагентов",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "подача реагентов",
+        "ingestion_date": "2026-07-04T16:06:33.339839"
+      }
+    },
+    {
+      "id": "контроль температуры",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "контроль температуры",
+        "ingestion_date": "2026-07-04T16:06:33.339844"
+      }
+    },
+    {
+      "id": "контроль рН",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "контроль рН",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.339846"
+      }
+    },
+    {
+      "id": "период вытеснения пульпы",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "период вытеснения пульпы",
+        "ingestion_date": "2026-07-04T16:06:33.339851"
+      }
+    },
+    {
+      "id": "время пребывания пульпы в каскаде реакторов",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "время пребывания пульпы в каскаде реакторов",
+        "ingestion_date": "2026-07-04T16:06:33.339854"
+      }
+    },
+    {
+      "id": "стационарный режим",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "стационарный режим",
+        "ingestion_date": "2026-07-04T16:06:33.339856"
+      }
+    },
+    {
+      "id": "продолжительность эксперимента",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "продолжительность эксперимента",
+        "ingestion_date": "2026-07-04T16:06:33.339858"
+      }
+    },
+    {
+      "id": "отбор пробы пульпы",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "отбор пробы пульпы",
+        "ingestion_date": "2026-07-04T16:06:33.339861"
+      }
+    },
+    {
+      "id": "рисунок 4",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "рисунок 4",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.339866",
+        "span": "p.4"
+      }
+    },
+    {
+      "id": "рисунок 5",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "рисунок 5",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.339868",
+        "span": "p.4"
+      }
+    },
+    {
+      "id": "расход известняка",
+      "label": "Property",
+      "properties": {
+        "unit": "л/час",
+        "confidence": 0.5,
+        "name": "расход известняка",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "расход известняка",
+        "ingestion_date": "2026-07-04T16:06:33.339870"
+      }
+    },
+    {
+      "id": "meas_kg_per_kg_acid",
+      "label": "Measurement",
+      "properties": {
+        "unit": "кг/кг",
+        "min": 1.1,
+        "max": 1.5,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_kg_per_kg_acid",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:06:33.339873"
+      }
+    },
+    {
+      "id": "содержание твердого в пульпе",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "содержание твердого в пульпе",
+        "ingestion_date": "2026-07-04T16:06:33.339876"
+      }
+    },
+    {
+      "id": "meas_solids_conc",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "г/л",
+        "min": 125000.0,
+        "max": 200000.0,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_solids_conc",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:06:33.339878"
+      }
+    },
+    {
+      "id": "meas_stir_speed",
+      "label": "Measurement",
+      "properties": {
+        "unit": "об/мин",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "meas_stir_speed",
+        "validation_status": "pending",
+        "value": 400,
+        "ingestion_date": "2026-07-04T16:06:33.339883"
+      }
+    },
+    {
+      "id": "meas_stir_speed_800",
+      "label": "Measurement",
+      "properties": {
+        "unit": "об/мин",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "meas_stir_speed_800",
+        "validation_status": "pending",
+        "value": 800,
+        "ingestion_date": "2026-07-04T16:06:33.339885"
+      }
+    },
+    {
+      "id": "нейтрализация",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "нейтрализация",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.339888"
+      }
+    },
+    {
+      "id": "meas_acid_flow_028_033",
+      "label": "Measurement",
+      "properties": {
+        "unit": "л/час",
+        "min": 0.28,
+        "max": 0.33,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_acid_flow_028_033",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:06:33.339890"
+      }
+    },
+    {
+      "id": "meas_acid_flow_019_022",
+      "label": "Measurement",
+      "properties": {
+        "unit": "л/час",
+        "min": 0.19,
+        "max": 0.22,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_acid_flow_019_022",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:06:33.339892"
+      }
+    },
+    {
+      "id": "meas_known_lime_ratio_110_150",
+      "label": "Measurement",
+      "properties": {
+        "unit": "кг/кг",
+        "min": 1.1,
+        "max": 1.5,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_known_lime_ratio_110_150",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:06:33.339895"
+      }
+    },
+    {
+      "id": "meas_pulp_solid_125_200",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "г/л",
+        "min": 125000.0,
+        "max": 200000.0,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_pulp_solid_125_200",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:06:33.339897"
+      }
+    },
+    {
+      "id": "meas_stirring_speed_400",
+      "label": "Measurement",
+      "properties": {
+        "unit": "об/мин",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "meas_stirring_speed_400",
+        "validation_status": "pending",
+        "value": 400,
+        "ingestion_date": "2026-07-04T16:06:33.339900"
+      }
+    },
+    {
+      "id": "meas_stirring_speed_800",
+      "label": "Measurement",
+      "properties": {
+        "unit": "об/мин",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "meas_stirring_speed_800",
+        "validation_status": "pending",
+        "value": 800,
+        "ingestion_date": "2026-07-04T16:06:33.339902"
+      }
+    },
+    {
+      "id": "meas_pH_time_35_45",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мин",
+        "min": 35,
+        "max": 45,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_pH_time_35_45",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:06:33.339904"
+      }
+    },
+    {
+      "id": "meas_pH_time_50_60",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мин",
+        "min": 50,
+        "max": 60,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_pH_time_50_60",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:06:33.339906"
+      }
+    },
+    {
+      "id": "meas_pH_time_45_55",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мин",
+        "min": 45,
+        "max": 55,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_pH_time_45_55",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:06:33.339909"
+      }
+    },
+    {
+      "id": "meas_acid_flow_040",
+      "label": "Measurement",
+      "properties": {
+        "unit": "л/час",
+        "min": 0.4,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_acid_flow_040",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:06:33.339911"
+      }
+    },
+    {
+      "id": "meas_pulp_solid_195",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "г/л",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_pulp_solid_195",
+        "value": 195000.0,
+        "ingestion_date": "2026-07-04T16:06:33.339913"
+      }
+    },
+    {
+      "id": "finding_flow_risk_overflow",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "finding_flow_risk_overflow",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.339916"
+      }
+    },
+    {
+      "id": "finding_risk_overflow_first_reactor",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "finding_risk_overflow_first_reactor",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.339918"
+      }
+    },
+    {
+      "id": "нейтрализация серной кислоты пульпой известняка",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "нейтрализация серной кислоты пульпой известняка",
+        "ingestion_date": "2026-07-04T16:06:33.339923"
+      }
+    },
+    {
+      "id": "эксперимент по нейтрализации серной кислоты пульпой известняка в непрерывном режиме на пилотной установке",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "эксперимент по нейтрализации серной кислоты пульпой известняка в непрерывном режиме на пилотной установке",
+        "ingestion_date": "2026-07-04T16:06:33.339926"
+      }
+    },
+    {
+      "id": "пилотная установка",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "пилотная установка",
+        "ingestion_date": "2026-07-04T16:06:33.339928"
+      }
+    },
+    {
+      "id": "реактор каскада",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "реактор каскада",
+        "ingestion_date": "2026-07-04T16:06:33.339931"
+      }
+    },
+    {
+      "id": "турбина открытого типа",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "турбина открытого типа",
+        "ingestion_date": "2026-07-04T16:06:33.339933"
+      }
+    },
+    {
+      "id": "скорость перемешивания пульпы во всех реакторах",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "скорость перемешивания пульпы во всех реакторах",
+        "ingestion_date": "2026-07-04T16:06:33.339935"
+      }
+    },
+    {
+      "id": "700 об/мин",
+      "label": "Measurement",
+      "properties": {
+        "unit": "об/мин",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "700 об/мин",
+        "validation_status": "pending",
+        "value": 700,
+        "ingestion_date": "2026-07-04T16:06:33.339938"
+      }
+    },
+    {
+      "id": "температура пульпы",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "температура пульпы",
+        "ingestion_date": "2026-07-04T16:06:33.339940"
+      }
+    },
+    {
+      "id": "рН пульпы",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "рН пульпы",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.339943"
+      }
+    },
+    {
+      "id": "увеличение времени достижения требуемого значения рН (6,0-6,6) до 45-55 мин",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "увеличение времени достижения требуемого значения рН (6,0-6,6) до 45-55 мин",
+        "ingestion_date": "2026-07-04T16:06:33.339945"
+      }
+    },
+    {
+      "id": "держание твердого 195 г/л",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "держание твердого 195 г/л",
+        "ingestion_date": "2026-07-04T16:06:33.339947"
+      }
+    },
+    {
+      "id": "рисунок 7",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "рисунок 7",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.339950",
+        "span": "p.7"
+      }
+    },
+    {
+      "id": "периодический режим",
+      "label": "Process",
+      "properties": {
+        "mode": "периодический",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "периодический режим",
+        "ingestion_date": "2026-07-04T16:06:33.339955"
+      }
+    },
+    {
+      "id": "формирование более крупного осадка",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "формирование более крупного осадка",
+        "ingestion_date": "2026-07-04T16:06:33.339957"
+      }
+    },
+    {
+      "id": "D50",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "средний размер частиц",
+        "description": "медианный диаметр частиц гипсовых осадков",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "D50",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.339960"
+      }
+    },
+    {
+      "id": "53,8 мкм",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мкм",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "53,8 мкм",
+        "validation_status": "pending",
+        "value": 53.8,
+        "ingestion_date": "2026-07-04T16:06:33.339962"
+      }
+    },
+    {
+      "id": "20,5 мкм",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мкм",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "20,5 мкм",
+        "validation_status": "pending",
+        "value": 20.5,
+        "ingestion_date": "2026-07-04T16:06:33.339965"
+      }
+    },
+    {
+      "id": "таблица 3",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "таблица 3",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.339967",
+        "span": "p.3"
+      }
+    },
+    {
+      "id": "meas_ph_2_3",
+      "label": "Measurement",
+      "properties": {
+        "unit": "рН",
+        "min": 2.3,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_ph_2_3",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:06:33.339969"
+      }
+    },
+    {
+      "id": "meas_ph_2_8",
+      "label": "Measurement",
+      "properties": {
+        "unit": "рН",
+        "max": 2.8,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_ph_2_8",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:06:33.339971"
+      }
+    },
+    {
+      "id": "meas_ph_5_85",
+      "label": "Measurement",
+      "properties": {
+        "unit": "рН",
+        "min": 5.85,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_ph_5_85",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:06:33.339974"
+      }
+    },
+    {
+      "id": "meas_ph_6_04",
+      "label": "Measurement",
+      "properties": {
+        "unit": "рН",
+        "max": 6.04,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_ph_6_04",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:06:33.339976"
+      }
+    },
+    {
+      "id": "meas_ph_6_31",
+      "label": "Measurement",
+      "properties": {
+        "unit": "рН",
+        "min": 6.31,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_ph_6_31",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:06:33.339979"
+      }
+    },
+    {
+      "id": "meas_ph_6_46",
+      "label": "Measurement",
+      "properties": {
+        "unit": "рН",
+        "max": 6.46,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_ph_6_46",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:06:33.339981"
+      }
+    },
+    {
+      "id": "finding_stable_ph",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Стабильный уровень рН пульпы устанавливается через 20-25 мин после начала испытаний и сохраняется в течение всего периода испытаний",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "finding_stable_ph",
+        "ingestion_date": "2026-07-04T16:06:33.339984"
+      }
+    },
+    {
+      "id": "finding_no_foaming",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "При снижении рН в первом реакторе до 1,1 не наблюдалось сильного вспенивания и выброса пульпы",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "finding_no_foaming",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.339986"
+      }
+    },
+    {
+      "id": "объемный расход",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "объемный расход",
+        "ingestion_date": "2026-07-04T16:06:33.339989"
+      }
+    },
+    {
+      "id": "интенсивность перемешивания",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "интенсивность перемешивания",
+        "ingestion_date": "2026-07-04T16:06:33.339991"
+      }
+    },
+    {
+      "id": "стабильность процесса",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "стабильность процесса",
+        "ingestion_date": "2026-07-04T16:06:33.339993"
+      }
+    },
+    {
+      "id": "нейтрализация серной кислоты",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "нейтрализация серной кислоты",
+        "ingestion_date": "2026-07-04T16:06:33.339996"
+      }
+    },
+    {
+      "id": "пилотная установка непрерывной нейтрализации",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "пилотная установка непрерывной нейтрализации",
+        "ingestion_date": "2026-07-04T16:06:33.339998"
+      }
+    },
+    {
+      "id": "пилотные испытания",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "пилотные испытания",
+        "ingestion_date": "2026-07-04T16:06:33.340001"
+      }
+    },
+    {
+      "id": "p.6",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "p.6",
+        "ingestion_date": "2026-07-04T16:06:33.340006",
+        "span": "p.6"
+      }
+    },
+    {
+      "id": "meas_gypsum_d50_53800",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мкм",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_gypsum_d50_53800",
+        "value": 53.8,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:33.340008"
+      }
+    },
+    {
+      "id": "meas_gypsum_d50_20500",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мкм",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_gypsum_d50_20500",
+        "value": 20.5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:33.340011"
+      }
+    },
+    {
+      "id": "property_d50_gypsum",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "средний размер частиц гипса (D50)",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "property_d50_gypsum",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340013"
+      }
+    },
+    {
+      "id": "finding_gypsum_size_increase",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "statement": "Присутствие затравки в непрерывном режиме способствует увеличению крупности частиц гипса",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "finding_gypsum_size_increase",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340015"
+      }
+    },
+    {
+      "id": "finding_sedimentation_improvement",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "statement": "Повышение крупности гипсовых частиц улучшает седиментационные свойства осадка",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "finding_sedimentation_improvement",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340018"
+      }
+    },
+    {
+      "id": "finding_pulp_density_increase",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "statement": "Повышение крупности частиц приводит к увеличению плотности сгущенной гипсовой пульпы с 1,15-1,18 т/м3 до 1,28 т/м3",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "finding_pulp_density_increase",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340021"
+      }
+    },
+    {
+      "id": "finding_continuous_advantage",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "statement": "Непрерывный режим обладает очевидными преимуществами по сравнению с периодическим",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "finding_continuous_advantage",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340023"
+      }
+    },
+    {
+      "id": "expert_budnikov_pp",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Будников П.П.",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "orcid": "",
+        "validation_status": "pending",
+        "id": "expert_budnikov_pp",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T16:06:33.340028"
+      }
+    },
+    {
+      "id": "publication_budnikov_1943",
+      "label": "Publication",
+      "properties": {
+        "pages": 373,
+        "year": 1943,
+        "geography": "RU",
+        "confidence": 0.5,
+        "publisher": "М.: Госстройиздат",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "publication_budnikov_1943",
+        "title": "Гипс, его исследование и применение",
+        "ingestion_date": "2026-07-04T16:06:33.340030"
+      }
+    },
+    {
+      "id": "объем реакторного оборудования",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "объем реакторного оборудования",
+        "ingestion_date": "2026-07-04T16:06:33.340032"
+      }
+    },
+    {
+      "id": "пониженный риск выброса пульпы вследствие образования пены",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "пониженный риск выброса пульпы вследствие образования пены",
+        "ingestion_date": "2026-07-04T16:06:33.340035"
+      }
+    },
+    {
+      "id": "меньшие объёмы реакторного оборудования",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "меньшие объёмы реакторного оборудования",
+        "ingestion_date": "2026-07-04T16:06:33.340037"
+      }
+    },
+    {
+      "id": "отсутствие необходимости обеспечивать интенсивное перемешивание во всех реакторах",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "отсутствие необходимости обеспечивать интенсивное перемешивание во всех реакторах",
+        "ingestion_date": "2026-07-04T16:06:33.340040"
+      }
+    },
+    {
+      "id": "необходимость обеспечивать интенсивное перемешивание во всех реакторах",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "необходимость обеспечивать интенсивное перемешивание во всех реакторах",
+        "ingestion_date": "2026-07-04T16:06:33.340042"
+      }
+    },
+    {
+      "id": "контроль параметров процесса",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "контроль параметров процесса",
+        "ingestion_date": "2026-07-04T16:06:33.340045"
+      }
+    },
+    {
+      "id": "автоматизация управления параметрами",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "автоматизация управления параметрами",
+        "ingestion_date": "2026-07-04T16:06:33.340047"
+      }
+    },
+    {
+      "id": "высокая интенсивность перемешивания пульпы",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "высокая интенсивность перемешивания пульпы",
+        "ingestion_date": "2026-07-04T16:06:33.340050"
+      }
+    },
+    {
+      "id": "первый реактор",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "первый реактор",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340052"
+      }
+    },
+    {
+      "id": "рН 1,1",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "рН 1,1",
+        "value": 1.1,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:33.340055"
+      }
+    },
+    {
+      "id": "отсутствие сильного вспенивания",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "отсутствие сильного вспенивания",
+        "ingestion_date": "2026-07-04T16:06:33.340057"
+      }
+    },
+    {
+      "id": "отсутствие выброса пульпы",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "отсутствие выброса пульпы",
+        "ingestion_date": "2026-07-04T16:06:33.340060"
+      }
+    },
+    {
+      "id": "возобновление подачи пульпы через 5 мин",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "возобновление подачи пульпы через 5 мин",
+        "ingestion_date": "2026-07-04T16:06:33.340062"
+      }
+    },
+    {
+      "id": "стабильный уровень рН во всех реакторах",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "стабильный уровень рН во всех реакторах",
+        "ingestion_date": "2026-07-04T16:06:33.340065"
+      }
+    },
+    {
+      "id": "в течение 10-15 мин",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "в течение 10-15 мин",
+        "ingestion_date": "2026-07-04T16:06:33.340067"
+      }
+    },
+    {
+      "id": "сравнение режимов",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "сравнение режимов",
+        "ingestion_date": "2026-07-04T16:06:33.340072"
+      }
+    },
+    {
+      "id": "загустевание пульпы",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "загустевание пульпы",
+        "ingestion_date": "2026-07-04T16:06:33.340082"
+      }
+    },
+    {
+      "id": "повышение вязкости пульпы",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "повышение вязкости пульпы",
+        "ingestion_date": "2026-07-04T16:06:33.340084"
+      }
+    },
+    {
+      "id": "вспенивание",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "вспенивание",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340086"
+      }
+    },
+    {
+      "id": "снижение скорости реакции нейтрализации",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "снижение скорости реакции нейтрализации",
+        "ingestion_date": "2026-07-04T16:06:33.340089"
+      }
+    },
+    {
+      "id": "увеличение продолжительности процесса",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "увеличение продолжительности процесса",
+        "ingestion_date": "2026-07-04T16:06:33.340091"
+      }
+    },
+    {
+      "id": "эксперименты по нейтрализации в непрерывном режиме",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "эксперименты по нейтрализации в непрерывном режиме",
+        "ingestion_date": "2026-07-04T16:06:33.340094"
+      }
+    },
+    {
+      "id": "Будников П.П.",
+      "label": "Expert",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "Будников П.П.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340098"
+      }
+    },
+    {
+      "id": "Гипс, его исследование и применение.",
+      "label": "Publication",
+      "properties": {
+        "pages": 373,
+        "year": 1943,
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "Гипс, его исследование и применение.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340101"
+      }
+    },
+    {
+      "id": "Гипсовые материалы и изделия (производство и применение). Справочник.",
+      "label": "Publication",
+      "properties": {
+        "pages": 488,
+        "year": 2004,
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "Гипсовые материалы и изделия (производство и применение). Справочник.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340103"
+      }
+    },
+    {
+      "id": "А.В.Ферронская",
+      "label": "Expert",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "А.В.Ферронская",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340106"
+      }
+    },
+    {
+      "id": "Брюкнер Х., Дейлер Е., Фитч Г. и др.",
+      "label": "Expert",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "Брюкнер Х., Дейлер Е., Фитч Г. и др.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340108"
+      }
+    },
+    {
+      "id": "Гипс. Изготовление и применение гипсовых строительных материалов.",
+      "label": "Publication",
+      "properties": {
+        "pages": 223,
+        "year": 1981,
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "Гипс. Изготовление и применение гипсовых строительных материалов.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340111"
+      }
+    },
+    {
+      "id": "Гончаров В.Ф.",
+      "label": "Expert",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "Гончаров В.Ф.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340113"
+      }
+    },
+    {
+      "id": "Jarnerud T, Karasev AV, Jönsson PG.",
+      "label": "Expert",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "Jarnerud T, Karasev AV, Jönsson PG.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340116"
+      }
+    },
+    {
+      "id": "Neutralization of Acidic Wastewater from a Steel Plant by Using CaO-Containing Waste Materials from Pulp and Paper Industries.",
+      "label": "Publication",
+      "properties": {
+        "volume": 14,
+        "journal": "Materials",
+        "pages": 2653,
+        "issue": 10,
+        "year": 2021,
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Neutralization of Acidic Wastewater from a Steel Plant by Using CaO-Containing Waste Materials from Pulp and Paper Industries.",
+        "ingestion_date": "2026-07-04T16:06:33.340118"
+      }
+    },
+    {
+      "id": "Бурьянов А.Ф., Гальцева Н.А., Грунина И.А.",
+      "label": "Expert",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Бурьянов А.Ф., Гальцева Н.А., Грунина И.А.",
+        "ingestion_date": "2026-07-04T16:06:33.340121"
+      }
+    },
+    {
+      "id": "Использование отходов пирометаллургической промышленности в производстве материалов для закладки горных выработок",
+      "label": "Publication",
+      "properties": {
+        "journal": "Вестник БГТУ имени В. Г. Шухова",
+        "issue": 2,
+        "year": 2019,
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Использование отходов пирометаллургической промышленности в производстве материалов для закладки горных выработок",
+        "ingestion_date": "2026-07-04T16:06:33.340124"
+      }
+    },
+    {
+      "id": "Прокудина Е.В., Тропников Д.Л., Каратаева А.В., Шукшина О.В.",
+      "label": "Expert",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Прокудина Е.В., Тропников Д.Л., Каратаева А.В., Шукшина О.В.",
+        "ingestion_date": "2026-07-04T16:06:33.340126"
+      }
+    },
+    {
+      "id": "Нейтрализация технической серной кислоты природным известняком",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Нейтрализация технической серной кислоты природным известняком",
+        "ingestion_date": "2026-07-04T16:06:33.340129"
+      }
+    },
+    {
+      "id": "meas_acid_flow_10_6",
+      "label": "Measurement",
+      "properties": {
+        "unit": "л/час",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_acid_flow_10_6",
+        "value": 10.6,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:33.340131"
+      }
+    },
+    {
+      "id": "meas_lime_pulp_conc_129_8",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "г/л",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_lime_pulp_conc_129_8",
+        "value": 129800.0,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:33.340133"
+      }
+    },
+    {
+      "id": "meas_lime_flow_183_7",
+      "label": "Measurement",
+      "properties": {
+        "unit": "л/час",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_lime_flow_183_7",
+        "value": 183.7,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:33.340136"
+      }
+    },
+    {
+      "id": "meas_residence_time_53",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мин",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_residence_time_53",
+        "value": 53,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:33.340138"
+      }
+    },
+    {
+      "id": "meas_lime_per_acid_122_5",
+      "label": "Measurement",
+      "properties": {
+        "unit": "кг/кг кислоты",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_lime_per_acid_122_5",
+        "value": 122.5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:33.340141"
+      }
+    },
+    {
+      "id": "meas_d50_20_5",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мкм",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_d50_20_5",
+        "value": 20.5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:33.340143"
+      }
+    },
+    {
+      "id": "meas_d50_53_8",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мкм",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "meas_d50_53_8",
+        "value": 53.8,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:06:33.340145"
+      }
+    },
+    {
+      "id": "finding_d50_increase",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Повышение среднего размера частиц D50 при переходе на непрерывный режим",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "finding_d50_increase",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340147"
+      }
+    },
+    {
+      "id": "finding_lime_conc_195",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Повышенное содержание известняка в пульпе достигает 195 г/л в непрерывном режиме",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "finding_lime_conc_195",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340150"
+      }
+    },
+    {
+      "id": "содержание известняка в пульпе",
+      "label": "Property",
+      "properties": {
+        "unit": "г/л",
+        "confidence": 0.5,
+        "name": "содержание известняка в пульпе",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "содержание известняка в пульпе",
+        "ingestion_date": "2026-07-04T16:06:33.340155"
+      }
+    },
+    {
+      "id": "расход серной кислоты",
+      "label": "Property",
+      "properties": {
+        "unit": "л/час",
+        "confidence": 0.5,
+        "name": "расход серной кислоты",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "расход серной кислоты",
+        "ingestion_date": "2026-07-04T16:06:33.340158"
+      }
+    },
+    {
+      "id": "время пребывания пульпы в каскаде",
+      "label": "Property",
+      "properties": {
+        "unit": "мин",
+        "confidence": 0.5,
+        "name": "время пребывания пульпы в каскаде",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "время пребывания пульпы в каскаде",
+        "ingestion_date": "2026-07-04T16:06:33.340160"
+      }
+    },
+    {
+      "id": "расход известняка на кислоту",
+      "label": "Property",
+      "properties": {
+        "unit": "кг/кг кислоты",
+        "confidence": 0.5,
+        "name": "расход известняка на кислоту",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "расход известняка на кислоту",
+        "ingestion_date": "2026-07-04T16:06:33.340163"
+      }
+    },
+    {
+      "id": "средний размер D50",
+      "label": "Property",
+      "properties": {
+        "unit": "мкм",
+        "confidence": 0.5,
+        "name": "средний размер D50",
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "средний размер D50",
+        "ingestion_date": "2026-07-04T16:06:33.340165"
+      }
+    },
+    {
+      "id": "лов для закладки горных выработок",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "лов для закладки горных выработок",
+        "ingestion_date": "2026-07-04T16:06:33.340168"
+      }
+    },
+    {
+      "id": "Прокудина Е.В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "Прокудина Е.В.",
+        "validation_status": "pending",
+        "email": "prokudina@bgtu.ru",
+        "ingestion_date": "2026-07-04T16:06:33.340171"
+      }
+    },
+    {
+      "id": "Тропников Д.Л.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "Тропников Д.Л.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340173"
+      }
+    },
+    {
+      "id": "Каратаева А.В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "Каратаева А.В.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340175"
+      }
+    },
+    {
+      "id": "Шукшина О.В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "Шукшина О.В.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340178"
+      }
+    },
+    {
+      "id": "Вестник БГТУ имени В. Г. Шухова. 2019. №2.",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Вестник БГТУ имени В. Г. Шухова. 2019. №2.",
+        "ingestion_date": "2026-07-04T16:06:33.340181"
+      }
+    },
+    {
+      "id": "Кузьменков Д. М.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Кузьменков Д. М.",
+        "ingestion_date": "2026-07-04T16:06:33.340183"
+      }
+    },
+    {
+      "id": "Сакович А. А.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "Сакович А. А.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340186"
+      }
+    },
+    {
+      "id": "Структурно-управляемый синтез дигидрата сульфата кальция: материалы Междунар. науч.-техн. конф. «Ресурсо- и энергосберегающие технологии и оборудование, экологически безопасные технологии», Минск, 24-26 нояб. 2010 г. / Белорус. гос. технол. ун-т; редкол.: И. М. Жарский (отв. ред.). Минск, 2010. С. 42-46.",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "Структурно-управляемый синтез дигидрата сульфата кальция: материалы Междунар. науч.-техн. конф. «Ресурсо- и энергосберегающие технологии и оборудование, экологически безопасные технологии», Минск, 24-26 нояб. 2010 г. / Белорус. гос. технол. ун-т; редкол.: И. М. Жарский (отв. ред.). Минск, 2010. С. 42-46.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340188"
+      }
+    },
+    {
+      "id": "Здановский А.Б.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "Здановский А.Б.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340191"
+      }
+    },
+    {
+      "id": "Власов Г.А.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "Власов Г.А.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340193"
+      }
+    },
+    {
+      "id": "Сотникова Л.И.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "Сотникова Л.И.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340195"
+      }
+    },
+    {
+      "id": "О дегидратации гипса в растворах серной кислоты. ЖНХ, 1968, Т.13, Выпуск 10, стр. 2754-2757.",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "О дегидратации гипса в растворах серной кислоты. ЖНХ, 1968, Т.13, Выпуск 10, стр. 2754-2757.",
+        "ingestion_date": "2026-07-04T16:06:33.340198"
+      }
+    },
+    {
+      "id": "Zinck, J.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Zinck, J.",
+        "ingestion_date": "2026-07-04T16:06:33.340200"
+      }
+    },
+    {
+      "id": "Aubé, B.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Aubé, B.",
+        "ingestion_date": "2026-07-04T16:06:33.340203"
+      }
+    },
+    {
+      "id": "Optimization of lime treatment processes. CIM Bull. 2000, P. 98–105.",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "Optimization of lime treatment processes. CIM Bull. 2000, P. 98–105.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340206"
+      }
+    },
+    {
+      "id": "Maksim K.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Maksim K.",
+        "ingestion_date": "2026-07-04T16:06:33.340208"
+      }
+    },
+    {
+      "id": "Mikhail K.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Mikhail K.",
+        "ingestion_date": "2026-07-04T16:06:33.340210"
+      }
+    },
+    {
+      "id": "Natalia K.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Natalia K.",
+        "ingestion_date": "2026-07-04T16:06:33.340212"
+      }
+    },
+    {
+      "id": "Witold K.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Witold K.",
+        "ingestion_date": "2026-07-04T16:06:33.340215"
+      }
+    },
+    {
+      "id": "Valentin R.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Valentin R.",
+        "ingestion_date": "2026-07-04T16:06:33.340218"
+      }
+    },
+    {
+      "id": "Structurally controlled synthesis of calcium sulphate dihydrate from industrial wastes of spent sulphuric acid and limestone, Environmental Technology & Innovation, Volume 17, 2020, 100582, ISSN 2352-1864.",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "Structurally controlled synthesis of calcium sulphate dihydrate from industrial wastes of spent sulphuric acid and limestone, Environmental Technology & Innovation, Volume 17, 2020, 100582, ISSN 2352-1864.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340220"
+      }
+    },
+    {
+      "id": "Kamarou M.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "Kamarou M.",
+        "ingestion_date": "2026-07-04T16:06:33.340223"
+      }
+    },
+    {
+      "id": "Low-energy technology for producing anhydrite in the CaC03—H2S04—H20 system derived from industrial wastes. Journal of Chemical Technology & Biotechnology, 2021, v. 96 (7), pp. 2065—2071.",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "id": "Low-energy technology for producing anhydrite in the CaC03—H2S04—H20 system derived from industrial wastes. Journal of Chemical Technology & Biotechnology, 2021, v. 96 (7), pp. 2065—2071.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:06:33.340225"
+      }
+    },
+    {
+      "id": "структура дигидрата сульфата кальция",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "структура дигидрата сульфата кальция",
+        "ingestion_date": "2026-07-04T16:06:33.340228"
+      }
+    },
+    {
+      "id": "дегидратация гипса",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "дегидратация гипса",
+        "ingestion_date": "2026-07-04T16:06:33.340230"
+      }
+    },
+    {
+      "id": "нейтрализация серной кислоты известью",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "нейтрализация серной кислоты известью",
+        "ingestion_date": "2026-07-04T16:06:33.340233"
+      }
+    },
+    {
+      "id": "синтез дигидрата сульфата кальция из промышленных отходов",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "синтез дигидрата сульфата кальция из промышленных отходов",
+        "ingestion_date": "2026-07-04T16:06:33.340235"
+      }
+    },
+    {
+      "id": "низкоэнергетическая технология получения ангидрита",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+        "validation_status": "pending",
+        "id": "низкоэнергетическая технология получения ангидрита",
+        "ingestion_date": "2026-07-04T16:06:33.340238"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "meas_sulf_300",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "обратный осмос",
+      "target": "meas_sulf_300",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "нейтрализация серной кислоты известняком",
+      "target": "установка по нейтрализации серной кислоты на Надеждинском металлургическом заводе",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "установка по нейтрализации серной кислоты на Надеждинском металлургическом заводе",
+      "target": "Горно-металлургический комплекс АО «Казцинк»",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Горно-металлургический комплекс АО «Казцинк»",
+      "target": "Республика Казахстан",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "нейтрализация серной кислоты известняком",
+      "target": "каскад из четырех реакторов",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "каскад из четырех реакторов",
+      "target": "непрерывный режим",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "нейтрализация серной кислоты известняком",
+      "target": "концентрированная серная кислота",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "нейтрализация серной кислоты известняком",
+      "target": "известняковая пульпа",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "нейтрализация серной кислоты известняком",
+      "target": "первый реактор каскада",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "первый реактор каскада",
+      "target": "последний реактор каскада",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "последний реактор каскада",
+      "target": "нейтрализация серной кислоты известняком",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "первый реактор каскада",
+      "target": "установка по нейтрализации серной кислоты на Надеждинском металлургическом заводе",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "нейтрализация серной кислоты известняком",
+      "target": "фактическая производительность установки – 700 т/сутки (230 тыс. т/год)",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "фактическая производительность установки – 700 т/сутки (230 тыс. т/год)",
+      "target": "meas_prod_700",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_prod_700",
+      "target": "Property_700_t_per_day",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_prod_700",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "первый реактор каскада",
+      "target": "каскад из четырех реакторов",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "каскад из четырех реакторов",
+      "target": "нейтрализация серной кислоты известняком",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "нейтрализация серной кислоты известняком",
+      "target": "непрерывный режим",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "установка непрерывной нейтрализации",
+      "target": "реактор",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "реактор",
+      "target": "перемешивание",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "перемешивание",
+      "target": "мешалка – турбина открытого типа",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "установка непрерывной нейтрализации",
+      "target": "подача реагентов",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "подача реагентов",
+      "target": "перистальтический насос",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "установка непрерывной нейтрализации",
+      "target": "контроль температуры",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "установка непрерывной нейтрализации",
+      "target": "контроль температуры",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "установка непрерывной нейтрализации",
+      "target": "контроль рН",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "установка непрерывной нейтрализации",
+      "target": "эксперимент",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "эксперимент",
+      "target": "период вытеснения пульпы",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "период вытеснения пульпы",
+      "target": "время пребывания пульпы в каскаде реакторов",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "эксперимент",
+      "target": "стационарный режим",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "стационарный режим",
+      "target": "продолжительность эксперимента",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "эксперимент",
+      "target": "отбор пробы пульпы",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "установка непрерывной нейтрализации",
+      "target": "рисунок 4",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "установка непрерывной нейтрализации",
+      "target": "рисунок 4",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "установка непрерывной нейтрализации",
+      "target": "рисунок 5",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "установка непрерывной нейтрализации",
+      "target": "рисунок 5",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "эксперимент",
+      "target": "рисунок 3",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "эксперимент",
+      "target": "рисунок 3",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "эксперимент",
+      "target": "рисунок 4",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "эксперимент",
+      "target": "рисунок 4",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "эксперимент",
+      "target": "рисунок 5",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "эксперимент",
+      "target": "рисунок 5",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "эксперимент",
+      "target": "стационарный режим",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "стационарный режим",
+      "target": "отбор пробы пульпы",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "эксперимент",
+      "target": "расход известняка",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "расход известняка",
+      "target": "meas_kg_per_kg_acid",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_kg_per_kg_acid",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "эксперимент",
+      "target": "содержание твердого в пульпе",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "содержание твердого в пульпе",
+      "target": "meas_solids_conc",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_solids_conc",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "эксперимент",
+      "target": "скорость перемешивания",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "скорость перемешивания",
+      "target": "meas_stir_speed",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_stir_speed",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "нейтрализация",
+      "target": "meas_acid_flow_028_033",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_acid_flow_028_033",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "нейтрализация",
+      "target": "meas_acid_flow_019_022",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_acid_flow_019_022",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "нейтрализация",
+      "target": "meas_known_lime_ratio_110_150",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_known_lime_ratio_110_150",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "нейтрализация",
+      "target": "meas_pulp_solid_125_200",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_pulp_solid_125_200",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "нейтрализация",
+      "target": "meas_stirring_speed_400",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_stirring_speed_400",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "нейтрализация",
+      "target": "meas_stirring_speed_800",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_stirring_speed_800",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "нейтрализация",
+      "target": "meas_pH_time_35_45",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_pH_time_35_45",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "нейтрализация",
+      "target": "meas_pH_time_50_60",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_pH_time_50_60",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "нейтрализация",
+      "target": "meas_pH_time_45_55",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_pH_time_45_55",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_acid_flow_040",
+      "target": "finding_flow_risk_overflow",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_flow_risk_overflow",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_pulp_solid_195",
+      "target": "finding_risk_overflow_first_reactor",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_risk_overflow_first_reactor",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "нейтрализация серной кислоты пульпой известняка",
+      "target": "эксперимент по нейтрализации серной кислоты пульпой известняка в непрерывном режиме на пилотной установке",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "эксперимент по нейтрализации серной кислоты пульпой известняка в непрерывном режиме на пилотной установке",
+      "target": "пилотная установка",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "пилотная установка",
+      "target": "реактор каскада",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "реактор каскада",
+      "target": "турбина открытого типа",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "турбина открытого типа",
+      "target": "скорость перемешивания пульпы во всех реакторах",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "скорость перемешивания пульпы во всех реакторах",
+      "target": "700 об/мин",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "700 об/мин",
+      "target": "реактор каскада",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "реактор каскада",
+      "target": "температура пульпы",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "реактор каскада",
+      "target": "рН пульпы",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "эксперимент по нейтрализации серной кислоты пульпой известняка в непрерывном режиме на пилотной установке",
+      "target": "увеличение времени достижения требуемого значения рН (6,0-6,6) до 45-55 мин",
+      "type": "SHOWED"
+    },
+    {
+      "source": "увеличение времени достижения требуемого значения рН (6,0-6,6) до 45-55 мин",
+      "target": "держание твердого 195 г/л",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "увеличение времени достижения требуемого значения рН (6,0-6,6) до 45-55 мин",
+      "target": "рисунок 7",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "увеличение времени достижения требуемого значения рН (6,0-6,6) до 45-55 мин",
+      "target": "рисунок 7",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "эксперимент по нейтрализации серной кислоты пульпой известняка в непрерывном режиме на пилотной установке",
+      "target": "рисунок 8",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "эксперимент по нейтрализации серной кислоты пульпой известняка в непрерывном режиме на пилотной установке",
+      "target": "рисунок 8",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "непрерывный режим",
+      "target": "формирование более крупного осадка",
+      "type": "SHOWED"
+    },
+    {
+      "source": "непрерывный режим",
+      "target": "D50",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "D50",
+      "target": "53,8 мкм",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "53,8 мкм",
+      "target": "таблица 3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "53,8 мкм",
+      "target": "таблица 3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "периодический режим",
+      "target": "D50",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "периодический режим",
+      "target": "D50",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "D50",
+      "target": "20,5 мкм",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "20,5 мкм",
+      "target": "таблица 3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "20,5 мкм",
+      "target": "таблица 3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "нейтрализация",
+      "target": "meas_ph_2_3",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_ph_2_3",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "нейтрализация",
+      "target": "meas_ph_2_8",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_ph_2_8",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "нейтрализация",
+      "target": "meas_ph_5_85",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_ph_5_85",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "нейтрализация",
+      "target": "meas_ph_6_04",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_ph_6_04",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "нейтрализация",
+      "target": "meas_ph_6_31",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_ph_6_31",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "нейтрализация",
+      "target": "meas_ph_6_46",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_ph_6_46",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "нейтрализация",
+      "target": "finding_stable_ph",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_stable_ph",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "нейтрализация",
+      "target": "finding_no_foaming",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_no_foaming",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "перистальтический насос",
+      "target": "объемный расход",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "нейтрализация серной кислоты",
+      "target": "объемный расход",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "нейтрализация серной кислоты",
+      "target": "температура пульпы",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "нейтрализация серной кислоты",
+      "target": "рН пульпы",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "нейтрализация серной кислоты",
+      "target": "интенсивность перемешивания",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "нейтрализация серной кислоты",
+      "target": "стабильность процесса",
+      "type": "SHOWED"
+    },
+    {
+      "source": "стабильность процесса",
+      "target": "отсутствие выброса пульпы",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "пилотная установка непрерывной нейтрализации",
+      "target": "нейтрализация серной кислоты",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "пилотная установка непрерывной нейтрализации",
+      "target": "рисунок 8",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "пилотная установка непрерывной нейтрализации",
+      "target": "рисунок 8",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "пилотные испытания",
+      "target": "нейтрализация серной кислоты",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "пилотные испытания",
+      "target": "таблица 1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "таблица 1",
+      "target": "нейтрализация серной кислоты",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "таблица 1",
+      "target": "объемный расход",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "таблица 1",
+      "target": "температура пульпы",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "таблица 1",
+      "target": "рН пульпы",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "таблица 1",
+      "target": "интенсивность перемешивания",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "таблица 1",
+      "target": "стабильность процесса",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "объемный расход",
+      "target": "перистальтический насос",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "объемный расход",
+      "target": "пилотная установка непрерывной нейтрализации",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "температура пульпы",
+      "target": "нейтрализация серной кислоты",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "рН пульпы",
+      "target": "нейтрализация серной кислоты",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "интенсивность перемешивания",
+      "target": "нейтрализация серной кислоты",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "стабильность процесса",
+      "target": "пилотные испытания",
+      "type": "SHOWED"
+    },
+    {
+      "source": "пилотные испытания",
+      "target": "стабильность процесса",
+      "type": "SHOWED"
+    },
+    {
+      "source": "пилотные испытания",
+      "target": "объемный расход",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "пилотные испытания",
+      "target": "температура пульпы",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "пилотные испытания",
+      "target": "рН пульпы",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "пилотные испытания",
+      "target": "интенсивность перемешивания",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "пилотные испытания",
+      "target": "стабильность процесса",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "объемный расход",
+      "target": "объемный расход",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "температура пульпы",
+      "target": "объемный расход",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "рН пульпы",
+      "target": "объемный расход",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "интенсивность перемешивания",
+      "target": "объемный расход",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "стабильность процесса",
+      "target": "объемный расход",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "пилотные испытания",
+      "target": "стабильность процесса",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "пилотные испытания",
+      "target": "таблица 1",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "таблица 1",
+      "target": "p.6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "пилотная установка непрерывной нейтрализации",
+      "target": "p.6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "рисунок 8",
+      "target": "p.6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "рисунок 8",
+      "target": "p.6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "объемный расход",
+      "target": "p.6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "температура пульпы",
+      "target": "p.6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "рН пульпы",
+      "target": "p.6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "интенсивность перемешивания",
+      "target": "p.6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "стабильность процесса",
+      "target": "p.6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "непрерывный режим",
+      "target": "meas_gypsum_d50_53800",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "периодический режим",
+      "target": "meas_gypsum_d50_20500",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "периодический режим",
+      "target": "meas_gypsum_d50_20500",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_gypsum_d50_53800",
+      "target": "property_d50_gypsum",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_gypsum_d50_20500",
+      "target": "property_d50_gypsum",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "finding_gypsum_size_increase",
+      "target": "property_d50_gypsum",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "finding_gypsum_size_increase",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_sedimentation_improvement",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_pulp_density_increase",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_continuous_advantage",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_continuous_advantage",
+      "target": "expert_budnikov_pp",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "publication_budnikov_1943",
+      "target": "expert_budnikov_pp",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "publication_budnikov_1943",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "нейтрализация серной кислоты известняком",
+      "target": "непрерывный режим",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "непрерывный режим",
+      "target": "объем реакторного оборудования",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "непрерывный режим",
+      "target": "пониженный риск выброса пульпы вследствие образования пены",
+      "type": "SHOWED"
+    },
+    {
+      "source": "непрерывный режим",
+      "target": "меньшие объёмы реакторного оборудования",
+      "type": "SHOWED"
+    },
+    {
+      "source": "непрерывный режим",
+      "target": "отсутствие необходимости обеспечивать интенсивное перемешивание во всех реакторах",
+      "type": "SHOWED"
+    },
+    {
+      "source": "нейтрализация серной кислоты известняком",
+      "target": "периодический режим",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "нейтрализация серной кислоты известняком",
+      "target": "периодический режим",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "периодический режим",
+      "target": "объем реакторного оборудования",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "периодический режим",
+      "target": "объем реакторного оборудования",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "периодический режим",
+      "target": "необходимость обеспечивать интенсивное перемешивание во всех реакторах",
+      "type": "SHOWED"
+    },
+    {
+      "source": "периодический режим",
+      "target": "необходимость обеспечивать интенсивное перемешивание во всех реакторах",
+      "type": "SHOWED"
+    },
+    {
+      "source": "нейтрализация серной кислоты известняком",
+      "target": "стабильность процесса",
+      "type": "SHOWED"
+    },
+    {
+      "source": "стабильность процесса",
+      "target": "контроль параметров процесса",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "стабильность процесса",
+      "target": "автоматизация управления параметрами",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "стабильность процесса",
+      "target": "высокая интенсивность перемешивания пульпы",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "стабильность процесса",
+      "target": "первый реактор",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "первый реактор",
+      "target": "интенсивное перемешивание",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "первый реактор",
+      "target": "рН 1,1",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "рН 1,1",
+      "target": "нейтрализация серной кислоты известняком",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "нейтрализация серной кислоты известняком",
+      "target": "отсутствие сильного вспенивания",
+      "type": "SHOWED"
+    },
+    {
+      "source": "нейтрализация серной кислоты известняком",
+      "target": "отсутствие выброса пульпы",
+      "type": "SHOWED"
+    },
+    {
+      "source": "нейтрализация серной кислоты известняком",
+      "target": "возобновление подачи пульпы через 5 мин",
+      "type": "SHOWED"
+    },
+    {
+      "source": "возобновление подачи пульпы через 5 мин",
+      "target": "стабильный уровень рН во всех реакторах",
+      "type": "SHOWED"
+    },
+    {
+      "source": "стабильный уровень рН во всех реакторах",
+      "target": "в течение 10-15 мин",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "таблица 2",
+      "target": "сравнение режимов",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "сравнение режимов",
+      "target": "таблица 2",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "нейтрализация серной кислоты",
+      "target": "загустевание пульпы",
+      "type": "SHOWED"
+    },
+    {
+      "source": "загустевание пульпы",
+      "target": "повышение вязкости пульпы",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "повышение вязкости пульпы",
+      "target": "вспенивание",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "повышение вязкости пульпы",
+      "target": "вспенивание",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "повышение вязкости пульпы",
+      "target": "снижение скорости реакции нейтрализации",
+      "type": "SHOWED"
+    },
+    {
+      "source": "снижение скорости реакции нейтрализации",
+      "target": "увеличение продолжительности процесса",
+      "type": "SHOWED"
+    },
+    {
+      "source": "эксперименты по нейтрализации в непрерывном режиме",
+      "target": "установка непрерывной нейтрализации",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "эксперименты по нейтрализации в непрерывном режиме",
+      "target": "рисунок 3",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "эксперименты по нейтрализации в непрерывном режиме",
+      "target": "рисунок 3",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "эксперименты по нейтрализации в непрерывном режиме",
+      "target": "рисунок 4",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "эксперименты по нейтрализации в непрерывном режиме",
+      "target": "рисунок 4",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "эксперименты по нейтрализации в непрерывном режиме",
+      "target": "рисунок 5",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "эксперименты по нейтрализации в непрерывном режиме",
+      "target": "рисунок 5",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "загустевание пульпы",
+      "target": "src_p4",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "повышение вязкости пульпы",
+      "target": "src_p4",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "вспенивание",
+      "target": "src_p4",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "вспенивание",
+      "target": "src_p4",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "снижение скорости реакции нейтрализации",
+      "target": "src_p4",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "увеличение продолжительности процесса",
+      "target": "src_p4",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "эксперименты по нейтрализации в непрерывном режиме",
+      "target": "src_p4",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "установка непрерывной нейтрализации",
+      "target": "src_p4",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Будников П.П.",
+      "target": "Гипс, его исследование и применение.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Гипс, его исследование и применение.",
+      "target": "Будников П.П.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Гипсовые материалы и изделия (производство и применение). Справочник.",
+      "target": "А.В.Ферронская",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "А.В.Ферронская",
+      "target": "Гипсовые материалы и изделия (производство и применение). Справочник.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Брюкнер Х., Дейлер Е., Фитч Г. и др.",
+      "target": "Гипс. Изготовление и применение гипсовых строительных материалов.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Гипс. Изготовление и применение гипсовых строительных материалов.",
+      "target": "Брюкнер Х., Дейлер Е., Фитч Г. и др.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Гипс. Изготовление и применение гипсовых строительных материалов.",
+      "target": "Гончаров В.Ф.",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Гончаров В.Ф.",
+      "target": "Гипс. Изготовление и применение гипсовых строительных материалов.",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Jarnerud T, Karasev AV, Jönsson PG.",
+      "target": "Neutralization of Acidic Wastewater from a Steel Plant by Using CaO-Containing Waste Materials from Pulp and Paper Industries.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Neutralization of Acidic Wastewater from a Steel Plant by Using CaO-Containing Waste Materials from Pulp and Paper Industries.",
+      "target": "Jarnerud T, Karasev AV, Jönsson PG.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Бурьянов А.Ф., Гальцева Н.А., Грунина И.А.",
+      "target": "Использование отходов пирометаллургической промышленности в производстве материалов для закладки горных выработок",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Использование отходов пирометаллургической промышленности в производстве материалов для закладки горных выработок",
+      "target": "Бурьянов А.Ф., Гальцева Н.А., Грунина И.А.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Прокудина Е.В., Тропников Д.Л., Каратаева А.В., Шукшина О.В.",
+      "target": "Нейтрализация технической серной кислоты природным известняком",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Нейтрализация технической серной кислоты природным известняком",
+      "target": "Прокудина Е.В., Тропников Д.Л., Каратаева А.В., Шукшина О.В.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "реактор",
+      "target": "meas_acid_flow_10_6",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_acid_flow_10_6",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "реактор",
+      "target": "meas_lime_pulp_conc_129_8",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_lime_pulp_conc_129_8",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "реактор",
+      "target": "meas_lime_flow_183_7",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_lime_flow_183_7",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "реактор",
+      "target": "meas_residence_time_53",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_residence_time_53",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "реактор",
+      "target": "meas_lime_per_acid_122_5",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_lime_per_acid_122_5",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "непрерывный режим",
+      "target": "meas_d50_53_8",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_d50_53_8",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "периодический режим",
+      "target": "meas_d50_20_5",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "периодический режим",
+      "target": "meas_d50_20_5",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_d50_20_5",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "непрерывный режим",
+      "target": "finding_d50_increase",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_d50_increase",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "непрерывный режим",
+      "target": "finding_lime_conc_195",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_lime_conc_195",
+      "target": "src_p10",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Прокудина Е.В.",
+      "target": "Вестник БГТУ имени В. Г. Шухова. 2019. №2.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Тропников Д.Л.",
+      "target": "Вестник БГТУ имени В. Г. Шухова. 2019. №2.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Каратаева А.В.",
+      "target": "Вестник БГТУ имени В. Г. Шухова. 2019. №2.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Шукшина О.В.",
+      "target": "Вестник БГТУ имени В. Г. Шухова. 2019. №2.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Вестник БГТУ имени В. Г. Шухова. 2019. №2.",
+      "target": "лов для закладки горных выработок",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Кузьменков Д. М.",
+      "target": "Структурно-управляемый синтез дигидрата сульфата кальция: материалы Междунар. науч.-техн. конф. «Ресурсо- и энергосберегающие технологии и оборудование, экологически безопасные технологии», Минск, 24-26 нояб. 2010 г. / Белорус. гос. технол. ун-т; редкол.: И. М. Жарский (отв. ред.). Минск, 2010. С. 42-46.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Сакович А. А.",
+      "target": "Структурно-управляемый синтез дигидрата сульфата кальция: материалы Междунар. науч.-техн. конф. «Ресурсо- и энергосберегающие технологии и оборудование, экологически безопасные технологии», Минск, 24-26 нояб. 2010 г. / Белорус. гос. технол. ун-т; редкол.: И. М. Жарский (отв. ред.). Минск, 2010. С. 42-46.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Структурно-управляемый синтез дигидрата сульфата кальция: материалы Междунар. науч.-техн. конф. «Ресурсо- и энергосберегающие технологии и оборудование, экологически безопасные технологии», Минск, 24-26 нояб. 2010 г. / Белорус. гос. технол. ун-т; редкол.: И. М. Жарский (отв. ред.). Минск, 2010. С. 42-46.",
+      "target": "структура дигидрата сульфата кальция",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Здановский А.Б.",
+      "target": "О дегидратации гипса в растворах серной кислоты. ЖНХ, 1968, Т.13, Выпуск 10, стр. 2754-2757.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Власов Г.А.",
+      "target": "О дегидратации гипса в растворах серной кислоты. ЖНХ, 1968, Т.13, Выпуск 10, стр. 2754-2757.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Сотникова Л.И.",
+      "target": "О дегидратации гипса в растворах серной кислоты. ЖНХ, 1968, Т.13, Выпуск 10, стр. 2754-2757.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "О дегидратации гипса в растворах серной кислоты. ЖНХ, 1968, Т.13, Выпуск 10, стр. 2754-2757.",
+      "target": "дегидратация гипса",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Zinck, J.",
+      "target": "Optimization of lime treatment processes. CIM Bull. 2000, P. 98–105.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Aubé, B.",
+      "target": "Optimization of lime treatment processes. CIM Bull. 2000, P. 98–105.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Optimization of lime treatment processes. CIM Bull. 2000, P. 98–105.",
+      "target": "нейтрализация серной кислоты известью",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Maksim K.",
+      "target": "Structurally controlled synthesis of calcium sulphate dihydrate from industrial wastes of spent sulphuric acid and limestone, Environmental Technology & Innovation, Volume 17, 2020, 100582, ISSN 2352-1864.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Mikhail K.",
+      "target": "Structurally controlled synthesis of calcium sulphate dihydrate from industrial wastes of spent sulphuric acid and limestone, Environmental Technology & Innovation, Volume 17, 2020, 100582, ISSN 2352-1864.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Witold K.",
+      "target": "Structurally controlled synthesis of calcium sulphate dihydrate from industrial wastes of spent sulphuric acid and limestone, Environmental Technology & Innovation, Volume 17, 2020, 100582, ISSN 2352-1864.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Valentin R.",
+      "target": "Structurally controlled synthesis of calcium sulphate dihydrate from industrial wastes of spent sulphuric acid and limestone, Environmental Technology & Innovation, Volume 17, 2020, 100582, ISSN 2352-1864.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Structurally controlled synthesis of calcium sulphate dihydrate from industrial wastes of spent sulphuric acid and limestone, Environmental Technology & Innovation, Volume 17, 2020, 100582, ISSN 2352-1864.",
+      "target": "синтез дигидрата сульфата кальция из промышленных отходов",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Kamarou M.",
+      "target": "Low-energy technology for producing anhydrite in the CaC03—H2S04—H20 system derived from industrial wastes. Journal of Chemical Technology & Biotechnology, 2021, v. 96 (7), pp. 2065—2071.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Low-energy technology for producing anhydrite in the CaC03—H2S04—H20 system derived from industrial wastes. Journal of Chemical Technology & Biotechnology, 2021, v. 96 (7), pp. 2065—2071.",
+      "target": "низкоэнергетическая технология получения ангидрита",
+      "type": "DESCRIBED_IN"
+    }
+  ]
+}

@@ -1,0 +1,6294 @@
+{
+  "document": "24 Статья.docx",
+  "nodes": [
+    {
+      "id": "SiO2",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "name": "диоксид кремния",
+        "description": "Кремнезем",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "SiO2",
+        "ingestion_date": "2026-07-04T16:05:41.829384"
+      }
+    },
+    {
+      "id": "индукционная печь ТГИЛ 6.799",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "индукционная печь ТГИЛ 6.799",
+        "ingestion_date": "2026-07-04T16:05:41.829409"
+      }
+    },
+    {
+      "id": "Озеров С.С.",
+      "label": "Expert",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Озеров С.С.",
+        "validation_status": "pending",
+        "email": "OzerovSS@nornik.ru",
+        "ingestion_date": "2026-07-04T16:05:41.829892"
+      }
+    },
+    {
+      "id": "отвальный шлак",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "отвальный шлак",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829632"
+      }
+    },
+    {
+      "id": "штейн",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "штейн",
+        "type": "дробленый и гранулированный",
+        "ingestion_date": "2026-07-04T16:05:41.829401"
+      }
+    },
+    {
+      "id": "таблица 5",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "таблица 5",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829595"
+      }
+    },
+    {
+      "id": "таблица 6",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "таблица 6",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829597"
+      }
+    },
+    {
+      "id": "таблица 7",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "таблица 7",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829560"
+      }
+    },
+    {
+      "id": "рисунок 4",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "рисунок 4",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829588",
+        "span": "p.10"
+      }
+    },
+    {
+      "id": "металлы платиновой группы",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "металлы платиновой группы",
+        "type": "редкие металлы",
+        "ingestion_date": "2026-07-04T16:05:41.829169"
+      }
+    },
+    {
+      "id": "золото",
+      "label": "Material",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "name": "золото",
+        "source_document": "24 Статья.docx",
+        "id": "золото",
+        "validation_status": "pending",
+        "type": "редкий металл",
+        "ingestion_date": "2026-07-04T16:05:41.829077"
+      }
+    },
+    {
+      "id": "серебро",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "name": "серебро",
+        "source_document": "24 Статья.docx",
+        "id": "серебро",
+        "validation_status": "pending",
+        "type": "металл",
+        "category": "драгоценный",
+        "ingestion_date": "2026-07-04T16:05:41.829756"
+      }
+    },
+    {
+      "id": "expert_ivanov_ivan_ivanovich",
+      "label": "Expert",
+      "properties": {
+        "affiliation": "Институт черной металлургии",
+        "confidence": 0.5,
+        "name": "Иванов Иван Иванович",
+        "source_document": "24 Статья.docx",
+        "id": "expert_ivanov_ivan_ivanovich",
+        "validation_status": "pending",
+        "email": "ivanov@institute.ru",
+        "ingestion_date": "2026-07-04T16:05:41.829096"
+      }
+    },
+    {
+      "id": "Co",
+      "label": "Material",
+      "properties": {
+        "chemical_symbol": "Co",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Co",
+        "type": "примесь",
+        "ingestion_date": "2026-07-04T16:05:41.829752"
+      }
+    },
+    {
+      "id": "медь",
+      "label": "Material",
+      "properties": {
+        "chemical_symbol": "Cu",
+        "confidence": 0.5,
+        "name": "массовая доля меди",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "медь",
+        "type": "element",
+        "ingestion_date": "2026-07-04T16:05:41.829192"
+      }
+    },
+    {
+      "id": "Rh",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "name": "родий",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Rh",
+        "ingestion_date": "2026-07-04T16:05:41.829068"
+      }
+    },
+    {
+      "id": "Ru",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "name": "рутений",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Ru",
+        "ingestion_date": "2026-07-04T16:05:41.829070"
+      }
+    },
+    {
+      "id": "Ir",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "name": "иридий",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Ir",
+        "ingestion_date": "2026-07-04T16:05:41.829072"
+      }
+    },
+    {
+      "id": "Старых Р.В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Старых Р.В.",
+        "validation_status": "pending",
+        "email": "kafedra-cm@yandex.ru",
+        "ingestion_date": "2026-07-04T16:05:41.829880"
+      }
+    },
+    {
+      "id": "Надеждинский металлургический завод",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Надеждинский металлургический завод",
+        "ingestion_date": "2026-07-04T16:05:41.829187"
+      }
+    },
+    {
+      "id": "шлак",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "шлак",
+        "type": "конвертерный",
+        "ingestion_date": "2026-07-04T16:05:41.829343"
+      }
+    },
+    {
+      "id": "обеднительная электропечь",
+      "label": "Process",
+      "properties": {
+        "geography": "RU",
+        "domain": "металлургия",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "обеднительная электропечь",
+        "ingestion_date": "2026-07-04T16:05:41.829475"
+      }
+    },
+    {
+      "id": "термопара",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "термопара",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829333"
+      }
+    },
+    {
+      "id": "Рисунок 3",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Рисунок 3",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829548"
+      }
+    },
+    {
+      "id": "сплав",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "сплав",
+        "validation_status": "pending",
+        "type": "металлический сплав",
+        "ingestion_date": "2026-07-04T16:05:41.829431"
+      }
+    },
+    {
+      "id": "цветные металлы",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "цветные металлы",
+        "type": "металлы",
+        "category": "цветные",
+        "ingestion_date": "2026-07-04T16:05:41.829399"
+      }
+    },
+    {
+      "id": "Gipronikel Institute LLC",
+      "label": "Facility",
+      "properties": {
+        "country": "Russia",
+        "city": "Saint Petersburg",
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Gipronikel Institute LLC",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829044"
+      }
+    },
+    {
+      "id": "Pyrometallurgy Laboratory",
+      "label": "Facility",
+      "properties": {
+        "parent": "Gipronikel Institute LLC",
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Pyrometallurgy Laboratory",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829046"
+      }
+    },
+    {
+      "id": "Abstract",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Abstract",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829153"
+      }
+    },
+    {
+      "id": "обеднение шлака",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "обеднение шлака",
+        "ingestion_date": "2026-07-04T16:05:41.829259"
+      }
+    },
+    {
+      "id": "механические потери металлов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "description": "Механические потери металлов со шлаками минимальны, так как корольки <1 мкм формально относятся к растворимым потерям",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "механические потери металлов",
+        "ingestion_date": "2026-07-04T16:05:41.829492"
+      }
+    },
+    {
+      "id": "Cu-Ni-Fe",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Cu-Ni-Fe",
+        "ingestion_date": "2026-07-04T16:05:41.829124"
+      }
+    },
+    {
+      "id": "графитовая труба",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "графитовая труба",
+        "ingestion_date": "2026-07-04T16:05:41.829411"
+      }
+    },
+    {
+      "id": "алундовый тигель",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "алундовый тигель",
+        "ingestion_date": "2026-07-04T16:05:41.829328"
+      }
+    },
+    {
+      "id": "РЭМ-РСМА",
+      "label": "Equipment",
+      "properties": {
+        "domain": "анализ материалов",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "РЭМ-РСМА",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829496"
+      }
+    },
+    {
+      "id": "Цемехман Л.Ш.",
+      "label": "Expert",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Цемехман Л.Ш.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829882"
+      }
+    },
+    {
+      "id": "Цымбулов Л.Б.",
+      "label": "Expert",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Цымбулов Л.Б.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829890"
+      }
+    },
+    {
+      "id": "material_slag",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "name": "шлак",
+        "source_document": "24 Статья.docx",
+        "id": "material_slag",
+        "validation_status": "pending",
+        "type": "byproduct",
+        "ingestion_date": "2026-07-04T16:05:41.829274"
+      }
+    },
+    {
+      "id": "Петров Г.В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Петров Г.В.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829888"
+      }
+    },
+    {
+      "id": "Source_p1",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Source_p1",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829376",
+        "span": "p.1"
+      }
+    },
+    {
+      "id": "Al2O3",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Al2O3",
+        "ingestion_date": "2026-07-04T16:05:41.829396"
+      }
+    },
+    {
+      "id": "property_copper_content",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "содержание меди",
+        "source_document": "24 Статья.docx",
+        "id": "property_copper_content",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829856"
+      }
+    },
+    {
+      "id": "meas_ru_ir_loss_10",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "meas_ru_ir_loss_10",
+        "value": 10,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:05:41.828999"
+      }
+    },
+    {
+      "id": "finding_max_gold_recovery",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Maximum recovery of gold when obtaining a bottom phase with Fe content >50 wt%",
+        "source_document": "24 Статья.docx",
+        "id": "finding_max_gold_recovery",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829018"
+      }
+    },
+    {
+      "id": "BogatyrevDM",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Богатырев Дмитрий Михайлович",
+        "source_document": "24 Статья.docx",
+        "id": "BogatyrevDM",
+        "validation_status": "pending",
+        "position": "младший научный сотрудник лаборатории пирометаллургии",
+        "email": "BogatyrevDM@nornik.ru",
+        "ingestion_date": "2026-07-04T16:05:41.829026"
+      }
+    },
+    {
+      "id": "TsymbulovLB",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Цымбулов Леонид Борисович",
+        "source_document": "24 Статья.docx",
+        "id": "TsymbulovLB",
+        "validation_status": "pending",
+        "position": "директор департамента по исследованиям и разработкам, член-корреспондент РАЕН, докт. техн. наук, профессор",
+        "email": "TsymbulovLB@nornik.ru",
+        "ingestion_date": "2026-07-04T16:05:41.829029"
+      }
+    },
+    {
+      "id": "OzerovSS",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Озеров Сергей Сергеевич",
+        "source_document": "24 Статья.docx",
+        "id": "OzerovSS",
+        "validation_status": "pending",
+        "position": "ведущий научный сотрудник лаборатории пирометаллургии, канд. техн. наук",
+        "email": "OzerovSS@nornik.ru",
+        "ingestion_date": "2026-07-04T16:05:41.829031"
+      }
+    },
+    {
+      "id": "publication_2024",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "publication_2024",
+        "validation_status": "pending",
+        "title": "Исследование распределения благородных металлов при обеднении шлака медно-никелевого производства газовыми смесями различного состава",
+        "ingestion_date": "2026-07-04T16:05:41.829034"
+      }
+    },
+    {
+      "id": "D. M. Bogatyrev",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "D. M. Bogatyrev",
+        "validation_status": "pending",
+        "email": "BogatyrevDM@nornik.ru",
+        "ingestion_date": "2026-07-04T16:05:41.829036"
+      }
+    },
+    {
+      "id": "L. B. Tsymbulov",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "L. B. Tsymbulov",
+        "validation_status": "pending",
+        "title": "Correspondent Member of the Russian Academy of Natural Sciences, Doctor of Technical Sciences, Professor",
+        "email": "TsymbulovLB@nornik.ru",
+        "ingestion_date": "2026-07-04T16:05:41.829039"
+      }
+    },
+    {
+      "id": "S. S. Ozerov",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "S. S. Ozerov",
+        "title": "Candidate of Technical Sciences",
+        "email": "OzerovSS@nornik.ru",
+        "ingestion_date": "2026-07-04T16:05:41.829041"
+      }
+    },
+    {
+      "id": "Research and Development Department",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Research and Development Department",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829049"
+      }
+    },
+    {
+      "id": "Topic_precious_metals_distribution",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "precious metals distribution",
+        "source_document": "24 Статья.docx",
+        "id": "Topic_precious_metals_distribution",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829052"
+      }
+    },
+    {
+      "id": "Topic_slag_depletion",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "slag depletion",
+        "source_document": "24 Статья.docx",
+        "id": "Topic_slag_depletion",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829054"
+      }
+    },
+    {
+      "id": "Topic_gas_mixtures",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "gas mixtures",
+        "source_document": "24 Статья.docx",
+        "id": "Topic_gas_mixtures",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829056"
+      }
+    },
+    {
+      "id": "Publication_2024_gipronikel",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Publication_2024_gipronikel",
+        "validation_status": "pending",
+        "title": "Investigation of the distribution of precious metals during the depletion of slag from copper-nickel production with gas mixtures of various compositions",
+        "ingestion_date": "2026-07-04T16:05:41.829058"
+      }
+    },
+    {
+      "id": "Pt",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Pt",
+        "ingestion_date": "2026-07-04T16:05:41.829063"
+      }
+    },
+    {
+      "id": "Pd",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Pd",
+        "ingestion_date": "2026-07-04T16:05:41.829066"
+      }
+    },
+    {
+      "id": "meas_loss_pt",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "meas_loss_pt",
+        "value": 5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:05:41.829079"
+      }
+    },
+    {
+      "id": "meas_loss_pd",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "meas_loss_pd",
+        "value": 5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:05:41.829082"
+      }
+    },
+    {
+      "id": "meas_loss_rh",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "meas_loss_rh",
+        "value": 5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:05:41.829084"
+      }
+    },
+    {
+      "id": "meas_loss_ru",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "meas_loss_ru",
+        "value": 10,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:05:41.829086"
+      }
+    },
+    {
+      "id": "meas_loss_ir",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "meas_loss_ir",
+        "value": 10,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:05:41.829088"
+      }
+    },
+    {
+      "id": "finding_max_extraction_au",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Максимальное извлечение золота возможно при получении донной фазы с содержанием железа свыше 50% масс.",
+        "source_document": "24 Статья.docx",
+        "id": "finding_max_extraction_au",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829091"
+      }
+    },
+    {
+      "id": "loss_rate",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "loss_rate",
+        "ingestion_date": "2026-07-04T16:05:41.829098"
+      }
+    },
+    {
+      "id": "extraction",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "extraction",
+        "ingestion_date": "2026-07-04T16:05:41.829101"
+      }
+    },
+    {
+      "id": "meas_loss_5",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 5,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "meas_loss_5",
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:05:41.829103"
+      }
+    },
+    {
+      "id": "meas_loss_10",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "max": 10,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "meas_loss_10",
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:05:41.829106"
+      }
+    },
+    {
+      "id": "meas_extraction_max",
+      "label": "Measurement",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "meas_extraction_max",
+        "validation_status": "pending",
+        "value": "maximum",
+        "operator": "max",
+        "ingestion_date": "2026-07-04T16:05:41.829109"
+      }
+    },
+    {
+      "id": "finding_loss_pt_pd_rh",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "24 Статья.docx",
+        "id": "finding_loss_pt_pd_rh",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829111"
+      }
+    },
+    {
+      "id": "finding_loss_ru_ir",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "24 Статья.docx",
+        "id": "finding_loss_ru_ir",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829114"
+      }
+    },
+    {
+      "id": "finding_extraction_aus",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "24 Статья.docx",
+        "id": "finding_extraction_aus",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829116"
+      }
+    },
+    {
+      "id": "S. S. Ozerov1",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "degree": "Candidate of Technical Sciences",
+        "source_document": "24 Статья.docx",
+        "id": "S. S. Ozerov1",
+        "validation_status": "pending",
+        "position": "Lead Researcher at the Pyrometallurgy Laboratory",
+        "email": "OzerovSS@nornik.ru",
+        "ingestion_date": "2026-07-04T16:05:41.829121"
+      }
+    },
+    {
+      "id": "waste slag",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "waste slag",
+        "ingestion_date": "2026-07-04T16:05:41.829126"
+      }
+    },
+    {
+      "id": "oxidative melting",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "oxidative melting",
+        "ingestion_date": "2026-07-04T16:05:41.829129"
+      }
+    },
+    {
+      "id": "bubbling mode",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "bubbling mode",
+        "ingestion_date": "2026-07-04T16:05:41.829132"
+      }
+    },
+    {
+      "id": "reducing gas mixtures",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "reducing gas mixtures",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829134"
+      }
+    },
+    {
+      "id": "yield of the bottom phase",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "yield of the bottom phase",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829136"
+      }
+    },
+    {
+      "id": "distribution coefficients",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "distribution coefficients",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829139"
+      }
+    },
+    {
+      "id": "limiting content of Fe",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "limiting content of Fe",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829141"
+      }
+    },
+    {
+      "id": "extraction of PGMs into waste slag",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "extraction of PGMs into waste slag",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829143"
+      }
+    },
+    {
+      "id": "loss rates with waste slag",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "loss rates with waste slag",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829146"
+      }
+    },
+    {
+      "id": "finding_loss_5",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "finding_loss_5",
+        "ingestion_date": "2026-07-04T16:05:41.829148"
+      }
+    },
+    {
+      "id": "finding_extraction_10",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "24 Статья.docx",
+        "id": "finding_extraction_10",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829151"
+      }
+    },
+    {
+      "id": "Candidate of Technical Sciences",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Candidate of Technical Sciences",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829156"
+      }
+    },
+    {
+      "id": "Russia",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Russia",
+        "ingestion_date": "2026-07-04T16:05:41.829159"
+      }
+    },
+    {
+      "id": "восстановление шлака окислительной плавки",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "восстановление шлака окислительной плавки",
+        "ingestion_date": "2026-07-04T16:05:41.829161"
+      }
+    },
+    {
+      "id": "режимные параметры процесса",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "режимные параметры процесса",
+        "ingestion_date": "2026-07-04T16:05:41.829164"
+      }
+    },
+    {
+      "id": "фаза на основе железа",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "фаза на основе железа",
+        "ingestion_date": "2026-07-04T16:05:41.829166"
+      }
+    },
+    {
+      "id": "флотационные методы",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "флотационные методы",
+        "ingestion_date": "2026-07-04T16:05:41.829171"
+      }
+    },
+    {
+      "id": "доизвлечение цветных и благородных металлов из шлаков электроплавки",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "доизвлечение цветных и благородных металлов из шлаков электроплавки",
+        "ingestion_date": "2026-07-04T16:05:41.829174"
+      }
+    },
+    {
+      "id": "шлаки электроплавки",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "шлаки электроплавки",
+        "ingestion_date": "2026-07-04T16:05:41.829176"
+      }
+    },
+    {
+      "id": "оксиды хрома",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "оксиды хрома",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829179"
+      }
+    },
+    {
+      "id": "оксиды магния",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "оксиды магния",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829182"
+      }
+    },
+    {
+      "id": "Copper Cliff",
+      "label": "Facility",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Copper Cliff",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829184"
+      }
+    },
+    {
+      "id": "потери цветных металлов со шлаками",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "потери цветных металлов со шлаками",
+        "ingestion_date": "2026-07-04T16:05:41.829189"
+      }
+    },
+    {
+      "id": "finding_loss_copper_nickel_high",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "24 Статья.docx",
+        "id": "finding_loss_copper_nickel_high",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829197"
+      }
+    },
+    {
+      "id": "работы [10-13]",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "работы [10-13]",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829202"
+      }
+    },
+    {
+      "id": "работы [13]",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "работы [13]",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829205"
+      }
+    },
+    {
+      "id": "finding_loss_ni_cu_04",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Потери цветных металлов со шлаками на Copper Cliff превышают 0,4% по меди и никелю для каждого металла при близком качестве перерабатываемого рудного концентрата",
+        "source_document": "24 Статья.docx",
+        "id": "finding_loss_ni_cu_04",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829207"
+      }
+    },
+    {
+      "id": "meas_loss_ni_cu_04",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "min": 0.4,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "meas_loss_ni_cu_04",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:05:41.829210"
+      }
+    },
+    {
+      "id": "ГМК Норильский Никель",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "ГМК Норильский Никель",
+        "ingestion_date": "2026-07-04T16:05:41.829217"
+      }
+    },
+    {
+      "id": "project_vanyukov",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "description": "Проект переработки никельсодержащего сырья с высоким содержанием благородных металлов в печи Ванюкова с получением штейна и шлака, направляемого на обеднение",
+        "source_document": "24 Статья.docx",
+        "id": "project_vanyukov",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829220"
+      }
+    },
+    {
+      "id": "Process_Vanyukov",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Печь Ванюкова",
+        "description": "Технология обеднения шлака с использованием барботажа, моделирующего условия печи Ванюкова",
+        "source_document": "24 Статья.docx",
+        "id": "Process_Vanyukov",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829222"
+      }
+    },
+    {
+      "id": "finding_vanyukov_advantage",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Использование печи Ванюкова в качестве обеднительной позволяет существенно сократить габариты агрегата по сравнению с электропечью за счет интенсивного перемешивания расплава",
+        "source_document": "24 Статья.docx",
+        "id": "finding_vanyukov_advantage",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829225"
+      }
+    },
+    {
+      "id": "Material_shlak",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "name": "шлак",
+        "source_document": "24 Статья.docx",
+        "id": "Material_shlak",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829227"
+      }
+    },
+    {
+      "id": "Material_shstein",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "name": "штейн",
+        "source_document": "24 Статья.docx",
+        "id": "Material_shstein",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829230"
+      }
+    },
+    {
+      "id": "Property_baron_metals",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "благородные металлы",
+        "source_document": "24 Статья.docx",
+        "id": "Property_baron_metals",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829232"
+      }
+    },
+    {
+      "id": "Property_loss",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "потери цветных металлов",
+        "source_document": "24 Статья.docx",
+        "id": "Property_loss",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829234"
+      }
+    },
+    {
+      "id": "Condition_bubbling",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "name": "барботаж",
+        "source_document": "24 Статья.docx",
+        "id": "Condition_bubbling",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829237"
+      }
+    },
+    {
+      "id": "Topic_noble_metals",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "благородные металлы",
+        "source_document": "24 Статья.docx",
+        "id": "Topic_noble_metals",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829240"
+      }
+    },
+    {
+      "id": "Topic_shlak_enrichment",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "обеднение шлака",
+        "source_document": "24 Статья.docx",
+        "id": "Topic_shlak_enrichment",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829242"
+      }
+    },
+    {
+      "id": "Topic_Vanyukov_furnace",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "печь Ванюкова",
+        "source_document": "24 Статья.docx",
+        "id": "Topic_Vanyukov_furnace",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829244"
+      }
+    },
+    {
+      "id": "Topic_bubbling_process",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "барботажный процесс",
+        "source_document": "24 Статья.docx",
+        "id": "Topic_bubbling_process",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829247"
+      }
+    },
+    {
+      "id": "Publication_13",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Publication_13",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829249"
+      }
+    },
+    {
+      "id": "Publication_14",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Publication_14",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829252"
+      }
+    },
+    {
+      "id": "Publication_15",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Publication_15",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829254"
+      }
+    },
+    {
+      "id": "Publication_16",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Publication_16",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829257"
+      }
+    },
+    {
+      "id": "meas_time_5_30",
+      "label": "Measurement",
+      "properties": {
+        "unit": "минут",
+        "min": 5,
+        "max": 30,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "meas_time_5_30",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:05:41.829261"
+      }
+    },
+    {
+      "id": "meas_time_5_25",
+      "label": "Measurement",
+      "properties": {
+        "unit": "минут",
+        "min": 5,
+        "max": 25,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "meas_time_5_25",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:05:41.829264"
+      }
+    },
+    {
+      "id": "process_oxidative_smelting",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "description": "окислительная плавка сульфидного медно-никелевого концентрата",
+        "source_document": "24 Статья.docx",
+        "id": "process_oxidative_smelting",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829269"
+      }
+    },
+    {
+      "id": "material_copper_nickel_concentrate",
+      "label": "Material",
+      "properties": {
+        "composition": "сульфидный медно-никелевый",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "material_copper_nickel_concentrate",
+        "validation_status": "pending",
+        "type": "concentrate",
+        "ingestion_date": "2026-07-04T16:05:41.829271"
+      }
+    },
+    {
+      "id": "material_shale",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "name": "штейн",
+        "source_document": "24 Статья.docx",
+        "id": "material_shale",
+        "validation_status": "pending",
+        "type": "byproduct",
+        "ingestion_date": "2026-07-04T16:05:41.829276"
+      }
+    },
+    {
+      "id": "condition_oxidizing",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "description": "окислительная атмосфера",
+        "source_document": "24 Статья.docx",
+        "id": "condition_oxidizing",
+        "validation_status": "pending",
+        "type": "atmosphere",
+        "ingestion_date": "2026-07-04T16:05:41.829279"
+      }
+    },
+    {
+      "id": "equipment_induction_furnace",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "name": "индукционная печь",
+        "source_document": "24 Статья.docx",
+        "id": "equipment_induction_furnace",
+        "validation_status": "pending",
+        "type": "furnace",
+        "ingestion_date": "2026-07-04T16:05:41.829281"
+      }
+    },
+    {
+      "id": "experiment_aalto_2015",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "description": "эксперимент по окислительной плавке сульфидного медно-никелевого концентрата",
+        "source_document": "24 Статья.docx",
+        "id": "experiment_aalto_2015",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829283"
+      }
+    },
+    {
+      "id": "property_distribution_coefficient",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "коэффициент распределения металла между продуктами плавки",
+        "description": "распределение металлов платиновой группы между штейном и шлаком",
+        "source_document": "24 Статья.docx",
+        "id": "property_distribution_coefficient",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829286"
+      }
+    },
+    {
+      "id": "property_mechanical_loss",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "механические потери",
+        "description": "потери металлов платиновой группы из-за запутывания корольков штейна в шлаке",
+        "source_document": "24 Статья.docx",
+        "id": "property_mechanical_loss",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829288"
+      }
+    },
+    {
+      "id": "property_soluble_loss",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "растворимые потери",
+        "description": "потери металлов платиновой группы в растворённой форме в шлаке",
+        "source_document": "24 Статья.docx",
+        "id": "property_soluble_loss",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829290"
+      }
+    },
+    {
+      "id": "property_pg_behavior",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "поведение металлов платиновой группы",
+        "description": "распределение и фазовая стабильность в расплаве",
+        "source_document": "24 Статья.docx",
+        "id": "property_pg_behavior",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829293"
+      }
+    },
+    {
+      "id": "meas_distrib_coeff_pg",
+      "label": "Measurement",
+      "properties": {
+        "unit": "dimensionless",
+        "min": 0.1,
+        "max": 0.5,
+        "confidence": 0.5,
+        "verified": true,
+        "description": "коэффициент распределения металлов платиновой группы между штейном и шлаком",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "meas_distrib_coeff_pg",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:05:41.829296"
+      }
+    },
+    {
+      "id": "finding_loss_mechanical",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "statement": "основные потери металлов платиновой группы со шлаками связаны с запутыванием корольков штейна в объеме шлака – механическими потерями, а доля растворимых потерь невелика",
+        "source_document": "24 Статья.docx",
+        "id": "finding_loss_mechanical",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829298"
+      }
+    },
+    {
+      "id": "thermodynamic_model_pg",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "statement": "разработана термодинамическая модель, описывающая поведение металлов платиновой группы при различном соотношении шлака и штейна в расплаве",
+        "source_document": "24 Статья.docx",
+        "id": "thermodynamic_model_pg",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829300"
+      }
+    },
+    {
+      "id": "expert_aalto",
+      "label": "Expert",
+      "properties": {
+        "affiliation": "Финский университет Aalto",
+        "confidence": 0.5,
+        "name": "Альто А. А.",
+        "source_document": "24 Статья.docx",
+        "id": "expert_aalto",
+        "validation_status": "pending",
+        "email": "aalto@aalto.fi",
+        "ingestion_date": "2026-07-04T16:05:41.829303"
+      }
+    },
+    {
+      "id": "expert_korotkov",
+      "label": "Expert",
+      "properties": {
+        "affiliation": "Институт металлургии",
+        "confidence": 0.5,
+        "name": "Коротков А. А.",
+        "source_document": "24 Статья.docx",
+        "id": "expert_korotkov",
+        "validation_status": "pending",
+        "email": "korotkov@im.ru",
+        "ingestion_date": "2026-07-04T16:05:41.829306"
+      }
+    },
+    {
+      "id": "facility_aalto_university",
+      "label": "Facility",
+      "properties": {
+        "country": "FI",
+        "confidence": 0.5,
+        "name": "Финский университет Aalto",
+        "source_document": "24 Статья.docx",
+        "id": "facility_aalto_university",
+        "validation_status": "pending",
+        "type": "university",
+        "ingestion_date": "2026-07-04T16:05:41.829308"
+      }
+    },
+    {
+      "id": "facility_institute_metal",
+      "label": "Facility",
+      "properties": {
+        "country": "RU",
+        "confidence": 0.5,
+        "name": "Институт металлургии",
+        "source_document": "24 Статья.docx",
+        "id": "facility_institute_metal",
+        "validation_status": "pending",
+        "type": "research institute",
+        "ingestion_date": "2026-07-04T16:05:41.829311"
+      }
+    },
+    {
+      "id": "publication_aalto_2015",
+      "label": "Publication",
+      "properties": {
+        "year": 2015,
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "publication_aalto_2015",
+        "title": "Распределение металлов платиновой группы при окислительной плавке сульфидного медно-никелевого концентрата",
+        "ingestion_date": "2026-07-04T16:05:41.829313",
+        "authors": [
+          "Альто А. А."
+        ]
+      }
+    },
+    {
+      "id": "publication_korotkov_2020",
+      "label": "Publication",
+      "properties": {
+        "year": 2020,
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "publication_korotkov_2020",
+        "title": "Термодинамическое моделирование поведения металлов платиновой группы в пирометаллургических процессах",
+        "ingestion_date": "2026-07-04T16:05:41.829316",
+        "authors": [
+          "Коротков А. А."
+        ]
+      }
+    },
+    {
+      "id": "topic_oxidative_smelting",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "окислительная плавка",
+        "source_document": "24 Статья.docx",
+        "id": "topic_oxidative_smelting",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829318"
+      }
+    },
+    {
+      "id": "topic_thermodynamic_modeling",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "термодинамическое моделирование",
+        "source_document": "24 Статья.docx",
+        "id": "topic_thermodynamic_modeling",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829321"
+      }
+    },
+    {
+      "id": "geography_ru",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "RU",
+        "source_document": "24 Статья.docx",
+        "id": "geography_ru",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829323"
+      }
+    },
+    {
+      "id": "индукционная печь",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "индукционная печь",
+        "ingestion_date": "2026-07-04T16:05:41.829326"
+      }
+    },
+    {
+      "id": "трубка для подачи газа в расплав",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "трубка для подачи газа в расплав",
+        "ingestion_date": "2026-07-04T16:05:41.829330"
+      }
+    },
+    {
+      "id": "баллон с газом",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "баллон с газом",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829336"
+      }
+    },
+    {
+      "id": "автоматический расходомер газа",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "автоматический расходомер газа",
+        "ingestion_date": "2026-07-04T16:05:41.829338"
+      }
+    },
+    {
+      "id": "восстановительный газ",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "восстановительный газ",
+        "ingestion_date": "2026-07-04T16:05:41.829346"
+      }
+    },
+    {
+      "id": "стальной стержень",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "стальной стержень",
+        "ingestion_date": "2026-07-04T16:05:41.829348"
+      }
+    },
+    {
+      "id": "закалка в воду",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "закалка в воду",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829351"
+      }
+    },
+    {
+      "id": "температура 1450 оС",
+      "label": "Measurement",
+      "properties": {
+        "unit": "оС",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "температура 1450 оС",
+        "value": 1450,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:05:41.829353"
+      }
+    },
+    {
+      "id": "расход газа 1 л/мин",
+      "label": "Measurement",
+      "properties": {
+        "unit": "л/мин",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "расход газа 1 л/мин",
+        "value": 1,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:05:41.829356"
+      }
+    },
+    {
+      "id": "время продувки от 5 до 30 минут",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мин",
+        "min": 5,
+        "max": 30,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "время продувки от 5 до 30 минут",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:05:41.829358"
+      }
+    },
+    {
+      "id": "отстаивание 10 минут",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мин",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "отстаивание 10 минут",
+        "value": 10,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:05:41.829361"
+      }
+    },
+    {
+      "id": "Property_температура",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "температура",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Property_температура",
+        "ingestion_date": "2026-07-04T16:05:41.829363"
+      }
+    },
+    {
+      "id": "Property_расход_газа",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "расход газа",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Property_расход_газа",
+        "ingestion_date": "2026-07-04T16:05:41.829366"
+      }
+    },
+    {
+      "id": "Property_время_продувки",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "время продувки",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Property_время_продувки",
+        "ingestion_date": "2026-07-04T16:05:41.829368"
+      }
+    },
+    {
+      "id": "Property_время_отстаивания",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "время отстаивания",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Property_время_отстаивания",
+        "ingestion_date": "2026-07-04T16:05:41.829370"
+      }
+    },
+    {
+      "id": "Рисунок 1 – Схема лабораторной установки на базе индукционной печи",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Рисунок 1 – Схема лабораторной установки на базе индукционной печи",
+        "ingestion_date": "2026-07-04T16:05:41.829373"
+      }
+    },
+    {
+      "id": "барботажное обеднение шлака",
+      "label": "Process",
+      "properties": {
+        "purpose": "изучение поведения и распределения благородных металлов",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "барботажное обеднение шлака",
+        "ingestion_date": "2026-07-04T16:05:41.829379"
+      }
+    },
+    {
+      "id": "шлак окислительной плавки медно-никелевого концентрата",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "description": "многокомпонентный раствор оксидов, включая SiO2, FeO, Fe3O4, CaO, MgO, Al2O3, на долю которых приходится около 95%",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "шлак окислительной плавки медно-никелевого концентрата",
+        "ingestion_date": "2026-07-04T16:05:41.829382"
+      }
+    },
+    {
+      "id": "FeO",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "FeO",
+        "ingestion_date": "2026-07-04T16:05:41.829386"
+      }
+    },
+    {
+      "id": "Fe3O4",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Fe3O4",
+        "ingestion_date": "2026-07-04T16:05:41.829389"
+      }
+    },
+    {
+      "id": "CaO",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "CaO",
+        "ingestion_date": "2026-07-04T16:05:41.829391"
+      }
+    },
+    {
+      "id": "MgO",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "MgO",
+        "ingestion_date": "2026-07-04T16:05:41.829394"
+      }
+    },
+    {
+      "id": "растворимые потери",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "растворимые потери",
+        "ingestion_date": "2026-07-04T16:05:41.829404"
+      }
+    },
+    {
+      "id": "механические потери",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "механические потери",
+        "ingestion_date": "2026-07-04T16:05:41.829406"
+      }
+    },
+    {
+      "id": "алундовый тигель с навеской шихты",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "алундовый тигель с навеской шихты",
+        "ingestion_date": "2026-07-04T16:05:41.829414"
+      }
+    },
+    {
+      "id": "газовые смеси различного восстановительного потенциала",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "газовые смеси различного восстановительного потенциала",
+        "ingestion_date": "2026-07-04T16:05:41.829416"
+      }
+    },
+    {
+      "id": "лабораторная установка на базе индукционной печи",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "лабораторная установка на базе индукционной печи",
+        "ingestion_date": "2026-07-04T16:05:41.829426"
+      }
+    },
+    {
+      "id": "восстановительный агент",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "восстановительный агент",
+        "ingestion_date": "2026-07-04T16:05:41.829433"
+      }
+    },
+    {
+      "id": "процесс обеднения",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "процесс обеднения",
+        "ingestion_date": "2026-07-04T16:05:41.829436"
+      }
+    },
+    {
+      "id": "property_fe_alloy",
+      "label": "Property",
+      "properties": {
+        "unit": "% масс.",
+        "confidence": 0.5,
+        "name": "содержание железа в сплаве",
+        "source_document": "24 Статья.docx",
+        "id": "property_fe_alloy",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829438"
+      }
+    },
+    {
+      "id": "property_yield_alloy",
+      "label": "Property",
+      "properties": {
+        "unit": "% от массы исходного шлака",
+        "confidence": 0.5,
+        "name": "выход сплава",
+        "source_document": "24 Статья.docx",
+        "id": "property_yield_alloy",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829440"
+      }
+    },
+    {
+      "id": "property_fe_donnaya",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "содержание железа в донной фазе",
+        "source_document": "24 Статья.docx",
+        "id": "property_fe_donnaya",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829443"
+      }
+    },
+    {
+      "id": "meas_fe_alloy_17_1",
+      "label": "Measurement",
+      "properties": {
+        "unit": "% масс.",
+        "min": 17.1,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "meas_fe_alloy_17_1",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:05:41.829445"
+      }
+    },
+    {
+      "id": "meas_fe_alloy_44_9",
+      "label": "Measurement",
+      "properties": {
+        "unit": "% масс.",
+        "max": 44.9,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "meas_fe_alloy_44_9",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:05:41.829448"
+      }
+    },
+    {
+      "id": "meas_yield_alloy_0_96",
+      "label": "Measurement",
+      "properties": {
+        "unit": "% от массы исходного шлака",
+        "min": 0.96,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "meas_yield_alloy_0_96",
+        "operator": ">=",
+        "ingestion_date": "2026-07-04T16:05:41.829450"
+      }
+    },
+    {
+      "id": "meas_yield_alloy_2_53",
+      "label": "Measurement",
+      "properties": {
+        "unit": "% от массы исходного шлака",
+        "max": 2.53,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "meas_yield_alloy_2_53",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T16:05:41.829453"
+      }
+    },
+    {
+      "id": "finding_fe_donnaya_correlation",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "statement": "содержание железа в донной фазе используется в качестве параметра, характеризующего степень восстановительного потенциала системы",
+        "source_document": "24 Статья.docx",
+        "id": "finding_fe_donnaya_correlation",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829455"
+      }
+    },
+    {
+      "id": "finding_dilution",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "finding_dilution",
+        "text": "снижение концентрации благородных металлов в донной фазе является следствием «разбавления» их содержания восстановленным металлическим железом",
+        "ingestion_date": "2026-07-04T16:05:41.829463"
+      }
+    },
+    {
+      "id": "meas_distribution_Pt",
+      "label": "Measurement",
+      "properties": {
+        "unit": "–",
+        "min": 0.1,
+        "max": 1.5,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "meas_distribution_Pt",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:05:41.829465"
+      }
+    },
+    {
+      "id": "process_smelting",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "name": "плавка",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "process_smelting",
+        "ingestion_date": "2026-07-04T16:05:41.829467"
+      }
+    },
+    {
+      "id": "experiment_smelting_analysis",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "name": "химический анализ продуктов плавки",
+        "source_document": "24 Статья.docx",
+        "id": "experiment_smelting_analysis",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829470"
+      }
+    },
+    {
+      "id": "никелевый завод",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "никелевый завод",
+        "ingestion_date": "2026-07-04T16:05:41.829477"
+      }
+    },
+    {
+      "id": "завод stillwater",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "завод stillwater",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829480"
+      }
+    },
+    {
+      "id": "пАО гмк «норильский никель»",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "пАО гмк «норильский никель»",
+        "ingestion_date": "2026-07-04T16:05:41.829482"
+      }
+    },
+    {
+      "id": "Ий завод",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Ий завод",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829485"
+      }
+    },
+    {
+      "id": "Суммарное содержание металлов платиновой группы в продуктах плавки",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Суммарное содержание металлов платиновой группы в продуктах плавки",
+        "ingestion_date": "2026-07-04T16:05:41.829487"
+      }
+    },
+    {
+      "id": "корольки",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "корольки",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829489"
+      }
+    },
+    {
+      "id": "анализ",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "анализ",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829494"
+      }
+    },
+    {
+      "id": "размер",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "размер",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829499"
+      }
+    },
+    {
+      "id": "1 мкм",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мкм",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "1 мкм",
+        "value": 1,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:05:41.829501"
+      }
+    },
+    {
+      "id": "предел количественного обнаружения",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "предел количественного обнаружения",
+        "ingestion_date": "2026-07-04T16:05:41.829504"
+      }
+    },
+    {
+      "id": "гомогенная силикатная основа",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "гомогенная силикатная основа",
+        "ingestion_date": "2026-07-04T16:05:41.829506"
+      }
+    },
+    {
+      "id": "допущение",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "description": "Содержание благородных металлов в механической взвеси принимается равным содержанию в донной фазе для расчета доли механических потерь",
+        "source_document": "24 Статья.docx",
+        "id": "допущение",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829508"
+      }
+    },
+    {
+      "id": "локальность исследования",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "локальность исследования",
+        "ingestion_date": "2026-07-04T16:05:41.829510"
+      }
+    },
+    {
+      "id": "1–5 мкм",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мкм",
+        "min": 1,
+        "max": 5,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "1–5 мкм",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:05:41.829513"
+      }
+    },
+    {
+      "id": "содержание благородных металлов в механической взвеси",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "содержание благородных металлов в механической взвеси",
+        "ingestion_date": "2026-07-04T16:05:41.829515"
+      }
+    },
+    {
+      "id": "содержание благородных металлов в донной фазе",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "содержание благородных металлов в донной фазе",
+        "ingestion_date": "2026-07-04T16:05:41.829518"
+      }
+    },
+    {
+      "id": "расчет доли механических потерь благородных металлов",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "расчет доли механических потерь благородных металлов",
+        "ingestion_date": "2026-07-04T16:05:41.829521"
+      }
+    },
+    {
+      "id": "минимальная доля механических потерь",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "description": "Минимальная доля механических потерь благородных металлов со шлаками из-за малого размера корольков (<1 мкм)",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "минимальная доля механических потерь",
+        "ingestion_date": "2026-07-04T16:05:41.829523"
+      }
+    },
+    {
+      "id": "шлаки благородных металлов",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "шлаки благородных металлов",
+        "ingestion_date": "2026-07-04T16:05:41.829528"
+      }
+    },
+    {
+      "id": "окислительная плавка",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "окислительная плавка",
+        "ingestion_date": "2026-07-04T16:05:41.829531"
+      }
+    },
+    {
+      "id": "механическая взвесь сульфидно-металлических корольков",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "механическая взвесь сульфидно-металлических корольков",
+        "ingestion_date": "2026-07-04T16:05:41.829534"
+      }
+    },
+    {
+      "id": "основная часть теряемы",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "основная часть теряемы",
+        "ingestion_date": "2026-07-04T16:05:41.829536"
+      }
+    },
+    {
+      "id": "склонность к окислению Ru и Ir",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "склонность к окислению Ru и Ir",
+        "ingestion_date": "2026-07-04T16:05:41.829538"
+      }
+    },
+    {
+      "id": "исследователи",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "исследователи",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829541"
+      }
+    },
+    {
+      "id": "работы [18-20]",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "работы [18-20]",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829544"
+      }
+    },
+    {
+      "id": "Table 7",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Table 7",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829546"
+      }
+    },
+    {
+      "id": "строение исследованных проб шлаков",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "строение исследованных проб шлаков",
+        "ingestion_date": "2026-07-04T16:05:41.829551"
+      }
+    },
+    {
+      "id": "силикатная основа",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "силикатная основа",
+        "ingestion_date": "2026-07-04T16:05:41.829553"
+      }
+    },
+    {
+      "id": "корольки (механические потери)",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "корольки (механические потери)",
+        "ingestion_date": "2026-07-04T16:05:41.829555"
+      }
+    },
+    {
+      "id": "доля механических потерь благородных металлов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "доля механических потерь благородных металлов",
+        "ingestion_date": "2026-07-04T16:05:41.829563"
+      }
+    },
+    {
+      "id": "рост механических потерь Pt, Pd, Rh, Au",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "рост механических потерь Pt, Pd, Rh, Au",
+        "ingestion_date": "2026-07-04T16:05:41.829565"
+      }
+    },
+    {
+      "id": "доля механических потерь Au",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "доля механических потерь Au",
+        "ingestion_date": "2026-07-04T16:05:41.829567"
+      }
+    },
+    {
+      "id": "металлическая форма растворения в силикатных расплавах",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "металлическая форма растворения в силикатных расплавах",
+        "ingestion_date": "2026-07-04T16:05:41.829570"
+      }
+    },
+    {
+      "id": "потери благородных металлов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "потери благородных металлов",
+        "ingestion_date": "2026-07-04T16:05:41.829572"
+      }
+    },
+    {
+      "id": "увеличение содержания Fe в донной фазе",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "увеличение содержания Fe в донной фазе",
+        "ingestion_date": "2026-07-04T16:05:41.829575"
+      }
+    },
+    {
+      "id": "объемные доли корольков донной фазы",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "объемные доли корольков донной фазы",
+        "ingestion_date": "2026-07-04T16:05:41.829577"
+      }
+    },
+    {
+      "id": "Publication_25-26",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Publication_25-26",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829580"
+      }
+    },
+    {
+      "id": "finding_ru_ir_recovery",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "невозможность восстановить оксиды Ru и Ir, растворенные в силикатной составляющей шлака вследствие их низкой химической активности",
+        "source_document": "24 Статья.docx",
+        "id": "finding_ru_ir_recovery",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829582"
+      }
+    },
+    {
+      "id": "finding_auro_recovery",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "description": "процесс обеднения шлакового расплава по Au носит иной характер, график не имеет ярко выраженного плато, характерного для металлов платиновой группы, что указывает на возможность более полного доизвлечения Au",
+        "source_document": "24 Статья.docx",
+        "id": "finding_auro_recovery",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829585"
+      }
+    },
+    {
+      "id": "Кр",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "definition": "[г/т Ме в донной фазе]/(г/т Ме в шлаке)",
+        "validation_status": "pending",
+        "id": "Кр",
+        "ingestion_date": "2026-07-04T16:05:41.829590"
+      }
+    },
+    {
+      "id": "донная фаза",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "донная фаза",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829592"
+      }
+    },
+    {
+      "id": "промышленные процессы",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "промышленные процессы",
+        "ingestion_date": "2026-07-04T16:05:41.829600"
+      }
+    },
+    {
+      "id": "нейтральная атмосфера",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "нейтральная атмосфера",
+        "ingestion_date": "2026-07-04T16:05:41.829603"
+      }
+    },
+    {
+      "id": "восстановительная атмосфера",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "восстановительная атмосфера",
+        "ingestion_date": "2026-07-04T16:05:41.829605"
+      }
+    },
+    {
+      "id": "наибольшие значения коэффициентов распределения",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "наибольшие значения коэффициентов распределения",
+        "ingestion_date": "2026-07-04T16:05:41.829608"
+      }
+    },
+    {
+      "id": "существенный разброс значений",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "существенный разброс значений",
+        "ingestion_date": "2026-07-04T16:05:41.829610"
+      }
+    },
+    {
+      "id": "открытая печать",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "открытая печать",
+        "ingestion_date": "2026-07-04T16:05:41.829612"
+      }
+    },
+    {
+      "id": "данные о содержаниях благородных металлов в шлаке",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "данные о содержаниях благородных металлов в шлаке",
+        "ingestion_date": "2026-07-04T16:05:41.829615"
+      }
+    },
+    {
+      "id": "оптимальное содержание железа в донной фазе",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "оптимальное содержание железа в донной фазе",
+        "ingestion_date": "2026-07-04T16:05:41.829617"
+      }
+    },
+    {
+      "id": "содержание железа в донной фазе 25-30% масс.",
+      "label": "Condition",
+      "properties": {
+        "unit": "% масс.",
+        "min": 25,
+        "max": 30,
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "содержание железа в донной фазе 25-30% масс.",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T16:05:41.829619"
+      }
+    },
+    {
+      "id": "потери Pt, Pd, Rh с отвальным шлаком",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "потери Pt, Pd, Rh с отвальным шлаком",
+        "ingestion_date": "2026-07-04T16:05:41.829622"
+      }
+    },
+    {
+      "id": "потери Ru, Ir с отвальным шлаком",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "потери Ru, Ir с отвальным шлаком",
+        "ingestion_date": "2026-07-04T16:05:41.829625"
+      }
+    },
+    {
+      "id": "невозможность восстановить оксиды Ru и Ir",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "невозможность восстановить оксиды Ru и Ir",
+        "ingestion_date": "2026-07-04T16:05:41.829627"
+      }
+    },
+    {
+      "id": "низкая химическая активность Ru и Ir",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "низкая химическая активность Ru и Ir",
+        "ingestion_date": "2026-07-04T16:05:41.829630"
+      }
+    },
+    {
+      "id": "meas_ir_ru_loss_10",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": "medium",
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "meas_ir_ru_loss_10",
+        "value": 10,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:05:41.829635"
+      }
+    },
+    {
+      "id": "meas_au_loss_25",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": "medium",
+        "verified": true,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "meas_au_loss_25",
+        "value": 25,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T16:05:41.829637"
+      }
+    },
+    {
+      "id": "finding_au_efficiency",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "statement": "Извлечение Au в отвальный шлак при содержании Fe в сплаве 25% масс. составляет ≈25%, что свидетельствует о более низкой эффективности обеднения шлака по Au, чем по металлам платиновой группы, и возможности наиболее полного извлечения данного металла из шлака только при получении высокожелизстых сплавов.",
+        "source_document": "24 Статья.docx",
+        "id": "finding_au_efficiency",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829640"
+      }
+    },
+    {
+      "id": "Avarmaa K.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Avarmaa K.",
+        "ingestion_date": "2026-07-04T16:05:41.829642"
+      }
+    },
+    {
+      "id": "O\\'Brien H.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "O\\'Brien H.",
+        "ingestion_date": "2026-07-04T16:05:41.829645"
+      }
+    },
+    {
+      "id": "Klemettinen L.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Klemettinen L.",
+        "ingestion_date": "2026-07-04T16:05:41.829648"
+      }
+    },
+    {
+      "id": "Taskinen P.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Taskinen P.",
+        "ingestion_date": "2026-07-04T16:05:41.829690"
+      }
+    },
+    {
+      "id": "Sukhomlinov D.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Sukhomlinov D.",
+        "ingestion_date": "2026-07-04T16:05:41.829706"
+      }
+    },
+    {
+      "id": "Johto H.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Johto H.",
+        "ingestion_date": "2026-07-04T16:05:41.829710"
+      }
+    },
+    {
+      "id": "Precious metal distributions in direct nickel matte smelting with low-Сu mattes",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Precious metal distributions in direct nickel matte smelting with low-Сu mattes",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829714"
+      }
+    },
+    {
+      "id": "Precious metal recoveries in secondary copper smelting with high-alumina slags",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Precious metal recoveries in secondary copper smelting with high-alumina slags",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829718"
+      }
+    },
+    {
+      "id": "Slag chemistry of high-alumina iron silicate slags at 1300°C in WEEE smelting",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Slag chemistry of high-alumina iron silicate slags at 1300°C in WEEE smelting",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829721"
+      }
+    },
+    {
+      "id": "Distribution of Ni, Co, Ag, Au, Pt, Pd between copper metals and silica saturated iron silicate slag",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Distribution of Ni, Co, Ag, Au, Pt, Pd between copper metals and silica saturated iron silicate slag",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829723"
+      }
+    },
+    {
+      "id": "Metallurgical and Materials Transactions B",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Metallurgical and Materials Transactions B",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829726"
+      }
+    },
+    {
+      "id": "Journal of material cycles and waste management",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Journal of material cycles and waste management",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829728"
+      }
+    },
+    {
+      "id": "Journal of Sustainable Metallurgy",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Journal of Sustainable Metallurgy",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829731"
+      }
+    },
+    {
+      "id": "Thermodynamic investigation of complex inorganic material systems for improved renewable energy and metals production processes: Proceedings of the European Metallurgical Conference (EMC)",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Thermodynamic investigation of complex inorganic material systems for improved renewable energy and metals production processes: Proceedings of the European Metallurgical Conference (EMC)",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829734"
+      }
+    },
+    {
+      "id": "direct nickel matte smelting with low-Сu mattes",
+      "label": "Process",
+      "properties": {
+        "domain": "metallurgy",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "direct nickel matte smelting with low-Сu mattes",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829737"
+      }
+    },
+    {
+      "id": "secondary copper smelting with high-alumina slags",
+      "label": "Process",
+      "properties": {
+        "domain": "metallurgy",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "secondary copper smelting with high-alumina slags",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829740"
+      }
+    },
+    {
+      "id": "WEEE smelting",
+      "label": "Process",
+      "properties": {
+        "domain": "metallurgy",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "WEEE smelting",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829743"
+      }
+    },
+    {
+      "id": "copper metals",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "copper metals",
+        "ingestion_date": "2026-07-04T16:05:41.829745"
+      }
+    },
+    {
+      "id": "silica saturated iron silicate slag",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "silica saturated iron silicate slag",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829748"
+      }
+    },
+    {
+      "id": "high-alumina iron silicate slags",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "high-alumina iron silicate slags",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829759"
+      }
+    },
+    {
+      "id": "1300°C",
+      "label": "Condition",
+      "properties": {
+        "unit": "°C",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "1300°C",
+        "validation_status": "pending",
+        "value": 1300,
+        "ingestion_date": "2026-07-04T16:05:41.829762"
+      }
+    },
+    {
+      "id": "distribution of Ni, Co, Ag, Au, Pt, Pd",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "distribution of Ni, Co, Ag, Au, Pt, Pd",
+        "ingestion_date": "2026-07-04T16:05:41.829765"
+      }
+    },
+    {
+      "id": "precious metal recoveries",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "24 Статья.docx",
+        "id": "precious metal recoveries",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829768"
+      }
+    },
+    {
+      "id": "slag chemistry",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "slag chemistry",
+        "ingestion_date": "2026-07-04T16:05:41.829770"
+      }
+    },
+    {
+      "id": "Topic_precious_metal_distribution",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Topic_precious_metal_distribution",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829773"
+      }
+    },
+    {
+      "id": "Topic_high_alumina_slags",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Topic_high_alumina_slags",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829775"
+      }
+    },
+    {
+      "id": "Topic_WEEE_smelting",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Topic_WEEE_smelting",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829777"
+      }
+    },
+    {
+      "id": "src_p98",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "src_p98",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829780",
+        "span": "p.98"
+      }
+    },
+    {
+      "id": "src_p642",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "src_p642",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829783",
+        "span": "p.642"
+      }
+    },
+    {
+      "id": "src_p772",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "src_p772",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829785",
+        "span": "p.772"
+      }
+    },
+    {
+      "id": "src_p1029",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "src_p1029",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829788",
+        "span": "p.1029"
+      }
+    },
+    {
+      "id": "обеднение шлака окислительной плавки медно-никелевого концентрата",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "обеднение шлака окислительной плавки медно-никелевого концентрата",
+        "ingestion_date": "2026-07-04T16:05:41.829791"
+      }
+    },
+    {
+      "id": "интенсивное перемешивание расплава газовыми смесями различного восстановительного потенциала",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "интенсивное перемешивание расплава газовыми смесями различного восстановительного потенциала",
+        "ingestion_date": "2026-07-04T16:05:41.829794"
+      }
+    },
+    {
+      "id": "содержание Fe",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "содержание Fe",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829796"
+      }
+    },
+    {
+      "id": "извлечение Pt",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "извлечение Pt",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829799"
+      }
+    },
+    {
+      "id": "извлечение Pd",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "извлечение Pd",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829802"
+      }
+    },
+    {
+      "id": "извлечение Rh",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "извлечение Rh",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829805"
+      }
+    },
+    {
+      "id": "остаточное извлечение Pt",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "остаточное извлечение Pt",
+        "ingestion_date": "2026-07-04T16:05:41.829808"
+      }
+    },
+    {
+      "id": "остаточное извлечение Pd",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "остаточное извлечение Pd",
+        "ingestion_date": "2026-07-04T16:05:41.829810"
+      }
+    },
+    {
+      "id": "остаточное извлечение Rh",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "остаточное извлечение Rh",
+        "ingestion_date": "2026-07-04T16:05:41.829813"
+      }
+    },
+    {
+      "id": "потери Ir",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "потери Ir",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829816"
+      }
+    },
+    {
+      "id": "потери Ru",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "потери Ru",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829818"
+      }
+    },
+    {
+      "id": "содержание Fe≥25% масс.",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "содержание Fe≥25% масс.",
+        "ingestion_date": "2026-07-04T16:05:41.829821"
+      }
+    },
+    {
+      "id": "finding_yield_pt_95",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Наиболее полно из металлов платиновой группы в донную фазу извлекаются Pt, Pd и Rh",
+        "source_document": "24 Статья.docx",
+        "id": "finding_yield_pt_95",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829823"
+      }
+    },
+    {
+      "id": "finding_yield_pd_95",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Наиболее полно из металлов платиновой группы в донную фазу извлекаются Pt, Pd и Rh",
+        "source_document": "24 Статья.docx",
+        "id": "finding_yield_pd_95",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829826"
+      }
+    },
+    {
+      "id": "finding_yield_rh_95",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Наиболее полно из металлов платиновой группы в донную фазу извлекаются Pt, Pd и Rh",
+        "source_document": "24 Статья.docx",
+        "id": "finding_yield_rh_95",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829828"
+      }
+    },
+    {
+      "id": "finding_residual_pt_5",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Остаточное извлечение Pt в отвальный шлак находится на уровне 5%",
+        "source_document": "24 Статья.docx",
+        "id": "finding_residual_pt_5",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829831"
+      }
+    },
+    {
+      "id": "finding_residual_pd_5",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Остаточное извлечение Pd в отвальный шлак находится на уровне 5%",
+        "source_document": "24 Статья.docx",
+        "id": "finding_residual_pd_5",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829833"
+      }
+    },
+    {
+      "id": "finding_residual_rh_5",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Остаточное извлечение Rh в отвальный шлак находится на уровне 5%",
+        "source_document": "24 Статья.docx",
+        "id": "finding_residual_rh_5",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829836"
+      }
+    },
+    {
+      "id": "finding_loss_ir_10",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Потери Ir с отвальным шлаком при получении донной фазы с содержанием Fe≥25% масс. составляет ≈10%",
+        "source_document": "24 Статья.docx",
+        "id": "finding_loss_ir_10",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829839"
+      }
+    },
+    {
+      "id": "finding_loss_ru_10",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Потери Ru с отвальным шлаком при получении донной фазы с содержанием Fe≥25% масс. составляет ≈10%",
+        "source_document": "24 Статья.docx",
+        "id": "finding_loss_ru_10",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829841"
+      }
+    },
+    {
+      "id": "property_metallic_solubility",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "металлическая растворимость",
+        "source_document": "24 Статья.docx",
+        "id": "property_metallic_solubility",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829843"
+      }
+    },
+    {
+      "id": "finding_platinum_behavior",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "поведение Au не имеет ярко выраженного плато, характерного для металлов платиновой группы, что указывает на возможность более полного доизвлечения Au",
+        "source_document": "24 Статья.docx",
+        "id": "finding_platinum_behavior",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829846"
+      }
+    },
+    {
+      "id": "experiment_bubbling",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "name": "экспериментальные исследования процесса барботажного обеднения шлака медно-никелевого производства газовыми смесями различного состава",
+        "source_document": "24 Статья.docx",
+        "id": "experiment_bubbling",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829848"
+      }
+    },
+    {
+      "id": "property_reducing_potential",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "восстановительный потенциал",
+        "source_document": "24 Статья.docx",
+        "id": "property_reducing_potential",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829851"
+      }
+    },
+    {
+      "id": "property_iron_content",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "содержание железа",
+        "source_document": "24 Статья.docx",
+        "id": "property_iron_content",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829853"
+      }
+    },
+    {
+      "id": "property_nickel_content",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "содержание никеля",
+        "source_document": "24 Статья.docx",
+        "id": "property_nickel_content",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829859"
+      }
+    },
+    {
+      "id": "property_precious_metal_content",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "содержание благородных металлов",
+        "source_document": "24 Статья.docx",
+        "id": "property_precious_metal_content",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829862"
+      }
+    },
+    {
+      "id": "output_slag",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "name": "отвальный шлак",
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "output_slag",
+        "ingestion_date": "2026-07-04T16:05:41.829864"
+      }
+    },
+    {
+      "id": "output_solid_phase",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "name": "донная фаза",
+        "source_document": "24 Статья.docx",
+        "id": "output_solid_phase",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829867"
+      }
+    },
+    {
+      "id": "finding_iron_as_indicator",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "содержание Fe в донной фазе является универсальной характеристикой восстановительного потенциала процесса",
+        "source_document": "24 Статья.docx",
+        "id": "finding_iron_as_indicator",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829869"
+      }
+    },
+    {
+      "id": "finding_decrease_precious_metals",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "содержание Cu, Ni и благородных металлов снижается как в сплаве, так и в шлаке по мере увеличения содержания Fe в сплаве",
+        "source_document": "24 Статья.docx",
+        "id": "finding_decrease_precious_metals",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829872"
+      }
+    },
+    {
+      "id": "Ерцева Л. Н.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Ерцева Л. Н.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829877"
+      }
+    },
+    {
+      "id": "Ерошевич С.Ю.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Ерошевич С.Ю.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829895"
+      }
+    },
+    {
+      "id": "Грицких В.Б.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Грицких В.Б.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829897"
+      }
+    },
+    {
+      "id": "автореф. дис. докт. техн. наук. — М.: Гинцветмет, 2001",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "автореф. дис. докт. техн. наук. — М.: Гинцветмет, 2001",
+        "ingestion_date": "2026-07-04T16:05:41.829900"
+      }
+    },
+    {
+      "id": "Особенности вещественного состава остатков хлорного растворения никелевого огарка и продуктов его плавки на штейн // Цветные металлы. – 2015. – № 2(866). – С. 36-41",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Особенности вещественного состава остатков хлорного растворения никелевого огарка и продуктов его плавки на штейн // Цветные металлы. – 2015. – № 2(866). – С. 36-41",
+        "ingestion_date": "2026-07-04T16:05:41.829903"
+      }
+    },
+    {
+      "id": "Закономерности распределения благородных металлов между шлаковой и штейновой фазами при плавке сульфидных медных и медно-никелевых концентратов // iPolytech Journal. 2022; 26(1): с. 128-141",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "id": "Закономерности распределения благородных металлов между шлаковой и штейновой фазами при плавке сульфидных медных и медно-никелевых концентратов // iPolytech Journal. 2022; 26(1): с. 128-141",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T16:05:41.829907"
+      }
+    },
+    {
+      "id": "Исследование закономерностей изменения состава черновой меди, получаемой в процессе непрерывного конвертирования // Цветные металлы. – 2020. - №12. – С. 64-69",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "24 Статья.docx",
+        "validation_status": "pending",
+        "id": "Исследование закономерностей изменения состава черновой меди, получаемой в процессе непрерывного конвертирования // Цветные металлы. – 2020. - №12. – С. 64-69",
+        "ingestion_date": "2026-07-04T16:05:41.829909"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "meas_ru_ir_loss_10",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_ru_ir_loss_10",
+      "target": "finding_max_gold_recovery",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_max_gold_recovery",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "BogatyrevDM",
+      "target": "publication_2024",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "TsymbulovLB",
+      "target": "publication_2024",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "OzerovSS",
+      "target": "publication_2024",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "publication_2024",
+      "target": "src_p2",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_max_gold_recovery",
+      "target": "BogatyrevDM",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "finding_max_gold_recovery",
+      "target": "TsymbulovLB",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "finding_max_gold_recovery",
+      "target": "OzerovSS",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "D. M. Bogatyrev",
+      "target": "BogatyrevDM@nornik.ru",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "S. S. Ozerov",
+      "target": "OzerovSS@nornik.ru",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Pt",
+      "target": "meas_loss_pt",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Pt",
+      "target": "meas_loss_pt",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Pd",
+      "target": "meas_loss_pd",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Pd",
+      "target": "meas_loss_pd",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Rh",
+      "target": "meas_loss_rh",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Rh",
+      "target": "meas_loss_rh",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Ru",
+      "target": "meas_loss_ru",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Ru",
+      "target": "meas_loss_ru",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Ir",
+      "target": "meas_loss_ir",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Ir",
+      "target": "meas_loss_ir",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_loss_pt",
+      "target": "src_p3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_loss_pd",
+      "target": "src_p3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_loss_rh",
+      "target": "src_p3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_loss_ru",
+      "target": "src_p3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_loss_ir",
+      "target": "src_p3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "золото",
+      "target": "finding_max_extraction_au",
+      "type": "SHOWED"
+    },
+    {
+      "source": "золото",
+      "target": "finding_max_extraction_au",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_max_extraction_au",
+      "target": "src_p3",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_max_extraction_au",
+      "target": "expert_ivanov_ivan_ivanovich",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "Pt",
+      "target": "loss_rate",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Pt",
+      "target": "loss_rate",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Pd",
+      "target": "loss_rate",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Pd",
+      "target": "loss_rate",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Rh",
+      "target": "loss_rate",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Rh",
+      "target": "loss_rate",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Ru",
+      "target": "loss_rate",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Ru",
+      "target": "loss_rate",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Ir",
+      "target": "loss_rate",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Ir",
+      "target": "loss_rate",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "золото",
+      "target": "extraction",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "золото",
+      "target": "extraction",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "loss_rate",
+      "target": "meas_loss_5",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "loss_rate",
+      "target": "meas_loss_10",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "extraction",
+      "target": "meas_extraction_max",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_loss_5",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_loss_10",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_extraction_max",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_loss_pt_pd_rh",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_loss_ru_ir",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_extraction_aus",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "OzerovSS@nornik.ru",
+      "target": "S. S. Ozerov1",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "S. S. Ozerov1",
+      "target": "Pyrometallurgy Laboratory",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "Pyrometallurgy Laboratory",
+      "target": "Gipronikel Institute LLC",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "S. S. Ozerov1",
+      "target": "Gipronikel Institute LLC",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "S. S. Ozerov1",
+      "target": "Abstract",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Abstract",
+      "target": "Pt",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Abstract",
+      "target": "Pt",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Abstract",
+      "target": "Pd",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Abstract",
+      "target": "Pd",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Abstract",
+      "target": "Rh",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Abstract",
+      "target": "Rh",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Abstract",
+      "target": "Ru",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Abstract",
+      "target": "Ru",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Abstract",
+      "target": "Ir",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Abstract",
+      "target": "Ir",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Abstract",
+      "target": "золото",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Abstract",
+      "target": "золото",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Abstract",
+      "target": "Cu-Ni-Fe",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Abstract",
+      "target": "waste slag",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Abstract",
+      "target": "oxidative melting",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Abstract",
+      "target": "bubbling mode",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Abstract",
+      "target": "reducing gas mixtures",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Abstract",
+      "target": "yield of the bottom phase",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Abstract",
+      "target": "distribution coefficients",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Abstract",
+      "target": "limiting content of Fe",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Abstract",
+      "target": "extraction of PGMs into waste slag",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Abstract",
+      "target": "loss rates with waste slag",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Pt",
+      "target": "Cu-Ni-Fe",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Pt",
+      "target": "Cu-Ni-Fe",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Pd",
+      "target": "Cu-Ni-Fe",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Pd",
+      "target": "Cu-Ni-Fe",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Rh",
+      "target": "Cu-Ni-Fe",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Rh",
+      "target": "Cu-Ni-Fe",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Ru",
+      "target": "Cu-Ni-Fe",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Ru",
+      "target": "Cu-Ni-Fe",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Ir",
+      "target": "Cu-Ni-Fe",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Ir",
+      "target": "Cu-Ni-Fe",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "золото",
+      "target": "Cu-Ni-Fe",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "золото",
+      "target": "Cu-Ni-Fe",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Cu-Ni-Fe",
+      "target": "waste slag",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "oxidative melting",
+      "target": "bubbling mode",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "oxidative melting",
+      "target": "reducing gas mixtures",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "reducing gas mixtures",
+      "target": "bubbling mode",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "distribution coefficients",
+      "target": "Pt",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "distribution coefficients",
+      "target": "Pt",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "distribution coefficients",
+      "target": "Pd",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "distribution coefficients",
+      "target": "Pd",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "distribution coefficients",
+      "target": "Rh",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "distribution coefficients",
+      "target": "Rh",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "distribution coefficients",
+      "target": "Ru",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "distribution coefficients",
+      "target": "Ru",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "distribution coefficients",
+      "target": "Ir",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "distribution coefficients",
+      "target": "Ir",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "distribution coefficients",
+      "target": "золото",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "distribution coefficients",
+      "target": "золото",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "limiting content of Fe",
+      "target": "Cu-Ni-Fe",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "extraction of PGMs into waste slag",
+      "target": "Ru",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "extraction of PGMs into waste slag",
+      "target": "Ru",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "extraction of PGMs into waste slag",
+      "target": "Ir",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "extraction of PGMs into waste slag",
+      "target": "Ir",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "loss rates with waste slag",
+      "target": "Pt",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "loss rates with waste slag",
+      "target": "Pt",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "loss rates with waste slag",
+      "target": "Pd",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "loss rates with waste slag",
+      "target": "Pd",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "loss rates with waste slag",
+      "target": "Rh",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "loss rates with waste slag",
+      "target": "Rh",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Pt",
+      "target": "finding_loss_5",
+      "type": "SHOWED"
+    },
+    {
+      "source": "Pt",
+      "target": "finding_loss_5",
+      "type": "SHOWED"
+    },
+    {
+      "source": "Pd",
+      "target": "finding_loss_5",
+      "type": "SHOWED"
+    },
+    {
+      "source": "Pd",
+      "target": "finding_loss_5",
+      "type": "SHOWED"
+    },
+    {
+      "source": "Rh",
+      "target": "finding_loss_5",
+      "type": "SHOWED"
+    },
+    {
+      "source": "Rh",
+      "target": "finding_loss_5",
+      "type": "SHOWED"
+    },
+    {
+      "source": "Ru",
+      "target": "finding_extraction_10",
+      "type": "SHOWED"
+    },
+    {
+      "source": "Ru",
+      "target": "finding_extraction_10",
+      "type": "SHOWED"
+    },
+    {
+      "source": "Ir",
+      "target": "finding_extraction_10",
+      "type": "SHOWED"
+    },
+    {
+      "source": "Ir",
+      "target": "finding_extraction_10",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_loss_5",
+      "target": "S. S. Ozerov1",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "finding_extraction_10",
+      "target": "S. S. Ozerov1",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "finding_loss_5",
+      "target": "Abstract",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "finding_extraction_10",
+      "target": "Abstract",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Gipronikel Institute LLC",
+      "target": "Russia",
+      "type": "TAGGED"
+    },
+    {
+      "source": "S. S. Ozerov1",
+      "target": "Candidate of Technical Sciences",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "Pyrometallurgy Laboratory",
+      "target": "Candidate of Technical Sciences",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "восстановление шлака окислительной плавки",
+      "target": "режимные параметры процесса",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "восстановление шлака окислительной плавки",
+      "target": "фаза на основе железа",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "фаза на основе железа",
+      "target": "металлы платиновой группы",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "флотационные методы",
+      "target": "доизвлечение цветных и благородных металлов из шлаков электроплавки",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "шлаки электроплавки",
+      "target": "оксиды хрома",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "шлаки электроплавки",
+      "target": "оксиды магния",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Copper Cliff",
+      "target": "потери цветных металлов со шлаками",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Надеждинский металлургический завод",
+      "target": "потери цветных металлов со шлаками",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "потери цветных металлов со шлаками",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "потери цветных металлов со шлаками",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "потери цветных металлов со шлаками",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "потери цветных металлов со шлаками",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Copper Cliff",
+      "target": "режимные параметры процесса",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Надеждинский металлургический завод",
+      "target": "режимные параметры процесса",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "режимные параметры процесса",
+      "target": "работы [10-13]",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "работы [13]",
+      "target": "доизвлечение цветных и благородных металлов из шлаков электроплавки",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "работы [13]",
+      "target": "потери цветных металлов со шлаками",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "работы [13]",
+      "target": "флотационные методы",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "работы [13]",
+      "target": "оксиды хрома",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "работы [13]",
+      "target": "оксиды магния",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "работы [13]",
+      "target": "Copper Cliff",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "работы [13]",
+      "target": "Надеждинский металлургический завод",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Copper Cliff",
+      "target": "работы [13]",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Надеждинский металлургический завод",
+      "target": "работы [13]",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "потери цветных металлов со шлаками",
+      "target": "finding_loss_copper_nickel_high",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_loss_copper_nickel_high",
+      "target": "src_p4",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "режимные параметры процесса",
+      "target": "src_p4",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "флотационные методы",
+      "target": "src_p4",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "оксиды хрома",
+      "target": "src_p4",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "оксиды магния",
+      "target": "src_p4",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Copper Cliff",
+      "target": "src_p4",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Надеждинский металлургический завод",
+      "target": "src_p4",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Copper Cliff",
+      "target": "finding_loss_ni_cu_04",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_loss_ni_cu_04",
+      "target": "meas_loss_ni_cu_04",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_loss_ni_cu_04",
+      "target": "src_p14",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "ГМК Норильский Никель",
+      "target": "project_vanyukov",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "project_vanyukov",
+      "target": "Process_Vanyukov",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Process_Vanyukov",
+      "target": "meas_loss_ni_cu_04",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "project_vanyukov",
+      "target": "finding_vanyukov_advantage",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_vanyukov_advantage",
+      "target": "src_p14",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "project_vanyukov",
+      "target": "Process_Vanyukov",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "Process_Vanyukov",
+      "target": "Material_shlak",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "Process_Vanyukov",
+      "target": "Material_shstein",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "Process_Vanyukov",
+      "target": "Property_baron_metals",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Process_Vanyukov",
+      "target": "Property_loss",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Process_Vanyukov",
+      "target": "Condition_bubbling",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Condition_bubbling",
+      "target": "Property_baron_metals",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "обеднение шлака",
+      "target": "meas_time_5_30",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "обеднение шлака",
+      "target": "meas_time_5_25",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_time_5_30",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_time_5_25",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_loss_mechanical",
+      "target": "src_p1",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_loss_mechanical",
+      "target": "expert_aalto",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "thermodynamic_model_pg",
+      "target": "src_p1",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "thermodynamic_model_pg",
+      "target": "expert_korotkov",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "thermodynamic_model_pg",
+      "target": "publication_korotkov_2020",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "process_oxidative_smelting",
+      "target": "material_copper_nickel_concentrate",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "process_oxidative_smelting",
+      "target": "material_slag",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "process_oxidative_smelting",
+      "target": "material_shale",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "process_oxidative_smelting",
+      "target": "condition_oxidizing",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "process_oxidative_smelting",
+      "target": "equipment_induction_furnace",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "experiment_aalto_2015",
+      "target": "process_oxidative_smelting",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "experiment_aalto_2015",
+      "target": "material_copper_nickel_concentrate",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "experiment_aalto_2015",
+      "target": "condition_oxidizing",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "experiment_aalto_2015",
+      "target": "facility_aalto_university",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "experiment_aalto_2015",
+      "target": "publication_aalto_2015",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "experiment_aalto_2015",
+      "target": "src_p1",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "property_distribution_coefficient",
+      "target": "meas_distrib_coeff_pg",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_distrib_coeff_pg",
+      "target": "src_p1",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_distrib_coeff_pg",
+      "target": "property_distribution_coefficient",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "finding_loss_mechanical",
+      "target": "property_mechanical_loss",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "finding_loss_mechanical",
+      "target": "property_soluble_loss",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "thermodynamic_model_pg",
+      "target": "process_oxidative_smelting",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "thermodynamic_model_pg",
+      "target": "property_pg_behavior",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "publication_aalto_2015",
+      "target": "expert_aalto",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "publication_korotkov_2020",
+      "target": "expert_korotkov",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "publication_aalto_2015",
+      "target": "facility_aalto_university",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "publication_korotkov_2020",
+      "target": "facility_institute_metal",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "publication_aalto_2015",
+      "target": "topic_oxidative_smelting",
+      "type": "TAGGED"
+    },
+    {
+      "source": "publication_korotkov_2020",
+      "target": "topic_thermodynamic_modeling",
+      "type": "TAGGED"
+    },
+    {
+      "source": "publication_aalto_2015",
+      "target": "geography_ru",
+      "type": "TAGGED"
+    },
+    {
+      "source": "publication_korotkov_2020",
+      "target": "geography_ru",
+      "type": "TAGGED"
+    },
+    {
+      "source": "индукционная печь",
+      "target": "алундовый тигель",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "индукционная печь",
+      "target": "трубка для подачи газа в расплав",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "индукционная печь",
+      "target": "термопара",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "индукционная печь",
+      "target": "баллон с газом",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "индукционная печь",
+      "target": "автоматический расходомер газа",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "индукционная печь",
+      "target": "эксперимент",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "эксперимент",
+      "target": "алундовый тигель",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "эксперимент",
+      "target": "шлак",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "эксперимент",
+      "target": "восстановительный газ",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "эксперимент",
+      "target": "стальной стержень",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "эксперимент",
+      "target": "закалка в воду",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "эксперимент",
+      "target": "температура 1450 оС",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "эксперимент",
+      "target": "расход газа 1 л/мин",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "эксперимент",
+      "target": "время продувки от 5 до 30 минут",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "эксперимент",
+      "target": "отстаивание 10 минут",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "температура 1450 оС",
+      "target": "Property_температура",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "расход газа 1 л/мин",
+      "target": "Property_расход_газа",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "время продувки от 5 до 30 минут",
+      "target": "Property_время_продувки",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "отстаивание 10 минут",
+      "target": "Property_время_отстаивания",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "эксперимент",
+      "target": "Рисунок 1 – Схема лабораторной установки на базе индукционной печи",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Рисунок 1 – Схема лабораторной установки на базе индукционной печи",
+      "target": "Source_p1",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "барботажное обеднение шлака",
+      "target": "шлак окислительной плавки медно-никелевого концентрата",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "барботажное обеднение шлака",
+      "target": "газовые смеси различного восстановительного потенциала",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "барботажное обеднение шлака",
+      "target": "индукционная печь ТГИЛ 6.799",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "индукционная печь ТГИЛ 6.799",
+      "target": "графитовая труба",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "индукционная печь ТГИЛ 6.799",
+      "target": "алундовый тигель с навеской шихты",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "индукционная печь ТГИЛ 6.799",
+      "target": "термопара",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "индукционная печь ТГИЛ 6.799",
+      "target": "автоматический расходомер газа",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "индукционная печь ТГИЛ 6.799",
+      "target": "баллон с газом",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "барботажное обеднение шлака",
+      "target": "расплав",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "шлак окислительной плавки медно-никелевого концентрата",
+      "target": "SiO2",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "шлак окислительной плавки медно-никелевого концентрата",
+      "target": "SiO2",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "шлак окислительной плавки медно-никелевого концентрата",
+      "target": "FeO",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "шлак окислительной плавки медно-никелевого концентрата",
+      "target": "Fe3O4",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "шлак окислительной плавки медно-никелевого концентрата",
+      "target": "CaO",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "шлак окислительной плавки медно-никелевого концентрата",
+      "target": "MgO",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "шлак окислительной плавки медно-никелевого концентрата",
+      "target": "Al2O3",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "шлак окислительной плавки медно-никелевого концентрата",
+      "target": "цветные металлы",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "шлак окислительной плавки медно-никелевого концентрата",
+      "target": "штейн",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "шлак окислительной плавки медно-никелевого концентрата",
+      "target": "растворимые потери",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "шлак окислительной плавки медно-никелевого концентрата",
+      "target": "механические потери",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "барботажное обеднение шлака",
+      "target": "таблица 1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "индукционная печь ТГИЛ 6.799",
+      "target": "рисунок 1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "индукционная печь ТГИЛ 6.799",
+      "target": "рисунок 1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "барботажное обеднение шлака",
+      "target": "лабораторная установка на базе индукционной печи",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "сплав",
+      "target": "meas_fe_alloy_17_1",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_fe_alloy_17_1",
+      "target": "property_fe_alloy",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_fe_alloy_17_1",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "сплав",
+      "target": "meas_fe_alloy_44_9",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_fe_alloy_44_9",
+      "target": "property_fe_alloy",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_fe_alloy_44_9",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "сплав",
+      "target": "meas_yield_alloy_0_96",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_yield_alloy_0_96",
+      "target": "property_yield_alloy",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_yield_alloy_0_96",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "сплав",
+      "target": "meas_yield_alloy_2_53",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_yield_alloy_2_53",
+      "target": "property_yield_alloy",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_yield_alloy_2_53",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "процесс обеднения",
+      "target": "finding_fe_donnaya_correlation",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_fe_donnaya_correlation",
+      "target": "property_fe_donnaya",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "finding_fe_donnaya_correlation",
+      "target": "src_p7",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "рисунок 2",
+      "target": "finding_fe_donnaya_correlation",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "finding_dilution",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_dilution",
+      "target": "meas_distribution_Pt",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "meas_distribution_Pt",
+      "target": "property_distribution_coefficient",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "process_smelting",
+      "target": "meas_distribution_Pt",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "experiment_smelting_analysis",
+      "target": "meas_distribution_Pt",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "experiment_smelting_analysis",
+      "target": "src_p8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "обеднительная электропечь",
+      "target": "никелевый завод",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "обеднительная электропечь",
+      "target": "Надеждинский металлургический завод",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "обеднительная электропечь",
+      "target": "завод stillwater",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "никелевый завод",
+      "target": "пАО гмк «норильский никель»",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Надеждинский металлургический завод",
+      "target": "пАО гмк «норильский никель»",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "завод stillwater",
+      "target": "пАО гмк «норильский никель»",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "пАО гмк «норильский никель»",
+      "target": "Ий завод",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "пАО гмк «норильский никель»",
+      "target": "никелевый завод",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "завод stillwater",
+      "target": "Суммарное содержание металлов платиновой группы в продуктах плавки",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "шлак",
+      "target": "корольки",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "корольки",
+      "target": "механические потери металлов",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "корольки",
+      "target": "механические потери металлов",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "механические потери металлов",
+      "target": "шлак",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "механические потери металлов",
+      "target": "шлак",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "РЭМ-РСМА",
+      "target": "анализ",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "РЭМ-РСМА",
+      "target": "анализ",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "анализ",
+      "target": "шлак",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "анализ",
+      "target": "шлак",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "анализ",
+      "target": "корольки",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "анализ",
+      "target": "корольки",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "корольки",
+      "target": "размер",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "размер",
+      "target": "1 мкм",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "1 мкм",
+      "target": "предел количественного обнаружения",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "допущение",
+      "target": "содержание благородных металлов в механической взвеси",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "допущение",
+      "target": "содержание благородных металлов в донной фазе",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "допущение",
+      "target": "расчет доли механических потерь благородных металлов",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "РЭМ-РСМА",
+      "target": "локальность исследования",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "локальность исследования",
+      "target": "1–5 мкм",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "1–5 мкм",
+      "target": "предел количественного обнаружения",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "шлак",
+      "target": "гомогенная силикатная основа",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "гомогенная силикатная основа",
+      "target": "шлак",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "допущение",
+      "target": "минимальная доля механических потерь",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "Pt",
+      "target": "шлаки благородных металлов",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Pt",
+      "target": "шлаки благородных металлов",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Pd",
+      "target": "шлаки благородных металлов",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Pd",
+      "target": "шлаки благородных металлов",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Rh",
+      "target": "шлаки благородных металлов",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Rh",
+      "target": "шлаки благородных металлов",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "золото",
+      "target": "шлаки благородных металлов",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "золото",
+      "target": "шлаки благородных металлов",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "окислительная плавка",
+      "target": "шлаки благородных металлов",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "окислительная плавка",
+      "target": "механическая взвесь сульфидно-металлических корольков",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "механическая взвесь сульфидно-металлических корольков",
+      "target": "Pt",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "механическая взвесь сульфидно-металлических корольков",
+      "target": "Pt",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "механическая взвесь сульфидно-металлических корольков",
+      "target": "Pd",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "механическая взвесь сульфидно-металлических корольков",
+      "target": "Pd",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "механическая взвесь сульфидно-металлических корольков",
+      "target": "Rh",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "механическая взвесь сульфидно-металлических корольков",
+      "target": "Rh",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "механическая взвесь сульфидно-металлических корольков",
+      "target": "золото",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "механическая взвесь сульфидно-металлических корольков",
+      "target": "золото",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "механическая взвесь сульфидно-металлических корольков",
+      "target": "основная часть теряемы",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "окислительная плавка",
+      "target": "Ru",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "окислительная плавка",
+      "target": "Ru",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "окислительная плавка",
+      "target": "Ir",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "окислительная плавка",
+      "target": "Ir",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "окислительная плавка",
+      "target": "склонность к окислению Ru и Ir",
+      "type": "SHOWED"
+    },
+    {
+      "source": "склонность к окислению Ru и Ir",
+      "target": "исследователи",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "исследователи",
+      "target": "работы [18-20]",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "работы [18-20]",
+      "target": "Table 7",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "работы [18-20]",
+      "target": "Рисунок 3",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Рисунок 3",
+      "target": "строение исследованных проб шлаков",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "строение исследованных проб шлаков",
+      "target": "силикатная основа",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "строение исследованных проб шлаков",
+      "target": "корольки (механические потери)",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "корольки (механические потери)",
+      "target": "механическая взвесь сульфидно-металлических корольков",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "таблица 7",
+      "target": "доля механических потерь благородных металлов",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "доля механических потерь благородных металлов",
+      "target": "Pt",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "доля механических потерь благородных металлов",
+      "target": "Pt",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "доля механических потерь благородных металлов",
+      "target": "Pd",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "доля механических потерь благородных металлов",
+      "target": "Pd",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "доля механических потерь благородных металлов",
+      "target": "Rh",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "доля механических потерь благородных металлов",
+      "target": "Rh",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "доля механических потерь благородных металлов",
+      "target": "золото",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "доля механических потерь благородных металлов",
+      "target": "золото",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "объемные доли корольков донной фазы",
+      "target": "таблица 7",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "увеличение содержания Fe в донной фазе",
+      "target": "рост механических потерь Pt, Pd, Rh, Au",
+      "type": "SHOWED"
+    },
+    {
+      "source": "рост механических потерь Pt, Pd, Rh, Au",
+      "target": "доля механических потерь Au",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "доля механических потерь Au",
+      "target": "металлическая форма растворения в силикатных расплавах",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "металлическая форма растворения в силикатных расплавах",
+      "target": "золото",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "металлическая форма растворения в силикатных расплавах",
+      "target": "золото",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "металлическая форма растворения в силикатных расплавах",
+      "target": "медь",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "металлическая форма растворения в силикатных расплавах",
+      "target": "медь",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "потери благородных металлов",
+      "target": "механическая взвесь сульфидно-металлических корольков",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "таблица 7",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "рост механических потерь Pt, Pd, Rh, Au",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "доля механических потерь Au",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "металлическая форма растворения в силикатных расплавах",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "потери благородных металлов",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "механическая взвесь сульфидно-металлических корольков",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "увеличение содержания Fe в донной фазе",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "доля механических потерь благородных металлов",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "объемные доли корольков донной фазы",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "таблица 7",
+      "target": "Publication_25-26",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "металлическая форма растворения в силикатных расплавах",
+      "target": "Publication_25-26",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Publication_25-26",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_ru_ir_recovery",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_auro_recovery",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_auro_recovery",
+      "target": "рисунок 4",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Кр",
+      "target": "Pd",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Кр",
+      "target": "Pd",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Кр",
+      "target": "Pt",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Кр",
+      "target": "Pt",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Кр",
+      "target": "Rh",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Кр",
+      "target": "Rh",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Кр",
+      "target": "Ru",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Кр",
+      "target": "Ru",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Кр",
+      "target": "Ir",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Кр",
+      "target": "Ir",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Кр",
+      "target": "золото",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Кр",
+      "target": "золото",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Кр",
+      "target": "донная фаза",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Кр",
+      "target": "шлак",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Кр",
+      "target": "таблица 5",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "таблица 5",
+      "target": "таблица 6",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "таблица 5",
+      "target": "промышленные процессы",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "промышленные процессы",
+      "target": "нейтральная атмосфера",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "промышленные процессы",
+      "target": "восстановительная атмосфера",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "Кр",
+      "target": "наибольшие значения коэффициентов распределения",
+      "type": "SHOWED"
+    },
+    {
+      "source": "наибольшие значения коэффициентов распределения",
+      "target": "Pd",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "наибольшие значения коэффициентов распределения",
+      "target": "Pd",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "наибольшие значения коэффициентов распределения",
+      "target": "Pt",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "наибольшие значения коэффициентов распределения",
+      "target": "Pt",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "наибольшие значения коэффициентов распределения",
+      "target": "Rh",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "наибольшие значения коэффициентов распределения",
+      "target": "Rh",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "наибольшие значения коэффициентов распределения",
+      "target": "Ru",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "наибольшие значения коэффициентов распределения",
+      "target": "Ru",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "наибольшие значения коэффициентов распределения",
+      "target": "Ir",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "наибольшие значения коэффициентов распределения",
+      "target": "Ir",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "наибольшие значения коэффициентов распределения",
+      "target": "золото",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "наибольшие значения коэффициентов распределения",
+      "target": "золото",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Кр",
+      "target": "существенный разброс значений",
+      "type": "SHOWED"
+    },
+    {
+      "source": "Кр",
+      "target": "открытая печать",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "открытая печать",
+      "target": "данные о содержаниях благородных металлов в шлаке",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "оптимальное содержание железа в донной фазе",
+      "target": "механические потери металлов",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "оптимальное содержание железа в донной фазе",
+      "target": "механические потери металлов",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "содержание железа в донной фазе 25-30% масс.",
+      "target": "потери Pt, Pd, Rh с отвальным шлаком",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "содержание железа в донной фазе 25-30% масс.",
+      "target": "потери Ru, Ir с отвальным шлаком",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "потери Ru, Ir с отвальным шлаком",
+      "target": "невозможность восстановить оксиды Ru и Ir",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "невозможность восстановить оксиды Ru и Ir",
+      "target": "низкая химическая активность Ru и Ir",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "низкая химическая активность Ru и Ir",
+      "target": "работы [18-20]",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "отвальный шлак",
+      "target": "meas_ir_ru_loss_10",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_ir_ru_loss_10",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "отвальный шлак",
+      "target": "meas_au_loss_25",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_au_loss_25",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_au_efficiency",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_au_efficiency",
+      "target": "meas_au_loss_25",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_au_efficiency",
+      "target": "meas_ir_ru_loss_10",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "Avarmaa K.",
+      "target": "Precious metal recoveries in secondary copper smelting with high-alumina slags",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "O\\'Brien H.",
+      "target": "Precious metal recoveries in secondary copper smelting with high-alumina slags",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Klemettinen L.",
+      "target": "Precious metal recoveries in secondary copper smelting with high-alumina slags",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Taskinen P.",
+      "target": "Precious metal recoveries in secondary copper smelting with high-alumina slags",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Klemettinen L.",
+      "target": "Slag chemistry of high-alumina iron silicate slags at 1300°C in WEEE smelting",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Avarmaa K.",
+      "target": "Slag chemistry of high-alumina iron silicate slags at 1300°C in WEEE smelting",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Taskinen P.",
+      "target": "Slag chemistry of high-alumina iron silicate slags at 1300°C in WEEE smelting",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Sukhomlinov D.",
+      "target": "Distribution of Ni, Co, Ag, Au, Pt, Pd between copper metals and silica saturated iron silicate slag",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Taskinen P.",
+      "target": "Distribution of Ni, Co, Ag, Au, Pt, Pd between copper metals and silica saturated iron silicate slag",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Avarmaa K.",
+      "target": "Precious metal distributions in direct nickel matte smelting with low-Сu mattes",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "O\\'Brien H.",
+      "target": "Precious metal distributions in direct nickel matte smelting with low-Сu mattes",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Klemettinen L.",
+      "target": "Precious metal distributions in direct nickel matte smelting with low-Сu mattes",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Taskinen P.",
+      "target": "Precious metal distributions in direct nickel matte smelting with low-Сu mattes",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Johto H.",
+      "target": "Precious metal distributions in direct nickel matte smelting with low-Сu mattes",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Precious metal distributions in direct nickel matte smelting with low-Сu mattes",
+      "target": "Metallurgical and Materials Transactions B",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Precious metal recoveries in secondary copper smelting with high-alumina slags",
+      "target": "Journal of material cycles and waste management",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Slag chemistry of high-alumina iron silicate slags at 1300°C in WEEE smelting",
+      "target": "Journal of Sustainable Metallurgy",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "Distribution of Ni, Co, Ag, Au, Pt, Pd between copper metals and silica saturated iron silicate slag",
+      "target": "Thermodynamic investigation of complex inorganic material systems for improved renewable energy and metals production processes: Proceedings of the European Metallurgical Conference (EMC)",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "обеднение шлака окислительной плавки медно-никелевого концентрата",
+      "target": "интенсивное перемешивание расплава газовыми смесями различного восстановительного потенциала",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "обеднение шлака окислительной плавки медно-никелевого концентрата",
+      "target": "донная фаза",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "донная фаза",
+      "target": "содержание Fe",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "донная фаза",
+      "target": "извлечение Pt",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "донная фаза",
+      "target": "извлечение Pd",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "донная фаза",
+      "target": "извлечение Rh",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "донная фаза",
+      "target": "остаточное извлечение Pt",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "донная фаза",
+      "target": "остаточное извлечение Pd",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "донная фаза",
+      "target": "остаточное извлечение Rh",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "донная фаза",
+      "target": "потери Ir",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "донная фаза",
+      "target": "потери Ru",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "донная фаза",
+      "target": "содержание Fe≥25% масс.",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "извлечение Pt",
+      "target": "finding_yield_pt_95",
+      "type": "SHOWED"
+    },
+    {
+      "source": "извлечение Pd",
+      "target": "finding_yield_pd_95",
+      "type": "SHOWED"
+    },
+    {
+      "source": "извлечение Rh",
+      "target": "finding_yield_rh_95",
+      "type": "SHOWED"
+    },
+    {
+      "source": "остаточное извлечение Pt",
+      "target": "finding_residual_pt_5",
+      "type": "SHOWED"
+    },
+    {
+      "source": "остаточное извлечение Pd",
+      "target": "finding_residual_pd_5",
+      "type": "SHOWED"
+    },
+    {
+      "source": "остаточное извлечение Rh",
+      "target": "finding_residual_rh_5",
+      "type": "SHOWED"
+    },
+    {
+      "source": "потери Ir",
+      "target": "finding_loss_ir_10",
+      "type": "SHOWED"
+    },
+    {
+      "source": "потери Ru",
+      "target": "finding_loss_ru_10",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_yield_pt_95",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_yield_pd_95",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_yield_rh_95",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_residual_pt_5",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_residual_pd_5",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_residual_rh_5",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_loss_ir_10",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_loss_ru_10",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "золото",
+      "target": "finding_platinum_behavior",
+      "type": "SHOWED"
+    },
+    {
+      "source": "золото",
+      "target": "finding_platinum_behavior",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_platinum_behavior",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "золото",
+      "target": "property_metallic_solubility",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "золото",
+      "target": "property_metallic_solubility",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "property_metallic_solubility",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "experiment_bubbling",
+      "target": "property_reducing_potential",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "property_reducing_potential",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "experiment_bubbling",
+      "target": "property_iron_content",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "property_iron_content",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "experiment_bubbling",
+      "target": "property_copper_content",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "property_copper_content",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "experiment_bubbling",
+      "target": "property_nickel_content",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "property_nickel_content",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "experiment_bubbling",
+      "target": "property_precious_metal_content",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "property_precious_metal_content",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "experiment_bubbling",
+      "target": "output_slag",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "experiment_bubbling",
+      "target": "output_solid_phase",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "output_solid_phase",
+      "target": "property_iron_content",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "output_slag",
+      "target": "property_precious_metal_content",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "output_solid_phase",
+      "target": "property_copper_content",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "output_solid_phase",
+      "target": "property_nickel_content",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "experiment_bubbling",
+      "target": "finding_iron_as_indicator",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_iron_as_indicator",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "experiment_bubbling",
+      "target": "finding_decrease_precious_metals",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_decrease_precious_metals",
+      "target": "src_p11",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "finding_decrease_precious_metals",
+      "target": "finding_platinum_behavior",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "Ерцева Л. Н.",
+      "target": "автореф. дис. докт. техн. наук. — М.: Гинцветмет, 2001",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Старых Р.В.",
+      "target": "автореф. дис. докт. техн. наук. — М.: Гинцветмет, 2001",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Цемехман Л.Ш.",
+      "target": "автореф. дис. докт. техн. наук. — М.: Гинцветмет, 2001",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Ерцева Л. Н.",
+      "target": "Особенности вещественного состава остатков хлорного растворения никелевого огарка и продуктов его плавки на штейн // Цветные металлы. – 2015. – № 2(866). – С. 36-41",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Старых Р.В.",
+      "target": "Особенности вещественного состава остатков хлорного растворения никелевого огарка и продуктов его плавки на штейн // Цветные металлы. – 2015. – № 2(866). – С. 36-41",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Цемехман Л.Ш.",
+      "target": "Особенности вещественного состава остатков хлорного растворения никелевого огарка и продуктов его плавки на штейн // Цветные металлы. – 2015. – № 2(866). – С. 36-41",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Цымбулов Л.Б.",
+      "target": "Закономерности распределения благородных металлов между шлаковой и штейновой фазами при плавке сульфидных медных и медно-никелевых концентратов // iPolytech Journal. 2022; 26(1): с. 128-141",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Ерошевич С.Ю.",
+      "target": "Закономерности распределения благородных металлов между шлаковой и штейновой фазами при плавке сульфидных медных и медно-никелевых концентратов // iPolytech Journal. 2022; 26(1): с. 128-141",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Озеров С.С.",
+      "target": "Исследование закономерностей изменения состава черновой меди, получаемой в процессе непрерывного конвертирования // Цветные металлы. – 2020. - №12. – С. 64-69",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Грицких В.Б.",
+      "target": "Исследование закономерностей изменения состава черновой меди, получаемой в процессе непрерывного конвертирования // Цветные металлы. – 2020. - №12. – С. 64-69",
+      "type": "AUTHORED_BY"
+    }
+  ]
+}

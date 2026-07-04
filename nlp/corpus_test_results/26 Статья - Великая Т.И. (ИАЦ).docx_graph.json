@@ -1,0 +1,4440 @@
+{
+  "document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+  "nodes": [
+    {
+      "id": "вода",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "вода",
+        "ingestion_date": "2026-07-04T15:56:03.201853"
+      }
+    },
+    {
+      "id": "внутренний стандарт",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "внутренний стандарт",
+        "type": "стандарт",
+        "ingestion_date": "2026-07-04T15:56:03.201365"
+      }
+    },
+    {
+      "id": "азотная кислота",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "азотная кислота",
+        "ingestion_date": "2026-07-04T15:56:03.201166"
+      }
+    },
+    {
+      "id": "плавиковая кислота",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "плавиковая кислота",
+        "ingestion_date": "2026-07-04T15:56:03.201844"
+      }
+    },
+    {
+      "id": "стакан",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "стакан",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201752"
+      }
+    },
+    {
+      "id": "meas_vol_30",
+      "label": "Measurement",
+      "properties": {
+        "unit": "см3",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_vol_30",
+        "value": 30,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.201835"
+      }
+    },
+    {
+      "id": "серная кислота",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "серная кислота",
+        "validation_status": "pending",
+        "type": "кислота",
+        "ingestion_date": "2026-07-04T15:56:03.201171"
+      }
+    },
+    {
+      "id": "флотация",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "флотация",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201456"
+      }
+    },
+    {
+      "id": "соляная кислота",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "соляная кислота",
+        "ingestion_date": "2026-07-04T15:56:03.201757"
+      }
+    },
+    {
+      "id": "кобальт",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "кобальт",
+        "validation_status": "pending",
+        "type": "элемент",
+        "ingestion_date": "2026-07-04T15:56:03.201157"
+      }
+    },
+    {
+      "id": "ограничивающие стандарты",
+      "label": "Topic",
+      "properties": {
+        "domain": "анализ",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "ограничивающие стандарты",
+        "ingestion_date": "2026-07-04T15:56:03.201034"
+      }
+    },
+    {
+      "id": "весовая аликвота",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "весовая аликвота",
+        "ingestion_date": "2026-07-04T15:56:03.201043"
+      }
+    },
+    {
+      "id": "атомно-эмиссионная спектрометрия с использованием способа ограничивающих стандартов",
+      "label": "Process",
+      "properties": {
+        "domain": "анализ",
+        "confidence": 0.5,
+        "description": "методика определения меди и никеля",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "атомно-эмиссионная спектрометрия с использованием способа ограничивающих стандартов",
+        "ingestion_date": "2026-07-04T15:56:03.201068"
+      }
+    },
+    {
+      "id": "электрогравиметрический метод анализа",
+      "label": "Process",
+      "properties": {
+        "domain": "анализ",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "электрогравиметрический метод анализа",
+        "ingestion_date": "2026-07-04T15:56:03.201083"
+      }
+    },
+    {
+      "id": "стандартные образцы файнштейна",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "стандартные образцы файнштейна",
+        "type": "стандартный образец",
+        "ingestion_date": "2026-07-04T15:56:03.201090"
+      }
+    },
+    {
+      "id": "стандартные образцы никелевого и медного файнштейна в форме концентратов",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "стандартные образцы никелевого и медного файнштейна в форме концентратов",
+        "type": "стандартный образец",
+        "ingestion_date": "2026-07-04T15:56:03.201096"
+      }
+    },
+    {
+      "id": "правильность разработанной методики",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "подтверждена анализом стандартных образцов",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "правильность разработанной методики",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201102"
+      }
+    },
+    {
+      "id": "адиальном режиме с использованием программы iTEVA Precision",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "description": "режим работы с программой iTEVA Precision",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "адиальном режиме с использованием программы iTEVA Precision",
+        "ingestion_date": "2026-07-04T15:56:03.201108"
+      }
+    },
+    {
+      "id": "Татьяна Ивановна Великая",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "Татьяна Ивановна Великая",
+        "email": "t.ivanova@gipronikel.ru",
+        "ingestion_date": "2026-07-04T15:56:03.201124"
+      }
+    },
+    {
+      "id": "Наталья Петровна Шихарева",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "Наталья Петровна Шихарева",
+        "email": "n.sihareva@gipronikel.ru",
+        "ingestion_date": "2026-07-04T15:56:03.201128"
+      }
+    },
+    {
+      "id": "Елена Степановна Пославская",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "Елена Степановна Пославская",
+        "email": "e.poslavskaya@gipronikel.ru",
+        "ingestion_date": "2026-07-04T15:56:03.201133"
+      }
+    },
+    {
+      "id": "Виктория Алексеевна Якушкина",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "Виктория Алексеевна Якушкина",
+        "email": "v.yakushkina@gipronikel.ru",
+        "ingestion_date": "2026-07-04T15:56:03.201138"
+      }
+    },
+    {
+      "id": "Определение меди и никеля в медно-никелевом файнштейне и продуктах его разделения, способом ограничивающих стандартов",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "Определение меди и никеля в медно-никелевом файнштейне и продуктах его разделения, способом ограничивающих стандартов",
+        "ingestion_date": "2026-07-04T15:56:03.201144"
+      }
+    },
+    {
+      "id": "электрогравиметрический метод",
+      "label": "Process",
+      "properties": {
+        "domain": "анализ",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "электрогравиметрический метод",
+        "ingestion_date": "2026-07-04T15:56:03.201148"
+      }
+    },
+    {
+      "id": "атомно-абсорбционный метод",
+      "label": "Process",
+      "properties": {
+        "domain": "анализ",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "атомно-абсорбционный метод",
+        "ingestion_date": "2026-07-04T15:56:03.201153"
+      }
+    },
+    {
+      "id": "цинк",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "цинк",
+        "ingestion_date": "2026-07-04T15:56:03.201161"
+      }
+    },
+    {
+      "id": "аммиачная среда",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "аммиачная среда",
+        "ingestion_date": "2026-07-04T15:56:03.201176"
+      }
+    },
+    {
+      "id": "платиновый катод",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "платиновый катод",
+        "ingestion_date": "2026-07-04T15:56:03.201180"
+      }
+    },
+    {
+      "id": "гидроксид железа",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "гидроксид железа",
+        "ingestion_date": "2026-07-04T15:56:03.201190"
+      }
+    },
+    {
+      "id": "от 20 до 80 процентов",
+      "label": "Condition",
+      "properties": {
+        "unit": "%",
+        "min": 20,
+        "max": 80,
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "от 20 до 80 процентов",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T15:56:03.201194"
+      }
+    },
+    {
+      "id": "методика",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "методика",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201199"
+      }
+    },
+    {
+      "id": "Испытательный аналитический центр",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "Испытательный аналитический центр",
+        "ingestion_date": "2026-07-04T15:56:03.201204"
+      }
+    },
+    {
+      "id": "ГОСТ 13047.4",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "ГОСТ 13047.4",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201208"
+      }
+    },
+    {
+      "id": "ГОСТ 13047.10",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "ГОСТ 13047.10",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201213"
+      }
+    },
+    {
+      "id": "ГОСТ 13047.11",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "ГОСТ 13047.11",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201218"
+      }
+    },
+    {
+      "id": "ГОСТ 6012",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "ГОСТ 6012",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201245"
+      }
+    },
+    {
+      "id": "масса меди",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "масса меди",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201251"
+      }
+    },
+    {
+      "id": "масса никеля",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "масса никеля",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201256"
+      }
+    },
+    {
+      "id": "масса кобальта",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "масса кобальта",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201261"
+      }
+    },
+    {
+      "id": "масса платины",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "масса платины",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201266"
+      }
+    },
+    {
+      "id": "электрогравиметрия",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "электрогравиметрия",
+        "ingestion_date": "2026-07-04T15:56:03.201276"
+      }
+    },
+    {
+      "id": "максимальная точность",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "максимальная точность",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201280"
+      }
+    },
+    {
+      "id": "метод атомно-эмиссионной спектроскопии с индуктивно-связанной плазмой",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "метод атомно-эмиссионной спектроскопии с индуктивно-связанной плазмой",
+        "ingestion_date": "2026-07-04T15:56:03.201285"
+      }
+    },
+    {
+      "id": "iCAP 7000",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "iCAP 7000",
+        "ingestion_date": "2026-07-04T15:56:03.201290"
+      }
+    },
+    {
+      "id": "iCAP 6000",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "iCAP 6000",
+        "manufacturer": "Thermo Fisher Scientific",
+        "ingestion_date": "2026-07-04T15:56:03.201294"
+      }
+    },
+    {
+      "id": "iTEVA Precision",
+      "label": "Equipment",
+      "properties": {
+        "purpose": "создание последовательности измерений",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "iTEVA Precision",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201299"
+      }
+    },
+    {
+      "id": "принцип измерения способом ограничивающих стандартов",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "принцип измерения способом ограничивающих стандартов",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201303"
+      }
+    },
+    {
+      "id": "внутренний стандарт скандия",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "внутренний стандарт скандия",
+        "ingestion_date": "2026-07-04T15:56:03.201308"
+      }
+    },
+    {
+      "id": "сульфидный медно-никелевый файнштейн",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "сульфидный медно-никелевый файнштейн",
+        "ingestion_date": "2026-07-04T15:56:03.201312"
+      }
+    },
+    {
+      "id": "продукты переработки",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "продукты переработки",
+        "ingestion_date": "2026-07-04T15:56:03.201317"
+      }
+    },
+    {
+      "id": "полупродукты переработки",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "полупродукты переработки",
+        "ingestion_date": "2026-07-04T15:56:03.201321"
+      }
+    },
+    {
+      "id": "продукты разделения",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "продукты разделения",
+        "ingestion_date": "2026-07-04T15:56:03.201326"
+      }
+    },
+    {
+      "id": "более воспроизводимые результаты",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "более воспроизводимые результаты",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201330"
+      }
+    },
+    {
+      "id": "более точные результаты",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "более точные результаты",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201335"
+      }
+    },
+    {
+      "id": "Thermo Fisher Scientific",
+      "label": "Equipment",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "Thermo Fisher Scientific",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201340"
+      }
+    },
+    {
+      "id": "диапазон содержаний от 20 до 80 процентов",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "диапазон содержаний от 20 до 80 процентов",
+        "ingestion_date": "2026-07-04T15:56:03.201345"
+      }
+    },
+    {
+      "id": "измерение относительных интенсивностей",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "измерение относительных интенсивностей",
+        "ingestion_date": "2026-07-04T15:56:03.201355"
+      }
+    },
+    {
+      "id": "дрейф интенсивностей спектрометра",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "дрейф интенсивностей спектрометра",
+        "ingestion_date": "2026-07-04T15:56:03.201360"
+      }
+    },
+    {
+      "id": "весовой способ приготовления проб",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "весовой способ приготовления проб",
+        "ingestion_date": "2026-07-04T15:56:03.201370"
+      }
+    },
+    {
+      "id": "погрешность весов не более 0,001 г",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "погрешность весов не более 0,001 г",
+        "ingestion_date": "2026-07-04T15:56:03.201374"
+      }
+    },
+    {
+      "id": "матричный эффект",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "матричный эффект",
+        "ingestion_date": "2026-07-04T15:56:03.201379"
+      }
+    },
+    {
+      "id": "стандарты в пределах +20% от ожидаемых содержаний",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "стандарты в пределах +20% от ожидаемых содержаний",
+        "ingestion_date": "2026-07-04T15:56:03.201384"
+      }
+    },
+    {
+      "id": "стандарты в пределах +5% от ожидаемых содержаний",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "стандарты в пределах +5% от ожидаемых содержаний",
+        "ingestion_date": "2026-07-04T15:56:03.201389"
+      }
+    },
+    {
+      "id": "предварительный анализ проб",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "предварительный анализ проб",
+        "ingestion_date": "2026-07-04T15:56:03.201394"
+      }
+    },
+    {
+      "id": "принцип способа ограничивающих стандартов",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "принцип способа ограничивающих стандартов",
+        "ingestion_date": "2026-07-04T15:56:03.201398"
+      }
+    },
+    {
+      "id": "экспериментальная часть",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "экспериментальная часть",
+        "ingestion_date": "2026-07-04T15:56:03.201408"
+      }
+    },
+    {
+      "id": "медный сульфидный концентрат",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "медный сульфидный концентрат",
+        "ingestion_date": "2026-07-04T15:56:03.201417"
+      }
+    },
+    {
+      "id": "никелевый сульфидный концентрат",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "никелевый сульфидный концентрат",
+        "ingestion_date": "2026-07-04T15:56:03.201421"
+      }
+    },
+    {
+      "id": "диапазон массовых долей меди и никеля",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "диапазон массовых долей меди и никеля",
+        "ingestion_date": "2026-07-04T15:56:03.201426"
+      }
+    },
+    {
+      "id": "20",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "20",
+        "value": 20,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.201430"
+      }
+    },
+    {
+      "id": "спектрофотометрический метод",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "спектрофотометрический метод",
+        "ingestion_date": "2026-07-04T15:56:03.201439"
+      }
+    },
+    {
+      "id": "ГОСТ 13047.2",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "ГОСТ 13047.2",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201446"
+      }
+    },
+    {
+      "id": "конвертирование штейна",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "конвертирование штейна",
+        "ingestion_date": "2026-07-04T15:56:03.201451"
+      }
+    },
+    {
+      "id": "сульфидные руды",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "сульфидные руды",
+        "ingestion_date": "2026-07-04T15:56:03.201460"
+      }
+    },
+    {
+      "id": "пирометаллургическая фаза",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "пирометаллургическая фаза",
+        "ingestion_date": "2026-07-04T15:56:03.201465"
+      }
+    },
+    {
+      "id": "аналитические линии меди и никеля",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "аналитические линии меди и никеля",
+        "ingestion_date": "2026-07-04T15:56:03.201478"
+      }
+    },
+    {
+      "id": "линия скандия 361,384 нм",
+      "label": "Property",
+      "properties": {
+        "wavelength": "361,384 нм",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "линия скандия 361,384 нм",
+        "ingestion_date": "2026-07-04T15:56:03.201487"
+      }
+    },
+    {
+      "id": "азотная кислота х.ч.",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "азотная кислота х.ч.",
+        "ingestion_date": "2026-07-04T15:56:03.201492"
+      }
+    },
+    {
+      "id": "соляная кислота х.ч.",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "соляная кислота х.ч.",
+        "ingestion_date": "2026-07-04T15:56:03.201497"
+      }
+    },
+    {
+      "id": "плавиковая кислота х.ч.",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "плавиковая кислота х.ч.",
+        "ingestion_date": "2026-07-04T15:56:03.201502"
+      }
+    },
+    {
+      "id": "деионизованная вода",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "деионизованная вода",
+        "ingestion_date": "2026-07-04T15:56:03.201506"
+      }
+    },
+    {
+      "id": "HotBox-300",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "HotBox-300",
+        "ingestion_date": "2026-07-04T15:56:03.201510"
+      }
+    },
+    {
+      "id": "ООО «Сибирские аналитические системы»",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "ООО «Сибирские аналитические системы»",
+        "ingestion_date": "2026-07-04T15:56:03.201514"
+      }
+    },
+    {
+      "id": "температура 95С",
+      "label": "Condition",
+      "properties": {
+        "unit": "С",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "температура 95С",
+        "validation_status": "pending",
+        "value": 95,
+        "ingestion_date": "2026-07-04T15:56:03.201520"
+      }
+    },
+    {
+      "id": "стандартные растворы S1 и S2",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "стандартные растворы S1 и S2",
+        "ingestion_date": "2026-07-04T15:56:03.201524"
+      }
+    },
+    {
+      "id": "содержание меди и никеля",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "содержание меди и никеля",
+        "ingestion_date": "2026-07-04T15:56:03.201528"
+      }
+    },
+    {
+      "id": "содержания в пределах ± 5 %",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "содержания в пределах ± 5 %",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201532"
+      }
+    },
+    {
+      "id": "определение примерных содержаний компонентов",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "определение примерных содержаний компонентов",
+        "ingestion_date": "2026-07-04T15:56:03.201536"
+      }
+    },
+    {
+      "id": "приготовление стандартов S1 и S2",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "приготовление стандартов S1 и S2",
+        "ingestion_date": "2026-07-04T15:56:03.201540"
+      }
+    },
+    {
+      "id": "рассчитанные содержания (мг/дм3) меди и никеля",
+      "label": "Property",
+      "properties": {
+        "unit": "мг/дм3",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "рассчитанные содержания (мг/дм3) меди и никеля",
+        "ingestion_date": "2026-07-04T15:56:03.201544"
+      }
+    },
+    {
+      "id": "навески чистых металлов никеля и меди",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "навески чистых металлов никеля и меди",
+        "ingestion_date": "2026-07-04T15:56:03.201548"
+      }
+    },
+    {
+      "id": "полипропиленовые пробирки",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "полипропиленовые пробирки",
+        "ingestion_date": "2026-07-04T15:56:03.201552"
+      }
+    },
+    {
+      "id": "разложение навесок чистых металлов",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "разложение навесок чистых металлов",
+        "ingestion_date": "2026-07-04T15:56:03.201556"
+      }
+    },
+    {
+      "id": "азотная кислота, разбавленная деионизованной водой (1:1)",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "азотная кислота, разбавленная деионизованной водой (1:1)",
+        "ingestion_date": "2026-07-04T15:56:03.201561",
+        "ratio": "1:1"
+      }
+    },
+    {
+      "id": "радиальный",
+      "label": "Condition",
+      "properties": {
+        "mode": "radial",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "радиальный",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201569"
+      }
+    },
+    {
+      "id": "вспомогательный поток газа, л/мин",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "вспомогательный поток газа, л/мин",
+        "ingestion_date": "2026-07-04T15:56:03.201573"
+      }
+    },
+    {
+      "id": "meas_aux_gas_0_50",
+      "label": "Measurement",
+      "properties": {
+        "unit": "л/мин",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_aux_gas_0_50",
+        "value": 0.5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.201578"
+      }
+    },
+    {
+      "id": "охлаждающий поток газа, л/мин",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "охлаждающий поток газа, л/мин",
+        "ingestion_date": "2026-07-04T15:56:03.201583"
+      }
+    },
+    {
+      "id": "meas_cool_gas_12",
+      "label": "Measurement",
+      "properties": {
+        "unit": "л/мин",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_cool_gas_12",
+        "value": 12,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.201588"
+      }
+    },
+    {
+      "id": "мощность, подводимая к плазме, Вт",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "мощность, подводимая к плазме, Вт",
+        "ingestion_date": "2026-07-04T15:56:03.201593"
+      }
+    },
+    {
+      "id": "meas_power_1150",
+      "label": "Measurement",
+      "properties": {
+        "unit": "Вт",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_power_1150",
+        "value": 1150,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.201597"
+      }
+    },
+    {
+      "id": "скорость вращения перистальтического насоса, мин-1",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "скорость вращения перистальтического насоса, мин-1",
+        "ingestion_date": "2026-07-04T15:56:03.201601"
+      }
+    },
+    {
+      "id": "meas_pump_speed_60",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мин⁻¹",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_pump_speed_60",
+        "value": 60,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.201605"
+      }
+    },
+    {
+      "id": "время промывки до анализа, с",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "время промывки до анализа, с",
+        "ingestion_date": "2026-07-04T15:56:03.201609"
+      }
+    },
+    {
+      "id": "meas_flush_time_25",
+      "label": "Measurement",
+      "properties": {
+        "unit": "с",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_flush_time_25",
+        "value": 25,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.201614"
+      }
+    },
+    {
+      "id": "время интегрирования детектора, с",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "время интегрирования детектора, с",
+        "ingestion_date": "2026-07-04T15:56:03.201619"
+      }
+    },
+    {
+      "id": "meas_int_time_10",
+      "label": "Measurement",
+      "properties": {
+        "unit": "с",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_int_time_10",
+        "value": 10,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.201623"
+      }
+    },
+    {
+      "id": "распылительный поток, л/мин",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "распылительный поток, л/мин",
+        "ingestion_date": "2026-07-04T15:56:03.201627"
+      }
+    },
+    {
+      "id": "meas_neb_flow_0_55",
+      "label": "Measurement",
+      "properties": {
+        "unit": "л/мин",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_neb_flow_0_55",
+        "value": 0.55,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.201631"
+      }
+    },
+    {
+      "id": "число параллельных измерений",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "число параллельных измерений",
+        "ingestion_date": "2026-07-04T15:56:03.201635"
+      }
+    },
+    {
+      "id": "meas_parallel_2",
+      "label": "Measurement",
+      "properties": {
+        "unit": "",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_parallel_2",
+        "value": 2,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.201640"
+      }
+    },
+    {
+      "id": "finding_internal_standard_used",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "finding_internal_standard_used",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201644"
+      }
+    },
+    {
+      "id": "meas_weight_error_0_001",
+      "label": "Measurement",
+      "properties": {
+        "unit": "г",
+        "max": 0.001,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_weight_error_0_001",
+        "operator": "<=",
+        "ingestion_date": "2026-07-04T15:56:03.201649"
+      }
+    },
+    {
+      "id": "разложение проб",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "разложение проб",
+        "ingestion_date": "2026-07-04T15:56:03.201653"
+      }
+    },
+    {
+      "id": "соляная кислота 1:20",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "соляная кислота 1:20",
+        "ingestion_date": "2026-07-04T15:56:03.201657"
+      }
+    },
+    {
+      "id": "азотная кислота 1:1",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "азотная кислота 1:1",
+        "ingestion_date": "2026-07-04T15:56:03.201661"
+      }
+    },
+    {
+      "id": "бисульфат калия",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "бисульфат калия",
+        "ingestion_date": "2026-07-04T15:56:03.201665"
+      }
+    },
+    {
+      "id": "навеска пробы 0,1000 - 0,2000 г",
+      "label": "Measurement",
+      "properties": {
+        "unit": "г",
+        "min": 0.1,
+        "max": 0.2,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "навеска пробы 0,1000 - 0,2000 г",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T15:56:03.201669"
+      }
+    },
+    {
+      "id": "аликвота 4,0 см3",
+      "label": "Measurement",
+      "properties": {
+        "unit": "см3",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "аликвота 4,0 см3",
+        "validation_status": "pending",
+        "value": 4.0,
+        "ingestion_date": "2026-07-04T15:56:03.201674"
+      }
+    },
+    {
+      "id": "внутренний стандарт скандия 2,0 мг/дм3",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "мг/дм3",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "внутренний стандарт скандия 2,0 мг/дм3",
+        "value": 2.0,
+        "ingestion_date": "2026-07-04T15:56:03.201679"
+      }
+    },
+    {
+      "id": "кипячение 20 минут",
+      "label": "Measurement",
+      "properties": {
+        "unit": "минут",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "кипячение 20 минут",
+        "validation_status": "pending",
+        "value": 20,
+        "ingestion_date": "2026-07-04T15:56:03.201684"
+      }
+    },
+    {
+      "id": "соляная кислота 30 см3",
+      "label": "Measurement",
+      "properties": {
+        "unit": "см3",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "соляная кислота 30 см3",
+        "validation_status": "pending",
+        "value": 30,
+        "ingestion_date": "2026-07-04T15:56:03.201689"
+      }
+    },
+    {
+      "id": "азотная кислота 10 см3",
+      "label": "Measurement",
+      "properties": {
+        "unit": "см3",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "азотная кислота 10 см3",
+        "validation_status": "pending",
+        "value": 10,
+        "ingestion_date": "2026-07-04T15:56:03.201693"
+      }
+    },
+    {
+      "id": "масса 3 г",
+      "label": "Measurement",
+      "properties": {
+        "unit": "г",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "масса 3 г",
+        "validation_status": "pending",
+        "value": 3,
+        "ingestion_date": "2026-07-04T15:56:03.201698"
+      }
+    },
+    {
+      "id": "масса аликвоты скандия",
+      "label": "Measurement",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "масса аликвоты скандия",
+        "ingestion_date": "2026-07-04T15:56:03.201702"
+      }
+    },
+    {
+      "id": "масса",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "масса",
+        "ingestion_date": "2026-07-04T15:56:03.201707"
+      }
+    },
+    {
+      "id": "объём",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "объём",
+        "ingestion_date": "2026-07-04T15:56:03.201711"
+      }
+    },
+    {
+      "id": "концентрация",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "концентрация",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201725"
+      }
+    },
+    {
+      "id": "фильтр (синяя лента)",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "фильтр (синяя лента)",
+        "ingestion_date": "2026-07-04T15:56:03.201730"
+      }
+    },
+    {
+      "id": "колбы с весовой аликвотой скандия",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "колбы с весовой аликвотой скандия",
+        "ingestion_date": "2026-07-04T15:56:03.201735"
+      }
+    },
+    {
+      "id": "платиновая чашка",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "платиновая чашка",
+        "ingestion_date": "2026-07-04T15:56:03.201739"
+      }
+    },
+    {
+      "id": "муфельная печь",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "муфельная печь",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201743"
+      }
+    },
+    {
+      "id": "бисульфат калия (KHSO4)",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "бисульфат калия (KHSO4)",
+        "ingestion_date": "2026-07-04T15:56:03.201748"
+      }
+    },
+    {
+      "id": "мерные колбы на 200 см3",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "мерные колбы на 200 см3",
+        "ingestion_date": "2026-07-04T15:56:03.201761"
+      }
+    },
+    {
+      "id": "внутренний раствор скандия",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "внутренний раствор скандия",
+        "ingestion_date": "2026-07-04T15:56:03.201766"
+      }
+    },
+    {
+      "id": "концентрация внутреннего раствора скандия",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "концентрация внутреннего раствора скандия",
+        "ingestion_date": "2026-07-04T15:56:03.201771"
+      }
+    },
+    {
+      "id": "meas_scd_20",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "мг/дм3",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_scd_20",
+        "value": 2.0,
+        "ingestion_date": "2026-07-04T15:56:03.201775"
+      }
+    },
+    {
+      "id": "стандартный образец медных и никелевых файнштейнов",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "стандартный образец медных и никелевых файнштейнов",
+        "ingestion_date": "2026-07-04T15:56:03.201780"
+      }
+    },
+    {
+      "id": "аттестованное содержание меди и никеля",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "аттестованное содержание меди и никеля",
+        "ingestion_date": "2026-07-04T15:56:03.201784"
+      }
+    },
+    {
+      "id": "третий стандарт",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "третий стандарт",
+        "ingestion_date": "2026-07-04T15:56:03.201789"
+      }
+    },
+    {
+      "id": "концентрация в середине диапазона",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "концентрация в середине диапазона",
+        "ingestion_date": "2026-07-04T15:56:03.201793"
+      }
+    },
+    {
+      "id": "finding_accuracy_control",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "finding_accuracy_control",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201798"
+      }
+    },
+    {
+      "id": "finding_control_standard",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "finding_control_standard",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201803"
+      }
+    },
+    {
+      "id": "Standard_Reference_Material_Cu_Ni",
+      "label": "Material",
+      "properties": {
+        "certified_content": true,
+        "elements": [
+          "Cu",
+          "Ni"
+        ],
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "Standard_Reference_Material_Cu_Ni",
+        "validation_status": "pending",
+        "type": "standard reference material",
+        "ingestion_date": "2026-07-04T15:56:03.201808"
+      }
+    },
+    {
+      "id": "Control_Sample",
+      "label": "Material",
+      "properties": {
+        "usage": "control sample for measurement accuracy",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "Control_Sample",
+        "ingestion_date": "2026-07-04T15:56:03.201812"
+      }
+    },
+    {
+      "id": "Measurement_Precision_Check",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": "high",
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "Measurement_Precision_Check",
+        "value": 1.0,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.201817"
+      }
+    },
+    {
+      "id": "Accuracy_Control",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "accuracy control",
+        "description": "verification of measurement precision using certified reference materials",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "Accuracy_Control",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201821"
+      }
+    },
+    {
+      "id": "кипячение",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "кипячение",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201826"
+      }
+    },
+    {
+      "id": "meas_time_20",
+      "label": "Measurement",
+      "properties": {
+        "unit": "минут",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_time_20",
+        "value": 20,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.201830"
+      }
+    },
+    {
+      "id": "meas_vol_10",
+      "label": "Measurement",
+      "properties": {
+        "unit": "см3",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_vol_10",
+        "value": 10,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.201839"
+      }
+    },
+    {
+      "id": "meas_drops_3_4",
+      "label": "Measurement",
+      "properties": {
+        "unit": "капли",
+        "min": 3,
+        "max": 4,
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_drops_3_4",
+        "operator": "range",
+        "ingestion_date": "2026-07-04T15:56:03.201848"
+      }
+    },
+    {
+      "id": "meas_vol_5",
+      "label": "Measurement",
+      "properties": {
+        "unit": "см3",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_vol_5",
+        "value": 5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.201857"
+      }
+    },
+    {
+      "id": "meas_vol_15",
+      "label": "Measurement",
+      "properties": {
+        "unit": "см3",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_vol_15",
+        "value": 15,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.201862"
+      }
+    },
+    {
+      "id": "meas_vol_40",
+      "label": "Measurement",
+      "properties": {
+        "unit": "см3",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_vol_40",
+        "value": 40,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.201866"
+      }
+    },
+    {
+      "id": "аликвота скандия",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "аликвота скандия",
+        "ingestion_date": "2026-07-04T15:56:03.201871"
+      }
+    },
+    {
+      "id": "meas_vol_4_0",
+      "label": "Measurement",
+      "properties": {
+        "unit": "см3",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_vol_4_0",
+        "value": 4.0,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.201877"
+      }
+    },
+    {
+      "id": "meas_conc_100",
+      "label": "Measurement",
+      "properties": {
+        "unit": "мг/л",
+        "unit_normalized_from": "мг/дм3",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_conc_100",
+        "value": 100.0,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.201882"
+      }
+    },
+    {
+      "id": "meas_mass_4_0",
+      "label": "Measurement",
+      "properties": {
+        "unit": "г",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_mass_4_0",
+        "value": 4.0,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.201886"
+      }
+    },
+    {
+      "id": "meas_copper_5865",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_copper_5865",
+        "value": 58.65,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.201895"
+      }
+    },
+    {
+      "id": "finding_accuracy_copper_nickel",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Правильность определения меди и никеля подтверждена анализом стандартных образцов",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "finding_accuracy_copper_nickel",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201900"
+      }
+    },
+    {
+      "id": "finestine",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "finestine",
+        "validation_status": "pending",
+        "type": "product",
+        "ingestion_date": "2026-07-04T15:56:03.201904"
+      }
+    },
+    {
+      "id": "iTEVA",
+      "label": "Process",
+      "properties": {
+        "purpose": "создание метода анализа",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "iTEVA",
+        "ingestion_date": "2026-07-04T15:56:03.201909"
+      }
+    },
+    {
+      "id": "S1",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "description": "нижний стандарт",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "S1",
+        "type": "стандартный образец",
+        "ingestion_date": "2026-07-04T15:56:03.201913"
+      }
+    },
+    {
+      "id": "S2",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "description": "верхний стандарт",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "S2",
+        "type": "стандартный образец",
+        "ingestion_date": "2026-07-04T15:56:03.201918"
+      }
+    },
+    {
+      "id": "меди",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "содержание меди",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "меди",
+        "ingestion_date": "2026-07-04T15:56:03.201923"
+      }
+    },
+    {
+      "id": "никеля",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "name": "содержание никеля",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "никеля",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201928"
+      }
+    },
+    {
+      "id": "проба",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "проба",
+        "type": "анализируемый образец",
+        "ingestion_date": "2026-07-04T15:56:03.201933"
+      }
+    },
+    {
+      "id": "контрольный образец",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "контрольный образец",
+        "type": "контрольный образец",
+        "ingestion_date": "2026-07-04T15:56:03.201937"
+      }
+    },
+    {
+      "id": "методика определения меди и никеля методом ограничивающих стандартов",
+      "label": "Process",
+      "properties": {
+        "application": "анализ компонентов в диапазоне от 20 до 80%",
+        "domain": "анализ",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "методика определения меди и никеля методом ограничивающих стандартов",
+        "ingestion_date": "2026-07-04T15:56:03.201947"
+      }
+    },
+    {
+      "id": "аттестованные значения стандартных образцов никеля, меди",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "аттестованные значения стандартных образцов никеля, меди",
+        "ingestion_date": "2026-07-04T15:56:03.201952"
+      }
+    },
+    {
+      "id": "электрогравиметрический метод определения меди и никеля",
+      "label": "Process",
+      "properties": {
+        "application": "используется в Испытательном аналитическом центре",
+        "domain": "анализ",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "электрогравиметрический метод определения меди и никеля",
+        "ingestion_date": "2026-07-04T15:56:03.201956"
+      }
+    },
+    {
+      "id": "сокращение времени анализа в 5 раз",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "сравнение с длительным электрогравиметрическим анализом",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "сокращение времени анализа в 5 раз",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201961"
+      }
+    },
+    {
+      "id": "диапазон от 20 до 80%",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "диапазон от 20 до 80%",
+        "ingestion_date": "2026-07-04T15:56:03.201966"
+      }
+    },
+    {
+      "id": "метрологические характеристики не хуже, чем у электрогравиметрической методики",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "метрологические характеристики не хуже, чем у электрогравиметрической методики",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201971"
+      }
+    },
+    {
+      "id": "процесс набора статического материала для метрологической аттестации методики",
+      "label": "Finding",
+      "properties": {
+        "confidence": "medium",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "процесс набора статического материала для метрологической аттестации методики",
+        "ingestion_date": "2026-07-04T15:56:03.201977"
+      }
+    },
+    {
+      "id": "источник p.8",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "источник p.8",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.201995",
+        "span": "p.8"
+      }
+    },
+    {
+      "id": "МИ 04-06-70-2016",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "МИ 04-06-70-2016",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.202000"
+      }
+    },
+    {
+      "id": "СОП ШТН 81-2018",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "СОП ШТН 81-2018",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.202004"
+      }
+    },
+    {
+      "id": "finding_сравнение_методик",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "finding_сравнение_методик",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.202010"
+      }
+    },
+    {
+      "id": "meas_никель_5850",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_никель_5850",
+        "value": 58.5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.202015"
+      }
+    },
+    {
+      "id": "meas_никель_5859",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_никель_5859",
+        "value": 58.59,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.202020"
+      }
+    },
+    {
+      "id": "meas_разность_009",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_разность_009",
+        "value": -1.0,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.202025"
+      }
+    },
+    {
+      "id": "ООО Институт Гипроникель",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "ООО Институт Гипроникель",
+        "ingestion_date": "2026-07-04T15:56:03.202030"
+      }
+    },
+    {
+      "id": "ГОСТ 6012-2011",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "ГОСТ 6012-2011",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.202035"
+      }
+    },
+    {
+      "id": "ГОСТ 13047.2-2014",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "ГОСТ 13047.2-2014",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.202039"
+      }
+    },
+    {
+      "id": "ГОСТ Р 55685-2013",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "ГОСТ Р 55685-2013",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.202044"
+      }
+    },
+    {
+      "id": "разность, %",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "разность, %",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.202049"
+      }
+    },
+    {
+      "id": "meas_ni_5850",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_ni_5850",
+        "value": 58.5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.202053"
+      }
+    },
+    {
+      "id": "meas_ni_4290",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_ni_4290",
+        "value": 42.9,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.202058"
+      }
+    },
+    {
+      "id": "meas_ni_5231",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_ni_5231",
+        "value": 52.31,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.202063"
+      }
+    },
+    {
+      "id": "meas_ni_7630",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_ni_7630",
+        "value": 76.3,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.202068"
+      }
+    },
+    {
+      "id": "meas_ni_509",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_ni_509",
+        "value": 50.9,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.202073"
+      }
+    },
+    {
+      "id": "meas_ni_415",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_ni_415",
+        "value": 41.5,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.202077"
+      }
+    },
+    {
+      "id": "meas_cu_6674",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_cu_6674",
+        "value": 66.74,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.202082"
+      }
+    },
+    {
+      "id": "meas_cu_2100",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_cu_2100",
+        "value": 21.0,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.202086"
+      }
+    },
+    {
+      "id": "meas_cu_2891",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_cu_2891",
+        "value": 28.91,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.202091"
+      }
+    },
+    {
+      "id": "meas_cu_1908",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_cu_1908",
+        "value": 19.08,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.202095"
+      }
+    },
+    {
+      "id": "meas_cu_3174",
+      "label": "Measurement",
+      "properties": {
+        "unit": "%",
+        "confidence": 0.5,
+        "verified": true,
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "validation_status": "pending",
+        "id": "meas_cu_3174",
+        "value": 31.74,
+        "operator": "=",
+        "ingestion_date": "2026-07-04T15:56:03.202100"
+      }
+    },
+    {
+      "id": "finding_precision_ni_20_50",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Погрешность аттестации для никеля в диапазоне 20,00–50,00% составляет 0,2–0,3%",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "finding_precision_ni_20_50",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.202105"
+      }
+    },
+    {
+      "id": "finding_precision_ni_50_80",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Погрешность аттестации для никеля свыше 50,00–80,00% составляет 0,4–0,5%",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "finding_precision_ni_50_80",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.202110"
+      }
+    },
+    {
+      "id": "finding_precision_cu_20_50",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Погрешность аттестации для меди в диапазоне 20,00–50,00% составляет 0,3–0,3%",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "finding_precision_cu_20_50",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.202115"
+      }
+    },
+    {
+      "id": "finding_precision_cu_50_80",
+      "label": "Finding",
+      "properties": {
+        "confidence": "high",
+        "description": "Погрешность аттестации для меди свыше 50,00–80,00% составляет 0,4–0,3%",
+        "source_document": "26 Статья - Великая Т.И. (ИАЦ).docx",
+        "id": "finding_precision_cu_50_80",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T15:56:03.202120"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "файнштейн",
+      "target": "ограничивающие стандарты",
+      "type": "TAGGED"
+    },
+    {
+      "source": "файнштейн",
+      "target": "весовая аликвота",
+      "type": "TAGGED"
+    },
+    {
+      "source": "файнштейн",
+      "target": "медь",
+      "type": "TAGGED"
+    },
+    {
+      "source": "файнштейн",
+      "target": "медь",
+      "type": "TAGGED"
+    },
+    {
+      "source": "файнштейн",
+      "target": "никель",
+      "type": "TAGGED"
+    },
+    {
+      "source": "файнштейн",
+      "target": "никель",
+      "type": "TAGGED"
+    },
+    {
+      "source": "файнштейн",
+      "target": "атомно-эмиссионная спектрометрия",
+      "type": "TAGGED"
+    },
+    {
+      "source": "файнштейн",
+      "target": "атомно-эмиссионная спектрометрия",
+      "type": "TAGGED"
+    },
+    {
+      "source": "атомно-эмиссионная спектрометрия с использованием способа ограничивающих стандартов",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "атомно-эмиссионная спектрометрия с использованием способа ограничивающих стандартов",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "атомно-эмиссионная спектрометрия с использованием способа ограничивающих стандартов",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "атомно-эмиссионная спектрометрия с использованием способа ограничивающих стандартов",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "атомно-эмиссионная спектрометрия с использованием способа ограничивающих стандартов",
+      "target": "электрогравиметрический метод анализа",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "атомно-эмиссионная спектрометрия с использованием способа ограничивающих стандартов",
+      "target": "правильность разработанной методики",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "правильность разработанной методики",
+      "target": "стандартные образцы файнштейна",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "правильность разработанной методики",
+      "target": "стандартные образцы никелевого и медного файнштейна в форме концентратов",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "атомно-эмиссионная спектрометрия с использованием способа ограничивающих стандартов",
+      "target": "адиальном режиме с использованием программы iTEVA Precision",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "адиальном режиме с использованием программы iTEVA Precision",
+      "target": "атомно-эмиссионная спектрометрия с использованием способа ограничивающих стандартов",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "ООО «Институт Гипроникель»",
+      "target": "Татьяна Ивановна Великая",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "ООО «Институт Гипроникель»",
+      "target": "Наталья Петровна Шихарева",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "ООО «Институт Гипроникель»",
+      "target": "Елена Степановна Пославская",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "ООО «Институт Гипроникель»",
+      "target": "Виктория Алексеевна Якушкина",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "ООО «Институт Гипроникель»",
+      "target": "Определение меди и никеля в медно-никелевом файнштейне и продуктах его разделения, способом ограничивающих стандартов",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "Испытательный аналитический центр",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "кобальт",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "масса меди",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "масса никеля",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "масса кобальта",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "масса платины",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "азотная кислота",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "серная кислота",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "аммиачная среда",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "платиновый катод",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "анод",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "гидроксид железа",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "атомно-абсорбционный метод",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "атомно-абсорбционный метод",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "атомно-абсорбционный метод",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "атомно-абсорбционный метод",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "атомно-абсорбционный метод",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "атомно-абсорбционный метод",
+      "target": "кобальт",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "атомно-абсорбционный метод",
+      "target": "масса никеля",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "атомно-абсорбционный метод",
+      "target": "масса кобальта",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "методика",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "методика",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "методика",
+      "target": "Испытательный аналитический центр",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "методика",
+      "target": "Испытательный аналитический центр",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "методика",
+      "target": "ГОСТ 13047.4",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "методика",
+      "target": "ГОСТ 13047.4",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "методика",
+      "target": "ГОСТ 13047.10",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "методика",
+      "target": "ГОСТ 13047.10",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "методика",
+      "target": "ГОСТ 13047.11",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "методика",
+      "target": "ГОСТ 13047.11",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "методика",
+      "target": "ГОСТ 6012",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "методика",
+      "target": "ГОСТ 6012",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "медь",
+      "target": "ГОСТ 13047.10",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "медь",
+      "target": "ГОСТ 13047.10",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "кобальт",
+      "target": "ГОСТ 13047.4",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "цинк",
+      "target": "ГОСТ 13047.11",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "медь",
+      "target": "ГОСТ 6012",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "медь",
+      "target": "ГОСТ 6012",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "от 20 до 80 процентов",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "атомно-абсорбционный метод",
+      "target": "от 20 до 80 процентов",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "методика",
+      "target": "Испытательный аналитический центр",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "методика",
+      "target": "Испытательный аналитический центр",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "электрогравиметрия",
+      "target": "максимальная точность",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "метод атомно-эмиссионной спектроскопии с индуктивно-связанной плазмой",
+      "target": "iCAP 7000",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "метод атомно-эмиссионной спектроскопии с индуктивно-связанной плазмой",
+      "target": "iCAP 6000",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "метод атомно-эмиссионной спектроскопии с индуктивно-связанной плазмой",
+      "target": "iTEVA Precision",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "iTEVA Precision",
+      "target": "принцип измерения способом ограничивающих стандартов",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "принцип измерения способом ограничивающих стандартов",
+      "target": "максимальная точность",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "метод атомно-эмиссионной спектроскопии с индуктивно-связанной плазмой",
+      "target": "внутренний стандарт скандия",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "метод атомно-эмиссионной спектроскопии с индуктивно-связанной плазмой",
+      "target": "сульфидный медно-никелевый файнштейн",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "метод атомно-эмиссионной спектроскопии с индуктивно-связанной плазмой",
+      "target": "продукты переработки",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "метод атомно-эмиссионной спектроскопии с индуктивно-связанной плазмой",
+      "target": "полупродукты переработки",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "метод атомно-эмиссионной спектроскопии с индуктивно-связанной плазмой",
+      "target": "продукты разделения",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "iTEVA Precision",
+      "target": "более воспроизводимые результаты",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "iTEVA Precision",
+      "target": "более точные результаты",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "метод атомно-эмиссионной спектроскопии с индуктивно-связанной плазмой",
+      "target": "Thermo Fisher Scientific",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "метод атомно-эмиссионной спектроскопии с индуктивно-связанной плазмой",
+      "target": "Thermo Fisher Scientific",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "электрогравиметрия",
+      "target": "диапазон содержаний от 20 до 80 процентов",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "ограничивающие стандарты",
+      "target": "атомно-эмиссионная спектрометрия с индуктивно связанной плазмой",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ограничивающие стандарты",
+      "target": "измерение относительных интенсивностей",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "ограничивающие стандарты",
+      "target": "дрейф интенсивностей спектрометра",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "ограничивающие стандарты",
+      "target": "внутренний стандарт",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "ограничивающие стандарты",
+      "target": "весовой способ приготовления проб",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "ограничивающие стандарты",
+      "target": "погрешность весов не более 0,001 г",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "ограничивающие стандарты",
+      "target": "матричный эффект",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "ограничивающие стандарты",
+      "target": "стандарты в пределах +20% от ожидаемых содержаний",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "ограничивающие стандарты",
+      "target": "стандарты в пределах +5% от ожидаемых содержаний",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "ограничивающие стандарты",
+      "target": "предварительный анализ проб",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "ограничивающие стандарты",
+      "target": "принцип способа ограничивающих стандартов",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "принцип способа ограничивающих стандартов",
+      "target": "рисунок 1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "принцип способа ограничивающих стандартов",
+      "target": "рисунок 1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "рисунок 1",
+      "target": "принцип способа ограничивающих стандартов",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "рисунок 1",
+      "target": "принцип способа ограничивающих стандартов",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "экспериментальная часть",
+      "target": "ограничивающие стандарты",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "файнштейн",
+      "target": "медный сульфидный концентрат",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "файнштейн",
+      "target": "никелевый сульфидный концентрат",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "файнштейн",
+      "target": "электрогравиметрический метод",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "цинк",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "файнштейн",
+      "target": "ГОСТ 13047.2",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "ГОСТ 13047.2",
+      "target": "электрогравиметрический метод",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "ГОСТ 13047.2",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "ГОСТ 13047.2",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "ГОСТ 13047.2",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "ГОСТ 13047.2",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "ГОСТ 13047.2",
+      "target": "кобальт",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "ГОСТ 13047.2",
+      "target": "цинк",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "файнштейн",
+      "target": "диапазон массовых долей меди и никеля",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "диапазон массовых долей меди и никеля",
+      "target": "20",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "диапазон массовых долей меди и никеля",
+      "target": "80",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "аммиачная среда",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "электрогравиметрический метод",
+      "target": "спектрофотометрический метод",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "ГОСТ 13047.4",
+      "target": "кобальт",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "ГОСТ 13047.10",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "ГОСТ 13047.10",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "ГОСТ 13047.11",
+      "target": "цинк",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "ГОСТ 6012",
+      "target": "цинк",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "файнштейн",
+      "target": "конвертирование штейна",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "конвертирование штейна",
+      "target": "файнштейн",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "файнштейн",
+      "target": "флотация",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "флотация",
+      "target": "медный сульфидный концентрат",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "флотация",
+      "target": "никелевый сульфидный концентрат",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "файнштейн",
+      "target": "сульфидные руды",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "файнштейн",
+      "target": "пирометаллургическая фаза",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "файнштейн",
+      "target": "медно-никелевый файнштейн",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "медно-никелевый файнштейн",
+      "target": "файнштейн",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "аналитические линии меди и никеля",
+      "target": "таблица 1",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "таблица 1",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "внутренний стандарт",
+      "target": "линия скандия 361,384 нм",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "линия скандия 361,384 нм",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "HotBox-300",
+      "target": "ООО «Сибирские аналитические системы»",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "температура 95С",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "стандартные растворы S1 и S2",
+      "target": "содержание меди и никеля",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "содержание меди и никеля",
+      "target": "содержания в пределах ± 5 %",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "содержания в пределах ± 5 %",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "предварительный анализ проб",
+      "target": "определение примерных содержаний компонентов",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "предварительный анализ проб",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "приготовление стандартов S1 и S2",
+      "target": "рассчитанные содержания (мг/дм3) меди и никеля",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "рассчитанные содержания (мг/дм3) меди и никеля",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "навески чистых металлов никеля и меди",
+      "target": "полипропиленовые пробирки",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "навески чистых металлов никеля и меди",
+      "target": "полипропиленовые пробирки",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "разложение навесок чистых металлов",
+      "target": "HotBox-300",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "разложение навесок чистых металлов",
+      "target": "азотная кислота, разбавленная деионизованной водой (1:1)",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "разложение навесок чистых металлов",
+      "target": "температура 95С",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "разложение навесок чистых металлов",
+      "target": "src_p5",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "iCAP 6000",
+      "target": "радиальный",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "iCAP 6000",
+      "target": "вспомогательный поток газа, л/мин",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "вспомогательный поток газа, л/мин",
+      "target": "meas_aux_gas_0_50",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_aux_gas_0_50",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "iCAP 6000",
+      "target": "охлаждающий поток газа, л/мин",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "охлаждающий поток газа, л/мин",
+      "target": "meas_cool_gas_12",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_cool_gas_12",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "iCAP 6000",
+      "target": "мощность, подводимая к плазме, Вт",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "мощность, подводимая к плазме, Вт",
+      "target": "meas_power_1150",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_power_1150",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "iCAP 6000",
+      "target": "скорость вращения перистальтического насоса, мин-1",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "скорость вращения перистальтического насоса, мин-1",
+      "target": "meas_pump_speed_60",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_pump_speed_60",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "iCAP 6000",
+      "target": "время промывки до анализа, с",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "время промывки до анализа, с",
+      "target": "meas_flush_time_25",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_flush_time_25",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "iCAP 6000",
+      "target": "время интегрирования детектора, с",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "время интегрирования детектора, с",
+      "target": "meas_int_time_10",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_int_time_10",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "iCAP 6000",
+      "target": "распылительный поток, л/мин",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "распылительный поток, л/мин",
+      "target": "meas_neb_flow_0_55",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_neb_flow_0_55",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "iCAP 6000",
+      "target": "число параллельных измерений",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "число параллельных измерений",
+      "target": "meas_parallel_2",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_parallel_2",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "iCAP 6000",
+      "target": "аналитические линии меди и никеля",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "аналитические линии меди и никеля",
+      "target": "finding_internal_standard_used",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_internal_standard_used",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "внутренний стандарт",
+      "target": "finding_internal_standard_used",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "внутренний стандарт",
+      "target": "meas_weight_error_0_001",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_weight_error_0_001",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "HotBox-300",
+      "target": "разложение проб",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "разложение проб",
+      "target": "температура 95С",
+      "type": "OPERATES_AT_CONDITION"
+    },
+    {
+      "source": "разложение проб",
+      "target": "соляная кислота 1:20",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "разложение проб",
+      "target": "азотная кислота 1:1",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "разложение проб",
+      "target": "бисульфат калия",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "разложение проб",
+      "target": "навеска пробы 0,1000 - 0,2000 г",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "навеска пробы 0,1000 - 0,2000 г",
+      "target": "разложение проб",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "навеска пробы 0,1000 - 0,2000 г",
+      "target": "масса",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "навеска пробы 0,1000 - 0,2000 г",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "аликвота 4,0 см3",
+      "target": "объём",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "аликвота 4,0 см3",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "внутренний стандарт скандия 2,0 мг/дм3",
+      "target": "концентрация",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "внутренний стандарт скандия 2,0 мг/дм3",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "масса аликвоты скандия",
+      "target": "масса",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "масса аликвоты скандия",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "разложение проб",
+      "target": "кипячение 20 минут",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "кипячение 20 минут",
+      "target": "время",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "кипячение 20 минут",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "разложение проб",
+      "target": "соляная кислота 30 см3",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "соляная кислота 30 см3",
+      "target": "объём",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "соляная кислота 30 см3",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "разложение проб",
+      "target": "азотная кислота 10 см3",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "азотная кислота 10 см3",
+      "target": "объём",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "азотная кислота 10 см3",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "температура 95С",
+      "target": "температура",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "температура 95С",
+      "target": "температура",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "температура 95С",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "бисульфат калия",
+      "target": "масса 3 г",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "масса 3 г",
+      "target": "масса",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "масса 3 г",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "фильтр (синяя лента)",
+      "target": "колбы с весовой аликвотой скандия",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "муфельная печь",
+      "target": "платиновая чашка",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "платиновая чашка",
+      "target": "бисульфат калия (KHSO4)",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "платиновая чашка",
+      "target": "стакан",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "стакан",
+      "target": "соляная кислота",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "стакан",
+      "target": "мерные колбы на 200 см3",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "мерные колбы на 200 см3",
+      "target": "внутренний раствор скандия",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "внутренний раствор скандия",
+      "target": "концентрация внутреннего раствора скандия",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "концентрация внутреннего раствора скандия",
+      "target": "meas_scd_20",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_scd_20",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "стандартный образец медных и никелевых файнштейнов",
+      "target": "аттестованное содержание меди и никеля",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "аттестованное содержание меди и никеля",
+      "target": "finding_accuracy_control",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_accuracy_control",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "третий стандарт",
+      "target": "концентрация в середине диапазона",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "концентрация в середине диапазона",
+      "target": "finding_control_standard",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_control_standard",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "iCAP 6000",
+      "target": "Standard_Reference_Material_Cu_Ni",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "Standard_Reference_Material_Cu_Ni",
+      "target": "Control_Sample",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Control_Sample",
+      "target": "Measurement_Precision_Check",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "Measurement_Precision_Check",
+      "target": "Accuracy_Control",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "Measurement_Precision_Check",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "кипячение",
+      "target": "meas_time_20",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_time_20",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "соляная кислота",
+      "target": "meas_vol_30",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "соляная кислота",
+      "target": "meas_vol_30",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_vol_30",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_vol_30",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "азотная кислота",
+      "target": "meas_vol_10",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_vol_10",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "плавиковая кислота",
+      "target": "meas_drops_3_4",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_drops_3_4",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "соляная кислота",
+      "target": "meas_vol_5",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_vol_5",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "соляная кислота",
+      "target": "meas_vol_15",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_vol_15",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "вода",
+      "target": "meas_vol_40",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_vol_40",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "аликвота скандия",
+      "target": "meas_vol_4_0",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_vol_4_0",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "аликвота скандия",
+      "target": "meas_conc_100",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_conc_100",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "аликвота скандия",
+      "target": "meas_mass_4_0",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_mass_4_0",
+      "target": "src_p6",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "ограничивающие стандарты",
+      "target": "meas_copper_5865",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_copper_5865",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_copper_5865",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_copper_5865",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "ограничивающие стандарты",
+      "target": "finding_accuracy_copper_nickel",
+      "type": "SHOWED"
+    },
+    {
+      "source": "finding_accuracy_copper_nickel",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "ограничивающие стандарты",
+      "target": "медь",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "ограничивающие стандарты",
+      "target": "медь",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "ограничивающие стандарты",
+      "target": "никель",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "ограничивающие стандарты",
+      "target": "никель",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "ограничивающие стандарты",
+      "target": "finestine",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "finestine",
+      "target": "медь",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "finestine",
+      "target": "медь",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "finestine",
+      "target": "никель",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "finestine",
+      "target": "никель",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "iCAP 6000",
+      "target": "iTEVA",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "iCAP 6000",
+      "target": "iTEVA Precision",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "source": "iTEVA",
+      "target": "S1",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "iTEVA",
+      "target": "S2",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "iTEVA Precision",
+      "target": "S1",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "iTEVA Precision",
+      "target": "S2",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "iTEVA Precision",
+      "target": "проба",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "iTEVA Precision",
+      "target": "контрольный образец",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "S1",
+      "target": "меди",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "S1",
+      "target": "никеля",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "S2",
+      "target": "меди",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "S2",
+      "target": "никеля",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "iTEVA",
+      "target": "S1",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "iTEVA",
+      "target": "S2",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "iTEVA Precision",
+      "target": "проба",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "iTEVA Precision",
+      "target": "контрольный образец",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "iCAP 6000",
+      "target": "Thermo Fisher Scientific",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "iCAP 6000",
+      "target": "Thermo Fisher Scientific",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "iTEVA",
+      "target": "Thermo Fisher Scientific",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "iTEVA",
+      "target": "Thermo Fisher Scientific",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "iTEVA Precision",
+      "target": "Thermo Fisher Scientific",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "iTEVA Precision",
+      "target": "Thermo Fisher Scientific",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "методика определения меди и никеля методом ограничивающих стандартов",
+      "target": "аттестованные значения стандартных образцов никеля, меди",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "методика определения меди и никеля методом ограничивающих стандартов",
+      "target": "электрогравиметрический метод определения меди и никеля",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "методика определения меди и никеля методом ограничивающих стандартов",
+      "target": "сокращение времени анализа в 5 раз",
+      "type": "PRODUCES_OUTPUT"
+    },
+    {
+      "source": "методика определения меди и никеля методом ограничивающих стандартов",
+      "target": "диапазон от 20 до 80%",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "методика определения меди и никеля методом ограничивающих стандартов",
+      "target": "метрологические характеристики не хуже, чем у электрогравиметрической методики",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "методика определения меди и никеля методом ограничивающих стандартов",
+      "target": "процесс набора статического материала для метрологической аттестации методики",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "методика определения меди и никеля методом ограничивающих стандартов",
+      "target": "таблица 2",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "методика определения меди и никеля методом ограничивающих стандартов",
+      "target": "таблица 3",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "методика определения меди и никеля методом ограничивающих стандартов",
+      "target": "таблица 4",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "диапазон от 20 до 80%",
+      "target": "содержание меди и никеля",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "метрологические характеристики не хуже, чем у электрогравиметрической методики",
+      "target": "электрогравиметрический метод определения меди и никеля",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "процесс набора статического материала для метрологической аттестации методики",
+      "target": "методика определения меди и никеля методом ограничивающих стандартов",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "таблица 2",
+      "target": "источник p.8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "таблица 3",
+      "target": "источник p.8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "таблица 4",
+      "target": "источник p.8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "сокращение времени анализа в 5 раз",
+      "target": "источник p.8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "диапазон от 20 до 80%",
+      "target": "источник p.8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "метрологические характеристики не хуже, чем у электрогравиметрической методики",
+      "target": "источник p.8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "процесс набора статического материала для метрологической аттестации методики",
+      "target": "источник p.8",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "МИ 04-06-70-2016",
+      "target": "электрогравиметрический метод определения меди и никеля",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "электрогравиметрический метод определения меди и никеля",
+      "target": "МИ 04-06-70-2016",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "МИ 04-06-70-2016",
+      "target": "ООО Институт Гипроникель",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "МИ 04-06-70-2016",
+      "target": "ГОСТ 6012-2011",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "МИ 04-06-70-2016",
+      "target": "ГОСТ 13047.2-2014",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "МИ 04-06-70-2016",
+      "target": "ГОСТ Р 55685-2013",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "МИ 04-06-70-2016",
+      "target": "СОП ШТН 81-2018",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "СОП ШТН 81-2018",
+      "target": "никель",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "СОП ШТН 81-2018",
+      "target": "никель",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "МИ 04-06-70-2016",
+      "target": "никель",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "МИ 04-06-70-2016",
+      "target": "никель",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "МИ 04-06-70-2016",
+      "target": "медь",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "МИ 04-06-70-2016",
+      "target": "медь",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "МИ 04-06-70-2016",
+      "target": "электрогравиметрический метод определения меди и никеля",
+      "type": "USES_MATERIAL"
+    },
+    {
+      "source": "электрогравиметрический метод определения меди и никеля",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "электрогравиметрический метод определения меди и никеля",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "электрогравиметрический метод определения меди и никеля",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "электрогравиметрический метод определения меди и никеля",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "МИ 04-06-70-2016",
+      "target": "процесс набора статического материала для метрологической аттестации методики",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "процесс набора статического материала для метрологической аттестации методики",
+      "target": "МИ 04-06-70-2016",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "МИ 04-06-70-2016",
+      "target": "finding_сравнение_методик",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "finding_сравнение_методик",
+      "target": "МИ 04-06-70-2016",
+      "type": "DESCRIBED_IN"
+    },
+    {
+      "source": "finding_сравнение_методик",
+      "target": "электрогравиметрический метод определения меди и никеля",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_сравнение_методик",
+      "target": "МИ 04-06-70-2016",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_сравнение_методик",
+      "target": "СОП ШТН 81-2018",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "meas_никель_5850",
+      "target": "СОП ШТН 81-2018",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_никель_5850",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_никель_5850",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_никель_5850",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_никель_5859",
+      "target": "МИ 04-06-70-2016",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_никель_5859",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_никель_5859",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_никель_5859",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_разность_009",
+      "target": "МИ 04-06-70-2016",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_разность_009",
+      "target": "разность, %",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_разность_009",
+      "target": "src_p12",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "СОП ШТН 81-2018",
+      "target": "meas_ni_5850",
+      "type": "HAS_MEASUREMENT"
+    },
+    {
+      "source": "meas_ni_5850",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_ni_5850",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_ni_5850",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_ni_4290",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_ni_4290",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_ni_4290",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_ni_5231",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_ni_5231",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_ni_5231",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_ni_7630",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_ni_7630",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_ni_7630",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_ni_509",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_ni_509",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_ni_509",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_ni_415",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_ni_415",
+      "target": "никель",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_ni_415",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_cu_6674",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_cu_6674",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_cu_6674",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_cu_2100",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_cu_2100",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_cu_2100",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_cu_2891",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_cu_2891",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_cu_2891",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_cu_1908",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_cu_1908",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_cu_1908",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "meas_cu_3174",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_cu_3174",
+      "target": "медь",
+      "type": "MEASURES_PROPERTY"
+    },
+    {
+      "source": "meas_cu_3174",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "никель",
+      "target": "finding_precision_ni_20_50",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "никель",
+      "target": "finding_precision_ni_20_50",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_precision_ni_20_50",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "никель",
+      "target": "finding_precision_ni_50_80",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "никель",
+      "target": "finding_precision_ni_50_80",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_precision_ni_50_80",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "медь",
+      "target": "finding_precision_cu_20_50",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "медь",
+      "target": "finding_precision_cu_20_50",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_precision_cu_20_50",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "медь",
+      "target": "finding_precision_cu_50_80",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "медь",
+      "target": "finding_precision_cu_50_80",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "finding_precision_cu_50_80",
+      "target": "src_p9",
+      "type": "HAS_SOURCE"
+    }
+  ]
+}

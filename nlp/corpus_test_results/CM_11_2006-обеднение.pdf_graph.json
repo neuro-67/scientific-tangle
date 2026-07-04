@@ -1,0 +1,2911 @@
+{
+  "document": "CM_11_2006-обеднение.pdf",
+  "nodes": [
+    {
+      "id": "src_p3",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "src_p3",
+        "ingestion_date": "2026-07-04T18:39:58.145087",
+        "span": "p.3"
+      }
+    },
+    {
+      "id": "src_p2",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "src_p2",
+        "ingestion_date": "2026-07-04T18:39:58.145386",
+        "span": "p.2"
+      }
+    },
+    {
+      "id": "src_p30",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "src_p30",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145680",
+        "span": "p.30"
+      }
+    },
+    {
+      "id": "src_p34",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "src_p34",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145559",
+        "span": "p.34"
+      }
+    },
+    {
+      "id": "src_p37",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "src_p37",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145563",
+        "span": "p.37"
+      }
+    },
+    {
+      "id": "src_p42",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "src_p42",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145591",
+        "span": "p.42"
+      }
+    },
+    {
+      "id": "Тозик В. М.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Тозик В. М.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145080"
+      }
+    },
+    {
+      "id": "А. Г. Воробьев",
+      "label": "Expert",
+      "properties": {
+        "institution": "Национальный исследовательский ядерный университет «МИФИ»",
+        "full_name": "Воробьев А. Г.",
+        "role": "Зам. главного редактора",
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "А. Г. Воробьев",
+        "validation_status": "pending",
+        "position": "зам. главного редактора",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145329"
+      }
+    },
+    {
+      "id": "З. С. Абишева",
+      "label": "Expert",
+      "properties": {
+        "code": "298245-02",
+        "confidence": 0.5,
+        "orcid": "",
+        "ingestion_date": "2026-07-04T18:39:58.145196",
+        "full_name": "Абишева З. С.",
+        "phone": "82102727",
+        "name": "З. С. Абишева",
+        "location": "Алматы",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "position": "",
+        "id": "З. С. Абишева",
+        "validation_status": "pending",
+        "email": ""
+      }
+    },
+    {
+      "id": "А. А. Аксенов",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Аксенов А. А.",
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "А. А. Аксенов",
+        "validation_status": "pending",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145289"
+      }
+    },
+    {
+      "id": "В. А. Бочаров",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Бочаров В. А.",
+        "role": "редактор раздела «Обогащение»",
+        "confidence": 0.5,
+        "specialization": "редактор раздела «Обогащение»",
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "position": "редактор раздела «Обогащение»",
+        "id": "В. А. Бочаров",
+        "validation_status": "pending",
+        "email": "",
+        "editorial_role": "редактор раздела «Обогащение»",
+        "ingestion_date": "2026-07-04T18:39:58.145302"
+      }
+    },
+    {
+      "id": "Г. Ю. Боярко",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Г. Ю. Боярко",
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Г. Ю. Боярко",
+        "validation_status": "pending",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145305"
+      }
+    },
+    {
+      "id": "В. А. Брюквин",
+      "label": "Expert",
+      "properties": {
+        "full_name": "В. А. Брюквин",
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "В. А. Брюквин",
+        "validation_status": "pending",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145309"
+      }
+    },
+    {
+      "id": "А. А. Быкасов",
+      "label": "Expert",
+      "properties": {
+        "full_name": "А. А. Быкасов",
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "А. А. Быкасов",
+        "validation_status": "pending",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145314"
+      }
+    },
+    {
+      "id": "Г. М. Вольдман",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Г. М. Вольдман",
+        "role": "редактор раздела «Редкие металлы, полупроводники»",
+        "confidence": 0.5,
+        "specialization": "редактор раздела «Магний, титан, редкие металлы, полупроводники»",
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "position": "",
+        "id": "Г. М. Вольдман",
+        "validation_status": "pending",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145325"
+      }
+    },
+    {
+      "id": "В. В. Геневски",
+      "label": "Expert",
+      "properties": {
+        "country": "Болгария",
+        "full_name": "В. В. Геневски",
+        "code": "987257227",
+        "phone": "8210235922",
+        "confidence": 0.5,
+        "name": "В. В. Геневски",
+        "location": "София",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "В. В. Геневски",
+        "validation_status": "pending",
+        "email": "v.v.genevski@bulgaria.bg",
+        "ingestion_date": "2026-07-04T18:39:58.145199"
+      }
+    },
+    {
+      "id": "Л. А. Глазунов",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Л. А. Глазунов",
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Л. А. Глазунов",
+        "validation_status": "pending",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145332"
+      }
+    },
+    {
+      "id": "В. А. Дмитриев",
+      "label": "Expert",
+      "properties": {
+        "full_name": "В. А. Дмитриев",
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "В. А. Дмитриев",
+        "validation_status": "pending",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145347"
+      }
+    },
+    {
+      "id": "В. С. Кальченко",
+      "label": "Expert",
+      "properties": {
+        "full_name": "В. С. Кальченко",
+        "confidence": 0.5,
+        "specialization": "редактор раздела «Алюминий, глинозем, углеродные материалы»",
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "position": "редактор раздела «Алюминий, глинозем, углеродные материалы»",
+        "id": "В. С. Кальченко",
+        "validation_status": "pending",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145359"
+      }
+    },
+    {
+      "id": "Л. И. Клячко",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Клячко Л. И.",
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Л. И. Клячко",
+        "validation_status": "pending",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145366"
+      }
+    },
+    {
+      "id": "С. И. Корнеев",
+      "label": "Expert",
+      "properties": {
+        "full_name": "С. И. Корнеев",
+        "affiliation": "Россия",
+        "geography": "RU",
+        "confidence": 0.5,
+        "name": "С. И. Корнеев",
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "С. И. Корнеев",
+        "validation_status": "pending",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145378"
+      }
+    },
+    {
+      "id": "Б. А. Котляр",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Б. А. Котляр",
+        "role": "редактор раздела «Экономика и управление производством»",
+        "affiliation": "",
+        "confidence": 0.5,
+        "specialization": "редактор раздела «Экономика и управление производством»",
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "position": "редактор раздела «Экономика и управление производством»",
+        "id": "Б. А. Котляр",
+        "validation_status": "pending",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145382"
+      }
+    },
+    {
+      "id": "Е. А. Левашов",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Е. А. Левашов",
+        "role": "редактор раздела «Композиционные материалы и многофункциональные покрытия»",
+        "confidence": 0.5,
+        "specialization": "редактор раздела «Композиционные материалы и много-»",
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "position": "редактор раздела «Композиционные материалы и многофункциональные покрытия»",
+        "id": "Е. А. Левашов",
+        "validation_status": "pending",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145127"
+      }
+    },
+    {
+      "id": "Ю. А. Котляр",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Ю. А. Котляр",
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Ю. А. Котляр",
+        "validation_status": "pending",
+        "position": "редактор раздела «Композиционные материалы и многофункциональные покрытия»",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145124"
+      }
+    },
+    {
+      "id": "Н. Е. Мальцев",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Н. Е. Мальцев",
+        "role": "редактор раздела «Автоматизация»",
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Н. Е. Мальцев",
+        "validation_status": "pending",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145132"
+      }
+    },
+    {
+      "id": "Н. В. Шаркина",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Шаркина Н. В.",
+        "role": "ведущий редактор",
+        "affiliation": "институт «Гипроникель»",
+        "confidence": 0.5,
+        "name": "Н. В. Шаркина",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Н. В. Шаркина",
+        "validation_status": "pending",
+        "email": "n.v.sharkina@misis.ru",
+        "ingestion_date": "2026-07-04T18:39:58.145048"
+      }
+    },
+    {
+      "id": "Г. Сентдъерди",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Г. Сентдъерди",
+        "code": "4402219",
+        "phone": "821023623029",
+        "confidence": 0.5,
+        "name": "Г. Сентдъерди",
+        "location": "Будапешт",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Г. Сентдъерди",
+        "validation_status": "pending",
+        "email": "g.szendery@hungary.hu",
+        "ingestion_date": "2026-07-04T18:39:58.145203"
+      }
+    },
+    {
+      "id": "редактор раздела «Композиционные материалы и многофункциональные покрытия»",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Композиционные материалы и многофункциональные покрытия",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "редактор раздела «Композиционные материалы и многофункциональные покрытия»",
+        "ingestion_date": "2026-07-04T18:39:58.145207"
+      }
+    },
+    {
+      "id": "редактор раздела «Автоматизация»",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Автоматизация",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "редактор раздела «Автоматизация»",
+        "ingestion_date": "2026-07-04T18:39:58.145215"
+      }
+    },
+    {
+      "id": "src_p27",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "src_p27",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145678",
+        "span": "p.27"
+      }
+    },
+    {
+      "id": "Л. Ш. Цемехман",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Л. Ш. Цемехман",
+        "role": "научный руководитель, педагог",
+        "affiliation": "ПАО «ГМК «Норильский Никель»",
+        "confidence": 0.5,
+        "name": "Цемехман Лев Шлемович",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Л. Ш. Цемехман",
+        "validation_status": "pending",
+        "email": "lst@nickel.spb.ru",
+        "ingestion_date": "2026-07-04T18:39:58.145178"
+      }
+    },
+    {
+      "id": "src_p24",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "src_p24",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145675",
+        "span": "p.24"
+      }
+    },
+    {
+      "id": "src_p22",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "src_p22",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145673",
+        "span": "p.22"
+      }
+    },
+    {
+      "id": "Akhmedov S. N.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Akhmedov S. N.",
+        "ingestion_date": "2026-07-04T18:39:58.145401"
+      }
+    },
+    {
+      "id": "Kozlov V. A.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Kozlov V. A.",
+        "ingestion_date": "2026-07-04T18:39:58.145410"
+      }
+    },
+    {
+      "id": "Г. С. Макаров",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Г. С. Макаров",
+        "role": "редактор раздела «Композиционные материалы и многофункциональные покрытия»",
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "position": "редактор раздела «Металлообработка»",
+        "id": "Г. С. Макаров",
+        "validation_status": "pending",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145129"
+      }
+    },
+    {
+      "id": "В. И. Москвитин",
+      "label": "Expert",
+      "properties": {
+        "full_name": "В. И. Москвитин",
+        "role": "редактор раздела «Автоматизация»",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "В. И. Москвитин",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145136"
+      }
+    },
+    {
+      "id": "С. С. Набойченко",
+      "label": "Expert",
+      "properties": {
+        "role": "редактор раздела «Автоматизация»",
+        "full_name": "С. С. Набойченко",
+        "confidence": 0.5,
+        "name": "С. С. Набойченко",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "С. С. Набойченко",
+        "ingestion_date": "2026-07-04T18:39:58.145139"
+      }
+    },
+    {
+      "id": "В. В. Пронников",
+      "label": "Expert",
+      "properties": {
+        "full_name": "В. В. Пронников",
+        "role": "редактор раздела «Автоматизация»",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "В. В. Пронников",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145150"
+      }
+    },
+    {
+      "id": "А. М. Птицын",
+      "label": "Expert",
+      "properties": {
+        "full_name": "А. М. Птицын",
+        "role": "редактор раздела «Автоматизация»",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "А. М. Птицын",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145154"
+      }
+    },
+    {
+      "id": "В. К. Румянцев",
+      "label": "Expert",
+      "properties": {
+        "full_name": "В. К. Румянцев",
+        "role": "редактор раздела «Автоматизация»",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "В. К. Румянцев",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145165"
+      }
+    },
+    {
+      "id": "А. Г. Рыжов",
+      "label": "Expert",
+      "properties": {
+        "full_name": "А. Г. Рыжов",
+        "role": "редактор раздела «Автоматизация»",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "А. Г. Рыжов",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145168"
+      }
+    },
+    {
+      "id": "А. В. Тарасов",
+      "label": "Expert",
+      "properties": {
+        "full_name": "А. В. Тарасов",
+        "role": "редактор раздела «Тяжелые цветные металлы»",
+        "confidence": 0.5,
+        "name": "А. В. Тарасов",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "А. В. Тарасов",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145174"
+      }
+    },
+    {
+      "id": "В. И. Щеголев",
+      "label": "Expert",
+      "properties": {
+        "full_name": "В. И. Щеголев",
+        "role": "редактор раздела «Тяжелые цветные металлы»",
+        "confidence": 0.5,
+        "name": "В. И. Щеголев",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "В. И. Щеголев",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145185"
+      }
+    },
+    {
+      "id": "В. Ю. Матвеев",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Матвеев В. Ю.",
+        "role": "редактор раздела «Автоматизация»",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "В. Ю. Матвеев",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145134"
+      }
+    },
+    {
+      "id": "mechanical properties",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "mechanical properties",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145484"
+      }
+    },
+    {
+      "id": "«Цветные металлы»",
+      "label": "Publication",
+      "properties": {
+        "database": "SCOPUS",
+        "issue": 1,
+        "year": 2014,
+        "geography": "RU",
+        "ISSN": "0372-2929",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "«Цветные металлы»",
+        "ingestion_date": "2026-07-04T18:39:58.145249"
+      }
+    },
+    {
+      "id": "Bryukvin V. A.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Bryukvin V. A.",
+        "ingestion_date": "2026-07-04T18:39:58.145451"
+      }
+    },
+    {
+      "id": "src_p19",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "src_p19",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145671",
+        "span": "p.19"
+      }
+    },
+    {
+      "id": "src_p53",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "src_p53",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145598",
+        "span": "p.53"
+      }
+    },
+    {
+      "id": "Yatsenko S. P.",
+      "label": "Expert",
+      "properties": {
+        "affiliation": "impiadinskiy ore dressing and processing enterprise",
+        "confidence": 0.5,
+        "name": "Яценко С. П.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Yatsenko S. P.",
+        "email": "yatsenko@impiadinsk.ru",
+        "ingestion_date": "2026-07-04T18:39:58.145629"
+      }
+    },
+    {
+      "id": "В. П. Быстров",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Быстров В. П.",
+        "affiliation": "Национальный исследовательский технологический университет «МИСиС», г. Москва, Россия",
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "В. П. Быстров",
+        "validation_status": "pending",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145318"
+      }
+    },
+    {
+      "id": "src_p48",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "src_p48",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145594",
+        "span": "p.48"
+      }
+    },
+    {
+      "id": "src_p50",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "src_p50",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145596",
+        "span": "p.50"
+      }
+    },
+    {
+      "id": "П. Н. Алентов",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Алентов П. Н.",
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "П. Н. Алентов",
+        "validation_status": "pending",
+        "position": "редактор раздела «Тяжелые цветные металлы»",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145283"
+      }
+    },
+    {
+      "id": "Н. М. Барбин",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Барбин Н. М.",
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Н. М. Барбин",
+        "validation_status": "pending",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145294"
+      }
+    },
+    {
+      "id": "И. Н. Белоглазов",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Белоглазов И. Н.",
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "position": "",
+        "validation_status": "pending",
+        "id": "И. Н. Белоглазов",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145298"
+      }
+    },
+    {
+      "id": "Е. М. Бычков",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Бычков Е. М.",
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Е. М. Бычков",
+        "validation_status": "pending",
+        "position": "зам. главного редактора",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145321"
+      }
+    },
+    {
+      "id": "Ю. И. Двинин",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Двинин Ю. И.",
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Ю. И. Двинин",
+        "validation_status": "pending",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145340"
+      }
+    },
+    {
+      "id": "А. В. Елютин",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Елютин А. В.",
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "А. В. Елютин",
+        "validation_status": "pending",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145351"
+      }
+    },
+    {
+      "id": "Н. Г. Кайтмазов",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Кайтмазов Н. Г.",
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Н. Г. Кайтмазов",
+        "validation_status": "pending",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145355"
+      }
+    },
+    {
+      "id": "Б. Г. Киселев",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Киселев Б. Г.",
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Б. Г. Киселев",
+        "validation_status": "pending",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145363"
+      }
+    },
+    {
+      "id": "Н. К. Колмогоров",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Колмогоров Н. К.",
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "position": "",
+        "validation_status": "pending",
+        "id": "Н. К. Колмогоров",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145374"
+      }
+    },
+    {
+      "id": "В. И. Никонов",
+      "label": "Expert",
+      "properties": {
+        "full_name": "Никонов В. И.",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "В. И. Никонов",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145142"
+      }
+    },
+    {
+      "id": "редактор раздела «Магний, титан, редкие металлы, полупроводники»",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Магний, титан, редкие металлы, полупроводники",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "редактор раздела «Магний, титан, редкие металлы, полупроводники»",
+        "ingestion_date": "2026-07-04T18:39:58.145218"
+      }
+    },
+    {
+      "id": "редактор раздела «Металлообработка»",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Металлообработка",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "редактор раздела «Металлообработка»",
+        "ingestion_date": "2026-07-04T18:39:58.145211"
+      }
+    },
+    {
+      "id": "В. С. Александровская",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "position": "отв. секретарь",
+        "validation_status": "pending",
+        "id": "В. С. Александровская",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145285"
+      }
+    },
+    {
+      "id": "Nozhko S. I.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Nozhko S. I.",
+        "ingestion_date": "2026-07-04T18:39:58.145424"
+      }
+    },
+    {
+      "id": "В. Д. Шустицкий",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "В. Д. Шустицкий",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145192"
+      }
+    },
+    {
+      "id": "Vanyukov furnace",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Vanyukov furnace",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145653"
+      }
+    },
+    {
+      "id": "Синявский В. С.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Синявский В. С.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145091"
+      }
+    },
+    {
+      "id": "Государственного Эрмитажа",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Государственного Эрмитажа",
+        "type": "cultural institution",
+        "ingestion_date": "2026-07-04T18:39:58.145058"
+      }
+    },
+    {
+      "id": "electrochemical processing",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "electrochemical processing",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145517"
+      }
+    },
+    {
+      "id": "symmetric alternative current",
+      "label": "Condition",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "symmetric alternative current",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145528"
+      }
+    },
+    {
+      "id": "nanoscale al",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "nanoscale al",
+        "ingestion_date": "2026-07-04T18:39:58.145532"
+      }
+    },
+    {
+      "id": "protective ceramic coatings",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "protective ceramic coatings",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145537"
+      }
+    },
+    {
+      "id": "Prospects of using atomic emission spectroscopy in the aluminium industry",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Prospects of using atomic emission spectroscopy in the aluminium industry",
+        "ingestion_date": "2026-07-04T18:39:58.145541"
+      }
+    },
+    {
+      "id": "Study of mechanical properties of cathode shell for powerful aluminium electrolyzers",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Study of mechanical properties of cathode shell for powerful aluminium electrolyzers",
+        "ingestion_date": "2026-07-04T18:39:58.145546"
+      }
+    },
+    {
+      "id": "Ways of minimization of coal foam in electrolyzers with top current supply and self-roasting anodes",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Ways of minimization of coal foam in electrolyzers with top current supply and self-roasting anodes",
+        "ingestion_date": "2026-07-04T18:39:58.145550"
+      }
+    },
+    {
+      "id": "Features of sintering niobium anodes in electrolytical condensers",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Features of sintering niobium anodes in electrolytical condensers",
+        "ingestion_date": "2026-07-04T18:39:58.145552"
+      }
+    },
+    {
+      "id": "Optimization of electrochemical processing of metallic tungsten wastes in ammonia electrolytes during imposition of symmetric alternative current",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Optimization of electrochemical processing of metallic tungsten wastes in ammonia electrolytes during imposition of symmetric alternative current",
+        "ingestion_date": "2026-07-04T18:39:58.145555"
+      }
+    },
+    {
+      "id": "Nanoscale al using for protective ceramic coatings",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Nanoscale al using for protective ceramic coatings",
+        "ingestion_date": "2026-07-04T18:39:58.145557"
+      }
+    },
+    {
+      "id": "Danilov M. P.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Данилов М. П.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Danilov M. P.",
+        "ingestion_date": "2026-07-04T18:39:58.145601"
+      }
+    },
+    {
+      "id": "Shchetinin N. S.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Щетинин Н. С.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Shchetinin N. S.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145603"
+      }
+    },
+    {
+      "id": "Shapovalov V. A.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Шаповалов В. А.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Shapovalov V. A.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145605"
+      }
+    },
+    {
+      "id": "Tsybizov V. A.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Цыбицов В. А.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Tsybizov V. A.",
+        "ingestion_date": "2026-07-04T18:39:58.145607"
+      }
+    },
+    {
+      "id": "Anapol’skaya S. G.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Анопальская С. Г.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Anapol’skaya S. G.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145610"
+      }
+    },
+    {
+      "id": "Tozik V. M.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Тозик В. М.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Tozik V. M.",
+        "ingestion_date": "2026-07-04T18:39:58.145613"
+      }
+    },
+    {
+      "id": "Kozhanov A. L.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Кожанов А. Л.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Kozhanov A. L.",
+        "ingestion_date": "2026-07-04T18:39:58.145615"
+      }
+    },
+    {
+      "id": "Petrov A. F.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Петров А. Ф.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Petrov A. F.",
+        "ingestion_date": "2026-07-04T18:39:58.145617"
+      }
+    },
+    {
+      "id": "Khutsishvili V. I.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Хуцишвили В. И.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Khutsishvili V. I.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145620"
+      }
+    },
+    {
+      "id": "Severilov A. V.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Северилов А. В.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Severilov A. V.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145622"
+      }
+    },
+    {
+      "id": "Greiver M. B.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Грейвер М. Б.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Greiver M. B.",
+        "ingestion_date": "2026-07-04T18:39:58.145625"
+      }
+    },
+    {
+      "id": "Salimzhanova E. V.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Салимзhanова Е. В.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Salimzhanova E. V.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145627"
+      }
+    },
+    {
+      "id": "Ter#Oganesyants A. K.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Тер-Оганесянц А. К.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Ter#Oganesyants A. K.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145631"
+      }
+    },
+    {
+      "id": "Grabchak E. F.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Грабчак Е. Ф.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Grabchak E. F.",
+        "ingestion_date": "2026-07-04T18:39:58.145634"
+      }
+    },
+    {
+      "id": "Anisimova N. N.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Анищенко Н. Н.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Anisimova N. N.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145636"
+      }
+    },
+    {
+      "id": "Lapshin D. A.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Лапшин Д. А.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Lapshin D. A.",
+        "ingestion_date": "2026-07-04T18:39:58.145639"
+      }
+    },
+    {
+      "id": "Dyl’ko G. N.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Дылко Г. Н.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Dyl’ko G. N.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145641"
+      }
+    },
+    {
+      "id": "Luchitsky S. L.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Лучицкий С. Л.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Luchitsky S. L.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145644"
+      }
+    },
+    {
+      "id": "N 2 flash smelting furnace",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "N 2 flash smelting furnace",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145646"
+      }
+    },
+    {
+      "id": "Nadezhdinsky metallurgical works",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Nadezhdinsky metallurgical works",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145648"
+      }
+    },
+    {
+      "id": "Transpolar (Zapolyarny) affiliate of “Norilsk nickel”",
+      "label": "Facility",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Transpolar (Zapolyarny) affiliate of “Norilsk nickel”",
+        "ingestion_date": "2026-07-04T18:39:58.145651"
+      }
+    },
+    {
+      "id": "sodium hydrosulphite (bisulphite)",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "sodium hydrosulphite (bisulphite)",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145655"
+      }
+    },
+    {
+      "id": "effluent gases of Vanyukov furnace rich by sulphur dioxide",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "effluent gases of Vanyukov furnace rich by sulphur dioxide",
+        "ingestion_date": "2026-07-04T18:39:58.145658"
+      }
+    },
+    {
+      "id": "lead removal from slime production",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "lead removal from slime production",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145660"
+      }
+    },
+    {
+      "id": "utilization of poor sulphuric gases",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "utilization of poor sulphuric gases",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145662"
+      }
+    },
+    {
+      "id": "production of sodium hydrosulphite (bisulphite)",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "production of sodium hydrosulphite (bisulphite)",
+        "ingestion_date": "2026-07-04T18:39:58.145664"
+      }
+    },
+    {
+      "id": "putting into operation the N 2 flash smelting furnace after reconstruction",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "putting into operation the N 2 flash smelting furnace after reconstruction",
+        "ingestion_date": "2026-07-04T18:39:58.145666"
+      }
+    },
+    {
+      "id": "melting of pellets of cementing copper in converter",
+      "label": "Experiment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "melting of pellets of cementing copper in converter",
+        "ingestion_date": "2026-07-04T18:39:58.145668"
+      }
+    },
+    {
+      "id": "publication_danilov_2023_n2_furnace",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "publication_danilov_2023_n2_furnace",
+        "validation_status": "pending",
+        "title": "Putting into operation the N 2 flash smelting furnace at Nadezhdinsky metallurgical works after reconstruction",
+        "ingestion_date": "2026-07-04T18:39:58.145682"
+      }
+    },
+    {
+      "id": "publication_danilov_2023_pellets",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "publication_danilov_2023_pellets",
+        "validation_status": "pending",
+        "title": "Melting of pellets of cementing copper in converter",
+        "ingestion_date": "2026-07-04T18:39:58.145684"
+      }
+    },
+    {
+      "id": "publication_oganesyants_2023_lead_removal",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "publication_oganesyants_2023_lead_removal",
+        "title": "Technology of lead removal from slime production at Transpolar (Zapolyarny) affiliate of “Norilsk nickel” mining and metallurgical corporation",
+        "ingestion_date": "2026-07-04T18:39:58.145687"
+      }
+    },
+    {
+      "id": "publication_danilov_2023_utilization",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "publication_danilov_2023_utilization",
+        "validation_status": "pending",
+        "title": "The ways of utilization of poor sulphuric gases at the enterprises of Transpolar (Zapolyarny) affiliate of “Norilsk nickel” mining and metallurgical corporation",
+        "ingestion_date": "2026-07-04T18:39:58.145689"
+      }
+    },
+    {
+      "id": "publication_greiver_2023_sodium_bisulphite",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "publication_greiver_2023_sodium_bisulphite",
+        "title": "Production of sodium hydrosulphite (bisulphite) from effluent gases of Vanyukov furnace rich by sulphur dioxide",
+        "ingestion_date": "2026-07-04T18:39:58.145693"
+      }
+    },
+    {
+      "id": "publication_knizhnik_2023_aas",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "publication_knizhnik_2023_aas",
+        "validation_status": "pending",
+        "title": "Prospects of using atomic emission spectroscopy in the aluminium industry",
+        "ingestion_date": "2026-07-04T18:39:58.145698"
+      }
+    },
+    {
+      "id": "Т. С. Смирнова",
+      "label": "Expert",
+      "properties": {
+        "role": "ведущий редактор",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Т. С. Смирнова",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145029"
+      }
+    },
+    {
+      "id": "А. Г. Баснина",
+      "label": "Expert",
+      "properties": {
+        "role": "ведущий редактор",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "А. Г. Баснина",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145052"
+      }
+    },
+    {
+      "id": "Н. В. Андропова",
+      "label": "Expert",
+      "properties": {
+        "role": "редактор",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Н. В. Андропова",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145055"
+      }
+    },
+    {
+      "id": "Барышева Г. А.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Барышева Г. А.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145061"
+      }
+    },
+    {
+      "id": "Шелудякова И. Г.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Шелудякова И. Г.",
+        "ingestion_date": "2026-07-04T18:39:58.145063"
+      }
+    },
+    {
+      "id": "Горячев Б. Е.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Горячев Б. Е.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145066"
+      }
+    },
+    {
+      "id": "Данилов М. П.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Данилов М. П.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145068"
+      }
+    },
+    {
+      "id": "Щетинин Н. С.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Щетинин Н. С.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145071"
+      }
+    },
+    {
+      "id": "Цыбизов В. А.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Цыбизов В. А.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145073"
+      }
+    },
+    {
+      "id": "Селяндин С. В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Селяндин С. В.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145075"
+      }
+    },
+    {
+      "id": "Шаповалов В. А.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Шаповалов В. А.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145077"
+      }
+    },
+    {
+      "id": "Потанцев В. А.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Потанцев В. А.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145082"
+      }
+    },
+    {
+      "id": "Кожанов А. Л.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Кожанов А. Л.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145084"
+      }
+    },
+    {
+      "id": "Василевский Д. В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Василевский Д. В.",
+        "ingestion_date": "2026-07-04T18:39:58.145089"
+      }
+    },
+    {
+      "id": "Александрова Т. В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Александрова Т. В.",
+        "ingestion_date": "2026-07-04T18:39:58.145093"
+      }
+    },
+    {
+      "id": "Руднев В. С.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Руднев В. С.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145095"
+      }
+    },
+    {
+      "id": "Садков В. В.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Садков В. В.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145098"
+      }
+    },
+    {
+      "id": "Миркин И. И.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Миркин И. И.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145101"
+      }
+    },
+    {
+      "id": "Состояние отечественного рынка услуг в области финишной обработки продуктов экструзии и тенденции его развития",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Состояние отечественного рынка услуг в области финишной обработки продуктов экструзии и тенденции его развития",
+        "ingestion_date": "2026-07-04T18:39:58.145103"
+      }
+    },
+    {
+      "id": "Новые разработки и расширение применения твердого анодирования при обычных температурах",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Новые разработки и расширение применения твердого анодирования при обычных температурах",
+        "ingestion_date": "2026-07-04T18:39:58.145106"
+      }
+    },
+    {
+      "id": "Плазменно-электролитические технологии обработки изделий из алюминия и его сплавов",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Плазменно-электролитические технологии обработки изделий из алюминия и его сплавов",
+        "ingestion_date": "2026-07-04T18:39:58.145110"
+      }
+    },
+    {
+      "id": "Обеспечение коррозионной стойкости конструкций из алюминиевых сплавов и перспективы их применения в самолетах ТУ",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Обеспечение коррозионной стойкости конструкций из алюминиевых сплавов и перспективы их применения в самолетах ТУ",
+        "ingestion_date": "2026-07-04T18:39:58.145112"
+      }
+    },
+    {
+      "id": "Международная конференция «Цинк—2006»",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Международная конференция «Цинк—2006»",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145115"
+      }
+    },
+    {
+      "id": "ЗАО «Шнейдер Электрик» на ежегодной выставке алюминиевой промышленности «Алюминий Сибири 2006»",
+      "label": "Publication",
+      "properties": {
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "ЗАО «Шнейдер Электрик» на ежегодной выставке алюминиевой промышленности «Алюминий Сибири 2006»",
+        "ingestion_date": "2026-07-04T18:39:58.145117"
+      }
+    },
+    {
+      "id": "16",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "16",
+        "ingestion_date": "2026-07-04T18:39:58.145119",
+        "span": "p.16"
+      }
+    },
+    {
+      "id": "52",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "52",
+        "ingestion_date": "2026-07-04T18:39:58.145121",
+        "span": "p.52"
+      }
+    },
+    {
+      "id": "А. В. Передереев",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "А. В. Передереев",
+        "ingestion_date": "2026-07-04T18:39:58.145146"
+      }
+    },
+    {
+      "id": "В. С. Рудаков",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "В. С. Рудаков",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145162"
+      }
+    },
+    {
+      "id": "А. М. Рытиков",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "А. М. Рытиков",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145171"
+      }
+    },
+    {
+      "id": "Р. Л. Шаталов",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Р. Л. Шаталов",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145181"
+      }
+    },
+    {
+      "id": "Н. Н. Шипков",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Н. Н. Шипков",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145189"
+      }
+    },
+    {
+      "id": "DMG World Media (Великобритания)",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "DMG World Media (Великобритания)",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145235"
+      }
+    },
+    {
+      "id": "GDMB — Gesellschaft für Bergbau, Metallurgie, Rohstoff– und Umwelttechnik (Германия)",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "GDMB — Gesellschaft für Bergbau, Metallurgie, Rohstoff– und Umwelttechnik (Германия)",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145240"
+      }
+    },
+    {
+      "id": "Interall–International Aluminium Publications (Италия)",
+      "label": "Publication",
+      "properties": {
+        "geography": "foreign",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Interall–International Aluminium Publications (Италия)",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145244"
+      }
+    },
+    {
+      "id": "Московский государственный институт стали и сплавов (Технологический университет)",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Московский государственный институт стали и сплавов (Технологический университет)",
+        "ingestion_date": "2026-07-04T18:39:58.145253"
+      }
+    },
+    {
+      "id": "АССОЦИАЦИЯ промышленников горно-металлургического комплекса России",
+      "label": "Facility",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "АССОЦИАЦИЯ промышленников горно-металлургического комплекса России",
+        "ingestion_date": "2026-07-04T18:39:58.145257"
+      }
+    },
+    {
+      "id": "Национализация собственности в современной России",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Национализация собственности в современной России",
+        "ingestion_date": "2026-07-04T18:39:58.145260"
+      }
+    },
+    {
+      "id": "Научные разработки ГМОИЦ ЗФ ГМК «Норильский никель»",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Научные разработки ГМОИЦ ЗФ ГМК «Норильский никель»",
+        "ingestion_date": "2026-07-04T18:39:58.145265"
+      }
+    },
+    {
+      "id": "Защитные и декоративные покрытия алюминия",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Защитные и декоративные покрытия алюминия",
+        "ingestion_date": "2026-07-04T18:39:58.145269"
+      }
+    },
+    {
+      "id": "71060 (Роспечать)",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "71060 (Роспечать)",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145271",
+        "span": "p.1"
+      }
+    },
+    {
+      "id": "83869 (ОК «Пресса России»)",
+      "label": "Source",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "83869 (ОК «Пресса России»)",
+        "ingestion_date": "2026-07-04T18:39:58.145274",
+        "span": "p.1"
+      }
+    },
+    {
+      "id": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "label": "Publication",
+      "properties": {
+        "issue": "11",
+        "year": 2006,
+        "geography": "RU",
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+        "title": "Ежемесячный научно-технический и производственный журнал",
+        "ingestion_date": "2026-07-04T18:39:58.145276"
+      }
+    },
+    {
+      "id": "А. В. СЫСОЕВ",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "А. В. СЫСОЕВ",
+        "validation_status": "pending",
+        "position": "Первый зам. главного редактора",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145279"
+      }
+    },
+    {
+      "id": "В. С. СТРИЖКО",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "В. С. СТРИЖКО",
+        "validation_status": "pending",
+        "position": "Первый зам. главного редактора",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145281"
+      }
+    },
+    {
+      "id": "А. Н. Голов",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "А. Н. Голов",
+        "validation_status": "pending",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145336"
+      }
+    },
+    {
+      "id": "В. Ф. Козырев",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "orcid": "",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "В. Ф. Козырев",
+        "validation_status": "pending",
+        "position": "",
+        "email": "",
+        "ingestion_date": "2026-07-04T18:39:58.145370"
+      }
+    },
+    {
+      "id": "Knizhnik A. V.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Книжник А. В.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Knizhnik A. V.",
+        "ingestion_date": "2026-07-04T18:39:58.145389"
+      }
+    },
+    {
+      "id": "Lipko S. V.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Липко С. В.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Lipko S. V.",
+        "ingestion_date": "2026-07-04T18:39:58.145393"
+      }
+    },
+    {
+      "id": "Kyun A. V.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "name": "Кюн А. В.",
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Kyun A. V.",
+        "ingestion_date": "2026-07-04T18:39:58.145397"
+      }
+    },
+    {
+      "id": "Tikhomirov V. V.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Tikhomirov V. V.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145405"
+      }
+    },
+    {
+      "id": "Panov E. N.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Panov E. N.",
+        "ingestion_date": "2026-07-04T18:39:58.145413"
+      }
+    },
+    {
+      "id": "Karvatsky A. Ya.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Karvatsky A. Ya.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145417"
+      }
+    },
+    {
+      "id": "Demichev D. N.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Demichev D. N.",
+        "ingestion_date": "2026-07-04T18:39:58.145421"
+      }
+    },
+    {
+      "id": "Turusov S. N.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Turusov S. N.",
+        "ingestion_date": "2026-07-04T18:39:58.145428"
+      }
+    },
+    {
+      "id": "Popov N. P.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Popov N. P.",
+        "ingestion_date": "2026-07-04T18:39:58.145432"
+      }
+    },
+    {
+      "id": "Boratyrev V. R.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Boratyrev V. R.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145435"
+      }
+    },
+    {
+      "id": "Levinsky Yu. V.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Levinsky Yu. V.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145439"
+      }
+    },
+    {
+      "id": "Zaitsev A. B.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Zaitsev A. B.",
+        "ingestion_date": "2026-07-04T18:39:58.145443"
+      }
+    },
+    {
+      "id": "Palant A. A.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Palant A. A.",
+        "ingestion_date": "2026-07-04T18:39:58.145446"
+      }
+    },
+    {
+      "id": "Gracheva O. M.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Gracheva O. M.",
+        "ingestion_date": "2026-07-04T18:39:58.145454"
+      }
+    },
+    {
+      "id": "Sidorova E. N.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Sidorova E. N.",
+        "ingestion_date": "2026-07-04T18:39:58.145458"
+      }
+    },
+    {
+      "id": "Hrustov E. N.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Hrustov E. N.",
+        "ingestion_date": "2026-07-04T18:39:58.145461"
+      }
+    },
+    {
+      "id": "Filonov M. R.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "Filonov M. R.",
+        "ingestion_date": "2026-07-04T18:39:58.145465"
+      }
+    },
+    {
+      "id": "Tsvetcova E. M.",
+      "label": "Expert",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "Tsvetcova E. M.",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145468"
+      }
+    },
+    {
+      "id": "atomic emission spectroscopy",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "atomic emission spectroscopy",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145473"
+      }
+    },
+    {
+      "id": "aluminium industry",
+      "label": "Topic",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "aluminium industry",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145477"
+      }
+    },
+    {
+      "id": "cathode shell",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "cathode shell",
+        "ingestion_date": "2026-07-04T18:39:58.145490"
+      }
+    },
+    {
+      "id": "powerful aluminium electrolyzers",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "powerful aluminium electrolyzers",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145495"
+      }
+    },
+    {
+      "id": "coal foam",
+      "label": "Property",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "validation_status": "pending",
+        "id": "coal foam",
+        "ingestion_date": "2026-07-04T18:39:58.145500"
+      }
+    },
+    {
+      "id": "electrolyzers with top current supply",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "electrolyzers with top current supply",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145503"
+      }
+    },
+    {
+      "id": "self-roasting anodes",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "self-roasting anodes",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145506"
+      }
+    },
+    {
+      "id": "sintering niobium anodes",
+      "label": "Process",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "sintering niobium anodes",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145510"
+      }
+    },
+    {
+      "id": "electrolytical condensers",
+      "label": "Equipment",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "electrolytical condensers",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145513"
+      }
+    },
+    {
+      "id": "metallic tungsten wastes",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "metallic tungsten wastes",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145520"
+      }
+    },
+    {
+      "id": "ammonia electrolytes",
+      "label": "Material",
+      "properties": {
+        "confidence": 0.5,
+        "source_document": "CM_11_2006-обеднение.pdf",
+        "id": "ammonia electrolytes",
+        "validation_status": "pending",
+        "ingestion_date": "2026-07-04T18:39:58.145524"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Ю. А. Котляр",
+      "target": "редактор раздела «Композиционные материалы и многофункциональные покрытия»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "Е. А. Левашов",
+      "target": "редактор раздела «Композиционные материалы и многофункциональные покрытия»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "Н. Е. Мальцев",
+      "target": "редактор раздела «Автоматизация»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "З. С. Абишева",
+      "target": "представитель Издательского дома в Республике Казахстан",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "В. В. Геневски",
+      "target": "представитель Издательского дома в Болгарии и балканских странах",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "Г. Сентдъерди",
+      "target": "представитель Издательского дома в Венгрии и Австрии",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "Т. С. Смирнова",
+      "target": "Государственного Эрмитажа",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Н. В. Шаркина",
+      "target": "Государственного Эрмитажа",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "А. Г. Баснина",
+      "target": "Государственного Эрмитажа",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Н. В. Андропова",
+      "target": "Государственного Эрмитажа",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Барышева Г. А.",
+      "target": "Государственного Эрмитажа",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Шелудякова И. Г.",
+      "target": "Государственного Эрмитажа",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Горячев Б. Е.",
+      "target": "Государственного Эрмитажа",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Данилов М. П.",
+      "target": "Государственного Эрмитажа",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Щетинин Н. С.",
+      "target": "Государственного Эрмитажа",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Цыбизов В. А.",
+      "target": "Государственного Эрмитажа",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Селяндин С. В.",
+      "target": "Государственного Эрмитажа",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Шаповалов В. А.",
+      "target": "Государственного Эрмитажа",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Тозик В. М.",
+      "target": "Государственного Эрмитажа",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Потанцев В. А.",
+      "target": "Государственного Эрмитажа",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Кожанов А. Л.",
+      "target": "Государственного Эрмитажа",
+      "type": "CONDUCTED_AT"
+    },
+    {
+      "source": "Василевский Д. В.",
+      "target": "Состояние отечественного рынка услуг в области финишной обработки продуктов экструзии и тенденции его развития",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Синявский В. С.",
+      "target": "Новые разработки и расширение применения твердого анодирования при обычных температурах",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Александрова Т. В.",
+      "target": "Новые разработки и расширение применения твердого анодирования при обычных температурах",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Руднев В. С.",
+      "target": "Плазменно-электролитические технологии обработки изделий из алюминия и его сплавов",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Садков В. В.",
+      "target": "Обеспечение коррозионной стойкости конструкций из алюминиевых сплавов и перспективы их применения в самолетах ТУ",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Миркин И. И.",
+      "target": "Обеспечение коррозионной стойкости конструкций из алюминиевых сплавов и перспективы их применения в самолетах ТУ",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Международная конференция «Цинк—2006»",
+      "target": "16",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Международная конференция «Цинк—2006»",
+      "target": "16",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "ЗАО «Шнейдер Электрик» на ежегодной выставке алюминиевой промышленности «Алюминий Сибири 2006»",
+      "target": "52",
+      "type": "HAS_SOURCE"
+    },
+    {
+      "source": "Г. С. Макаров",
+      "target": "редактор раздела «Металлообработка»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "В. Ю. Матвеев",
+      "target": "редактор раздела «Магний, титан, редкие металлы, полупроводники»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "В. И. Москвитин",
+      "target": "редактор раздела «Магний, титан, редкие металлы, полупроводники»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "С. С. Набойченко",
+      "target": "редактор раздела «Магний, титан, редкие металлы, полупроводники»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "В. И. Никонов",
+      "target": "редактор раздела «Магний, титан, редкие металлы, полупроводники»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "А. В. Передереев",
+      "target": "редактор раздела «Магний, титан, редкие металлы, полупроводники»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "В. В. Пронников",
+      "target": "редактор раздела «Магний, титан, редкие металлы, полупроводники»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "А. М. Птицын",
+      "target": "редактор раздела «Магний, титан, редкие металлы, полупроводники»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "А. В. Путилов",
+      "target": "редактор раздела «Магний, титан, редкие металлы, полупроводники»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "В. С. Рудаков",
+      "target": "редактор раздела «Магний, титан, редкие металлы, полупроводники»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "В. К. Румянцев",
+      "target": "редактор раздела «Магний, титан, редкие металлы, полупроводники»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "А. Г. Рыжов",
+      "target": "редактор раздела «Магний, титан, редкие металлы, полупроводники»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "А. М. Рытиков",
+      "target": "редактор раздела «Магний, титан, редкие металлы, полупроводники»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "А. В. Тарасов",
+      "target": "редактор раздела «Магний, титан, редкие металлы, полупроводники»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "Л. Ш. Цемехман",
+      "target": "редактор раздела «Магний, титан, редкие металлы, полупроводники»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "Р. Л. Шаталов",
+      "target": "редактор раздела «Магний, титан, редкие металлы, полупроводники»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "В. И. Щеголев",
+      "target": "редактор раздела «Магний, титан, редкие металлы, полупроводники»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "Н. Н. Шипков",
+      "target": "редактор раздела «Магний, титан, редкие металлы, полупроводники»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "В. Д. Шустицкий",
+      "target": "редактор раздела «Магний, титан, редкие металлы, полупроводники»",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "З. С. Абишева",
+      "target": "представитель Издательского дома в Республике Казахстан",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "В. В. Геневски",
+      "target": "представитель Издательского дома в Болгарии и балканских странах",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "Г. Сентдъерди",
+      "target": "представитель Издательского дома в Венгрии и Австрии",
+      "type": "EXPERT_IN"
+    },
+    {
+      "source": "В. С. СТРИЖКО",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "З. С. Абишева",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "П. Н. Алентов",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "В. С. Александровская",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "А. А. Аксенов",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Н. М. Барбин",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "И. Н. Белоглазов",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "В. А. Бочаров",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Г. Ю. Боярко",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "В. А. Брюквин",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "А. А. Быкасов",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "В. П. Быстров",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Е. М. Бычков",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Г. М. Вольдман",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "А. Г. Воробьев",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Л. А. Глазунов",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "А. Н. Голов",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Ю. И. Двинин",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "В. А. Дмитриев",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "А. В. Елютин",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Н. Г. Кайтмазов",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "В. С. Кальченко",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Б. Г. Киселев",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Л. И. Клячко",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "В. Ф. Козырев",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Н. К. Колмогоров",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "С. И. Корнеев",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Б. А. Котляр",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Ю. А. Котляр",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Е. А. Левашов",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Г. С. Макаров",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Н. Е. Мальцев",
+      "target": "Журнал «ЦВЕТНЫЕ МЕТАЛлЫ»",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Danilov M. P.",
+      "target": "Shchetinin N. S.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Danilov M. P.",
+      "target": "Shapovalov V. A.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Danilov M. P.",
+      "target": "Tsybizov V. A.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Danilov M. P.",
+      "target": "Anapol’skaya S. G.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Danilov M. P.",
+      "target": "Tozik V. M.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Danilov M. P.",
+      "target": "Kozhanov A. L.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Danilov M. P.",
+      "target": "Petrov A. F.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Danilov M. P.",
+      "target": "Khutsishvili V. I.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Danilov M. P.",
+      "target": "Severilov A. V.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Greiver M. B.",
+      "target": "Danilov M. P.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Greiver M. B.",
+      "target": "Salimzhanova E. V.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Greiver M. B.",
+      "target": "Severilov A. V.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Greiver M. B.",
+      "target": "Yatsenko S. P.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Ter#Oganesyants A. K.",
+      "target": "Grabchak E. F.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Ter#Oganesyants A. K.",
+      "target": "Anisimova N. N.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Ter#Oganesyants A. K.",
+      "target": "Lapshin D. A.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Ter#Oganesyants A. K.",
+      "target": "Dyl’ko G. N.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Ter#Oganesyants A. K.",
+      "target": "Luchitsky S. L.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Knizhnik A. V.",
+      "target": "Lipko S. V.",
+      "type": "AUTHORED_BY"
+    },
+    {
+      "source": "Knizhnik A. V.",
+      "target": "Kyun A. V.",
+      "type": "AUTHORED_BY"
+    }
+  ]
+}
