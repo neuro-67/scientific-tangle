@@ -46,6 +46,9 @@ class FakeObjectStorage(IObjectStorage):
     async def put(self, key: str, data: bytes, content_type: str) -> None:
         self.objects[key] = (data, content_type)
 
+    async def get(self, key: str) -> bytes:
+        return self.objects[key][0]
+
 
 class FakeJobQueue(IJobQueue):
     """Records enqueued document ids in memory."""
@@ -166,8 +169,18 @@ async def test_get_returns_status_and_404_for_unknown(context) -> None:
     assert missing.status_code == 404
 
 
-async def test_process_task_moves_document_to_processed(context) -> None:
+async def test_process_task_moves_document_to_processed(context, monkeypatch) -> None:
     client, _, queue, container = context
+
+    # This test is about the pending -> processing -> processed state machine,
+    # not real NLP extraction (b"hello" isn't a parseable PDF/DOCX anyway) --
+    # same fake-the-external-dependency approach as FakeObjectStorage/FakeJobQueue.
+    from app.features.document.process import handler as handler_module
+
+    async def fake_run_ingestion_pipeline(file_bytes: bytes, filename: str, content_type: str) -> dict:
+        return {"n_nodes": 0, "n_edges": 0}
+
+    monkeypatch.setattr(handler_module, "run_ingestion_pipeline", fake_run_ingestion_pipeline)
 
     created = await client.post(
         "/documents",

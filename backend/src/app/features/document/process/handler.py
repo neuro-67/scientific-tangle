@@ -1,13 +1,15 @@
 """Process-document use case: drives a document through ingestion.
 
-Triggered by the background worker (see ``task.py``). The status transitions and
-error recording live here; the actual NLP ingestion pipeline (owned by ML-1)
-plugs into the marked extension point.
+Triggered by the background worker (see ``task.py``). The status transitions
+live here; the actual NLP ingestion (parse -> chunk -> extract -> normalize ->
+write to Neo4j/Qdrant, owned by ML-1) is delegated to ingestion.py.
 """
 
 import logging
 
 from app.domain.exceptions.document import DocumentNotFoundError
+from app.domain.interfaces.object_storage import IObjectStorage
+from app.features.document.process.ingestion import run_ingestion_pipeline
 from app.features.document.process.repository import ProcessDocumentRepository
 from app.features.document.process.schemas import ProcessDocumentCommand
 
@@ -17,8 +19,9 @@ logger = logging.getLogger(__name__)
 class ProcessDocumentHandler:
     """Marks a document as processing, runs ingestion, records the outcome."""
 
-    def __init__(self, repository: ProcessDocumentRepository) -> None:
+    def __init__(self, repository: ProcessDocumentRepository, storage: IObjectStorage) -> None:
         self._repository = repository
+        self._storage = storage
 
     async def __call__(self, command: ProcessDocumentCommand) -> None:
         document = await self._repository.get(command.document_id)
@@ -27,11 +30,18 @@ class ProcessDocumentHandler:
 
         document.mark_processing()
         try:
-            # TODO(ML-1): run the ingestion pipeline here — parse (PyMuPDF) →
-            # chunk + language detect → LLM extraction → normalize → write to
-            # Neo4j/Qdrant with provenance. Until then this is a no-op.
+            file_bytes = await self._storage.get(document.storage_key)
+            stats = await run_ingestion_pipeline(
+                file_bytes, document.filename, document.content_type
+            )
+            logger.info(
+                "document ingestion complete",
+                extra={"document_id": str(document.id), **stats},
+            )
             document.mark_processed()
-        except Exception as exc:
-            # Worker boundary: record the failure on the document, never crash.
+        except (Exception, SystemExit) as exc:
+            # nlp.run_corpus_test raises SystemExit at import time if
+            # ROUTERAI_API_KEY is unset -- caught here too so a misconfigured
+            # env fails this one document instead of killing the arq worker.
             logger.exception("document ingestion failed", extra={"document_id": str(document.id)})
             document.fail(str(exc))

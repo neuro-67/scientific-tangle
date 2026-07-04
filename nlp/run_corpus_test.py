@@ -343,6 +343,25 @@ def verify_measurements(nodes: list[dict], source_text: str) -> list[dict]:
     return nodes
 
 
+def drop_unverified_measurements(graph: dict[str, Any]) -> dict[str, Any]:
+    """Remove Measurement nodes that verify_measurements() flagged as not
+    found in the source text, plus any edge touching them, before a graph is
+    written to Neo4j/Qdrant -- same filtering manually applied to produce
+    nlp/corpus_test_results/clean/*.json for the first 4 documents.
+    """
+    dropped = {
+        n["id"] for n in graph["nodes"]
+        if n.get("label") == "Measurement" and n.get("properties", {}).get("verified") is False
+    }
+    if not dropped:
+        return graph
+    return {
+        **graph,
+        "nodes": [n for n in graph["nodes"] if n["id"] not in dropped],
+        "edges": [e for e in graph["edges"] if e["source"] not in dropped and e["target"] not in dropped],
+    }
+
+
 def process_chunk(chunk: str) -> dict[str, Any]:
     try:
         r = chat_completion(MODEL, SYSTEM_PROMPT, chunk)

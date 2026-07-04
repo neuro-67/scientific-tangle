@@ -39,6 +39,20 @@ class MinioObjectStorage(IObjectStorage):
             content_type=content_type,
         )
 
+    async def get(self, key: str) -> bytes:
+        try:
+            return await asyncio.to_thread(self._get_object, key)
+        except S3Error as exc:
+            raise ObjectStorageError(f"failed to fetch object {key!r}") from exc
+
+    def _get_object(self, key: str) -> bytes:
+        response = self._client.get_object(self._bucket, key)
+        try:
+            return response.read()
+        finally:
+            response.close()
+            response.release_conn()
+
     def ensure_bucket(self) -> None:
         """Create the target bucket if it does not already exist (blocking)."""
         if not self._client.bucket_exists(self._bucket):

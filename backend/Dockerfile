@@ -19,7 +19,7 @@ COPY backend/README.md ./
 
 RUN uv pip install --system --no-cache -e . \
     && uv pip install --system --no-cache \
-        watchfiles ruff mypy pytest pytest-asyncio types-passlib types-python-jose
+        watchfiles ruff mypy pytest pytest-asyncio types-passlib types-python-jose aiosqlite
 
 # nlp/ lives outside the backend/ project root (sibling directory) -- the query
 # feature imports it directly (from nlp.query.schemas import ...) instead of
