@@ -67,4 +67,4 @@ jobs:
         run: |
           sshpass -e ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no \
             "$DEPLOY_USER@$DEPLOY_HOST" \
-            "cd $DEPLOY_PATH && docker compose pull --ignore-pull-failures && docker compose up -d --build --remove-orphans && docker compose ps"
+            "cd $DEPLOY_PATH && docker compose -f docker-compose.test.yml pull --ignore-pull-failures && docker compose -f docker-compose.test.yml up -d --build --remove-orphans && docker compose -f docker-compose.test.yml ps"
