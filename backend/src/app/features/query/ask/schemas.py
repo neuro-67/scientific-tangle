@@ -2,16 +2,29 @@
 
 from pydantic import BaseModel, ConfigDict, Field
 
-from nlp.query.schemas import QuerySpec, SynthesisResponse
+from nlp.query.schemas import Geography, QuerySpec, SynthesisResponse
 
 
 class AskQuestionCommand(BaseModel):
-    """A natural-language question submitted by the user."""
+    """A natural-language question submitted by the user.
+
+    The search UI can pass explicit structured filters alongside the free-text
+    question (materials/processes/geography/year window). When present they
+    override whatever the parser inferred from the question text, so the
+    multi-level filtering + RU-vs-foreign controls in the frontend actually
+    scope retrieval instead of being decorative.
+    """
 
     model_config = ConfigDict(frozen=True)
 
     question: str = Field(min_length=1, max_length=2000)
     top_k: int = Field(default=10, ge=1, le=50)
+
+    materials: list[str] | None = None
+    processes: list[str] | None = None
+    geography: Geography | None = None
+    year_from: int | None = None
+    year_to: int | None = None
 
 
 class AskQuestionResponse(BaseModel):

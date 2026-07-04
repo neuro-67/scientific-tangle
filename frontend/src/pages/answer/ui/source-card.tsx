@@ -19,9 +19,9 @@ export function SourceCard({ source }: Props) {
       <CardContent className="flex flex-col gap-2 p-4">
         <div className="font-medium">{source.title}</div>
         <div className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
-          <span>{source.year}</span>
-          <span>·</span>
-          <span>{source.span}</span>
+          {source.year != null ? <span>{source.year}</span> : null}
+          {source.year != null && source.span ? <span>·</span> : null}
+          {source.span ? <span>{source.span}</span> : null}
         </div>
         <div className="flex flex-wrap gap-2">
           <Badge variant={geographyVariant(source.geography)}>

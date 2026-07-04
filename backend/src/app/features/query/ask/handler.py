@@ -52,8 +52,10 @@ class AskQuestionHandler:
         self._embedding_generator = embedding_generator
 
     async def __call__(self, command: AskQuestionCommand) -> AskQuestionResponse:
-        # 1. Parse the natural-language question
+        # 1. Parse the natural-language question, then let any explicit UI
+        # filters override the parsed values (see _apply_filter_overrides).
         query_spec = self._parser.parse(command.question)
+        query_spec = self._apply_filter_overrides(query_spec, command)
         logger.info(
             "parsed query",
             extra={
@@ -96,6 +98,32 @@ class AskQuestionHandler:
             query_spec=query_spec,
             synthesis=synthesis,
         )
+
+    def _apply_filter_overrides(
+        self, spec: QuerySpec, command: AskQuestionCommand
+    ) -> QuerySpec:
+        """Override parser-inferred fields with explicit filters from the UI.
+
+        Only fields the user actually set are overridden; everything else keeps
+        the value the parser inferred from the question text.
+        """
+        updates: dict[str, Any] = {}
+        if command.materials:
+            updates["materials"] = command.materials
+        if command.processes:
+            updates["processes"] = command.processes
+        if command.geography is not None:
+            updates["geography"] = command.geography
+        if command.year_from is not None or command.year_to is not None:
+            time_update: dict[str, Any] = {}
+            if command.year_from is not None:
+                time_update["from_year"] = command.year_from
+            if command.year_to is not None:
+                time_update["to_year"] = command.year_to
+            updates["time_range"] = spec.time_range.model_copy(update=time_update)
+        if not updates:
+            return spec
+        return spec.model_copy(update=updates)
 
     async def _retrieve_and_rerank(
         self, question: str, spec: QuerySpec, top_k: int

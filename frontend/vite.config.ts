@@ -15,10 +15,13 @@ export default defineConfig({
     host: true,
     port: 5173,
     proxy: {
-      // Backend (FastAPI) is proxied under /api during local dev.
+      // Backend (FastAPI) is proxied under /api during local dev. The backend
+      // mounts its routers at the root (/auth, /query, ...), so strip the /api
+      // prefix before forwarding: /api/auth/login -> /auth/login.
       "/api": {
         target: process.env.VITE_PROXY_TARGET ?? "http://localhost:8000",
         changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, ""),
       },
     },
   },

@@ -5,7 +5,6 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { sessionApi } from "@/entities/session";
 import { ROUTES } from "@/shared/constants";
 import { handleApiError } from "@/shared/lib/api-error";
-import { setAccessToken } from "@/shared/lib/axios";
 import {
   Button,
   Card,
@@ -19,19 +18,19 @@ import {
 
 type LocationState = { from?: string } | null;
 
-/** Credentials form. On success stores the JWT and redirects. */
+/** Credentials form. On success the backend sets auth cookies and we redirect. */
 export function LoginForm() {
   const navigate = useNavigate();
   const location = useLocation();
   const queryClient = useQueryClient();
 
-  const [email, setEmail] = useState("researcher@nornickel.ru");
-  const [password, setPassword] = useState("demo");
+  const [username, setUsername] = useState("admin");
+  const [password, setPassword] = useState("admin");
 
   const loginMutation = useMutation({
     mutationFn: sessionApi.login,
-    onSuccess: async (data) => {
-      setAccessToken(data.access_token);
+    onSuccess: async () => {
+      // Cookies are set by the response; refetch the user before navigating.
       await queryClient.invalidateQueries({
         queryKey: sessionApi.queries.all(),
       });
@@ -44,7 +43,7 @@ export function LoginForm() {
 
   const onSubmit = (e: FormEvent) => {
     e.preventDefault();
-    loginMutation.mutate({ email, password });
+    loginMutation.mutate({ username, password });
   };
 
   return (
@@ -52,18 +51,18 @@ export function LoginForm() {
       <CardHeader>
         <CardTitle>Вход в «Научный клубок»</CardTitle>
         <CardDescription>
-          Демо-режим: подойдут любые email и пароль.
+          Демо-режим: сид-пользователь admin / admin.
         </CardDescription>
       </CardHeader>
       <CardContent>
         <form onSubmit={onSubmit} className="flex flex-col gap-4">
           <div className="flex flex-col gap-1.5">
-            <Label htmlFor="email">Email</Label>
+            <Label htmlFor="username">Логин</Label>
             <Input
-              id="email"
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              id="username"
+              type="text"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
               autoComplete="username"
               required
             />

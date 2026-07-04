@@ -41,10 +41,14 @@ export type QuerySpec = {
 
 export type AnswerSource = {
   title: string;
-  year: number;
+  /** Publication year of the source; null when the source has no year. */
+  year: number | null;
   geography: Geography;
   confidence: ConfidenceLevel;
-  span: string;
+  /** Page / offset reference; null when unavailable. */
+  span: string | null;
+  /** Ingestion/modification date (ISO), distinct from the source's year. */
+  extracted_at?: string | null;
 };
 
 export type Disagreement = {
