@@ -1,14 +1,19 @@
 # Query pipeline (ML-2)
 
 Парсит вопросы на естественном языке в `QuerySpec` для дальнейшего гибридного поиска.
+Подробный статус реализации, найденные баги и известные ограничения — в [`../README.md`](../README.md).
 
 ## Быстрый старт
 
-1. Скопируй `.env.example` в `.env` и подставь свои ключи Yandex AI Studio:
+1. Скопируй `.env.example` в `.env` и подставь ключи:
 
 ```bash
 cp nlp/.env.example nlp/.env
 ```
+
+`ROUTERAI_API_KEY` — если задан, используется вместо Yandex (Yandex AI Studio сейчас недоступен,
+RouterAI — fallback-провайдер, OpenAI-совместимый). `YANDEX_API_KEY` — если RouterAI не задан.
+Ни один не задан → rule-based fallback без LLM. См. `nlp/query/config.py::QueryConfig.provider`.
 
 2. Запусти парсер одного вопроса:
 
@@ -24,15 +29,20 @@ python nlp/query/golden_questions_test.py
 
 ## Структура
 
-- `schemas.py` — Pydantic-модели `QuerySpec`, `NumericConstraint`, `SynthesisResponse`.
-- `parser.py` — `QuerySpecParser`, вызывает YandexGPT structured output.
+- `schemas.py` — Pydantic-модели `QuerySpec`, `NumericConstraint`, `SynthesisResponse` (включая
+  `recommendations` и `extracted_at` — верификация знаний и рекомендации из ТЗ).
+- `parser.py` — `QuerySpecParser`, провайдер-агностичный (`complete()` работает и с RouterAI, и с Yandex).
 - `prompts.py` — системный промпт и шаблон пользователя.
-- `config.py` — env-конфиг.
+- `config.py` — env-конфиг, выбор провайдера.
 - `golden_questions_test.py` — тест 4 эталонных вопросов из ТЗ.
+- `retrieval/` — `HybridRetrievalEngine` (Qdrant + Neo4j + RRF), `Neo4jClient`, `QdrantSearchClient`.
+  Реальный синтез-движок — `nlp/synthesis/engine.py`, НЕ `retrieval/synthesis.py` (см. `../README.md`).
 
 ## Модель
 
-По умолчанию используется `yandexgpt-5.1` — оптимальный баланс скорости и качества для JSON-извлечения.
+По умолчанию (RouterAI) — `google/gemini-3.1-flash-lite`: самая быстрая из протестированных моделей
+для парсинга/синтеза на живом пути с SLA 3-5с (`docs/ARCHITECTURE.md`). Обоснование выбора и цифры
+бенчмарка — в `../README.md`.
 
 ## Контракты
 
