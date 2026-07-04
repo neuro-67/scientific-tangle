@@ -118,7 +118,32 @@ class Neo4jGraphSearch(IGraphSearch):
                 rel = record.get("rel")
                 if rel is not None:
                     self._add_edge(edges, rel)
+            await self._attach_revision_counts(session, nodes)
         return nodes, edges
+
+    @staticmethod
+    async def _attach_revision_counts(session: Any, nodes: dict[str, dict[str, Any]]) -> None:
+        fact_ids = [
+            node["id"]
+            for node in nodes.values()
+            if node.get("type") in {"Measurement", "Finding"}
+        ]
+        if not fact_ids:
+            return
+
+        result = await session.run(
+            """
+            MATCH (rev:Revision)-[:REVISION_OF]->(n)
+            WHERE n.id IN $fact_ids
+            RETURN n.id AS id, count(rev) AS revision_count
+            """,
+            fact_ids=fact_ids,
+        )
+        async for record in result:
+            node_id = str(record["id"])
+            for node in nodes.values():
+                if node["id"] == node_id:
+                    node["revision_count"] = int(record["revision_count"] or 0)
 
     def _build_subgraph_cypher(self, spec: QuerySpec, node_limit: int) -> tuple[str, dict[str, Any]]:
         # Caps to keep the answer canvas readable:

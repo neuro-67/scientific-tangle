@@ -21,6 +21,7 @@ from fastapi import HTTPException, status
 from neo4j import AsyncDriver
 
 from app.features.graph.schemas import (
+    FactRevisionResponse,
     GraphEdgeCreate,
     GraphEdgeResponse,
     GraphEdgeUpdate,
@@ -173,6 +174,20 @@ class Neo4jGraphRepository:
         if not record or (record["deleted"] or 0) == 0:
             raise HTTPException(status_code=404, detail="Edge not found")
 
+    async def list_fact_revisions(self, fact_id: str) -> list[FactRevisionResponse]:
+        query = (
+            "MATCH (n) WHERE n.id = $fact_id OR n.name = $fact_id\n"
+            "WITH n LIMIT 1\n"
+            "MATCH (rev:Revision)-[:REVISION_OF]->(n)\n"
+            "RETURN rev\n"
+            "ORDER BY rev.superseded_at DESC"
+        )
+        async with self._driver.session() as session:
+            result = await session.run(query, fact_id=fact_id)
+            records = await result.data()
+
+        return [_revision_to_response(record["rev"]) for record in records]
+
     async def _fetch_node(self, node_id: str) -> GraphNodeResponse | None:
         query = "MATCH (n) WHERE n.id = $node_id OR n.name = $node_id RETURN n LIMIT 1"
         async with self._driver.session() as session:
@@ -191,4 +206,17 @@ def _edge_to_response(a: Any, rel: Any, b: Any) -> GraphEdgeResponse:
         target=str(b_props.get("id") or b_props.get("name") or b.element_id),
         type=rel.type,
         label=r_props.get("label"),
+    )
+
+
+def _revision_to_response(revision: Any) -> FactRevisionResponse:
+    props = dict(revision)
+    superseded_at = str(props.pop("superseded_at", ""))
+    superseded_by_document = props.pop("superseded_by_document", None)
+    return FactRevisionResponse(
+        superseded_at=superseded_at,
+        superseded_by_document=(
+            str(superseded_by_document) if superseded_by_document is not None else None
+        ),
+        previous_properties=props,
     )

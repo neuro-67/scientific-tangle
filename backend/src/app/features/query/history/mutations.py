@@ -67,7 +67,7 @@ class AnswerGraphMutations:
         subgraph = await self._load_subgraph(answer_id)
         created = await self._graph.create_node(payload)
         subgraph["nodes"].append(
-            {"id": created.id, "label": created.label, "type": created.type}
+            {"id": created.id, "label": created.label, "type": created.type, "revision_count": 0}
         )
         await self._save_subgraph(answer_id, subgraph)
         return created
@@ -81,6 +81,7 @@ class AnswerGraphMutations:
             if node.get("id") == node_id:
                 node["label"] = updated.label
                 node["type"] = updated.type
+                node.setdefault("revision_count", 0)
         await self._save_subgraph(answer_id, subgraph)
         return updated
 

@@ -5,6 +5,7 @@ from fastapi import APIRouter, status
 
 from app.features.graph.repository import Neo4jGraphRepository
 from app.features.graph.schemas import (
+    FactRevisionResponse,
     GraphEdgeCreate,
     GraphEdgeResponse,
     GraphEdgeUpdate,
@@ -70,3 +71,12 @@ async def delete_edge(
     repo: FromDishka[Neo4jGraphRepository],
 ) -> None:
     await repo.delete_edge(edge_id)
+
+
+@router.get("/facts/{fact_id}/history", response_model=list[FactRevisionResponse])
+@inject
+async def list_fact_history(
+    fact_id: str,
+    repo: FromDishka[Neo4jGraphRepository],
+) -> list[FactRevisionResponse]:
+    return await repo.list_fact_revisions(fact_id)
