@@ -239,4 +239,13 @@ class SynthesisResponse(BaseModel):
         default_factory=list,
         description="case-specification.md 'Рекомендации': similar cases from adjacent domains, related topics for further study (experts/teams already covered by `experts`)",
     )
+    comparison_table: list[dict] = Field(
+        default_factory=list,
+        description=(
+            "case-specification.md 'Дополнительные пожелания': comparison table for "
+            "compare-intent queries, one row per criterion actually present in the "
+            "findings (e.g. efficiency, capex, cold-climate applicability, ecological "
+            "constraints) -- {criterion, side_a, side_b}. Empty for non-compare queries."
+        ),
+    )
     confidence: Literal["high", "medium", "low"] | None = None
