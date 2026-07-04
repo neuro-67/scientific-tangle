@@ -22,6 +22,7 @@ dependencies = [
     "structlog>=24.1",
     "dishka>=1.4",
     "httpx>=0.27",
+    "requests>=2.31",
 ]
 
 [dependency-groups]

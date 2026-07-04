@@ -4,6 +4,7 @@ from dishka import Provider
 
 from app.features.auth.login.provider import LoginProvider
 from app.features.auth.refresh.provider import RefreshProvider
+from app.features.dashboard.summary.provider import DashboardSummaryProvider
 from app.features.document.get.provider import GetDocumentProvider
 from app.features.document.process.provider import ProcessDocumentProvider
 from app.features.document.upload.provider import UploadDocumentProvider
@@ -44,4 +45,5 @@ PROVIDERS: list[Provider] = [
     EmbeddingProvider(),
     RerankerProvider(),
     AskQuestionProvider(),
+    DashboardSummaryProvider(),
 ]

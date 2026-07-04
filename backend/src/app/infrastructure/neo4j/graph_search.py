@@ -170,29 +170,44 @@ class Neo4jGraphSearch(IGraphSearch):
         return clauses
 
     def _build_numeric_clause(self, spec: QuerySpec, params: dict[str, Any]) -> str:
-        """Build numeric constraint clause with proper parameter binding."""
+        """Build numeric constraint clause with proper parameter binding.
+
+        The property name is NOT an attribute of Measurement itself -- it
+        lives on a separate Property node, linked via MEASURES_PROPERTY
+        (docs/ONTOLOGY.md; nlp/ingestion/neo4j_import.py writes it that
+        way). Matching meas.id against the property name (as this did
+        before) never matches anything, since Measurement ids are
+        LLM-generated strings like "meas_sulf_200", not "сульфаты" --
+        confirmed empirically with a synthetic Neo4j test case. Also match
+        against meas.min/meas.max, not just meas.value, so a reported range
+        ("200-300 мг/л") is considered against a single-threshold query.
+        """
         if not spec.numeric_constraints:
             return ""
         conditions: list[str] = []
         for i, nc in enumerate(spec.numeric_constraints):
+            params[f"prop_{i}"] = nc.property
             if nc.operator == "range" and nc.min is not None and nc.max is not None:
-                params[f"prop_{i}"] = nc.property
                 params[f"min_{i}"] = nc.min
                 params[f"max_{i}"] = nc.max
                 conditions.append(
-                    f"(meas.id = $prop_{i} AND meas.value >= $min_{i} AND meas.value <= $max_{i})"
+                    f"(prop.id = $prop_{i} AND "
+                    f"((meas.operator = 'range' AND meas.min <= $max_{i} AND meas.max >= $min_{i}) "
+                    f"OR (meas.value IS NOT NULL AND meas.value >= $min_{i} AND meas.value <= $max_{i})))"
                 )
             elif nc.value is not None:
-                params[f"prop_{i}"] = nc.property
                 params[f"val_{i}"] = nc.value
                 op = nc.operator if nc.operator in ("<=", ">=", "=") else "<="
                 conditions.append(
-                    f"(meas.id = $prop_{i} AND meas.value {op} $val_{i})"
+                    f"(prop.id = $prop_{i} AND "
+                    f"((meas.value IS NOT NULL AND meas.value {op} $val_{i}) "
+                    f"OR (meas.max IS NOT NULL AND meas.max {op} $val_{i}) "
+                    f"OR (meas.min IS NOT NULL AND meas.min {op} $val_{i})))"
                 )
         if not conditions:
             return ""
         return f"""
-        MATCH (f)-[:HAS_MEASUREMENT]->(meas:Measurement)
+        MATCH (f)-[:HAS_MEASUREMENT]->(meas:Measurement)-[:MEASURES_PROPERTY]->(prop:Property)
         WHERE {" OR ".join(conditions)}
         """
 

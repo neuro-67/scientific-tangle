@@ -70,6 +70,24 @@ class NumericConstraint(BaseModel):
     max: float | None = Field(None, description="Range upper bound")
     unit: str | None = Field(None, description="Canonical unit, e.g. 'мг/л'")
 
+    @field_validator("operator", mode="before")
+    @classmethod
+    def _coerce_strict_inequality(cls, value: object) -> object:
+        """The prompt asks for <=/>=/=/range only, but confirmed on a real
+        query ("концентрации сульфатов <200 мг/л", the case spec's own
+        example phrasing) that the model sometimes writes the literal
+        strict "<"/">" from the question anyway. That previously raised a
+        ValidationError which silently discarded the whole numeric
+        constraint (QuerySpecParser.parse() falls back to the rule-based
+        parser, which doesn't extract numeric constraints at all). At this
+        domain's reporting precision the </<=  distinction isn't
+        meaningful, so coerce instead of dropping the constraint."""
+        if value == "<":
+            return "<="
+        if value == ">":
+            return ">="
+        return value
+
 
 class QuerySpec(BaseModel):
     """Structured representation of a user question.

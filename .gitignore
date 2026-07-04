@@ -1,2 +1,29 @@
-.claude/
+# Environment
 .env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test outputs
+*_test.json
+*_output.json
+sample_text.txt
+
+# Ingestion results (may contain PII extracted from source docs, e.g. author emails)
+nlp/corpus_test_results/
+nlp/_*.output.txt
+nlp/*_results.json
