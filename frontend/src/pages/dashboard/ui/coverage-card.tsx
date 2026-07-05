@@ -26,7 +26,7 @@ export function CoverageCard({ items }: Props) {
       {items.length === 0 ? (
         <EmptyState text="В графе пока нет процессов с указанным доменом." />
       ) : (
-        <div className="flex flex-col gap-4">
+        <div className="flex max-h-[420px] flex-col gap-4 overflow-y-auto pr-1">
           {items.map((item) => {
             const width = Math.max(8, (item.n_processes / max) * 100);
             return (

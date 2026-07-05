@@ -133,6 +133,15 @@ class AskQuestionHandler:
         ]
         graph_experts = await self._graph_search.recommend_experts(entity_names, limit=8)
 
+        # Fold the graph-grounded experts into synthesis.experts (normalized to
+        # {name, affiliation}) so the answer's "Эксперты" card is populated from
+        # the who-authored-what graph, not just whatever the synthesis LLM
+        # happened to echo (which is usually empty). Persisted + returned in one
+        # place, so saved answers show them too.
+        synthesis = synthesis.model_copy(
+            update={"experts": self._merge_experts(synthesis.experts, graph_experts)}
+        )
+
         # 8. Persist. Regenerate path updates the existing row; new ask inserts.
         answer_id: UUID | None = persist_as
         try:
@@ -168,6 +177,44 @@ class AskQuestionHandler:
             subgraph=subgraph,
             graph_experts=[ExpertRecommendation(**e) for e in graph_experts],
         )
+
+    @staticmethod
+    def _merge_experts(
+        llm_experts: list[dict[str, Any]],
+        graph_experts: list[dict[str, Any]],
+    ) -> list[dict[str, Any]]:
+        """Normalize + merge synthesis-LLM experts and graph-grounded experts.
+
+        Both are reduced to the {name, affiliation} shape the answer UI reads.
+        Graph experts lead (they're grounded in authored/validated edges);
+        deduplicated by case-insensitive name; capped so the card stays compact.
+        """
+        merged: list[dict[str, Any]] = []
+        seen: set[str] = set()
+
+        def add(name: Any, affiliation: Any) -> None:
+            name = str(name or "").strip()
+            if not name:
+                return
+            key = name.lower()
+            if key in seen:
+                return
+            seen.add(key)
+            merged.append({"name": name, "affiliation": str(affiliation or "").strip()})
+
+        for e in graph_experts or []:
+            context = e.get("context") or []
+            affiliation = (
+                e.get("email")
+                or (", ".join(str(c) for c in context if c) if context else "")
+                or (f"{e.get('n_publications', 0)} публикаций" if e.get("n_publications") else "")
+            )
+            add(e.get("expert"), affiliation)
+
+        for e in llm_experts or []:
+            add(e.get("name"), e.get("affiliation") or e.get("expertise"))
+
+        return merged[:8]
 
     def _apply_filter_overrides(
         self, spec: QuerySpec, command: AskQuestionCommand

@@ -86,10 +86,32 @@ const toExpert = (e: Partial<Expert>): Expert => ({
   affiliation: e.affiliation ?? "",
 });
 
-const toLaboratory = (l: Partial<Laboratory>): Laboratory => ({
-  name: l.name ?? "",
-  institution: l.institution ?? "",
-});
+/** Node types that represent a lab / facility in the answer subgraph. */
+const FACILITY_TYPES = new Set(["Facility", "Laboratory"]);
+
+/**
+ * Laboratories shown on the answer screen. The synthesis payload has no
+ * dedicated labs field, so surface the graph-grounded Facility nodes from the
+ * answer subgraph (dedup by name), plus any labs the LLM happened to emit.
+ */
+const toLaboratories = (
+  llm: Array<Partial<Laboratory>> | undefined,
+  subgraph: AnswerSubgraph
+): Laboratory[] => {
+  const out: Laboratory[] = [];
+  const seen = new Set<string>();
+  const push = (name?: string, institution?: string) => {
+    const n = (name ?? "").trim();
+    if (!n || seen.has(n.toLowerCase())) return;
+    seen.add(n.toLowerCase());
+    out.push({ name: n, institution: (institution ?? "").trim() });
+  };
+  for (const node of subgraph.nodes) {
+    if (FACILITY_TYPES.has(node.type)) push(node.label);
+  }
+  for (const l of llm ?? []) push(l.name, l.institution);
+  return out;
+};
 
 const toComparisonRow = (c: Partial<ComparisonRow>): ComparisonRow => ({
   criterion: c.criterion ?? "",
@@ -107,6 +129,8 @@ export const toSubgraph = (
       id: String(n.id),
       label: n.label ?? String(n.id),
       type: n.type ?? "Node",
+      revision_count: n.revision_count ?? 0,
+      source_document: n.source_document ?? null,
     }));
   const nodeIds = new Set(nodes.map((n) => n.id));
   const edges: GraphEdge[] = (raw.edges ?? [])
@@ -132,6 +156,7 @@ export const toSubgraph = (
 /** Flatten the backend's {query_spec, synthesis, subgraph} envelope into a QueryAnswer. */
 export const toQueryAnswer = (res: AskQuestionResponse): QueryAnswer => {
   const { synthesis } = res;
+  const subgraph = toSubgraph(res.subgraph);
   return {
     id: res.id ?? undefined,
     answer: synthesis.answer,
@@ -142,14 +167,12 @@ export const toQueryAnswer = (res: AskQuestionResponse): QueryAnswer => {
     sources: (synthesis.sources ?? []).map(toSource),
     gaps: synthesis.gaps ?? [],
     experts: (synthesis.experts ?? []).map(toExpert).filter((e) => e.name),
-    laboratories: (synthesis.laboratories ?? [])
-      .map(toLaboratory)
-      .filter((l) => l.name),
+    laboratories: toLaboratories(synthesis.laboratories, subgraph),
     comparison_table: (synthesis.comparison_table ?? [])
       .map(toComparisonRow)
       .filter((c) => c.criterion),
     confidence: synthesis.confidence ?? "low",
-    subgraph: toSubgraph(res.subgraph),
+    subgraph,
     spec: toSpec(res.query_spec),
   };
 };

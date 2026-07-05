@@ -12,6 +12,9 @@ class SubgraphNode(BaseModel):
     label: str
     type: str
     revision_count: int = 0
+    # Provenance: which source document this fact was extracted from. Surfaced
+    # in the answer graph so the user can see where every node came from.
+    source_document: str | None = None
 
 
 class SubgraphEdge(BaseModel):

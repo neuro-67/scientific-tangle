@@ -18,7 +18,7 @@ export function ContradictionsCard({ items }: Props) {
       {items.length === 0 ? (
         <EmptyState text="Противоречия в текущем графе не найдены." />
       ) : (
-        <div className="grid grid-cols-1 gap-3 lg:grid-cols-2">
+        <div className="grid max-h-[460px] grid-cols-1 gap-3 overflow-y-auto pr-1 lg:grid-cols-2">
           {items.map((item, index) => (
             <div
               key={`${item.node_a}-${item.node_b}-${index}`}

@@ -87,6 +87,8 @@ export type GraphNode = {
   label: string;
   type: string;
   revision_count?: number;
+  /** Provenance: source document this fact was extracted from. */
+  source_document?: string | null;
 };
 
 /** An edge of the answer subgraph; `contradicts` edges are highlighted in UI. */

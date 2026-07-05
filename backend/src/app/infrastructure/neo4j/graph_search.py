@@ -195,6 +195,7 @@ class Neo4jGraphSearch(IGraphSearch):
             "id": str(display_id),
             "label": str(label),
             "type": labels[0] if labels else "Node",
+            "source_document": props.get("source_document"),
         }
 
     @staticmethod

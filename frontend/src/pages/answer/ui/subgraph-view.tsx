@@ -23,6 +23,7 @@ import {
   type GraphNode,
 } from "@/entities/query";
 import { handleApiError } from "@/shared/lib/api-error";
+import { Badge } from "@/shared/ui";
 
 import { canShowFactHistory } from "../lib/fact-history";
 import { NODE_TYPES, buildSubgraphStylesheet } from "../lib/subgraph-style";
@@ -548,6 +549,40 @@ export function SubgraphView({ subgraph, answerId }: Props) {
           есть версии факта
         </span>
       </div>
+
+      {/* Provenance: where the selected fact came from. Shown for ANY node so
+          the source is always visible on click (every graph node carries a
+          source_document); the version history below appears additionally for
+          versioned fact types. */}
+      {selectedNode ? (
+        <div className="mt-3 rounded-2xl border border-input bg-card p-4">
+          <div className="mb-2 flex items-center justify-between gap-2">
+            <h3 className="text-sm font-semibold text-foreground">
+              Провенанс факта
+            </h3>
+            <Badge variant="outline">{selectedNode.type}</Badge>
+          </div>
+          <p className="text-sm font-medium leading-5 text-foreground">
+            {selectedNode.label}
+          </p>
+          <div className="mt-2 flex items-start gap-2 text-xs leading-5 text-description">
+            <span className="shrink-0">📄 Источник:</span>
+            <span className="font-medium text-main">
+              {selectedNode.source_document ?? "не указан"}
+            </span>
+          </div>
+          {selectedNode.revision_count ? (
+            <div className="mt-1 text-xs text-description">
+              ↺ Версий факта: {selectedNode.revision_count}
+            </div>
+          ) : null}
+        </div>
+      ) : (
+        <p className="mt-3 rounded-2xl border border-dashed border-input bg-muted/30 p-3 text-center text-xs text-description">
+          Нажмите на узел графа, чтобы увидеть его источник (провенанс) и историю
+          версий факта.
+        </p>
+      )}
 
       {canShowFactHistory(selectedNode) ? (
         <FactHistoryPanel factId={selectedNode.id} factType={selectedNode.type} />
