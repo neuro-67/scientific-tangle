@@ -12,6 +12,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import re
 import sys
 from datetime import datetime
 from typing import Any
@@ -224,6 +225,27 @@ def _sanitize_id(node_id: str) -> str:
     return sanitized
 
 
+_EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
+_PHONE_RE = re.compile(r"^[+(]?\d[\d\s()+-]{7,}$")
+
+
+def _is_junk_node(node_id: str, label: str) -> bool:
+    """True for extraction artefacts that shouldn't be graph nodes.
+
+    The model occasionally emits contact details as standalone nodes -- an
+    email as a Source/Publication ("books@rudmet.ru"), a phone number as a
+    Topic ("+7(495) 638-45-18"). An email belongs on an Expert as a property,
+    not as its own node; a phone number is never a concept. Year ranges
+    ("2006-2012") and reagent/temperature strings are intentionally NOT
+    filtered -- those are legitimate.
+    """
+    if label != "Expert" and _EMAIL_RE.match(node_id):
+        return True
+    if label in ("Topic", "Material", "Process", "Finding") and _PHONE_RE.match(node_id):
+        return True
+    return False
+
+
 def _validate_node(node: dict[str, Any], source_doc: str) -> dict[str, Any] | None:
     """Validate and enrich a node with metadata.
 
@@ -238,6 +260,10 @@ def _validate_node(node: dict[str, Any], source_doc: str) -> dict[str, Any] | No
 
     if not label:
         logger.warning("skipping node with empty label", extra={"id": node_id, "source": source_doc})
+        return None
+
+    if _is_junk_node(node_id, label):
+        logger.info("skipping junk node", extra={"id": node_id, "label": label})
         return None
 
     # Map to canonical label
