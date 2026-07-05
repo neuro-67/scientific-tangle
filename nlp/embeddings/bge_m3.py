@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import logging
 import os
+import time
 
 import requests
 
@@ -23,6 +24,14 @@ logger = logging.getLogger(__name__)
 _MODEL = "baai/bge-m3"
 _DIM = 1024
 _BATCH = 64
+# RouterAI's hosted bge-m3 flaps: individual requests intermittently 503
+# ("HTTP 503: Error") or time out even though the next try succeeds. Without
+# retries a single blip makes _embed fall back to a zero vector, which for a
+# *query* embedding silently kills semantic search for that whole request
+# (every Qdrant score collapses to 0 -> "finds nothing"). Retry transient
+# failures with backoff before giving up.
+_RETRIES = 4
+_BACKOFF = (0.5, 1.0, 2.0, 4.0)
 
 
 class BgeEmbeddingGenerator:
@@ -44,24 +53,42 @@ class BgeEmbeddingGenerator:
     def _embed(self, inputs: list[str]) -> list[list[float]]:
         if not self._api_key or not inputs:
             return [[0.0] * self._dim for _ in inputs]
-        try:
-            resp = requests.post(
-                f"{self._base_url}/embeddings",
-                headers={
-                    "Authorization": f"Bearer {self._api_key}",
-                    "Content-Type": "application/json",
-                },
-                json={"model": self._model_name, "input": inputs},
-                timeout=60,
-            )
-            resp.raise_for_status()
-            data = resp.json()["data"]
-            # Preserve request order (RouterAI returns an "index" per item).
-            ordered = sorted(data, key=lambda d: d.get("index", 0))
-            return [item["embedding"] for item in ordered]
-        except Exception as exc:
-            logger.warning("embedding request failed, returning zeros", extra={"error": str(exc)})
-            return [[0.0] * self._dim for _ in inputs]
+        last_err: str | None = None
+        for attempt in range(_RETRIES):
+            try:
+                resp = requests.post(
+                    f"{self._base_url}/embeddings",
+                    headers={
+                        "Authorization": f"Bearer {self._api_key}",
+                        "Content-Type": "application/json",
+                    },
+                    json={"model": self._model_name, "input": inputs},
+                    timeout=60,
+                )
+                # 5xx / 429 are transient (upstream flap or rate limit) -> retry;
+                # 4xx (bad key, bad request) won't fix itself -> stop retrying.
+                if resp.status_code >= 500 or resp.status_code == 429:
+                    last_err = f"HTTP {resp.status_code}: {resp.text[:120]}"
+                    raise requests.HTTPError(last_err)
+                resp.raise_for_status()
+                data = resp.json()["data"]
+                # Preserve request order (RouterAI returns an "index" per item).
+                ordered = sorted(data, key=lambda d: d.get("index", 0))
+                return [item["embedding"] for item in ordered]
+            except requests.HTTPError as exc:
+                last_err = str(exc)
+                # Only retry the transient statuses flagged above.
+                if "HTTP 5" not in last_err and "HTTP 429" not in last_err:
+                    break
+            except Exception as exc:  # timeout / connection reset -> retry
+                last_err = str(exc)
+            if attempt < _RETRIES - 1:
+                time.sleep(_BACKOFF[min(attempt, len(_BACKOFF) - 1)])
+        logger.warning(
+            "embedding request failed after retries, returning zeros",
+            extra={"error": last_err, "n": len(inputs)},
+        )
+        return [[0.0] * self._dim for _ in inputs]
 
     def encode(self, text: str) -> list[float]:
         """Embed a single string."""

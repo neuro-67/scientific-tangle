@@ -16,7 +16,15 @@ from typing import Any
 
 import requests
 from qdrant_client import QdrantClient
-from qdrant_client.models import Filter, FieldCondition, MatchValue, Range
+from qdrant_client.models import (
+    FieldCondition,
+    Filter,
+    IsEmptyCondition,
+    IsNullCondition,
+    MatchValue,
+    PayloadField,
+    Range,
+)
 
 from app.domain.interfaces.vector_search import IVectorSearch
 from app.infrastructure.qdrant.exceptions import VectorSearchError
@@ -127,6 +135,25 @@ class QdrantVectorSearch(IVectorSearch):
         except Exception:
             return False
 
+    def _soft_match(self, key: str, value_condition: Any) -> Filter:
+        """A filter that keeps points matching `value_condition` OR that have no
+        value for `key` at all.
+
+        Most nodes are ingested without a geography/year (~88% have
+        geography=null, and nothing carries a `year` payload yet). A plain
+        `must` match on those keys therefore discards the untagged majority and
+        the query "finds nothing". Treat a missing/null tag as "unknown, don't
+        exclude" so the filter only ever drops points that are *explicitly* the
+        wrong geography/year.
+        """
+        return Filter(
+            should=[
+                value_condition,
+                IsNullCondition(is_null=PayloadField(key=key)),
+                IsEmptyCondition(is_empty=PayloadField(key=key)),
+            ]
+        )
+
     def _build_filters(self, spec: QuerySpec | None) -> Filter | None:
         """Build Qdrant payload filter from QuerySpec."""
         if spec is None:
@@ -135,9 +162,12 @@ class QdrantVectorSearch(IVectorSearch):
 
         if spec.geography.value != "any":
             conditions.append(
-                FieldCondition(
-                    key="geography",
-                    match=MatchValue(value=spec.geography.value),
+                self._soft_match(
+                    "geography",
+                    FieldCondition(
+                        key="geography",
+                        match=MatchValue(value=spec.geography.value),
+                    ),
                 )
             )
 
@@ -147,6 +177,8 @@ class QdrantVectorSearch(IVectorSearch):
                 year_range.gte = spec.time_range.from_year
             if spec.time_range.to_year:
                 year_range.lte = spec.time_range.to_year
-            conditions.append(FieldCondition(key="year", range=year_range))
+            conditions.append(
+                self._soft_match("year", FieldCondition(key="year", range=year_range))
+            )
 
         return Filter(must=conditions) if conditions else None

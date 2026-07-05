@@ -19,6 +19,7 @@ from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, PointStruct, VectorParams
 
 from nlp.embeddings.bge_m3 import BgeEmbeddingGenerator
+from nlp.ingestion.node_text import build_node_text
 
 logger = logging.getLogger(__name__)
 
@@ -56,12 +57,9 @@ def _extract_chunks(graph_path: str) -> list[dict[str, Any]]:
         label = node.get("label", "")
         props = node.get("properties", {})
 
-        # Build text from node
-        text_parts = [node_id]
-        if "description" in props:
-            text_parts.append(props["description"])
-
-        text = " — ".join(text_parts)
+        # Fold the node's meaningful attributes into the embedded text, not just
+        # id + description (see nlp/ingestion/node_text.py).
+        text = build_node_text(node_id, label, props)
 
         chunks.append({
             "id": str(uuid.uuid4()),

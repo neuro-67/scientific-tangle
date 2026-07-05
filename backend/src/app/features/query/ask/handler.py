@@ -221,28 +221,52 @@ class AskQuestionHandler:
             logger.warning("vector search failed", extra={"error": str(exc)})
             return None
 
+    @staticmethod
+    def _result_key(r: dict[str, Any]) -> tuple[str, Any]:
+        """Stable identity of a retrieved finding for dedup.
+
+        Deliberately NOT doc_id: a single source document contributes many
+        distinct findings, so deduping by doc_id collapses them to one and
+        throws away most of the semantic hits. Key on the entity / finding
+        text instead so every distinct finding survives, and a graph hit that
+        matches the same entity as a vector hit is recognised as a duplicate.
+        """
+        eids = r.get("entity_ids")
+        if eids:
+            return ("e", tuple(sorted(str(e) for e in eids)))
+        text = r.get("text") or r.get("finding_text")
+        if text:
+            return ("t", text)
+        return ("d", r.get("doc_id") or r.get("id"))
+
     def _merge_results(
         self,
         graph_results: list[dict[str, Any]],
         vector_results: list[dict[str, Any]] | None,
     ) -> list[dict[str, Any]]:
-        """Concatenate graph and vector candidates, deduplicated by doc_id.
+        """Merge vector and graph candidates, vector-first, deduped by finding.
 
-        No RRF scoring: the cross-encoder reranker (self._reranker) scores
-        each candidate against the actual query text right after this, which
-        is a stronger relevance signal than fusing two branches' rank
-        positions without ever looking at the query.
+        Vector (semantic) candidates lead: the cross-encoder reranker is a
+        no-op in this environment (torch/onnxruntime unavailable -> identity
+        passthrough that just truncates to top_k), so ordering here IS the
+        final ordering. Graph-first ordering therefore let low-relevance
+        structured hits (often relation-type labels like "removes_metals" with
+        no doc_id) fill every slot and starve the far more relevant vector
+        hits, which is exactly the "finds nothing" symptom. Lead with the
+        scored semantic hits and let graph results backfill the remainder.
         """
-        merged = list(graph_results)
-        seen = {r.get("doc_id") for r in merged if r.get("doc_id")}
-        for r in vector_results or []:
-            doc_id = r.get("doc_id") or r.get("id")
-            if doc_id in seen:
+        merged: list[dict[str, Any]] = []
+        seen: set[tuple[str, Any]] = set()
+        # Normalize vector candidates to the shape synthesis/format_findings
+        # expects (finding_text, not text) so they render in the prompt.
+        normalized_vectors = [
+            {**r, "finding_text": r.get("text") or r.get("finding_text", "")}
+            for r in (vector_results or [])
+        ]
+        for r in [*normalized_vectors, *graph_results]:
+            key = self._result_key(r)
+            if key in seen:
                 continue
-            seen.add(doc_id)
-            # Normalize to the shape format_findings()/synthesis expects
-            # (finding_text, not text) so vector-only candidates that survive
-            # reranking still show up in the synthesis prompt instead of
-            # silently rendering as empty lines.
-            merged.append({**r, "finding_text": r.get("text") or r.get("finding_text", "")})
+            seen.add(key)
+            merged.append(r)
         return merged
