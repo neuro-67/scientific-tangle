@@ -1,124 +1,75 @@
-"""Embedding generator using sentence-transformers with mean pooling.
+"""Embedding generator backed by RouterAI's hosted BAAI/bge-m3.
 
-Works with any HuggingFace model. Default is all-MiniLM-L6-v2 (384-dim)
-as a lightweight fallback when BAAI/bge-m3 is not available.
+We can't run bge-m3 locally -- torch/transformers aren't installed in the
+backend/worker image, so the old local-model path always fell back to zero
+vectors, which silently killed semantic search (every Qdrant query scored 0).
+RouterAI exposes bge-m3 (multilingual, 1024-dim) over an OpenAI-compatible
+/embeddings endpoint, so we call that instead. Same interface (encode /
+encode_batch) as before, so nothing downstream changes.
 
-When BAAI/bge-m3 works, change the default model_name.
+Falls back to zero vectors only if no API key is configured or the call
+fails, so ingestion/query degrade instead of crashing.
 """
 
 from __future__ import annotations
 
 import logging
-from typing import Any
+import os
+
+import requests
 
 logger = logging.getLogger(__name__)
 
+_MODEL = "baai/bge-m3"
+_DIM = 1024
+_BATCH = 64
+
 
 class BgeEmbeddingGenerator:
-    """Generates dense embeddings using a sentence-transformers model.
+    """Generates dense multilingual embeddings via RouterAI's bge-m3."""
 
-    Default: all-MiniLM-L6-v2 (384-dim, fast, multilingual-ish)
-    Target: BAAI/bge-m3 (1024-dim, full multilingual) when available
-    """
-
-    def __init__(
-        self,
-        model_name: str = "sentence-transformers/all-MiniLM-L6-v2",
-        device: str = "cpu",
-    ) -> None:
+    def __init__(self, model_name: str = _MODEL, device: str = "cpu") -> None:
+        # device kept for signature compatibility; RouterAI runs the model.
         self._model_name = model_name
-        self._device = device
-        self._model = None
-        self._tokenizer = None
-        self._dim = 384  # default for all-MiniLM-L6-v2
-        self._load_model()
+        self._dim = _DIM
+        self._api_key = os.environ.get("ROUTERAI_API_KEY", "")
+        self._base_url = os.environ.get("ROUTERAI_BASE_URL", "https://routerai.ru/api/v1").rstrip("/")
+        if not self._api_key:
+            logger.warning("ROUTERAI_API_KEY not set -- embeddings will be zero vectors")
 
-    def _load_model(self) -> None:
-        """Attempt to load the embedding model."""
+    @property
+    def dim(self) -> int:
+        return self._dim
+
+    def _embed(self, inputs: list[str]) -> list[list[float]]:
+        if not self._api_key or not inputs:
+            return [[0.0] * self._dim for _ in inputs]
         try:
-            from transformers import AutoModel, AutoTokenizer
-
-            self._tokenizer = AutoTokenizer.from_pretrained(self._model_name)
-            self._model = AutoModel.from_pretrained(self._model_name)
-            self._model.eval()
-
-            # Detect embedding dimension from model config
-            if hasattr(self._model.config, "hidden_size"):
-                self._dim = self._model.config.hidden_size
-
-            logger.info(
-                "loaded embedding model",
-                extra={"model": self._model_name, "dim": self._dim},
+            resp = requests.post(
+                f"{self._base_url}/embeddings",
+                headers={
+                    "Authorization": f"Bearer {self._api_key}",
+                    "Content-Type": "application/json",
+                },
+                json={"model": self._model_name, "input": inputs},
+                timeout=60,
             )
+            resp.raise_for_status()
+            data = resp.json()["data"]
+            # Preserve request order (RouterAI returns an "index" per item).
+            ordered = sorted(data, key=lambda d: d.get("index", 0))
+            return [item["embedding"] for item in ordered]
         except Exception as exc:
-            logger.warning(
-                "embedding model not available, using zero vectors",
-                extra={"error": str(exc)},
-            )
+            logger.warning("embedding request failed, returning zeros", extra={"error": str(exc)})
+            return [[0.0] * self._dim for _ in inputs]
 
     def encode(self, text: str) -> list[float]:
-        """Generate embedding for a single text using mean pooling."""
-        if not self._model or not self._tokenizer:
-            return [0.0] * self._dim
-
-        try:
-            import torch
-
-            inputs = self._tokenizer(
-                text,
-                return_tensors="pt",
-                padding=True,
-                truncation=True,
-                max_length=512,
-            )
-            with torch.no_grad():
-                outputs = self._model(**inputs)
-                # Mean pooling
-                attention_mask = inputs["attention_mask"]
-                token_embeddings = outputs.last_hidden_state
-                input_mask_expanded = (
-                    attention_mask.unsqueeze(-1).expand(token_embeddings.size()).float()
-                )
-                sum_embeddings = torch.sum(token_embeddings * input_mask_expanded, 1)
-                sum_mask = torch.clamp(input_mask_expanded.sum(1), min=1e-9)
-                embedding = sum_embeddings / sum_mask
-
-            # Normalize
-            embedding = torch.nn.functional.normalize(embedding, p=2, dim=1)
-            return embedding.squeeze().tolist()
-        except Exception as exc:
-            logger.warning("embedding failed, returning zeros", extra={"error": str(exc)})
-            return [0.0] * self._dim
+        """Embed a single string."""
+        return self._embed([text])[0]
 
     def encode_batch(self, texts: list[str]) -> list[list[float]]:
-        """Generate embeddings for a batch of texts."""
-        if not self._model or not self._tokenizer:
-            return [[0.0] * self._dim for _ in texts]
-
-        try:
-            import torch
-
-            inputs = self._tokenizer(
-                texts,
-                return_tensors="pt",
-                padding=True,
-                truncation=True,
-                max_length=512,
-            )
-            with torch.no_grad():
-                outputs = self._model(**inputs)
-                attention_mask = inputs["attention_mask"]
-                token_embeddings = outputs.last_hidden_state
-                input_mask_expanded = (
-                    attention_mask.unsqueeze(-1).expand(token_embeddings.size()).float()
-                )
-                sum_embeddings = torch.sum(token_embeddings * input_mask_expanded, 1)
-                sum_mask = torch.clamp(input_mask_expanded.sum(1), min=1e-9)
-                embeddings = sum_embeddings / sum_mask
-
-            # Normalize
-            embeddings = torch.nn.functional.normalize(embeddings, p=2, dim=1)
-            return [emb.tolist() for emb in embeddings]
-        except Exception as exc:
-            logger.warning("batch embedding failed, returning zeros", extra={"error": str(exc)})
-            return [[0.0] * self._dim for _ in texts]
+        """Embed many strings, chunked to keep each request small."""
+        out: list[list[float]] = []
+        for i in range(0, len(texts), _BATCH):
+            out.extend(self._embed(texts[i : i + _BATCH]))
+        return out

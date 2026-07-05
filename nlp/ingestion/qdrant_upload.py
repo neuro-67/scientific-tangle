@@ -23,7 +23,7 @@ from nlp.embeddings.bge_m3 import BgeEmbeddingGenerator
 logger = logging.getLogger(__name__)
 
 _COLLECTION = "chunks"
-_VECTOR_SIZE = 384  # all-MiniLM-L6-v2
+_VECTOR_SIZE = 1024  # BAAI/bge-m3 (RouterAI)
 
 
 def _get_qdrant_client() -> QdrantClient:

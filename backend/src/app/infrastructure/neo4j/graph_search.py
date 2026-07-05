@@ -290,10 +290,19 @@ class Neo4jGraphSearch(IGraphSearch):
         for label, values, key in primary_branches:
             if not values:
                 continue
-            params[key] = values
+            params[key] = [v.lower() for v in values]
+            # Fuzzy, case-insensitive, bidirectional substring match instead of
+            # exact id equality. The parser rarely produces a term that equals a
+            # node id verbatim ("циркуляция католита при электроэкстракции" vs the
+            # node "электроэкстракция никеля"), so exact matching returned almost
+            # nothing -- and with the embedding model unloaded the vector branch
+            # contributes zero, leaving exact-id as the only signal. CONTAINS both
+            # ways ("электроэкстракция никеля" ⊇ "электроэкстракция" and vice
+            # versa) recovers the relevant nodes; the reranker/synthesis handle
+            # precision downstream.
             return (
                 f"MATCH (entry:{label})\n"
-                f"WHERE entry.id IN ${key} OR entry.name IN ${key}\n"
+                f"WHERE any(v IN ${key} WHERE toLower(entry.id) CONTAINS v OR v CONTAINS toLower(entry.id))\n"
                 f"{_FINDING_HOP}"
             )
 
